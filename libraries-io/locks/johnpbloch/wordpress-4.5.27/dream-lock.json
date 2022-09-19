@@ -1,0 +1,47 @@
+{
+  "_generic": {
+    "defaultPackage": "johnpbloch/wordpress",
+    "location": "",
+    "packages": {
+      "johnpbloch/wordpress": "4.5.27"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpSemver": ">=5.6.20"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "johnpbloch/wordpress": {
+      "4.5.27": [
+        [ "johnpbloch/wordpress-core", "4.5.27" ],
+        [ "johnpbloch/wordpress-core-installer", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "johnpbloch/wordpress": {
+      "4.5.27": {
+        "rev": "ad38513f3012589f4fe32b02f4737fc840048e0e",
+        "type": "git",
+        "url": "https://github.com/johnpbloch/wordpress.git"
+      }
+    },
+    "johnpbloch/wordpress-core": {
+      "4.5.27": {
+        "rev": "2846c986e2e6bf7bf48abbee271c8b73c4ccd585",
+        "type": "git",
+        "url": "https://github.com/johnpbloch/wordpress-core.git"
+      }
+    },
+    "johnpbloch/wordpress-core-installer": {
+      "2.0.0": {
+        "rev": "237faae9a60a4a2e1d45dce1a5836ffa616de63e",
+        "type": "git",
+        "url": "https://github.com/johnpbloch/wordpress-core-installer.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_generic": {
+    "defaultPackage": "illuminate/support",
+    "location": "",
+    "packages": {
+      "illuminate/support": "v8.83.19"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "json",
+      "mbstring"
+    ],
+    "phpSemver": "^7.3|^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "illuminate/support": {
+      "v8.83.19": [
+        [ "symfony/polyfill-mbstring", "dev-main" ],
+        [ "voku/portable-ascii", "1.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "illuminate/support": {
+      "v8.83.19": {
+        "rev": "c3d643e77082786ae8a51502c757e9b1a3ee254e",
+        "type": "git",
+        "url": "https://github.com/illuminate/support.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "voku/portable-ascii": {
+      "1.6.1": {
+        "rev": "87337c91b9dfacee02452244ee14ab3c43bc485a",
+        "type": "git",
+        "url": "https://github.com/voku/portable-ascii.git"
+      }
+    }
+  }
+}

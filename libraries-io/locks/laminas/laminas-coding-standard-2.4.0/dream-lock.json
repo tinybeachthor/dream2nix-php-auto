@@ -1,0 +1,91 @@
+{
+  "_generic": {
+    "defaultPackage": "laminas/laminas-coding-standard",
+    "location": "",
+    "packages": {
+      "laminas/laminas-coding-standard": "2.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": "^7.4 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "laminas/laminas-coding-standard": {
+      "2.4.0": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "slevomat/coding-standard", "7.2.1" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ],
+        [ "webimpress/coding-standard", "1.2.4" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "7.2.1": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "phpstan/phpdoc-parser", "1.5.1" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "webimpress/coding-standard": {
+      "1.2.4": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": {
+        "rev": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "laminas/laminas-coding-standard": {
+      "2.4.0": {
+        "rev": "eb076dd86aa93dd424856b150c9b6f76c1fdfabc",
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-coding-standard.git"
+      }
+    },
+    "phpstan/phpdoc-parser": {
+      "1.5.1": {
+        "rev": "981cc368a216c988e862a75e526b6076987d1b50",
+        "type": "git",
+        "url": "https://github.com/phpstan/phpdoc-parser.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "7.2.1": {
+        "rev": "aff06ae7a84e4534bf6f821dc982a93a5d477c90",
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "webimpress/coding-standard": {
+      "1.2.4": {
+        "rev": "cd0c4b0b97440c337c1f7da17b524674ca2f9ca9",
+        "type": "git",
+        "url": "https://github.com/webimpress/coding-standard.git"
+      }
+    }
+  }
+}

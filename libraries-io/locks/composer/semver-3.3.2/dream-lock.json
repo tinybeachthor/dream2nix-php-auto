@@ -1,0 +1,59 @@
+{
+  "_generic": {
+    "defaultPackage": "composer/semver",
+    "location": "",
+    "packages": {
+      "composer/semver": "3.3.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpSemver": "^5.3.2 || ^7.0 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "composer/semver": {
+      "3.3.2": [
+        [ "phpstan/phpstan", "1.8.5" ],
+        [ "symfony/phpunit-bridge", "v5.4.11" ]
+      ]
+    },
+    "symfony/phpunit-bridge": {
+      "v5.4.11": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "1.8.5": {
+        "rev": "f6598a5ff12ca4499a836815e08b4d77a2ddeb20",
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/phpunit-bridge": {
+      "v5.4.11": {
+        "rev": "31b1549f54b1a1890e725a0c1c8c2de6ef2205b3",
+        "type": "git",
+        "url": "https://github.com/symfony/phpunit-bridge.git"
+      }
+    }
+  }
+}

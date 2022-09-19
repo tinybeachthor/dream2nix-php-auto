@@ -1,0 +1,90 @@
+{
+  "_generic": {
+    "defaultPackage": "nette/di",
+    "location": "",
+    "packages": {
+      "nette/di": "v3.0.13"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer",
+      "json",
+      "session"
+    ],
+    "phpSemver": ">=7.1 <8.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "nette/di": {
+      "v3.0.13": [
+        [ "nette/robot-loader", "v3.4.x-dev" ],
+        [ "nette/schema", "v1.2.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ],
+        [ "tracy/tracy", "v2.9.x-dev" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.6.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": [
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/schema": {
+      "v1.2.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "nette/di": {
+      "v3.0.13": {
+        "rev": "9878f2958a0a804b08430dbc719a52e493022739",
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.6.x-dev": {
+        "rev": "2071d25db90e7e2a483b18e463466d13dc78f2a1",
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": {
+        "rev": "faf431348a184afdcdb932c798897c3b336d2462",
+        "type": "git",
+        "url": "https://github.com/nette/robot-loader.git"
+      }
+    },
+    "nette/schema": {
+      "v1.2.x-dev": {
+        "rev": "b6377a2a93f2ee28f7550c3aa37d5021f4bb4b5d",
+        "type": "git",
+        "url": "https://github.com/nette/schema.git"
+      }
+    },
+    "nette/utils": {
+      "v3.2.x-dev": {
+        "rev": "02a54c4c872b99e4ec05c4aec54b5a06eb0f6368",
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "tracy/tracy": {
+      "v2.9.x-dev": {
+        "rev": "92a557155cd77060ac1755005a8819d97852a79f",
+        "type": "git",
+        "url": "https://github.com/nette/tracy.git"
+      }
+    }
+  }
+}

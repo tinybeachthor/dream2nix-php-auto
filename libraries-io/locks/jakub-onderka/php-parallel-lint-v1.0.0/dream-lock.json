@@ -1,0 +1,71 @@
+{
+  "_generic": {
+    "defaultPackage": "jakub-onderka/php-parallel-lint",
+    "location": "",
+    "packages": {
+      "jakub-onderka/php-parallel-lint": "v1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer",
+      "simplexml",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=5.3.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "jakub-onderka/php-console-highlighter": {
+      "v0.4": [
+        [ "jakub-onderka/php-console-color", "v0.2" ]
+      ]
+    },
+    "jakub-onderka/php-parallel-lint": {
+      "v1.0.0": [
+        [ "jakub-onderka/php-console-highlighter", "v0.4" ],
+        [ "nette/tester", "v1.7.2" ],
+        [ "squizlabs/php_codesniffer", "2.9.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "jakub-onderka/php-console-color": {
+      "v0.2": {
+        "rev": "d5deaecff52a0d61ccb613bb3804088da0307191",
+        "type": "git",
+        "url": "https://github.com/JakubOnderka/PHP-Console-Color.git"
+      }
+    },
+    "jakub-onderka/php-console-highlighter": {
+      "v0.4": {
+        "rev": "9f7a229a69d52506914b4bc61bfdb199d90c5547",
+        "type": "git",
+        "url": "https://github.com/JakubOnderka/PHP-Console-Highlighter.git"
+      }
+    },
+    "jakub-onderka/php-parallel-lint": {
+      "v1.0.0": {
+        "rev": "04fbd3f5fb1c83f08724aa58a23db90bd9086ee8",
+        "type": "git",
+        "url": "https://github.com/JakubOnderka/PHP-Parallel-Lint.git"
+      }
+    },
+    "nette/tester": {
+      "v1.7.2": {
+        "rev": "c81e276f9809143312c5be51952b1316901b8403",
+        "type": "git",
+        "url": "https://github.com/nette/tester.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "2.9.2": {
+        "rev": "2acf168de78487db620ab4bc524135a13cfe6745",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

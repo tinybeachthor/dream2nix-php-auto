@@ -1,0 +1,39 @@
+{
+  "_generic": {
+    "defaultPackage": "symfony/http-foundation",
+    "location": "",
+    "packages": {
+      "symfony/http-foundation": "v6.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpSemver": ">=8.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "symfony/http-foundation": {
+      "v6.1.2": [
+        [ "predis/predis", "v1.1.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "predis/predis": {
+      "v1.1.x-dev": {
+        "rev": "b000013f2277114d1ab444491c30373d7e90ce5e",
+        "type": "git",
+        "url": "https://github.com/predis/predis.git"
+      }
+    },
+    "symfony/http-foundation": {
+      "v6.1.2": {
+        "rev": "86119d294e51afe4d8e07da96b63332bd1f3f52c",
+        "type": "git",
+        "url": "https://github.com/symfony/http-foundation.git"
+      }
+    }
+  }
+}

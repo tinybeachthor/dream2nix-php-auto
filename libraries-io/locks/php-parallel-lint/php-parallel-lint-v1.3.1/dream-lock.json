@@ -1,0 +1,72 @@
+{
+  "_generic": {
+    "defaultPackage": "php-parallel-lint/php-parallel-lint",
+    "location": "",
+    "packages": {
+      "php-parallel-lint/php-parallel-lint": "v1.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "json",
+      "tokenizer",
+      "simplexml",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=5.3.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "php-parallel-lint/php-console-highlighter": {
+      "v0.5": [
+        [ "php-parallel-lint/php-console-color", "v0.3" ]
+      ]
+    },
+    "php-parallel-lint/php-parallel-lint": {
+      "v1.3.1": [
+        [ "nette/tester", "v2.4.3" ],
+        [ "php-parallel-lint/php-console-highlighter", "v0.5" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "nette/tester": {
+      "v2.4.3": {
+        "rev": "451f6e97b117797e817446de8d19fe06e54fd33f",
+        "type": "git",
+        "url": "https://github.com/nette/tester.git"
+      }
+    },
+    "php-parallel-lint/php-console-color": {
+      "v0.3": {
+        "rev": "b6af326b2088f1ad3b264696c9fd590ec395b49e",
+        "type": "git",
+        "url": "https://github.com/php-parallel-lint/PHP-Console-Color.git"
+      }
+    },
+    "php-parallel-lint/php-console-highlighter": {
+      "v0.5": {
+        "rev": "21bf002f077b177f056d8cb455c5ed573adfdbb8",
+        "type": "git",
+        "url": "https://github.com/php-parallel-lint/PHP-Console-Highlighter.git"
+      }
+    },
+    "php-parallel-lint/php-parallel-lint": {
+      "v1.3.1": {
+        "rev": "761f3806e30239b5fcd90a0a45d41dc2138de192",
+        "type": "git",
+        "url": "https://github.com/php-parallel-lint/PHP-Parallel-Lint.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

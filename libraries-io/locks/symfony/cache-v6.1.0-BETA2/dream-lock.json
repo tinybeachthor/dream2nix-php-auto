@@ -1,0 +1,47 @@
+{
+  "_generic": {
+    "defaultPackage": "symfony/cache",
+    "location": "",
+    "packages": {
+      "symfony/cache": "v6.1.0-BETA2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpSemver": ">=8.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "symfony/cache": {
+      "v6.1.0-BETA2": [
+        [ "cache/integration-tests", "dev-master" ],
+        [ "predis/predis", "v1.1.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "cache/integration-tests": {
+      "dev-master": {
+        "rev": "824633c9547dc3c7ac5faeca03dd82939cdeb73c",
+        "type": "git",
+        "url": "https://github.com/php-cache/integration-tests.git"
+      }
+    },
+    "predis/predis": {
+      "v1.1.x-dev": {
+        "rev": "b000013f2277114d1ab444491c30373d7e90ce5e",
+        "type": "git",
+        "url": "https://github.com/predis/predis.git"
+      }
+    },
+    "symfony/cache": {
+      "v6.1.0-BETA2": {
+        "rev": "4743afecf8ba617c5c47675bc744db169af47d0a",
+        "type": "git",
+        "url": "https://github.com/symfony/cache.git"
+      }
+    }
+  }
+}

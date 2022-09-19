@@ -1,0 +1,52 @@
+{
+  "_generic": {
+    "defaultPackage": "symfony/http-client",
+    "location": "",
+    "packages": {
+      "symfony/http-client": "v6.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "filter",
+      "json",
+      "openssl",
+      "ctype"
+    ],
+    "phpSemver": ">=8.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "symfony/http-client": {
+      "v6.1.2": [
+        [ "amphp/http-tunnel", "v1.0.0" ],
+        [ "nyholm/psr7", "1.5.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "amphp/http-tunnel": {
+      "v1.0.0": {
+        "rev": "074b70d1fdba6c3c270b411e0290ed7c48edf53c",
+        "type": "git",
+        "url": "https://github.com/amphp/http-tunnel.git"
+      }
+    },
+    "nyholm/psr7": {
+      "1.5.1": {
+        "rev": "f734364e38a876a23be4d906a2a089e1315be18a",
+        "type": "git",
+        "url": "https://github.com/Nyholm/psr7.git"
+      }
+    },
+    "symfony/http-client": {
+      "v6.1.2": {
+        "rev": "ea1af6c8cc479147d67a3fead457dd7b06261041",
+        "type": "git",
+        "url": "https://github.com/symfony/http-client.git"
+      }
+    }
+  }
+}

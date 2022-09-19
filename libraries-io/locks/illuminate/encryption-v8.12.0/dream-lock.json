@@ -1,0 +1,43 @@
+{
+  "_generic": {
+    "defaultPackage": "illuminate/encryption",
+    "location": "",
+    "packages": {
+      "illuminate/encryption": "v8.12.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "json",
+      "mbstring",
+      "openssl"
+    ],
+    "phpSemver": "^7.3|^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "illuminate/encryption": {
+      "v8.12.0": [
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    }
+  },
+  "sources": {
+    "illuminate/encryption": {
+      "v8.12.0": {
+        "rev": "b7ed11b809a67f8a1d2b748ec87f36ebbc5faaa4",
+        "type": "git",
+        "url": "https://github.com/illuminate/encryption.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    }
+  }
+}

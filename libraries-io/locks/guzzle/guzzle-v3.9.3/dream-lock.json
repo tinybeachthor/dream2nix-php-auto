@@ -1,0 +1,278 @@
+{
+  "_generic": {
+    "defaultPackage": "guzzle/guzzle",
+    "location": "",
+    "packages": {
+      "guzzle/guzzle": "v3.9.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "curl",
+      "tokenizer",
+      "ctype",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl"
+    ],
+    "phpSemver": ">=5.3.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "guzzle/guzzle": {
+      "v3.9.3": [
+        [ "doctrine/cache", "1.13.0" ],
+        [ "monolog/monolog", "1.27.1" ],
+        [ "phpunit/phpunit", "3.7.38" ],
+        [ "psr/log", "1.1.4" ],
+        [ "symfony/class-loader", "v2.8.52" ],
+        [ "symfony/event-dispatcher", "v2.8.52" ],
+        [ "zendframework/zend-cache", "2.2.10" ],
+        [ "zendframework/zend-log", "2.2.10" ]
+      ]
+    },
+    "monolog/monolog": {
+      "1.27.1": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "1.2.18": [
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "1.2.2" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "3.7.38": [
+        [ "phpunit/php-code-coverage", "1.2.18" ],
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-timer", "1.0.9" ],
+        [ "phpunit/phpunit-mock-objects", "1.2.3" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/yaml", "v2.8.52" ]
+      ]
+    },
+    "phpunit/phpunit-mock-objects": {
+      "1.2.3": [
+        [ "phpunit/php-text-template", "1.2.1" ]
+      ]
+    },
+    "symfony/class-loader": {
+      "v2.8.52": [
+        [ "symfony/polyfill-apcu", "v1.26.0" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v2.8.52": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "zendframework/zend-cache": {
+      "2.2.10": [
+        [ "zendframework/zend-eventmanager", "2.2.10" ],
+        [ "zendframework/zend-serializer", "2.2.10" ],
+        [ "zendframework/zend-servicemanager", "2.2.10" ],
+        [ "zendframework/zend-stdlib", "2.2.10" ]
+      ]
+    },
+    "zendframework/zend-eventmanager": {
+      "2.2.10": [
+        [ "zendframework/zend-stdlib", "2.2.10" ]
+      ]
+    },
+    "zendframework/zend-json": {
+      "2.2.10": [
+        [ "zendframework/zend-stdlib", "2.2.10" ]
+      ]
+    },
+    "zendframework/zend-log": {
+      "2.2.10": [
+        [ "zendframework/zend-servicemanager", "2.2.10" ],
+        [ "zendframework/zend-stdlib", "2.2.10" ]
+      ]
+    },
+    "zendframework/zend-serializer": {
+      "2.2.10": [
+        [ "zendframework/zend-json", "2.2.10" ],
+        [ "zendframework/zend-math", "2.2.10" ],
+        [ "zendframework/zend-stdlib", "2.2.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/cache": {
+      "1.13.0": {
+        "rev": "56cd022adb5514472cb144c087393c1821911d09",
+        "type": "git",
+        "url": "https://github.com/doctrine/cache.git"
+      }
+    },
+    "guzzle/guzzle": {
+      "v3.9.3": {
+        "rev": "0645b70d953bc1c067bbc8d5bc53194706b628d9",
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle3.git"
+      }
+    },
+    "monolog/monolog": {
+      "1.27.1": {
+        "rev": "904713c5929655dc9b97288b69cfeedad610c9a1",
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "1.2.18": {
+        "rev": "fe2466802556d3fe4e4d1d58ffd3ccfd0a19be0b",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "1.4.5": {
+        "rev": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "1.0.9": {
+        "rev": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.2.2": {
+        "rev": "ad4e1e23ae01b483c16f600ff1bebec184588e32",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "3.7.38": {
+        "rev": "38709dc22d519a3d1be46849868aa2ddf822bcf6",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "phpunit/phpunit-mock-objects": {
+      "1.2.3": {
+        "rev": "5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/class-loader": {
+      "v2.8.52": {
+        "rev": "8194721a1e2768cfb95079581889c41eec7a5959",
+        "type": "git",
+        "url": "https://github.com/symfony/class-loader.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v2.8.52": {
+        "rev": "a77e974a5fecb4398833b0709210e3d5e334ffb0",
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/polyfill-apcu": {
+      "v1.26.0": {
+        "rev": "43273a33c46f9d5a08dac76859f63d6814242e81",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-apcu.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/yaml": {
+      "v2.8.52": {
+        "rev": "02c1859112aa779d9ab394ae4f3381911d84052b",
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "zendframework/zend-cache": {
+      "2.2.10": {
+        "rev": "ead910ec8b0aa464ede58c959665d0292d9482b0",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-cache.git"
+      }
+    },
+    "zendframework/zend-eventmanager": {
+      "2.2.10": {
+        "rev": "aa23086ec1d6d0dad7a33e4eaf3fc851c2bc851b",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-eventmanager.git"
+      }
+    },
+    "zendframework/zend-json": {
+      "2.2.10": {
+        "rev": "e0a2e72459b029c3d3785fe8a0b41312670bfd24",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-json.git"
+      }
+    },
+    "zendframework/zend-log": {
+      "2.2.10": {
+        "rev": "545c3710c9d59390462525b442c6ead3d66c6361",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-log.git"
+      }
+    },
+    "zendframework/zend-math": {
+      "2.2.10": {
+        "rev": "0e5ba13e2bc64f6544f5508acf705dd2fc12d91d",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-math.git"
+      }
+    },
+    "zendframework/zend-serializer": {
+      "2.2.10": {
+        "rev": "aabfa157039e0c8ca0627a002e8e8f13e62393a8",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-serializer.git"
+      }
+    },
+    "zendframework/zend-servicemanager": {
+      "2.2.10": {
+        "rev": "b9eaf9e3268d2e10ddca807e3a2980b3e662a8e0",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-servicemanager.git"
+      }
+    },
+    "zendframework/zend-stdlib": {
+      "2.2.10": {
+        "rev": "b42d784bd142e916058a9d68eeafcc10ff63c12e",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-stdlib.git"
+      }
+    }
+  }
+}
