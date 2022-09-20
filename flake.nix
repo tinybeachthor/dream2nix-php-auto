@@ -12,7 +12,7 @@
       indexes = {
         libraries-io = {
           platform = "packagist";
-          number = 500;
+          number = 2500;
         };
       };
     };
