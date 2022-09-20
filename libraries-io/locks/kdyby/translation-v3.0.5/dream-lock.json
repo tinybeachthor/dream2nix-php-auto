@@ -1,0 +1,241 @@
+{
+  "_generic": {
+    "defaultPackage": "kdyby/translation",
+    "location": "",
+    "packages": {
+      "kdyby/translation": "v3.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "json",
+      "tokenizer",
+      "session"
+    ],
+    "phpSemver": ">=7.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "kdyby/monolog": {
+      "v2.0.1": [
+        [ "nette/di", "v3.1.x-dev" ]
+      ]
+    },
+    "kdyby/translation": {
+      "v3.0.5": [
+        [ "kdyby/monolog", "v2.0.1" ],
+        [ "mockery/mockery", "1.5.1" ],
+        [ "nette/application", "v3.1.x-dev" ],
+        [ "nette/bootstrap", "v3.1.x-dev" ],
+        [ "nette/caching", "v3.1.x-dev" ],
+        [ "nette/di", "v3.1.x-dev" ],
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/forms", "v3.1.x-dev" ],
+        [ "nette/http", "v3.1.x-dev" ],
+        [ "nette/neon", "v3.3.x-dev" ],
+        [ "nette/php-generator", "v3.6.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "nette/application": {
+      "v3.1.x-dev": [
+        [ "nette/component-model", "v3.0.x-dev" ],
+        [ "nette/http", "v3.1.x-dev" ],
+        [ "nette/routing", "v3.1.x-dev" ]
+      ]
+    },
+    "nette/bootstrap": {
+      "v3.1.x-dev": [
+        [ "nette/di", "v3.1.x-dev" ]
+      ]
+    },
+    "nette/caching": {
+      "v3.1.x-dev": [
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/component-model": {
+      "v3.0.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/di": {
+      "v3.1.x-dev": [
+        [ "nette/neon", "v3.3.x-dev" ],
+        [ "nette/php-generator", "v3.6.x-dev" ],
+        [ "nette/robot-loader", "v3.4.x-dev" ],
+        [ "nette/schema", "v1.2.x-dev" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.6.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/forms": {
+      "v3.1.x-dev": [
+        [ "nette/component-model", "v3.0.x-dev" ],
+        [ "nette/http", "v3.1.x-dev" ]
+      ]
+    },
+    "nette/http": {
+      "v3.1.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/php-generator": {
+      "v3.6.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": [
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/routing": {
+      "v3.1.x-dev": [
+        [ "nette/http", "v3.1.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/schema": {
+      "v1.2.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "kdyby/monolog": {
+      "v2.0.1": {
+        "rev": "f0cea68e324e5d54cbd1453f89a9b27c97d6af47",
+        "type": "git",
+        "url": "https://github.com/Kdyby/Monolog.git"
+      }
+    },
+    "kdyby/translation": {
+      "v3.0.5": {
+        "rev": "4adbab1463fa510a0c6e12940219953a31935b87",
+        "type": "git",
+        "url": "https://github.com/Kdyby/Translation.git"
+      }
+    },
+    "mockery/mockery": {
+      "1.5.1": {
+        "rev": "e92dcc83d5a51851baf5f5591d32cb2b16e3684e",
+        "type": "git",
+        "url": "https://github.com/mockery/mockery.git"
+      }
+    },
+    "nette/application": {
+      "v3.1.x-dev": {
+        "rev": "bd49c6cf6358fe6ed0c00a45b5babf3c1a427e39",
+        "type": "git",
+        "url": "https://github.com/nette/application.git"
+      }
+    },
+    "nette/bootstrap": {
+      "v3.1.x-dev": {
+        "rev": "6b3fa6cb13681d814a3f8b55e964156f59c79c1a",
+        "type": "git",
+        "url": "https://github.com/nette/bootstrap.git"
+      }
+    },
+    "nette/caching": {
+      "v3.1.x-dev": {
+        "rev": "4396ac00b3681c7d7f0629e1c09a69446d405dc5",
+        "type": "git",
+        "url": "https://github.com/nette/caching.git"
+      }
+    },
+    "nette/component-model": {
+      "v3.0.x-dev": {
+        "rev": "288356c241a4601498eb5ffd429e53c17d926571",
+        "type": "git",
+        "url": "https://github.com/nette/component-model.git"
+      }
+    },
+    "nette/di": {
+      "v3.1.x-dev": {
+        "rev": "98cba9f1b555bdd0ca5dee8e07a08aad99ada77f",
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.6.x-dev": {
+        "rev": "2071d25db90e7e2a483b18e463466d13dc78f2a1",
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/forms": {
+      "v3.1.x-dev": {
+        "rev": "a8a4935d2dbc10185bc4ec2c03fa131bbdc3be2f",
+        "type": "git",
+        "url": "https://github.com/nette/forms.git"
+      }
+    },
+    "nette/http": {
+      "v3.1.x-dev": {
+        "rev": "e13bc9694633c4fef00ac57e35ff27bf6ecd3f69",
+        "type": "git",
+        "url": "https://github.com/nette/http.git"
+      }
+    },
+    "nette/neon": {
+      "v3.3.x-dev": {
+        "rev": "5233d1671c5dff6feb94b991f3bcc7e72a1d76e9",
+        "type": "git",
+        "url": "https://github.com/nette/neon.git"
+      }
+    },
+    "nette/php-generator": {
+      "v3.6.x-dev": {
+        "rev": "9073c8ac505b5f65af3bc2d1665be7d256e2dbe3",
+        "type": "git",
+        "url": "https://github.com/nette/php-generator.git"
+      }
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": {
+        "rev": "faf431348a184afdcdb932c798897c3b336d2462",
+        "type": "git",
+        "url": "https://github.com/nette/robot-loader.git"
+      }
+    },
+    "nette/routing": {
+      "v3.1.x-dev": {
+        "rev": "19f73cb58bdd3b5c44880293a2e6c5b03d202539",
+        "type": "git",
+        "url": "https://github.com/nette/routing.git"
+      }
+    },
+    "nette/schema": {
+      "v1.2.x-dev": {
+        "rev": "b6377a2a93f2ee28f7550c3aa37d5021f4bb4b5d",
+        "type": "git",
+        "url": "https://github.com/nette/schema.git"
+      }
+    },
+    "nette/utils": {
+      "v3.2.x-dev": {
+        "rev": "02a54c4c872b99e4ec05c4aec54b5a06eb0f6368",
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    }
+  }
+}

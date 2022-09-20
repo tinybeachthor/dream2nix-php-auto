@@ -1,0 +1,179 @@
+{
+  "_generic": {
+    "defaultPackage": "kdyby/doctrine",
+    "location": "",
+    "packages": {
+      "kdyby/doctrine": "v3.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer",
+      "pdo",
+      "ctype",
+      "iconv",
+      "json",
+      "session"
+    ],
+    "phpSemver": "^5.6 || ^7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "doctrine/dbal": {
+      "2.13.9": [
+        [ "doctrine/deprecations", "v1.0.0" ]
+      ]
+    },
+    "kdyby/annotations": {
+      "v2.5.0": [
+        [ "kdyby/doctrine-cache", "v2.6.2" ],
+        [ "nette/di", "v2.4.x-dev" ],
+        [ "nette/utils", "v2.5.x-dev" ]
+      ]
+    },
+    "kdyby/console": {
+      "v2.7.1": [
+        [ "tracy/tracy", "v2.6.x-dev" ]
+      ]
+    },
+    "kdyby/doctrine": {
+      "v3.3.1": [
+        [ "doctrine/dbal", "2.13.9" ],
+        [ "kdyby/annotations", "v2.5.0" ],
+        [ "kdyby/console", "v2.7.1" ],
+        [ "kdyby/doctrine-cache", "v2.6.2" ],
+        [ "nette/bootstrap", "v2.4.x-dev" ],
+        [ "nette/di", "v2.4.x-dev" ],
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/utils", "v2.5.x-dev" ],
+        [ "tracy/tracy", "v2.6.x-dev" ]
+      ]
+    },
+    "kdyby/doctrine-cache": {
+      "v2.6.2": [
+        [ "nette/caching", "v2.5.x-dev" ]
+      ]
+    },
+    "nette/bootstrap": {
+      "v2.4.x-dev": [
+        [ "nette/utils", "v2.5.x-dev" ]
+      ]
+    },
+    "nette/caching": {
+      "v2.5.x-dev": [
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/utils", "v2.5.x-dev" ]
+      ]
+    },
+    "nette/di": {
+      "v2.4.x-dev": [
+        [ "nette/php-generator", "v3.4.x-dev" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.6.x-dev": [
+        [ "nette/utils", "v2.5.x-dev" ]
+      ]
+    },
+    "nette/php-generator": {
+      "v3.4.x-dev": [
+        [ "nette/utils", "v2.5.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/dbal": {
+      "2.13.9": {
+        "rev": "c480849ca3ad6706a39c970cdfe6888fa8a058b8",
+        "type": "git",
+        "url": "https://github.com/doctrine/dbal.git"
+      }
+    },
+    "doctrine/deprecations": {
+      "v1.0.0": {
+        "rev": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+        "type": "git",
+        "url": "https://github.com/doctrine/deprecations.git"
+      }
+    },
+    "kdyby/annotations": {
+      "v2.5.0": {
+        "rev": "d870e2ec023e6741a6b9c432bc0a840f403aca23",
+        "type": "git",
+        "url": "https://github.com/Kdyby/Annotations.git"
+      }
+    },
+    "kdyby/console": {
+      "v2.7.1": {
+        "rev": "6e7fa6b2619b768a629fef332217497da36420d3",
+        "type": "git",
+        "url": "https://github.com/Kdyby/Console.git"
+      }
+    },
+    "kdyby/doctrine": {
+      "v3.3.1": {
+        "rev": "777cbebe0689df77bc3757c660487c51fc3d5ca8",
+        "type": "git",
+        "url": "https://github.com/Kdyby/Doctrine.git"
+      }
+    },
+    "kdyby/doctrine-cache": {
+      "v2.6.2": {
+        "rev": "00ae47e6de0ab1d1d472606c1f24f310f8b28339",
+        "type": "git",
+        "url": "https://github.com/Kdyby/DoctrineCache.git"
+      }
+    },
+    "nette/bootstrap": {
+      "v2.4.x-dev": {
+        "rev": "850d4fc25c8ad85718a43b3b050d7653b0cf43cb",
+        "type": "git",
+        "url": "https://github.com/nette/bootstrap.git"
+      }
+    },
+    "nette/caching": {
+      "v2.5.x-dev": {
+        "rev": "0026756b4a9f2ec2bd36907a1533f1f43a782e3a",
+        "type": "git",
+        "url": "https://github.com/nette/caching.git"
+      }
+    },
+    "nette/di": {
+      "v2.4.x-dev": {
+        "rev": "cd1580d82195e37b83f11bec8852b848beec698d",
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.6.x-dev": {
+        "rev": "2071d25db90e7e2a483b18e463466d13dc78f2a1",
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/php-generator": {
+      "v3.4.x-dev": {
+        "rev": "7051954c534cebafd650efe8b145ac75b223cb66",
+        "type": "git",
+        "url": "https://github.com/nette/php-generator.git"
+      }
+    },
+    "nette/utils": {
+      "v2.5.x-dev": {
+        "rev": "7345f81181346ff6244891bdb1ba99f9e36b5e37",
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "tracy/tracy": {
+      "v2.6.x-dev": {
+        "rev": "08710e2708a67e360b82e243c09489b2af2e3f54",
+        "type": "git",
+        "url": "https://github.com/nette/tracy.git"
+      }
+    }
+  }
+}

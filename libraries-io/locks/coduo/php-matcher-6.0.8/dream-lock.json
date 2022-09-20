@@ -1,0 +1,179 @@
+{
+  "_generic": {
+    "defaultPackage": "coduo/php-matcher",
+    "location": "",
+    "packages": {
+      "coduo/php-matcher": "6.0.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "filter",
+      "json",
+      "simplexml"
+    ],
+    "phpSemver": "^7.4.2 || ~8.0 || ~8.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "coduo/php-matcher": {
+      "6.0.8": [
+        [ "aeon-php/calendar", "1.0.4" ],
+        [ "coduo/php-to-string", "3.2.0" ],
+        [ "doctrine/lexer", "1.2.3" ],
+        [ "openlss/lib-array2xml", "1.0.0" ],
+        [ "symfony/expression-language", "v5.4.3" ]
+      ]
+    },
+    "symfony/cache": {
+      "v5.4.6": [
+        [ "psr/cache", "1.0.1" ],
+        [ "psr/log", "1.1.4" ],
+        [ "symfony/cache-contracts", "v2.5.0" ],
+        [ "symfony/deprecation-contracts", "v2.5.0" ],
+        [ "symfony/polyfill-php73", "v1.25.0" ],
+        [ "symfony/polyfill-php80", "v1.25.0" ],
+        [ "symfony/service-contracts", "v2.5.0" ],
+        [ "symfony/var-exporter", "v5.4.6" ]
+      ]
+    },
+    "symfony/cache-contracts": {
+      "v2.5.0": [
+        [ "psr/cache", "1.0.1" ]
+      ]
+    },
+    "symfony/expression-language": {
+      "v5.4.3": [
+        [ "symfony/cache", "v5.4.6" ],
+        [ "symfony/service-contracts", "v2.5.0" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v2.5.0": [
+        [ "psr/container", "1.1.2" ],
+        [ "symfony/deprecation-contracts", "v2.5.0" ]
+      ]
+    },
+    "symfony/var-exporter": {
+      "v5.4.6": [
+        [ "symfony/polyfill-php80", "v1.25.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "aeon-php/calendar": {
+      "1.0.4": {
+        "rev": "2b1c9bb578bd3bf9b47f9e7549bcd2a5bf5e4b25",
+        "type": "git",
+        "url": "https://github.com/aeon-php/calendar.git"
+      }
+    },
+    "coduo/php-matcher": {
+      "6.0.8": {
+        "rev": "cf14356b50b91bc25230fbeac2a8e3ce5c3822d8",
+        "type": "git",
+        "url": "https://github.com/coduo/php-matcher.git"
+      }
+    },
+    "coduo/php-to-string": {
+      "3.2.0": {
+        "rev": "a1c8fb40d28252181cdad00b9fdc58ac71c154b1",
+        "type": "git",
+        "url": "https://github.com/coduo/php-to-string.git"
+      }
+    },
+    "doctrine/lexer": {
+      "1.2.3": {
+        "rev": "c268e882d4dbdd85e36e4ad69e02dc284f89d229",
+        "type": "git",
+        "url": "https://github.com/doctrine/lexer.git"
+      }
+    },
+    "openlss/lib-array2xml": {
+      "1.0.0": {
+        "rev": "a91f18a8dfc69ffabe5f9b068bc39bb202c81d90",
+        "type": "git",
+        "url": "https://github.com/nullivex/lib-array2xml.git"
+      }
+    },
+    "psr/cache": {
+      "1.0.1": {
+        "rev": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/cache": {
+      "v5.4.6": {
+        "rev": "c0718d0e01ac14251a45cc9c8b93716ec41ae64b",
+        "type": "git",
+        "url": "https://github.com/symfony/cache.git"
+      }
+    },
+    "symfony/cache-contracts": {
+      "v2.5.0": {
+        "rev": "ac2e168102a2e06a2624f0379bde94cd5854ced2",
+        "type": "git",
+        "url": "https://github.com/symfony/cache-contracts.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v2.5.0": {
+        "rev": "6f981ee24cf69ee7ce9736146d1c57c2780598a8",
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/expression-language": {
+      "v5.4.3": {
+        "rev": "c68c6d1a308f6e2a1382bdb3a317959e1ee9aa08",
+        "type": "git",
+        "url": "https://github.com/symfony/expression-language.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.25.0": {
+        "rev": "cc5db0e22b3cb4111010e48785a97f670b350ca5",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.25.0": {
+        "rev": "4407588e0d3f1f52efb65fbe92babe41f37fe50c",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v2.5.0": {
+        "rev": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc",
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/var-exporter": {
+      "v5.4.6": {
+        "rev": "49e2355fe6f59ea30c18ebb68edf13b7e20582e5",
+        "type": "git",
+        "url": "https://github.com/symfony/var-exporter.git"
+      }
+    }
+  }
+}

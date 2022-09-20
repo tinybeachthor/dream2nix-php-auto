@@ -1,0 +1,135 @@
+{
+  "_generic": {
+    "defaultPackage": "hiqdev/hidev",
+    "location": "",
+    "packages": {
+      "hiqdev/hidev": "0.6.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "ctype",
+      "mbstring"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hiqdev/composer-config-plugin": {
+      "dev-master": [
+        [ "opis/closure", "3.6.3" ],
+        [ "riimu/kit-phpencoder", "v2.4.1" ]
+      ]
+    },
+    "hiqdev/hidev": {
+      "0.6.2": [
+        [ "hiqdev/composer-config-plugin", "dev-master" ],
+        [ "hiqdev/yii2-collection", "0.1.1" ],
+        [ "symfony/yaml", "v3.4.47" ],
+        [ "yiisoft/yii2-twig", "2.4.2" ]
+      ]
+    },
+    "hiqdev/yii2-collection": {
+      "0.1.1": [
+        [ "hiqdev/php-collection", "0.1.0" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v3.4.47": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "twig/twig": {
+      "v3.4.2": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "yiisoft/yii2-twig": {
+      "2.4.2": [
+        [ "twig/twig", "v3.4.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "hiqdev/composer-config-plugin": {
+      "dev-master": {
+        "rev": "d092c526f864565fcab47411fb384b47aab39298",
+        "type": "git",
+        "url": "https://github.com/hiqdev/composer-config-plugin.git"
+      }
+    },
+    "hiqdev/hidev": {
+      "0.6.2": {
+        "rev": "3444d0fbc2623114bbde2cae17019d5d5a28fd42",
+        "type": "git",
+        "url": "https://github.com/hiqdev/hidev.git"
+      }
+    },
+    "hiqdev/php-collection": {
+      "0.1.0": {
+        "rev": "285eba8e15b66bfc1b83949bcc0148a17b76f17d",
+        "type": "git",
+        "url": "https://github.com/hiqdev/php-collection.git"
+      }
+    },
+    "hiqdev/yii2-collection": {
+      "0.1.1": {
+        "rev": "2d2fcd7ea245bddfd6a51665fab9db6e17fd2099",
+        "type": "git",
+        "url": "https://github.com/hiqdev/yii2-collection.git"
+      }
+    },
+    "opis/closure": {
+      "3.6.3": {
+        "rev": "3d81e4309d2a927abbe66df935f4bb60082805ad",
+        "type": "git",
+        "url": "https://github.com/opis/closure.git"
+      }
+    },
+    "riimu/kit-phpencoder": {
+      "v2.4.1": {
+        "rev": "ca6f004e1290aec7ef4bebf6c0807b30fcf981d7",
+        "type": "git",
+        "url": "https://github.com/Riimu/Kit-PHPEncoder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/yaml": {
+      "v3.4.47": {
+        "rev": "88289caa3c166321883f67fe5130188ebbb47094",
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "twig/twig": {
+      "v3.4.2": {
+        "rev": "e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077",
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git"
+      }
+    },
+    "yiisoft/yii2-twig": {
+      "2.4.2": {
+        "rev": "8b33fe24960ed43e55820cd35df1740869876fa3",
+        "type": "git",
+        "url": "https://github.com/yiisoft/yii2-twig.git"
+      }
+    }
+  }
+}

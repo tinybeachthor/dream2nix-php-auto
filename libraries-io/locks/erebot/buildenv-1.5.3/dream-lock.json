@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "erebot/buildenv",
+    "location": "",
+    "packages": {
+      "erebot/buildenv": "1.5.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "bz2",
+      "json",
+      "phar",
+      "xsl",
+      "zlib"
+    ],
+    "phpSemver": ">=5.2.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "erebot/buildenv": {
+      "1.5.3": [
+        [ "phing/phing", "2.16.1" ]
+      ]
+    },
+    "phing/phing": {
+      "2.16.1": [
+        [ "symfony/yaml", "v4.0.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "erebot/buildenv": {
+      "1.5.3": {
+        "rev": "c87bb0625e0ee96d20496c883222cd7f603748ee",
+        "type": "git",
+        "url": "https://github.com/Erebot/Buildenv.git"
+      }
+    },
+    "phing/phing": {
+      "2.16.1": {
+        "rev": "cbe0f969e434e269af91b4160b86fe899c6e07c7",
+        "type": "git",
+        "url": "https://github.com/phingofficial/phing.git"
+      }
+    },
+    "symfony/yaml": {
+      "v4.0.9": {
+        "rev": "275ad099e4cbe612a2acbca14a16dd1c5311324d",
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    }
+  }
+}

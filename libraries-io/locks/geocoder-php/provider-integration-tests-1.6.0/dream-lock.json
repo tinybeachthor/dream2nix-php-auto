@@ -1,0 +1,124 @@
+{
+  "_generic": {
+    "defaultPackage": "geocoder-php/provider-integration-tests",
+    "location": "",
+    "packages": {
+      "geocoder-php/provider-integration-tests": "1.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "json",
+      "mbstring",
+      "xml",
+      "curl"
+    ],
+    "phpSemver": "^7.3 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "geocoder-php/common-http": {
+      "4.5.0": [
+        [ "nyholm/psr7", "1.5.1" ],
+        [ "php-http/discovery", "1.14.3" ],
+        [ "php-http/mock-client", "dev-master" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/nominatim-provider": {
+      "5.6.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/provider-integration-tests": {
+      "1.6.0": [
+        [ "geocoder-php/nominatim-provider", "5.6.0" ],
+        [ "nyholm/psr7", "1.5.1" ]
+      ]
+    },
+    "php-http/client-common": {
+      "2.5.0": [
+        [ "php-http/message", "1.13.0" ]
+      ]
+    },
+    "php-http/mock-client": {
+      "dev-master": [
+        [ "php-http/client-common", "2.5.0" ],
+        [ "php-http/discovery", "1.14.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "geocoder-php/common-http": {
+      "4.5.0": {
+        "rev": "4ee2cee60d21631e2a09c196bf6b9fd296bca728",
+        "type": "git",
+        "url": "https://github.com/geocoder-php/php-common-http.git"
+      }
+    },
+    "geocoder-php/nominatim-provider": {
+      "5.6.0": {
+        "rev": "a59c34388542e25e3ba3eecd4f07d731b1fa98fe",
+        "type": "git",
+        "url": "https://github.com/geocoder-php/nominatim-provider.git"
+      }
+    },
+    "geocoder-php/provider-integration-tests": {
+      "1.6.0": {
+        "rev": "0130c5a9a86914adff0640894254f4ed8d8e37cd",
+        "type": "git",
+        "url": "https://github.com/geocoder-php/provider-integration-tests.git"
+      }
+    },
+    "nyholm/psr7": {
+      "1.5.1": {
+        "rev": "f734364e38a876a23be4d906a2a089e1315be18a",
+        "type": "git",
+        "url": "https://github.com/Nyholm/psr7.git"
+      }
+    },
+    "php-http/client-common": {
+      "2.5.0": {
+        "rev": "d135751167d57e27c74de674d6a30cef2dc8e054",
+        "type": "git",
+        "url": "https://github.com/php-http/client-common.git"
+      }
+    },
+    "php-http/discovery": {
+      "1.14.3": {
+        "rev": "31d8ee46d0215108df16a8527c7438e96a4d7735",
+        "type": "git",
+        "url": "https://github.com/php-http/discovery.git"
+      }
+    },
+    "php-http/message": {
+      "1.13.0": {
+        "rev": "7886e647a30a966a1a8d1dad1845b71ca8678361",
+        "type": "git",
+        "url": "https://github.com/php-http/message.git"
+      }
+    },
+    "php-http/mock-client": {
+      "dev-master": {
+        "rev": "a797c2a9122cccafcce14773b8a24d2808a9ab44",
+        "type": "git",
+        "url": "https://github.com/php-http/mock-client.git"
+      }
+    },
+    "willdurand/geocoder": {
+      "4.6.0": {
+        "rev": "be3d9ed0fddf8c698ee079d8a07ae9520b4a49a1",
+        "type": "git",
+        "url": "https://github.com/geocoder-php/php-common.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_generic": {
+    "defaultPackage": "symfony/lock",
+    "location": "",
+    "packages": {
+      "symfony/lock": "v5.3.0-BETA3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "hash",
+      "json",
+      "mongodb"
+    ],
+    "phpSemver": ">=7.2.5"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "symfony/lock": {
+      "v5.3.0-BETA3": [
+        [ "predis/predis", "v1.1.x-dev" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "predis/predis": {
+      "v1.1.x-dev": {
+        "rev": "b000013f2277114d1ab444491c30373d7e90ce5e",
+        "type": "git",
+        "url": "https://github.com/predis/predis.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/lock": {
+      "v5.3.0-BETA3": {
+        "rev": "c1a30b6cb4828cc198e4c2f2975e92cd5cb68371",
+        "type": "git",
+        "url": "https://github.com/symfony/lock.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "joomla/registry",
+    "location": "",
+    "packages": {
+      "joomla/registry": "1.6.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "tokenizer",
+      "json",
+      "mbstring",
+      "xml",
+      "simplexml"
+    ],
+    "phpSemver": "^5.3.10|~7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "joomla/registry": {
+      "1.6.4": [
+        [ "joomla/coding-standards", "2.0-rc4" ],
+        [ "joomla/compat", "1.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "joomla/coding-standards": {
+      "2.0-rc4": {
+        "rev": "d6a62eab09e342be51be2b30030b61071e26c8ca",
+        "type": "git",
+        "url": "https://github.com/joomla/coding-standards.git"
+      }
+    },
+    "joomla/compat": {
+      "1.2.0": {
+        "rev": "f23565fe0184517778996226eb4b2333deb369c4",
+        "type": "git",
+        "url": "https://github.com/joomla-framework/compat.git"
+      }
+    },
+    "joomla/registry": {
+      "1.6.4": {
+        "rev": "87450394f093efcb3ac5fc978e73d1403ebe8a38",
+        "type": "git",
+        "url": "https://github.com/joomla-framework/registry.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "_generic": {
+    "defaultPackage": "peridot-php/peridot",
+    "location": "",
+    "packages": {
+      "peridot-php/peridot": "1.19.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer"
+    ],
+    "phpSemver": ">=5.4"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "consolidation/robo": {
+      "0.4.7": [
+        [ "henrikbjorn/lurker", "1.0.0" ],
+        [ "symfony/console", "v2.8.14" ],
+        [ "symfony/filesystem", "v2.8.14" ],
+        [ "symfony/finder", "v2.8.14" ],
+        [ "symfony/process", "v2.8.14" ]
+      ]
+    },
+    "henrikbjorn/lurker": {
+      "1.0.0": [
+        [ "symfony/config", "v2.8.14" ],
+        [ "symfony/event-dispatcher", "v2.8.14" ]
+      ]
+    },
+    "peridot-php/peridot": {
+      "1.19.0": [
+        [ "consolidation/robo", "0.4.7" ],
+        [ "evenement/evenement", "v2.0.0" ],
+        [ "peridot-php/peridot-scope", "1.3.0" ],
+        [ "phpunit/php-code-coverage", "2.2.4" ],
+        [ "phpunit/php-timer", "1.0.8" ],
+        [ "symfony/console", "v2.8.14" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": [
+        [ "phpunit/php-file-iterator", "1.4.2" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "1.4.9" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/version", "1.0.6" ]
+      ]
+    },
+    "symfony/config": {
+      "v2.8.14": [
+        [ "symfony/filesystem", "v2.8.14" ]
+      ]
+    },
+    "symfony/console": {
+      "v2.8.14": [
+        [ "symfony/debug", "v2.8.14" ],
+        [ "symfony/polyfill-mbstring", "v1.3.0" ]
+      ]
+    },
+    "symfony/debug": {
+      "v2.8.14": [
+        [ "psr/log", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "consolidation/robo": {
+      "0.4.7": {
+        "rev": "d4f6181ddc2a06a5286bb4e1b7f069e00497d5df",
+        "type": "git",
+        "url": "https://github.com/consolidation/Robo.git"
+      }
+    },
+    "evenement/evenement": {
+      "v2.0.0": {
+        "rev": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
+        "type": "git",
+        "url": "https://github.com/igorw/evenement.git"
+      }
+    },
+    "henrikbjorn/lurker": {
+      "1.0.0": {
+        "rev": "a020d45b3bc37810aeafe27343c51af8a74c9419",
+        "type": "git",
+        "url": "https://github.com/flint/Lurker.git"
+      }
+    },
+    "peridot-php/peridot": {
+      "1.19.0": {
+        "rev": "1c573868d856cee7fc9ba89f6a82730f79a3685e",
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot.git"
+      }
+    },
+    "peridot-php/peridot-scope": {
+      "1.3.0": {
+        "rev": "b5cc7ac35b2116d0f495b326218e7e93a823ab8e",
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot-scope.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": {
+        "rev": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "1.4.2": {
+        "rev": "3cc8f69b3028d0f96a9078e6295d86e9bf019be5",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "1.0.8": {
+        "rev": "38e9124049cf1a164f1e4537caf19c99bf1eb260",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.4.9": {
+        "rev": "3b402f65a4cc90abf6e1104e388b896ce209631b",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "psr/log": {
+      "1.0.2": {
+        "rev": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "sebastian/environment": {
+      "1.3.8": {
+        "rev": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/environment.git"
+      }
+    },
+    "sebastian/version": {
+      "1.0.6": {
+        "rev": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "symfony/config": {
+      "v2.8.14": {
+        "rev": "1361bc4e66f97b6202ae83f4190e962c624b5e61",
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/console": {
+      "v2.8.14": {
+        "rev": "a871ba00e0f604dceac64c56c27f99fbeaf4854e",
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/debug": {
+      "v2.8.14": {
+        "rev": "62a68f640456f6761d752c62d81631428ef0d8a1",
+        "type": "git",
+        "url": "https://github.com/symfony/debug.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v2.8.14": {
+        "rev": "25c576abd4e0f212e678fe8b2bd9a9a98c7ea934",
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v2.8.14": {
+        "rev": "a3784111af9f95f102b6411548376e1ae7c93898",
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v2.8.14": {
+        "rev": "0023b024363dfc0cd21262e556f25a291fe8d7fd",
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.3.0": {
+        "rev": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/process": {
+      "v2.8.14": {
+        "rev": "024de37f8a6b9e5e8244d9eb3fcf3e467dd2a93f",
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    }
+  }
+}

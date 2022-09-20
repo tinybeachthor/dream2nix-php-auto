@@ -1,0 +1,105 @@
+{
+  "_generic": {
+    "defaultPackage": "hhvm/hacktest",
+    "location": "",
+    "packages": {
+      "hhvm/hacktest": "v2.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {
+    "facebook/fbexpect": {
+      "v2.9.1": [
+        [ "hhvm/hacktest", "v2.4.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "facebook/difflib": {
+      "v1.3.0": [
+        [ "hhvm/hsl", "v4.108.1" ]
+      ]
+    },
+    "facebook/fbexpect": {
+      "v2.9.1": [
+        [ "facebook/difflib", "v1.3.0" ],
+        [ "hhvm/hacktest", "v2.4.0" ]
+      ]
+    },
+    "hhvm/hacktest": {
+      "v2.4.0": [
+        [ "facebook/fbexpect", "v2.9.1" ],
+        [ "hhvm/hhast", "v4.166.2" ],
+        [ "hhvm/hhvm-autoload", "v3.3.2" ],
+        [ "hhvm/type-assert", "v4.2.2" ]
+      ]
+    },
+    "hhvm/hhast": {
+      "v4.166.2": [
+        [ "facebook/difflib", "v1.3.0" ],
+        [ "hhvm/type-assert", "v4.2.2" ]
+      ]
+    },
+    "hhvm/type-assert": {
+      "v4.2.2": [
+        [ "hhvm/hsl", "v4.108.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "facebook/difflib": {
+      "v1.3.0": {
+        "rev": "97bb1df49ac7b6fe14a5da75a08a52ec59dcd77f",
+        "type": "git",
+        "url": "https://github.com/hhvm/difflib.git"
+      }
+    },
+    "facebook/fbexpect": {
+      "v2.9.1": {
+        "rev": "5ad14d4f6e6e57a468f9b415d97ab6050630e144",
+        "type": "git",
+        "url": "https://github.com/hhvm/fbexpect.git"
+      }
+    },
+    "hhvm/hacktest": {
+      "v2.4.0": {
+        "rev": "84b7a0094f59329dc41ac29ad77d09f85a9b1c91",
+        "type": "git",
+        "url": "https://github.com/hhvm/hacktest.git"
+      }
+    },
+    "hhvm/hhast": {
+      "v4.166.2": {
+        "rev": "6d29aed335cbc2d7d1d1cc1b6f2c493d5a9a41fb",
+        "type": "git",
+        "url": "https://github.com/hhvm/hhast.git"
+      }
+    },
+    "hhvm/hhvm-autoload": {
+      "v3.3.2": {
+        "rev": "186d1fc5d5bf69caebaacac5c80a69e3c08f50d4",
+        "type": "git",
+        "url": "https://github.com/hhvm/hhvm-autoload.git"
+      }
+    },
+    "hhvm/hsl": {
+      "v4.108.1": {
+        "rev": "3b4375e6adf63ac9171721b031b662dd3524c5bb",
+        "type": "git",
+        "url": "https://github.com/hhvm/hsl.git"
+      }
+    },
+    "hhvm/type-assert": {
+      "v4.2.2": {
+        "rev": "7106e783dc43724efa5d4147456025a2316480f0",
+        "type": "git",
+        "url": "https://github.com/hhvm/type-assert.git"
+      }
+    }
+  }
+}

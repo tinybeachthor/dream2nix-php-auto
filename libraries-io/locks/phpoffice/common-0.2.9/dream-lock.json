@@ -1,0 +1,891 @@
+{
+  "_generic": {
+    "defaultPackage": "phpoffice/common",
+    "location": "",
+    "packages": {
+      "phpoffice/common": "0.2.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "openssl",
+      "pcre",
+      "tokenizer",
+      "mbstring",
+      "dom",
+      "phar",
+      "xml",
+      "xmlwriter",
+      "json",
+      "libxml",
+      "simplexml",
+      "ctype",
+      "intl"
+    ],
+    "phpSemver": ">=5.3.0"
+  },
+  "cyclicDependencies": {
+    "zendframework/zend-hydrator": {
+      "1.1.0": [
+        [ "zendframework/zend-stdlib", "2.7.7" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "cilex/cilex": {
+      "1.1.0": [
+        [ "cilex/console-service-provider", "1.0.0" ],
+        [ "pimple/pimple", "v1.1.1" ],
+        [ "symfony/finder", "v2.8.52" ],
+        [ "symfony/process", "v2.8.52" ]
+      ]
+    },
+    "cilex/console-service-provider": {
+      "1.0.0": [
+        [ "pimple/pimple", "v1.1.1" ],
+        [ "symfony/console", "v2.8.52" ]
+      ]
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": [
+        [ "composer/pcre", "3.0.0" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "container-interop/container-interop": {
+      "1.2.0": [
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "erusev/parsedown": {
+      "1.7.4": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "monolog/monolog": {
+      "1.27.1": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "padraic/humbug_get_contents": {
+      "1.1.2": [
+        [ "composer/ca-bundle", "1.3.3" ]
+      ]
+    },
+    "padraic/phar-updater": {
+      "v1.0.6": [
+        [ "padraic/humbug_get_contents", "1.1.2" ]
+      ]
+    },
+    "pdepend/pdepend": {
+      "2.12.1": [
+        [ "symfony/config", "v2.8.52" ],
+        [ "symfony/dependency-injection", "v3.2.14" ],
+        [ "symfony/filesystem", "v3.0.9" ]
+      ]
+    },
+    "phar-io/manifest": {
+      "1.0.3": [
+        [ "phar-io/version", "2.0.1" ]
+      ]
+    },
+    "phpdocumentor/fileset": {
+      "1.0.0": [
+        [ "symfony/finder", "v2.8.52" ]
+      ]
+    },
+    "phpdocumentor/phpdocumentor": {
+      "v2.9.1": [
+        [ "cilex/cilex", "1.1.0" ],
+        [ "erusev/parsedown", "1.7.4" ],
+        [ "monolog/monolog", "1.27.1" ],
+        [ "padraic/phar-updater", "v1.0.6" ],
+        [ "phpdocumentor/fileset", "1.0.0" ],
+        [ "phpdocumentor/graphviz", "1.0.4" ],
+        [ "phpdocumentor/reflection", "3.0.1" ],
+        [ "phpdocumentor/reflection-docblock", "2.0.5" ],
+        [ "symfony/config", "v2.8.52" ],
+        [ "symfony/console", "v2.8.52" ],
+        [ "symfony/event-dispatcher", "v2.8.52" ],
+        [ "symfony/process", "v2.8.52" ],
+        [ "symfony/stopwatch", "v2.8.52" ],
+        [ "symfony/validator", "v2.8.52" ],
+        [ "twig/twig", "v1.44.6" ],
+        [ "webmozart/assert", "1.11.0" ],
+        [ "zendframework/zend-cache", "2.8.3" ],
+        [ "zendframework/zend-config", "2.6.0" ],
+        [ "zendframework/zend-filter", "2.9.2" ],
+        [ "zendframework/zend-i18n", "2.10.1" ],
+        [ "zendframework/zend-serializer", "2.9.1" ],
+        [ "zendframework/zend-servicemanager", "2.7.11" ],
+        [ "zendframework/zend-stdlib", "2.7.7" ],
+        [ "zetacomponents/document", "1.3.3" ]
+      ]
+    },
+    "phpdocumentor/reflection": {
+      "3.0.1": [
+        [ "nikic/php-parser", "v1.4.1" ],
+        [ "phpdocumentor/reflection-docblock", "2.0.5" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "phploc/phploc": {
+      "2.0.5": [
+        [ "sebastian/finder-facade", "1.2.3" ],
+        [ "sebastian/git", "2.1.4" ],
+        [ "sebastian/version", "2.0.1" ],
+        [ "symfony/console", "v2.8.52" ]
+      ]
+    },
+    "phpmd/phpmd": {
+      "2.13.0": [
+        [ "composer/xdebug-handler", "3.0.3" ],
+        [ "pdepend/pdepend", "2.12.1" ]
+      ]
+    },
+    "phpoffice/common": {
+      "0.2.9": [
+        [ "pclzip/pclzip", "2.8.2" ],
+        [ "phpdocumentor/phpdocumentor", "v2.9.1" ],
+        [ "phploc/phploc", "2.0.5" ],
+        [ "phpmd/phpmd", "2.13.0" ],
+        [ "phpunit/phpunit", "7.5.20" ],
+        [ "sebastian/phpcpd", "2.0.4" ],
+        [ "squizlabs/php_codesniffer", "2.9.2" ]
+      ]
+    },
+    "phpspec/prophecy": {
+      "v1.10.3": [
+        [ "doctrine/instantiator", "1.4.1" ],
+        [ "phpdocumentor/reflection-docblock", "2.0.5" ],
+        [ "sebastian/comparator", "3.0.5" ],
+        [ "sebastian/recursion-context", "3.0.1" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "6.1.4": [
+        [ "phpunit/php-file-iterator", "2.0.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "3.1.3" ],
+        [ "sebastian/code-unit-reverse-lookup", "1.0.2" ],
+        [ "sebastian/environment", "4.2.4" ],
+        [ "sebastian/version", "2.0.1" ],
+        [ "theseer/tokenizer", "1.2.1" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "7.5.20": [
+        [ "doctrine/instantiator", "1.4.1" ],
+        [ "myclabs/deep-copy", "1.11.0" ],
+        [ "phar-io/manifest", "1.0.3" ],
+        [ "phar-io/version", "2.0.1" ],
+        [ "phpspec/prophecy", "v1.10.3" ],
+        [ "phpunit/php-code-coverage", "6.1.4" ],
+        [ "phpunit/php-file-iterator", "2.0.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-timer", "2.1.3" ],
+        [ "sebastian/comparator", "3.0.5" ],
+        [ "sebastian/diff", "3.0.3" ],
+        [ "sebastian/environment", "4.2.4" ],
+        [ "sebastian/exporter", "3.1.5" ],
+        [ "sebastian/global-state", "2.0.0" ],
+        [ "sebastian/object-enumerator", "3.0.4" ],
+        [ "sebastian/resource-operations", "2.0.2" ],
+        [ "sebastian/version", "2.0.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "sebastian/comparator": {
+      "3.0.5": [
+        [ "sebastian/diff", "3.0.3" ],
+        [ "sebastian/exporter", "3.1.5" ]
+      ]
+    },
+    "sebastian/exporter": {
+      "3.1.5": [
+        [ "sebastian/recursion-context", "3.0.1" ]
+      ]
+    },
+    "sebastian/finder-facade": {
+      "1.2.3": [
+        [ "symfony/finder", "v2.8.52" ],
+        [ "theseer/fdomdocument", "1.6.7" ]
+      ]
+    },
+    "sebastian/object-enumerator": {
+      "3.0.4": [
+        [ "sebastian/object-reflector", "1.1.2" ],
+        [ "sebastian/recursion-context", "3.0.1" ]
+      ]
+    },
+    "sebastian/phpcpd": {
+      "2.0.4": [
+        [ "phpunit/php-timer", "2.1.3" ],
+        [ "sebastian/finder-facade", "1.2.3" ],
+        [ "sebastian/version", "2.0.1" ],
+        [ "symfony/console", "v2.8.52" ],
+        [ "theseer/fdomdocument", "1.6.7" ]
+      ]
+    },
+    "symfony/config": {
+      "v2.8.52": [
+        [ "symfony/filesystem", "v3.0.9" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "symfony/console": {
+      "v2.8.52": [
+        [ "symfony/debug", "v3.0.9" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/debug": {
+      "v3.0.9": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "symfony/translation": {
+      "v3.0.9": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/validator": {
+      "v2.8.52": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/translation", "v3.0.9" ]
+      ]
+    },
+    "twig/twig": {
+      "v1.44.6": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.11.0": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "zendframework/zend-cache": {
+      "2.8.3": [
+        [ "psr/cache", "1.0.1" ],
+        [ "psr/simple-cache", "1.0.1" ],
+        [ "zendframework/zend-eventmanager", "3.2.1" ],
+        [ "zendframework/zend-servicemanager", "2.7.11" ],
+        [ "zendframework/zend-stdlib", "2.7.7" ]
+      ]
+    },
+    "zendframework/zend-config": {
+      "2.6.0": [
+        [ "zendframework/zend-stdlib", "2.7.7" ]
+      ]
+    },
+    "zendframework/zend-filter": {
+      "2.9.2": [
+        [ "zendframework/zend-stdlib", "2.7.7" ]
+      ]
+    },
+    "zendframework/zend-hydrator": {
+      "1.1.0": [
+        [ "zendframework/zend-stdlib", "2.7.7" ]
+      ]
+    },
+    "zendframework/zend-i18n": {
+      "2.10.1": [
+        [ "zendframework/zend-stdlib", "2.7.7" ]
+      ]
+    },
+    "zendframework/zend-serializer": {
+      "2.9.1": [
+        [ "zendframework/zend-json", "3.1.2" ],
+        [ "zendframework/zend-stdlib", "2.7.7" ]
+      ]
+    },
+    "zendframework/zend-servicemanager": {
+      "2.7.11": [
+        [ "container-interop/container-interop", "1.2.0" ]
+      ]
+    },
+    "zendframework/zend-stdlib": {
+      "2.7.7": [
+        [ "zendframework/zend-hydrator", "1.1.0" ]
+      ]
+    },
+    "zetacomponents/document": {
+      "1.3.3": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "cilex/cilex": {
+      "1.1.0": {
+        "rev": "7acd965a609a56d0345e8b6071c261fbdb926cb5",
+        "type": "git",
+        "url": "https://github.com/Cilex/Cilex.git"
+      }
+    },
+    "cilex/console-service-provider": {
+      "1.0.0": {
+        "rev": "25ee3d1875243d38e1a3448ff94bdf944f70d24e",
+        "type": "git",
+        "url": "https://github.com/Cilex/console-service-provider.git"
+      }
+    },
+    "composer/ca-bundle": {
+      "1.3.3": {
+        "rev": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "composer/pcre": {
+      "3.0.0": {
+        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
+        "type": "git",
+        "url": "https://github.com/composer/pcre.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "container-interop/container-interop": {
+      "1.2.0": {
+        "rev": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+        "type": "git",
+        "url": "https://github.com/container-interop/container-interop.git"
+      }
+    },
+    "doctrine/instantiator": {
+      "1.4.1": {
+        "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
+        "type": "git",
+        "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "erusev/parsedown": {
+      "1.7.4": {
+        "rev": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+        "type": "git",
+        "url": "https://github.com/erusev/parsedown.git"
+      }
+    },
+    "monolog/monolog": {
+      "1.27.1": {
+        "rev": "904713c5929655dc9b97288b69cfeedad610c9a1",
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "myclabs/deep-copy": {
+      "1.11.0": {
+        "rev": "14daed4296fae74d9e3201d2c4925d1acb7aa614",
+        "type": "git",
+        "url": "https://github.com/myclabs/DeepCopy.git"
+      }
+    },
+    "nikic/php-parser": {
+      "v1.4.1": {
+        "rev": "f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51",
+        "type": "git",
+        "url": "https://github.com/nikic/PHP-Parser.git"
+      }
+    },
+    "padraic/humbug_get_contents": {
+      "1.1.2": {
+        "rev": "dcb086060c9dd6b2f51d8f7a895500307110b7a7",
+        "type": "git",
+        "url": "https://github.com/humbug/file_get_contents.git"
+      }
+    },
+    "padraic/phar-updater": {
+      "v1.0.6": {
+        "rev": "d01d3b8f26e541ac9b9eeba1e18d005d852f7ff1",
+        "type": "git",
+        "url": "https://github.com/humbug/phar-updater.git"
+      }
+    },
+    "pclzip/pclzip": {
+      "2.8.2": {
+        "rev": "19dd1de9d3f5fc4d7d70175b4c344dee329f45fd",
+        "type": "git",
+        "url": "https://github.com/ivanlanin/pclzip.git"
+      }
+    },
+    "pdepend/pdepend": {
+      "2.12.1": {
+        "rev": "7a892d56ceafd804b4a2ecc85184640937ce9e84",
+        "type": "git",
+        "url": "https://github.com/pdepend/pdepend.git"
+      }
+    },
+    "phar-io/manifest": {
+      "1.0.3": {
+        "rev": "7761fcacf03b4d4f16e7ccb606d4879ca431fcf4",
+        "type": "git",
+        "url": "https://github.com/phar-io/manifest.git"
+      }
+    },
+    "phar-io/version": {
+      "2.0.1": {
+        "rev": "45a2ec53a73c70ce41d55cedef9063630abaf1b6",
+        "type": "git",
+        "url": "https://github.com/phar-io/version.git"
+      }
+    },
+    "phpdocumentor/fileset": {
+      "1.0.0": {
+        "rev": "bfa78d8fa9763dfce6d0e5d3730c1d8ab25d34b0",
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/Fileset.git"
+      }
+    },
+    "phpdocumentor/graphviz": {
+      "1.0.4": {
+        "rev": "a906a90a9f230535f25ea31caf81b2323956283f",
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/GraphViz.git"
+      }
+    },
+    "phpdocumentor/phpdocumentor": {
+      "v2.9.1": {
+        "rev": "2e4f981a55ebe6f5db592d7da892d13d5b3c7816",
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/phpDocumentor.git"
+      }
+    },
+    "phpdocumentor/reflection": {
+      "3.0.1": {
+        "rev": "793bfd92d9a0fc96ae9608fb3e947c3f59fb3a0d",
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/Reflection.git"
+      }
+    },
+    "phpdocumentor/reflection-docblock": {
+      "2.0.5": {
+        "rev": "e6a969a640b00d8daa3c66518b0405fb41ae0c4b",
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "phploc/phploc": {
+      "2.0.5": {
+        "rev": "d177c22e2a08e448f7bdfa762045f7bd086834d7",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phploc.git"
+      }
+    },
+    "phpmd/phpmd": {
+      "2.13.0": {
+        "rev": "dad0228156856b3ad959992f9748514fa943f3e3",
+        "type": "git",
+        "url": "https://github.com/phpmd/phpmd.git"
+      }
+    },
+    "phpoffice/common": {
+      "0.2.9": {
+        "rev": "edb5d32b1e3400a35a5c91e2539ed6f6ce925e4d",
+        "type": "git",
+        "url": "https://github.com/PHPOffice/Common.git"
+      }
+    },
+    "phpspec/prophecy": {
+      "v1.10.3": {
+        "rev": "451c3cd1418cf640de218914901e51b064abb093",
+        "type": "git",
+        "url": "https://github.com/phpspec/prophecy.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "6.1.4": {
+        "rev": "807e6013b00af69b6c5d9ceb4282d0393dbb9d8d",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "2.0.5": {
+        "rev": "42c5ba5220e6904cbfe8b1a1bda7c0cfdc8c12f5",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "2.1.3": {
+        "rev": "2454ae1765516d20c4ffe103d85a58a9a3bd5662",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "3.1.3": {
+        "rev": "9c1da83261628cb24b6a6df371b6e312b3954768",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "7.5.20": {
+        "rev": "9467db479d1b0487c99733bb1e7944d32deded2c",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "pimple/pimple": {
+      "v1.1.1": {
+        "rev": "2019c145fe393923f3441b23f29bbdfaa5c58c4d",
+        "type": "git",
+        "url": "https://github.com/silexphp/Pimple.git"
+      }
+    },
+    "psr/cache": {
+      "1.0.1": {
+        "rev": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "psr/simple-cache": {
+      "1.0.1": {
+        "rev": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+        "type": "git",
+        "url": "https://github.com/php-fig/simple-cache.git"
+      }
+    },
+    "sebastian/code-unit-reverse-lookup": {
+      "1.0.2": {
+        "rev": "1de8cd5c010cb153fcd68b8d0f64606f523f7619",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git"
+      }
+    },
+    "sebastian/comparator": {
+      "3.0.5": {
+        "rev": "1dc7ceb4a24aede938c7af2a9ed1de09609ca770",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/comparator.git"
+      }
+    },
+    "sebastian/diff": {
+      "3.0.3": {
+        "rev": "14f72dd46eaf2f2293cbe79c93cc0bc43161a211",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "sebastian/environment": {
+      "4.2.4": {
+        "rev": "d47bbbad83711771f167c72d4e3f25f7fcc1f8b0",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/environment.git"
+      }
+    },
+    "sebastian/exporter": {
+      "3.1.5": {
+        "rev": "73a9676f2833b9a7c36968f9d882589cd75511e6",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/exporter.git"
+      }
+    },
+    "sebastian/finder-facade": {
+      "1.2.3": {
+        "rev": "167c45d131f7fc3d159f56f191a0a22228765e16",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/finder-facade.git"
+      }
+    },
+    "sebastian/git": {
+      "2.1.4": {
+        "rev": "815bbbc963cf35e5413df195aa29df58243ecd24",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/git.git"
+      }
+    },
+    "sebastian/global-state": {
+      "2.0.0": {
+        "rev": "e8ba02eed7bbbb9e59e43dedd3dddeff4a56b0c4",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/global-state.git"
+      }
+    },
+    "sebastian/object-enumerator": {
+      "3.0.4": {
+        "rev": "e67f6d32ebd0c749cf9d1dbd9f226c727043cdf2",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/object-enumerator.git"
+      }
+    },
+    "sebastian/object-reflector": {
+      "1.1.2": {
+        "rev": "9b8772b9cbd456ab45d4a598d2dd1a1bced6363d",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/object-reflector.git"
+      }
+    },
+    "sebastian/phpcpd": {
+      "2.0.4": {
+        "rev": "24d9a880deadb0b8c9680e9cfe78e30b704225db",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpcpd.git"
+      }
+    },
+    "sebastian/recursion-context": {
+      "3.0.1": {
+        "rev": "367dcba38d6e1977be014dc4b22f47a484dac7fb",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/recursion-context.git"
+      }
+    },
+    "sebastian/resource-operations": {
+      "2.0.2": {
+        "rev": "31d35ca87926450c44eae7e2611d45a7a65ea8b3",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/resource-operations.git"
+      }
+    },
+    "sebastian/version": {
+      "2.0.1": {
+        "rev": "99732be0ddb3361e16ad77b68ba41efc8e979019",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "2.9.2": {
+        "rev": "2acf168de78487db620ab4bc524135a13cfe6745",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "symfony/config": {
+      "v2.8.52": {
+        "rev": "7dd5f5040dc04c118d057fb5886563963eb70011",
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/console": {
+      "v2.8.52": {
+        "rev": "cbcf4b5e233af15cd2bbd50dee1ccc9b7927dc12",
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/debug": {
+      "v3.0.9": {
+        "rev": "697c527acd9ea1b2d3efac34d9806bf255278b0a",
+        "type": "git",
+        "url": "https://github.com/symfony/debug.git"
+      }
+    },
+    "symfony/dependency-injection": {
+      "v3.2.14": {
+        "rev": "d9f2e62e1a93d52ad4e4f6faaf66f6eef723d761",
+        "type": "git",
+        "url": "https://github.com/symfony/dependency-injection.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v2.8.52": {
+        "rev": "a77e974a5fecb4398833b0709210e3d5e334ffb0",
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v3.0.9": {
+        "rev": "b2da5009d9bacbd91d83486aa1f44c793a8c380d",
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v2.8.52": {
+        "rev": "1444eac52273e345d9b95129bf914639305a9ba4",
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/process": {
+      "v2.8.52": {
+        "rev": "c3591a09c78639822b0b290d44edb69bf9f05dc8",
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/stopwatch": {
+      "v2.8.52": {
+        "rev": "752586c80af8a85aeb74d1ae8202411c68836663",
+        "type": "git",
+        "url": "https://github.com/symfony/stopwatch.git"
+      }
+    },
+    "symfony/translation": {
+      "v3.0.9": {
+        "rev": "eee6c664853fd0576f21ae25725cfffeafe83f26",
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/validator": {
+      "v2.8.52": {
+        "rev": "d5d2090bba3139d8ddb79959fbf516e87238fe3a",
+        "type": "git",
+        "url": "https://github.com/symfony/validator.git"
+      }
+    },
+    "theseer/fdomdocument": {
+      "1.6.7": {
+        "rev": "5cddd4f9076a9a2b85c5135935bba2dcb3ed7574",
+        "type": "git",
+        "url": "https://github.com/theseer/fDOMDocument.git"
+      }
+    },
+    "theseer/tokenizer": {
+      "1.2.1": {
+        "rev": "34a41e998c2183e22995f158c581e7b5e755ab9e",
+        "type": "git",
+        "url": "https://github.com/theseer/tokenizer.git"
+      }
+    },
+    "twig/twig": {
+      "v1.44.6": {
+        "rev": "ae39480f010ef88adc7938503c9b02d3baf2f3b3",
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.11.0": {
+        "rev": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git"
+      }
+    },
+    "zendframework/zend-cache": {
+      "2.8.3": {
+        "rev": "edde41f1ee5c28e01701a032f434d03751b65df4",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-cache.git"
+      }
+    },
+    "zendframework/zend-config": {
+      "2.6.0": {
+        "rev": "2920e877a9f6dca9fa8f6bd3b1ffc2e19bb1e30d",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-config.git"
+      }
+    },
+    "zendframework/zend-eventmanager": {
+      "3.2.1": {
+        "rev": "a5e2583a211f73604691586b8406ff7296a946dd",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-eventmanager.git"
+      }
+    },
+    "zendframework/zend-filter": {
+      "2.9.2": {
+        "rev": "d78f2cdde1c31975e18b2a0753381ed7b61118ef",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-filter.git"
+      }
+    },
+    "zendframework/zend-hydrator": {
+      "1.1.0": {
+        "rev": "22652e1661a5a10b3f564cf7824a2206cf5a4a65",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-hydrator.git"
+      }
+    },
+    "zendframework/zend-i18n": {
+      "2.10.1": {
+        "rev": "84038e6a1838b611dcc491b1c40321fa4c3a123c",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-i18n.git"
+      }
+    },
+    "zendframework/zend-json": {
+      "3.1.2": {
+        "rev": "e9ddb1192d93fe7fff846ac895249c39db75132b",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-json.git"
+      }
+    },
+    "zendframework/zend-serializer": {
+      "2.9.1": {
+        "rev": "6fb7ae016cfdf0cfcdfa2b989e6a65f351170e21",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-serializer.git"
+      }
+    },
+    "zendframework/zend-servicemanager": {
+      "2.7.11": {
+        "rev": "99ec9ed5d0f15aed9876433c74c2709eb933d4c7",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-servicemanager.git"
+      }
+    },
+    "zendframework/zend-stdlib": {
+      "2.7.7": {
+        "rev": "0e44eb46788f65e09e077eb7f44d2659143bcc1f",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-stdlib.git"
+      }
+    },
+    "zetacomponents/base": {
+      "1.9.3": {
+        "rev": "2f432f4117a5aa2164d4fb1784f84db91dbdd3b8",
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Base.git"
+      }
+    },
+    "zetacomponents/document": {
+      "1.3.3": {
+        "rev": "196884f00871ea7dcbca9ab8bc85716f626e9cc3",
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Document.git"
+      }
+    }
+  }
+}

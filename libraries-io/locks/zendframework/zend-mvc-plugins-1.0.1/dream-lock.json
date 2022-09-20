@@ -1,0 +1,362 @@
+{
+  "_generic": {
+    "defaultPackage": "zendframework/zend-mvc-plugins",
+    "location": "",
+    "packages": {
+      "zendframework/zend-mvc-plugins": "1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "json"
+    ],
+    "phpSemver": "^5.6 || ^7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "container-interop/container-interop": {
+      "1.2.0": [
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "zendframework/zend-authentication": {
+      "2.7.0": [
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-config": {
+      "3.3.0": [
+        [ "psr/container", "1.1.2" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-filter": {
+      "2.9.2": [
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-form": {
+      "2.14.3": [
+        [ "zendframework/zend-hydrator", "3.0.2" ],
+        [ "zendframework/zend-inputfilter", "2.10.1" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-http": {
+      "2.11.2": [
+        [ "zendframework/zend-loader", "2.6.1" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ],
+        [ "zendframework/zend-uri", "2.7.1" ],
+        [ "zendframework/zend-validator", "2.13.0" ]
+      ]
+    },
+    "zendframework/zend-hydrator": {
+      "3.0.2": [
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-inputfilter": {
+      "2.10.1": [
+        [ "zendframework/zend-filter", "2.9.2" ],
+        [ "zendframework/zend-servicemanager", "3.4.0" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ],
+        [ "zendframework/zend-validator", "2.13.0" ]
+      ]
+    },
+    "zendframework/zend-modulemanager": {
+      "2.8.4": [
+        [ "zendframework/zend-config", "3.3.0" ],
+        [ "zendframework/zend-eventmanager", "3.2.1" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-mvc": {
+      "3.1.1": [
+        [ "container-interop/container-interop", "1.2.0" ],
+        [ "zendframework/zend-eventmanager", "3.2.1" ],
+        [ "zendframework/zend-http", "2.11.2" ],
+        [ "zendframework/zend-modulemanager", "2.8.4" ],
+        [ "zendframework/zend-router", "3.3.0" ],
+        [ "zendframework/zend-servicemanager", "3.4.0" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ],
+        [ "zendframework/zend-view", "2.11.4" ]
+      ]
+    },
+    "zendframework/zend-mvc-plugin-fileprg": {
+      "1.1.0": [
+        [ "zendframework/zend-filter", "2.9.2" ],
+        [ "zendframework/zend-form", "2.14.3" ],
+        [ "zendframework/zend-inputfilter", "2.10.1" ],
+        [ "zendframework/zend-mvc", "3.1.1" ],
+        [ "zendframework/zend-session", "2.9.1" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ],
+        [ "zendframework/zend-validator", "2.13.0" ]
+      ]
+    },
+    "zendframework/zend-mvc-plugin-flashmessenger": {
+      "1.2.0": [
+        [ "zendframework/zend-mvc", "3.1.1" ],
+        [ "zendframework/zend-session", "2.9.1" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ],
+        [ "zendframework/zend-view", "2.11.4" ]
+      ]
+    },
+    "zendframework/zend-mvc-plugin-identity": {
+      "1.1.1": [
+        [ "container-interop/container-interop", "1.2.0" ],
+        [ "zendframework/zend-authentication", "2.7.0" ],
+        [ "zendframework/zend-mvc", "3.1.1" ],
+        [ "zendframework/zend-servicemanager", "3.4.0" ]
+      ]
+    },
+    "zendframework/zend-mvc-plugin-prg": {
+      "1.2.0": [
+        [ "zendframework/zend-mvc", "3.1.1" ],
+        [ "zendframework/zend-session", "2.9.1" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-mvc-plugins": {
+      "1.0.1": [
+        [ "zendframework/zend-mvc-plugin-fileprg", "1.1.0" ],
+        [ "zendframework/zend-mvc-plugin-flashmessenger", "1.2.0" ],
+        [ "zendframework/zend-mvc-plugin-identity", "1.1.1" ],
+        [ "zendframework/zend-mvc-plugin-prg", "1.2.0" ]
+      ]
+    },
+    "zendframework/zend-router": {
+      "3.3.0": [
+        [ "container-interop/container-interop", "1.2.0" ],
+        [ "zendframework/zend-http", "2.11.2" ],
+        [ "zendframework/zend-servicemanager", "3.4.0" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-servicemanager": {
+      "3.4.0": [
+        [ "container-interop/container-interop", "1.2.0" ],
+        [ "psr/container", "1.1.2" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-session": {
+      "2.9.1": [
+        [ "zendframework/zend-eventmanager", "3.2.1" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-uri": {
+      "2.7.1": [
+        [ "zendframework/zend-escaper", "2.6.1" ],
+        [ "zendframework/zend-validator", "2.13.0" ]
+      ]
+    },
+    "zendframework/zend-validator": {
+      "2.13.0": [
+        [ "container-interop/container-interop", "1.2.0" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-view": {
+      "2.11.4": [
+        [ "zendframework/zend-eventmanager", "3.2.1" ],
+        [ "zendframework/zend-json", "3.1.2" ],
+        [ "zendframework/zend-loader", "2.6.1" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "container-interop/container-interop": {
+      "1.2.0": {
+        "rev": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+        "type": "git",
+        "url": "https://github.com/container-interop/container-interop.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "zendframework/zend-authentication": {
+      "2.7.0": {
+        "rev": "1f379f6384fca34b3bfe94d953abd65e9e7ee746",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-authentication.git"
+      }
+    },
+    "zendframework/zend-config": {
+      "3.3.0": {
+        "rev": "012341361ae3cc97a99959e7cb7c9ebd04d49572",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-config.git"
+      }
+    },
+    "zendframework/zend-escaper": {
+      "2.6.1": {
+        "rev": "3801caa21b0ca6aca57fa1c42b08d35c395ebd5f",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-escaper.git"
+      }
+    },
+    "zendframework/zend-eventmanager": {
+      "3.2.1": {
+        "rev": "a5e2583a211f73604691586b8406ff7296a946dd",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-eventmanager.git"
+      }
+    },
+    "zendframework/zend-filter": {
+      "2.9.2": {
+        "rev": "d78f2cdde1c31975e18b2a0753381ed7b61118ef",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-filter.git"
+      }
+    },
+    "zendframework/zend-form": {
+      "2.14.3": {
+        "rev": "0b1616c59b1f3df194284e26f98c81ad0c377871",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-form.git"
+      }
+    },
+    "zendframework/zend-http": {
+      "2.11.2": {
+        "rev": "e15e0ce45a2a4f642cd0b7b4f4d4d0366b729a1a",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-http.git"
+      }
+    },
+    "zendframework/zend-hydrator": {
+      "3.0.2": {
+        "rev": "f9987bfa25a89d6191e1dbb0413b3c35613f0271",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-hydrator.git"
+      }
+    },
+    "zendframework/zend-inputfilter": {
+      "2.10.1": {
+        "rev": "1f44a2e9bc394a71638b43bc7024b572fa65410e",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-inputfilter.git"
+      }
+    },
+    "zendframework/zend-json": {
+      "3.1.2": {
+        "rev": "e9ddb1192d93fe7fff846ac895249c39db75132b",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-json.git"
+      }
+    },
+    "zendframework/zend-loader": {
+      "2.6.1": {
+        "rev": "91da574d29b58547385b2298c020b257310898c6",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-loader.git"
+      }
+    },
+    "zendframework/zend-modulemanager": {
+      "2.8.4": {
+        "rev": "b2596d24b9a4e36a3cd114d35d3ad0918db9a243",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-modulemanager.git"
+      }
+    },
+    "zendframework/zend-mvc": {
+      "3.1.1": {
+        "rev": "236e7e1e3757e988fa06530c0a3f96a148858ae8",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-mvc.git"
+      }
+    },
+    "zendframework/zend-mvc-plugin-fileprg": {
+      "1.1.0": {
+        "rev": "87184f33dbb98eb57c7338a5f026cca29bdd6048",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-mvc-plugin-fileprg.git"
+      }
+    },
+    "zendframework/zend-mvc-plugin-flashmessenger": {
+      "1.2.0": {
+        "rev": "b66064eb59d3b124a133d259aac3d9dd7cb81706",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-mvc-plugin-flashmessenger.git"
+      }
+    },
+    "zendframework/zend-mvc-plugin-identity": {
+      "1.1.1": {
+        "rev": "21473f4fa5381ce947593c2fec0f5d7f18693b4a",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-mvc-plugin-identity.git"
+      }
+    },
+    "zendframework/zend-mvc-plugin-prg": {
+      "1.2.0": {
+        "rev": "090afc28bcf0f7043ed8d7da712ac1b5964ab7d7",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-mvc-plugin-prg.git"
+      }
+    },
+    "zendframework/zend-mvc-plugins": {
+      "1.0.1": {
+        "rev": "b00cda46b0a95cbd32ea0743d6d7dc3fd2263f1b",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-mvc-plugins.git"
+      }
+    },
+    "zendframework/zend-router": {
+      "3.3.0": {
+        "rev": "b113a4cfd910ee4723079fa58a9bcf3198631620",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-router.git"
+      }
+    },
+    "zendframework/zend-servicemanager": {
+      "3.4.0": {
+        "rev": "a1ed6140d0d3ee803fec96582593ed024950067b",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-servicemanager.git"
+      }
+    },
+    "zendframework/zend-session": {
+      "2.9.1": {
+        "rev": "c289c4d733ec23a389e25c7c451f4d062088511f",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-session.git"
+      }
+    },
+    "zendframework/zend-stdlib": {
+      "3.2.1": {
+        "rev": "66536006722aff9e62d1b331025089b7ec71c065",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-stdlib.git"
+      }
+    },
+    "zendframework/zend-uri": {
+      "2.7.1": {
+        "rev": "bfc4a5b9a309711e968d7c72afae4ac50c650083",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-uri.git"
+      }
+    },
+    "zendframework/zend-validator": {
+      "2.13.0": {
+        "rev": "b54acef1f407741c5347f2a97f899ab21f2229ef",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-validator.git"
+      }
+    },
+    "zendframework/zend-view": {
+      "2.11.4": {
+        "rev": "a8b1b2d9b52e191539be861a6529f8c8a0c06b9d",
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-view.git"
+      }
+    }
+  }
+}

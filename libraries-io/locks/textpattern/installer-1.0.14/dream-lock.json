@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "textpattern/installer",
+    "location": "",
+    "packages": {
+      "textpattern/installer": "1.0.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "openssl",
+      "pcre",
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=5.5.38"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "textpattern/installer": {
+      "1.0.14": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ],
+        [ "textpattern/lock", "4.8.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "textpattern/installer": {
+      "1.0.14": {
+        "rev": "cd940ecb17b063780b1c7e0617a4e2523176b921",
+        "type": "git",
+        "url": "https://github.com/gocom/textpattern-installer.git"
+      }
+    },
+    "textpattern/lock": {
+      "4.8.8": {
+        "rev": "b4d3dcd112936001f9fd3e5bf267f8a901944c9e",
+        "type": "git",
+        "url": "https://github.com/gocom/textpattern-lock.git"
+      }
+    }
+  }
+}

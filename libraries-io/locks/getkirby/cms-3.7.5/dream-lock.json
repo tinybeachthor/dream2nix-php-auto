@@ -1,0 +1,149 @@
+{
+  "_generic": {
+    "defaultPackage": "getkirby/cms",
+    "location": "",
+    "packages": {
+      "getkirby/cms": "3.7.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "SimpleXML",
+      "ctype",
+      "curl",
+      "dom",
+      "filter",
+      "hash",
+      "iconv",
+      "json",
+      "libxml",
+      "mbstring",
+      "openssl",
+      "gd"
+    ],
+    "phpSemver": ">=7.4.0 <8.2.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "claviska/simpleimage": {
+      "3.7.0": [
+        [ "league/color-extractor", "0.3.2" ]
+      ]
+    },
+    "filp/whoops": {
+      "2.14.5": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "getkirby/cms": {
+      "3.7.5": [
+        [ "claviska/simpleimage", "3.7.0" ],
+        [ "filp/whoops", "2.14.5" ],
+        [ "getkirby/composer-installer", "1.2.1" ],
+        [ "laminas/laminas-escaper", "2.10.0" ],
+        [ "michelf/php-smartypants", "1.8.1" ],
+        [ "phpmailer/phpmailer", "v6.6.4" ],
+        [ "symfony/polyfill-intl-idn", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "laminas/laminas-escaper": {
+      "2.10.0": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": [
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "claviska/simpleimage": {
+      "3.7.0": {
+        "rev": "abd15ced313c7b8041d7d73d8d2398b4f2510cf1",
+        "type": "git",
+        "url": "https://github.com/claviska/SimpleImage.git"
+      }
+    },
+    "filp/whoops": {
+      "2.14.5": {
+        "rev": "a63e5e8f26ebbebf8ed3c5c691637325512eb0dc",
+        "type": "git",
+        "url": "https://github.com/filp/whoops.git"
+      }
+    },
+    "getkirby/cms": {
+      "3.7.5": {
+        "rev": "021561f7444896fc9917eccb52768a6e715e9a74",
+        "type": "git",
+        "url": "https://github.com/getkirby/kirby.git"
+      }
+    },
+    "getkirby/composer-installer": {
+      "1.2.1": {
+        "rev": "c98ece30bfba45be7ce457e1102d1b169d922f3d",
+        "type": "git",
+        "url": "https://github.com/getkirby/composer-installer.git"
+      }
+    },
+    "laminas/laminas-escaper": {
+      "2.10.0": {
+        "rev": "58af67282db37d24e584a837a94ee55b9c7552be",
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-escaper.git"
+      }
+    },
+    "league/color-extractor": {
+      "0.3.2": {
+        "rev": "837086ec60f50c84c611c613963e4ad2e2aec806",
+        "type": "git",
+        "url": "https://github.com/thephpleague/color-extractor.git"
+      }
+    },
+    "michelf/php-smartypants": {
+      "1.8.1": {
+        "rev": "47d17c90a4dfd0ccf1f87e25c65e6c8012415aad",
+        "type": "git",
+        "url": "https://github.com/michelf/php-smartypants.git"
+      }
+    },
+    "phpmailer/phpmailer": {
+      "v6.6.4": {
+        "rev": "a94fdebaea6bd17f51be0c2373ab80d3d681269b",
+        "type": "git",
+        "url": "https://github.com/PHPMailer/PHPMailer.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": {
+        "rev": "59a8d271f00dd0e4c2e518104cc7963f655a1aa8",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-idn.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    }
+  }
+}

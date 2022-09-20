@@ -1,0 +1,167 @@
+{
+  "_generic": {
+    "defaultPackage": "codeception/module-rest",
+    "location": "",
+    "packages": {
+      "codeception/module-rest": "3.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "dom",
+      "json",
+      "libxml",
+      "simplexml",
+      "curl",
+      "mbstring",
+      "tokenizer",
+      "phar",
+      "xmlwriter",
+      "xml",
+      "ctype"
+    ],
+    "phpSemver": "^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "codeception/codeception": {
+      "5.0.x-dev": [
+        [ "codeception/lib-asserts", "2.0.0" ],
+        [ "codeception/stub", "4.0.2" ],
+        [ "phpunit/php-text-template", "2.0.4" ],
+        [ "phpunit/php-timer", "5.0.3" ],
+        [ "sebastian/diff", "4.0.4" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "codeception/lib-innerbrowser": {
+      "3.1.2": [
+        [ "codeception/codeception", "5.0.x-dev" ],
+        [ "codeception/lib-web", "1.0.1" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "codeception/lib-web": {
+      "1.0.1": [
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "codeception/lib-xml": {
+      "1.0.1": [
+        [ "codeception/lib-web", "1.0.1" ]
+      ]
+    },
+    "codeception/module-rest": {
+      "3.3.0": [
+        [ "codeception/lib-innerbrowser", "3.1.2" ],
+        [ "codeception/lib-xml", "1.0.1" ],
+        [ "codeception/stub", "4.0.2" ],
+        [ "codeception/util-universalframework", "1.0.0" ],
+        [ "justinrainbow/json-schema", "5.2.12" ],
+        [ "softcreatr/jsonpath", "0.8.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "codeception/codeception": {
+      "5.0.x-dev": {
+        "rev": "87e579002cedae2f751037ee3a028d26c9caff6c",
+        "type": "git",
+        "url": "https://github.com/Codeception/Codeception.git"
+      }
+    },
+    "codeception/lib-asserts": {
+      "2.0.0": {
+        "rev": "df9c8346722ddde4a20e6372073c09c8df87c296",
+        "type": "git",
+        "url": "https://github.com/Codeception/lib-asserts.git"
+      }
+    },
+    "codeception/lib-innerbrowser": {
+      "3.1.2": {
+        "rev": "bc91300ad6794c3ac5c83d80ea2460ad7a57250c",
+        "type": "git",
+        "url": "https://github.com/Codeception/lib-innerbrowser.git"
+      }
+    },
+    "codeception/lib-web": {
+      "1.0.1": {
+        "rev": "91e35c5a849479a626f79daf4754ca4ba4e3227f",
+        "type": "git",
+        "url": "https://github.com/Codeception/lib-web.git"
+      }
+    },
+    "codeception/lib-xml": {
+      "1.0.1": {
+        "rev": "d6e4c094fb83958bcf254a20815cea5ac31e98d0",
+        "type": "git",
+        "url": "https://github.com/Codeception/lib-xml.git"
+      }
+    },
+    "codeception/module-rest": {
+      "3.3.0": {
+        "rev": "57b35f9732bcebd744119c054fdb1b82345147a7",
+        "type": "git",
+        "url": "https://github.com/Codeception/module-rest.git"
+      }
+    },
+    "codeception/stub": {
+      "4.0.2": {
+        "rev": "18a148dacd293fc7b044042f5aa63a82b08bff5d",
+        "type": "git",
+        "url": "https://github.com/Codeception/Stub.git"
+      }
+    },
+    "codeception/util-universalframework": {
+      "1.0.0": {
+        "rev": "cc381f364c6d24f9b9c7b70a4c724949725f491a",
+        "type": "git",
+        "url": "https://github.com/Codeception/util-universalframework.git"
+      }
+    },
+    "justinrainbow/json-schema": {
+      "5.2.12": {
+        "rev": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
+        "type": "git",
+        "url": "https://github.com/justinrainbow/json-schema.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "2.0.4": {
+        "rev": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "5.0.3": {
+        "rev": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "sebastian/diff": {
+      "4.0.4": {
+        "rev": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "softcreatr/jsonpath": {
+      "0.8.0": {
+        "rev": "c2f4a164c2d9be754e2d47811157a31fe93067d0",
+        "type": "git",
+        "url": "https://github.com/SoftCreatR/JSONPath.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "_generic": {
+    "defaultPackage": "samsonos/js_core",
+    "location": "",
+    "packages": {
+      "samsonos/js_core": "0.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "container-interop/container-interop": {
+      "1.2.0": [
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "filp/whoops": {
+      "2.14.5": [
+        [ "psr/log", "3.0.0" ]
+      ]
+    },
+    "samsonframework/base": {
+      "1.0.6": [
+        [ "container-interop/container-interop", "1.2.0" ]
+      ]
+    },
+    "samsonframework/resource": {
+      "1.0.4": [
+        [ "samsonframework/base", "1.0.6" ]
+      ]
+    },
+    "samsonos/js_core": {
+      "0.0.1": [
+        [ "samsonos/php_core", "1.1.43" ]
+      ]
+    },
+    "samsonos/php_core": {
+      "1.1.43": [
+        [ "filp/whoops", "2.14.5" ],
+        [ "samsonframework/base", "1.0.6" ],
+        [ "samsonframework/resource", "1.0.4" ],
+        [ "samsonos/php_url", "v0.1" ],
+        [ "samsonphp/composer", "1.2.1" ],
+        [ "samsonphp/config", "1.0.11" ],
+        [ "samsonphp/event", "1.0.6" ]
+      ]
+    },
+    "samsonphp/config": {
+      "1.0.11": [
+        [ "samsonphp/event", "1.0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "container-interop/container-interop": {
+      "1.2.0": {
+        "rev": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+        "type": "git",
+        "url": "https://github.com/container-interop/container-interop.git"
+      }
+    },
+    "filp/whoops": {
+      "2.14.5": {
+        "rev": "a63e5e8f26ebbebf8ed3c5c691637325512eb0dc",
+        "type": "git",
+        "url": "https://github.com/filp/whoops.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "samsonframework/base": {
+      "1.0.6": {
+        "rev": "01911e93ce9da734d0cf117514e065efbc7bb686",
+        "type": "git",
+        "url": "https://github.com/samsonframework/base.git"
+      }
+    },
+    "samsonframework/resource": {
+      "1.0.4": {
+        "rev": "84b76d2fe592a02f3e73030eab4b1cff8d3be8f0",
+        "type": "git",
+        "url": "https://github.com/samsonframework/resource.git"
+      }
+    },
+    "samsonos/js_core": {
+      "0.0.1": {
+        "rev": "6c0dba0cda1db3b0c456646e5e260addd8517eac",
+        "type": "git",
+        "url": "https://github.com/samsonos/js_core.git"
+      }
+    },
+    "samsonos/php_core": {
+      "1.1.43": {
+        "rev": "8d9b71856cba514a228daf170588793c7b83e6d8",
+        "type": "git",
+        "url": "https://github.com/samsonos/php_core.git"
+      }
+    },
+    "samsonos/php_url": {
+      "v0.1": {
+        "rev": "f6b93b737fbf9be17562b9cb427aea661266a097",
+        "type": "git",
+        "url": "https://github.com/samsonos/php_url.git"
+      }
+    },
+    "samsonphp/composer": {
+      "1.2.1": {
+        "rev": "9862f5daa161d32b5d1fbd72a661674998525397",
+        "type": "git",
+        "url": "https://github.com/SamsonPHP/composer.git"
+      }
+    },
+    "samsonphp/config": {
+      "1.0.11": {
+        "rev": "991a84a396f962c90a364338f4a7cdf3f691881b",
+        "type": "git",
+        "url": "https://github.com/SamsonPHP/config.git"
+      }
+    },
+    "samsonphp/event": {
+      "1.0.6": {
+        "rev": "20faac4f6bf1291b89f1c7e550a8cd8035972d76",
+        "type": "git",
+        "url": "https://github.com/SamsonPHP/event.git"
+      }
+    }
+  }
+}

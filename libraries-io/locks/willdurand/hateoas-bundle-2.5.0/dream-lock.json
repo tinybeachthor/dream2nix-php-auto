@@ -1,0 +1,57 @@
+{
+  "_generic": {
+    "defaultPackage": "willdurand/hateoas-bundle",
+    "location": "",
+    "packages": {
+      "willdurand/hateoas-bundle": "2.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer",
+      "xml",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "json",
+      "mbstring",
+      "simplexml"
+    ],
+    "phpSemver": "^7.2 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "willdurand/hateoas-bundle": {
+      "2.5.0": [
+        [ "jms/serializer-bundle", "5.0.0-beta1" ],
+        [ "willdurand/hateoas", "3.8.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "jms/serializer-bundle": {
+      "5.0.0-beta1": {
+        "rev": "86db61a822889834e09eae0dfbf235151e5079e9",
+        "type": "git",
+        "url": "https://github.com/schmittjoh/JMSSerializerBundle.git"
+      }
+    },
+    "willdurand/hateoas": {
+      "3.8.0": {
+        "rev": "2f37b8823328a9ee170f2af7880ce02f9fabe019",
+        "type": "git",
+        "url": "https://github.com/willdurand/Hateoas.git"
+      }
+    },
+    "willdurand/hateoas-bundle": {
+      "2.5.0": {
+        "rev": "f9f09f02c464469ff4deb5dfe6619c4c1409ef44",
+        "type": "git",
+        "url": "https://github.com/willdurand/BazingaHateoasBundle.git"
+      }
+    }
+  }
+}

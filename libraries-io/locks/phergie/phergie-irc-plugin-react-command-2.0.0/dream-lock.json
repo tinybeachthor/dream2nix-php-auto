@@ -1,0 +1,124 @@
+{
+  "_generic": {
+    "defaultPackage": "phergie/phergie-irc-plugin-react-command",
+    "location": "",
+    "packages": {
+      "phergie/phergie-irc-plugin-react-command": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "phergie/phergie-irc-bot-react": {
+      "2.0.0": [
+        [ "phergie/phergie-irc-client-react", "3.0.0" ],
+        [ "phergie/phergie-irc-connection", "2.0.0" ],
+        [ "phergie/phergie-irc-event", "1.0.2" ]
+      ]
+    },
+    "phergie/phergie-irc-client-react": {
+      "3.0.0": [
+        [ "phergie/phergie-irc-connection", "2.0.0" ],
+        [ "phergie/phergie-irc-generator", "1.7.0" ],
+        [ "phergie/phergie-irc-parser", "2.2.0" ],
+        [ "react/event-loop", "v0.4.1" ],
+        [ "react/promise", "v2.2.1" ],
+        [ "react/stream", "v0.4.3" ]
+      ]
+    },
+    "phergie/phergie-irc-event": {
+      "1.0.2": [
+        [ "phergie/phergie-irc-connection", "2.0.0" ]
+      ]
+    },
+    "phergie/phergie-irc-plugin-react-command": {
+      "2.0.0": [
+        [ "phergie/phergie-irc-bot-react", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "phergie/phergie-irc-bot-react": {
+      "2.0.0": {
+        "rev": "d8587c51144dffe45dc925d87740a7f1e0ea23d4",
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-bot-react.git"
+      }
+    },
+    "phergie/phergie-irc-client-react": {
+      "3.0.0": {
+        "rev": "55efba19c7a48764d4b997d5e9d473e0f75db232",
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-client-react.git"
+      }
+    },
+    "phergie/phergie-irc-connection": {
+      "2.0.0": {
+        "rev": "c5aa9188693d7ac86dc4842f4dde3d63a523f741",
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-connection.git"
+      }
+    },
+    "phergie/phergie-irc-event": {
+      "1.0.2": {
+        "rev": "bccc65cd6371ed441984d23713cfbe197245b677",
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-event.git"
+      }
+    },
+    "phergie/phergie-irc-generator": {
+      "1.7.0": {
+        "rev": "d333d7ea44d90dc2defe2a13699f6d4c382c0193",
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-generator.git"
+      }
+    },
+    "phergie/phergie-irc-parser": {
+      "2.2.0": {
+        "rev": "cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce",
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-parser.git"
+      }
+    },
+    "phergie/phergie-irc-plugin-react-command": {
+      "2.0.0": {
+        "rev": "c4310f7856dbee97b91fe62ec3bf7e1b11a2db95",
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-plugin-react-command.git"
+      }
+    },
+    "react/event-loop": {
+      "v0.4.1": {
+        "rev": "18c5297087ca01de85518e2b55078f444144aa1b",
+        "type": "git",
+        "url": "https://github.com/reactphp/event-loop.git"
+      }
+    },
+    "react/promise": {
+      "v2.2.1": {
+        "rev": "3b6fca09c7d56321057fa8867c8dbe1abf648627",
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
+    "react/stream": {
+      "v0.4.3": {
+        "rev": "305b2328d2a2e157bc13b61a0f5c6e41b666b188",
+        "type": "git",
+        "url": "https://github.com/reactphp/stream.git"
+      }
+    }
+  }
+}

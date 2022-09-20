@@ -1,0 +1,162 @@
+{
+  "_generic": {
+    "defaultPackage": "amphp/byte-stream",
+    "location": "",
+    "packages": {
+      "amphp/byte-stream": "v2.0.0-beta.11"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "json",
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "mbstring",
+      "xml"
+    ],
+    "phpSemver": ">=8.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "amphp/amp": {
+      "v3.x-dev": [
+        [ "revolt/event-loop", "v0.2.5" ]
+      ]
+    },
+    "amphp/byte-stream": {
+      "v2.0.0-beta.11": [
+        [ "amphp/amp", "v3.x-dev" ],
+        [ "amphp/parser", "v1.0.0" ],
+        [ "amphp/php-cs-fixer-config", "v2.x-dev" ],
+        [ "amphp/phpunit-util", "v3.x-dev" ],
+        [ "amphp/serialization", "v1.0.0" ],
+        [ "amphp/sync", "v2.x-dev" ],
+        [ "jetbrains/phpstorm-stubs", "v2019.3" ],
+        [ "psalm/phar", "4.27.0" ],
+        [ "revolt/event-loop", "v0.2.5" ]
+      ]
+    },
+    "amphp/php-cs-fixer-config": {
+      "v2.x-dev": [
+        [ "friendsofphp/php-cs-fixer", "v3.11.0" ]
+      ]
+    },
+    "amphp/phpunit-util": {
+      "v3.x-dev": [
+        [ "amphp/amp", "v3.x-dev" ],
+        [ "revolt/event-loop", "v0.2.5" ]
+      ]
+    },
+    "amphp/sync": {
+      "v2.x-dev": [
+        [ "amphp/amp", "v3.x-dev" ],
+        [ "amphp/serialization", "v1.0.0" ],
+        [ "revolt/event-loop", "v0.2.5" ]
+      ]
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v3.11.0": [
+        [ "composer/xdebug-handler", "3.0.3" ],
+        [ "sebastian/diff", "4.0.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "amphp/amp": {
+      "v3.x-dev": {
+        "rev": "1301527a84b72b4da4d28cff06fda24b808d5bdd",
+        "type": "git",
+        "url": "https://github.com/amphp/amp.git"
+      }
+    },
+    "amphp/byte-stream": {
+      "v2.0.0-beta.11": {
+        "rev": "198ea3dae45de95880aa0b0fb9ec2dcc3a03c42b",
+        "type": "git",
+        "url": "https://github.com/amphp/byte-stream.git"
+      }
+    },
+    "amphp/parser": {
+      "v1.0.0": {
+        "rev": "f83e68f03d5b8e8e0365b8792985a7f341c57ae1",
+        "type": "git",
+        "url": "https://github.com/amphp/parser.git"
+      }
+    },
+    "amphp/php-cs-fixer-config": {
+      "v2.x-dev": {
+        "rev": "3c24119d0377eed2093d5c0f0541478cb75ea72d",
+        "type": "git",
+        "url": "https://github.com/amphp/php-cs-fixer-config.git"
+      }
+    },
+    "amphp/phpunit-util": {
+      "v3.x-dev": {
+        "rev": "270a425a0239dacc3abf1cf8fb440f5f7327a35b",
+        "type": "git",
+        "url": "https://github.com/amphp/phpunit-util.git"
+      }
+    },
+    "amphp/serialization": {
+      "v1.0.0": {
+        "rev": "693e77b2fb0b266c3c7d622317f881de44ae94a1",
+        "type": "git",
+        "url": "https://github.com/amphp/serialization.git"
+      }
+    },
+    "amphp/sync": {
+      "v2.x-dev": {
+        "rev": "c1bc972d433c4c3cea63f9765f2661f5864f90ec",
+        "type": "git",
+        "url": "https://github.com/amphp/sync.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v3.11.0": {
+        "rev": "7dcdea3f2f5f473464e835be9be55283ff8cfdc3",
+        "type": "git",
+        "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git"
+      }
+    },
+    "jetbrains/phpstorm-stubs": {
+      "v2019.3": {
+        "rev": "883b6facd78e01c0743b554af86fa590c2573f40",
+        "type": "git",
+        "url": "https://github.com/JetBrains/phpstorm-stubs.git"
+      }
+    },
+    "psalm/phar": {
+      "4.27.0": {
+        "rev": "a38e5b3fc50be595cad3913e0efa8b49fcb83f3d",
+        "type": "git",
+        "url": "https://github.com/psalm/phar.git"
+      }
+    },
+    "revolt/event-loop": {
+      "v0.2.5": {
+        "rev": "4e7455506d9ff61f3705b76a20a8f12ad4dc1552",
+        "type": "git",
+        "url": "https://github.com/revoltphp/event-loop.git"
+      }
+    },
+    "sebastian/diff": {
+      "4.0.4": {
+        "rev": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    }
+  }
+}

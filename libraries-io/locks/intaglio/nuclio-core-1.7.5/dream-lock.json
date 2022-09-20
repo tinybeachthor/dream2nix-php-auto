@@ -1,0 +1,95 @@
+{
+  "_generic": {
+    "defaultPackage": "intaglio/nuclio-core",
+    "location": "",
+    "packages": {
+      "intaglio/nuclio-core": "1.7.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {
+    "intaglio/nuclio-plugin-config": {
+      "1.1.0": [
+        [ "intaglio/nuclio-core", "1.7.5" ]
+      ]
+    },
+    "intaglio/nuclio-plugin-console": {
+      "1.0.3": [
+        [ "intaglio/nuclio-core", "1.7.5" ]
+      ]
+    },
+    "intaglio/nuclio-plugin-console-application": {
+      "1.1.0": [
+        [ "intaglio/nuclio-core", "1.7.5" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "intaglio/nuclio-core": {
+      "1.7.5": [
+        [ "filp/whoops", "1.1.10" ],
+        [ "intaglio/nuclio-plugin-config", "1.1.0" ],
+        [ "intaglio/nuclio-plugin-console", "1.0.3" ],
+        [ "intaglio/nuclio-plugin-console-application", "1.1.0" ]
+      ]
+    },
+    "intaglio/nuclio-plugin-config": {
+      "1.1.0": [
+        [ "intaglio/nuclio-core", "1.7.5" ]
+      ]
+    },
+    "intaglio/nuclio-plugin-console": {
+      "1.0.3": [
+        [ "intaglio/nuclio-core", "1.7.5" ]
+      ]
+    },
+    "intaglio/nuclio-plugin-console-application": {
+      "1.1.0": [
+        [ "intaglio/nuclio-core", "1.7.5" ],
+        [ "intaglio/nuclio-plugin-console", "1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "filp/whoops": {
+      "1.1.10": {
+        "rev": "72538eeb70bbfb11964412a3d098d109efd012f7",
+        "type": "git",
+        "url": "https://github.com/filp/whoops.git"
+      }
+    },
+    "intaglio/nuclio-core": {
+      "1.7.5": {
+        "rev": "b60be78947fd876e02285b6af8715c9da9fdabd9",
+        "type": "git",
+        "url": "https://bitbucket.org/zinios/nuclio-core.git"
+      }
+    },
+    "intaglio/nuclio-plugin-config": {
+      "1.1.0": {
+        "rev": "f43f48b1249ad605bcb483785ed76b31aef06641",
+        "type": "git",
+        "url": "https://bitbucket.org/zinios/nuclio-plugin-config.git"
+      }
+    },
+    "intaglio/nuclio-plugin-console": {
+      "1.0.3": {
+        "rev": "49749d0682493c453610fba9f3c802f2ccfa87ba",
+        "type": "git",
+        "url": "https://bitbucket.org/zinios/nuclio-plugin-console.git"
+      }
+    },
+    "intaglio/nuclio-plugin-console-application": {
+      "1.1.0": {
+        "rev": "b8540cc494c2c25ae08b1860a0cca070c44f9af6",
+        "type": "git",
+        "url": "https://bitbucket.org/zinios/nuclio-plugin-console-application.git"
+      }
+    }
+  }
+}

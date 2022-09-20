@@ -1,0 +1,89 @@
+{
+  "_generic": {
+    "defaultPackage": "joomla/test",
+    "location": "",
+    "packages": {
+      "joomla/test": "1.4.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "json",
+      "mbstring",
+      "xml",
+      "simplexml"
+    ],
+    "phpSemver": "^5.3.10|^7.0|^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "joomla/database": {
+      "1.8.0": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "joomla/test": {
+      "1.4.3": [
+        [ "joomla/coding-standards", "2.0-rc4" ],
+        [ "joomla/database", "1.8.0" ],
+        [ "phpunit/phpunit", "dev-main" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "dev-main": [
+        [ "phar-io/version", "3.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "joomla/coding-standards": {
+      "2.0-rc4": {
+        "rev": "d6a62eab09e342be51be2b30030b61071e26c8ca",
+        "type": "git",
+        "url": "https://github.com/joomla/coding-standards.git"
+      }
+    },
+    "joomla/database": {
+      "1.8.0": {
+        "rev": "26a7fcde7285b17647d4895c505ade3862c5e860",
+        "type": "git",
+        "url": "https://github.com/joomla-framework/database.git"
+      }
+    },
+    "joomla/test": {
+      "1.4.3": {
+        "rev": "68c3ba3ee4f2767fac35659acdf9a6bd09b6ae50",
+        "type": "git",
+        "url": "https://github.com/joomla-framework/test.git"
+      }
+    },
+    "phar-io/version": {
+      "3.2.1": {
+        "rev": "4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
+        "type": "git",
+        "url": "https://github.com/phar-io/version.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "dev-main": {
+        "rev": "76bbb367dffdf3fdc8c86abc8e1ae8f1b624bc40",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    }
+  }
+}

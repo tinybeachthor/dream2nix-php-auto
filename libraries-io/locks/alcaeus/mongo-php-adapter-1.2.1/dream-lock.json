@@ -1,0 +1,95 @@
+{
+  "_generic": {
+    "defaultPackage": "alcaeus/mongo-php-adapter",
+    "location": "",
+    "packages": {
+      "alcaeus/mongo-php-adapter": "1.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "ctype",
+      "hash",
+      "mongodb",
+      "json",
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": "^5.6 || ^7.0 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "alcaeus/mongo-php-adapter": {
+      "1.2.1": [
+        [ "mongodb/mongodb", "1.13.1" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ],
+        [ "symfony/phpunit-bridge", "v5.4.11" ]
+      ]
+    },
+    "mongodb/mongodb": {
+      "1.13.1": [
+        [ "jean85/pretty-package-versions", "2.0.5" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/phpunit-bridge": {
+      "v5.4.11": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "alcaeus/mongo-php-adapter": {
+      "1.2.1": {
+        "rev": "e9f2cb6ab4ccc59f28eba1360aba96051e02fa33",
+        "type": "git",
+        "url": "https://github.com/alcaeus/mongo-php-adapter.git"
+      }
+    },
+    "jean85/pretty-package-versions": {
+      "2.0.5": {
+        "rev": "ae547e455a3d8babd07b96966b17d7fd21d9c6af",
+        "type": "git",
+        "url": "https://github.com/Jean85/pretty-package-versions.git"
+      }
+    },
+    "mongodb/mongodb": {
+      "1.13.1": {
+        "rev": "0b8555705d2f9c12ab2e5cebee6b594cdfe6b4e0",
+        "type": "git",
+        "url": "https://github.com/mongodb/mongo-php-library.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/phpunit-bridge": {
+      "v5.4.11": {
+        "rev": "31b1549f54b1a1890e725a0c1c8c2de6ef2205b3",
+        "type": "git",
+        "url": "https://github.com/symfony/phpunit-bridge.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    }
+  }
+}

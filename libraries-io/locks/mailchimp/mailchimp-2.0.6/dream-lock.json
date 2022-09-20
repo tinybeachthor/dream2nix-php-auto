@@ -1,0 +1,78 @@
+{
+  "_generic": {
+    "defaultPackage": "mailchimp/mailchimp",
+    "location": "",
+    "packages": {
+      "mailchimp/mailchimp": "2.0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "iconv",
+      "tokenizer"
+    ],
+    "phpSemver": ">=5.2.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "apigen/apigen": {
+      "dev-master": [
+        [ "andrewsville/php-token-reflection", "1.3.1" ],
+        [ "dg/texy", "v2.4" ],
+        [ "kukulich/fshl", "2.1.0" ],
+        [ "nette/nette", "v2.1.1" ]
+      ]
+    },
+    "mailchimp/mailchimp": {
+      "2.0.6": [
+        [ "apigen/apigen", "dev-master" ]
+      ]
+    }
+  },
+  "sources": {
+    "andrewsville/php-token-reflection": {
+      "1.3.1": {
+        "rev": "3e3a36de17f32889fd2d4b8108af16d3033ce9bf",
+        "type": "git",
+        "url": "https://github.com/Andrewsville/PHP-Token-Reflection.git"
+      }
+    },
+    "apigen/apigen": {
+      "dev-master": {
+        "rev": "c6c0af2b5ac8128320f82e971b19756439fac42c",
+        "type": "git",
+        "url": "https://github.com/apigen/apigen"
+      }
+    },
+    "dg/texy": {
+      "v2.4": {
+        "rev": "67d02cd95e4aaa7dae96b24a7d04ba924d641015",
+        "type": "git",
+        "url": "https://github.com/dg/texy.git"
+      }
+    },
+    "kukulich/fshl": {
+      "2.1.0": {
+        "rev": "974c294ade5d76c0c16b6fe3fd3a584ba999b24f",
+        "type": "git",
+        "url": "https://github.com/kukulich/fshl.git"
+      }
+    },
+    "mailchimp/mailchimp": {
+      "2.0.6": {
+        "rev": "7ac99b5ac746d5875c5c350ad7e3b83674c83ec1",
+        "type": "git",
+        "url": "https://bitbucket.org/mailchimp/mailchimp-api-php.git"
+      }
+    },
+    "nette/nette": {
+      "v2.1.1": {
+        "rev": "9e7e5fc5921053172dbacecda2c06d749f89a71b",
+        "type": "git",
+        "url": "https://github.com/nette/nette.git"
+      }
+    }
+  }
+}

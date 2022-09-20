@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "indigophp/doctrine-annotation-autoload",
+    "location": "",
+    "packages": {
+      "indigophp/doctrine-annotation-autoload": "v0.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer"
+    ],
+    "phpSemver": ">=5.4"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "doctrine/annotations": {
+      "1.13.3": [
+        [ "doctrine/lexer", "1.2.3" ],
+        [ "psr/cache", "3.0.0" ]
+      ]
+    },
+    "indigophp/doctrine-annotation-autoload": {
+      "v0.1.0": [
+        [ "doctrine/annotations", "1.13.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/annotations": {
+      "1.13.3": {
+        "rev": "648b0343343565c4a056bfc8392201385e8d89f0",
+        "type": "git",
+        "url": "https://github.com/doctrine/annotations.git"
+      }
+    },
+    "doctrine/lexer": {
+      "1.2.3": {
+        "rev": "c268e882d4dbdd85e36e4ad69e02dc284f89d229",
+        "type": "git",
+        "url": "https://github.com/doctrine/lexer.git"
+      }
+    },
+    "indigophp/doctrine-annotation-autoload": {
+      "v0.1.0": {
+        "rev": "5c2018e7b1277f691600e69b4d3177b706e8aa80",
+        "type": "git",
+        "url": "https://github.com/indigophp/doctrine-annotation-autoload.git"
+      }
+    },
+    "psr/cache": {
+      "3.0.0": {
+        "rev": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    }
+  }
+}

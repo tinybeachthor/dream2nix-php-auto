@@ -1,0 +1,84 @@
+{
+  "_generic": {
+    "defaultPackage": "snc/redis-bundle",
+    "location": "",
+    "packages": {
+      "snc/redis-bundle": "4.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "pdo_sqlite",
+      "redis",
+      "xml",
+      "tokenizer",
+      "ctype",
+      "dom",
+      "libxml",
+      "json",
+      "pcre",
+      "reflection",
+      "spl",
+      "phar",
+      "xmlwriter",
+      "filter",
+      "mbstring",
+      "simplexml"
+    ],
+    "phpSemver": "^7.4 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "snc/redis-bundle": {
+      "4.2.1": [
+        [ "monolog/monolog", "dev-main" ],
+        [ "symfony/profiler-pack", "v1.0.6" ]
+      ]
+    },
+    "symfony/profiler-pack": {
+      "v1.0.6": [
+        [ "symfony/stopwatch", "6.2.x-dev" ],
+        [ "symfony/web-profiler-bundle", "6.2.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "monolog/monolog": {
+      "dev-main": {
+        "rev": "e68c00670e310e276da9624d75965f5d2f28aa80",
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "snc/redis-bundle": {
+      "4.2.1": {
+        "rev": "93db8c437c1337f1dd04fc46abf7164c771685da",
+        "type": "git",
+        "url": "https://github.com/snc/SncRedisBundle.git"
+      }
+    },
+    "symfony/profiler-pack": {
+      "v1.0.6": {
+        "rev": "bcd6e80af9819454ac18594362e7875fd1d771c7",
+        "type": "git",
+        "url": "https://github.com/symfony/profiler-pack.git"
+      }
+    },
+    "symfony/stopwatch": {
+      "6.2.x-dev": {
+        "rev": "77dedae82ce2a26e2e9b481855473fc3b3e4e54d",
+        "type": "git",
+        "url": "https://github.com/symfony/stopwatch.git"
+      }
+    },
+    "symfony/web-profiler-bundle": {
+      "6.2.x-dev": {
+        "rev": "7785b9981319a3e74d53037486dd1500deac500f",
+        "type": "git",
+        "url": "https://github.com/symfony/web-profiler-bundle.git"
+      }
+    }
+  }
+}

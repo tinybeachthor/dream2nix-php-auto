@@ -1,0 +1,76 @@
+{
+  "_generic": {
+    "defaultPackage": "composer/xdebug-handler",
+    "location": "",
+    "packages": {
+      "composer/xdebug-handler": "3.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpSemver": "^7.2.5 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "composer/xdebug-handler": {
+      "3.0.3": [
+        [ "composer/pcre", "3.0.0" ],
+        [ "phpstan/phpstan", "1.8.5" ],
+        [ "phpstan/phpstan-strict-rules", "1.4.3" ],
+        [ "psr/log", "3.0.0" ],
+        [ "symfony/phpunit-bridge", "v6.1.3" ]
+      ]
+    },
+    "phpstan/phpstan-strict-rules": {
+      "1.4.3": [
+        [ "phpstan/phpstan", "1.8.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "composer/pcre": {
+      "3.0.0": {
+        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
+        "type": "git",
+        "url": "https://github.com/composer/pcre.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "1.8.5": {
+        "rev": "f6598a5ff12ca4499a836815e08b4d77a2ddeb20",
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "phpstan/phpstan-strict-rules": {
+      "1.4.3": {
+        "rev": "431b3d6e8040075de196680cd5bc95735987b4ae",
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-strict-rules.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/phpunit-bridge": {
+      "v6.1.3": {
+        "rev": "75c2fa71d049c1f48e39d208c0cefba97e66335a",
+        "type": "git",
+        "url": "https://github.com/symfony/phpunit-bridge.git"
+      }
+    }
+  }
+}

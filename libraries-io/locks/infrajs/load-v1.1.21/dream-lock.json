@@ -1,0 +1,73 @@
+{
+  "_generic": {
+    "defaultPackage": "infrajs/load",
+    "location": "",
+    "packages": {
+      "infrajs/load": "v1.1.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "infrajs/load": {
+      "v1.1.21": [
+        [ "infrajs/ans", "v1.0.15" ],
+        [ "infrajs/nostore", "v1.1.15" ],
+        [ "infrajs/path", "v1.1.34" ]
+      ]
+    },
+    "infrajs/nostore": {
+      "v1.1.15": [
+        [ "infrajs/ans", "v1.0.15" ],
+        [ "infrajs/each", "v1.0.7" ]
+      ]
+    },
+    "infrajs/path": {
+      "v1.1.34": [
+        [ "infrajs/nostore", "v1.1.15" ]
+      ]
+    }
+  },
+  "sources": {
+    "infrajs/ans": {
+      "v1.0.15": {
+        "rev": "6508aa9b27f95f3c1b0c84e17d15cfadbf815272",
+        "type": "git",
+        "url": "https://github.com/infrajs/ans.git"
+      }
+    },
+    "infrajs/each": {
+      "v1.0.7": {
+        "rev": "bfb7c2b7d33934eff551ed35423ad53f4f3e5fbe",
+        "type": "git",
+        "url": "https://github.com/infrajs/each.git"
+      }
+    },
+    "infrajs/load": {
+      "v1.1.21": {
+        "rev": "df8c4a619f967902491c70d417796800b35bd7b6",
+        "type": "git",
+        "url": "https://github.com/infrajs/load.git"
+      }
+    },
+    "infrajs/nostore": {
+      "v1.1.15": {
+        "rev": "199680722c142dbd4b39358374a9d727585b6732",
+        "type": "git",
+        "url": "https://github.com/infrajs/nostore.git"
+      }
+    },
+    "infrajs/path": {
+      "v1.1.34": {
+        "rev": "264c950ade35d53a27d060893ca66ff123d64818",
+        "type": "git",
+        "url": "https://github.com/infrajs/path.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "sllh/composer-lint",
+    "location": "",
+    "packages": {
+      "sllh/composer-lint": "v2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "openssl",
+      "pcre"
+    ],
+    "phpSemver": "^7.4 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "sllh/composer-lint": {
+      "v2.0.0": [
+        [ "symfony/phpunit-bridge", "v5.4.11" ]
+      ]
+    },
+    "symfony/phpunit-bridge": {
+      "v5.4.11": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "sllh/composer-lint": {
+      "v2.0.0": {
+        "rev": "acf0b38f1b4efca1b11e7589fa57f7749adf744f",
+        "type": "git",
+        "url": "https://github.com/soullivaneuh/composer-lint.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/phpunit-bridge": {
+      "v5.4.11": {
+        "rev": "31b1549f54b1a1890e725a0c1c8c2de6ef2205b3",
+        "type": "git",
+        "url": "https://github.com/symfony/phpunit-bridge.git"
+      }
+    }
+  }
+}

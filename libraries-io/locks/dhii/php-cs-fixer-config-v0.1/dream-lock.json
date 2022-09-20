@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "dhii/php-cs-fixer-config",
+    "location": "",
+    "packages": {
+      "dhii/php-cs-fixer-config": "v0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "tokenizer",
+      "curl",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl",
+      "simplexml"
+    ],
+    "phpSemver": "^5.4 | ^7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dhii/php-cs-fixer-config": {
+      "v0.1": [
+        [ "codeclimate/php-test-reporter", "dev-master" ]
+      ]
+    }
+  },
+  "sources": {
+    "codeclimate/php-test-reporter": {
+      "dev-master": {
+        "rev": "7ef0a54706361d95392a90626cc8a8acab622329",
+        "type": "git",
+        "url": "https://github.com/codeclimate/php-test-reporter.git"
+      }
+    },
+    "dhii/php-cs-fixer-config": {
+      "v0.1": {
+        "rev": "fc2f45d1f822bff7d871ba3c4c9750ad66f5ab0c",
+        "type": "git",
+        "url": "https://github.com/Dhii/php-cs-fixer-config.git"
+      }
+    }
+  }
+}
