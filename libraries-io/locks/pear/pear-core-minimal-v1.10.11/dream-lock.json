@@ -1,0 +1,52 @@
+{
+  "_generic": {
+    "defaultPackage": "pear/pear-core-minimal",
+    "location": "",
+    "packages": {
+      "pear/pear-core-minimal": "v1.10.11"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpPackageType": {
+      "pear/console_getopt@v1.4.3": "library",
+      "pear/pear-core-minimal@v1.10.11": "library",
+      "pear/pear_exception@v1.0.2": "class"
+    },
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pear/pear-core-minimal": {
+      "v1.10.11": [
+        [ "pear/console_getopt", "v1.4.3" ],
+        [ "pear/pear_exception", "v1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "pear/console_getopt": {
+      "v1.4.3": {
+        "rev": "a41f8d3e668987609178c7c4a9fe48fecac53fa0",
+        "type": "git",
+        "url": "https://github.com/pear/Console_Getopt.git"
+      }
+    },
+    "pear/pear-core-minimal": {
+      "v1.10.11": {
+        "rev": "68d0d32ada737153b7e93b8d3c710ebe70ac867d",
+        "type": "git",
+        "url": "https://github.com/pear/pear-core-minimal.git"
+      }
+    },
+    "pear/pear_exception": {
+      "v1.0.2": {
+        "rev": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
+        "type": "git",
+        "url": "https://github.com/pear/PEAR_Exception.git"
+      }
+    }
+  }
+}

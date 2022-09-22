@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "sebastian/finder-facade",
+    "location": "",
+    "packages": {
+      "sebastian/finder-facade": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "ctype",
+      "dom"
+    ],
+    "phpPackageType": {
+      "sebastian/finder-facade@2.0.0": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library",
+      "symfony/finder@v5.4.11": "library",
+      "symfony/polyfill-php80@v1.26.0": "library",
+      "theseer/fdomdocument@1.6.7": "library"
+    },
+    "phpSemver": "^7.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "sebastian/finder-facade": {
+      "2.0.0": [
+        [ "symfony/finder", "v5.4.11" ],
+        [ "theseer/fdomdocument", "1.6.7" ]
+      ]
+    },
+    "symfony/finder": {
+      "v5.4.11": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "sebastian/finder-facade": {
+      "2.0.0": {
+        "rev": "9d3e74b845a2ce50e19b25b5f0c2718e153bee6c",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/finder-facade.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/finder": {
+      "v5.4.11": {
+        "rev": "7872a66f57caffa2916a584db1aa7f12adc76f8c",
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "theseer/fdomdocument": {
+      "1.6.7": {
+        "rev": "5cddd4f9076a9a2b85c5135935bba2dcb3ed7574",
+        "type": "git",
+        "url": "https://github.com/theseer/fDOMDocument.git"
+      }
+    }
+  }
+}

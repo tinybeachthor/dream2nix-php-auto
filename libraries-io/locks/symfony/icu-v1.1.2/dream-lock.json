@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "symfony/icu",
+    "location": "",
+    "packages": {
+      "symfony/icu": "v1.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "intl"
+    ],
+    "phpPackageType": {
+      "symfony/icu@v1.1.2": "library",
+      "symfony/intl@v2.8.52": "library",
+      "symfony/polyfill-intl-icu@v1.26.0": "library",
+      "symfony/polyfill-php54@v1.20.0": "metapackage"
+    },
+    "phpSemver": ">=5.3.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "symfony/icu": {
+      "v1.1.2": [
+        [ "symfony/intl", "v2.8.52" ]
+      ]
+    },
+    "symfony/intl": {
+      "v2.8.52": [
+        [ "symfony/polyfill-intl-icu", "v1.26.0" ],
+        [ "symfony/polyfill-php54", "v1.20.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "symfony/icu": {
+      "v1.1.2": {
+        "rev": "229730a14ccac63bb3c5d9f0494fcd27140c0dd3",
+        "type": "git",
+        "url": "https://github.com/symfony/icu.git"
+      }
+    },
+    "symfony/intl": {
+      "v2.8.52": {
+        "rev": "7c332001c3c3557c136eba4908f642dca41769de",
+        "type": "git",
+        "url": "https://github.com/symfony/intl.git"
+      }
+    },
+    "symfony/polyfill-intl-icu": {
+      "v1.26.0": {
+        "rev": "e407643d610e5f2c8a4b14189150f68934bf5e48",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-icu.git"
+      }
+    },
+    "symfony/polyfill-php54": {
+      "v1.20.0": {
+        "rev": "37285b1d5d13f37c8bee546d8d2ad0353460c4c7",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php54.git"
+      }
+    }
+  }
+}

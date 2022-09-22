@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "cakephp/core",
+    "location": "",
+    "packages": {
+      "cakephp/core": "4.3.0-RC2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpPackageType": {
+      "cakephp/core@4.3.0-RC2": "library",
+      "cakephp/utility@4.4.5": "library"
+    },
+    "phpSemver": ">=7.2.0"
+  },
+  "cyclicDependencies": {
+    "cakephp/utility": {
+      "4.4.5": [
+        [ "cakephp/core", "4.3.0-RC2" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "cakephp/core": {
+      "4.3.0-RC2": [
+        [ "cakephp/utility", "4.4.5" ]
+      ]
+    },
+    "cakephp/utility": {
+      "4.4.5": [
+        [ "cakephp/core", "4.3.0-RC2" ]
+      ]
+    }
+  },
+  "sources": {
+    "cakephp/core": {
+      "4.3.0-RC2": {
+        "rev": "89069f0d6964f63b297df3f044a3cd08047e64a1",
+        "type": "git",
+        "url": "https://github.com/cakephp/core.git"
+      }
+    },
+    "cakephp/utility": {
+      "4.4.5": {
+        "rev": "7d28a3935f746fcbbfb38e8dddaa9c9d48b251c5",
+        "type": "git",
+        "url": "https://github.com/cakephp/utility.git"
+      }
+    }
+  }
+}

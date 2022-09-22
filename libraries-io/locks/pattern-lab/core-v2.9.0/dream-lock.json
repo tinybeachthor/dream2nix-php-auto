@@ -1,0 +1,160 @@
+{
+  "_generic": {
+    "defaultPackage": "pattern-lab/core",
+    "location": "",
+    "packages": {
+      "pattern-lab/core": "v2.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "mbstring"
+    ],
+    "phpPackageType": {
+      "alchemy/zippy@0.3.5": "library",
+      "doctrine/collections@v1.4.0": "library",
+      "kevinlebrun/colors.php@1.0.3": "library",
+      "michelf/php-markdown@1.9.1": "library",
+      "pattern-lab/core@v2.9.0": "library",
+      "seld/jsonlint@1.9.0": "library",
+      "shudrum/array-finder@v1.1.0": "library",
+      "symfony/event-dispatcher@v3.4.47": "library",
+      "symfony/filesystem@v3.4.47": "library",
+      "symfony/finder@v3.4.47": "library",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/process@v3.4.47": "library",
+      "symfony/yaml@v3.4.47": "library"
+    },
+    "phpSemver": ">=5.4"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "alchemy/zippy": {
+      "0.3.5": [
+        [ "doctrine/collections", "v1.4.0" ],
+        [ "symfony/filesystem", "v3.4.47" ],
+        [ "symfony/process", "v3.4.47" ]
+      ]
+    },
+    "pattern-lab/core": {
+      "v2.9.0": [
+        [ "alchemy/zippy", "0.3.5" ],
+        [ "doctrine/collections", "v1.4.0" ],
+        [ "kevinlebrun/colors.php", "1.0.3" ],
+        [ "michelf/php-markdown", "1.9.1" ],
+        [ "seld/jsonlint", "1.9.0" ],
+        [ "shudrum/array-finder", "v1.1.0" ],
+        [ "symfony/event-dispatcher", "v3.4.47" ],
+        [ "symfony/filesystem", "v3.4.47" ],
+        [ "symfony/finder", "v3.4.47" ],
+        [ "symfony/process", "v3.4.47" ],
+        [ "symfony/yaml", "v3.4.47" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v3.4.47": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v3.4.47": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "alchemy/zippy": {
+      "0.3.5": {
+        "rev": "92c773f7bbe47fdb30c61dbaea3dcbf4dd13a40a",
+        "type": "git",
+        "url": "https://github.com/alchemy-fr/Zippy.git"
+      }
+    },
+    "doctrine/collections": {
+      "v1.4.0": {
+        "rev": "1a4fb7e902202c33cce8c55989b945612943c2ba",
+        "type": "git",
+        "url": "https://github.com/doctrine/collections.git"
+      }
+    },
+    "kevinlebrun/colors.php": {
+      "1.0.3": {
+        "rev": "cdda5eee41314b87cd5a8bb91b1ffc7c0210e673",
+        "type": "git",
+        "url": "https://github.com/kevinlebrun/colors.php.git"
+      }
+    },
+    "michelf/php-markdown": {
+      "1.9.1": {
+        "rev": "5024d623c1a057dcd2d076d25b7d270a1d0d55f3",
+        "type": "git",
+        "url": "https://github.com/michelf/php-markdown.git"
+      }
+    },
+    "pattern-lab/core": {
+      "v2.9.0": {
+        "rev": "009399c5cb175f1d5a1fafc7b07abc1f2d13a0a3",
+        "type": "git",
+        "url": "https://github.com/pattern-lab/patternlab-php-core.git"
+      }
+    },
+    "seld/jsonlint": {
+      "1.9.0": {
+        "rev": "4211420d25eba80712bff236a98960ef68b866b7",
+        "type": "git",
+        "url": "https://github.com/Seldaek/jsonlint.git"
+      }
+    },
+    "shudrum/array-finder": {
+      "v1.1.0": {
+        "rev": "42380f01017371b7a1e8e02b0bf12cb534e454d7",
+        "type": "git",
+        "url": "https://github.com/Shudrum/ArrayFinder.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v3.4.47": {
+        "rev": "31fde73757b6bad247c54597beef974919ec6860",
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v3.4.47": {
+        "rev": "e58d7841cddfed6e846829040dca2cca0ebbbbb3",
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v3.4.47": {
+        "rev": "b6b6ad3db3edb1b4b1c1896b1975fb684994de6e",
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/process": {
+      "v3.4.47": {
+        "rev": "b8648cf1d5af12a44a51d07ef9bf980921f15fca",
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/yaml": {
+      "v3.4.47": {
+        "rev": "88289caa3c166321883f67fe5130188ebbb47094",
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    }
+  }
+}

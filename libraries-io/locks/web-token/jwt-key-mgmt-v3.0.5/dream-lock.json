@@ -1,0 +1,114 @@
+{
+  "_generic": {
+    "defaultPackage": "web-token/jwt-key-mgmt",
+    "location": "",
+    "packages": {
+      "web-token/jwt-key-mgmt": "v3.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "openssl",
+      "json",
+      "mbstring"
+    ],
+    "phpPackageType": {
+      "brick/math@0.10.2": "library",
+      "fgrosse/phpasn1@v2.4.0": "library",
+      "paragonie/constant_time_encoding@v2.6.3": "library",
+      "psr/http-client@1.0.1": "library",
+      "psr/http-factory@1.0.1": "library",
+      "psr/http-message@1.0.1": "library",
+      "web-token/jwt-core@3.1.2": "library",
+      "web-token/jwt-key-mgmt@v3.0.5": "library"
+    },
+    "phpSemver": ">=8.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "psr/http-client": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "web-token/jwt-core": {
+      "3.1.2": [
+        [ "brick/math", "0.10.2" ],
+        [ "fgrosse/phpasn1", "v2.4.0" ],
+        [ "paragonie/constant_time_encoding", "v2.6.3" ]
+      ]
+    },
+    "web-token/jwt-key-mgmt": {
+      "v3.0.5": [
+        [ "psr/http-client", "1.0.1" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "web-token/jwt-core", "3.1.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "brick/math": {
+      "0.10.2": {
+        "rev": "459f2781e1a08d52ee56b0b1444086e038561e3f",
+        "type": "git",
+        "url": "https://github.com/brick/math.git"
+      }
+    },
+    "fgrosse/phpasn1": {
+      "v2.4.0": {
+        "rev": "eef488991d53e58e60c9554b09b1201ca5ba9296",
+        "type": "git",
+        "url": "https://github.com/fgrosse/PHPASN1.git"
+      }
+    },
+    "paragonie/constant_time_encoding": {
+      "v2.6.3": {
+        "rev": "58c3f47f650c94ec05a151692652a868995d2938",
+        "type": "git",
+        "url": "https://github.com/paragonie/constant_time_encoding.git"
+      }
+    },
+    "psr/http-client": {
+      "1.0.1": {
+        "rev": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+        "type": "git",
+        "url": "https://github.com/php-fig/http-client.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "web-token/jwt-core": {
+      "3.1.2": {
+        "rev": "4d956e786a4e35d54c74787ebff840a0311c5e83",
+        "type": "git",
+        "url": "https://github.com/web-token/jwt-core.git"
+      }
+    },
+    "web-token/jwt-key-mgmt": {
+      "v3.0.5": {
+        "rev": "6f0e3ab1a0158d0de0cc5930e7a0a2e89b2b35ee",
+        "type": "git",
+        "url": "https://github.com/web-token/jwt-key-mgmt.git"
+      }
+    }
+  }
+}

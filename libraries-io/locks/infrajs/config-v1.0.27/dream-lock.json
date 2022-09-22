@@ -1,0 +1,95 @@
+{
+  "_generic": {
+    "defaultPackage": "infrajs/config",
+    "location": "",
+    "packages": {
+      "infrajs/config": "v1.0.27"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpPackageType": {
+      "infrajs/ans@v1.0.15": "library",
+      "infrajs/config@v1.0.27": "library",
+      "infrajs/each@v1.0.7": "library",
+      "infrajs/load@v1.1.22": "library",
+      "infrajs/nostore@v1.1.15": "library",
+      "infrajs/path@v1.1.34": "library"
+    },
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "infrajs/config": {
+      "v1.0.27": [
+        [ "infrajs/each", "v1.0.7" ],
+        [ "infrajs/load", "v1.1.22" ],
+        [ "infrajs/path", "v1.1.34" ]
+      ]
+    },
+    "infrajs/load": {
+      "v1.1.22": [
+        [ "infrajs/ans", "v1.0.15" ],
+        [ "infrajs/nostore", "v1.1.15" ],
+        [ "infrajs/path", "v1.1.34" ]
+      ]
+    },
+    "infrajs/nostore": {
+      "v1.1.15": [
+        [ "infrajs/ans", "v1.0.15" ],
+        [ "infrajs/each", "v1.0.7" ]
+      ]
+    },
+    "infrajs/path": {
+      "v1.1.34": [
+        [ "infrajs/nostore", "v1.1.15" ]
+      ]
+    }
+  },
+  "sources": {
+    "infrajs/ans": {
+      "v1.0.15": {
+        "rev": "6508aa9b27f95f3c1b0c84e17d15cfadbf815272",
+        "type": "git",
+        "url": "https://github.com/infrajs/ans.git"
+      }
+    },
+    "infrajs/config": {
+      "v1.0.27": {
+        "rev": "1be2c17213851933d9ab2477d4774efca04a35cd",
+        "type": "git",
+        "url": "https://github.com/infrajs/config.git"
+      }
+    },
+    "infrajs/each": {
+      "v1.0.7": {
+        "rev": "bfb7c2b7d33934eff551ed35423ad53f4f3e5fbe",
+        "type": "git",
+        "url": "https://github.com/infrajs/each.git"
+      }
+    },
+    "infrajs/load": {
+      "v1.1.22": {
+        "rev": "6ca849bb0bce7edfc9ec029ab0f9f0a499871e0a",
+        "type": "git",
+        "url": "https://github.com/infrajs/load.git"
+      }
+    },
+    "infrajs/nostore": {
+      "v1.1.15": {
+        "rev": "199680722c142dbd4b39358374a9d727585b6732",
+        "type": "git",
+        "url": "https://github.com/infrajs/nostore.git"
+      }
+    },
+    "infrajs/path": {
+      "v1.1.34": {
+        "rev": "264c950ade35d53a27d060893ca66ff123d64818",
+        "type": "git",
+        "url": "https://github.com/infrajs/path.git"
+      }
+    }
+  }
+}

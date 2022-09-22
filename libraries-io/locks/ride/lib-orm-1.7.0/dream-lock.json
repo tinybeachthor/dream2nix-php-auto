@@ -1,0 +1,150 @@
+{
+  "_generic": {
+    "defaultPackage": "ride/lib-orm",
+    "location": "",
+    "packages": {
+      "ride/lib-orm": "1.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpPackageType": {
+      "ride/lib-cache@1.1.1": "library",
+      "ride/lib-common@1.1.0": "library",
+      "ride/lib-database@1.1.4": "library",
+      "ride/lib-event@1.0.1": "library",
+      "ride/lib-generator@1.1.2": "library",
+      "ride/lib-log@1.0.3": "library",
+      "ride/lib-orm@1.7.0": "library",
+      "ride/lib-reflection@1.0.3": "library",
+      "ride/lib-system@1.1.2": "library",
+      "ride/lib-tokenizer@1.0.2": "library",
+      "ride/lib-validation@1.3.0": "library"
+    },
+    "phpSemver": ">=7.4.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ride/lib-cache": {
+      "1.1.1": [
+        [ "ride/lib-system", "1.1.2" ]
+      ]
+    },
+    "ride/lib-database": {
+      "1.1.4": [
+        [ "ride/lib-log", "1.0.3" ],
+        [ "ride/lib-validation", "1.3.0" ]
+      ]
+    },
+    "ride/lib-event": {
+      "1.0.1": [
+        [ "ride/lib-reflection", "1.0.3" ]
+      ]
+    },
+    "ride/lib-log": {
+      "1.0.3": [
+        [ "ride/lib-common", "1.1.0" ]
+      ]
+    },
+    "ride/lib-orm": {
+      "1.7.0": [
+        [ "ride/lib-cache", "1.1.1" ],
+        [ "ride/lib-common", "1.1.0" ],
+        [ "ride/lib-database", "1.1.4" ],
+        [ "ride/lib-event", "1.0.1" ],
+        [ "ride/lib-generator", "1.1.2" ],
+        [ "ride/lib-log", "1.0.3" ],
+        [ "ride/lib-reflection", "1.0.3" ],
+        [ "ride/lib-system", "1.1.2" ],
+        [ "ride/lib-tokenizer", "1.0.2" ],
+        [ "ride/lib-validation", "1.3.0" ]
+      ]
+    },
+    "ride/lib-validation": {
+      "1.3.0": [
+        [ "ride/lib-reflection", "1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "ride/lib-cache": {
+      "1.1.1": {
+        "rev": "c8ce87334ea26e00dc44c43ad2d1704ab2c4c29a",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-cache.git"
+      }
+    },
+    "ride/lib-common": {
+      "1.1.0": {
+        "rev": "89b8990259b7ac0ad86ece34f2dde764d571c7b0",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-common.git"
+      }
+    },
+    "ride/lib-database": {
+      "1.1.4": {
+        "rev": "04fa5900f68a31f18954ae09e6a7775c250dfb6e",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-database.git"
+      }
+    },
+    "ride/lib-event": {
+      "1.0.1": {
+        "rev": "10c6458c98ee692867b1d6b3803434bed54faa6a",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-event.git"
+      }
+    },
+    "ride/lib-generator": {
+      "1.1.2": {
+        "rev": "8843431a1c43834a10f69779cedcd93d16fc276d",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-generator.git"
+      }
+    },
+    "ride/lib-log": {
+      "1.0.3": {
+        "rev": "d0ce7d5059810c6b36125e2f4f42ec03e7440a06",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-log.git"
+      }
+    },
+    "ride/lib-orm": {
+      "1.7.0": {
+        "rev": "89238f20bda707bf65a25aba5a909f164e6e109f",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-orm.git"
+      }
+    },
+    "ride/lib-reflection": {
+      "1.0.3": {
+        "rev": "636d20ca887fef17de260048d0bf2c36340bc9cc",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-reflection.git"
+      }
+    },
+    "ride/lib-system": {
+      "1.1.2": {
+        "rev": "097c8671c98daee713c8e76a08575f739440b299",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-system.git"
+      }
+    },
+    "ride/lib-tokenizer": {
+      "1.0.2": {
+        "rev": "c94bd79016919f420dfdf48fd9e701bad0319107",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-tokenizer.git"
+      }
+    },
+    "ride/lib-validation": {
+      "1.3.0": {
+        "rev": "0572759432fb8a70277b0d1e6408b8151d7a64d7",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-validation.git"
+      }
+    }
+  }
+}

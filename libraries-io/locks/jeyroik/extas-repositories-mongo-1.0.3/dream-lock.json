@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "jeyroik/extas-repositories-mongo",
+    "location": "",
+    "packages": {
+      "jeyroik/extas-repositories-mongo": "1.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "ctype",
+      "hash",
+      "mongodb",
+      "json"
+    ],
+    "phpPackageType": {
+      "alcaeus/mongo-php-adapter@1.2.2": "library",
+      "jean85/pretty-package-versions@2.0.5": "library",
+      "jeyroik/extas-repositories-mongo@1.0.3": "library",
+      "league/monga@1.2.4": "library",
+      "mongodb/mongodb@1.13.1": "library",
+      "symfony/polyfill-php80@v1.26.0": "library"
+    },
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "alcaeus/mongo-php-adapter": {
+      "1.2.2": [
+        [ "mongodb/mongodb", "1.13.1" ]
+      ]
+    },
+    "jeyroik/extas-repositories-mongo": {
+      "1.0.3": [
+        [ "alcaeus/mongo-php-adapter", "1.2.2" ],
+        [ "league/monga", "1.2.4" ]
+      ]
+    },
+    "mongodb/mongodb": {
+      "1.13.1": [
+        [ "jean85/pretty-package-versions", "2.0.5" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "alcaeus/mongo-php-adapter": {
+      "1.2.2": {
+        "rev": "0e99bf5ea15f8e9b7ddb3a6dc38c11aa95330ca1",
+        "type": "git",
+        "url": "https://github.com/alcaeus/mongo-php-adapter.git"
+      }
+    },
+    "jean85/pretty-package-versions": {
+      "2.0.5": {
+        "rev": "ae547e455a3d8babd07b96966b17d7fd21d9c6af",
+        "type": "git",
+        "url": "https://github.com/Jean85/pretty-package-versions.git"
+      }
+    },
+    "jeyroik/extas-repositories-mongo": {
+      "1.0.3": {
+        "rev": "8fef6c52e5124b4855711fc64f4a88de92123a96",
+        "type": "git",
+        "url": "https://github.com/jeyroik/extas-repositories-mongo.git"
+      }
+    },
+    "league/monga": {
+      "1.2.4": {
+        "rev": "b98db07e7aeeaddf99b65a9d39ea6e5342ac6e72",
+        "type": "git",
+        "url": "https://github.com/thephpleague/monga.git"
+      }
+    },
+    "mongodb/mongodb": {
+      "1.13.1": {
+        "rev": "0b8555705d2f9c12ab2e5cebee6b594cdfe6b4e0",
+        "type": "git",
+        "url": "https://github.com/mongodb/mongo-php-library.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    }
+  }
+}

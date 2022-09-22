@@ -1,0 +1,64 @@
+{
+  "_generic": {
+    "defaultPackage": "phploc/phploc",
+    "location": "",
+    "packages": {
+      "phploc/phploc": "7.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "dom",
+      "json"
+    ],
+    "phpPackageType": {
+      "phploc/phploc@7.0.1": "library",
+      "phpunit/php-file-iterator@3.0.6": "library",
+      "sebastian/cli-parser@1.0.1": "library",
+      "sebastian/version@3.0.2": "library"
+    },
+    "phpSemver": "^7.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "phploc/phploc": {
+      "7.0.1": [
+        [ "phpunit/php-file-iterator", "3.0.6" ],
+        [ "sebastian/cli-parser", "1.0.1" ],
+        [ "sebastian/version", "3.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "phploc/phploc": {
+      "7.0.1": {
+        "rev": "e3c1dc59ddd33e12abf5325a3f42261b8ef26142",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phploc.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "3.0.6": {
+        "rev": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "sebastian/cli-parser": {
+      "1.0.1": {
+        "rev": "442e7c7e687e42adc03470c7b668bc4b2402c0b2",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/cli-parser.git"
+      }
+    },
+    "sebastian/version": {
+      "3.0.2": {
+        "rev": "c6c1022351a901512170118436c764e473f6de8c",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    }
+  }
+}

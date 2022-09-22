@@ -1,0 +1,154 @@
+{
+  "_generic": {
+    "defaultPackage": "alibabacloud/tea-utils",
+    "location": "",
+    "packages": {
+      "alibabacloud/tea-utils": "0.2.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "json",
+      "curl",
+      "libxml",
+      "mbstring",
+      "openssl",
+      "simplexml",
+      "xmlwriter"
+    ],
+    "phpPackageType": {
+      "adbario/php-dot-notation@2.4.1": "library",
+      "alibabacloud/tea-utils@0.2.16": "library",
+      "alibabacloud/tea@3.1.24": "library",
+      "guzzlehttp/guzzle@7.5.0": "library",
+      "guzzlehttp/promises@1.5.2": "library",
+      "guzzlehttp/psr7@2.4.1": "library",
+      "psr/http-client@1.0.1": "library",
+      "psr/http-factory@1.0.1": "library",
+      "psr/http-message@1.0.1": "library",
+      "ralouphie/getallheaders@3.0.3": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library"
+    },
+    "phpSemver": ">5.5"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "alibabacloud/tea": {
+      "3.1.24": [
+        [ "adbario/php-dot-notation", "2.4.1" ],
+        [ "guzzlehttp/guzzle", "7.5.0" ]
+      ]
+    },
+    "alibabacloud/tea-utils": {
+      "0.2.16": [
+        [ "alibabacloud/tea", "3.1.24" ]
+      ]
+    },
+    "guzzlehttp/guzzle": {
+      "7.5.0": [
+        [ "guzzlehttp/promises", "1.5.2" ],
+        [ "guzzlehttp/psr7", "2.4.1" ],
+        [ "psr/http-client", "1.0.1" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "guzzlehttp/psr7": {
+      "2.4.1": [
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "ralouphie/getallheaders", "3.0.3" ]
+      ]
+    },
+    "psr/http-client": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "adbario/php-dot-notation": {
+      "2.4.1": {
+        "rev": "3bfe67895d26697d20485343499532234eeb7c08",
+        "type": "git",
+        "url": "https://github.com/adbario/php-dot-notation.git"
+      }
+    },
+    "alibabacloud/tea": {
+      "3.1.24": {
+        "rev": "bb33395f47db3847d1940d6eb8ba1e56cd0623cb",
+        "type": "git",
+        "url": "https://github.com/aliyun/tea-php.git"
+      }
+    },
+    "alibabacloud/tea-utils": {
+      "0.2.16": {
+        "rev": "ae10b306509a196e4af71803db710a0a05c54e60",
+        "type": "git",
+        "url": "https://github.com/alibabacloud-sdk-php/tea-utils.git"
+      }
+    },
+    "guzzlehttp/guzzle": {
+      "7.5.0": {
+        "rev": "b50a2a1251152e43f6a37f0fa053e730a67d25ba",
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle.git"
+      }
+    },
+    "guzzlehttp/promises": {
+      "1.5.2": {
+        "rev": "b94b2807d85443f9719887892882d0329d1e2598",
+        "type": "git",
+        "url": "https://github.com/guzzle/promises.git"
+      }
+    },
+    "guzzlehttp/psr7": {
+      "2.4.1": {
+        "rev": "69568e4293f4fa993f3b0e51c9723e1e17c41379",
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git"
+      }
+    },
+    "psr/http-client": {
+      "1.0.1": {
+        "rev": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+        "type": "git",
+        "url": "https://github.com/php-fig/http-client.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "ralouphie/getallheaders": {
+      "3.0.3": {
+        "rev": "120b605dfeb996808c31b6477290a714d356e822",
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    }
+  }
+}

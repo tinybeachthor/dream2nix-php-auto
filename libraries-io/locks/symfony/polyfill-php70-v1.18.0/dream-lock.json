@@ -1,0 +1,43 @@
+{
+  "_generic": {
+    "defaultPackage": "symfony/polyfill-php70",
+    "location": "",
+    "packages": {
+      "symfony/polyfill-php70": "v1.18.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpPackageType": {
+      "paragonie/random_compat@v9.99.100": "library",
+      "symfony/polyfill-php70@v1.18.0": "library"
+    },
+    "phpSemver": ">=5.3.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "symfony/polyfill-php70": {
+      "v1.18.0": [
+        [ "paragonie/random_compat", "v9.99.100" ]
+      ]
+    }
+  },
+  "sources": {
+    "paragonie/random_compat": {
+      "v9.99.100": {
+        "rev": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+        "type": "git",
+        "url": "https://github.com/paragonie/random_compat.git"
+      }
+    },
+    "symfony/polyfill-php70": {
+      "v1.18.0": {
+        "rev": "0dd93f2c578bdc9c72697eaa5f1dd25644e618d3",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php70.git"
+      }
+    }
+  }
+}

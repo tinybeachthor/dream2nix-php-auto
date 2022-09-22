@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "moment/moment",
+    "location": "",
+    "packages": {
+      "moment/moment": "2.29.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [],
+    "phpPackageType": {
+      "composer/installers@v2.2.0": "composer-plugin",
+      "moment/moment@2.29.1": "library",
+      "oomphinc/composer-installers-extender@2.0.1": "composer-plugin"
+    },
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "moment/moment": {
+      "2.29.1": [
+        [ "oomphinc/composer-installers-extender", "2.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "moment/moment": {
+      "2.29.1": {
+        "rev": "b7ec8e2ec068e03de4f832f28362675bb9e02261",
+        "type": "git",
+        "url": "https://github.com/moment/moment.git"
+      }
+    },
+    "oomphinc/composer-installers-extender": {
+      "2.0.1": {
+        "rev": "cbf4b6f9a24153b785d09eee755b995ba87bd5f9",
+        "type": "git",
+        "url": "https://github.com/oomphinc/composer-installers-extender.git"
+      }
+    }
+  }
+}

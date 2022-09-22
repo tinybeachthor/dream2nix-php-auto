@@ -1,0 +1,55 @@
+{
+  "_generic": {
+    "defaultPackage": "setasign/fpdi-fpdf",
+    "location": "",
+    "packages": {
+      "setasign/fpdi-fpdf": "v2.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "phpExtensions": [
+      "gd",
+      "zlib"
+    ],
+    "phpPackageType": {
+      "setasign/fpdf@1.8.4": "library",
+      "setasign/fpdi-fpdf@v2.3.0": "library",
+      "setasign/fpdi@v2.3.6": "library"
+    },
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "setasign/fpdi-fpdf": {
+      "v2.3.0": [
+        [ "setasign/fpdf", "1.8.4" ],
+        [ "setasign/fpdi", "v2.3.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "setasign/fpdf": {
+      "1.8.4": {
+        "rev": "b0ddd9c5b98ced8230ef38534f6f3c17308a7974",
+        "type": "git",
+        "url": "https://github.com/Setasign/FPDF.git"
+      }
+    },
+    "setasign/fpdi": {
+      "v2.3.6": {
+        "rev": "6231e315f73e4f62d72b73f3d6d78ff0eed93c31",
+        "type": "git",
+        "url": "https://github.com/Setasign/FPDI.git"
+      }
+    },
+    "setasign/fpdi-fpdf": {
+      "v2.3.0": {
+        "rev": "f2fdc44e4d5247a3bb55ed2c2c1396ef05c02357",
+        "type": "git",
+        "url": "https://github.com/Setasign/FPDI-FPDF.git"
+      }
+    }
+  }
+}
