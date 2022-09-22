@@ -21,6 +21,70 @@
       "simplexml",
       "xmlwriter"
     ],
+    "phpPackageType": {
+      "behat/behat@v2.5.5": "library",
+      "behat/gherkin@v2.3.5": "library",
+      "composer/ca-bundle@1.2.6": "library",
+      "composer/composer@1.9.3": "library",
+      "composer/semver@1.5.1": "library",
+      "composer/spdx-licenses@1.5.3": "library",
+      "composer/xdebug-handler@1.4.0": "library",
+      "dealerdirect/phpcodesniffer-composer-installer@v0.5.0": "composer-plugin",
+      "doctrine/instantiator@1.0.5": "library",
+      "jakub-onderka/php-console-color@v0.2": "library",
+      "jakub-onderka/php-console-highlighter@v0.4": "library",
+      "jakub-onderka/php-parallel-lint@v1.0.0": "library",
+      "justinrainbow/json-schema@5.2.9": "library",
+      "mustache/mustache@v2.13.0": "library",
+      "phpcompatibility/php-compatibility@9.3.5": "phpcodesniffer-standard",
+      "phpdocumentor/reflection-docblock@2.0.5": "library",
+      "phpspec/prophecy@v1.10.2": "library",
+      "phpunit/php-code-coverage@2.2.4": "library",
+      "phpunit/php-file-iterator@1.4.5": "library",
+      "phpunit/php-text-template@1.2.1": "library",
+      "phpunit/php-timer@1.0.9": "library",
+      "phpunit/php-token-stream@1.4.12": "library",
+      "phpunit/phpunit-mock-objects@2.3.8": "library",
+      "phpunit/phpunit@4.8.36": "library",
+      "psr/log@1.1.2": "library",
+      "rmccue/requests@v1.7.0": "library",
+      "roave/security-advisories@dev-master": "metapackage",
+      "sebastian/comparator@1.2.4": "library",
+      "sebastian/diff@1.4.3": "library",
+      "sebastian/environment@1.3.8": "library",
+      "sebastian/exporter@1.2.2": "library",
+      "sebastian/global-state@1.1.1": "library",
+      "sebastian/recursion-context@1.0.5": "library",
+      "sebastian/version@1.0.6": "library",
+      "seld/jsonlint@1.7.2": "library",
+      "seld/phar-utils@1.1.0": "library",
+      "squizlabs/php_codesniffer@3.5.4": "library",
+      "symfony/config@v2.8.52": "library",
+      "symfony/console@v2.8.52": "library",
+      "symfony/debug@v2.8.52": "library",
+      "symfony/dependency-injection@v2.8.52": "library",
+      "symfony/event-dispatcher@v2.8.52": "library",
+      "symfony/filesystem@v2.8.52": "library",
+      "symfony/finder@v2.8.52": "library",
+      "symfony/polyfill-ctype@v1.14.0": "library",
+      "symfony/polyfill-mbstring@v1.14.0": "library",
+      "symfony/process@v2.8.52": "library",
+      "symfony/translation@v2.8.52": "library",
+      "symfony/yaml@v2.8.52": "library",
+      "wp-cli/config-command@v2.0.5": "wp-cli-package",
+      "wp-cli/core-command@v2.0.8": "wp-cli-package",
+      "wp-cli/db-command@v2.0.6": "wp-cli-package",
+      "wp-cli/entity-command@v2.0.7": "wp-cli-package",
+      "wp-cli/eval-command@v2.0.6": "wp-cli-package",
+      "wp-cli/extension-command@v2.0.7": "wp-cli-package",
+      "wp-cli/mustangostang-spyc@0.6.3": "library",
+      "wp-cli/package-command@v2.0.6": "wp-cli-package",
+      "wp-cli/php-cli-tools@v0.11.11": "library",
+      "wp-cli/wp-cli-tests@v2.1.9": "phpcodesniffer-standard",
+      "wp-cli/wp-cli@v2.4.1": "library",
+      "wp-cli/wp-config-transformer@v1.2.6": "library",
+      "wp-coding-standards/wpcs@2.2.1": "phpcodesniffer-standard"
+    },
     "phpSemver": "^5.4 || ^7.0"
   },
   "cyclicDependencies": {
@@ -190,7 +254,6 @@
     },
     "wp-cli/core-command": {
       "v2.0.8": [
-        [ "composer/semver", "1.5.1" ],
         [ "wp-cli/wp-cli", "v2.4.1" ]
       ]
     },
@@ -211,7 +274,6 @@
     },
     "wp-cli/extension-command": {
       "v2.0.7": [
-        [ "composer/semver", "1.5.1" ],
         [ "wp-cli/wp-cli", "v2.4.1" ]
       ]
     },
@@ -269,13 +331,6 @@
         "rev": "2b33963da5525400573560c173ab5c9c057e1852",
         "type": "git",
         "url": "https://github.com/Behat/Gherkin.git"
-      }
-    },
-    "composer/semver": {
-      "1.5.1": {
-        "rev": "c6bea70230ef4dd483e6bbcab6005f682ed3a8de",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
       }
     },
     "dealerdirect/phpcodesniffer-composer-installer": {

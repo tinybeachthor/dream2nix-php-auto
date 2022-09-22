@@ -18,16 +18,33 @@
       "tokenizer",
       "xmlwriter"
     ],
+    "phpPackageType": {
+      "composer/pcre@3.0.0": "library",
+      "composer/xdebug-handler@3.0.3": "library",
+      "jetbrains/phpstorm-stubs@dev-master": "library",
+      "league/climate@3.8.2": "library",
+      "pdepend/pdepend@2.12.1": "library",
+      "phpfastcache/phpfastcache@9.1.2": "library",
+      "phpmd/phpmd@2.13.0": "library",
+      "phpstan/phpstan@1.8.5": "library",
+      "psr/cache@3.0.0": "library",
+      "psr/container@2.0.2": "library",
+      "psr/log@3.0.0": "library",
+      "psr/simple-cache@3.0.0": "library",
+      "seld/cli-prompt@1.0.4": "library",
+      "squizlabs/php_codesniffer@3.7.1": "library",
+      "symfony/config@v6.1.3": "library",
+      "symfony/dependency-injection@v6.1.3": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library",
+      "symfony/filesystem@v6.1.4": "library",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/service-contracts@v3.1.1": "library"
+    },
     "phpSemver": ">=8.0"
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "composer/xdebug-handler": {
-      "3.0.3": [
-        [ "composer/pcre", "3.0.0" ],
-        [ "psr/log", "3.0.0" ]
-      ]
-    },
     "league/climate": {
       "3.8.2": [
         [ "psr/log", "3.0.0" ],
@@ -55,7 +72,6 @@
     },
     "phpmd/phpmd": {
       "2.13.0": [
-        [ "composer/xdebug-handler", "3.0.3" ],
         [ "pdepend/pdepend", "2.12.1" ]
       ]
     },
@@ -86,23 +102,9 @@
     }
   },
   "sources": {
-    "composer/pcre": {
-      "3.0.0": {
-        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
-        "type": "git",
-        "url": "https://github.com/composer/pcre.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "3.0.3": {
-        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
-      }
-    },
     "jetbrains/phpstorm-stubs": {
       "dev-master": {
-        "rev": "37dd64dd3cec7b957dbfab754752f310b13ced84",
+        "rev": "69c577c546a0acfad82357186b4f563d69ffe231",
         "type": "git",
         "url": "https://github.com/JetBrains/phpstorm-stubs.git"
       }

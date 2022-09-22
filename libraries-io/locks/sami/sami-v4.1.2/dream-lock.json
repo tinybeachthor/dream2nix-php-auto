@@ -14,15 +14,29 @@
       "pcre",
       "tokenizer"
     ],
+    "phpPackageType": {
+      "blackfire/php-sdk@v1.15.0": "library",
+      "composer/ca-bundle@1.1.1": "library",
+      "michelf/php-markdown@1.8.0": "library",
+      "nikic/php-parser@v3.1.5": "library",
+      "phpdocumentor/reflection-docblock@2.0.5": "library",
+      "pimple/pimple@v3.2.3": "library",
+      "psr/container@1.0.0": "library",
+      "sami/sami@v4.1.2": "library",
+      "symfony/console@v4.1.0": "library",
+      "symfony/filesystem@v4.1.0": "library",
+      "symfony/finder@v4.1.0": "library",
+      "symfony/phpunit-bridge@v4.1.0": "symfony-bridge",
+      "symfony/polyfill-ctype@v1.8.0": "library",
+      "symfony/polyfill-mbstring@v1.8.0": "library",
+      "symfony/process@v4.1.0": "library",
+      "symfony/yaml@v4.1.0": "library",
+      "twig/twig@v2.4.8": "library"
+    },
     "phpSemver": "^7.1.3"
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "blackfire/php-sdk": {
-      "v1.15.0": [
-        [ "composer/ca-bundle", "1.1.1" ]
-      ]
-    },
     "pimple/pimple": {
       "v3.2.3": [
         [ "psr/container", "1.0.0" ]
@@ -71,13 +85,6 @@
         "rev": "3a5b3c507b08bd5f37d5b72c37b046454e716a66",
         "type": "git",
         "url": "https://github.com/blackfireio/php-sdk.git"
-      }
-    },
-    "composer/ca-bundle": {
-      "1.1.1": {
-        "rev": "d2c0a83b7533d6912e8d516756ebd34f893e9169",
-        "type": "git",
-        "url": "https://github.com/composer/ca-bundle.git"
       }
     },
     "michelf/php-markdown": {

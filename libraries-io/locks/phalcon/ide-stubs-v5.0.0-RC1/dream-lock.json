@@ -22,6 +22,41 @@
       "libxml",
       "mbstring"
     ],
+    "phpPackageType": {
+      "amphp/amp@v2.6.1": "library",
+      "amphp/byte-stream@v1.8.1": "library",
+      "composer/package-versions-deprecated@1.11.99.4": "composer-plugin",
+      "composer/semver@3.2.5": "library",
+      "composer/xdebug-handler@1.4.6": "library",
+      "dnoegel/php-xdg-base-dir@v0.1.1": "library",
+      "felixfbecker/advanced-json-rpc@v3.2.1": "library",
+      "felixfbecker/language-server-protocol@1.5.1": "library",
+      "netresearch/jsonmapper@v3.1.1": "library",
+      "nikic/php-parser@v4.13.0": "library",
+      "openlss/lib-array2xml@1.0.0": "library",
+      "phalcon/ide-stubs@v5.0.0-RC1": "library",
+      "phpdocumentor/reflection-common@2.2.0": "library",
+      "phpdocumentor/reflection-docblock@5.2.2": "library",
+      "phpdocumentor/type-resolver@1.5.1": "library",
+      "psr/container@1.1.1": "library",
+      "psr/log@1.1.4": "library",
+      "sebastian/diff@4.0.4": "library",
+      "squizlabs/php_codesniffer@3.6.0": "library",
+      "symfony/console@v5.3.7": "library",
+      "symfony/deprecation-contracts@v2.4.0": "library",
+      "symfony/polyfill-ctype@v1.23.0": "library",
+      "symfony/polyfill-intl-grapheme@v1.23.1": "library",
+      "symfony/polyfill-intl-normalizer@v1.23.0": "library",
+      "symfony/polyfill-mbstring@v1.23.1": "library",
+      "symfony/polyfill-php73@v1.23.0": "library",
+      "symfony/polyfill-php80@v1.23.1": "library",
+      "symfony/service-contracts@v2.4.0": "library",
+      "symfony/string@v5.3.7": "library",
+      "vimeo/psalm@3.18.2": "library",
+      "webmozart/assert@1.9.1": "library",
+      "webmozart/glob@4.3.0": "library",
+      "webmozart/path-util@2.3.0": "library"
+    },
     "phpSemver": ">=7.4"
   },
   "cyclicDependencies": {},
@@ -29,11 +64,6 @@
     "amphp/byte-stream": {
       "v1.8.1": [
         [ "amphp/amp", "v2.6.1" ]
-      ]
-    },
-    "composer/xdebug-handler": {
-      "1.4.6": [
-        [ "psr/log", "1.1.4" ]
       ]
     },
     "felixfbecker/advanced-json-rpc": {
@@ -88,9 +118,6 @@
       "3.18.2": [
         [ "amphp/amp", "v2.6.1" ],
         [ "amphp/byte-stream", "v1.8.1" ],
-        [ "composer/package-versions-deprecated", "1.11.99.4" ],
-        [ "composer/semver", "3.2.5" ],
-        [ "composer/xdebug-handler", "1.4.6" ],
         [ "dnoegel/php-xdg-base-dir", "v0.1.1" ],
         [ "felixfbecker/advanced-json-rpc", "v3.2.1" ],
         [ "felixfbecker/language-server-protocol", "1.5.1" ],
@@ -132,27 +159,6 @@
         "rev": "acbd8002b3536485c997c4e019206b3f10ca15bd",
         "type": "git",
         "url": "https://github.com/amphp/byte-stream.git"
-      }
-    },
-    "composer/package-versions-deprecated": {
-      "1.11.99.4": {
-        "rev": "b174585d1fe49ceed21928a945138948cb394600",
-        "type": "git",
-        "url": "https://github.com/composer/package-versions-deprecated.git"
-      }
-    },
-    "composer/semver": {
-      "3.2.5": {
-        "rev": "31f3ea725711245195f62e54ffa402d8ef2fdba9",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "1.4.6": {
-        "rev": "f27e06cd9675801df441b3656569b328e04aa37c",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
       }
     },
     "dnoegel/php-xdg-base-dir": {
@@ -230,13 +236,6 @@
         "rev": "8622567409010282b7aeebe4bb841fe98b58dcaf",
         "type": "git",
         "url": "https://github.com/php-fig/container.git"
-      }
-    },
-    "psr/log": {
-      "1.1.4": {
-        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
-        "type": "git",
-        "url": "https://github.com/php-fig/log.git"
       }
     },
     "sebastian/diff": {

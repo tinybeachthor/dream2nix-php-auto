@@ -25,6 +25,100 @@
       "ctype",
       "simplexml"
     ],
+    "phpPackageType": {
+      "amphp/amp@v2.6.1": "library",
+      "amphp/byte-stream@v1.8.1": "library",
+      "composer/pcre@1.0.1": "library",
+      "composer/semver@3.2.9": "library",
+      "composer/xdebug-handler@2.0.5": "library",
+      "dnoegel/php-xdg-base-dir@v0.1.1": "library",
+      "doctrine/annotations@1.13.2": "library",
+      "doctrine/instantiator@1.4.1": "library",
+      "doctrine/lexer@1.2.2": "library",
+      "eluceo/ical@2.7.0": "library",
+      "ergebnis/composer-normalize@2.27.0": "composer-plugin",
+      "ergebnis/json-normalizer@2.1.0": "library",
+      "ergebnis/json-printer@3.2.0": "library",
+      "ergebnis/json-schema-validator@2.0.0": "library",
+      "felixfbecker/advanced-json-rpc@v3.2.1": "library",
+      "felixfbecker/language-server-protocol@1.5.1": "library",
+      "friendsofphp/php-cs-fixer@v3.4.0": "application",
+      "infection/abstract-testframework-adapter@0.3.1": "library",
+      "infection/extension-installer@0.1.2": "composer-plugin",
+      "infection/include-interceptor@0.2.5": "library",
+      "infection/infection@0.23.0": "library",
+      "justinrainbow/json-schema@5.2.12": "library",
+      "localheinz/diff@1.1.1": "library",
+      "myclabs/deep-copy@1.11.0": "library",
+      "netresearch/jsonmapper@v4.0.0": "library",
+      "nikic/php-parser@v4.13.2": "library",
+      "ocramius/package-versions@2.5.1": "library",
+      "ondram/ci-detector@3.5.1": "library",
+      "openlss/lib-array2xml@1.0.0": "library",
+      "pdepend/pdepend@2.10.3": "library",
+      "phar-io/manifest@2.0.3": "library",
+      "phar-io/version@3.2.1": "library",
+      "php-cs-fixer/diff@v2.0.2": "library",
+      "phpdocumentor/reflection-common@2.2.0": "library",
+      "phpdocumentor/reflection-docblock@5.3.0": "library",
+      "phpdocumentor/type-resolver@1.6.1": "library",
+      "phpmd/phpmd@2.12.0": "library",
+      "phpspec/prophecy@v1.15.0": "library",
+      "phpunit/php-code-coverage@9.2.15": "library",
+      "phpunit/php-file-iterator@3.0.6": "library",
+      "phpunit/php-invoker@3.1.1": "library",
+      "phpunit/php-text-template@2.0.4": "library",
+      "phpunit/php-timer@5.0.3": "library",
+      "phpunit/phpunit@9.5.20": "library",
+      "psr/cache@3.0.0": "library",
+      "psr/container@2.0.2": "library",
+      "psr/event-dispatcher@1.0.0": "library",
+      "psr/log@2.0.0": "library",
+      "sanmai/later@0.1.2": "library",
+      "sanmai/pipeline@v5.2.1": "library",
+      "sebastian/cli-parser@1.0.1": "library",
+      "sebastian/code-unit-reverse-lookup@2.0.3": "library",
+      "sebastian/code-unit@1.0.8": "library",
+      "sebastian/comparator@4.0.6": "library",
+      "sebastian/complexity@2.0.2": "library",
+      "sebastian/diff@4.0.4": "library",
+      "sebastian/environment@5.1.4": "library",
+      "sebastian/exporter@4.0.4": "library",
+      "sebastian/global-state@5.0.5": "library",
+      "sebastian/lines-of-code@1.0.3": "library",
+      "sebastian/object-enumerator@4.0.4": "library",
+      "sebastian/object-reflector@2.0.4": "library",
+      "sebastian/recursion-context@4.0.4": "library",
+      "sebastian/resource-operations@3.0.3": "library",
+      "sebastian/type@3.0.0": "library",
+      "sebastian/version@3.0.2": "library",
+      "seld/jsonlint@1.8.3": "library",
+      "symfony/config@v6.0.3": "library",
+      "symfony/console@v5.4.3": "library",
+      "symfony/dependency-injection@v6.0.6": "library",
+      "symfony/deprecation-contracts@v3.0.1": "library",
+      "symfony/event-dispatcher-contracts@v3.0.0": "library",
+      "symfony/event-dispatcher@v6.0.3": "library",
+      "symfony/filesystem@v5.4.6": "library",
+      "symfony/finder@v5.4.3": "library",
+      "symfony/options-resolver@v6.0.3": "library",
+      "symfony/polyfill-ctype@v1.25.0": "library",
+      "symfony/polyfill-intl-grapheme@v1.24.0": "library",
+      "symfony/polyfill-intl-normalizer@v1.24.0": "library",
+      "symfony/polyfill-mbstring@v1.25.0": "library",
+      "symfony/polyfill-php73@v1.24.0": "library",
+      "symfony/polyfill-php80@v1.25.0": "library",
+      "symfony/polyfill-php81@v1.25.0": "library",
+      "symfony/process@v5.4.3": "library",
+      "symfony/service-contracts@v3.0.0": "library",
+      "symfony/stopwatch@v6.0.3": "library",
+      "symfony/string@v6.0.3": "library",
+      "thecodingmachine/safe@v1.3.3": "library",
+      "theseer/tokenizer@1.2.1": "library",
+      "vimeo/psalm@4.20.0": "library",
+      "webmozart/assert@1.10.0": "library",
+      "webmozart/path-util@2.3.0": "library"
+    },
     "phpSemver": ">=7.4 || ~8.0.0 || ~8.1.0"
   },
   "cyclicDependencies": {},
@@ -32,12 +126,6 @@
     "amphp/byte-stream": {
       "v1.8.1": [
         [ "amphp/amp", "v2.6.1" ]
-      ]
-    },
-    "composer/xdebug-handler": {
-      "2.0.5": [
-        [ "composer/pcre", "1.0.1" ],
-        [ "psr/log", "2.0.0" ]
       ]
     },
     "doctrine/annotations": {
@@ -91,8 +179,6 @@
     },
     "friendsofphp/php-cs-fixer": {
       "v3.4.0": [
-        [ "composer/semver", "3.2.9" ],
-        [ "composer/xdebug-handler", "2.0.5" ],
         [ "doctrine/annotations", "1.13.2" ],
         [ "php-cs-fixer/diff", "v2.0.2" ],
         [ "symfony/console", "v5.4.3" ],
@@ -109,7 +195,6 @@
     },
     "infection/infection": {
       "0.23.0": [
-        [ "composer/xdebug-handler", "2.0.5" ],
         [ "infection/abstract-testframework-adapter", "0.3.1" ],
         [ "infection/extension-installer", "0.1.2" ],
         [ "infection/include-interceptor", "0.2.5" ],
@@ -156,7 +241,6 @@
     },
     "phpmd/phpmd": {
       "2.12.0": [
-        [ "composer/xdebug-handler", "2.0.5" ],
         [ "pdepend/pdepend", "2.10.3" ]
       ]
     },
@@ -321,8 +405,6 @@
       "4.20.0": [
         [ "amphp/amp", "v2.6.1" ],
         [ "amphp/byte-stream", "v1.8.1" ],
-        [ "composer/semver", "3.2.9" ],
-        [ "composer/xdebug-handler", "2.0.5" ],
         [ "dnoegel/php-xdg-base-dir", "v0.1.1" ],
         [ "felixfbecker/advanced-json-rpc", "v3.2.1" ],
         [ "felixfbecker/language-server-protocol", "1.5.1" ],
@@ -360,27 +442,6 @@
         "rev": "acbd8002b3536485c997c4e019206b3f10ca15bd",
         "type": "git",
         "url": "https://github.com/amphp/byte-stream.git"
-      }
-    },
-    "composer/pcre": {
-      "1.0.1": {
-        "rev": "67a32d7d6f9f560b726ab25a061b38ff3a80c560",
-        "type": "git",
-        "url": "https://github.com/composer/pcre.git"
-      }
-    },
-    "composer/semver": {
-      "3.2.9": {
-        "rev": "a951f614bd64dcd26137bc9b7b2637ddcfc57649",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "2.0.5": {
-        "rev": "9e36aeed4616366d2b690bdce11f71e9178c579a",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
       }
     },
     "dnoegel/php-xdg-base-dir": {
@@ -675,13 +736,6 @@
         "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
         "type": "git",
         "url": "https://github.com/php-fig/event-dispatcher.git"
-      }
-    },
-    "psr/log": {
-      "2.0.0": {
-        "rev": "ef29f6d262798707a9edd554e2b82517ef3a9376",
-        "type": "git",
-        "url": "https://github.com/php-fig/log.git"
       }
     },
     "sanmai/later": {

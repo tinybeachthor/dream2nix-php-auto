@@ -17,6 +17,59 @@
       "mbstring",
       "ctype"
     ],
+    "phpPackageType": {
+      "amphp/amp@v2.6.2": "library",
+      "amphp/byte-stream@v1.8.1": "library",
+      "amphp/parallel-functions@v1.1.0": "library",
+      "amphp/parallel@v1.4.1": "library",
+      "amphp/parser@v1.0.0": "library",
+      "amphp/process@v1.1.4": "library",
+      "amphp/serialization@v1.0.0": "library",
+      "amphp/sync@v1.4.2": "library",
+      "composer/package-versions-deprecated@1.11.99.5": "composer-plugin",
+      "composer/pcre@3.0.0": "library",
+      "composer/semver@3.3.2": "library",
+      "composer/xdebug-handler@3.0.3": "library",
+      "fidry/console@0.5.1": "library",
+      "humbug/box@3.16.0": "library",
+      "humbug/php-scoper@0.17.5": "library",
+      "jetbrains/phpstorm-stubs@v2022.2": "library",
+      "justinrainbow/json-schema@5.2.12": "library",
+      "laravel/serializable-closure@v1.2.2": "library",
+      "nikic/iter@v2.2.0": "library",
+      "nikic/php-parser@v4.15.1": "library",
+      "paragonie/constant_time_encoding@v2.6.3": "library",
+      "paragonie/pharaoh@v0.6.0": "library",
+      "paragonie/random_compat@v9.99.100": "library",
+      "paragonie/sodium_compat@v1.18.0": "library",
+      "phpdocumentor/reflection-common@2.2.0": "library",
+      "phpdocumentor/reflection-docblock@5.3.0": "library",
+      "phpdocumentor/type-resolver@1.6.1": "library",
+      "phpro/grumphp-shim@v1.12.0": "library",
+      "psr/container@2.0.2": "library",
+      "psr/event-dispatcher@1.0.0": "library",
+      "psr/log@1.1.4": "library",
+      "seld/jsonlint@1.9.0": "library",
+      "symfony/console@v5.4.12": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library",
+      "symfony/event-dispatcher-contracts@v3.1.1": "library",
+      "symfony/filesystem@v5.4.12": "library",
+      "symfony/finder@v5.4.11": "library",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
+      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/polyfill-php80@v1.26.0": "library",
+      "symfony/polyfill-php81@v1.26.0": "library",
+      "symfony/process@v5.4.11": "library",
+      "symfony/service-contracts@v3.1.1": "library",
+      "symfony/string@v6.1.4": "library",
+      "symfony/var-dumper@v5.4.11": "library",
+      "thecodingmachine/safe@v2.3.1": "library",
+      "ulrichsg/getopt-php@v3.4.0": "library",
+      "webmozart/assert@1.11.0": "library",
+      "webmozart/path-util@2.3.0": "library"
+    },
     "phpSemver": "^7.4 || ^8.0"
   },
   "cyclicDependencies": {},
@@ -55,12 +108,6 @@
         [ "amphp/amp", "v2.6.2" ]
       ]
     },
-    "composer/xdebug-handler": {
-      "3.0.3": [
-        [ "composer/pcre", "3.0.0" ],
-        [ "psr/log", "1.1.4" ]
-      ]
-    },
     "fidry/console": {
       "0.5.1": [
         [ "symfony/console", "v5.4.12" ],
@@ -73,8 +120,6 @@
     "humbug/box": {
       "3.16.0": [
         [ "amphp/parallel-functions", "v1.1.0" ],
-        [ "composer/semver", "3.3.2" ],
-        [ "composer/xdebug-handler", "3.0.3" ],
         [ "humbug/php-scoper", "0.17.5" ],
         [ "justinrainbow/json-schema", "5.2.12" ],
         [ "laravel/serializable-closure", "v1.2.2" ],
@@ -95,7 +140,6 @@
     },
     "humbug/php-scoper": {
       "0.17.5": [
-        [ "composer/package-versions-deprecated", "1.11.99.5" ],
         [ "fidry/console", "0.5.1" ],
         [ "jetbrains/phpstorm-stubs", "v2022.2" ],
         [ "nikic/php-parser", "v4.15.1" ],
@@ -258,34 +302,6 @@
         "rev": "85ab06764f4f36d63b1356b466df6111cf4b89cf",
         "type": "git",
         "url": "https://github.com/amphp/sync.git"
-      }
-    },
-    "composer/package-versions-deprecated": {
-      "1.11.99.5": {
-        "rev": "b4f54f74ef3453349c24a845d22392cd31e65f1d",
-        "type": "git",
-        "url": "https://github.com/composer/package-versions-deprecated.git"
-      }
-    },
-    "composer/pcre": {
-      "3.0.0": {
-        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
-        "type": "git",
-        "url": "https://github.com/composer/pcre.git"
-      }
-    },
-    "composer/semver": {
-      "3.3.2": {
-        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "3.0.3": {
-        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
       }
     },
     "fidry/console": {

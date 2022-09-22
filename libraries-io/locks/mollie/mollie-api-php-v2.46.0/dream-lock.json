@@ -22,16 +22,79 @@
       "mbstring",
       "xml"
     ],
+    "phpPackageType": {
+      "composer/ca-bundle@1.3.3": "library",
+      "composer/pcre@3.0.0": "library",
+      "composer/semver@3.3.2": "library",
+      "composer/xdebug-handler@3.0.3": "library",
+      "doctrine/annotations@1.13.3": "library",
+      "doctrine/instantiator@1.4.1": "library",
+      "doctrine/lexer@1.2.3": "library",
+      "eloquent/liberator@3.0.0": "library",
+      "eloquent/pops@5.0.0": "library",
+      "friendsofphp/php-cs-fixer@v3.11.0": "application",
+      "guzzlehttp/guzzle@7.5.0": "library",
+      "guzzlehttp/promises@1.5.2": "library",
+      "guzzlehttp/psr7@2.4.1": "library",
+      "mollie/mollie-api-php@v2.46.0": "library",
+      "myclabs/deep-copy@1.11.0": "library",
+      "nikic/php-parser@v4.15.1": "library",
+      "phar-io/manifest@2.0.3": "library",
+      "phar-io/version@3.2.1": "library",
+      "phpstan/phpstan@1.8.5": "library",
+      "phpunit/php-code-coverage@9.2.17": "library",
+      "phpunit/php-file-iterator@3.0.6": "library",
+      "phpunit/php-invoker@3.1.1": "library",
+      "phpunit/php-text-template@2.0.4": "library",
+      "phpunit/php-timer@5.0.3": "library",
+      "phpunit/phpunit@9.5.24": "library",
+      "psr/cache@3.0.0": "library",
+      "psr/container@2.0.2": "library",
+      "psr/event-dispatcher@1.0.0": "library",
+      "psr/http-client@1.0.1": "library",
+      "psr/http-factory@1.0.1": "library",
+      "psr/http-message@1.0.1": "library",
+      "psr/log@3.0.0": "library",
+      "ralouphie/getallheaders@3.0.3": "library",
+      "sebastian/cli-parser@1.0.1": "library",
+      "sebastian/code-unit-reverse-lookup@2.0.3": "library",
+      "sebastian/code-unit@1.0.8": "library",
+      "sebastian/comparator@4.0.8": "library",
+      "sebastian/complexity@2.0.2": "library",
+      "sebastian/diff@4.0.4": "library",
+      "sebastian/environment@5.1.4": "library",
+      "sebastian/exporter@4.0.5": "library",
+      "sebastian/global-state@5.0.5": "library",
+      "sebastian/lines-of-code@1.0.3": "library",
+      "sebastian/object-enumerator@4.0.4": "library",
+      "sebastian/object-reflector@2.0.4": "library",
+      "sebastian/recursion-context@4.0.4": "library",
+      "sebastian/resource-operations@3.0.3": "library",
+      "sebastian/type@3.2.0": "library",
+      "sebastian/version@3.0.2": "library",
+      "symfony/console@v6.1.4": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library",
+      "symfony/event-dispatcher-contracts@v3.1.1": "library",
+      "symfony/event-dispatcher@v6.1.0": "library",
+      "symfony/filesystem@v6.1.4": "library",
+      "symfony/finder@v6.1.3": "library",
+      "symfony/options-resolver@v6.1.0": "library",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
+      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/polyfill-php80@v1.26.0": "library",
+      "symfony/polyfill-php81@v1.26.0": "library",
+      "symfony/process@v6.1.3": "library",
+      "symfony/service-contracts@v3.1.1": "library",
+      "symfony/stopwatch@v6.1.0": "library",
+      "symfony/string@v6.1.4": "library",
+      "theseer/tokenizer@1.2.1": "library"
+    },
     "phpSemver": "^7.0|^8.0"
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "composer/xdebug-handler": {
-      "3.0.3": [
-        [ "composer/pcre", "3.0.0" ],
-        [ "psr/log", "3.0.0" ]
-      ]
-    },
     "doctrine/annotations": {
       "1.13.3": [
         [ "doctrine/lexer", "1.2.3" ],
@@ -45,8 +108,6 @@
     },
     "friendsofphp/php-cs-fixer": {
       "v3.11.0": [
-        [ "composer/semver", "3.3.2" ],
-        [ "composer/xdebug-handler", "3.0.3" ],
         [ "doctrine/annotations", "1.13.3" ],
         [ "sebastian/diff", "4.0.4" ],
         [ "symfony/console", "v6.1.4" ],
@@ -78,7 +139,6 @@
     },
     "mollie/mollie-api-php": {
       "v2.46.0": [
-        [ "composer/ca-bundle", "1.3.3" ],
         [ "eloquent/liberator", "3.0.0" ],
         [ "friendsofphp/php-cs-fixer", "v3.11.0" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
@@ -221,34 +281,6 @@
     }
   },
   "sources": {
-    "composer/ca-bundle": {
-      "1.3.3": {
-        "rev": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
-        "type": "git",
-        "url": "https://github.com/composer/ca-bundle.git"
-      }
-    },
-    "composer/pcre": {
-      "3.0.0": {
-        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
-        "type": "git",
-        "url": "https://github.com/composer/pcre.git"
-      }
-    },
-    "composer/semver": {
-      "3.3.2": {
-        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "3.0.3": {
-        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
-      }
-    },
     "doctrine/annotations": {
       "1.13.3": {
         "rev": "648b0343343565c4a056bfc8392201385e8d89f0",
@@ -436,13 +468,6 @@
         "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
         "type": "git",
         "url": "https://github.com/php-fig/http-message.git"
-      }
-    },
-    "psr/log": {
-      "3.0.0": {
-        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
-        "type": "git",
-        "url": "https://github.com/php-fig/log.git"
       }
     },
     "ralouphie/getallheaders": {

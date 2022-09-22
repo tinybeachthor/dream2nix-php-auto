@@ -12,6 +12,31 @@
     "phpExtensions": [
       "tokenizer"
     ],
+    "phpPackageType": {
+      "composer/semver@1.7.2": "library",
+      "doctrine/inflector@1.4.4": "library",
+      "friendsofphp/php-cs-fixer@v1.13.3": "application",
+      "matthiasnoback/symfony-config-test@v1.4.0": "library",
+      "psr/log@3.0.0": "library",
+      "sebastian/diff@1.4.3": "library",
+      "sebastian/exporter@1.2.2": "library",
+      "sebastian/recursion-context@1.0.5": "library",
+      "sllh/php-cs-fixer-styleci-bridge@v2.1.1": "library",
+      "sllh/styleci-fixers@v4.11.0": "library",
+      "symfony/config@v3.4.47": "library",
+      "symfony/console@v3.4.47": "library",
+      "symfony/debug@v4.4.44": "library",
+      "symfony/event-dispatcher@v3.4.47": "library",
+      "symfony/filesystem@v3.4.47": "library",
+      "symfony/finder@v3.4.47": "library",
+      "symfony/phpunit-bridge@v3.4.47": "symfony-bridge",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/process@v3.4.47": "library",
+      "symfony/stopwatch@v3.4.47": "library",
+      "symfony/yaml@v3.4.47": "library",
+      "twig/twig@v1.44.6": "library"
+    },
     "phpSemver": "^5.3 || ^7.0"
   },
   "cyclicDependencies": {},
@@ -40,7 +65,6 @@
     },
     "sllh/php-cs-fixer-styleci-bridge": {
       "v2.1.1": [
-        [ "composer/semver", "1.7.2" ],
         [ "doctrine/inflector", "1.4.4" ],
         [ "friendsofphp/php-cs-fixer", "v1.13.3" ],
         [ "matthiasnoback/symfony-config-test", "v1.4.0" ],
@@ -86,13 +110,6 @@
     }
   },
   "sources": {
-    "composer/semver": {
-      "1.7.2": {
-        "rev": "647490bbcaf7fc4891c58f47b825eb99d19c377a",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
-      }
-    },
     "doctrine/inflector": {
       "1.4.4": {
         "rev": "4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9",

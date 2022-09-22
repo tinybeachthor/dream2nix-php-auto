@@ -12,6 +12,25 @@
     "phpExtensions": [
       "gd"
     ],
+    "phpPackageType": {
+      "composer/semver@1.7.2": "library",
+      "gregwar/cache@v1.0.13": "library",
+      "gregwar/image@v2.1.0": "library",
+      "psr/container@1.1.2": "library",
+      "psr/log@3.0.0": "library",
+      "sllh/php-cs-fixer-styleci-bridge@v1.6.2": "library",
+      "sllh/styleci-fixers@v4.11.0": "library",
+      "symfony/config@v3.4.47": "library",
+      "symfony/console@v3.4.47": "library",
+      "symfony/debug@v4.4.44": "library",
+      "symfony/dependency-injection@v3.4.47": "library",
+      "symfony/filesystem@v4.4.42": "library",
+      "symfony/phpunit-bridge@v3.4.47": "symfony-bridge",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/polyfill-php80@v1.26.0": "library",
+      "symfony/yaml@v3.4.47": "library"
+    },
     "phpSemver": "^5.6 || ^7.0 || ^8.0"
   },
   "cyclicDependencies": {},
@@ -25,7 +44,6 @@
     },
     "sllh/php-cs-fixer-styleci-bridge": {
       "v1.6.2": [
-        [ "composer/semver", "1.7.2" ],
         [ "sllh/styleci-fixers", "v4.11.0" ],
         [ "symfony/config", "v3.4.47" ],
         [ "symfony/console", "v3.4.47" ],
@@ -68,13 +86,6 @@
     }
   },
   "sources": {
-    "composer/semver": {
-      "1.7.2": {
-        "rev": "647490bbcaf7fc4891c58f47b825eb99d19c377a",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
-      }
-    },
     "gregwar/cache": {
       "v1.0.13": {
         "rev": "184cc341c25298ff7d584f86b55b6ca26626da4f",

@@ -19,6 +19,63 @@
       "simplexml",
       "xmlwriter"
     ],
+    "phpPackageType": {
+      "cloudinary/cloudinary_php@2.9.0": "library",
+      "cloudinary/transformation-builder-sdk@1.0.0": "library",
+      "composer/pcre@1.0.1": "library",
+      "composer/semver@3.3.2": "library",
+      "composer/xdebug-handler@2.0.5": "library",
+      "consolidation/annotated-command@4.5.6": "library",
+      "consolidation/config@1.2.1": "library",
+      "consolidation/log@2.1.1": "library",
+      "consolidation/output-formatters@4.2.2": "library",
+      "consolidation/robo@1.5.0": "library",
+      "consolidation/self-update@2.0.5": "library",
+      "container-interop/container-interop@1.2.0": "library",
+      "dflydev/dot-access-data@v1.1.0": "library",
+      "doctrine/annotations@1.13.3": "library",
+      "doctrine/lexer@1.2.3": "library",
+      "friendsofphp/php-cs-fixer@v3.4.0": "application",
+      "grasmash/expander@1.0.0": "library",
+      "grasmash/yaml-expander@1.4.0": "library",
+      "guzzlehttp/guzzle@7.5.0": "library",
+      "guzzlehttp/promises@1.5.2": "library",
+      "guzzlehttp/psr7@2.4.1": "library",
+      "league/container@2.5.0": "library",
+      "monolog/monolog@3.2.0": "library",
+      "pdepend/pdepend@2.12.1": "library",
+      "php-cs-fixer/diff@v2.0.2": "library",
+      "phpmd/phpmd@2.13.0": "library",
+      "psr/cache@3.0.0": "library",
+      "psr/container@1.1.2": "library",
+      "psr/http-client@1.0.1": "library",
+      "psr/http-factory@1.0.1": "library",
+      "psr/http-message@1.0.1": "library",
+      "psr/log@2.0.0": "library",
+      "ralouphie/getallheaders@3.0.3": "library",
+      "shrikeh/teapot@v2.3.1": "library",
+      "squizlabs/php_codesniffer@3.7.1": "library",
+      "symfony/config@v5.4.11": "library",
+      "symfony/console@v4.4.45": "library",
+      "symfony/dependency-injection@v5.4.11": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library",
+      "symfony/event-dispatcher-contracts@v1.1.13": "library",
+      "symfony/event-dispatcher@v4.4.44": "library",
+      "symfony/filesystem@v4.4.42": "library",
+      "symfony/finder@v5.4.11": "library",
+      "symfony/options-resolver@v6.1.0": "library",
+      "symfony/phpunit-bridge@v5.4.11": "symfony-bridge",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/polyfill-php73@v1.26.0": "library",
+      "symfony/polyfill-php80@v1.26.0": "library",
+      "symfony/polyfill-php81@v1.26.0": "library",
+      "symfony/process@v4.4.44": "library",
+      "symfony/service-contracts@v2.5.2": "library",
+      "symfony/stopwatch@v6.1.0": "library",
+      "symfony/yaml@v4.4.45": "library",
+      "teapot/status-code@v1.1.2": "library"
+    },
     "phpSemver": ">=5.6.0"
   },
   "cyclicDependencies": {},
@@ -35,12 +92,6 @@
         [ "shrikeh/teapot", "v2.3.1" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ],
         [ "symfony/phpunit-bridge", "v5.4.11" ]
-      ]
-    },
-    "composer/xdebug-handler": {
-      "2.0.5": [
-        [ "composer/pcre", "1.0.1" ],
-        [ "psr/log", "2.0.0" ]
       ]
     },
     "consolidation/annotated-command": {
@@ -89,7 +140,6 @@
     },
     "consolidation/self-update": {
       "2.0.5": [
-        [ "composer/semver", "3.3.2" ],
         [ "symfony/console", "v4.4.45" ],
         [ "symfony/filesystem", "v4.4.42" ]
       ]
@@ -107,8 +157,6 @@
     },
     "friendsofphp/php-cs-fixer": {
       "v3.4.0": [
-        [ "composer/semver", "3.3.2" ],
-        [ "composer/xdebug-handler", "2.0.5" ],
         [ "doctrine/annotations", "1.13.3" ],
         [ "php-cs-fixer/diff", "v2.0.2" ],
         [ "symfony/console", "v4.4.45" ],
@@ -168,7 +216,6 @@
     },
     "phpmd/phpmd": {
       "2.13.0": [
-        [ "composer/xdebug-handler", "2.0.5" ],
         [ "pdepend/pdepend", "2.12.1" ]
       ]
     },
@@ -277,27 +324,6 @@
         "rev": "3c926d857061339e2b65e7f3c444eab80ea5fe1e",
         "type": "git",
         "url": "https://github.com/cloudinary/php-transformation-builder-sdk.git"
-      }
-    },
-    "composer/pcre": {
-      "1.0.1": {
-        "rev": "67a32d7d6f9f560b726ab25a061b38ff3a80c560",
-        "type": "git",
-        "url": "https://github.com/composer/pcre.git"
-      }
-    },
-    "composer/semver": {
-      "3.3.2": {
-        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "2.0.5": {
-        "rev": "9e36aeed4616366d2b690bdce11f71e9178c579a",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
       }
     },
     "consolidation/annotated-command": {

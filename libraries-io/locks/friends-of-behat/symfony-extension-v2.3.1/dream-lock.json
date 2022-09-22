@@ -25,6 +25,82 @@
       "xmlwriter",
       "xml"
     ],
+    "phpPackageType": {
+      "amphp/amp@v2.6.2": "library",
+      "amphp/byte-stream@v1.8.1": "library",
+      "behat/behat@v3.11.0": "library",
+      "behat/gherkin@v4.9.0": "library",
+      "behat/mink-selenium2-driver@v1.6.0": "mink-driver",
+      "behat/transliterator@v1.5.0": "library",
+      "composer/package-versions-deprecated@1.11.99.5": "composer-plugin",
+      "composer/pcre@1.0.1": "library",
+      "composer/semver@3.3.2": "library",
+      "composer/xdebug-handler@2.0.5": "library",
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "composer-plugin",
+      "dnoegel/php-xdg-base-dir@v0.1.1": "library",
+      "felixfbecker/advanced-json-rpc@v3.2.1": "library",
+      "felixfbecker/language-server-protocol@v1.5.2": "library",
+      "friends-of-behat/mink-browserkit-driver@v1.6.1": "mink-driver",
+      "friends-of-behat/mink-extension@v2.7.1": "behat-extension",
+      "friends-of-behat/mink@v1.10.0": "library",
+      "friends-of-behat/page-object-extension@v0.3.2": "library",
+      "friends-of-behat/service-container-extension@v1.1.0": "library",
+      "friends-of-behat/symfony-extension@v2.3.1": "library",
+      "friendsofphp/proxy-manager-lts@v1.0.12": "library",
+      "instaclick/php-webdriver@1.4.15": "library",
+      "laminas/laminas-code@4.7.0": "library",
+      "masterminds/html5@2.7.6": "library",
+      "netresearch/jsonmapper@v4.0.0": "library",
+      "nikic/php-parser@v4.15.1": "library",
+      "openlss/lib-array2xml@1.0.0": "library",
+      "phpdocumentor/reflection-common@2.2.0": "library",
+      "phpdocumentor/reflection-docblock@5.3.0": "library",
+      "phpdocumentor/type-resolver@1.6.1": "library",
+      "phpstan/phpdoc-parser@1.8.0": "library",
+      "psr/cache@3.0.0": "library",
+      "psr/container@2.0.2": "library",
+      "psr/event-dispatcher@1.0.0": "library",
+      "psr/log@3.0.0": "library",
+      "sebastian/diff@4.0.4": "library",
+      "slevomat/coding-standard@7.2.1": "phpcodesniffer-standard",
+      "squizlabs/php_codesniffer@3.7.1": "library",
+      "sylius-labs/coding-standard@v4.2.1": "library",
+      "symfony/browser-kit@v6.1.3": "library",
+      "symfony/cache-contracts@v3.1.1": "library",
+      "symfony/cache@v6.1.3": "library",
+      "symfony/config@v6.1.3": "library",
+      "symfony/console@v6.1.4": "library",
+      "symfony/css-selector@v6.1.3": "library",
+      "symfony/dependency-injection@v6.1.3": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library",
+      "symfony/dom-crawler@v6.1.4": "library",
+      "symfony/error-handler@v6.1.3": "library",
+      "symfony/event-dispatcher-contracts@v3.1.1": "library",
+      "symfony/event-dispatcher@v6.1.0": "library",
+      "symfony/filesystem@v6.1.4": "library",
+      "symfony/finder@v6.1.3": "library",
+      "symfony/framework-bundle@v6.1.4": "symfony-bundle",
+      "symfony/http-foundation@v6.1.4": "library",
+      "symfony/http-kernel@v6.1.4": "library",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
+      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/process@v6.1.3": "library",
+      "symfony/proxy-manager-bridge@v6.1.0": "symfony-bridge",
+      "symfony/routing@v6.1.3": "library",
+      "symfony/service-contracts@v3.1.1": "library",
+      "symfony/string@v6.1.4": "library",
+      "symfony/translation-contracts@v3.1.1": "library",
+      "symfony/translation@v6.1.4": "library",
+      "symfony/var-dumper@v6.1.3": "library",
+      "symfony/var-exporter@v6.1.3": "library",
+      "symfony/yaml@v6.1.4": "library",
+      "symplify/easy-coding-standard@10.2.10": "library",
+      "vimeo/psalm@v4.15.0": "library",
+      "webmozart/assert@1.11.0": "library",
+      "webmozart/path-util@2.3.0": "library"
+    },
     "phpSemver": "^7.4 || ^8.0"
   },
   "cyclicDependencies": {},
@@ -52,12 +128,6 @@
       "v1.6.0": [
         [ "friends-of-behat/mink", "v1.10.0" ],
         [ "instaclick/php-webdriver", "1.4.15" ]
-      ]
-    },
-    "composer/xdebug-handler": {
-      "2.0.5": [
-        [ "composer/pcre", "1.0.1" ],
-        [ "psr/log", "3.0.0" ]
       ]
     },
     "dealerdirect/phpcodesniffer-composer-installer": {
@@ -296,9 +366,6 @@
       "v4.15.0": [
         [ "amphp/amp", "v2.6.2" ],
         [ "amphp/byte-stream", "v1.8.1" ],
-        [ "composer/package-versions-deprecated", "1.11.99.5" ],
-        [ "composer/semver", "3.3.2" ],
-        [ "composer/xdebug-handler", "2.0.5" ],
         [ "dnoegel/php-xdg-base-dir", "v0.1.1" ],
         [ "felixfbecker/advanced-json-rpc", "v3.2.1" ],
         [ "felixfbecker/language-server-protocol", "v1.5.2" ],
@@ -364,34 +431,6 @@
         "rev": "baac5873bac3749887d28ab68e2f74db3a4408af",
         "type": "git",
         "url": "https://github.com/Behat/Transliterator.git"
-      }
-    },
-    "composer/package-versions-deprecated": {
-      "1.11.99.5": {
-        "rev": "b4f54f74ef3453349c24a845d22392cd31e65f1d",
-        "type": "git",
-        "url": "https://github.com/composer/package-versions-deprecated.git"
-      }
-    },
-    "composer/pcre": {
-      "1.0.1": {
-        "rev": "67a32d7d6f9f560b726ab25a061b38ff3a80c560",
-        "type": "git",
-        "url": "https://github.com/composer/pcre.git"
-      }
-    },
-    "composer/semver": {
-      "3.3.2": {
-        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "2.0.5": {
-        "rev": "9e36aeed4616366d2b690bdce11f71e9178c579a",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
       }
     },
     "dealerdirect/phpcodesniffer-composer-installer": {

@@ -21,16 +21,57 @@
       "mbstring",
       "ctype"
     ],
+    "phpPackageType": {
+      "composer/pcre@3.0.0": "library",
+      "composer/xdebug-handler@3.0.3": "library",
+      "doctrine/instantiator@1.4.1": "library",
+      "easy-doc/easy-doc@1.4.1": "library",
+      "gregwar/rst@v1.0.6": "library",
+      "mikey179/vfsstream@v1.6.11": "library",
+      "myclabs/deep-copy@1.11.0": "library",
+      "pdepend/pdepend@2.12.1": "library",
+      "phpdocumentor/reflection-common@2.2.0": "library",
+      "phpdocumentor/reflection-docblock@5.3.0": "library",
+      "phpdocumentor/type-resolver@1.6.1": "library",
+      "phpmd/phpmd@2.13.0": "library",
+      "phpspec/prophecy@v1.10.3": "library",
+      "phpunit/php-code-coverage@4.0.8": "library",
+      "phpunit/php-file-iterator@1.4.5": "library",
+      "phpunit/php-text-template@1.2.1": "library",
+      "phpunit/php-timer@1.0.9": "library",
+      "phpunit/php-token-stream@2.0.2": "library",
+      "phpunit/phpunit-mock-objects@3.4.4": "library",
+      "phpunit/phpunit@5.7.27": "library",
+      "psr/container@1.1.2": "library",
+      "psr/log@3.0.0": "library",
+      "sebastian/code-unit-reverse-lookup@1.0.2": "library",
+      "sebastian/comparator@1.2.4": "library",
+      "sebastian/diff@1.4.3": "library",
+      "sebastian/environment@2.0.0": "library",
+      "sebastian/exporter@2.0.0": "library",
+      "sebastian/global-state@1.1.1": "library",
+      "sebastian/object-enumerator@2.0.1": "library",
+      "sebastian/recursion-context@2.0.0": "library",
+      "sebastian/resource-operations@1.0.0": "library",
+      "sebastian/version@2.0.1": "library",
+      "simple-cli/simple-cli@1.6.0": "library",
+      "squizlabs/php_codesniffer@2.9.2": "library",
+      "symfony/config@v6.1.3": "library",
+      "symfony/dependency-injection@v5.4.11": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library",
+      "symfony/filesystem@v6.1.4": "library",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/polyfill-php80@v1.26.0": "library",
+      "symfony/polyfill-php81@v1.26.0": "library",
+      "symfony/service-contracts@v2.5.2": "library",
+      "symfony/yaml@v4.4.45": "library",
+      "webmozart/assert@1.11.0": "library"
+    },
     "phpSemver": ">=5.3.9"
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "composer/xdebug-handler": {
-      "3.0.3": [
-        [ "composer/pcre", "3.0.0" ],
-        [ "psr/log", "3.0.0" ]
-      ]
-    },
     "easy-doc/easy-doc": {
       "1.4.1": [
         [ "simple-cli/simple-cli", "1.6.0" ]
@@ -62,7 +103,6 @@
     },
     "phpmd/phpmd": {
       "2.13.0": [
-        [ "composer/xdebug-handler", "3.0.3" ],
         [ "easy-doc/easy-doc", "1.4.1" ],
         [ "gregwar/rst", "v1.0.6" ],
         [ "mikey179/vfsstream", "v1.6.11" ],
@@ -173,20 +213,6 @@
     }
   },
   "sources": {
-    "composer/pcre": {
-      "3.0.0": {
-        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
-        "type": "git",
-        "url": "https://github.com/composer/pcre.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "3.0.3": {
-        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
-      }
-    },
     "doctrine/instantiator": {
       "1.4.1": {
         "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
@@ -318,13 +344,6 @@
         "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
         "type": "git",
         "url": "https://github.com/php-fig/container.git"
-      }
-    },
-    "psr/log": {
-      "3.0.0": {
-        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
-        "type": "git",
-        "url": "https://github.com/php-fig/log.git"
       }
     },
     "sebastian/code-unit-reverse-lookup": {

@@ -16,16 +16,49 @@
       "tokenizer",
       "xmlwriter"
     ],
+    "phpPackageType": {
+      "composer/installers@v1.12.0": "composer-plugin",
+      "composer/pcre@3.0.0": "library",
+      "composer/xdebug-handler@3.0.3": "library",
+      "data-values/common@1.0.0": "library",
+      "data-values/data-values@3.0.0": "library",
+      "data-values/interfaces@1.0.0": "library",
+      "data-values/validators@1.0.0": "library",
+      "jeroen/file-fetcher@6.1.0": "library",
+      "justinrainbow/json-schema@5.2.12": "library",
+      "mediawiki/parser-hooks@1.6.1": "library",
+      "mediawiki/semantic-media-wiki@4.0.2": "library",
+      "onoi/blob-store@1.2.1": "library",
+      "onoi/cache@1.2.0": "library",
+      "onoi/callback-container@2.0.0": "library",
+      "onoi/event-dispatcher@1.1.0": "library",
+      "onoi/http-request@1.3.1": "library",
+      "onoi/message-reporter@1.4.2": "library",
+      "onoi/shared-resources@0.4.3": "library",
+      "param-processor/param-processor@1.12.0": "library",
+      "pdepend/pdepend@2.12.1": "library",
+      "phpmd/phpmd@2.13.0": "library",
+      "psr/container@2.0.2": "library",
+      "psr/log@1.1.4": "library",
+      "seld/jsonlint@1.9.0": "library",
+      "serialization/serialization@4.0.0": "library",
+      "squizlabs/php_codesniffer@3.7.1": "library",
+      "symfony/config@v6.1.3": "library",
+      "symfony/css-selector@v5.4.11": "library",
+      "symfony/dependency-injection@v6.1.3": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library",
+      "symfony/filesystem@v6.1.4": "library",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/polyfill-php80@v1.26.0": "library",
+      "symfony/service-contracts@v3.1.1": "library",
+      "wikimedia/cdb@2.0.0": "library",
+      "wikimedia/textcat@2.0.0": "library"
+    },
     "phpSemver": ">=7.3"
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "composer/xdebug-handler": {
-      "3.0.3": [
-        [ "composer/pcre", "3.0.0" ],
-        [ "psr/log", "1.1.4" ]
-      ]
-    },
     "data-values/common": {
       "1.0.0": [
         [ "data-values/data-values", "3.0.0" ],
@@ -50,7 +83,6 @@
     },
     "mediawiki/semantic-media-wiki": {
       "4.0.2": [
-        [ "composer/installers", "v1.12.0" ],
         [ "jeroen/file-fetcher", "6.1.0" ],
         [ "justinrainbow/json-schema", "5.2.12" ],
         [ "mediawiki/parser-hooks", "1.6.1" ],
@@ -88,11 +120,6 @@
         [ "onoi/cache", "1.2.0" ]
       ]
     },
-    "onoi/shared-resources": {
-      "0.4.3": [
-        [ "composer/installers", "v1.12.0" ]
-      ]
-    },
     "param-processor/param-processor": {
       "1.12.0": [
         [ "data-values/common", "1.0.0" ],
@@ -110,7 +137,6 @@
     },
     "phpmd/phpmd": {
       "2.13.0": [
-        [ "composer/xdebug-handler", "3.0.3" ],
         [ "pdepend/pdepend", "2.12.1" ]
       ]
     },
@@ -146,27 +172,6 @@
     }
   },
   "sources": {
-    "composer/installers": {
-      "v1.12.0": {
-        "rev": "d20a64ed3c94748397ff5973488761b22f6d3f19",
-        "type": "git",
-        "url": "https://github.com/composer/installers.git"
-      }
-    },
-    "composer/pcre": {
-      "3.0.0": {
-        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
-        "type": "git",
-        "url": "https://github.com/composer/pcre.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "3.0.3": {
-        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
-      }
-    },
     "data-values/common": {
       "1.0.0": {
         "rev": "315bd95ef8e5c360ce8a1cf02c0eef35bbb92561",

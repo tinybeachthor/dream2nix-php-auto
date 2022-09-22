@@ -25,6 +25,84 @@
       "simplexml",
       "ctype"
     ],
+    "phpPackageType": {
+      "amphp/amp@v2.6.1": "library",
+      "amphp/byte-stream@v1.8.1": "library",
+      "composer/package-versions-deprecated@1.11.99.4": "composer-plugin",
+      "composer/pcre@1.0.0": "library",
+      "composer/semver@3.2.7": "library",
+      "composer/xdebug-handler@3.0.1": "library",
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.1": "composer-plugin",
+      "dnoegel/php-xdg-base-dir@v0.1.1": "library",
+      "doctrine/instantiator@1.4.0": "library",
+      "felixfbecker/advanced-json-rpc@v3.2.1": "library",
+      "felixfbecker/language-server-protocol@1.5.1": "library",
+      "fig/http-message-util@1.1.5": "library",
+      "hamcrest/hamcrest-php@v2.0.1": "library",
+      "laminas/laminas-coding-standard@2.3.0": "phpcodesniffer-standard",
+      "laminas/laminas-diactoros@2.8.0": "library",
+      "mezzio/mezzio-helpers@5.8.0": "library",
+      "mezzio/mezzio-router@3.7.0": "library",
+      "mockery/mockery@1.4.4": "library",
+      "myclabs/deep-copy@1.10.2": "library",
+      "netresearch/jsonmapper@v4.0.0": "library",
+      "nikic/php-parser@v4.13.2": "library",
+      "openlss/lib-array2xml@1.0.0": "library",
+      "phar-io/manifest@2.0.3": "library",
+      "phar-io/version@3.1.0": "library",
+      "phpdocumentor/reflection-common@2.2.0": "library",
+      "phpdocumentor/reflection-docblock@5.3.0": "library",
+      "phpdocumentor/type-resolver@1.6.0": "library",
+      "phpspec/prophecy-phpunit@v2.0.1": "library",
+      "phpspec/prophecy@v1.15.0": "library",
+      "phpstan/phpdoc-parser@1.2.0": "library",
+      "phpunit/php-code-coverage@9.2.10": "library",
+      "phpunit/php-file-iterator@3.0.6": "library",
+      "phpunit/php-invoker@3.1.1": "library",
+      "phpunit/php-text-template@2.0.4": "library",
+      "phpunit/php-timer@5.0.3": "library",
+      "phpunit/phpunit@9.5.11": "library",
+      "psalm/plugin-phpunit@0.15.2": "psalm-plugin",
+      "psr/container@1.1.2": "library",
+      "psr/http-factory@1.0.1": "library",
+      "psr/http-message@1.0.1": "library",
+      "psr/http-server-handler@1.0.1": "library",
+      "psr/http-server-middleware@1.0.1": "library",
+      "psr/log@1.1.4": "library",
+      "sebastian/cli-parser@1.0.1": "library",
+      "sebastian/code-unit-reverse-lookup@2.0.3": "library",
+      "sebastian/code-unit@1.0.8": "library",
+      "sebastian/comparator@4.0.6": "library",
+      "sebastian/complexity@2.0.2": "library",
+      "sebastian/diff@4.0.4": "library",
+      "sebastian/environment@5.1.3": "library",
+      "sebastian/exporter@4.0.4": "library",
+      "sebastian/global-state@5.0.3": "library",
+      "sebastian/lines-of-code@1.0.3": "library",
+      "sebastian/object-enumerator@4.0.4": "library",
+      "sebastian/object-reflector@2.0.4": "library",
+      "sebastian/recursion-context@4.0.4": "library",
+      "sebastian/resource-operations@3.0.3": "library",
+      "sebastian/type@2.3.4": "library",
+      "sebastian/version@3.0.2": "library",
+      "slevomat/coding-standard@7.0.18": "phpcodesniffer-standard",
+      "squizlabs/php_codesniffer@3.6.2": "library",
+      "symfony/console@v5.4.2": "library",
+      "symfony/deprecation-contracts@v2.5.0": "library",
+      "symfony/polyfill-ctype@v1.24.0": "library",
+      "symfony/polyfill-intl-grapheme@v1.24.0": "library",
+      "symfony/polyfill-intl-normalizer@v1.24.0": "library",
+      "symfony/polyfill-mbstring@v1.24.0": "library",
+      "symfony/polyfill-php73@v1.24.0": "library",
+      "symfony/polyfill-php80@v1.24.0": "library",
+      "symfony/service-contracts@v2.5.0": "library",
+      "symfony/string@v5.4.2": "library",
+      "theseer/tokenizer@1.2.1": "library",
+      "vimeo/psalm@4.17.0": "library",
+      "webimpress/coding-standard@1.2.3": "phpcodesniffer-standard",
+      "webmozart/assert@1.10.0": "library",
+      "webmozart/path-util@2.3.0": "library"
+    },
     "phpSemver": "^7.4 || ~8.0.0 || ~8.1.0"
   },
   "cyclicDependencies": {},
@@ -32,12 +110,6 @@
     "amphp/byte-stream": {
       "v1.8.1": [
         [ "amphp/amp", "v2.6.1" ]
-      ]
-    },
-    "composer/xdebug-handler": {
-      "3.0.1": [
-        [ "composer/pcre", "1.0.0" ],
-        [ "psr/log", "1.1.4" ]
       ]
     },
     "dealerdirect/phpcodesniffer-composer-installer": {
@@ -167,8 +239,6 @@
     },
     "psalm/plugin-phpunit": {
       "0.15.2": [
-        [ "composer/package-versions-deprecated", "1.11.99.4" ],
-        [ "composer/semver", "3.2.7" ],
         [ "vimeo/psalm", "4.17.0" ]
       ]
     },
@@ -257,9 +327,6 @@
       "4.17.0": [
         [ "amphp/amp", "v2.6.1" ],
         [ "amphp/byte-stream", "v1.8.1" ],
-        [ "composer/package-versions-deprecated", "1.11.99.4" ],
-        [ "composer/semver", "3.2.7" ],
-        [ "composer/xdebug-handler", "3.0.1" ],
         [ "dnoegel/php-xdg-base-dir", "v0.1.1" ],
         [ "felixfbecker/advanced-json-rpc", "v3.2.1" ],
         [ "felixfbecker/language-server-protocol", "1.5.1" ],
@@ -302,34 +369,6 @@
         "rev": "acbd8002b3536485c997c4e019206b3f10ca15bd",
         "type": "git",
         "url": "https://github.com/amphp/byte-stream.git"
-      }
-    },
-    "composer/package-versions-deprecated": {
-      "1.11.99.4": {
-        "rev": "b174585d1fe49ceed21928a945138948cb394600",
-        "type": "git",
-        "url": "https://github.com/composer/package-versions-deprecated.git"
-      }
-    },
-    "composer/pcre": {
-      "1.0.0": {
-        "rev": "3d322d715c43a1ac36c7fe215fa59336265500f2",
-        "type": "git",
-        "url": "https://github.com/composer/pcre.git"
-      }
-    },
-    "composer/semver": {
-      "3.2.7": {
-        "rev": "deac27056b57e46faf136fae7b449eeaa71661ee",
-        "type": "git",
-        "url": "https://github.com/composer/semver.git"
-      }
-    },
-    "composer/xdebug-handler": {
-      "3.0.1": {
-        "rev": "12f1b79476638a5615ed00ea6adbb269cec96fd8",
-        "type": "git",
-        "url": "https://github.com/composer/xdebug-handler.git"
       }
     },
     "dealerdirect/phpcodesniffer-composer-installer": {
@@ -582,13 +621,6 @@
         "rev": "2296f45510945530b9dceb8bcedb5cb84d40c5f5",
         "type": "git",
         "url": "https://github.com/php-fig/http-server-middleware.git"
-      }
-    },
-    "psr/log": {
-      "1.1.4": {
-        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
-        "type": "git",
-        "url": "https://github.com/php-fig/log.git"
       }
     },
     "sebastian/cli-parser": {
