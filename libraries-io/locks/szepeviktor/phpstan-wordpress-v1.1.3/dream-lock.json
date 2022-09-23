@@ -1,39 +1,59 @@
 {
   "_generic": {
-    "defaultPackage": "pear/http_request2",
+    "defaultPackage": "szepeviktor/phpstan-wordpress",
     "location": "",
     "packages": {
-      "pear/http_request2": "v2.5.1"
+      "szepeviktor/phpstan-wordpress": "v1.1.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "php"
   },
   "_subsystem": {
     "phpExtensions": [
+      "openssl",
+      "pcre",
       "tokenizer",
       "dom",
       "phar",
       "xmlwriter",
-      "libxml",
       "json",
+      "libxml",
       "mbstring",
-      "xml"
+      "xml",
+      "simplexml"
     ],
     "phpPackageType": {
+      "automattic/phpcs-neutron-ruleset@v3.4.0": "phpcodesniffer-standard",
+      "automattic/phpcs-neutron-standard@v1.7.0": "phpcodesniffer-standard",
+      "composer/ca-bundle@1.3.3": "library",
+      "composer/class-map-generator@1.0.0": "library",
+      "composer/composer@2.4.2": "library",
+      "composer/metadata-minifier@1.0.0": "library",
+      "composer/pcre@3.0.0": "library",
+      "composer/semver@3.3.2": "library",
+      "composer/spdx-licenses@1.5.7": "library",
+      "composer/xdebug-handler@3.0.3": "library",
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "composer-plugin",
       "doctrine/instantiator@1.4.1": "library",
+      "justinrainbow/json-schema@5.2.12": "library",
       "myclabs/deep-copy@1.11.0": "library",
       "nikic/php-parser@v4.15.1": "library",
-      "pear/http_request2@v2.5.1": "library",
-      "pear/net_url2@v2.2.2": "library",
-      "pear/pear_exception@v1.0.2": "class",
       "phar-io/manifest@2.0.3": "library",
       "phar-io/version@3.2.1": "library",
+      "php-parallel-lint/php-parallel-lint@v1.3.2": "library",
+      "php-stubs/wordpress-stubs@v6.0.1": "library",
+      "phpstan/phpdoc-parser@0.4.9": "library",
+      "phpstan/phpstan-strict-rules@1.4.3": "phpstan-extension",
+      "phpstan/phpstan@1.8.5": "library",
       "phpunit/php-code-coverage@9.2.17": "library",
       "phpunit/php-file-iterator@3.0.6": "library",
       "phpunit/php-invoker@3.1.1": "library",
       "phpunit/php-text-template@2.0.4": "library",
       "phpunit/php-timer@5.0.3": "library",
       "phpunit/phpunit@9.5.24": "library",
+      "psr/container@2.0.2": "library",
+      "psr/log@3.0.0": "library",
+      "react/promise@v2.9.0": "library",
       "sebastian/cli-parser@1.0.1": "library",
       "sebastian/code-unit-reverse-lookup@2.0.3": "library",
       "sebastian/code-unit@1.0.8": "library",
@@ -50,23 +70,61 @@
       "sebastian/resource-operations@3.0.3": "library",
       "sebastian/type@3.2.0": "library",
       "sebastian/version@3.0.2": "library",
+      "seld/jsonlint@1.9.0": "library",
+      "seld/phar-utils@1.2.1": "library",
+      "seld/signal-handler@2.0.1": "library",
+      "sirbrillig/phpcs-import-detection@v1.3.2": "phpcodesniffer-standard",
+      "sirbrillig/phpcs-variable-analysis@v2.11.8": "phpcodesniffer-standard",
+      "slevomat/coding-standard@6.4.1": "phpcodesniffer-standard",
+      "squizlabs/php_codesniffer@3.7.1": "library",
+      "symfony/console@v6.1.4": "library",
+      "symfony/deprecation-contracts@v3.1.1": "library",
+      "symfony/filesystem@v6.1.4": "library",
+      "symfony/finder@v6.1.3": "library",
+      "symfony/polyfill-ctype@v1.26.0": "library",
+      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
+      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
+      "symfony/polyfill-mbstring@v1.26.0": "library",
+      "symfony/polyfill-php73@v1.26.0": "library",
+      "symfony/polyfill-php80@v1.26.0": "library",
+      "symfony/process@v6.1.3": "library",
+      "symfony/service-contracts@v3.1.1": "library",
+      "symfony/string@v6.1.4": "library",
+      "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset@v0.6.1": "phpcodesniffer-standard",
+      "szepeviktor/phpstan-wordpress@v1.1.3": "library",
       "theseer/tokenizer@1.2.1": "library",
-      "yoast/phpunit-polyfills@1.0.3": "library"
+      "wp-coding-standards/wpcs@2.3.0": "phpcodesniffer-standard"
     },
-    "phpSemver": ">=5.6.0"
+    "phpSemver": "^7.2 || ^8.0"
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "pear/http_request2": {
-      "v2.5.1": [
-        [ "pear/net_url2", "v2.2.2" ],
-        [ "pear/pear_exception", "v1.0.2" ],
-        [ "yoast/phpunit-polyfills", "1.0.3" ]
+    "automattic/phpcs-neutron-ruleset": {
+      "v3.4.0": [
+        [ "automattic/phpcs-neutron-standard", "v1.7.0" ],
+        [ "sirbrillig/phpcs-import-detection", "v1.3.2" ],
+        [ "sirbrillig/phpcs-variable-analysis", "v2.11.8" ],
+        [ "wp-coding-standards/wpcs", "2.3.0" ]
+      ]
+    },
+    "automattic/phpcs-neutron-standard": {
+      "v1.7.0": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
       ]
     },
     "phar-io/manifest": {
       "2.0.3": [
         [ "phar-io/version", "3.2.1" ]
+      ]
+    },
+    "phpstan/phpstan-strict-rules": {
+      "1.4.3": [
+        [ "phpstan/phpstan", "1.8.5" ]
       ]
     },
     "phpunit/php-code-coverage": {
@@ -103,7 +161,8 @@
         [ "sebastian/object-enumerator", "4.0.4" ],
         [ "sebastian/resource-operations", "3.0.3" ],
         [ "sebastian/type", "3.2.0" ],
-        [ "sebastian/version", "3.0.2" ]
+        [ "sebastian/version", "3.0.2" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
       ]
     },
     "sebastian/comparator": {
@@ -139,13 +198,69 @@
         [ "sebastian/recursion-context", "4.0.4" ]
       ]
     },
-    "yoast/phpunit-polyfills": {
-      "1.0.3": [
-        [ "phpunit/phpunit", "9.5.24" ]
+    "sirbrillig/phpcs-import-detection": {
+      "v1.3.2": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "sirbrillig/phpcs-variable-analysis": {
+      "v2.11.8": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset": {
+      "v0.6.1": [
+        [ "automattic/phpcs-neutron-ruleset", "v3.4.0" ],
+        [ "slevomat/coding-standard", "6.4.1" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "szepeviktor/phpstan-wordpress": {
+      "v1.1.3": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "php-parallel-lint/php-parallel-lint", "v1.3.2" ],
+        [ "php-stubs/wordpress-stubs", "v6.0.1" ],
+        [ "phpstan/phpstan", "1.8.5" ],
+        [ "phpstan/phpstan-strict-rules", "1.4.3" ],
+        [ "phpunit/phpunit", "9.5.24" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset", "v0.6.1" ]
+      ]
+    },
+    "wp-coding-standards/wpcs": {
+      "2.3.0": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
       ]
     }
   },
   "sources": {
+    "automattic/phpcs-neutron-ruleset": {
+      "v3.4.0": {
+        "rev": "0d79b6016a274d1bb8cbb359592e8dad7ffa47ca",
+        "type": "git",
+        "url": "https://github.com/Automattic/phpcs-neutron-ruleset.git"
+      }
+    },
+    "automattic/phpcs-neutron-standard": {
+      "v1.7.0": {
+        "rev": "566ad70534296073afa9143858671356444ddead",
+        "type": "git",
+        "url": "https://github.com/Automattic/phpcs-neutron-standard.git"
+      }
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": {
+        "rev": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
     "doctrine/instantiator": {
       "1.4.1": {
         "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
@@ -167,27 +282,6 @@
         "url": "https://github.com/nikic/PHP-Parser.git"
       }
     },
-    "pear/http_request2": {
-      "v2.5.1": {
-        "rev": "db4ce7844f838d3adca0513a77420c0fec22ed2d",
-        "type": "git",
-        "url": "https://github.com/pear/HTTP_Request2.git"
-      }
-    },
-    "pear/net_url2": {
-      "v2.2.2": {
-        "rev": "07fd055820dbf466ee3990abe96d0e40a8791f9d",
-        "type": "git",
-        "url": "https://github.com/pear/Net_URL2.git"
-      }
-    },
-    "pear/pear_exception": {
-      "v1.0.2": {
-        "rev": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
-        "type": "git",
-        "url": "https://github.com/pear/PEAR_Exception.git"
-      }
-    },
     "phar-io/manifest": {
       "2.0.3": {
         "rev": "97803eca37d319dfa7826cc2437fc020857acb53",
@@ -200,6 +294,34 @@
         "rev": "4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
         "type": "git",
         "url": "https://github.com/phar-io/version.git"
+      }
+    },
+    "php-parallel-lint/php-parallel-lint": {
+      "v1.3.2": {
+        "rev": "6483c9832e71973ed29cf71bd6b3f4fde438a9de",
+        "type": "git",
+        "url": "https://github.com/php-parallel-lint/PHP-Parallel-Lint.git"
+      }
+    },
+    "php-stubs/wordpress-stubs": {
+      "v6.0.1": {
+        "rev": "e04781a84e364615a7b5f70fdc345c8253ca5b8f",
+        "type": "git",
+        "url": "https://github.com/php-stubs/wordpress-stubs.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "1.8.5": {
+        "rev": "f6598a5ff12ca4499a836815e08b4d77a2ddeb20",
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "phpstan/phpstan-strict-rules": {
+      "1.4.3": {
+        "rev": "431b3d6e8040075de196680cd5bc95735987b4ae",
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-strict-rules.git"
       }
     },
     "phpunit/php-code-coverage": {
@@ -356,6 +478,62 @@
         "url": "https://github.com/sebastianbergmann/version.git"
       }
     },
+    "sirbrillig/phpcs-import-detection": {
+      "v1.3.2": {
+        "rev": "898ce520cbcd28746d329939a7fe583fd74ede46",
+        "type": "git",
+        "url": "https://github.com/sirbrillig/phpcs-import-detection.git"
+      }
+    },
+    "sirbrillig/phpcs-variable-analysis": {
+      "v2.11.8": {
+        "rev": "aaf902277f2889fddbdb37046ae02b9965e2cf0f",
+        "type": "git",
+        "url": "https://github.com/sirbrillig/phpcs-variable-analysis.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": {
+        "rev": "696dcca217d0c9da2c40d02731526c1e25b65346",
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset": {
+      "v0.6.1": {
+        "rev": "9b6f8a08bf5ebc8b70da4d37d4d584b954fc5a41",
+        "type": "git",
+        "url": "https://github.com/szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset.git"
+      }
+    },
+    "szepeviktor/phpstan-wordpress": {
+      "v1.1.3": {
+        "rev": "e644df734e1bbe95810e0f617d17df091048a94e",
+        "type": "git",
+        "url": "https://github.com/szepeviktor/phpstan-wordpress.git"
+      }
+    },
     "theseer/tokenizer": {
       "1.2.1": {
         "rev": "34a41e998c2183e22995f158c581e7b5e755ab9e",
@@ -363,11 +541,11 @@
         "url": "https://github.com/theseer/tokenizer.git"
       }
     },
-    "yoast/phpunit-polyfills": {
-      "1.0.3": {
-        "rev": "5ea3536428944955f969bc764bbe09738e151ada",
+    "wp-coding-standards/wpcs": {
+      "2.3.0": {
+        "rev": "7da1894633f168fe244afc6de00d141f27517b62",
         "type": "git",
-        "url": "https://github.com/Yoast/PHPUnit-Polyfills.git"
+        "url": "https://github.com/WordPress/WordPress-Coding-Standards.git"
       }
     }
   }
