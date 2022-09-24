@@ -9,6 +9,7 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "openssl",
       "pcre",
@@ -18,57 +19,26 @@
       "reflection",
       "spl"
     ],
-    "phpPackageType": {
-      "composer/ca-bundle@1.0.3": "library",
-      "composer/composer@1.2.0": "library",
-      "composer/semver@1.4.1": "library",
-      "composer/spdx-licenses@1.1.4": "library",
-      "doctrine/instantiator@1.0.5": "library",
-      "justinrainbow/json-schema@2.0.5": "library",
-      "mikey179/vfsStream@v1.6.4": "library",
-      "myclabs/deep-copy@1.5.1": "library",
-      "php-mock/php-mock-integration@1.0.0": "library",
-      "php-mock/php-mock-phpunit@1.1.2": "library",
-      "php-mock/php-mock@1.0.1": "library",
-      "phpdocumentor/reflection-common@1.0": "library",
-      "phpdocumentor/reflection-docblock@3.1.0": "library",
-      "phpdocumentor/type-resolver@0.2": "library",
-      "phpspec/prophecy@v1.6.1": "library",
-      "phpunit/php-code-coverage@4.0.1": "library",
-      "phpunit/php-file-iterator@1.4.1": "library",
-      "phpunit/php-text-template@1.2.1": "library",
-      "phpunit/php-timer@1.0.8": "library",
-      "phpunit/php-token-stream@1.4.8": "library",
-      "phpunit/phpunit-mock-objects@3.2.6": "library",
-      "phpunit/phpunit@5.5.4": "library",
-      "psr/log@1.1.0": "library",
-      "sebastian/code-unit-reverse-lookup@1.0.0": "library",
-      "sebastian/comparator@1.2.0": "library",
-      "sebastian/diff@1.4.1": "library",
-      "sebastian/environment@1.3.8": "library",
-      "sebastian/exporter@1.2.2": "library",
-      "sebastian/global-state@1.1.1": "library",
-      "sebastian/object-enumerator@1.0.0": "library",
-      "sebastian/recursion-context@1.0.2": "library",
-      "sebastian/resource-operations@1.0.0": "library",
-      "sebastian/version@2.0.0": "library",
-      "seld/cli-prompt@1.0.2": "library",
-      "seld/jsonlint@1.4.0": "library",
-      "seld/phar-utils@1.0.1": "library",
-      "symfony/console@v3.1.3": "library",
-      "symfony/filesystem@v3.4.23": "library",
-      "symfony/finder@v3.1.3": "library",
-      "symfony/polyfill-ctype@v1.10.0": "library",
-      "symfony/polyfill-mbstring@v1.2.0": "library",
-      "symfony/process@v3.1.3": "library",
-      "symfony/yaml@v3.3.18": "library",
-      "tm/tooly-composer-script@1.4.1": "library",
-      "webmozart/assert@1.1.0": "library"
-    },
     "phpSemver": ">=5.6.0"
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "composer/composer": {
+      "1.2.0": [
+        [ "composer/ca-bundle", "1.0.3" ],
+        [ "composer/semver", "1.4.1" ],
+        [ "composer/spdx-licenses", "1.1.4" ],
+        [ "justinrainbow/json-schema", "2.0.5" ],
+        [ "psr/log", "1.1.0" ],
+        [ "seld/cli-prompt", "1.0.2" ],
+        [ "seld/jsonlint", "1.4.0" ],
+        [ "seld/phar-utils", "1.0.1" ],
+        [ "symfony/console", "v3.1.3" ],
+        [ "symfony/filesystem", "v3.4.23" ],
+        [ "symfony/finder", "v3.1.3" ],
+        [ "symfony/process", "v3.1.3" ]
+      ]
+    },
     "php-mock/php-mock": {
       "1.0.1": [
         [ "phpunit/php-text-template", "1.2.1" ]
@@ -158,19 +128,60 @@
         [ "symfony/polyfill-mbstring", "v1.2.0" ]
       ]
     },
+    "symfony/filesystem": {
+      "v3.4.23": [
+        [ "symfony/polyfill-ctype", "v1.10.0" ]
+      ]
+    },
     "tm/tooly-composer-script": {
       "1.4.1": [
+        [ "composer/composer", "1.2.0" ],
         [ "php-mock/php-mock-phpunit", "1.1.2" ],
         [ "symfony/console", "v3.1.3" ]
       ]
     }
   },
   "sources": {
+    "composer/ca-bundle": {
+      "1.0.3": {
+        "rev": "5df9ed0ed0c9506ea6404a23450854e5df15cc12",
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "composer/composer": {
+      "1.2.0": {
+        "rev": "b49a006748a460f8dae6500ec80ed021501ce969",
+        "type": "git",
+        "url": "https://github.com/composer/composer.git"
+      }
+    },
+    "composer/semver": {
+      "1.4.1": {
+        "rev": "03c9de5aa25e7672c4ad251eeaba0c47a06c8b98",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/spdx-licenses": {
+      "1.1.4": {
+        "rev": "88c26372b1afac36d8db601cdf04ad8716f53d88",
+        "type": "git",
+        "url": "https://github.com/composer/spdx-licenses.git"
+      }
+    },
     "doctrine/instantiator": {
       "1.0.5": {
         "rev": "8e884e78f9f0eb1329e445619e04456e64d8051d",
         "type": "git",
         "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "justinrainbow/json-schema": {
+      "2.0.5": {
+        "rev": "6b2a33e6a768f96bdc2ead5600af0822eed17d67",
+        "type": "git",
+        "url": "https://github.com/justinrainbow/json-schema.git"
       }
     },
     "myclabs/deep-copy": {
@@ -271,6 +282,13 @@
         "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
       }
     },
+    "psr/log": {
+      "1.1.0": {
+        "rev": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
     "sebastian/code-unit-reverse-lookup": {
       "1.0.0": {
         "rev": "c36f5e7cfce482fde5bf8d10d41a53591e0198fe",
@@ -341,6 +359,27 @@
         "url": "https://github.com/sebastianbergmann/version.git"
       }
     },
+    "seld/cli-prompt": {
+      "1.0.2": {
+        "rev": "8cbe10923cae5bcd7c5a713f6703fc4727c8c1b4",
+        "type": "git",
+        "url": "https://github.com/Seldaek/cli-prompt.git"
+      }
+    },
+    "seld/jsonlint": {
+      "1.4.0": {
+        "rev": "66834d3e3566bb5798db7294619388786ae99394",
+        "type": "git",
+        "url": "https://github.com/Seldaek/jsonlint.git"
+      }
+    },
+    "seld/phar-utils": {
+      "1.0.1": {
+        "rev": "7009b5139491975ef6486545a39f3e6dad5ac30a",
+        "type": "git",
+        "url": "https://github.com/Seldaek/phar-utils.git"
+      }
+    },
     "symfony/console": {
       "v3.1.3": {
         "rev": "f9e638e8149e9e41b570ff092f8007c477ef0ce5",
@@ -348,11 +387,39 @@
         "url": "https://github.com/symfony/console.git"
       }
     },
+    "symfony/filesystem": {
+      "v3.4.23": {
+        "rev": "acf99758b1df8e9295e6b85aa69f294565c9fedb",
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v3.1.3": {
+        "rev": "8201978de88a9fa0923e18601bb17f1df9c721e7",
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.10.0": {
+        "rev": "e3d826245268269cd66f8326bd8bc066687b4a19",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
     "symfony/polyfill-mbstring": {
       "v1.2.0": {
         "rev": "dff51f72b0706335131b00a7f49606168c582594",
         "type": "git",
         "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/process": {
+      "v3.1.3": {
+        "rev": "04c2dfaae4ec56a5c677b0c69fac34637d815758",
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
       }
     },
     "symfony/yaml": {

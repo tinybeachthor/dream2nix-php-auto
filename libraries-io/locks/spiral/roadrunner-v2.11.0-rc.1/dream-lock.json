@@ -9,39 +9,12 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "json",
       "sockets",
       "tokenizer"
     ],
-    "phpPackageType": {
-      "composer/semver@3.3.2": "library",
-      "psr/container@2.0.2": "library",
-      "psr/http-factory@1.0.1": "library",
-      "psr/http-message@1.0.1": "library",
-      "psr/log@3.0.0": "library",
-      "spiral/core@3.0.1": "library",
-      "spiral/goridge@v3.2.0": "goridge",
-      "spiral/logger@3.0.1": "library",
-      "spiral/roadrunner-cli@v2.3.0": "library",
-      "spiral/roadrunner-http@v2.1.0": "library",
-      "spiral/roadrunner-worker@v2.2.0": "library",
-      "spiral/roadrunner@v2.11.0-rc.1": "library",
-      "spiral/tokenizer@3.0.1": "library",
-      "symfony/console@v6.1.4": "library",
-      "symfony/deprecation-contracts@v3.1.1": "library",
-      "symfony/finder@v6.1.3": "library",
-      "symfony/http-client-contracts@v3.1.1": "library",
-      "symfony/http-client@v6.1.4": "library",
-      "symfony/polyfill-ctype@v1.26.0": "library",
-      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
-      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
-      "symfony/polyfill-mbstring@v1.26.0": "library",
-      "symfony/polyfill-php80@v1.26.0": "library",
-      "symfony/service-contracts@v3.1.1": "library",
-      "symfony/string@v6.1.4": "library",
-      "symfony/yaml@v6.1.4": "library"
-    },
     "phpSemver": "*"
   },
   "cyclicDependencies": {},
@@ -75,6 +48,7 @@
     },
     "spiral/roadrunner-cli": {
       "v2.3.0": [
+        [ "composer/semver", "3.3.2" ],
         [ "spiral/roadrunner-worker", "v2.2.0" ],
         [ "spiral/tokenizer", "3.0.1" ],
         [ "symfony/console", "v6.1.4" ],
@@ -139,6 +113,13 @@
     }
   },
   "sources": {
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
     "psr/container": {
       "2.0.2": {
         "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",

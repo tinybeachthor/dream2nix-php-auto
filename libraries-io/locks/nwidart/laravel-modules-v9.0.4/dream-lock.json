@@ -9,6 +9,7 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "json",
       "tokenizer",
@@ -24,132 +25,16 @@
       "curl",
       "pcre"
     ],
-    "phpPackageType": {
-      "brick/math@0.10.2": "library",
-      "composer/pcre@3.0.0": "library",
-      "composer/semver@3.3.2": "library",
-      "composer/xdebug-handler@3.0.3": "library",
-      "dflydev/dot-access-data@v3.0.1": "library",
-      "doctrine/annotations@1.13.3": "library",
-      "doctrine/inflector@2.0.5": "library",
-      "doctrine/instantiator@1.4.1": "library",
-      "doctrine/lexer@1.2.3": "library",
-      "dragonmantank/cron-expression@v3.3.2": "library",
-      "egulias/email-validator@3.2.1": "library",
-      "fakerphp/faker@v1.20.0": "library",
-      "friendsofphp/php-cs-fixer@v3.11.0": "application",
-      "fruitcake/php-cors@v1.2.0": "library",
-      "graham-campbell/result-type@v1.1.0": "library",
-      "guzzlehttp/psr7@2.4.1": "library",
-      "hamcrest/hamcrest-php@v2.0.1": "library",
-      "laravel/framework@v9.31.0": "library",
-      "laravel/serializable-closure@v1.2.2": "library",
-      "league/commonmark@2.3.5": "library",
-      "league/config@v1.1.1": "library",
-      "league/flysystem@3.5.1": "library",
-      "league/mime-type-detection@1.11.0": "library",
-      "mockery/mockery@1.5.1": "library",
-      "monolog/monolog@2.8.0": "library",
-      "myclabs/deep-copy@1.11.0": "library",
-      "nesbot/carbon@2.62.1": "library",
-      "nette/schema@v1.2.2": "library",
-      "nette/utils@v3.2.8": "library",
-      "nikic/php-parser@v4.15.1": "library",
-      "nunomaduro/termwind@v1.14.0": "library",
-      "nwidart/laravel-modules@v9.0.4": "library",
-      "orchestra/testbench-core@v7.7.0": "library",
-      "orchestra/testbench@v7.7.0": "library",
-      "phar-io/manifest@2.0.3": "library",
-      "phar-io/version@3.2.1": "library",
-      "phpoption/phpoption@1.9.0": "library",
-      "phpstan/phpstan@1.8.5": "library",
-      "phpunit/php-code-coverage@9.2.17": "library",
-      "phpunit/php-file-iterator@3.0.6": "library",
-      "phpunit/php-invoker@3.1.1": "library",
-      "phpunit/php-text-template@2.0.4": "library",
-      "phpunit/php-timer@5.0.3": "library",
-      "phpunit/phpunit@9.5.24": "library",
-      "pimple/pimple@v3.5.0": "library",
-      "psr/cache@3.0.0": "library",
-      "psr/container@2.0.2": "library",
-      "psr/event-dispatcher@1.0.0": "library",
-      "psr/http-factory@1.0.1": "library",
-      "psr/http-message@1.0.1": "library",
-      "psr/log@3.0.0": "library",
-      "psr/simple-cache@3.0.0": "library",
-      "ralouphie/getallheaders@3.0.3": "library",
-      "ramsey/collection@1.2.2": "library",
-      "ramsey/uuid@4.5.1": "library",
-      "sebastian/cli-parser@1.0.1": "library",
-      "sebastian/code-unit-reverse-lookup@2.0.3": "library",
-      "sebastian/code-unit@1.0.8": "library",
-      "sebastian/comparator@4.0.8": "library",
-      "sebastian/complexity@2.0.2": "library",
-      "sebastian/diff@4.0.4": "library",
-      "sebastian/environment@5.1.4": "library",
-      "sebastian/exporter@4.0.5": "library",
-      "sebastian/global-state@5.0.5": "library",
-      "sebastian/lines-of-code@1.0.3": "library",
-      "sebastian/object-enumerator@4.0.4": "library",
-      "sebastian/object-reflector@2.0.4": "library",
-      "sebastian/recursion-context@4.0.4": "library",
-      "sebastian/resource-operations@3.0.3": "library",
-      "sebastian/type@3.2.0": "library",
-      "sebastian/version@3.0.2": "library",
-      "spatie/backtrace@1.2.1": "library",
-      "spatie/laravel-ray@1.31.0": "library",
-      "spatie/macroable@2.0.0": "library",
-      "spatie/phpunit-snapshot-assertions@4.2.15": "library",
-      "spatie/ray@1.36.0": "library",
-      "symfony/console@v6.1.4": "library",
-      "symfony/css-selector@v6.1.3": "library",
-      "symfony/deprecation-contracts@v3.1.1": "library",
-      "symfony/error-handler@v6.1.3": "library",
-      "symfony/event-dispatcher-contracts@v3.1.1": "library",
-      "symfony/event-dispatcher@v6.1.0": "library",
-      "symfony/filesystem@v6.1.4": "library",
-      "symfony/finder@v6.1.3": "library",
-      "symfony/http-foundation@v6.1.4": "library",
-      "symfony/http-kernel@v6.1.4": "library",
-      "symfony/mailer@v6.1.4": "library",
-      "symfony/mime@v6.1.4": "library",
-      "symfony/options-resolver@v6.1.0": "library",
-      "symfony/polyfill-ctype@v1.26.0": "library",
-      "symfony/polyfill-iconv@v1.26.0": "library",
-      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
-      "symfony/polyfill-intl-idn@v1.26.0": "library",
-      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
-      "symfony/polyfill-mbstring@v1.26.0": "library",
-      "symfony/polyfill-php72@v1.26.0": "library",
-      "symfony/polyfill-php80@v1.26.0": "library",
-      "symfony/polyfill-php81@v1.26.0": "library",
-      "symfony/polyfill-uuid@v1.26.0": "library",
-      "symfony/process@v6.1.3": "library",
-      "symfony/property-access@v6.1.3": "library",
-      "symfony/property-info@v6.1.3": "library",
-      "symfony/routing@v6.1.3": "library",
-      "symfony/serializer@v6.1.4": "library",
-      "symfony/service-contracts@v3.1.1": "library",
-      "symfony/stopwatch@v6.1.0": "library",
-      "symfony/string@v6.1.4": "library",
-      "symfony/translation-contracts@v3.1.1": "library",
-      "symfony/translation@v6.1.4": "library",
-      "symfony/uid@v6.1.3": "library",
-      "symfony/var-dumper@v6.1.3": "library",
-      "symfony/yaml@v6.1.4": "library",
-      "theseer/tokenizer@1.2.1": "library",
-      "tijsverkoyen/css-to-inline-styles@2.2.5": "library",
-      "vlucas/phpdotenv@v5.4.1": "library",
-      "voku/portable-ascii@2.0.1": "library",
-      "webmozart/assert@1.11.0": "library",
-      "zbateson/mail-mime-parser@2.2.2": "library",
-      "zbateson/mb-wrapper@1.1.2": "library",
-      "zbateson/stream-decorators@1.0.7": "library"
-    },
     "phpSemver": ">=8.0"
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "composer/xdebug-handler": {
+      "3.0.3": [
+        [ "composer/pcre", "3.0.0" ],
+        [ "psr/log", "3.0.0" ]
+      ]
+    },
     "doctrine/annotations": {
       "1.13.3": [
         [ "doctrine/lexer", "1.2.3" ],
@@ -175,6 +60,8 @@
     },
     "friendsofphp/php-cs-fixer": {
       "v3.11.0": [
+        [ "composer/semver", "3.3.2" ],
+        [ "composer/xdebug-handler", "3.0.3" ],
         [ "doctrine/annotations", "1.13.3" ],
         [ "sebastian/diff", "4.0.4" ],
         [ "symfony/console", "v6.1.4" ],
@@ -214,7 +101,7 @@
         [ "fruitcake/php-cors", "v1.2.0" ],
         [ "laravel/serializable-closure", "v1.2.2" ],
         [ "league/commonmark", "2.3.5" ],
-        [ "league/flysystem", "3.5.1" ],
+        [ "league/flysystem", "3.5.2" ],
         [ "monolog/monolog", "2.8.0" ],
         [ "nesbot/carbon", "2.62.1" ],
         [ "nunomaduro/termwind", "v1.14.0" ],
@@ -255,7 +142,7 @@
       ]
     },
     "league/flysystem": {
-      "3.5.1": [
+      "3.5.2": [
         [ "league/mime-type-detection", "1.11.0" ]
       ]
     },
@@ -293,7 +180,7 @@
         [ "laravel/framework", "v9.31.0" ],
         [ "mockery/mockery", "1.5.1" ],
         [ "orchestra/testbench", "v7.7.0" ],
-        [ "phpstan/phpstan", "1.8.5" ],
+        [ "phpstan/phpstan", "1.8.6" ],
         [ "phpunit/phpunit", "9.5.24" ],
         [ "spatie/phpunit-snapshot-assertions", "4.2.15" ]
       ]
@@ -609,6 +496,27 @@
         "url": "https://github.com/brick/math.git"
       }
     },
+    "composer/pcre": {
+      "3.0.0": {
+        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
+        "type": "git",
+        "url": "https://github.com/composer/pcre.git"
+      }
+    },
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
     "dflydev/dot-access-data": {
       "v3.0.1": {
         "rev": "0992cc19268b259a39e86f296da5f0677841f42c",
@@ -729,8 +637,8 @@
       }
     },
     "league/flysystem": {
-      "3.5.1": {
-        "rev": "f14993c6e394450ac4649da35264df0544d0234e",
+      "3.5.2": {
+        "rev": "c73c4eb31f2e883b3897ab5591aa2dbc48112433",
         "type": "git",
         "url": "https://github.com/thephpleague/flysystem.git"
       }
@@ -841,8 +749,8 @@
       }
     },
     "phpstan/phpstan": {
-      "1.8.5": {
-        "rev": "f6598a5ff12ca4499a836815e08b4d77a2ddeb20",
+      "1.8.6": {
+        "rev": "c386ab2741e64cc9e21729f891b28b2b10fe6618",
         "type": "git",
         "url": "https://github.com/phpstan/phpstan.git"
       }

@@ -9,6 +9,7 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "openssl",
       "pcre",
@@ -24,116 +25,35 @@
       "xmlwriter",
       "xml"
     ],
-    "phpPackageType": {
-      "composer/ca-bundle@1.3.3": "library",
-      "composer/composer@2.2.18": "library",
-      "composer/metadata-minifier@1.0.0": "library",
-      "composer/pcre@1.0.1": "library",
-      "composer/semver@3.3.2": "library",
-      "composer/spdx-licenses@1.5.7": "library",
-      "composer/xdebug-handler@3.0.3": "library",
-      "dnoegel/php-xdg-base-dir@v0.1.1": "library",
-      "doctrine/cache@2.2.0": "library",
-      "doctrine/dbal@2.13.9": "library",
-      "doctrine/deprecations@v1.0.0": "library",
-      "doctrine/event-manager@1.1.2": "library",
-      "doctrine/inflector@2.0.5": "library",
-      "doctrine/instantiator@1.4.1": "library",
-      "doctrine/lexer@1.2.3": "library",
-      "dragonmantank/cron-expression@v2.3.1": "library",
-      "egulias/email-validator@2.1.25": "library",
-      "erusev/parsedown-extra@0.8.1": "library",
-      "erusev/parsedown@1.7.4": "library",
-      "jakub-onderka/php-console-color@v0.2": "library",
-      "jakub-onderka/php-console-highlighter@v0.4": "library",
-      "justinrainbow/json-schema@5.2.12": "library",
-      "laravel/framework@v6.20.44": "library",
-      "laravel/tinker@v1.0.10": "library",
-      "league/commonmark@1.6.7": "library",
-      "league/csv@9.8.0": "library",
-      "league/flysystem@1.1.9": "library",
-      "league/mime-type-detection@1.11.0": "library",
-      "linkorb/jsmin-php@1.0.0": "library",
-      "monolog/monolog@2.8.0": "library",
-      "myclabs/deep-copy@1.11.0": "library",
-      "nesbot/carbon@2.62.1": "library",
-      "nikic/php-parser@v4.15.1": "library",
-      "october/rain@v2.2.34": "library",
-      "opis/closure@3.6.3": "library",
-      "paragonie/random_compat@v9.99.100": "library",
-      "phar-io/manifest@2.0.3": "library",
-      "phar-io/version@3.2.1": "library",
-      "phpoption/phpoption@1.9.0": "library",
-      "phpunit/php-code-coverage@9.2.17": "library",
-      "phpunit/php-file-iterator@3.0.6": "library",
-      "phpunit/php-invoker@3.1.1": "library",
-      "phpunit/php-text-template@2.0.4": "library",
-      "phpunit/php-timer@5.0.3": "library",
-      "phpunit/phpunit@9.5.24": "library",
-      "psr/container@1.1.2": "library",
-      "psr/log@2.0.0": "library",
-      "psr/simple-cache@1.0.1": "library",
-      "psy/psysh@v0.9.12": "library",
-      "ramsey/uuid@3.9.6": "library",
-      "react/promise@v2.9.0": "library",
-      "scssphp/scssphp@v1.11.0": "library",
-      "sebastian/cli-parser@1.0.1": "library",
-      "sebastian/code-unit-reverse-lookup@2.0.3": "library",
-      "sebastian/code-unit@1.0.8": "library",
-      "sebastian/comparator@4.0.8": "library",
-      "sebastian/complexity@2.0.2": "library",
-      "sebastian/diff@4.0.4": "library",
-      "sebastian/environment@5.1.4": "library",
-      "sebastian/exporter@4.0.5": "library",
-      "sebastian/global-state@5.0.5": "library",
-      "sebastian/lines-of-code@1.0.3": "library",
-      "sebastian/object-enumerator@4.0.4": "library",
-      "sebastian/object-reflector@2.0.4": "library",
-      "sebastian/recursion-context@4.0.4": "library",
-      "sebastian/resource-operations@3.0.3": "library",
-      "sebastian/type@3.2.0": "library",
-      "sebastian/version@3.0.2": "library",
-      "seld/jsonlint@1.9.0": "library",
-      "seld/phar-utils@1.2.1": "library",
-      "swiftmailer/swiftmailer@v6.3.0": "library",
-      "symfony/console@v4.4.45": "library",
-      "symfony/css-selector@v6.1.3": "library",
-      "symfony/debug@v4.4.44": "library",
-      "symfony/deprecation-contracts@v3.1.1": "library",
-      "symfony/error-handler@v4.4.44": "library",
-      "symfony/event-dispatcher-contracts@v1.1.13": "library",
-      "symfony/event-dispatcher@v4.4.44": "library",
-      "symfony/filesystem@v6.1.4": "library",
-      "symfony/finder@v4.4.44": "library",
-      "symfony/http-client-contracts@v2.5.2": "library",
-      "symfony/http-foundation@v4.4.45": "library",
-      "symfony/http-kernel@v4.4.45": "library",
-      "symfony/mime@v5.4.12": "library",
-      "symfony/polyfill-ctype@v1.26.0": "library",
-      "symfony/polyfill-iconv@v1.26.0": "library",
-      "symfony/polyfill-intl-idn@v1.26.0": "library",
-      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
-      "symfony/polyfill-mbstring@v1.26.0": "library",
-      "symfony/polyfill-php72@v1.26.0": "library",
-      "symfony/polyfill-php73@v1.26.0": "library",
-      "symfony/polyfill-php80@v1.26.0": "library",
-      "symfony/process@v4.4.44": "library",
-      "symfony/routing@v4.4.44": "library",
-      "symfony/service-contracts@v2.5.2": "library",
-      "symfony/translation-contracts@v2.5.2": "library",
-      "symfony/translation@v4.4.45": "library",
-      "symfony/var-dumper@v4.4.44": "library",
-      "symfony/yaml@v3.4.47": "library",
-      "theseer/tokenizer@1.2.1": "library",
-      "tijsverkoyen/css-to-inline-styles@2.2.5": "library",
-      "twig/twig@v2.15.2": "library",
-      "vlucas/phpdotenv@v3.6.10": "library",
-      "wikimedia/less.php@v3.1.0": "library"
-    },
     "phpSemver": ">=7.2"
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "composer/composer": {
+      "2.2.18": [
+        [ "composer/ca-bundle", "1.3.3" ],
+        [ "composer/metadata-minifier", "1.0.0" ],
+        [ "composer/pcre", "1.0.1" ],
+        [ "composer/semver", "3.3.2" ],
+        [ "composer/spdx-licenses", "1.5.7" ],
+        [ "composer/xdebug-handler", "3.0.3" ],
+        [ "justinrainbow/json-schema", "5.2.12" ],
+        [ "psr/log", "2.0.0" ],
+        [ "react/promise", "v2.9.0" ],
+        [ "seld/jsonlint", "1.9.0" ],
+        [ "seld/phar-utils", "1.2.1" ],
+        [ "symfony/console", "v4.4.45" ],
+        [ "symfony/filesystem", "v6.1.4" ],
+        [ "symfony/finder", "v4.4.44" ],
+        [ "symfony/process", "v4.4.44" ]
+      ]
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": [
+        [ "composer/pcre", "1.0.1" ],
+        [ "psr/log", "2.0.0" ]
+      ]
+    },
     "doctrine/dbal": {
       "2.13.9": [
         [ "doctrine/cache", "2.2.0" ],
@@ -221,6 +141,7 @@
     },
     "october/rain": {
       "v2.2.34": [
+        [ "composer/composer", "2.2.18" ],
         [ "doctrine/dbal", "2.13.9" ],
         [ "erusev/parsedown-extra", "0.8.1" ],
         [ "laravel/framework", "v6.20.44" ],
@@ -364,6 +285,12 @@
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
+    "symfony/filesystem": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
     "symfony/finder": {
       "v4.4.44": [
         [ "symfony/polyfill-php80", "v1.26.0" ]
@@ -457,6 +384,55 @@
     }
   },
   "sources": {
+    "composer/ca-bundle": {
+      "1.3.3": {
+        "rev": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "composer/composer": {
+      "2.2.18": {
+        "rev": "84175907664ca8b73f73f4883e67e886dfefb9f5",
+        "type": "git",
+        "url": "https://github.com/composer/composer.git"
+      }
+    },
+    "composer/metadata-minifier": {
+      "1.0.0": {
+        "rev": "c549d23829536f0d0e984aaabbf02af91f443207",
+        "type": "git",
+        "url": "https://github.com/composer/metadata-minifier.git"
+      }
+    },
+    "composer/pcre": {
+      "1.0.1": {
+        "rev": "67a32d7d6f9f560b726ab25a061b38ff3a80c560",
+        "type": "git",
+        "url": "https://github.com/composer/pcre.git"
+      }
+    },
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/spdx-licenses": {
+      "1.5.7": {
+        "rev": "c848241796da2abf65837d51dce1fae55a960149",
+        "type": "git",
+        "url": "https://github.com/composer/spdx-licenses.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
     "dnoegel/php-xdg-base-dir": {
       "v0.1.1": {
         "rev": "8f8a6e48c5ecb0f991c2fdcf5f154a47d85f9ffd",
@@ -539,6 +515,13 @@
         "rev": "91ac3ff98f0cea243bdccc688df43810f044dcef",
         "type": "git",
         "url": "https://github.com/erusev/parsedown-extra.git"
+      }
+    },
+    "justinrainbow/json-schema": {
+      "5.2.12": {
+        "rev": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
+        "type": "git",
+        "url": "https://github.com/justinrainbow/json-schema.git"
       }
     },
     "laravel/framework": {
@@ -737,6 +720,13 @@
         "url": "https://github.com/ramsey/uuid.git"
       }
     },
+    "react/promise": {
+      "v2.9.0": {
+        "rev": "234f8fd1023c9158e2314fa9d7d0e6a83db42910",
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
     "scssphp/scssphp": {
       "v1.11.0": {
         "rev": "33749d12c2569bb24071f94e9af828662dabb068",
@@ -856,6 +846,20 @@
         "url": "https://github.com/sebastianbergmann/version.git"
       }
     },
+    "seld/jsonlint": {
+      "1.9.0": {
+        "rev": "4211420d25eba80712bff236a98960ef68b866b7",
+        "type": "git",
+        "url": "https://github.com/Seldaek/jsonlint.git"
+      }
+    },
+    "seld/phar-utils": {
+      "1.2.1": {
+        "rev": "ea2f4014f163c1be4c601b9b7bd6af81ba8d701c",
+        "type": "git",
+        "url": "https://github.com/Seldaek/phar-utils.git"
+      }
+    },
     "swiftmailer/swiftmailer": {
       "v6.3.0": {
         "rev": "8a5d5072dca8f48460fce2f4131fcc495eec654c",
@@ -910,6 +914,13 @@
         "rev": "1d5cd762abaa6b2a4169d3e77610193a7157129e",
         "type": "git",
         "url": "https://github.com/symfony/event-dispatcher-contracts.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v6.1.4": {
+        "rev": "3f39c04d2630c34019907b02f85672dac99f8659",
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
       }
     },
     "symfony/finder": {

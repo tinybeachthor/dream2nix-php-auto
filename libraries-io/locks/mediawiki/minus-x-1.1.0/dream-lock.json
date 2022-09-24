@@ -9,39 +9,21 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "tokenizer",
       "mbstring",
       "simplexml",
       "xmlwriter"
     ],
-    "phpPackageType": {
-      "composer/semver@1.5.0": "library",
-      "composer/spdx-licenses@1.5.2": "library",
-      "jakub-onderka/php-console-color@v0.2": "library",
-      "jakub-onderka/php-console-highlighter@v0.4": "library",
-      "jakub-onderka/php-parallel-lint@v1.0.0": "library",
-      "mediawiki/mediawiki-codesniffer@v29.0.0": "library",
-      "mediawiki/minus-x@1.1.0": "library",
-      "psr/container@2.0.2": "library",
-      "squizlabs/php_codesniffer@3.5.3": "library",
-      "symfony/console@v5.4.12": "library",
-      "symfony/deprecation-contracts@v3.1.1": "library",
-      "symfony/polyfill-ctype@v1.26.0": "library",
-      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
-      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
-      "symfony/polyfill-mbstring@v1.26.0": "library",
-      "symfony/polyfill-php73@v1.26.0": "library",
-      "symfony/polyfill-php80@v1.26.0": "library",
-      "symfony/service-contracts@v3.1.1": "library",
-      "symfony/string@v6.1.4": "library"
-    },
     "phpSemver": ">=7.2.9"
   },
   "cyclicDependencies": {},
   "dependencies": {
     "mediawiki/mediawiki-codesniffer": {
       "v29.0.0": [
+        [ "composer/semver", "1.5.0" ],
+        [ "composer/spdx-licenses", "1.5.2" ],
         [ "squizlabs/php_codesniffer", "3.5.3" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ]
       ]
@@ -78,6 +60,20 @@
     }
   },
   "sources": {
+    "composer/semver": {
+      "1.5.0": {
+        "rev": "46d9139568ccb8d9e7cdd4539cab7347568a5e2e",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/spdx-licenses": {
+      "1.5.2": {
+        "rev": "7ac1e6aec371357df067f8a688c3d6974df68fa5",
+        "type": "git",
+        "url": "https://github.com/composer/spdx-licenses.git"
+      }
+    },
     "jakub-onderka/php-parallel-lint": {
       "v1.0.0": {
         "rev": "04fbd3f5fb1c83f08724aa58a23db90bd9086ee8",

@@ -9,6 +9,7 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "intl",
       "json",
@@ -20,78 +21,6 @@
       "iconv",
       "tokenizer"
     ],
-    "phpPackageType": {
-      "brick/varexporter@0.3.7": "library",
-      "composer/ca-bundle@1.3.3": "library",
-      "composer/composer@2.2.7": "library",
-      "composer/metadata-minifier@1.0.0": "library",
-      "composer/pcre@1.0.1": "library",
-      "composer/semver@3.3.2": "library",
-      "composer/spdx-licenses@1.5.7": "library",
-      "composer/xdebug-handler@3.0.3": "library",
-      "container-interop/container-interop@1.2.0": "library",
-      "justinrainbow/json-schema@5.2.12": "library",
-      "laminas/laminas-authentication@2.12.0": "library",
-      "laminas/laminas-config@3.7.0": "library",
-      "laminas/laminas-crypt@3.7.0": "library",
-      "laminas/laminas-db@2.15.0": "library",
-      "laminas/laminas-developer-tools@2.5.0": "library",
-      "laminas/laminas-development-mode@3.8.0": "library",
-      "laminas/laminas-escaper@2.10.0": "library",
-      "laminas/laminas-eventmanager@3.5.0": "library",
-      "laminas/laminas-file@2.11.0": "library",
-      "laminas/laminas-filter@2.15.1": "library",
-      "laminas/laminas-form@2.15.1": "library",
-      "laminas/laminas-http@2.16.0": "library",
-      "laminas/laminas-hydrator@2.4.2": "library",
-      "laminas/laminas-i18n@2.14.0": "library",
-      "laminas/laminas-inputfilter@2.16.0": "library",
-      "laminas/laminas-json@3.3.0": "library",
-      "laminas/laminas-loader@2.8.0": "library",
-      "laminas/laminas-mail@2.16.0": "library",
-      "laminas/laminas-math@3.5.0": "library",
-      "laminas/laminas-mime@2.10.0": "library",
-      "laminas/laminas-modulemanager@2.12.0": "library",
-      "laminas/laminas-mvc-i18n@1.1.1": "library",
-      "laminas/laminas-mvc@3.2.0": "library",
-      "laminas/laminas-router@3.4.5": "library",
-      "laminas/laminas-servicemanager@3.5.2": "library",
-      "laminas/laminas-session@2.12.1": "library",
-      "laminas/laminas-stdlib@3.13.0": "library",
-      "laminas/laminas-uri@2.9.1": "library",
-      "laminas/laminas-validator@2.19.0": "library",
-      "laminas/laminas-view@2.19.1": "library",
-      "laminas/laminas-zendframework-bridge@1.6.1": "library",
-      "melisplatform/melis-asset-manager@v4.1.0": "melisplatform-module",
-      "melisplatform/melis-composerdeploy@v4.1.1": "melisplatform-module",
-      "melisplatform/melis-core@v4.1.3": "library",
-      "melisplatform/melis-dbdeploy@v4.1.0": "melisplatform-module",
-      "nikic/php-parser@v4.15.1": "library",
-      "phing/phing@2.16.4": "library",
-      "psr/container@1.1.2": "library",
-      "psr/log@2.0.0": "library",
-      "react/promise@v2.9.0": "library",
-      "seld/jsonlint@1.9.0": "library",
-      "seld/phar-utils@1.2.1": "library",
-      "symfony/console@v5.4.12": "library",
-      "symfony/deprecation-contracts@v3.1.1": "library",
-      "symfony/filesystem@v6.1.4": "library",
-      "symfony/finder@v6.1.3": "library",
-      "symfony/polyfill-ctype@v1.26.0": "library",
-      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
-      "symfony/polyfill-intl-idn@v1.26.0": "library",
-      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
-      "symfony/polyfill-mbstring@v1.26.0": "library",
-      "symfony/polyfill-php72@v1.26.0": "library",
-      "symfony/polyfill-php73@v1.26.0": "library",
-      "symfony/polyfill-php80@v1.26.0": "library",
-      "symfony/process@v6.1.3": "library",
-      "symfony/service-contracts@v1.1.8": "library",
-      "symfony/string@v6.1.4": "library",
-      "symfony/var-dumper@v6.1.3": "library",
-      "webimpress/safe-writer@2.2.0": "library",
-      "webmozart/assert@1.11.0": "library"
-    },
     "phpSemver": "^7.1.3|^7.2|^7.3"
   },
   "cyclicDependencies": {
@@ -105,6 +34,31 @@
     "brick/varexporter": {
       "0.3.7": [
         [ "nikic/php-parser", "v4.15.1" ]
+      ]
+    },
+    "composer/composer": {
+      "2.2.7": [
+        [ "composer/ca-bundle", "1.3.3" ],
+        [ "composer/metadata-minifier", "1.0.0" ],
+        [ "composer/pcre", "1.0.1" ],
+        [ "composer/semver", "3.3.2" ],
+        [ "composer/spdx-licenses", "1.5.7" ],
+        [ "composer/xdebug-handler", "3.0.3" ],
+        [ "justinrainbow/json-schema", "5.2.12" ],
+        [ "psr/log", "2.0.0" ],
+        [ "react/promise", "v2.9.0" ],
+        [ "seld/jsonlint", "1.9.0" ],
+        [ "seld/phar-utils", "1.2.1" ],
+        [ "symfony/console", "v5.4.12" ],
+        [ "symfony/filesystem", "v6.1.4" ],
+        [ "symfony/finder", "v6.1.3" ],
+        [ "symfony/process", "v6.1.3" ]
+      ]
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": [
+        [ "composer/pcre", "1.0.1" ],
+        [ "psr/log", "2.0.0" ]
       ]
     },
     "container-interop/container-interop": {
@@ -300,8 +254,14 @@
         [ "melisplatform/melis-core", "v4.1.3" ]
       ]
     },
+    "melisplatform/melis-composerdeploy": {
+      "v4.1.1": [
+        [ "composer/composer", "2.2.7" ]
+      ]
+    },
     "melisplatform/melis-core": {
       "v4.1.3": [
+        [ "composer/composer", "2.2.7" ],
         [ "justinrainbow/json-schema", "5.2.12" ],
         [ "laminas/laminas-authentication", "2.12.0" ],
         [ "laminas/laminas-crypt", "3.7.0" ],
@@ -330,6 +290,22 @@
         [ "phing/phing", "2.16.4" ]
       ]
     },
+    "symfony/console": {
+      "v5.4.12": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/service-contracts", "v1.1.8" ],
+        [ "symfony/string", "v6.1.4" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
     "symfony/polyfill-intl-idn": {
       "v1.26.0": [
         [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
@@ -339,6 +315,14 @@
     "symfony/service-contracts": {
       "v1.1.8": [
         [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "symfony/string": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
       ]
     },
     "symfony/var-dumper": {
@@ -358,6 +342,55 @@
         "rev": "3e263cd718d242594c52963760fee2059fd5833c",
         "type": "git",
         "url": "https://github.com/brick/varexporter.git"
+      }
+    },
+    "composer/ca-bundle": {
+      "1.3.3": {
+        "rev": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "composer/composer": {
+      "2.2.7": {
+        "rev": "061d154dfdde157cbf453c4695e6af21c0e93903",
+        "type": "git",
+        "url": "https://github.com/composer/composer.git"
+      }
+    },
+    "composer/metadata-minifier": {
+      "1.0.0": {
+        "rev": "c549d23829536f0d0e984aaabbf02af91f443207",
+        "type": "git",
+        "url": "https://github.com/composer/metadata-minifier.git"
+      }
+    },
+    "composer/pcre": {
+      "1.0.1": {
+        "rev": "67a32d7d6f9f560b726ab25a061b38ff3a80c560",
+        "type": "git",
+        "url": "https://github.com/composer/pcre.git"
+      }
+    },
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/spdx-licenses": {
+      "1.5.7": {
+        "rev": "c848241796da2abf65837d51dce1fae55a960149",
+        "type": "git",
+        "url": "https://github.com/composer/spdx-licenses.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
       }
     },
     "container-interop/container-interop": {
@@ -640,11 +673,74 @@
         "url": "https://github.com/php-fig/container.git"
       }
     },
+    "psr/log": {
+      "2.0.0": {
+        "rev": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "react/promise": {
+      "v2.9.0": {
+        "rev": "234f8fd1023c9158e2314fa9d7d0e6a83db42910",
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
+    "seld/jsonlint": {
+      "1.9.0": {
+        "rev": "4211420d25eba80712bff236a98960ef68b866b7",
+        "type": "git",
+        "url": "https://github.com/Seldaek/jsonlint.git"
+      }
+    },
+    "seld/phar-utils": {
+      "1.2.1": {
+        "rev": "ea2f4014f163c1be4c601b9b7bd6af81ba8d701c",
+        "type": "git",
+        "url": "https://github.com/Seldaek/phar-utils.git"
+      }
+    },
+    "symfony/console": {
+      "v5.4.12": {
+        "rev": "c072aa8f724c3af64e2c7a96b796a4863d24dba1",
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v6.1.4": {
+        "rev": "3f39c04d2630c34019907b02f85672dac99f8659",
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v6.1.3": {
+        "rev": "39696bff2c2970b3779a5cac7bf9f0b88fc2b709",
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
     "symfony/polyfill-ctype": {
       "v1.26.0": {
         "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
         "type": "git",
         "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-intl-grapheme": {
+      "v1.26.0": {
+        "rev": "433d05519ce6990bf3530fba6957499d327395c2",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-grapheme.git"
       }
     },
     "symfony/polyfill-intl-idn": {
@@ -675,11 +771,39 @@
         "url": "https://github.com/symfony/polyfill-php72.git"
       }
     },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/process": {
+      "v6.1.3": {
+        "rev": "a6506e99cfad7059b1ab5cab395854a0a0c21292",
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
     "symfony/service-contracts": {
       "v1.1.8": {
         "rev": "ffc7f5692092df31515df2a5ecf3b7302b3ddacf",
         "type": "git",
         "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/string": {
+      "v6.1.4": {
+        "rev": "290972cad7b364e3befaa74ba0ec729800fb161c",
+        "type": "git",
+        "url": "https://github.com/symfony/string.git"
       }
     },
     "symfony/var-dumper": {

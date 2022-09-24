@@ -9,6 +9,7 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "json",
       "pcre",
@@ -22,69 +23,12 @@
       "xml",
       "ctype"
     ],
-    "phpPackageType": {
-      "aws/aws-crt-php@v1.0.2": "library",
-      "aws/aws-sdk-php-laravel@3.7.0": "library",
-      "aws/aws-sdk-php@3.235.14": "library",
-      "doctrine/inflector@2.0.5": "library",
-      "doctrine/instantiator@1.4.1": "library",
-      "graham-campbell/result-type@v1.1.0": "library",
-      "guzzlehttp/guzzle@7.5.0": "library",
-      "guzzlehttp/promises@1.5.2": "library",
-      "guzzlehttp/psr7@2.4.1": "library",
-      "illuminate/collections@v9.31.0": "library",
-      "illuminate/conditionable@v9.31.0": "library",
-      "illuminate/contracts@v9.31.0": "library",
-      "illuminate/macroable@v9.31.0": "library",
-      "illuminate/support@v9.31.0": "library",
-      "mtdowling/jmespath.php@2.6.1": "library",
-      "myclabs/deep-copy@1.11.0": "library",
-      "nesbot/carbon@2.62.1": "library",
-      "phpdocumentor/reflection-common@2.2.0": "library",
-      "phpdocumentor/reflection-docblock@5.3.0": "library",
-      "phpdocumentor/type-resolver@1.6.1": "library",
-      "phpoption/phpoption@1.9.0": "library",
-      "phpspec/prophecy@v1.10.3": "library",
-      "phpunit/php-code-coverage@4.0.8": "library",
-      "phpunit/php-file-iterator@1.4.5": "library",
-      "phpunit/php-text-template@1.2.1": "library",
-      "phpunit/php-timer@1.0.9": "library",
-      "phpunit/php-token-stream@2.0.2": "library",
-      "phpunit/phpunit-mock-objects@3.4.4": "library",
-      "phpunit/phpunit@5.7.27": "library",
-      "psr/container@2.0.2": "library",
-      "psr/http-client@1.0.1": "library",
-      "psr/http-factory@1.0.1": "library",
-      "psr/http-message@1.0.1": "library",
-      "psr/simple-cache@3.0.0": "library",
-      "ralouphie/getallheaders@3.0.3": "library",
-      "sebastian/code-unit-reverse-lookup@1.0.2": "library",
-      "sebastian/comparator@1.2.4": "library",
-      "sebastian/diff@1.4.3": "library",
-      "sebastian/environment@2.0.0": "library",
-      "sebastian/exporter@2.0.0": "library",
-      "sebastian/global-state@1.1.1": "library",
-      "sebastian/object-enumerator@2.0.1": "library",
-      "sebastian/recursion-context@2.0.0": "library",
-      "sebastian/resource-operations@1.0.0": "library",
-      "sebastian/version@2.0.1": "library",
-      "symfony/deprecation-contracts@v3.1.1": "library",
-      "symfony/polyfill-ctype@v1.26.0": "library",
-      "symfony/polyfill-mbstring@v1.26.0": "library",
-      "symfony/polyfill-php80@v1.26.0": "library",
-      "symfony/translation-contracts@v2.5.2": "library",
-      "symfony/translation@v5.4.12": "library",
-      "symfony/yaml@v4.4.45": "library",
-      "vlucas/phpdotenv@v5.4.1": "library",
-      "voku/portable-ascii@2.0.1": "library",
-      "webmozart/assert@1.11.0": "library"
-    },
     "phpSemver": ">=5.5.9"
   },
   "cyclicDependencies": {},
   "dependencies": {
     "aws/aws-sdk-php": {
-      "3.235.14": [
+      "3.235.15": [
         [ "aws/aws-crt-php", "v1.0.2" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
         [ "guzzlehttp/promises", "1.5.2" ],
@@ -94,7 +38,7 @@
     },
     "aws/aws-sdk-php-laravel": {
       "3.7.0": [
-        [ "aws/aws-sdk-php", "3.235.14" ],
+        [ "aws/aws-sdk-php", "3.235.15" ],
         [ "illuminate/support", "v9.31.0" ],
         [ "phpunit/phpunit", "5.7.27" ],
         [ "vlucas/phpdotenv", "v5.4.1" ]
@@ -278,8 +222,8 @@
       }
     },
     "aws/aws-sdk-php": {
-      "3.235.14": {
-        "rev": "d6a696800e1eceec47e8f84ded88a88f4790d016",
+      "3.235.15": {
+        "rev": "635914c29fc875c58a85fdf981c27f1f561eaf50",
         "type": "git",
         "url": "https://github.com/aws/aws-sdk-php.git"
       }

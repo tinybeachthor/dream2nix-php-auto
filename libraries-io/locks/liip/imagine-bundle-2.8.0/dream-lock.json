@@ -9,6 +9,7 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "gd",
       "mbstring",
@@ -20,77 +21,6 @@
       "dom",
       "libxml"
     ],
-    "phpPackageType": {
-      "amazonwebservices/aws-sdk-for-php@1.6.3": "library",
-      "aws/aws-sdk-php@2.8.31": "library",
-      "brick/math@0.10.2": "library",
-      "doctrine/cache@2.2.0": "library",
-      "doctrine/collections@1.7.3": "library",
-      "doctrine/deprecations@v1.0.0": "library",
-      "doctrine/event-manager@1.1.2": "library",
-      "doctrine/persistence@2.5.4": "library",
-      "enqueue/dsn@0.10.8": "library",
-      "enqueue/enqueue-bundle@0.10.16": "symfony-bundle",
-      "enqueue/enqueue@0.10.16": "library",
-      "enqueue/null@0.10.15": "library",
-      "guzzle/guzzle@v3.8.1": "library",
-      "imagine/imagine@1.3.2": "library",
-      "league/flysystem@3.5.1": "library",
-      "league/mime-type-detection@1.11.0": "library",
-      "liip/imagine-bundle@2.8.0": "library",
-      "masterminds/html5@2.7.6": "library",
-      "phpstan/phpstan@0.12.99": "library",
-      "psr/cache@3.0.0": "library",
-      "psr/container@2.0.2": "library",
-      "psr/event-dispatcher@1.0.0": "library",
-      "psr/log@1.1.4": "library",
-      "queue-interop/amqp-interop@0.8.2": "library",
-      "queue-interop/queue-interop@0.8.1": "library",
-      "ramsey/collection@1.2.2": "library",
-      "ramsey/uuid@4.5.1": "library",
-      "symfony/browser-kit@v6.1.3": "library",
-      "symfony/cache-contracts@v3.1.1": "library",
-      "symfony/cache@v6.1.3": "library",
-      "symfony/config@v6.1.3": "library",
-      "symfony/console@v6.1.4": "library",
-      "symfony/dependency-injection@v6.1.3": "library",
-      "symfony/deprecation-contracts@v3.1.1": "library",
-      "symfony/dom-crawler@v6.1.4": "library",
-      "symfony/error-handler@v6.1.3": "library",
-      "symfony/event-dispatcher-contracts@v3.1.1": "library",
-      "symfony/event-dispatcher@v6.1.0": "library",
-      "symfony/filesystem@v6.1.4": "library",
-      "symfony/finder@v6.1.3": "library",
-      "symfony/form@v6.1.4": "library",
-      "symfony/framework-bundle@v6.1.4": "symfony-bundle",
-      "symfony/http-foundation@v6.1.4": "library",
-      "symfony/http-kernel@v6.1.4": "library",
-      "symfony/messenger@v6.1.3": "library",
-      "symfony/mime@v6.1.4": "library",
-      "symfony/options-resolver@v6.1.0": "library",
-      "symfony/phpunit-bridge@v5.4.11": "symfony-bridge",
-      "symfony/polyfill-ctype@v1.26.0": "library",
-      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
-      "symfony/polyfill-intl-icu@v1.26.0": "library",
-      "symfony/polyfill-intl-idn@v1.26.0": "library",
-      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
-      "symfony/polyfill-mbstring@v1.26.0": "library",
-      "symfony/polyfill-php72@v1.26.0": "library",
-      "symfony/polyfill-php81@v1.26.0": "library",
-      "symfony/process@v6.1.3": "library",
-      "symfony/property-access@v6.1.3": "library",
-      "symfony/property-info@v6.1.3": "library",
-      "symfony/routing@v6.1.3": "library",
-      "symfony/service-contracts@v3.1.1": "library",
-      "symfony/string@v6.1.4": "library",
-      "symfony/templating@v6.1.3": "library",
-      "symfony/translation-contracts@v3.1.1": "library",
-      "symfony/validator@v6.1.4": "library",
-      "symfony/var-dumper@v6.1.3": "library",
-      "symfony/var-exporter@v6.1.3": "library",
-      "symfony/yaml@v6.1.4": "library",
-      "twig/twig@v3.4.2": "library"
-    },
     "phpSemver": "^7.1|^8.0"
   },
   "cyclicDependencies": {},
@@ -145,7 +75,7 @@
       ]
     },
     "league/flysystem": {
-      "3.5.1": [
+      "3.5.2": [
         [ "league/mime-type-detection", "1.11.0" ]
       ]
     },
@@ -157,7 +87,7 @@
         [ "doctrine/persistence", "2.5.4" ],
         [ "enqueue/enqueue-bundle", "0.10.16" ],
         [ "imagine/imagine", "1.3.2" ],
-        [ "league/flysystem", "3.5.1" ],
+        [ "league/flysystem", "3.5.2" ],
         [ "phpstan/phpstan", "0.12.99" ],
         [ "psr/cache", "3.0.0" ],
         [ "psr/log", "1.1.4" ],
@@ -496,8 +426,8 @@
       }
     },
     "league/flysystem": {
-      "3.5.1": {
-        "rev": "f14993c6e394450ac4649da35264df0544d0234e",
+      "3.5.2": {
+        "rev": "c73c4eb31f2e883b3897ab5591aa2dbc48112433",
         "type": "git",
         "url": "https://github.com/thephpleague/flysystem.git"
       }

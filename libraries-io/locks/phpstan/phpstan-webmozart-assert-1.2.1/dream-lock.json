@@ -9,6 +9,7 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "tokenizer",
       "dom",
@@ -20,42 +21,6 @@
       "xml",
       "ctype"
     ],
-    "phpPackageType": {
-      "doctrine/instantiator@1.4.1": "library",
-      "myclabs/deep-copy@1.11.0": "library",
-      "nikic/php-parser@v4.15.1": "library",
-      "phar-io/manifest@2.0.3": "library",
-      "phar-io/version@3.2.1": "library",
-      "php-parallel-lint/php-parallel-lint@v1.3.2": "library",
-      "phpstan/phpstan-phpunit@1.1.1": "phpstan-extension",
-      "phpstan/phpstan-strict-rules@1.4.3": "phpstan-extension",
-      "phpstan/phpstan-webmozart-assert@1.2.1": "library",
-      "phpstan/phpstan@1.8.5": "library",
-      "phpunit/php-code-coverage@9.2.17": "library",
-      "phpunit/php-file-iterator@3.0.6": "library",
-      "phpunit/php-invoker@3.1.1": "library",
-      "phpunit/php-text-template@2.0.4": "library",
-      "phpunit/php-timer@5.0.3": "library",
-      "phpunit/phpunit@9.5.24": "library",
-      "sebastian/cli-parser@1.0.1": "library",
-      "sebastian/code-unit-reverse-lookup@2.0.3": "library",
-      "sebastian/code-unit@1.0.8": "library",
-      "sebastian/comparator@4.0.8": "library",
-      "sebastian/complexity@2.0.2": "library",
-      "sebastian/diff@4.0.4": "library",
-      "sebastian/environment@5.1.4": "library",
-      "sebastian/exporter@4.0.5": "library",
-      "sebastian/global-state@5.0.5": "library",
-      "sebastian/lines-of-code@1.0.3": "library",
-      "sebastian/object-enumerator@4.0.4": "library",
-      "sebastian/object-reflector@2.0.4": "library",
-      "sebastian/recursion-context@4.0.4": "library",
-      "sebastian/resource-operations@3.0.3": "library",
-      "sebastian/type@3.2.0": "library",
-      "sebastian/version@3.0.2": "library",
-      "theseer/tokenizer@1.2.1": "library",
-      "webmozart/assert@1.11.0": "library"
-    },
     "phpSemver": "^7.2 || ^8.0"
   },
   "cyclicDependencies": {},
@@ -67,21 +32,21 @@
     },
     "phpstan/phpstan-phpunit": {
       "1.1.1": [
-        [ "phpstan/phpstan", "1.8.5" ]
+        [ "phpstan/phpstan", "1.8.6" ]
       ]
     },
     "phpstan/phpstan-strict-rules": {
-      "1.4.3": [
-        [ "phpstan/phpstan", "1.8.5" ]
+      "1.4.4": [
+        [ "phpstan/phpstan", "1.8.6" ]
       ]
     },
     "phpstan/phpstan-webmozart-assert": {
       "1.2.1": [
         [ "nikic/php-parser", "v4.15.1" ],
         [ "php-parallel-lint/php-parallel-lint", "v1.3.2" ],
-        [ "phpstan/phpstan", "1.8.5" ],
+        [ "phpstan/phpstan", "1.8.6" ],
         [ "phpstan/phpstan-phpunit", "1.1.1" ],
-        [ "phpstan/phpstan-strict-rules", "1.4.3" ],
+        [ "phpstan/phpstan-strict-rules", "1.4.4" ],
         [ "phpunit/phpunit", "9.5.24" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
@@ -201,8 +166,8 @@
       }
     },
     "phpstan/phpstan": {
-      "1.8.5": {
-        "rev": "f6598a5ff12ca4499a836815e08b4d77a2ddeb20",
+      "1.8.6": {
+        "rev": "c386ab2741e64cc9e21729f891b28b2b10fe6618",
         "type": "git",
         "url": "https://github.com/phpstan/phpstan.git"
       }
@@ -215,8 +180,8 @@
       }
     },
     "phpstan/phpstan-strict-rules": {
-      "1.4.3": {
-        "rev": "431b3d6e8040075de196680cd5bc95735987b4ae",
+      "1.4.4": {
+        "rev": "23e5f377ee6395a1a04842d3d6ed4bd25e7b44a6",
         "type": "git",
         "url": "https://github.com/phpstan/phpstan-strict-rules.git"
       }

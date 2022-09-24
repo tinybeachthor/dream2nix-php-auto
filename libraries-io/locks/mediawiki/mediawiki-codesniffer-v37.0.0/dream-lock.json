@@ -9,6 +9,7 @@
     "subsystem": "php"
   },
   "_subsystem": {
+    "composerPluginApiSemver": {},
     "phpExtensions": [
       "mbstring",
       "simplexml",
@@ -25,67 +26,15 @@
       "xml",
       "ctype"
     ],
-    "phpPackageType": {
-      "composer/semver@3.3.2": "library",
-      "composer/spdx-licenses@1.5.7": "library",
-      "composer/xdebug-handler@1.4.6": "library",
-      "doctrine/instantiator@1.4.1": "library",
-      "felixfbecker/advanced-json-rpc@v3.2.1": "library",
-      "mediawiki/mediawiki-codesniffer@v37.0.0": "library",
-      "mediawiki/mediawiki-phan-config@0.10.6": "library",
-      "mediawiki/minus-x@1.1.1": "library",
-      "mediawiki/phan-taint-check-plugin@3.2.1": "library",
-      "microsoft/tolerant-php-parser@v0.0.23": "library",
-      "myclabs/deep-copy@1.11.0": "library",
-      "netresearch/jsonmapper@v3.1.1": "library",
-      "phan/phan@3.2.6": "project",
-      "phar-io/manifest@2.0.3": "library",
-      "phar-io/version@3.2.1": "library",
-      "php-parallel-lint/php-console-color@v0.3": "library",
-      "php-parallel-lint/php-console-highlighter@v0.5": "library",
-      "php-parallel-lint/php-parallel-lint@v1.3.0": "library",
-      "phpdocumentor/reflection-common@2.2.0": "library",
-      "phpdocumentor/reflection-docblock@5.3.0": "library",
-      "phpdocumentor/type-resolver@1.6.1": "library",
-      "phpunit/php-code-coverage@7.0.15": "library",
-      "phpunit/php-file-iterator@2.0.5": "library",
-      "phpunit/php-text-template@1.2.1": "library",
-      "phpunit/php-timer@2.1.3": "library",
-      "phpunit/php-token-stream@4.0.4": "library",
-      "phpunit/phpunit@8.5.29": "library",
-      "psr/container@2.0.2": "library",
-      "psr/log@1.1.4": "library",
-      "sabre/event@5.1.4": "library",
-      "sebastian/code-unit-reverse-lookup@1.0.2": "library",
-      "sebastian/comparator@3.0.5": "library",
-      "sebastian/diff@3.0.3": "library",
-      "sebastian/environment@4.2.4": "library",
-      "sebastian/exporter@3.1.5": "library",
-      "sebastian/global-state@3.0.2": "library",
-      "sebastian/object-enumerator@3.0.4": "library",
-      "sebastian/object-reflector@1.1.2": "library",
-      "sebastian/recursion-context@3.0.1": "library",
-      "sebastian/resource-operations@2.0.2": "library",
-      "sebastian/type@1.1.4": "library",
-      "sebastian/version@2.0.1": "library",
-      "squizlabs/php_codesniffer@3.6.0": "library",
-      "symfony/console@v5.4.12": "library",
-      "symfony/deprecation-contracts@v3.1.1": "library",
-      "symfony/polyfill-ctype@v1.26.0": "library",
-      "symfony/polyfill-intl-grapheme@v1.26.0": "library",
-      "symfony/polyfill-intl-normalizer@v1.26.0": "library",
-      "symfony/polyfill-mbstring@v1.26.0": "library",
-      "symfony/polyfill-php73@v1.26.0": "library",
-      "symfony/polyfill-php80@v1.26.0": "library",
-      "symfony/service-contracts@v3.1.1": "library",
-      "symfony/string@v6.1.4": "library",
-      "theseer/tokenizer@1.2.1": "library",
-      "webmozart/assert@1.11.0": "library"
-    },
     "phpSemver": ">=7.2.0"
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "composer/xdebug-handler": {
+      "1.4.6": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
     "felixfbecker/advanced-json-rpc": {
       "v3.2.1": [
         [ "netresearch/jsonmapper", "v3.1.1" ],
@@ -94,6 +43,8 @@
     },
     "mediawiki/mediawiki-codesniffer": {
       "v37.0.0": [
+        [ "composer/semver", "3.3.2" ],
+        [ "composer/spdx-licenses", "1.5.7" ],
         [ "mediawiki/mediawiki-phan-config", "0.10.6" ],
         [ "mediawiki/minus-x", "1.1.1" ],
         [ "php-parallel-lint/php-parallel-lint", "v1.3.0" ],
@@ -121,6 +72,8 @@
     },
     "phan/phan": {
       "3.2.6": [
+        [ "composer/semver", "3.3.2" ],
+        [ "composer/xdebug-handler", "1.4.6" ],
         [ "felixfbecker/advanced-json-rpc", "v3.2.1" ],
         [ "microsoft/tolerant-php-parser", "v0.0.23" ],
         [ "netresearch/jsonmapper", "v3.1.1" ],
@@ -233,6 +186,27 @@
     }
   },
   "sources": {
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/spdx-licenses": {
+      "1.5.7": {
+        "rev": "c848241796da2abf65837d51dce1fae55a960149",
+        "type": "git",
+        "url": "https://github.com/composer/spdx-licenses.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "1.4.6": {
+        "rev": "f27e06cd9675801df441b3656569b328e04aa37c",
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
     "doctrine/instantiator": {
       "1.4.1": {
         "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
@@ -392,6 +366,13 @@
         "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
         "type": "git",
         "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
       }
     },
     "sabre/event": {
