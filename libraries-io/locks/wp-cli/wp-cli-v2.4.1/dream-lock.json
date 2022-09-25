@@ -1,0 +1,720 @@
+{
+  "_generic": {
+    "defaultPackage": "wp-cli/wp-cli",
+    "location": "",
+    "packages": {
+      "wp-cli/wp-cli": "v2.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "dealerdirect/phpcodesniffer-composer-installer@v0.5.0": "^1.0"
+    },
+    "phpExtensions": [
+      "curl",
+      "openssl",
+      "pcre",
+      "tokenizer",
+      "dom",
+      "json",
+      "reflection",
+      "spl",
+      "simplexml",
+      "xmlwriter"
+    ],
+    "phpSemver": "^5.4 || ^7.0"
+  },
+  "cyclicDependencies": {
+    "wp-cli/config-command": {
+      "v2.0.5": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/core-command": {
+      "v2.0.8": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/db-command": {
+      "v2.0.6": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/entity-command": {
+      "v2.0.7": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/eval-command": {
+      "v2.0.6": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/extension-command": {
+      "v2.0.7": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/package-command": {
+      "v2.0.6": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/wp-cli-tests": {
+      "v2.1.9": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "behat/behat": {
+      "v2.5.5": [
+        [ "behat/gherkin", "v2.3.5" ],
+        [ "symfony/config", "v2.8.52" ],
+        [ "symfony/console", "v2.8.52" ],
+        [ "symfony/dependency-injection", "v2.8.52" ],
+        [ "symfony/event-dispatcher", "v2.8.52" ],
+        [ "symfony/finder", "v2.8.52" ],
+        [ "symfony/translation", "v2.8.52" ],
+        [ "symfony/yaml", "v2.8.52" ]
+      ]
+    },
+    "behat/gherkin": {
+      "v2.3.5": [
+        [ "symfony/finder", "v2.8.52" ]
+      ]
+    },
+    "composer/composer": {
+      "1.9.3": [
+        [ "composer/ca-bundle", "1.2.6" ],
+        [ "composer/semver", "1.5.1" ],
+        [ "composer/spdx-licenses", "1.5.3" ],
+        [ "composer/xdebug-handler", "1.4.0" ],
+        [ "justinrainbow/json-schema", "5.2.9" ],
+        [ "psr/log", "1.1.2" ],
+        [ "seld/jsonlint", "1.7.2" ],
+        [ "seld/phar-utils", "1.1.0" ],
+        [ "symfony/console", "v2.8.52" ],
+        [ "symfony/filesystem", "v2.8.52" ],
+        [ "symfony/finder", "v2.8.52" ],
+        [ "symfony/process", "v2.8.52" ]
+      ]
+    },
+    "composer/xdebug-handler": {
+      "1.4.0": [
+        [ "psr/log", "1.1.2" ]
+      ]
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.5.0": [
+        [ "squizlabs/php_codesniffer", "3.5.4" ]
+      ]
+    },
+    "jakub-onderka/php-console-highlighter": {
+      "v0.4": [
+        [ "jakub-onderka/php-console-color", "v0.2" ]
+      ]
+    },
+    "phpcompatibility/php-compatibility": {
+      "9.3.5": [
+        [ "squizlabs/php_codesniffer", "3.5.4" ]
+      ]
+    },
+    "phpspec/prophecy": {
+      "v1.10.2": [
+        [ "doctrine/instantiator", "1.0.5" ],
+        [ "phpdocumentor/reflection-docblock", "2.0.5" ],
+        [ "sebastian/comparator", "1.2.4" ],
+        [ "sebastian/recursion-context", "1.0.5" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": [
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "1.4.12" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/version", "1.0.6" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "4.8.36": [
+        [ "phpspec/prophecy", "v1.10.2" ],
+        [ "phpunit/php-code-coverage", "2.2.4" ],
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-timer", "1.0.9" ],
+        [ "phpunit/phpunit-mock-objects", "2.3.8" ],
+        [ "sebastian/comparator", "1.2.4" ],
+        [ "sebastian/diff", "1.4.3" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/exporter", "1.2.2" ],
+        [ "sebastian/global-state", "1.1.1" ],
+        [ "sebastian/version", "1.0.6" ],
+        [ "symfony/yaml", "v2.8.52" ]
+      ]
+    },
+    "phpunit/phpunit-mock-objects": {
+      "2.3.8": [
+        [ "doctrine/instantiator", "1.0.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "sebastian/exporter", "1.2.2" ]
+      ]
+    },
+    "sebastian/comparator": {
+      "1.2.4": [
+        [ "sebastian/diff", "1.4.3" ],
+        [ "sebastian/exporter", "1.2.2" ]
+      ]
+    },
+    "sebastian/exporter": {
+      "1.2.2": [
+        [ "sebastian/recursion-context", "1.0.5" ]
+      ]
+    },
+    "symfony/config": {
+      "v2.8.52": [
+        [ "symfony/filesystem", "v2.8.52" ],
+        [ "symfony/polyfill-ctype", "v1.14.0" ]
+      ]
+    },
+    "symfony/console": {
+      "v2.8.52": [
+        [ "symfony/debug", "v2.8.52" ],
+        [ "symfony/polyfill-mbstring", "v1.14.0" ]
+      ]
+    },
+    "symfony/debug": {
+      "v2.8.52": [
+        [ "psr/log", "1.1.2" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v2.8.52": [
+        [ "symfony/polyfill-ctype", "v1.14.0" ]
+      ]
+    },
+    "symfony/translation": {
+      "v2.8.52": [
+        [ "symfony/polyfill-mbstring", "v1.14.0" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v2.8.52": [
+        [ "symfony/polyfill-ctype", "v1.14.0" ]
+      ]
+    },
+    "wp-cli/config-command": {
+      "v2.0.5": [
+        [ "wp-cli/wp-cli", "v2.4.1" ],
+        [ "wp-cli/wp-config-transformer", "v1.2.6" ]
+      ]
+    },
+    "wp-cli/core-command": {
+      "v2.0.8": [
+        [ "composer/semver", "1.5.1" ],
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/db-command": {
+      "v2.0.6": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/entity-command": {
+      "v2.0.7": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/eval-command": {
+      "v2.0.6": [
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/extension-command": {
+      "v2.0.7": [
+        [ "composer/semver", "1.5.1" ],
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/package-command": {
+      "v2.0.6": [
+        [ "composer/composer", "1.9.3" ],
+        [ "wp-cli/wp-cli", "v2.4.1" ]
+      ]
+    },
+    "wp-cli/wp-cli": {
+      "v2.4.1": [
+        [ "mustache/mustache", "v2.13.0" ],
+        [ "rmccue/requests", "v1.7.0" ],
+        [ "roave/security-advisories", "dev-master" ],
+        [ "symfony/finder", "v2.8.52" ],
+        [ "wp-cli/db-command", "v2.0.6" ],
+        [ "wp-cli/entity-command", "v2.0.7" ],
+        [ "wp-cli/extension-command", "v2.0.7" ],
+        [ "wp-cli/mustangostang-spyc", "0.6.3" ],
+        [ "wp-cli/package-command", "v2.0.6" ],
+        [ "wp-cli/php-cli-tools", "v0.11.11" ],
+        [ "wp-cli/wp-cli-tests", "v2.1.9" ]
+      ]
+    },
+    "wp-cli/wp-cli-tests": {
+      "v2.1.9": [
+        [ "behat/behat", "v2.5.5" ],
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.5.0" ],
+        [ "jakub-onderka/php-console-highlighter", "v0.4" ],
+        [ "jakub-onderka/php-parallel-lint", "v1.0.0" ],
+        [ "phpcompatibility/php-compatibility", "9.3.5" ],
+        [ "phpunit/phpunit", "4.8.36" ],
+        [ "wp-cli/config-command", "v2.0.5" ],
+        [ "wp-cli/core-command", "v2.0.8" ],
+        [ "wp-cli/eval-command", "v2.0.6" ],
+        [ "wp-cli/wp-cli", "v2.4.1" ],
+        [ "wp-coding-standards/wpcs", "2.2.1" ]
+      ]
+    },
+    "wp-coding-standards/wpcs": {
+      "2.2.1": [
+        [ "squizlabs/php_codesniffer", "3.5.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "behat/behat": {
+      "v2.5.5": {
+        "rev": "c1e48826b84669c97a1efa78459aedfdcdcf2120",
+        "type": "git",
+        "url": "https://github.com/Behat/Behat.git"
+      }
+    },
+    "behat/gherkin": {
+      "v2.3.5": {
+        "rev": "2b33963da5525400573560c173ab5c9c057e1852",
+        "type": "git",
+        "url": "https://github.com/Behat/Gherkin.git"
+      }
+    },
+    "composer/ca-bundle": {
+      "1.2.6": {
+        "rev": "47fe531de31fca4a1b997f87308e7d7804348f7e",
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "composer/composer": {
+      "1.9.3": {
+        "rev": "1291a16ce3f48bfdeca39d64fca4875098af4d7b",
+        "type": "git",
+        "url": "https://github.com/composer/composer.git"
+      }
+    },
+    "composer/semver": {
+      "1.5.1": {
+        "rev": "c6bea70230ef4dd483e6bbcab6005f682ed3a8de",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/spdx-licenses": {
+      "1.5.3": {
+        "rev": "0c3e51e1880ca149682332770e25977c70cf9dae",
+        "type": "git",
+        "url": "https://github.com/composer/spdx-licenses.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "1.4.0": {
+        "rev": "cbe23383749496fe0f373345208b79568e4bc248",
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.5.0": {
+        "rev": "e749410375ff6fb7a040a68878c656c2e610b132",
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "doctrine/instantiator": {
+      "1.0.5": {
+        "rev": "8e884e78f9f0eb1329e445619e04456e64d8051d",
+        "type": "git",
+        "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "jakub-onderka/php-console-color": {
+      "v0.2": {
+        "rev": "d5deaecff52a0d61ccb613bb3804088da0307191",
+        "type": "git",
+        "url": "https://github.com/JakubOnderka/PHP-Console-Color.git"
+      }
+    },
+    "jakub-onderka/php-console-highlighter": {
+      "v0.4": {
+        "rev": "9f7a229a69d52506914b4bc61bfdb199d90c5547",
+        "type": "git",
+        "url": "https://github.com/JakubOnderka/PHP-Console-Highlighter.git"
+      }
+    },
+    "jakub-onderka/php-parallel-lint": {
+      "v1.0.0": {
+        "rev": "04fbd3f5fb1c83f08724aa58a23db90bd9086ee8",
+        "type": "git",
+        "url": "https://github.com/JakubOnderka/PHP-Parallel-Lint.git"
+      }
+    },
+    "justinrainbow/json-schema": {
+      "5.2.9": {
+        "rev": "44c6787311242a979fa15c704327c20e7221a0e4",
+        "type": "git",
+        "url": "https://github.com/justinrainbow/json-schema.git"
+      }
+    },
+    "mustache/mustache": {
+      "v2.13.0": {
+        "rev": "e95c5a008c23d3151d59ea72484d4f72049ab7f4",
+        "type": "git",
+        "url": "https://github.com/bobthecow/mustache.php.git"
+      }
+    },
+    "phpcompatibility/php-compatibility": {
+      "9.3.5": {
+        "rev": "9fb324479acf6f39452e0655d2429cc0d3914243",
+        "type": "git",
+        "url": "https://github.com/PHPCompatibility/PHPCompatibility.git"
+      }
+    },
+    "phpdocumentor/reflection-docblock": {
+      "2.0.5": {
+        "rev": "e6a969a640b00d8daa3c66518b0405fb41ae0c4b",
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "phpspec/prophecy": {
+      "v1.10.2": {
+        "rev": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
+        "type": "git",
+        "url": "https://github.com/phpspec/prophecy.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": {
+        "rev": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "1.4.5": {
+        "rev": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "1.0.9": {
+        "rev": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.4.12": {
+        "rev": "1ce90ba27c42e4e44e6d8458241466380b51fa16",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "4.8.36": {
+        "rev": "46023de9a91eec7dfb06cc56cb4e260017298517",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "phpunit/phpunit-mock-objects": {
+      "2.3.8": {
+        "rev": "ac8e7a3db35738d56ee9a76e78a4e03d97628983",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
+      }
+    },
+    "psr/log": {
+      "1.1.2": {
+        "rev": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "rmccue/requests": {
+      "v1.7.0": {
+        "rev": "87932f52ffad70504d93f04f15690cf16a089546",
+        "type": "git",
+        "url": "https://github.com/rmccue/Requests.git"
+      }
+    },
+    "roave/security-advisories": {
+      "dev-master": {
+        "rev": "0365bf26eddd4a8be9980d7dabf05ceb2aba2f02",
+        "type": "git",
+        "url": "https://github.com/Roave/SecurityAdvisories.git"
+      }
+    },
+    "sebastian/comparator": {
+      "1.2.4": {
+        "rev": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/comparator.git"
+      }
+    },
+    "sebastian/diff": {
+      "1.4.3": {
+        "rev": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "sebastian/environment": {
+      "1.3.8": {
+        "rev": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/environment.git"
+      }
+    },
+    "sebastian/exporter": {
+      "1.2.2": {
+        "rev": "42c4c2eec485ee3e159ec9884f95b431287edde4",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/exporter.git"
+      }
+    },
+    "sebastian/global-state": {
+      "1.1.1": {
+        "rev": "bc37d50fea7d017d3d340f230811c9f1d7280af4",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/global-state.git"
+      }
+    },
+    "sebastian/recursion-context": {
+      "1.0.5": {
+        "rev": "b19cc3298482a335a95f3016d2f8a6950f0fbcd7",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/recursion-context.git"
+      }
+    },
+    "sebastian/version": {
+      "1.0.6": {
+        "rev": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "seld/jsonlint": {
+      "1.7.2": {
+        "rev": "e2e5d290e4d2a4f0eb449f510071392e00e10d19",
+        "type": "git",
+        "url": "https://github.com/Seldaek/jsonlint.git"
+      }
+    },
+    "seld/phar-utils": {
+      "1.1.0": {
+        "rev": "8800503d56b9867d43d9c303b9cbcc26016e82f0",
+        "type": "git",
+        "url": "https://github.com/Seldaek/phar-utils.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.5.4": {
+        "rev": "dceec07328401de6211037abbb18bda423677e26",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "symfony/config": {
+      "v2.8.52": {
+        "rev": "7dd5f5040dc04c118d057fb5886563963eb70011",
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/console": {
+      "v2.8.52": {
+        "rev": "cbcf4b5e233af15cd2bbd50dee1ccc9b7927dc12",
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/debug": {
+      "v2.8.52": {
+        "rev": "74251c8d50dd3be7c4ce0c7b862497cdc641a5d0",
+        "type": "git",
+        "url": "https://github.com/symfony/debug.git"
+      }
+    },
+    "symfony/dependency-injection": {
+      "v2.8.52": {
+        "rev": "c306198fee8f872a8f5f031e6e4f6f83086992d8",
+        "type": "git",
+        "url": "https://github.com/symfony/dependency-injection.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v2.8.52": {
+        "rev": "a77e974a5fecb4398833b0709210e3d5e334ffb0",
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v2.8.52": {
+        "rev": "7ae46872dad09dffb7fe1e93a0937097339d0080",
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v2.8.52": {
+        "rev": "1444eac52273e345d9b95129bf914639305a9ba4",
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.14.0": {
+        "rev": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.14.0": {
+        "rev": "34094cfa9abe1f0f14f48f490772db7a775559f2",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/process": {
+      "v2.8.52": {
+        "rev": "c3591a09c78639822b0b290d44edb69bf9f05dc8",
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/translation": {
+      "v2.8.52": {
+        "rev": "fc58c2a19e56c29f5ba2736ec40d0119a0de2089",
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/yaml": {
+      "v2.8.52": {
+        "rev": "02c1859112aa779d9ab394ae4f3381911d84052b",
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "wp-cli/config-command": {
+      "v2.0.5": {
+        "rev": "9530dc42eebcae1fde10ad9e4aad312e06267eb9",
+        "type": "git",
+        "url": "https://github.com/wp-cli/config-command.git"
+      }
+    },
+    "wp-cli/core-command": {
+      "v2.0.8": {
+        "rev": "be62a9364c77a99698364a888362a8c8b9414f2f",
+        "type": "git",
+        "url": "https://github.com/wp-cli/core-command.git"
+      }
+    },
+    "wp-cli/db-command": {
+      "v2.0.6": {
+        "rev": "8e3cd46987241ed97ddb7f682b3505dff8d6dce4",
+        "type": "git",
+        "url": "https://github.com/wp-cli/db-command.git"
+      }
+    },
+    "wp-cli/entity-command": {
+      "v2.0.7": {
+        "rev": "0df89e4fba48177acf768bff9c00cda95a3fe5b9",
+        "type": "git",
+        "url": "https://github.com/wp-cli/entity-command.git"
+      }
+    },
+    "wp-cli/eval-command": {
+      "v2.0.6": {
+        "rev": "d379732f9899387a6a631ccea5116b3da6f16300",
+        "type": "git",
+        "url": "https://github.com/wp-cli/eval-command.git"
+      }
+    },
+    "wp-cli/extension-command": {
+      "v2.0.7": {
+        "rev": "e397cf208c0df679656a87041bf34129e7e3d922",
+        "type": "git",
+        "url": "https://github.com/wp-cli/extension-command.git"
+      }
+    },
+    "wp-cli/mustangostang-spyc": {
+      "0.6.3": {
+        "rev": "6aa0b4da69ce9e9a2c8402dab8d43cf32c581cc7",
+        "type": "git",
+        "url": "https://github.com/wp-cli/spyc.git"
+      }
+    },
+    "wp-cli/package-command": {
+      "v2.0.6": {
+        "rev": "92a0d7f2f4b54ad2aeff2292baaa96ba8f93f37a",
+        "type": "git",
+        "url": "https://github.com/wp-cli/package-command.git"
+      }
+    },
+    "wp-cli/php-cli-tools": {
+      "v0.11.11": {
+        "rev": "fe9c7c44a9e1bf2196ec51dc38da0593dbf2993f",
+        "type": "git",
+        "url": "https://github.com/wp-cli/php-cli-tools.git"
+      }
+    },
+    "wp-cli/wp-cli": {
+      "v2.4.1": {
+        "rev": "ceb18598e79befa9b2a37a51efbb34910628988b",
+        "type": "git",
+        "url": "https://github.com/wp-cli/wp-cli.git"
+      }
+    },
+    "wp-cli/wp-cli-tests": {
+      "v2.1.9": {
+        "rev": "003f1855c5059cd7fa8d816fbc04a1634cf60b97",
+        "type": "git",
+        "url": "https://github.com/wp-cli/wp-cli-tests.git"
+      }
+    },
+    "wp-cli/wp-config-transformer": {
+      "v1.2.6": {
+        "rev": "1ca98343443a8e4585865db5f50e8e6121fee70b",
+        "type": "git",
+        "url": "https://github.com/wp-cli/wp-config-transformer.git"
+      }
+    },
+    "wp-coding-standards/wpcs": {
+      "2.2.1": {
+        "rev": "b5a453203114cc2284b1a614c4953456fbe4f546",
+        "type": "git",
+        "url": "https://github.com/WordPress/WordPress-Coding-Standards.git"
+      }
+    }
+  }
+}

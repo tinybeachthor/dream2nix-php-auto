@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "spryker/sales-extension",
+    "location": "",
+    "packages": {
+      "spryker/sales-extension": "1.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
+    },
+    "phpExtensions": [
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=7.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "8.5.1": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "phpstan/phpdoc-parser", "1.8.0" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "spryker/code-sniffer": {
+      "0.17.11": [
+        [ "slevomat/coding-standard", "8.5.1" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "spryker/sales-extension": {
+      "1.9.0": [
+        [ "spryker/code-sniffer", "0.17.11" ]
+      ]
+    }
+  },
+  "sources": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": {
+        "rev": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "phpstan/phpdoc-parser": {
+      "1.8.0": {
+        "rev": "8dd908dd6156e974b9a0f8bb4cd5ad0707830f04",
+        "type": "git",
+        "url": "https://github.com/phpstan/phpdoc-parser.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "8.5.1": {
+        "rev": "971f489404350bf4608b7e59381e603c47700366",
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "spryker/code-sniffer": {
+      "0.17.11": {
+        "rev": "21b2e6f12911e37b9e3c9c7683475b7afc73b025",
+        "type": "git",
+        "url": "https://github.com/spryker/code-sniffer.git"
+      }
+    },
+    "spryker/sales-extension": {
+      "1.9.0": {
+        "rev": "3e8555b4cb07dbe0543aae039a2f96b3a770fcd4",
+        "type": "git",
+        "url": "https://github.com/spryker/sales-extension.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

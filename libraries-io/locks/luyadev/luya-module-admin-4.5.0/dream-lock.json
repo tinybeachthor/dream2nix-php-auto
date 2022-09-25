@@ -1,0 +1,1110 @@
+{
+  "_generic": {
+    "defaultPackage": "luyadev/luya-module-admin",
+    "location": "",
+    "packages": {
+      "luyadev/luya-module-admin": "4.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "luyadev/luya-composer@1.1.2": "^1.1 | ^2.0",
+      "yiisoft/yii2-composer@2.0.10": "^1.0 | ^2.0"
+    },
+    "phpExtensions": [
+      "curl",
+      "hash",
+      "json",
+      "mbstring",
+      "openssl",
+      "sodium",
+      "ctype",
+      "filter",
+      "tokenizer",
+      "dom",
+      "phar",
+      "xmlwriter",
+      "libxml",
+      "xml"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {
+    "luyadev/luya-testsuite": {
+      "2.1.0": [
+        [ "luyadev/luya-module-admin", "4.5.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "bizley/jwt": {
+      "3.4.0": [
+        [ "lcobucci/jwt", "4.2.1" ],
+        [ "yiisoft/yii2", "2.0.46" ]
+      ]
+    },
+    "bower-asset/angular-filter": {
+      "v0.5.17": [
+        [ "bower-asset/angular", "v1.8.3" ]
+      ]
+    },
+    "bower-asset/angular-loading-bar": {
+      "0.9.0": [
+        [ "bower-asset/angular", "v1.8.3" ]
+      ]
+    },
+    "bower-asset/inputmask": {
+      "3.3.11": [
+        [ "bower-asset/jquery", "3.6.1" ]
+      ]
+    },
+    "bower-asset/ng-file-upload": {
+      "12.2.13": [
+        [ "bower-asset/angular", "v1.8.3" ]
+      ]
+    },
+    "bower-asset/ng-flow": {
+      "v2.7.8": [
+        [ "bower-asset/angular", "v1.8.3" ],
+        [ "bower-asset/flow.js", "v2.14.1" ]
+      ]
+    },
+    "bower-asset/ui-cropper": {
+      "1.0.9": [
+        [ "bower-asset/angular", "v1.8.3" ]
+      ]
+    },
+    "bower-asset/ui-router": {
+      "0.4.3": [
+        [ "bower-asset/angular", "v1.8.3" ]
+      ]
+    },
+    "bower-asset/yii2-pjax": {
+      "2.0.7.1": [
+        [ "bower-asset/jquery", "3.6.1" ]
+      ]
+    },
+    "cebe/php-openapi": {
+      "1.7.0": [
+        [ "justinrainbow/json-schema", "5.2.12" ],
+        [ "symfony/yaml", "v6.1.4" ]
+      ]
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": [
+        [ "composer/pcre", "3.0.0" ],
+        [ "psr/log", "3.0.0" ]
+      ]
+    },
+    "doctrine/annotations": {
+      "1.13.3": [
+        [ "doctrine/lexer", "1.2.3" ],
+        [ "psr/cache", "3.0.0" ]
+      ]
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v3.11.0": [
+        [ "composer/semver", "3.3.2" ],
+        [ "composer/xdebug-handler", "3.0.3" ],
+        [ "doctrine/annotations", "1.13.3" ],
+        [ "sebastian/diff", "4.0.4" ],
+        [ "symfony/console", "v6.1.4" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
+        [ "symfony/filesystem", "v6.1.4" ],
+        [ "symfony/finder", "v6.1.3" ],
+        [ "symfony/options-resolver", "v6.1.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/polyfill-php81", "v1.26.0" ],
+        [ "symfony/process", "v5.4.11" ],
+        [ "symfony/stopwatch", "v6.1.0" ]
+      ]
+    },
+    "giggsey/libphonenumber-for-php": {
+      "8.12.56": [
+        [ "giggsey/locale", "2.2" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "lcobucci/clock": {
+      "2.2.0": [
+        [ "stella-maris/clock", "0.1.5" ]
+      ]
+    },
+    "lcobucci/jwt": {
+      "4.2.1": [
+        [ "lcobucci/clock", "2.2.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "luyadev/luya-core": {
+      "2.2.0": [
+        [ "curl/curl", "2.4.0" ],
+        [ "giggsey/libphonenumber-for-php", "8.12.56" ],
+        [ "luyadev/luya-composer", "1.1.2" ],
+        [ "luyadev/yii-helpers", "1.2.2" ],
+        [ "phpmailer/phpmailer", "v6.6.4" ],
+        [ "yiisoft/yii2", "2.0.46" ]
+      ]
+    },
+    "luyadev/luya-module-admin": {
+      "4.5.0": [
+        [ "bizley/jwt", "3.4.0" ],
+        [ "bower-asset/angular", "v1.8.3" ],
+        [ "bower-asset/angular-filter", "v0.5.17" ],
+        [ "bower-asset/angular-loading-bar", "0.9.0" ],
+        [ "bower-asset/bowser", "1.9.4" ],
+        [ "bower-asset/echarts", "5.3.3" ],
+        [ "bower-asset/ng-file-upload", "12.2.13" ],
+        [ "bower-asset/ng-flow", "v2.7.8" ],
+        [ "bower-asset/ng-wig", "v3.1.1" ],
+        [ "bower-asset/twigjs-bower", "0.10.5" ],
+        [ "bower-asset/ui-cropper", "1.0.9" ],
+        [ "bower-asset/ui-router", "0.4.3" ],
+        [ "cebe/php-openapi", "1.7.0" ],
+        [ "flowjs/flow-php-server", "v1.2.0" ],
+        [ "friendsofphp/php-cs-fixer", "v3.11.0" ],
+        [ "luyadev/luya-core", "2.2.0" ],
+        [ "luyadev/luya-testsuite", "2.1.0" ],
+        [ "phpstan/phpstan", "1.8.6" ],
+        [ "robthree/twofactorauth", "1.8.2" ],
+        [ "twbs/bootstrap", "v4.6.2" ],
+        [ "unglue/client", "1.5.3" ],
+        [ "whichbrowser/parser", "v2.1.7" ],
+        [ "yiisoft/yii2-imagine", "2.3.1" ],
+        [ "yiisoft/yii2-queue", "2.3.4" ]
+      ]
+    },
+    "luyadev/luya-testsuite": {
+      "2.1.0": [
+        [ "curl/curl", "2.4.0" ],
+        [ "luyadev/luya-core", "2.2.0" ],
+        [ "luyadev/luya-module-admin", "4.5.0" ],
+        [ "luyadev/luya-module-cms", "3.5.3" ],
+        [ "twig/twig", "v1.44.6" ],
+        [ "yoast/phpunit-polyfills", "0.2.0" ]
+      ]
+    },
+    "luyadev/yii-helpers": {
+      "1.2.2": [
+        [ "yiisoft/yii2", "2.0.46" ]
+      ]
+    },
+    "phar-io/manifest": {
+      "2.0.3": [
+        [ "phar-io/version", "3.2.1" ]
+      ]
+    },
+    "phpmailer/phpmailer": {
+      "v6.6.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "9.2.17": [
+        [ "nikic/php-parser", "v4.15.1" ],
+        [ "phpunit/php-file-iterator", "3.0.6" ],
+        [ "phpunit/php-text-template", "2.0.4" ],
+        [ "sebastian/code-unit-reverse-lookup", "2.0.3" ],
+        [ "sebastian/complexity", "2.0.2" ],
+        [ "sebastian/environment", "5.1.4" ],
+        [ "sebastian/lines-of-code", "1.0.3" ],
+        [ "sebastian/version", "3.0.2" ],
+        [ "theseer/tokenizer", "1.2.1" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "9.5.25": [
+        [ "doctrine/instantiator", "1.4.1" ],
+        [ "myclabs/deep-copy", "1.11.0" ],
+        [ "phar-io/manifest", "2.0.3" ],
+        [ "phar-io/version", "3.2.1" ],
+        [ "phpunit/php-code-coverage", "9.2.17" ],
+        [ "phpunit/php-file-iterator", "3.0.6" ],
+        [ "phpunit/php-invoker", "3.1.1" ],
+        [ "phpunit/php-text-template", "2.0.4" ],
+        [ "phpunit/php-timer", "5.0.3" ],
+        [ "sebastian/cli-parser", "1.0.1" ],
+        [ "sebastian/code-unit", "1.0.8" ],
+        [ "sebastian/comparator", "4.0.8" ],
+        [ "sebastian/diff", "4.0.4" ],
+        [ "sebastian/environment", "5.1.4" ],
+        [ "sebastian/exporter", "4.0.5" ],
+        [ "sebastian/global-state", "5.0.5" ],
+        [ "sebastian/object-enumerator", "4.0.4" ],
+        [ "sebastian/resource-operations", "3.0.3" ],
+        [ "sebastian/type", "3.2.0" ],
+        [ "sebastian/version", "3.0.2" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "sebastian/comparator": {
+      "4.0.8": [
+        [ "sebastian/diff", "4.0.4" ],
+        [ "sebastian/exporter", "4.0.5" ]
+      ]
+    },
+    "sebastian/complexity": {
+      "2.0.2": [
+        [ "nikic/php-parser", "v4.15.1" ]
+      ]
+    },
+    "sebastian/exporter": {
+      "4.0.5": [
+        [ "sebastian/recursion-context", "4.0.4" ]
+      ]
+    },
+    "sebastian/global-state": {
+      "5.0.5": [
+        [ "sebastian/object-reflector", "2.0.4" ],
+        [ "sebastian/recursion-context", "4.0.4" ]
+      ]
+    },
+    "sebastian/lines-of-code": {
+      "1.0.3": [
+        [ "nikic/php-parser", "v4.15.1" ]
+      ]
+    },
+    "sebastian/object-enumerator": {
+      "4.0.4": [
+        [ "sebastian/object-reflector", "2.0.4" ],
+        [ "sebastian/recursion-context", "4.0.4" ]
+      ]
+    },
+    "symfony/console": {
+      "v6.1.4": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/service-contracts", "v3.1.1" ],
+        [ "symfony/string", "v6.1.4" ]
+      ]
+    },
+    "symfony/event-dispatcher": {
+      "v6.1.0": [
+        [ "symfony/event-dispatcher-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/event-dispatcher-contracts": {
+      "v3.1.1": [
+        [ "psr/event-dispatcher", "1.0.0" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/options-resolver": {
+      "v6.1.0": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/process": {
+      "v5.4.11": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v3.1.1": [
+        [ "psr/container", "2.0.2" ]
+      ]
+    },
+    "symfony/stopwatch": {
+      "v6.1.0": [
+        [ "symfony/service-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/string": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "twig/twig": {
+      "v1.44.6": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "unglue/client": {
+      "1.5.3": [
+        [ "luyadev/luya-core", "2.2.0" ]
+      ]
+    },
+    "whichbrowser/parser": {
+      "v2.1.7": [
+        [ "psr/cache", "3.0.0" ]
+      ]
+    },
+    "yiisoft/yii2": {
+      "2.0.46": [
+        [ "bower-asset/inputmask", "3.3.11" ],
+        [ "bower-asset/jquery", "3.6.1" ],
+        [ "bower-asset/punycode", "v1.3.2" ],
+        [ "bower-asset/yii2-pjax", "2.0.7.1" ],
+        [ "cebe/markdown", "1.2.1" ],
+        [ "ezyang/htmlpurifier", "v4.16.0" ],
+        [ "paragonie/random_compat", "v9.99.100" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "yiisoft/yii2-composer", "2.0.10" ]
+      ]
+    },
+    "yiisoft/yii2-imagine": {
+      "2.3.1": [
+        [ "imagine/imagine", "1.3.2" ],
+        [ "yiisoft/yii2", "2.0.46" ]
+      ]
+    },
+    "yiisoft/yii2-queue": {
+      "2.3.4": [
+        [ "symfony/process", "v5.4.11" ],
+        [ "yiisoft/yii2", "2.0.46" ]
+      ]
+    },
+    "yoast/phpunit-polyfills": {
+      "0.2.0": [
+        [ "phpunit/phpunit", "9.5.25" ]
+      ]
+    }
+  },
+  "sources": {
+    "bizley/jwt": {
+      "3.4.0": {
+        "rev": "864517683bc5ad71bf7bd0b6d6982a3c7972896b",
+        "type": "git",
+        "url": "https://github.com/bizley/yii2-jwt.git"
+      }
+    },
+    "bower-asset/angular": {
+      "v1.8.3": {
+        "rev": "142f3c4bc7d43b6de39581a0d886bbf97f8b62ef",
+        "type": "git",
+        "url": "git@github.com:angular/bower-angular.git"
+      }
+    },
+    "bower-asset/angular-filter": {
+      "v0.5.17": {
+        "rev": "8285ffda674181667ef1ddc32b92b7d6bd6c3711",
+        "type": "git",
+        "url": "git@github.com:a8m/angular-filter.git"
+      }
+    },
+    "bower-asset/angular-loading-bar": {
+      "0.9.0": {
+        "rev": "d734873e52ded18fa27d67f52272ae43267dfd63",
+        "type": "git",
+        "url": "git@github.com:chieffancypants/angular-loading-bar.git"
+      }
+    },
+    "bower-asset/bowser": {
+      "1.9.4": {
+        "rev": "1fb99ced0e8834fd9662604bad7e0f0c3eba2786",
+        "type": "git",
+        "url": "git@github.com:lancedikson/bowser.git"
+      }
+    },
+    "bower-asset/echarts": {
+      "5.3.3": {
+        "rev": "86eba716ffa3d76c017e696599494dc3e83e9260",
+        "type": "git",
+        "url": "git@github.com:ecomfe/echarts.git"
+      }
+    },
+    "bower-asset/flow.js": {
+      "v2.14.1": {
+        "rev": "922c4b357a771262988b8d52a056e790758318ce",
+        "type": "git",
+        "url": "git@github.com:flowjs/flow.js.git"
+      }
+    },
+    "bower-asset/inputmask": {
+      "3.3.11": {
+        "rev": "5e670ad62f50c738388d4dcec78d2888505ad77b",
+        "type": "git",
+        "url": "https://github.com/RobinHerbots/Inputmask.git"
+      }
+    },
+    "bower-asset/jquery": {
+      "3.6.1": {
+        "rev": "3711efedf0ca2e998cd0417324f717f2e0b828ec",
+        "type": "git",
+        "url": "git@github.com:jquery/jquery-dist.git"
+      }
+    },
+    "bower-asset/ng-file-upload": {
+      "12.2.13": {
+        "rev": "4ba3e7eb34c3ced628699e3e20bfca32ea5be1f5",
+        "type": "git",
+        "url": "git@github.com:danialfarid/angular-file-upload-bower.git"
+      }
+    },
+    "bower-asset/ng-flow": {
+      "v2.7.8": {
+        "rev": "fbf246e1839ee2c4586a82e9132651c498946ed2",
+        "type": "git",
+        "url": "git@github.com:flowjs/ng-flow.git"
+      }
+    },
+    "bower-asset/ng-wig": {
+      "v3.1.1": {
+        "rev": "345a213fd206d4150a18b37456768b7baaa67f2e",
+        "type": "git",
+        "url": "git@github.com:stevermeister/ngWig.git"
+      }
+    },
+    "bower-asset/punycode": {
+      "v1.3.2": {
+        "rev": "38c8d3131a82567bfef18da09f7f4db68c84f8a3",
+        "type": "git",
+        "url": "https://github.com/mathiasbynens/punycode.js.git"
+      }
+    },
+    "bower-asset/twigjs-bower": {
+      "0.10.5": {
+        "rev": "425d39571c91121e504dea4984b873306a60361f",
+        "type": "git",
+        "url": "git@github.com:philsbury/twigjs-bower.git"
+      }
+    },
+    "bower-asset/ui-cropper": {
+      "1.0.9": {
+        "rev": "78a6c264f67d6df74a657fb1a61a6c8fe7e037e5",
+        "type": "git",
+        "url": "git@github.com:CrackerakiUA/ui-cropper.git"
+      }
+    },
+    "bower-asset/ui-router": {
+      "0.4.3": {
+        "rev": "ef38bc78495ec7719dcd6876886cf5a27420f330",
+        "type": "git",
+        "url": "git@github.com:angular-ui/ui-router.git"
+      }
+    },
+    "bower-asset/yii2-pjax": {
+      "2.0.7.1": {
+        "rev": "aef7b953107264f00234902a3880eb50dafc48be",
+        "type": "git",
+        "url": "https://github.com/yiisoft/jquery-pjax.git"
+      }
+    },
+    "cebe/markdown": {
+      "1.2.1": {
+        "rev": "9bac5e971dd391e2802dca5400bbeacbaea9eb86",
+        "type": "git",
+        "url": "https://github.com/cebe/markdown.git"
+      }
+    },
+    "cebe/php-openapi": {
+      "1.7.0": {
+        "rev": "020d72b8e3a9a60bc229953e93eda25c49f46f45",
+        "type": "git",
+        "url": "https://github.com/cebe/php-openapi.git"
+      }
+    },
+    "composer/pcre": {
+      "3.0.0": {
+        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
+        "type": "git",
+        "url": "https://github.com/composer/pcre.git"
+      }
+    },
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "curl/curl": {
+      "2.4.0": {
+        "rev": "ba385e40c5907850c555db24505c127fe29f1e44",
+        "type": "git",
+        "url": "https://github.com/php-mod/curl.git"
+      }
+    },
+    "doctrine/annotations": {
+      "1.13.3": {
+        "rev": "648b0343343565c4a056bfc8392201385e8d89f0",
+        "type": "git",
+        "url": "https://github.com/doctrine/annotations.git"
+      }
+    },
+    "doctrine/instantiator": {
+      "1.4.1": {
+        "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
+        "type": "git",
+        "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "doctrine/lexer": {
+      "1.2.3": {
+        "rev": "c268e882d4dbdd85e36e4ad69e02dc284f89d229",
+        "type": "git",
+        "url": "https://github.com/doctrine/lexer.git"
+      }
+    },
+    "ezyang/htmlpurifier": {
+      "v4.16.0": {
+        "rev": "523407fb06eb9e5f3d59889b3978d5bfe94299c8",
+        "type": "git",
+        "url": "https://github.com/ezyang/htmlpurifier.git"
+      }
+    },
+    "flowjs/flow-php-server": {
+      "v1.2.0": {
+        "rev": "fe8890c25e835d0b4f58d8bd91331326ab1808ba",
+        "type": "git",
+        "url": "https://github.com/flowjs/flow-php-server.git"
+      }
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v3.11.0": {
+        "rev": "7dcdea3f2f5f473464e835be9be55283ff8cfdc3",
+        "type": "git",
+        "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git"
+      }
+    },
+    "giggsey/libphonenumber-for-php": {
+      "8.12.56": {
+        "rev": "0f6481df7bee33fe0ed87d2af06770527a2e1c86",
+        "type": "git",
+        "url": "https://github.com/giggsey/libphonenumber-for-php.git"
+      }
+    },
+    "giggsey/locale": {
+      "2.2": {
+        "rev": "9c1dca769253f6a3e81f9a5c167f53b6a54ab635",
+        "type": "git",
+        "url": "https://github.com/giggsey/Locale.git"
+      }
+    },
+    "imagine/imagine": {
+      "1.3.2": {
+        "rev": "ae864f26afbf8859ebd2e2b9df92d77ee175dc13",
+        "type": "git",
+        "url": "https://github.com/php-imagine/Imagine.git"
+      }
+    },
+    "justinrainbow/json-schema": {
+      "5.2.12": {
+        "rev": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
+        "type": "git",
+        "url": "https://github.com/justinrainbow/json-schema.git"
+      }
+    },
+    "lcobucci/clock": {
+      "2.2.0": {
+        "rev": "fb533e093fd61321bfcbac08b131ce805fe183d3",
+        "type": "git",
+        "url": "https://github.com/lcobucci/clock.git"
+      }
+    },
+    "lcobucci/jwt": {
+      "4.2.1": {
+        "rev": "72ac6d807ee51a70ad376ee03a2387e8646e10f3",
+        "type": "git",
+        "url": "https://github.com/lcobucci/jwt.git"
+      }
+    },
+    "luyadev/luya-composer": {
+      "1.1.2": {
+        "rev": "598541d1ae6fa7bc51d862f67ab3400f2538bf47",
+        "type": "git",
+        "url": "https://github.com/luyadev/luya-composer.git"
+      }
+    },
+    "luyadev/luya-core": {
+      "2.2.0": {
+        "rev": "e143a178adea4c06c567cdf2ac94f53ca2ec2441",
+        "type": "git",
+        "url": "https://github.com/luyadev/luya-core.git"
+      }
+    },
+    "luyadev/luya-module-admin": {
+      "4.5.0": {
+        "rev": "c4c2b20034b94000e764f403d6580e47b2803ce7",
+        "type": "git",
+        "url": "https://github.com/luyadev/luya-module-admin.git"
+      }
+    },
+    "luyadev/luya-module-cms": {
+      "3.5.3": {
+        "rev": "4ff64eb33f1140ead2fb93ef9743c8ba071e92c0",
+        "type": "git",
+        "url": "https://github.com/luyadev/luya-module-cms.git"
+      }
+    },
+    "luyadev/luya-testsuite": {
+      "2.1.0": {
+        "rev": "10ca67a3a3e6e1f7fd10a78ad6584bf1dae96e26",
+        "type": "git",
+        "url": "https://github.com/luyadev/luya-testsuite.git"
+      }
+    },
+    "luyadev/yii-helpers": {
+      "1.2.2": {
+        "rev": "6ec9996a7443c4ba1bf4f92178cf58121a4723d8",
+        "type": "git",
+        "url": "https://github.com/luyadev/yii-helpers.git"
+      }
+    },
+    "myclabs/deep-copy": {
+      "1.11.0": {
+        "rev": "14daed4296fae74d9e3201d2c4925d1acb7aa614",
+        "type": "git",
+        "url": "https://github.com/myclabs/DeepCopy.git"
+      }
+    },
+    "nikic/php-parser": {
+      "v4.15.1": {
+        "rev": "0ef6c55a3f47f89d7a374e6f835197a0b5fcf900",
+        "type": "git",
+        "url": "https://github.com/nikic/PHP-Parser.git"
+      }
+    },
+    "paragonie/random_compat": {
+      "v9.99.100": {
+        "rev": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+        "type": "git",
+        "url": "https://github.com/paragonie/random_compat.git"
+      }
+    },
+    "phar-io/manifest": {
+      "2.0.3": {
+        "rev": "97803eca37d319dfa7826cc2437fc020857acb53",
+        "type": "git",
+        "url": "https://github.com/phar-io/manifest.git"
+      }
+    },
+    "phar-io/version": {
+      "3.2.1": {
+        "rev": "4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
+        "type": "git",
+        "url": "https://github.com/phar-io/version.git"
+      }
+    },
+    "phpmailer/phpmailer": {
+      "v6.6.4": {
+        "rev": "a94fdebaea6bd17f51be0c2373ab80d3d681269b",
+        "type": "git",
+        "url": "https://github.com/PHPMailer/PHPMailer.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "1.8.6": {
+        "rev": "c386ab2741e64cc9e21729f891b28b2b10fe6618",
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "9.2.17": {
+        "rev": "aa94dc41e8661fe90c7316849907cba3007b10d8",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "3.0.6": {
+        "rev": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-invoker": {
+      "3.1.1": {
+        "rev": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-invoker.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "2.0.4": {
+        "rev": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "5.0.3": {
+        "rev": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "9.5.25": {
+        "rev": "3e6f90ca7e3d02025b1d147bd8d4a89fd4ca8a1d",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "psr/cache": {
+      "3.0.0": {
+        "rev": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/event-dispatcher": {
+      "1.0.0": {
+        "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "robthree/twofactorauth": {
+      "1.8.2": {
+        "rev": "65681de5a324eae05140ac58b08648a60212afc0",
+        "type": "git",
+        "url": "https://github.com/RobThree/TwoFactorAuth.git"
+      }
+    },
+    "sebastian/cli-parser": {
+      "1.0.1": {
+        "rev": "442e7c7e687e42adc03470c7b668bc4b2402c0b2",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/cli-parser.git"
+      }
+    },
+    "sebastian/code-unit": {
+      "1.0.8": {
+        "rev": "1fc9f64c0927627ef78ba436c9b17d967e68e120",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/code-unit.git"
+      }
+    },
+    "sebastian/code-unit-reverse-lookup": {
+      "2.0.3": {
+        "rev": "ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git"
+      }
+    },
+    "sebastian/comparator": {
+      "4.0.8": {
+        "rev": "fa0f136dd2334583309d32b62544682ee972b51a",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/comparator.git"
+      }
+    },
+    "sebastian/complexity": {
+      "2.0.2": {
+        "rev": "739b35e53379900cc9ac327b2147867b8b6efd88",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/complexity.git"
+      }
+    },
+    "sebastian/diff": {
+      "4.0.4": {
+        "rev": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "sebastian/environment": {
+      "5.1.4": {
+        "rev": "1b5dff7bb151a4db11d49d90e5408e4e938270f7",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/environment.git"
+      }
+    },
+    "sebastian/exporter": {
+      "4.0.5": {
+        "rev": "ac230ed27f0f98f597c8a2b6eb7ac563af5e5b9d",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/exporter.git"
+      }
+    },
+    "sebastian/global-state": {
+      "5.0.5": {
+        "rev": "0ca8db5a5fc9c8646244e629625ac486fa286bf2",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/global-state.git"
+      }
+    },
+    "sebastian/lines-of-code": {
+      "1.0.3": {
+        "rev": "c1c2e997aa3146983ed888ad08b15470a2e22ecc",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/lines-of-code.git"
+      }
+    },
+    "sebastian/object-enumerator": {
+      "4.0.4": {
+        "rev": "5c9eeac41b290a3712d88851518825ad78f45c71",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/object-enumerator.git"
+      }
+    },
+    "sebastian/object-reflector": {
+      "2.0.4": {
+        "rev": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/object-reflector.git"
+      }
+    },
+    "sebastian/recursion-context": {
+      "4.0.4": {
+        "rev": "cd9d8cf3c5804de4341c283ed787f099f5506172",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/recursion-context.git"
+      }
+    },
+    "sebastian/resource-operations": {
+      "3.0.3": {
+        "rev": "0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/resource-operations.git"
+      }
+    },
+    "sebastian/type": {
+      "3.2.0": {
+        "rev": "fb3fe09c5f0bae6bc27ef3ce933a1e0ed9464b6e",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/type.git"
+      }
+    },
+    "sebastian/version": {
+      "3.0.2": {
+        "rev": "c6c1022351a901512170118436c764e473f6de8c",
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "stella-maris/clock": {
+      "0.1.5": {
+        "rev": "447879c53ca0b2a762cdbfba5e76ccf4deca9158",
+        "type": "git",
+        "url": "git@gitlab.com:stella-maris/clock.git"
+      }
+    },
+    "symfony/console": {
+      "v6.1.4": {
+        "rev": "7fccea8728aa2d431a6725b02b3ce759049fc84d",
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v6.1.0": {
+        "rev": "a0449a7ad7daa0f7c0acd508259f80544ab5a347",
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/event-dispatcher-contracts": {
+      "v3.1.1": {
+        "rev": "02ff5eea2f453731cfbc6bc215e456b781480448",
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher-contracts.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v6.1.4": {
+        "rev": "3f39c04d2630c34019907b02f85672dac99f8659",
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v6.1.3": {
+        "rev": "39696bff2c2970b3779a5cac7bf9f0b88fc2b709",
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/options-resolver": {
+      "v6.1.0": {
+        "rev": "a3016f5442e28386ded73c43a32a5b68586dd1c4",
+        "type": "git",
+        "url": "https://github.com/symfony/options-resolver.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-intl-grapheme": {
+      "v1.26.0": {
+        "rev": "433d05519ce6990bf3530fba6957499d327395c2",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-grapheme.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/polyfill-php81": {
+      "v1.26.0": {
+        "rev": "13f6d1271c663dc5ae9fb843a8f16521db7687a1",
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php81.git"
+      }
+    },
+    "symfony/process": {
+      "v5.4.11": {
+        "rev": "6e75fe6874cbc7e4773d049616ab450eff537bf1",
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v3.1.1": {
+        "rev": "925e713fe8fcacf6bc05e936edd8dd5441a21239",
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/stopwatch": {
+      "v6.1.0": {
+        "rev": "77dedae82ce2a26e2e9b481855473fc3b3e4e54d",
+        "type": "git",
+        "url": "https://github.com/symfony/stopwatch.git"
+      }
+    },
+    "symfony/string": {
+      "v6.1.4": {
+        "rev": "290972cad7b364e3befaa74ba0ec729800fb161c",
+        "type": "git",
+        "url": "https://github.com/symfony/string.git"
+      }
+    },
+    "symfony/yaml": {
+      "v6.1.4": {
+        "rev": "86ee4d8fa594ed45e40d86eedfda1bcb66c8d919",
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "theseer/tokenizer": {
+      "1.2.1": {
+        "rev": "34a41e998c2183e22995f158c581e7b5e755ab9e",
+        "type": "git",
+        "url": "https://github.com/theseer/tokenizer.git"
+      }
+    },
+    "twbs/bootstrap": {
+      "v4.6.2": {
+        "rev": "e5643aaa89eb67327a5b4abe7db976f0ea276b70",
+        "type": "git",
+        "url": "https://github.com/twbs/bootstrap.git"
+      }
+    },
+    "twig/twig": {
+      "v1.44.6": {
+        "rev": "ae39480f010ef88adc7938503c9b02d3baf2f3b3",
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git"
+      }
+    },
+    "unglue/client": {
+      "1.5.3": {
+        "rev": "485582397ae90516f1af9ec05d19473c22fe731e",
+        "type": "git",
+        "url": "https://github.com/unglue-workflow/client.git"
+      }
+    },
+    "whichbrowser/parser": {
+      "v2.1.7": {
+        "rev": "1044880bc792dbce5948fbff22ae731c43c280d9",
+        "type": "git",
+        "url": "https://github.com/WhichBrowser/Parser-PHP.git"
+      }
+    },
+    "yiisoft/yii2": {
+      "2.0.46": {
+        "rev": "d73259c3bc886648a6875109f9f09cddeff03708",
+        "type": "git",
+        "url": "https://github.com/yiisoft/yii2-framework.git"
+      }
+    },
+    "yiisoft/yii2-composer": {
+      "2.0.10": {
+        "rev": "94bb3f66e779e2774f8776d6e1bdeab402940510",
+        "type": "git",
+        "url": "https://github.com/yiisoft/yii2-composer.git"
+      }
+    },
+    "yiisoft/yii2-imagine": {
+      "2.3.1": {
+        "rev": "7ec4332dc25893aec5a7cf084722b162b3a4d55d",
+        "type": "git",
+        "url": "https://github.com/yiisoft/yii2-imagine.git"
+      }
+    },
+    "yiisoft/yii2-queue": {
+      "2.3.4": {
+        "rev": "ed30b5f46ddadd62587a4963dec35f9b756c408b",
+        "type": "git",
+        "url": "https://github.com/yiisoft/yii2-queue.git"
+      }
+    },
+    "yoast/phpunit-polyfills": {
+      "0.2.0": {
+        "rev": "c48e4cf0c44b2d892540846aff19fb0468627bab",
+        "type": "git",
+        "url": "https://github.com/Yoast/PHPUnit-Polyfills.git"
+      }
+    }
+  }
+}

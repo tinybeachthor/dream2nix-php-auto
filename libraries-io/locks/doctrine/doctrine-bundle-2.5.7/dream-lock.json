@@ -1,0 +1,66 @@
+{
+  "_generic": {
+    "defaultPackage": "doctrine/doctrine-bundle",
+    "location": "",
+    "packages": {
+      "doctrine/doctrine-bundle": "2.5.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "composer/package-versions-deprecated@dev-master": "^1.1.0 || ^2.0",
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
+    },
+    "phpExtensions": [
+      "tokenizer",
+      "xml",
+      "ctype",
+      "json",
+      "pcre",
+      "reflection",
+      "spl",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "filter",
+      "mbstring",
+      "simplexml"
+    ],
+    "phpSemver": "^7.1 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "doctrine/doctrine-bundle": {
+      "2.5.7": [
+        [ "psalm/plugin-phpunit", "0.16.1" ],
+        [ "psalm/plugin-symfony", "v3.1.9" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/doctrine-bundle": {
+      "2.5.7": {
+        "rev": "1e0d1d7a5982eeebc37dcb4d77bb1a5c5961d96d",
+        "type": "git",
+        "url": "https://github.com/doctrine/DoctrineBundle.git"
+      }
+    },
+    "psalm/plugin-phpunit": {
+      "0.16.1": {
+        "rev": "5dd3be04f37a857d52880ef6af2524a441dfef24",
+        "type": "git",
+        "url": "https://github.com/psalm/psalm-plugin-phpunit.git"
+      }
+    },
+    "psalm/plugin-symfony": {
+      "v3.1.9": {
+        "rev": "b9511a3c4dd67131d2ae55f6d12b6c28ce56a561",
+        "type": "git",
+        "url": "https://github.com/psalm/psalm-plugin-symfony.git"
+      }
+    }
+  }
+}

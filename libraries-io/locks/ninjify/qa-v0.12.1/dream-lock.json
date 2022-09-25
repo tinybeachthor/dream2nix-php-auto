@@ -1,0 +1,93 @@
+{
+  "_generic": {
+    "defaultPackage": "ninjify/qa",
+    "location": "",
+    "packages": {
+      "ninjify/qa": "v0.12.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
+    },
+    "phpExtensions": [
+      "json",
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "ninjify/coding-standard": {
+      "v0.11.2": [
+        [ "slevomat/coding-standard", "6.4.1" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "ninjify/qa": {
+      "v0.12.1": [
+        [ "ninjify/coding-standard", "v0.11.2" ],
+        [ "php-parallel-lint/php-parallel-lint", "v1.3.2" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": {
+        "rev": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "ninjify/coding-standard": {
+      "v0.11.2": {
+        "rev": "3c5b41ff1f96b7d8f10407f236f9ffc1e8010df9",
+        "type": "git",
+        "url": "https://github.com/ninjify/coding-standard.git"
+      }
+    },
+    "ninjify/qa": {
+      "v0.12.1": {
+        "rev": "a43584b9286d8f274f099baf9302bf54e11474d9",
+        "type": "git",
+        "url": "https://github.com/ninjify/qa.git"
+      }
+    },
+    "php-parallel-lint/php-parallel-lint": {
+      "v1.3.2": {
+        "rev": "6483c9832e71973ed29cf71bd6b3f4fde438a9de",
+        "type": "git",
+        "url": "https://github.com/php-parallel-lint/PHP-Parallel-Lint.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": {
+        "rev": "696dcca217d0c9da2c40d02731526c1e25b65346",
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_generic": {
+    "defaultPackage": "kohana/core",
+    "location": "",
+    "packages": {
+      "kohana/core": "v3.3.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "composer/installers@v1.12.0": "^1.0 || ^2.0"
+    },
+    "phpExtensions": [
+      "filter",
+      "tokenizer",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl",
+      "ctype"
+    ],
+    "phpSemver": ">=5.3.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "kohana/core": {
+      "v3.3.6": [
+        [ "kohana/koharness", "dev-master" ]
+      ]
+    },
+    "kohana/koharness": {
+      "dev-master": [
+        [ "composer/installers", "v1.12.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "composer/installers": {
+      "v1.12.0": {
+        "rev": "d20a64ed3c94748397ff5973488761b22f6d3f19",
+        "type": "git",
+        "url": "https://github.com/composer/installers.git"
+      }
+    },
+    "kohana/core": {
+      "v3.3.6": {
+        "rev": "bdbe81afb5a09cee4269d2e2210a0d293265231a",
+        "type": "git",
+        "url": "https://github.com/kohana/core.git"
+      }
+    },
+    "kohana/koharness": {
+      "dev-master": {
+        "rev": "6c4cbd5284501f1f4cef984cfcc22c842706053e",
+        "type": "git",
+        "url": "https://github.com/kohana/koharness.git"
+      }
+    }
+  }
+}
