@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "samsonos/php_core",
+    "defaultPackage": "samdark/sitemap",
     "location": "",
     "packages": {
-      "samsonos/php_core": "1.1.43"
+      "samdark/sitemap": "2.4.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "php"
@@ -11,6 +11,7 @@
   "_subsystem": {
     "composerPluginApiSemver": {},
     "phpExtensions": [
+      "xmlwriter",
       "filter",
       "tokenizer",
       "dom",
@@ -20,20 +21,10 @@
       "spl",
       "ctype"
     ],
-    "phpSemver": "*"
+    "phpSemver": ">=5.3.0"
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "container-interop/container-interop": {
-      "1.2.0": [
-        [ "psr/container", "1.1.2" ]
-      ]
-    },
-    "filp/whoops": {
-      "2.14.5": [
-        [ "psr/log", "3.0.0" ]
-      ]
-    },
     "phpdocumentor/reflection-docblock": {
       "5.3.0": [
         [ "phpdocumentor/reflection-common", "2.2.0" ],
@@ -87,31 +78,9 @@
         [ "sebastian/exporter", "1.2.2" ]
       ]
     },
-    "samsonframework/base": {
-      "1.0.6": [
-        [ "container-interop/container-interop", "1.2.0" ]
-      ]
-    },
-    "samsonframework/resource": {
-      "1.0.4": [
-        [ "samsonframework/base", "1.0.6" ]
-      ]
-    },
-    "samsonos/php_core": {
-      "1.1.43": [
-        [ "filp/whoops", "2.14.5" ],
-        [ "phpunit/phpunit", "4.8.36" ],
-        [ "samsonframework/base", "1.0.6" ],
-        [ "samsonframework/resource", "1.0.4" ],
-        [ "samsonos/php_url", "v0.1" ],
-        [ "samsonphp/composer", "1.2.1" ],
-        [ "samsonphp/config", "1.0.11" ],
-        [ "samsonphp/event", "1.0.6" ]
-      ]
-    },
-    "samsonphp/config": {
-      "1.0.11": [
-        [ "samsonphp/event", "1.0.6" ]
+    "samdark/sitemap": {
+      "2.4.0": [
+        [ "phpunit/phpunit", "4.8.36" ]
       ]
     },
     "sebastian/comparator": {
@@ -137,25 +106,11 @@
     }
   },
   "sources": {
-    "container-interop/container-interop": {
-      "1.2.0": {
-        "rev": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-        "type": "git",
-        "url": "https://github.com/container-interop/container-interop.git"
-      }
-    },
     "doctrine/instantiator": {
       "1.4.1": {
         "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
         "type": "git",
         "url": "https://github.com/doctrine/instantiator.git"
-      }
-    },
-    "filp/whoops": {
-      "2.14.5": {
-        "rev": "a63e5e8f26ebbebf8ed3c5c691637325512eb0dc",
-        "type": "git",
-        "url": "https://github.com/filp/whoops.git"
       }
     },
     "phpdocumentor/reflection-common": {
@@ -235,67 +190,14 @@
         "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
       }
     },
-    "psr/container": {
-      "1.1.2": {
-        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
-        "type": "git",
-        "url": "https://github.com/php-fig/container.git"
-      }
-    },
-    "psr/log": {
-      "3.0.0": {
-        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
-        "type": "git",
-        "url": "https://github.com/php-fig/log.git"
-      }
-    },
-    "samsonframework/base": {
-      "1.0.6": {
-        "rev": "01911e93ce9da734d0cf117514e065efbc7bb686",
-        "type": "git",
-        "url": "https://github.com/samsonframework/base.git"
-      }
-    },
-    "samsonframework/resource": {
-      "1.0.4": {
-        "rev": "84b76d2fe592a02f3e73030eab4b1cff8d3be8f0",
-        "type": "git",
-        "url": "https://github.com/samsonframework/resource.git"
-      }
-    },
-    "samsonos/php_core": {
-      "1.1.43": {
-        "rev": "8d9b71856cba514a228daf170588793c7b83e6d8",
-        "type": "git",
-        "url": "https://github.com/samsonos/php_core.git"
-      }
-    },
-    "samsonos/php_url": {
-      "v0.1": {
-        "rev": "f6b93b737fbf9be17562b9cb427aea661266a097",
-        "type": "git",
-        "url": "https://github.com/samsonos/php_url.git"
-      }
-    },
-    "samsonphp/composer": {
-      "1.2.1": {
-        "rev": "9862f5daa161d32b5d1fbd72a661674998525397",
-        "type": "git",
-        "url": "https://github.com/SamsonPHP/composer.git"
-      }
-    },
-    "samsonphp/config": {
-      "1.0.11": {
-        "rev": "991a84a396f962c90a364338f4a7cdf3f691881b",
-        "type": "git",
-        "url": "https://github.com/SamsonPHP/config.git"
-      }
-    },
-    "samsonphp/event": {
-      "1.0.6": {
-        "rev": "20faac4f6bf1291b89f1c7e550a8cd8035972d76",
-        "type": "git",
-        "url": "https://github.com/SamsonPHP/event.git"
+    "samdark/sitemap": {
+      "2.4.0": {
+        "path": "/tmp/tmp.EnZNdTW82b/tmp.6S72fibrdJ/tmp.ZadU3BQ6GT/tmp.yGryjwtZ5y/",
+        "rev": "a7ba091766afeb5fad1ea3056b30f26c3a620962",
+        "rootName": "samdark/sitemap",
+        "rootVersion": "2.4.0",
+        "type": "path",
+        "url": "https://github.com/samdark/sitemap.git"
       }
     },
     "sebastian/comparator": {

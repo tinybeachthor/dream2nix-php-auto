@@ -1,9 +1,9 @@
 {
   "_generic": {
-    "defaultPackage": "paragonie/sodium_compat",
+    "defaultPackage": "pickles2/px-fw-2.x",
     "location": "",
     "packages": {
-      "paragonie/sodium_compat": "v1.18.1"
+      "pickles2/px-fw-2.x": "2.1.10"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "php"
@@ -11,25 +11,22 @@
   "_subsystem": {
     "composerPluginApiSemver": {},
     "phpExtensions": [
+      "json",
+      "mbstring",
+      "pdo",
+      "pdo_sqlite",
+      "ctype",
       "tokenizer",
       "dom",
       "phar",
       "xmlwriter",
       "libxml",
-      "json",
-      "mbstring",
       "xml"
     ],
-    "phpSemver": "^5.2.4|^5.3|^5.4|^5.5|^5.6|^7|^8"
+    "phpSemver": ">=7.3.0"
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "paragonie/sodium_compat": {
-      "v1.18.1": [
-        [ "paragonie/random_compat", "v9.99.100" ],
-        [ "phpunit/phpunit", "9.5.25" ]
-      ]
-    },
     "phar-io/manifest": {
       "2.0.3": [
         [ "phar-io/version", "3.2.1" ]
@@ -72,6 +69,15 @@
         [ "sebastian/version", "3.0.2" ]
       ]
     },
+    "pickles2/px-fw-2.x": {
+      "2.1.10": [
+        [ "michelf/php-markdown", "1.9.1" ],
+        [ "phpunit/phpunit", "9.5.25" ],
+        [ "scssphp/scssphp", "v1.11.0" ],
+        [ "tomk79/filesystem", "1.1.1" ],
+        [ "tomk79/request", "1.3.0" ]
+      ]
+    },
     "sebastian/comparator": {
       "4.0.8": [
         [ "sebastian/diff", "4.0.4" ],
@@ -104,6 +110,11 @@
         [ "sebastian/object-reflector", "2.0.4" ],
         [ "sebastian/recursion-context", "4.0.4" ]
       ]
+    },
+    "tomk79/request": {
+      "1.3.0": [
+        [ "tomk79/filesystem", "1.1.1" ]
+      ]
     }
   },
   "sources": {
@@ -112,6 +123,13 @@
         "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
         "type": "git",
         "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "michelf/php-markdown": {
+      "1.9.1": {
+        "rev": "5024d623c1a057dcd2d076d25b7d270a1d0d55f3",
+        "type": "git",
+        "url": "https://github.com/michelf/php-markdown.git"
       }
     },
     "myclabs/deep-copy": {
@@ -126,20 +144,6 @@
         "rev": "0ef6c55a3f47f89d7a374e6f835197a0b5fcf900",
         "type": "git",
         "url": "https://github.com/nikic/PHP-Parser.git"
-      }
-    },
-    "paragonie/random_compat": {
-      "v9.99.100": {
-        "rev": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
-        "type": "git",
-        "url": "https://github.com/paragonie/random_compat.git"
-      }
-    },
-    "paragonie/sodium_compat": {
-      "v1.18.1": {
-        "rev": "f3cf7d1f3214889639da40db1f6c6d4afb4c85f7",
-        "type": "git",
-        "url": "https://github.com/paragonie/sodium_compat.git"
       }
     },
     "phar-io/manifest": {
@@ -196,6 +200,23 @@
         "rev": "3e6f90ca7e3d02025b1d147bd8d4a89fd4ca8a1d",
         "type": "git",
         "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "pickles2/px-fw-2.x": {
+      "2.1.10": {
+        "path": "/tmp/tmp.IThcscxG1O/tmp.7IcwOwJnCk/tmp.vr5bm6mOm9/tmp.3qmj6Vzt72/",
+        "rev": "83badd86e5718bec1410e82c5519728fd89f654f",
+        "rootName": "pickles2/px-fw-2.x",
+        "rootVersion": "2.1.10",
+        "type": "path",
+        "url": "https://github.com/pickles2/px-fw-2.x.git"
+      }
+    },
+    "scssphp/scssphp": {
+      "v1.11.0": {
+        "rev": "33749d12c2569bb24071f94e9af828662dabb068",
+        "type": "git",
+        "url": "https://github.com/scssphp/scssphp.git"
       }
     },
     "sebastian/cli-parser": {
@@ -315,6 +336,20 @@
         "rev": "34a41e998c2183e22995f158c581e7b5e755ab9e",
         "type": "git",
         "url": "https://github.com/theseer/tokenizer.git"
+      }
+    },
+    "tomk79/filesystem": {
+      "1.1.1": {
+        "rev": "f641248242c5e20683d0fe6c4dafdb6946048f97",
+        "type": "git",
+        "url": "https://github.com/tomk79/filesystem.git"
+      }
+    },
+    "tomk79/request": {
+      "1.3.0": {
+        "rev": "53258d683a4c40be718a998277bcc236a6333cc1",
+        "type": "git",
+        "url": "https://github.com/tomk79/request.git"
       }
     }
   }
