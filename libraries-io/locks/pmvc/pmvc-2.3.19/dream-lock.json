@@ -1,0 +1,284 @@
+{
+  "_generic": {
+    "defaultPackage": "pmvc/pmvc",
+    "location": "",
+    "packages": {
+      "pmvc/pmvc": "2.3.19"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "phpExtensions": [
+      "mbstring",
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=5.5.0"
+  },
+  "cyclicDependencies": {
+    "pmvc-plugin/annotation": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/controller": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/debug": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/debug_cli": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/dev": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/dispatcher": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/error": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/mbstring": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/unit": {
+      "dev-main": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/utf8": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "pmvc-plugin/annotation": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/cli": {
+      "dev-master": [
+        [ "pmvc-plugin/controller", "dev-master" ],
+        [ "wp-cli/php-cli-tools", "dev-master" ]
+      ]
+    },
+    "pmvc-plugin/controller": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/debug": {
+      "dev-master": [
+        [ "pmvc-plugin/utf8", "dev-master" ],
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/debug_cli": {
+      "dev-master": [
+        [ "pmvc-plugin/cli", "dev-master" ],
+        [ "pmvc-plugin/debug", "dev-master" ],
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/debug_store": {
+      "dev-master": [
+        [ "pmvc-plugin/controller", "dev-master" ],
+        [ "pmvc-plugin/debug", "dev-master" ],
+        [ "pmvc-plugin/utf8", "dev-master" ]
+      ]
+    },
+    "pmvc-plugin/dev": {
+      "dev-master": [
+        [ "pmvc-plugin/annotation", "dev-master" ],
+        [ "pmvc-plugin/debug", "dev-master" ],
+        [ "pmvc-plugin/debug_cli", "dev-master" ],
+        [ "pmvc-plugin/debug_store", "dev-master" ],
+        [ "pmvc-plugin/dispatcher", "dev-master" ],
+        [ "pmvc-plugin/error", "dev-master" ],
+        [ "pmvc-plugin/utf8", "dev-master" ],
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/dispatcher": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/error": {
+      "dev-master": [
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/mbstring": {
+      "dev-master": [
+        [ "pmvc-plugin/unit", "dev-main" ],
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/unit": {
+      "dev-main": [
+        [ "pmvc-plugin/annotation", "dev-master" ],
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc-plugin/utf8": {
+      "dev-master": [
+        [ "pmvc-plugin/mbstring", "dev-master" ],
+        [ "pmvc/pmvc", "2.3.19" ]
+      ]
+    },
+    "pmvc/pmvc": {
+      "2.3.19": [
+        [ "pmvc-plugin/debug", "dev-master" ],
+        [ "pmvc-plugin/dev", "dev-master" ],
+        [ "pmvc-plugin/unit", "dev-main" ],
+        [ "pmvc-plugin/utf8", "dev-master" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "pmvc-plugin/annotation": {
+      "dev-master": {
+        "rev": "d87b2d1cb17e149333c96635e93f7563da894ea9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/annotation.git"
+      }
+    },
+    "pmvc-plugin/cli": {
+      "dev-master": {
+        "rev": "4746760616710bb5560ae10af49af17f333b763e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/cli.git"
+      }
+    },
+    "pmvc-plugin/controller": {
+      "dev-master": {
+        "rev": "65e498ef89bd9161fd9b4583090e77aec3a805ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/controller.git"
+      }
+    },
+    "pmvc-plugin/debug": {
+      "dev-master": {
+        "rev": "bad9dd87b58aefde5953eb4787b65960de646a34",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/debug.git"
+      }
+    },
+    "pmvc-plugin/debug_cli": {
+      "dev-master": {
+        "rev": "504ea42c3b1e7d32668213ddc89f20a70a9f10e7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/debug_cli.git"
+      }
+    },
+    "pmvc-plugin/debug_store": {
+      "dev-master": {
+        "rev": "1d9495321189cab9a17d53498ee7b45b2be4b21f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/debug_store.git"
+      }
+    },
+    "pmvc-plugin/dev": {
+      "dev-master": {
+        "rev": "2c932f7c72b296cf488abafffa77268698c44d8f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/dev.git"
+      }
+    },
+    "pmvc-plugin/dispatcher": {
+      "dev-master": {
+        "rev": "8a1a9225daf196c64cfdc35981ebd2d02aa34e55",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/dispatcher.git"
+      }
+    },
+    "pmvc-plugin/error": {
+      "dev-master": {
+        "rev": "d5f12d86af7f56aaa6ba67582b4725c67f2373d8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/error.git"
+      }
+    },
+    "pmvc-plugin/mbstring": {
+      "dev-master": {
+        "rev": "d6d86523382773ea2bf3ab33a588a4e24ff71dd3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/mbstring.git"
+      }
+    },
+    "pmvc-plugin/unit": {
+      "dev-main": {
+        "rev": "c752e34bbe49faf9c59c627c1cd3b5872f18db98",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/unit.git"
+      }
+    },
+    "pmvc-plugin/utf8": {
+      "dev-master": {
+        "rev": "20321145244811ea663c64224e1190feeab399b0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/utf8.git"
+      }
+    },
+    "pmvc/pmvc": {
+      "2.3.19": {
+        "path": "/tmp/tmp.AyHidlAG8K/tmp.1GboqPGUMT/tmp.cFXGExGKfY/tmp.sRkChXHplH/",
+        "rev": "db671180ad5320aa76db1b19d871d33afd2f9741",
+        "rootName": "pmvc/pmvc",
+        "rootVersion": "2.3.19",
+        "type": "path",
+        "url": "https://github.com/pmvc/pmvc.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "wp-cli/php-cli-tools": {
+      "dev-master": {
+        "rev": "b6edd35988892ea1451392eb7a26d9dbe98c836d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/wp-cli/php-cli-tools.git"
+      }
+    }
+  }
+}
