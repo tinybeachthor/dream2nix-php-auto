@@ -1,0 +1,800 @@
+{
+  "_generic": {
+    "defaultPackage": "peridot-php/leo",
+    "location": "",
+    "packages": {
+      "peridot-php/leo": "1.6.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "phpExtensions": [
+      "tokenizer",
+      "json",
+      "iconv"
+    ],
+    "phpSemver": ">=5.4"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "apigen/apigen": {
+      "v4.1.2": [
+        [ "andrewsville/php-token-reflection", "1.4.0" ],
+        [ "apigen/theme-bootstrap", "v1.1.3" ],
+        [ "apigen/theme-default", "v1.0.2" ],
+        [ "herrera-io/phar-update", "2.0.0" ],
+        [ "kdyby/events", "v2.4.1" ],
+        [ "kukulich/fshl", "2.1.0" ],
+        [ "latte/latte", "v2.3.4" ],
+        [ "michelf/php-markdown", "1.7.0" ],
+        [ "nette/application", "v2.3.13" ],
+        [ "nette/bootstrap", "v2.3.5" ],
+        [ "nette/di", "v2.3.14" ],
+        [ "nette/mail", "v2.3.5" ],
+        [ "nette/neon", "v2.3.5" ],
+        [ "nette/robot-loader", "v2.3.2" ],
+        [ "nette/safe-stream", "v2.3.3" ],
+        [ "symfony/console", "v2.8.26" ],
+        [ "symfony/options-resolver", "v2.6.13" ],
+        [ "symfony/yaml", "v2.8.26" ],
+        [ "tracy/tracy", "v2.3.12" ]
+      ]
+    },
+    "apigen/theme-bootstrap": {
+      "v1.1.3": [
+        [ "latte/latte", "v2.3.4" ]
+      ]
+    },
+    "apigen/theme-default": {
+      "v1.0.2": [
+        [ "latte/latte", "v2.3.4" ]
+      ]
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v1.13.1": [
+        [ "sebastian/diff", "1.4.3" ],
+        [ "symfony/console", "v2.8.26" ],
+        [ "symfony/event-dispatcher", "v2.8.26" ],
+        [ "symfony/filesystem", "v2.8.26" ],
+        [ "symfony/finder", "v2.8.26" ],
+        [ "symfony/process", "v2.8.26" ],
+        [ "symfony/stopwatch", "v2.8.26" ]
+      ]
+    },
+    "henrikbjorn/lurker": {
+      "1.2.0": [
+        [ "symfony/config", "v2.8.26" ],
+        [ "symfony/event-dispatcher", "v2.8.26" ]
+      ]
+    },
+    "herrera-io/json": {
+      "1.0.3": [
+        [ "justinrainbow/json-schema", "1.6.1" ],
+        [ "seld/jsonlint", "1.6.1" ]
+      ]
+    },
+    "herrera-io/phar-update": {
+      "2.0.0": [
+        [ "herrera-io/json", "1.0.3" ],
+        [ "herrera-io/version", "1.1.1" ]
+      ]
+    },
+    "kdyby/events": {
+      "v2.4.1": [
+        [ "nette/di", "v2.3.14" ],
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/application": {
+      "v2.3.13": [
+        [ "nette/component-model", "v2.2.5" ],
+        [ "nette/http", "v2.3.9" ],
+        [ "nette/reflection", "v2.3.2" ],
+        [ "nette/security", "v2.3.2" ],
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/bootstrap": {
+      "v2.3.5": [
+        [ "nette/di", "v2.3.14" ],
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/caching": {
+      "v2.3.5": [
+        [ "nette/finder", "v2.3.2" ],
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/component-model": {
+      "v2.2.5": [
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/di": {
+      "v2.3.14": [
+        [ "nette/neon", "v2.3.5" ],
+        [ "nette/php-generator", "v2.3.6" ],
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.3.2": [
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/http": {
+      "v2.3.9": [
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/mail": {
+      "v2.3.5": [
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/php-generator": {
+      "v2.3.6": [
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/reflection": {
+      "v2.3.2": [
+        [ "nette/caching", "v2.3.5" ],
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/robot-loader": {
+      "v2.3.2": [
+        [ "nette/caching", "v2.3.5" ],
+        [ "nette/finder", "v2.3.2" ],
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "nette/security": {
+      "v2.3.2": [
+        [ "nette/utils", "v2.3.11" ]
+      ]
+    },
+    "peridot-php/leo": {
+      "1.6.1": [
+        [ "apigen/apigen", "v4.1.2" ],
+        [ "friendsofphp/php-cs-fixer", "v1.13.1" ],
+        [ "peridot-php/peridot-jumpstart", "1.0.0" ],
+        [ "peridot-php/peridot-prophecy-plugin", "1.1.0" ]
+      ]
+    },
+    "peridot-php/peridot": {
+      "1.19.0": [
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "peridot-php/peridot-scope", "1.3.0" ],
+        [ "phpunit/php-timer", "1.0.9" ],
+        [ "symfony/console", "v2.8.26" ]
+      ]
+    },
+    "peridot-php/peridot-code-coverage-reporters": {
+      "1.0.2": [
+        [ "peridot-php/peridot", "1.19.0" ],
+        [ "phpunit/php-code-coverage", "2.2.4" ]
+      ]
+    },
+    "peridot-php/peridot-dot-reporter": {
+      "1.0.0": [
+        [ "peridot-php/peridot", "1.19.0" ]
+      ]
+    },
+    "peridot-php/peridot-jumpstart": {
+      "1.0.0": [
+        [ "peridot-php/peridot", "1.19.0" ],
+        [ "peridot-php/peridot-code-coverage-reporters", "1.0.2" ],
+        [ "peridot-php/peridot-dot-reporter", "1.0.0" ],
+        [ "peridot-php/peridot-list-reporter", "1.0.0" ],
+        [ "peridot-php/peridot-watcher-plugin", "1.3.1" ]
+      ]
+    },
+    "peridot-php/peridot-list-reporter": {
+      "1.0.0": [
+        [ "peridot-php/peridot", "1.19.0" ]
+      ]
+    },
+    "peridot-php/peridot-prophecy-plugin": {
+      "1.1.0": [
+        [ "peridot-php/peridot", "1.19.0" ],
+        [ "phpspec/prophecy", "v1.7.0" ]
+      ]
+    },
+    "peridot-php/peridot-watcher-plugin": {
+      "1.3.1": [
+        [ "henrikbjorn/lurker", "1.2.0" ],
+        [ "peridot-php/peridot", "1.19.0" ],
+        [ "symfony/process", "v2.8.26" ]
+      ]
+    },
+    "phpspec/prophecy": {
+      "v1.7.0": [
+        [ "doctrine/instantiator", "1.0.5" ],
+        [ "phpdocumentor/reflection-docblock", "2.0.5" ],
+        [ "sebastian/comparator", "1.2.4" ],
+        [ "sebastian/recursion-context", "2.0.0" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": [
+        [ "phpunit/php-file-iterator", "1.4.2" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "1.4.11" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/version", "1.0.6" ]
+      ]
+    },
+    "sebastian/comparator": {
+      "1.2.4": [
+        [ "sebastian/diff", "1.4.3" ],
+        [ "sebastian/exporter", "2.0.0" ]
+      ]
+    },
+    "sebastian/exporter": {
+      "2.0.0": [
+        [ "sebastian/recursion-context", "2.0.0" ]
+      ]
+    },
+    "symfony/config": {
+      "v2.8.26": [
+        [ "symfony/filesystem", "v2.8.26" ]
+      ]
+    },
+    "symfony/console": {
+      "v2.8.26": [
+        [ "symfony/debug", "v2.8.26" ],
+        [ "symfony/polyfill-mbstring", "v1.5.0" ]
+      ]
+    },
+    "symfony/debug": {
+      "v2.8.26": [
+        [ "psr/log", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "andrewsville/php-token-reflection": {
+      "1.4.0": {
+        "rev": "e6d0ac2baf66cdf154be34c3d2a2aa1bd4b426ee",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Andrewsville/PHP-Token-Reflection.git"
+      }
+    },
+    "apigen/apigen": {
+      "v4.1.2": {
+        "rev": "3365433ea3433b0e5c8f763608f8e63cbedb2a3a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ApiGen/ApiGen.git"
+      }
+    },
+    "apigen/theme-bootstrap": {
+      "v1.1.3": {
+        "rev": "55a35b4a3a9a5fcaa6a8fc43fb304983cab98c6c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ApiGen/ThemeBootstrap.git"
+      }
+    },
+    "apigen/theme-default": {
+      "v1.0.2": {
+        "rev": "51648cf83645d9ae6c655fe46bcd26a347d45336",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ApiGen/ThemeDefault.git"
+      }
+    },
+    "doctrine/instantiator": {
+      "1.0.5": {
+        "rev": "8e884e78f9f0eb1329e445619e04456e64d8051d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "evenement/evenement": {
+      "v2.1.0": {
+        "rev": "6ba9a777870ab49f417e703229d53931ed40fd7a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/igorw/evenement.git"
+      }
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v1.13.1": {
+        "rev": "0ea4f7ed06ca55da1d8fc45da26ff87f261c4088",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git"
+      }
+    },
+    "henrikbjorn/lurker": {
+      "1.2.0": {
+        "rev": "712d3ef19bef161daa2ba0e0237c6b875587a089",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/flint/Lurker.git"
+      }
+    },
+    "herrera-io/json": {
+      "1.0.3": {
+        "rev": "60c696c9370a1e5136816ca557c17f82a6fa83f1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/kherge-abandoned/php-json.git"
+      }
+    },
+    "herrera-io/phar-update": {
+      "2.0.0": {
+        "rev": "15643c90d3d43620a4f45c910e6afb7a0ad4b488",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/kherge-abandoned/php-phar-update.git"
+      }
+    },
+    "herrera-io/version": {
+      "1.1.1": {
+        "rev": "d39d9642b92a04d8b8a28b871b797a35a2545e85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/kherge-abandoned/php-version.git"
+      }
+    },
+    "justinrainbow/json-schema": {
+      "1.6.1": {
+        "rev": "cc84765fb7317f6b07bd8ac78364747f95b86341",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/justinrainbow/json-schema.git"
+      }
+    },
+    "kdyby/events": {
+      "v2.4.1": {
+        "rev": "d8a0e8a64a59f501996f8f9591aa3f950208f091",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Kdyby/Events.git"
+      }
+    },
+    "kukulich/fshl": {
+      "2.1.0": {
+        "rev": "974c294ade5d76c0c16b6fe3fd3a584ba999b24f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/kukulich/fshl.git"
+      }
+    },
+    "latte/latte": {
+      "v2.3.4": {
+        "rev": "5e891af999776d2204a9d06ad66ad8fa0bcd4f8b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/latte.git"
+      }
+    },
+    "michelf/php-markdown": {
+      "1.7.0": {
+        "rev": "1f51cc520948f66cd2af8cbc45a5ee175e774220",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/michelf/php-markdown.git"
+      }
+    },
+    "nette/application": {
+      "v2.3.13": {
+        "rev": "ab1ed67f4b85e1be7af5d13bf00de61391544be6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/application.git"
+      }
+    },
+    "nette/bootstrap": {
+      "v2.3.5": {
+        "rev": "1fc6e52b790864d2973d479a4460a89cec1f51f8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/bootstrap.git"
+      }
+    },
+    "nette/caching": {
+      "v2.3.5": {
+        "rev": "0cb5c2c91e92a155ca5c1700479476b80c30dece",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/caching.git"
+      }
+    },
+    "nette/component-model": {
+      "v2.2.5": {
+        "rev": "fb232ed9ccd90873625bfdcc115c406e3ab34ebb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/component-model.git"
+      }
+    },
+    "nette/di": {
+      "v2.3.14": {
+        "rev": "06c96ce2d646156d8acae935861d4e96e092b903",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.3.2": {
+        "rev": "ea8e796b42d542bd90e76f5b2a41c2c86a008256",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/http": {
+      "v2.3.9": {
+        "rev": "374f6327a08c5e8a3d60bc1035aa12267bc1b5a7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/http.git"
+      }
+    },
+    "nette/mail": {
+      "v2.3.5": {
+        "rev": "44491710d30db970e731c3908c491d061a0e22df",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/mail.git"
+      }
+    },
+    "nette/neon": {
+      "v2.3.5": {
+        "rev": "75699de201932e6de6b249824dc8c53d0f442cd5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/neon.git"
+      }
+    },
+    "nette/php-generator": {
+      "v2.3.6": {
+        "rev": "bbc8189aa54af093c908d98212e1c309b9170345",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/php-generator.git"
+      }
+    },
+    "nette/reflection": {
+      "v2.3.2": {
+        "rev": "6c39adc4661f5f7b64be7ee161b8f67d8174da4d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/reflection.git"
+      }
+    },
+    "nette/robot-loader": {
+      "v2.3.2": {
+        "rev": "0dbed866df47fd0425ce9a3cc9085779d8ada143",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/robot-loader.git"
+      }
+    },
+    "nette/safe-stream": {
+      "v2.3.3": {
+        "rev": "0fcd45ae82be5817f4b3ad25bc8955968f355412",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/safe-stream.git"
+      }
+    },
+    "nette/security": {
+      "v2.3.2": {
+        "rev": "779254a5484a106344a81c8cb9ce2b8570e38f34",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/security.git"
+      }
+    },
+    "nette/utils": {
+      "v2.3.11": {
+        "rev": "f213ad4d9dfb7221322bd2808e2004b61c8ece8e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "peridot-php/leo": {
+      "1.6.1": {
+        "path": "/tmp/tmp.tp1sSzVV1f/tmp.Z845QUrBaR/tmp.iHsngR0mG3/source/",
+        "rev": "2a6f60f237498cd7c3e912d71dcb90424ab66e72",
+        "rootName": "peridot-php/leo",
+        "rootVersion": "1.6.1",
+        "type": "path",
+        "url": "https://github.com/peridot-php/leo.git"
+      }
+    },
+    "peridot-php/peridot": {
+      "1.19.0": {
+        "rev": "1c573868d856cee7fc9ba89f6a82730f79a3685e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot.git"
+      }
+    },
+    "peridot-php/peridot-code-coverage-reporters": {
+      "1.0.2": {
+        "rev": "129805888622a41df26a05bd211c96bc5183e018",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot-code-coverage-reporters.git"
+      }
+    },
+    "peridot-php/peridot-dot-reporter": {
+      "1.0.0": {
+        "rev": "ba303540ddd4118a1d300bf739912556902a66d5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot-dot-reporter.git"
+      }
+    },
+    "peridot-php/peridot-jumpstart": {
+      "1.0.0": {
+        "rev": "95a4d3de23d449cd370bf565866f9dd41cb8ce52",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot-jumpstart.git"
+      }
+    },
+    "peridot-php/peridot-list-reporter": {
+      "1.0.0": {
+        "rev": "4f1f8ac8ffcf32faa235fc3e1ff51b0f726f5286",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot-list-reporter.git"
+      }
+    },
+    "peridot-php/peridot-prophecy-plugin": {
+      "1.1.0": {
+        "rev": "425c097aa93b8949d26f6820ca9905ec3d988c2d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot-prophecy-plugin.git"
+      }
+    },
+    "peridot-php/peridot-scope": {
+      "1.3.0": {
+        "rev": "b5cc7ac35b2116d0f495b326218e7e93a823ab8e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot-scope.git"
+      }
+    },
+    "peridot-php/peridot-watcher-plugin": {
+      "1.3.1": {
+        "rev": "cb2537d66eb33f66fd8e6135f6ac9fa72703108c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/peridot-php/peridot-watcher-plugin.git"
+      }
+    },
+    "phpdocumentor/reflection-docblock": {
+      "2.0.5": {
+        "rev": "e6a969a640b00d8daa3c66518b0405fb41ae0c4b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "phpspec/prophecy": {
+      "v1.7.0": {
+        "rev": "93d39f1f7f9326d746203c7c056f300f7f126073",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpspec/prophecy.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": {
+        "rev": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "1.4.2": {
+        "rev": "3cc8f69b3028d0f96a9078e6295d86e9bf019be5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "1.0.9": {
+        "rev": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.4.11": {
+        "rev": "e03f8f67534427a787e21a385a67ec3ca6978ea7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "psr/log": {
+      "1.0.2": {
+        "rev": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "sebastian/comparator": {
+      "1.2.4": {
+        "rev": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/comparator.git"
+      }
+    },
+    "sebastian/diff": {
+      "1.4.3": {
+        "rev": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "sebastian/environment": {
+      "1.3.8": {
+        "rev": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/environment.git"
+      }
+    },
+    "sebastian/exporter": {
+      "2.0.0": {
+        "rev": "ce474bdd1a34744d7ac5d6aad3a46d48d9bac4c4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/exporter.git"
+      }
+    },
+    "sebastian/recursion-context": {
+      "2.0.0": {
+        "rev": "2c3ba150cbec723aa057506e73a8d33bdb286c9a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/recursion-context.git"
+      }
+    },
+    "sebastian/version": {
+      "1.0.6": {
+        "rev": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "seld/jsonlint": {
+      "1.6.1": {
+        "rev": "50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/jsonlint.git"
+      }
+    },
+    "symfony/config": {
+      "v2.8.26": {
+        "rev": "0b8541d18507d10204a08384640ff6df3c739ebe",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/console": {
+      "v2.8.26": {
+        "rev": "32a3c6b3398de5db8ed381f4ef92970c59c2fcdd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/debug": {
+      "v2.8.26": {
+        "rev": "236ca98a425758cc8c2ff2db423bfe4d1a736b8c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/debug.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v2.8.26": {
+        "rev": "1377400fd641d7d1935981546aaef780ecd5bf6d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v2.8.26": {
+        "rev": "714b1036010c354ae2b25d7f9ca27e14e265e9f2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v2.8.26": {
+        "rev": "4f4e84811004e065a3bb5ceeb1d9aa592630f9ad",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/options-resolver": {
+      "v2.6.13": {
+        "rev": "31e56594cee489e9a235b852228b0598b52101c1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/options-resolver.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.5.0": {
+        "rev": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/process": {
+      "v2.8.26": {
+        "rev": "57e52a0a6a80ea0aec4fc1b785a7920a95cb88a8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/stopwatch": {
+      "v2.8.26": {
+        "rev": "e02577b841394a78306d7b547701bb7bb705bad5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/stopwatch.git"
+      }
+    },
+    "symfony/yaml": {
+      "v2.8.26": {
+        "rev": "4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "tracy/tracy": {
+      "v2.3.12": {
+        "rev": "80731c9eb4ee9b297cd23958644d21cfa53428b4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tracy.git"
+      }
+    }
+  }
+}
