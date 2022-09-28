@@ -2,7 +2,7 @@
   description = "Dream2nix auto-generated php packages";
 
   inputs = {
-    dream2nix.url = "github:tinybeachthor/dream2nix/php-indexer";
+    dream2nix.url = "github:tinybeachthor/dream2nix/main";
   };
 
   outputs = { self, dream2nix }:
