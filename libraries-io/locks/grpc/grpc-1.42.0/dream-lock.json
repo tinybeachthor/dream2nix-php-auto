@@ -10,6 +10,7 @@
   },
   "_subsystem": {
     "composerPluginApiSemver": {},
+    "noDev": false,
     "phpExtensions": [
       "json"
     ],
@@ -18,7 +19,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "google/auth": {
-      "v1.22.0": [
+      "v1.23.0": [
         [ "firebase/php-jwt", "v6.3.0" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
         [ "guzzlehttp/psr7", "2.4.1" ],
@@ -28,7 +29,7 @@
     },
     "grpc/grpc": {
       "1.42.0": [
-        [ "google/auth", "v1.22.0" ]
+        [ "google/auth", "v1.23.0" ]
       ]
     },
     "guzzlehttp/guzzle": {
@@ -67,8 +68,8 @@
       }
     },
     "google/auth": {
-      "v1.22.0": {
-        "rev": "da4037df770027c8f7163595a29ec434f705f8b1",
+      "v1.23.0": {
+        "rev": "8da16102d2cd1bdc128d97f323553df465ee7701",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/googleapis/google-auth-library-php.git"
@@ -76,11 +77,8 @@
     },
     "grpc/grpc": {
       "1.42.0": {
-        "path": "/tmp/tmp.xGLI0VpG2y/tmp.zD5CCh2mVE/tmp.mxrCMYNs9Y/tmp.yCWJtIOatR/",
         "rev": "9fa44f104cb92e924d4da547323a97f3d8aca6d4",
-        "rootName": "grpc/grpc",
-        "rootVersion": "1.42.0",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/grpc/grpc-php.git"
       }
     },

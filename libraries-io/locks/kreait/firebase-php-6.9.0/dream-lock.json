@@ -12,6 +12,7 @@
     "composerPluginApiSemver": {
       "phpstan/extension-installer@1.1.0": "^1.1 || ^2.0"
     },
+    "noDev": false,
     "phpExtensions": [
       "ctype",
       "json",
@@ -33,11 +34,11 @@
   "dependencies": {
     "beste/clock": {
       "2.1.0": [
-        [ "stella-maris/clock", "0.1.5" ]
+        [ "stella-maris/clock", "0.1.6" ]
       ]
     },
     "google/auth": {
-      "v1.22.0": [
+      "v1.23.0": [
         [ "firebase/php-jwt", "v6.3.0" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
         [ "guzzlehttp/psr7", "2.4.1" ],
@@ -47,7 +48,7 @@
     },
     "google/cloud-core": {
       "v1.47.2": [
-        [ "google/auth", "v1.22.0" ],
+        [ "google/auth", "v1.23.0" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
         [ "guzzlehttp/promises", "1.5.2" ],
         [ "guzzlehttp/psr7", "2.4.1" ],
@@ -76,7 +77,7 @@
     },
     "google/gax": {
       "v1.17.0": [
-        [ "google/auth", "v1.22.0" ],
+        [ "google/auth", "v1.23.0" ],
         [ "google/common-protos", "v3.0.0" ],
         [ "google/grpc-gcp", "v0.2.0" ],
         [ "google/longrunning", "v0.2.0" ],
@@ -88,7 +89,7 @@
     },
     "google/grpc-gcp": {
       "v0.2.0": [
-        [ "google/auth", "v1.22.0" ],
+        [ "google/auth", "v1.23.0" ],
         [ "google/protobuf", "v3.21.6" ],
         [ "grpc/grpc", "1.42.0" ],
         [ "psr/cache", "3.0.0" ]
@@ -114,7 +115,7 @@
         [ "beste/clock", "2.1.0" ],
         [ "beste/json", "1.0.0" ],
         [ "fig/http-message-util", "1.1.5" ],
-        [ "google/auth", "v1.22.0" ],
+        [ "google/auth", "v1.23.0" ],
         [ "google/cloud-core", "v1.47.2" ],
         [ "google/cloud-firestore", "v1.25.3" ],
         [ "google/cloud-storage", "v1.28.1" ],
@@ -146,7 +147,7 @@
     },
     "lcobucci/clock": {
       "2.2.0": [
-        [ "stella-maris/clock", "0.1.5" ]
+        [ "stella-maris/clock", "0.1.6" ]
       ]
     },
     "lcobucci/jwt": {
@@ -316,8 +317,8 @@
       }
     },
     "google/auth": {
-      "v1.22.0": {
-        "rev": "da4037df770027c8f7163595a29ec434f705f8b1",
+      "v1.23.0": {
+        "rev": "8da16102d2cd1bdc128d97f323553df465ee7701",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/googleapis/google-auth-library-php.git"
@@ -429,11 +430,8 @@
     },
     "kreait/firebase-php": {
       "6.9.0": {
-        "path": "/tmp/tmp.m2nI1XTkim/tmp.51Ls1MtK5P/tmp.FNtGEy6bab/tmp.cqHaSfH3YQ/",
         "rev": "8ae2e1af0aaf6a744f055cb6f921663db7032a06",
-        "rootName": "kreait/firebase-php",
-        "rootVersion": "6.9.0",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/kreait/firebase-php.git"
       }
     },
@@ -790,8 +788,8 @@
       }
     },
     "stella-maris/clock": {
-      "0.1.5": {
-        "rev": "447879c53ca0b2a762cdbfba5e76ccf4deca9158",
+      "0.1.6": {
+        "rev": "a94228dac03c9a8411198ce8c8dacbbe99c930c3",
         "submodules": false,
         "type": "git",
         "url": "git@gitlab.com:stella-maris/clock.git"

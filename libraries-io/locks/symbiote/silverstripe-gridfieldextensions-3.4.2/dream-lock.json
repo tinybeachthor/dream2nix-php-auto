@@ -13,6 +13,7 @@
       "composer/installers@v1.12.0": "^1.0 || ^2.0",
       "silverstripe/vendor-plugin@1.6.0": "^1.1 || ^2"
     },
+    "noDev": false,
     "phpExtensions": [
       "openssl",
       "pcre",
@@ -37,7 +38,7 @@
   "cyclicDependencies": {
     "silverstripe/assets": {
       "1.11.0": [
-        [ "silverstripe/framework", "4.11.7" ]
+        [ "silverstripe/framework", "4.11.8" ]
       ]
     }
   },
@@ -194,7 +195,7 @@
       "1.11.0": [
         [ "intervention/image", "2.7.2" ],
         [ "league/flysystem", "1.1.9" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "symfony/filesystem", "v5.4.12" ]
       ]
@@ -208,7 +209,7 @@
       ]
     },
     "silverstripe/framework": {
-      "4.11.7": [
+      "4.11.8": [
         [ "bramus/monolog-colored-line-formatter", "2.0.3" ],
         [ "composer/installers", "v1.12.0" ],
         [ "composer/semver", "3.3.2" ],
@@ -240,7 +241,7 @@
     },
     "silverstripe/versioned": {
       "1.11.1": [
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "symfony/cache", "v4.4.44" ]
       ]
@@ -256,7 +257,7 @@
     "symbiote/silverstripe-gridfieldextensions": {
       "3.4.2": [
         [ "phpunit/phpunit", "9.5.25" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "silverstripe/versioned", "1.11.1" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ]
@@ -794,8 +795,8 @@
       }
     },
     "silverstripe/framework": {
-      "4.11.7": {
-        "rev": "7e9ced08245adb51201c016a672b1db87eb871b7",
+      "4.11.8": {
+        "rev": "b80309093c24c43822746fa36db64979de1aaae5",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/silverstripe/silverstripe-framework.git"
@@ -843,11 +844,8 @@
     },
     "symbiote/silverstripe-gridfieldextensions": {
       "3.4.2": {
-        "path": "/tmp/tmp.iWuH4I6EcF/tmp.hOOzI8lsEu/tmp.ZVQVkfeAIn/tmp.9jrHtAlOU6/",
         "rev": "f56bf67e40df84622ab587882fe54cf9cd0ab611",
-        "rootName": "symbiote/silverstripe-gridfieldextensions",
-        "rootVersion": "3.4.2",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/symbiote/silverstripe-gridfieldextensions.git"
       }
     },

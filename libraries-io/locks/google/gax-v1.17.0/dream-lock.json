@@ -10,6 +10,7 @@
   },
   "_subsystem": {
     "composerPluginApiSemver": {},
+    "noDev": false,
     "phpExtensions": [
       "json",
       "dom",
@@ -28,7 +29,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "google/auth": {
-      "v1.22.0": [
+      "v1.23.0": [
         [ "firebase/php-jwt", "v6.3.0" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
         [ "guzzlehttp/psr7", "2.4.1" ],
@@ -43,7 +44,7 @@
     },
     "google/gax": {
       "v1.17.0": [
-        [ "google/auth", "v1.22.0" ],
+        [ "google/auth", "v1.23.0" ],
         [ "google/common-protos", "v3.0.0" ],
         [ "google/grpc-gcp", "v0.2.0" ],
         [ "google/longrunning", "v0.2.0" ],
@@ -59,7 +60,7 @@
     },
     "google/grpc-gcp": {
       "v0.2.0": [
-        [ "google/auth", "v1.22.0" ],
+        [ "google/auth", "v1.23.0" ],
         [ "google/protobuf", "v3.21.6" ],
         [ "grpc/grpc", "1.42.0" ],
         [ "psr/cache", "3.0.0" ]
@@ -194,8 +195,8 @@
       }
     },
     "google/auth": {
-      "v1.22.0": {
-        "rev": "da4037df770027c8f7163595a29ec434f705f8b1",
+      "v1.23.0": {
+        "rev": "8da16102d2cd1bdc128d97f323553df465ee7701",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/googleapis/google-auth-library-php.git"
@@ -211,11 +212,8 @@
     },
     "google/gax": {
       "v1.17.0": {
-        "path": "/tmp/tmp.IjAgu10fVY/tmp.rLg67GzMWk/tmp.4sV0oATXHz/tmp.zsorBrbWOW/",
         "rev": "bb8d95187dcfebe04a40d2de916951fa4942fc35",
-        "rootName": "google/gax",
-        "rootVersion": "v1.17.0",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/googleapis/gax-php.git"
       }
     },

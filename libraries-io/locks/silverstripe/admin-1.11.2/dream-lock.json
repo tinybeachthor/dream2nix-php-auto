@@ -13,6 +13,7 @@
       "composer/installers@v1.12.0": "^1.0 || ^2.0",
       "silverstripe/vendor-plugin@1.6.0": "^1.1 || ^2"
     },
+    "noDev": false,
     "phpExtensions": [
       "openssl",
       "pcre",
@@ -37,7 +38,7 @@
   "cyclicDependencies": {
     "silverstripe/assets": {
       "1.11.0": [
-        [ "silverstripe/framework", "4.11.7" ]
+        [ "silverstripe/framework", "4.11.8" ]
       ]
     },
     "silverstripe/campaign-admin": {
@@ -220,7 +221,7 @@
         [ "monolog/monolog", "1.27.1" ],
         [ "nikic/php-parser", "v4.15.1" ],
         [ "phpunit/phpunit", "9.5.25" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/frameworktest", "0.4.11" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "silverstripe/versioned", "1.11.1" ],
@@ -231,7 +232,7 @@
       "1.11.0": [
         [ "intervention/image", "2.7.2" ],
         [ "league/flysystem", "1.1.9" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "symfony/filesystem", "v5.4.12" ]
       ]
@@ -239,7 +240,7 @@
     "silverstripe/campaign-admin": {
       "1.11.0": [
         [ "silverstripe/admin", "1.11.2" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "silverstripe/versioned", "1.11.1" ]
       ]
@@ -248,7 +249,7 @@
       "4.11.2": [
         [ "silverstripe/admin", "1.11.2" ],
         [ "silverstripe/campaign-admin", "1.11.0" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/reports", "4.11.0" ],
         [ "silverstripe/siteconfig", "4.11.0" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
@@ -264,7 +265,7 @@
       ]
     },
     "silverstripe/framework": {
-      "4.11.7": [
+      "4.11.8": [
         [ "bramus/monolog-colored-line-formatter", "2.0.3" ],
         [ "composer/installers", "v1.12.0" ],
         [ "composer/semver", "3.3.2" ],
@@ -294,7 +295,7 @@
         [ "fzaninotto/faker", "v1.9.2" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
         [ "silverstripe/cms", "4.11.2" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/registry", "2.5.0" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ]
       ]
@@ -311,7 +312,7 @@
         [ "silverstripe/admin", "1.11.2" ],
         [ "silverstripe/assets", "1.11.0" ],
         [ "silverstripe/config", "1.4.0" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "silverstripe/versioned", "1.11.1" ]
       ]
@@ -319,7 +320,7 @@
     "silverstripe/siteconfig": {
       "4.11.0": [
         [ "silverstripe/admin", "1.11.2" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ]
       ]
     },
@@ -330,7 +331,7 @@
     },
     "silverstripe/versioned": {
       "1.11.1": [
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "symfony/cache", "v4.4.44" ]
       ]
@@ -868,11 +869,8 @@
     },
     "silverstripe/admin": {
       "1.11.2": {
-        "path": "/tmp/tmp.100b7Pgyft/tmp.i2vVLlY1o8/tmp.mIs0CrtSPD/tmp.8mhWtXwDWv/",
         "rev": "45f9afe7f1c5435d360f3b3bcad110e4d1578745",
-        "rootName": "silverstripe/admin",
-        "rootVersion": "1.11.2",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/silverstripe/silverstripe-admin.git"
       }
     },
@@ -909,8 +907,8 @@
       }
     },
     "silverstripe/framework": {
-      "4.11.7": {
-        "rev": "7e9ced08245adb51201c016a672b1db87eb871b7",
+      "4.11.8": {
+        "rev": "b80309093c24c43822746fa36db64979de1aaae5",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/silverstripe/silverstripe-framework.git"

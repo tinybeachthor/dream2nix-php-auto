@@ -10,6 +10,7 @@
   },
   "_subsystem": {
     "composerPluginApiSemver": {},
+    "noDev": false,
     "phpExtensions": [
       "json",
       "mbstring",
@@ -28,7 +29,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "google/auth": {
-      "v1.22.0": [
+      "v1.23.0": [
         [ "firebase/php-jwt", "v6.3.0" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
         [ "guzzlehttp/psr7", "2.4.1" ],
@@ -39,7 +40,7 @@
     "google/cloud-core": {
       "v1.46.1": [
         [ "erusev/parsedown", "1.7.4" ],
-        [ "google/auth", "v1.22.0" ],
+        [ "google/auth", "v1.23.0" ],
         [ "google/common-protos", "2.1.0" ],
         [ "google/gax", "v1.17.0" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
@@ -62,7 +63,7 @@
     },
     "google/gax": {
       "v1.17.0": [
-        [ "google/auth", "v1.22.0" ],
+        [ "google/auth", "v1.23.0" ],
         [ "google/common-protos", "2.1.0" ],
         [ "google/grpc-gcp", "v0.2.0" ],
         [ "google/longrunning", "v0.2.0" ],
@@ -74,7 +75,7 @@
     },
     "google/grpc-gcp": {
       "v0.2.0": [
-        [ "google/auth", "v1.22.0" ],
+        [ "google/auth", "v1.23.0" ],
         [ "google/protobuf", "v3.21.6" ],
         [ "grpc/grpc", "1.42.0" ],
         [ "psr/cache", "3.0.0" ]
@@ -224,8 +225,8 @@
       }
     },
     "google/auth": {
-      "v1.22.0": {
-        "rev": "da4037df770027c8f7163595a29ec434f705f8b1",
+      "v1.23.0": {
+        "rev": "8da16102d2cd1bdc128d97f323553df465ee7701",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/googleapis/google-auth-library-php.git"
@@ -233,11 +234,8 @@
     },
     "google/cloud-core": {
       "v1.46.1": {
-        "path": "/tmp/tmp.C4tqXwk556/tmp.Ae42KUmvWr/tmp.9JxnGc16yO/tmp.WStv5T80xk/",
         "rev": "ee8ad36aa59773669ca0cd5e1ffeccac7a78d083",
-        "rootName": "google/cloud-core",
-        "rootVersion": "v1.46.1",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/googleapis/google-cloud-php-core.git"
       }
     },

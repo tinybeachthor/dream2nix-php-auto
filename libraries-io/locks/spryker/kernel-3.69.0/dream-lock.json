@@ -12,6 +12,7 @@
     "composerPluginApiSemver": {
       "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
     },
+    "noDev": false,
     "phpExtensions": [
       "json",
       "bcmath",
@@ -103,7 +104,7 @@
       ]
     },
     "spryker/testify": {
-      "3.44.0": [
+      "3.45.0": [
         [ "spryker/kernel", "3.69.0" ]
       ]
     },
@@ -159,7 +160,7 @@
     "codeception/codeception": {
       "4.2.2": [
         [ "behat/gherkin", "v4.9.0" ],
-        [ "codeception/lib-asserts", "2.0.0" ],
+        [ "codeception/lib-asserts", "2.0.1" ],
         [ "codeception/phpunit-wrapper", "9.0.9" ],
         [ "codeception/stub", "4.0.2" ],
         [ "guzzlehttp/psr7", "2.4.1" ],
@@ -172,7 +173,7 @@
       ]
     },
     "codeception/lib-asserts": {
-      "2.0.0": [
+      "2.0.1": [
         [ "codeception/phpunit-wrapper", "9.0.9" ]
       ]
     },
@@ -192,7 +193,7 @@
       ]
     },
     "dms/phpunit-arraysubset-asserts": {
-      "v0.3.1": [
+      "v0.4.0": [
         [ "phpunit/phpunit", "9.5.25" ]
       ]
     },
@@ -331,7 +332,7 @@
       ]
     },
     "slevomat/coding-standard": {
-      "8.5.1": [
+      "8.5.2": [
         [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
         [ "phpstan/phpdoc-parser", "1.8.0" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ]
@@ -357,8 +358,8 @@
       ]
     },
     "spryker/code-sniffer": {
-      "0.17.12": [
-        [ "slevomat/coding-standard", "8.5.1" ],
+      "0.17.13": [
+        [ "slevomat/coding-standard", "8.5.2" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ]
       ]
     },
@@ -415,7 +416,7 @@
     "spryker/kernel": {
       "3.69.0": [
         [ "everon/collection", "v1.0.3" ],
-        [ "spryker/code-sniffer", "0.17.12" ],
+        [ "spryker/code-sniffer", "0.17.13" ],
         [ "spryker/config", "3.5.2" ],
         [ "spryker/container", "1.4.5" ],
         [ "spryker/error-handler", "2.7.0" ],
@@ -427,7 +428,7 @@
         [ "spryker/propel-orm", "1.17.0" ],
         [ "spryker/silex", "2.2.1" ],
         [ "spryker/symfony", "3.8.1" ],
-        [ "spryker/testify", "3.44.0" ],
+        [ "spryker/testify", "3.45.0" ],
         [ "spryker/util-encoding", "2.1.0" ]
       ]
     },
@@ -568,9 +569,9 @@
       ]
     },
     "spryker/testify": {
-      "3.44.0": [
+      "3.45.0": [
         [ "codeception/codeception", "4.2.2" ],
-        [ "dms/phpunit-arraysubset-asserts", "v0.3.1" ],
+        [ "dms/phpunit-arraysubset-asserts", "v0.4.0" ],
         [ "fakerphp/faker", "v1.20.0" ],
         [ "mikey179/vfsstream", "v1.6.11" ],
         [ "spryker/application", "3.30.0" ],
@@ -944,8 +945,8 @@
       }
     },
     "codeception/lib-asserts": {
-      "2.0.0": {
-        "rev": "df9c8346722ddde4a20e6372073c09c8df87c296",
+      "2.0.1": {
+        "rev": "78c55044611437988b54e1daecf13f247a742bf8",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Codeception/lib-asserts.git"
@@ -976,8 +977,8 @@
       }
     },
     "dms/phpunit-arraysubset-asserts": {
-      "v0.3.1": {
-        "rev": "e1b47df99cd0dbb3f63528adc5c990256218c707",
+      "v0.4.0": {
+        "rev": "428293c2a00eceefbad71a2dbdfb913febb35de2",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/rdohms/phpunit-arraysubset-asserts.git"
@@ -1344,8 +1345,8 @@
       }
     },
     "slevomat/coding-standard": {
-      "8.5.1": {
-        "rev": "971f489404350bf4608b7e59381e603c47700366",
+      "8.5.2": {
+        "rev": "f32937dc41b587f3500efed1dbca2f82aa519373",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/slevomat/coding-standard.git"
@@ -1368,8 +1369,8 @@
       }
     },
     "spryker/code-sniffer": {
-      "0.17.12": {
-        "rev": "892b925aec2e2c5f67a86f6248d47be6d6787574",
+      "0.17.13": {
+        "rev": "f6af35c65d53544921749a6d79b483e13487393b",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/spryker/code-sniffer.git"
@@ -1457,11 +1458,8 @@
     },
     "spryker/kernel": {
       "3.69.0": {
-        "path": "/tmp/tmp.W2KGGIb2WS/tmp.9n9cx3MTYA/tmp.S8DMCigR68/tmp.vV1Q9TZWU0/",
         "rev": "9e69bad265b08a6b548103bd4bad3141d3c4c697",
-        "rootName": "spryker/kernel",
-        "rootVersion": "3.69.0",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/spryker/kernel.git"
       }
     },
@@ -1594,8 +1592,8 @@
       }
     },
     "spryker/testify": {
-      "3.44.0": {
-        "rev": "fae424435d97d5944b2970e2b108546c2a3a3c0d",
+      "3.45.0": {
+        "rev": "714838a4c8b272ff01867fd92e0ee652a4bc5844",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/spryker/testify.git"

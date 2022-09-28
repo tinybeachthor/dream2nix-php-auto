@@ -12,6 +12,7 @@
     "composerPluginApiSemver": {
       "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
     },
+    "noDev": false,
     "phpExtensions": [
       "simplexml",
       "tokenizer",
@@ -27,21 +28,21 @@
       ]
     },
     "slevomat/coding-standard": {
-      "8.5.1": [
+      "8.5.2": [
         [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
         [ "phpstan/phpdoc-parser", "1.8.0" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ]
       ]
     },
     "spryker/code-sniffer": {
-      "0.17.12": [
-        [ "slevomat/coding-standard", "8.5.1" ],
+      "0.17.13": [
+        [ "slevomat/coding-standard", "8.5.2" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ]
       ]
     },
     "spryker/sales-extension": {
       "1.9.0": [
-        [ "spryker/code-sniffer", "0.17.12" ]
+        [ "spryker/code-sniffer", "0.17.13" ]
       ]
     }
   },
@@ -63,16 +64,16 @@
       }
     },
     "slevomat/coding-standard": {
-      "8.5.1": {
-        "rev": "971f489404350bf4608b7e59381e603c47700366",
+      "8.5.2": {
+        "rev": "f32937dc41b587f3500efed1dbca2f82aa519373",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/slevomat/coding-standard.git"
       }
     },
     "spryker/code-sniffer": {
-      "0.17.12": {
-        "rev": "892b925aec2e2c5f67a86f6248d47be6d6787574",
+      "0.17.13": {
+        "rev": "f6af35c65d53544921749a6d79b483e13487393b",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/spryker/code-sniffer.git"
@@ -80,11 +81,8 @@
     },
     "spryker/sales-extension": {
       "1.9.0": {
-        "path": "/tmp/tmp.Z0OIElyq2h/tmp.9YUeJuII0U/tmp.wMEVsaFgFq/tmp.fzFWVGKeCj/",
         "rev": "3e8555b4cb07dbe0543aae039a2f96b3a770fcd4",
-        "rootName": "spryker/sales-extension",
-        "rootVersion": "1.9.0",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/spryker/sales-extension.git"
       }
     },

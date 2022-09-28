@@ -13,6 +13,7 @@
       "composer/installers@v1.12.0": "^1.0 || ^2.0",
       "silverstripe/vendor-plugin@1.6.0": "^1.1 || ^2"
     },
+    "noDev": false,
     "phpExtensions": [
       "openssl",
       "pcre",
@@ -37,7 +38,7 @@
   "cyclicDependencies": {
     "silverstripe/assets": {
       "1.11.0": [
-        [ "silverstripe/framework", "4.11.7" ]
+        [ "silverstripe/framework", "4.11.8" ]
       ]
     }
   },
@@ -194,7 +195,7 @@
       "1.11.0": [
         [ "intervention/image", "2.7.2" ],
         [ "league/flysystem", "1.1.9" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "symfony/filesystem", "v5.4.12" ]
       ]
@@ -208,7 +209,7 @@
       ]
     },
     "silverstripe/framework": {
-      "4.11.7": [
+      "4.11.8": [
         [ "bramus/monolog-colored-line-formatter", "2.0.3" ],
         [ "composer/installers", "v1.12.0" ],
         [ "composer/semver", "3.3.2" ],
@@ -249,7 +250,7 @@
     "symbiote/silverstripe-multivaluefield": {
       "5.3.0": [
         [ "phpunit/phpunit", "9.5.25" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ]
       ]
     },
@@ -785,8 +786,8 @@
       }
     },
     "silverstripe/framework": {
-      "4.11.7": {
-        "rev": "7e9ced08245adb51201c016a672b1db87eb871b7",
+      "4.11.8": {
+        "rev": "b80309093c24c43822746fa36db64979de1aaae5",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/silverstripe/silverstripe-framework.git"
@@ -826,11 +827,8 @@
     },
     "symbiote/silverstripe-multivaluefield": {
       "5.3.0": {
-        "path": "/tmp/tmp.9Q96lYaUnb/tmp.BT93eAIhNQ/tmp.Ji8lYyEbOn/tmp.ZlBTLW4njU/",
         "rev": "156080f4971a055bebc45f08d41482b79cfe79c5",
-        "rootName": "symbiote/silverstripe-multivaluefield",
-        "rootVersion": "5.3.0",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/symbiote/silverstripe-multivaluefield.git"
       }
     },

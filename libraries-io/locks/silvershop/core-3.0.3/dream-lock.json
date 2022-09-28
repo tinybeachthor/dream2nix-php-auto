@@ -13,6 +13,7 @@
       "composer/installers@v1.12.0": "^1.0 || ^2.0",
       "silverstripe/vendor-plugin@1.6.0": "^1.1 || ^2"
     },
+    "noDev": false,
     "phpExtensions": [
       "openssl",
       "pcre",
@@ -37,7 +38,7 @@
   "cyclicDependencies": {
     "silverstripe/assets": {
       "1.11.0": [
-        [ "silverstripe/framework", "4.11.7" ]
+        [ "silverstripe/framework", "4.11.8" ]
       ]
     }
   },
@@ -224,12 +225,12 @@
     },
     "silvershop/silverstripe-sqlquerylist": {
       "2.0.0": [
-        [ "silverstripe/framework", "4.11.7" ]
+        [ "silverstripe/framework", "4.11.8" ]
       ]
     },
     "silverstripe/admin": {
       "1.11.2": [
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "silverstripe/versioned", "1.11.1" ]
       ]
@@ -237,7 +238,7 @@
     "silverstripe/asset-admin": {
       "1.11.2": [
         [ "silverstripe/admin", "1.11.2" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/graphql", "3.8.1" ]
       ]
     },
@@ -245,7 +246,7 @@
       "1.11.0": [
         [ "intervention/image", "2.7.2" ],
         [ "league/flysystem", "1.1.9" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "symfony/filesystem", "v5.4.12" ]
       ]
@@ -253,7 +254,7 @@
     "silverstripe/campaign-admin": {
       "1.11.0": [
         [ "silverstripe/admin", "1.11.2" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "silverstripe/versioned", "1.11.1" ]
       ]
@@ -262,7 +263,7 @@
       "4.11.2": [
         [ "silverstripe/admin", "1.11.2" ],
         [ "silverstripe/campaign-admin", "1.11.0" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/reports", "4.11.0" ],
         [ "silverstripe/siteconfig", "4.11.0" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
@@ -278,7 +279,7 @@
       ]
     },
     "silverstripe/framework": {
-      "4.11.7": [
+      "4.11.8": [
         [ "bramus/monolog-colored-line-formatter", "2.0.3" ],
         [ "composer/installers", "v1.12.0" ],
         [ "composer/semver", "3.3.2" ],
@@ -305,7 +306,7 @@
     },
     "silverstripe/graphql": {
       "3.8.1": [
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "webonyx/graphql-php", "v14.11.8" ]
       ]
@@ -315,7 +316,7 @@
         [ "silverstripe/admin", "1.11.2" ],
         [ "silverstripe/assets", "1.11.0" ],
         [ "silverstripe/config", "1.4.0" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "silverstripe/versioned", "1.11.1" ]
       ]
@@ -324,13 +325,13 @@
       "3.0.0-alpha2": [
         [ "omnipay/common", "2.5.2" ],
         [ "silverstripe/config", "1.4.0" ],
-        [ "silverstripe/framework", "4.11.7" ]
+        [ "silverstripe/framework", "4.11.8" ]
       ]
     },
     "silverstripe/siteconfig": {
       "4.11.0": [
         [ "silverstripe/admin", "1.11.2" ],
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ]
       ]
     },
@@ -341,7 +342,7 @@
     },
     "silverstripe/versioned": {
       "1.11.1": [
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ],
         [ "symfony/cache", "v4.4.44" ]
       ]
@@ -356,7 +357,7 @@
     },
     "symbiote/silverstripe-gridfieldextensions": {
       "3.4.2": [
-        [ "silverstripe/framework", "4.11.7" ],
+        [ "silverstripe/framework", "4.11.8" ],
         [ "silverstripe/vendor-plugin", "1.6.0" ]
       ]
     },
@@ -901,11 +902,8 @@
     },
     "silvershop/core": {
       "3.0.3": {
-        "path": "/tmp/tmp.1jT0KNNdqA/tmp.s9wT7oYIjr/tmp.6qNgSnkM5Z/tmp.IlbmF07IUn/",
         "rev": "5a5ef16da4fdf35868d199b287b9d2fb541f99f4",
-        "rootName": "silvershop/core",
-        "rootVersion": "3.0.3",
-        "type": "path",
+        "type": "git",
         "url": "https://github.com/silvershop/silvershop-core.git"
       }
     },
@@ -966,8 +964,8 @@
       }
     },
     "silverstripe/framework": {
-      "4.11.7": {
-        "rev": "7e9ced08245adb51201c016a672b1db87eb871b7",
+      "4.11.8": {
+        "rev": "b80309093c24c43822746fa36db64979de1aaae5",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/silverstripe/silverstripe-framework.git"
