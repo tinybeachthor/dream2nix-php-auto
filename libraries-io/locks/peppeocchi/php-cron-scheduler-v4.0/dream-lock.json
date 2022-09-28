@@ -1,0 +1,110 @@
+{
+  "_generic": {
+    "defaultPackage": "peppeocchi/php-cron-scheduler",
+    "location": "",
+    "packages": {
+      "peppeocchi/php-cron-scheduler": "v4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "ctype",
+      "json",
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "simplexml",
+      "mbstring",
+      "xml"
+    ],
+    "phpSemver": "^7.3 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dragonmantank/cron-expression": {
+      "v3.3.2": [
+        [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "peppeocchi/php-cron-scheduler": {
+      "v4.0": [
+        [ "dragonmantank/cron-expression", "v3.3.2" ],
+        [ "php-coveralls/php-coveralls", "v2.5.3" ],
+        [ "swiftmailer/swiftmailer", "v6.3.0" ]
+      ]
+    },
+    "php-coveralls/php-coveralls": {
+      "v2.5.3": [
+        [ "psr/log", "2.0.0" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.11.0": [
+        [ "symfony/polyfill-ctype", "dev-main" ]
+      ]
+    }
+  },
+  "sources": {
+    "dragonmantank/cron-expression": {
+      "v3.3.2": {
+        "rev": "782ca5968ab8b954773518e9e49a6f892a34b2a8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/dragonmantank/cron-expression.git"
+      }
+    },
+    "peppeocchi/php-cron-scheduler": {
+      "v4.0": {
+        "rev": "0acfa032e60f0ea22a27b96a6b15a673a31d3448",
+        "type": "git",
+        "url": "https://github.com/peppeocchi/php-cron-scheduler.git"
+      }
+    },
+    "php-coveralls/php-coveralls": {
+      "v2.5.3": {
+        "rev": "9d8243bbf0e053333692857c98fab7cfba0d60a9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-coveralls/php-coveralls.git"
+      }
+    },
+    "psr/log": {
+      "2.0.0": {
+        "rev": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "swiftmailer/swiftmailer": {
+      "v6.3.0": {
+        "rev": "8a5d5072dca8f48460fce2f4131fcc495eec654c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/swiftmailer/swiftmailer.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "dev-main": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.11.0": {
+        "rev": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git"
+      }
+    }
+  }
+}

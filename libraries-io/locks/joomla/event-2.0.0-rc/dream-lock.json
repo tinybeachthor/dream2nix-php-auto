@@ -1,0 +1,63 @@
+{
+  "_generic": {
+    "defaultPackage": "joomla/event",
+    "location": "",
+    "packages": {
+      "joomla/event": "2.0.0-rc"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "json",
+      "mbstring",
+      "xml",
+      "simplexml"
+    ],
+    "phpSemver": "^7.2.5"
+  },
+  "cyclicDependencies": {
+    "joomla/console": {
+      "2.0.1": [
+        [ "joomla/event", "2.0.0-rc" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "joomla/console": {
+      "2.0.1": [
+        [ "joomla/event", "2.0.0-rc" ]
+      ]
+    },
+    "joomla/event": {
+      "2.0.0-rc": [
+        [ "joomla/console", "2.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "joomla/console": {
+      "2.0.1": {
+        "rev": "e575f65a74c2af7e7ed9647383d17d198194dfa4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/joomla-framework/console.git"
+      }
+    },
+    "joomla/event": {
+      "2.0.0-rc": {
+        "rev": "f81952f2341780e48fe50b1c0f41d2221eeca5c2",
+        "type": "git",
+        "url": "https://github.com/joomla-framework/event.git"
+      }
+    }
+  }
+}

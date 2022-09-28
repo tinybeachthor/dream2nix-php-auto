@@ -1,0 +1,248 @@
+{
+  "_generic": {
+    "defaultPackage": "opencart/opencart",
+    "location": "",
+    "packages": {
+      "opencart/opencart": "3.0.3.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "curl",
+      "dom",
+      "hash",
+      "openssl",
+      "xmlwriter",
+      "ctype",
+      "json",
+      "libxml",
+      "simplexml"
+    ],
+    "phpSemver": ">=5.4.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cardinity/cardinity-sdk-php": {
+      "v1.0.3": [
+        [ "guzzlehttp/guzzle", "5.3.4" ],
+        [ "guzzlehttp/log-subscriber", "1.0.1" ],
+        [ "guzzlehttp/oauth-subscriber", "0.2.0" ],
+        [ "symfony/validator", "v2.8.52" ]
+      ]
+    },
+    "guzzlehttp/guzzle": {
+      "5.3.4": [
+        [ "guzzlehttp/ringphp", "1.1.1" ],
+        [ "react/promise", "v2.8.0" ]
+      ]
+    },
+    "guzzlehttp/log-subscriber": {
+      "1.0.1": [
+        [ "guzzlehttp/guzzle", "5.3.4" ],
+        [ "psr/log", "1.1.3" ]
+      ]
+    },
+    "guzzlehttp/oauth-subscriber": {
+      "0.2.0": [
+        [ "guzzlehttp/guzzle", "5.3.4" ]
+      ]
+    },
+    "guzzlehttp/ringphp": {
+      "1.1.1": [
+        [ "guzzlehttp/streams", "3.0.0" ],
+        [ "react/promise", "v2.8.0" ]
+      ]
+    },
+    "klarna/kco_rest": {
+      "v2.2.0": [
+        [ "guzzlehttp/guzzle", "5.3.4" ]
+      ]
+    },
+    "opencart/opencart": {
+      "3.0.3.8": [
+        [ "braintree/braintree_php", "3.40.0" ],
+        [ "cardinity/cardinity-sdk-php", "v1.0.3" ],
+        [ "divido/divido-php", "v1.15-stable" ],
+        [ "klarna/kco_rest", "v2.2.0" ],
+        [ "scssphp/scssphp", "1.1.1" ],
+        [ "twig/twig", "v2.13.0" ],
+        [ "zoujingli/wechat-php-sdk", "v1.3.18" ]
+      ]
+    },
+    "symfony/translation": {
+      "v3.0.9": [
+        [ "symfony/polyfill-mbstring", "v1.18.0" ]
+      ]
+    },
+    "symfony/validator": {
+      "v2.8.52": [
+        [ "symfony/polyfill-ctype", "v1.18.0" ],
+        [ "symfony/polyfill-mbstring", "v1.18.0" ],
+        [ "symfony/translation", "v3.0.9" ]
+      ]
+    },
+    "twig/twig": {
+      "v2.13.0": [
+        [ "symfony/polyfill-ctype", "v1.18.0" ],
+        [ "symfony/polyfill-mbstring", "v1.18.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "braintree/braintree_php": {
+      "3.40.0": {
+        "rev": "840fc6ebf8d96756fed475cce94565fef178187d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/braintree/braintree_php.git"
+      }
+    },
+    "cardinity/cardinity-sdk-php": {
+      "v1.0.3": {
+        "rev": "f51f6fbacee393b4eeff7b80be2b1cee77896b4c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cardinity/cardinity-sdk-php.git"
+      }
+    },
+    "divido/divido-php": {
+      "v1.15-stable": {
+        "rev": "8edd902ec2be8151331985021107031292b41ca1",
+        "submodules": false,
+        "type": "git",
+        "url": "git@github.com:DividoFinancialServices/divido-api-php.git"
+      }
+    },
+    "guzzlehttp/guzzle": {
+      "5.3.4": {
+        "rev": "b87eda7a7162f95574032da17e9323c9899cb6b2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle.git"
+      }
+    },
+    "guzzlehttp/log-subscriber": {
+      "1.0.1": {
+        "rev": "99c3c0004165db721d8ef7bbef60c996210e538a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/log-subscriber.git"
+      }
+    },
+    "guzzlehttp/oauth-subscriber": {
+      "0.2.0": {
+        "rev": "03f1ebe31d3112526106d0570c80eba6820e86e5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/oauth-subscriber.git"
+      }
+    },
+    "guzzlehttp/ringphp": {
+      "1.1.1": {
+        "rev": "5e2a174052995663dd68e6b5ad838afd47dd615b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/RingPHP.git"
+      }
+    },
+    "guzzlehttp/streams": {
+      "3.0.0": {
+        "rev": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/streams.git"
+      }
+    },
+    "klarna/kco_rest": {
+      "v2.2.0": {
+        "rev": "8a2142a2ebb087bb61901d51d1bb9698790e78c5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/klarna/kco_rest_php.git"
+      }
+    },
+    "opencart/opencart": {
+      "3.0.3.8": {
+        "rev": "8b4144edc3d54bfabea1295f936f7962e3a81d59",
+        "type": "git",
+        "url": "https://github.com/opencart/opencart.git"
+      }
+    },
+    "psr/log": {
+      "1.1.3": {
+        "rev": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "react/promise": {
+      "v2.8.0": {
+        "rev": "f3cff96a19736714524ca0dd1d4130de73dbbbc4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
+    "scssphp/scssphp": {
+      "1.1.1": {
+        "rev": "824e4cec10b2bfa88eec5dac23991cb9106622c1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/scssphp/scssphp.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.18.0": {
+        "rev": "1c302646f6efc070cd46856e600e5e0684d6b454",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.18.0": {
+        "rev": "a6977d63bf9a0ad4c65cd352709e230876f9904a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/translation": {
+      "v3.0.9": {
+        "rev": "eee6c664853fd0576f21ae25725cfffeafe83f26",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/validator": {
+      "v2.8.52": {
+        "rev": "d5d2090bba3139d8ddb79959fbf516e87238fe3a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/validator.git"
+      }
+    },
+    "twig/twig": {
+      "v2.13.0": {
+        "rev": "46a612ba1bbf6ee1c58acabacd868212ff8a2911",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git"
+      }
+    },
+    "zoujingli/wechat-php-sdk": {
+      "v1.3.18": {
+        "rev": "d37d0c1919ede2ee54e65100ac3792e947b1e0ef",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zoujingli/wechat-php-sdk.git"
+      }
+    }
+  }
+}

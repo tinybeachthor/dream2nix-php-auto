@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "phine/test",
+    "location": "",
+    "packages": {
+      "phine/test": "1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=5.3.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "phine/path": {
+      "1.1.0": [
+        [ "phine/exception", "1.0.0" ]
+      ]
+    },
+    "phine/test": {
+      "1.0.1": [
+        [ "league/phpunit-coverage-listener", "v1.1.2" ],
+        [ "phine/exception", "1.0.0" ],
+        [ "phine/path", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "league/phpunit-coverage-listener": {
+      "v1.1.2": {
+        "rev": "dedb0a4de71908de3e6793ecc424925cd3e54dc2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/phpunit-coverage-listener.git"
+      }
+    },
+    "phine/exception": {
+      "1.0.0": {
+        "rev": "150c6b6090b2ebc53c60e87cb20c7f1287b7b68a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/kherge-archive/lib-exception.git"
+      }
+    },
+    "phine/path": {
+      "1.1.0": {
+        "rev": "cbe1a5eb6cf22958394db2469af9b773508abddd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/box-project/box2-path.git"
+      }
+    },
+    "phine/test": {
+      "1.0.1": {
+        "rev": "ee73521c48026fe66fb5d6f8a4437dc16efd5b30",
+        "type": "git",
+        "url": "https://github.com/kherge-archive/lib-test.git"
+      }
+    }
+  }
+}

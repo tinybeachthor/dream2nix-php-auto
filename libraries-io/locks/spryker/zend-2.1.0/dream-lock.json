@@ -1,0 +1,109 @@
+{
+  "_generic": {
+    "defaultPackage": "spryker/zend",
+    "location": "",
+    "packages": {
+      "spryker/zend": "2.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "container-interop/container-interop": {
+      "1.2.0": [
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "spryker/zend": {
+      "2.1.0": [
+        [ "zendframework/zend-config", "3.3.0" ],
+        [ "zendframework/zend-filter", "2.9.2" ],
+        [ "zendframework/zend-servicemanager", "3.4.0" ]
+      ]
+    },
+    "zendframework/zend-config": {
+      "3.3.0": [
+        [ "psr/container", "1.1.2" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-filter": {
+      "2.9.2": [
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    },
+    "zendframework/zend-servicemanager": {
+      "3.4.0": [
+        [ "container-interop/container-interop", "1.2.0" ],
+        [ "psr/container", "1.1.2" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "container-interop/container-interop": {
+      "1.2.0": {
+        "rev": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/container-interop/container-interop.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "spryker/zend": {
+      "2.1.0": {
+        "rev": "820b8ecbadc8fb54b9e1e1048a788366f3248183",
+        "type": "git",
+        "url": "https://github.com/spryker/Zend.git"
+      }
+    },
+    "zendframework/zend-config": {
+      "3.3.0": {
+        "rev": "012341361ae3cc97a99959e7cb7c9ebd04d49572",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-config.git"
+      }
+    },
+    "zendframework/zend-filter": {
+      "2.9.2": {
+        "rev": "d78f2cdde1c31975e18b2a0753381ed7b61118ef",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-filter.git"
+      }
+    },
+    "zendframework/zend-servicemanager": {
+      "3.4.0": {
+        "rev": "a1ed6140d0d3ee803fec96582593ed024950067b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-servicemanager.git"
+      }
+    },
+    "zendframework/zend-stdlib": {
+      "3.2.1": {
+        "rev": "66536006722aff9e62d1b331025089b7ec71c065",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-stdlib.git"
+      }
+    }
+  }
+}

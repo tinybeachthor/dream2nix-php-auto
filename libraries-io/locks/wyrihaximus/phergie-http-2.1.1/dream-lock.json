@@ -1,0 +1,192 @@
+{
+  "_generic": {
+    "defaultPackage": "wyrihaximus/phergie-http",
+    "location": "",
+    "packages": {
+      "wyrihaximus/phergie-http": "2.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl"
+    ],
+    "phpSemver": ">=5.4.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "phergie/phergie-irc-bot-react": {
+      "1.0.0": [
+        [ "monolog/monolog", "1.6.0" ],
+        [ "phergie/phergie-irc-client-react", "2.0.0" ],
+        [ "phergie/phergie-irc-connection", "1.2.0" ],
+        [ "phergie/phergie-irc-event", "1.0.0" ]
+      ]
+    },
+    "phergie/phergie-irc-client-react": {
+      "2.0.0": [
+        [ "monolog/monolog", "1.6.0" ],
+        [ "phergie/phergie-irc-connection", "1.2.0" ],
+        [ "phergie/phergie-irc-generator", "1.4.0" ],
+        [ "phergie/phergie-irc-parser", "1.5.0" ],
+        [ "react/event-loop", "v0.4.1" ],
+        [ "react/promise", "v2.1.0" ],
+        [ "react/stream", "v0.4.2" ]
+      ]
+    },
+    "phergie/phergie-irc-event": {
+      "1.0.0": [
+        [ "phergie/phergie-irc-connection", "1.2.0" ]
+      ]
+    },
+    "react/http-client": {
+      "v0.4.1": [
+        [ "guzzle/parser", "v3.9.2" ],
+        [ "react/event-loop", "v0.4.1" ],
+        [ "react/stream", "v0.4.2" ]
+      ]
+    },
+    "wyrihaximus/phergie-dns": {
+      "2.1.0": [
+        [ "phergie/phergie-irc-bot-react", "1.0.0" ]
+      ]
+    },
+    "wyrihaximus/phergie-http": {
+      "2.1.1": [
+        [ "phergie/phergie-irc-bot-react", "1.0.0" ],
+        [ "react/http-client", "v0.4.1" ],
+        [ "vectorface/dunit", "dev-master" ],
+        [ "wyrihaximus/phergie-dns", "2.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "guzzle/parser": {
+      "v3.9.2": {
+        "rev": "6874d171318a8e93eb6d224cf85e4678490b625c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/parser.git"
+      }
+    },
+    "monolog/monolog": {
+      "1.6.0": {
+        "rev": "f72392d0e6eb855118f5a84e89ac2d257c704abd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "phergie/phergie-irc-bot-react": {
+      "1.0.0": {
+        "rev": "190ca12a6c9ae2c80694b93a8a842b98dc5924a0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-bot-react.git"
+      }
+    },
+    "phergie/phergie-irc-client-react": {
+      "2.0.0": {
+        "rev": "00f8c50e9e35a786602a0621e9f968f0f39e09c9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-client-react.git"
+      }
+    },
+    "phergie/phergie-irc-connection": {
+      "1.2.0": {
+        "rev": "2bde216f91ff6b7c51bdd77abe356d8c658fa742",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-connection.git"
+      }
+    },
+    "phergie/phergie-irc-event": {
+      "1.0.0": {
+        "rev": "ab325cdc97863810a8dd4e905b9652c6d97331aa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-event.git"
+      }
+    },
+    "phergie/phergie-irc-generator": {
+      "1.4.0": {
+        "rev": "402a9c9dc341a8d5902faae11a9459ed41a59767",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-generator.git"
+      }
+    },
+    "phergie/phergie-irc-parser": {
+      "1.5.0": {
+        "rev": "712e55ba044ae2f407a61af1b8e692e538337014",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phergie/phergie-irc-parser.git"
+      }
+    },
+    "react/event-loop": {
+      "v0.4.1": {
+        "rev": "18c5297087ca01de85518e2b55078f444144aa1b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/event-loop.git"
+      }
+    },
+    "react/http-client": {
+      "v0.4.1": {
+        "rev": "9f5e634351ad7f82431afa0568798ad99ec20034",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/http-client.git"
+      }
+    },
+    "react/promise": {
+      "v2.1.0": {
+        "rev": "937b04f1b0ee8f6d180e75a0830aac778ca4bcd6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
+    "react/stream": {
+      "v0.4.2": {
+        "rev": "acc7a5fec02e0aea674560e1d13c40ed0c8c5465",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/stream.git"
+      }
+    },
+    "vectorface/dunit": {
+      "dev-master": {
+        "rev": "52b2654b0eca7830f42fd854fa22bc3cc4f92900",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Vectorface/dunit.git"
+      }
+    },
+    "wyrihaximus/phergie-dns": {
+      "2.1.0": {
+        "rev": "579a601a5caac793f7f68453a4fde6085e3ac2ad",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/PhergieDns.git"
+      }
+    },
+    "wyrihaximus/phergie-http": {
+      "2.1.1": {
+        "rev": "26a89d7c927e3518520de5ad1766efb7a3edfbc7",
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/PhergieHttp.git"
+      }
+    }
+  }
+}

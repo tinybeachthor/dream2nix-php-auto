@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "joomla/application",
+    "location": "",
+    "packages": {
+      "joomla/application": "2.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "mbstring",
+      "xml",
+      "simplexml"
+    ],
+    "phpSemver": "^7.2.5|~8.0.0|~8.1.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "joomla/application": {
+      "2.0.2": [
+        [ "joomla/test", "2.0.2" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "joomla/application": {
+      "2.0.2": {
+        "rev": "5aedbd5d6a4ee2c974f55d905071f5503f609a45",
+        "type": "git",
+        "url": "https://github.com/joomla-framework/application.git"
+      }
+    },
+    "joomla/test": {
+      "2.0.2": {
+        "rev": "557149c24173aea1780d655d3bd2aa69fe921b5b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/joomla-framework/test.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    }
+  }
+}

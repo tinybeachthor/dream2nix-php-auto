@@ -1,0 +1,76 @@
+{
+  "_generic": {
+    "defaultPackage": "delight-im/auth",
+    "location": "",
+    "packages": {
+      "delight-im/auth": "v8.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "openssl",
+      "pdo"
+    ],
+    "phpSemver": ">=5.6.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "delight-im/auth": {
+      "v8.3.0": [
+        [ "delight-im/base64", "v1.0.0" ],
+        [ "delight-im/cookie", "v3.1.0" ],
+        [ "delight-im/db", "v1.3.0" ]
+      ]
+    },
+    "delight-im/cookie": {
+      "v3.1.0": [
+        [ "delight-im/http", "v2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "delight-im/auth": {
+      "v8.3.0": {
+        "rev": "7bce546defa2bec75485d4bf1d68b72cf311c489",
+        "type": "git",
+        "url": "https://github.com/delight-im/PHP-Auth.git"
+      }
+    },
+    "delight-im/base64": {
+      "v1.0.0": {
+        "rev": "687b2a49f663e162030a8d27b32838bbe7f91c78",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/delight-im/PHP-Base64.git"
+      }
+    },
+    "delight-im/cookie": {
+      "v3.1.0": {
+        "rev": "76ef2a21817cf7a034f85fc3f4d4bfc60f873947",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/delight-im/PHP-Cookie.git"
+      }
+    },
+    "delight-im/db": {
+      "v1.3.0": {
+        "rev": "7a03da20b5592fa445c10cd6c7245d51037292c4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/delight-im/PHP-DB.git"
+      }
+    },
+    "delight-im/http": {
+      "v2.0.0": {
+        "rev": "0a19a72a7eac8b1301aa972fb20cff494ac43e09",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/delight-im/PHP-HTTP.git"
+      }
+    }
+  }
+}

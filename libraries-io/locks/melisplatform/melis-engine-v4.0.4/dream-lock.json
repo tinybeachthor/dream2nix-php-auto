@@ -1,0 +1,1092 @@
+{
+  "_generic": {
+    "defaultPackage": "melisplatform/melis-engine",
+    "location": "",
+    "packages": {
+      "melisplatform/melis-engine": "v4.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "openssl",
+      "pcre",
+      "json",
+      "mbstring",
+      "ctype",
+      "intl",
+      "iconv",
+      "dom",
+      "filter",
+      "pdo_mysql",
+      "tokenizer"
+    ],
+    "phpSemver": "^7.1.3|^7.2|^7.3"
+  },
+  "cyclicDependencies": {
+    "melisplatform/melis-asset-manager": {
+      "v4.1.0": [
+        [ "melisplatform/melis-core", "v4.0.8" ]
+      ]
+    },
+    "melisplatform/melis-front": {
+      "v4.1.2": [
+        [ "melisplatform/melis-engine", "v4.0.4" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "brick/varexporter": {
+      "0.3.7": [
+        [ "nikic/php-parser", "v4.15.1" ]
+      ]
+    },
+    "composer/composer": {
+      "1.9.3": [
+        [ "composer/ca-bundle", "1.3.3" ],
+        [ "composer/semver", "1.7.2" ],
+        [ "composer/spdx-licenses", "1.5.7" ],
+        [ "composer/xdebug-handler", "1.4.6" ],
+        [ "justinrainbow/json-schema", "5.2.1" ],
+        [ "psr/log", "1.1.4" ],
+        [ "seld/jsonlint", "1.9.0" ],
+        [ "seld/phar-utils", "1.2.1" ],
+        [ "symfony/console", "v4.4.45" ],
+        [ "symfony/filesystem", "v4.4.42" ],
+        [ "symfony/finder", "v4.4.44" ],
+        [ "symfony/process", "v4.4.44" ]
+      ]
+    },
+    "composer/xdebug-handler": {
+      "1.4.6": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "laminas/laminas-authentication": {
+      "2.12.0": [
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-cache": {
+      "2.11.3": [
+        [ "laminas/laminas-cache-storage-adapter-apc", "1.0.1" ],
+        [ "laminas/laminas-cache-storage-adapter-apcu", "1.1.0" ],
+        [ "laminas/laminas-cache-storage-adapter-blackhole", "1.2.1" ],
+        [ "laminas/laminas-cache-storage-adapter-dba", "1.0.1" ],
+        [ "laminas/laminas-cache-storage-adapter-ext-mongodb", "1.2.0" ],
+        [ "laminas/laminas-cache-storage-adapter-filesystem", "1.1.1" ],
+        [ "laminas/laminas-cache-storage-adapter-memcache", "1.1.0" ],
+        [ "laminas/laminas-cache-storage-adapter-memcached", "1.2.0" ],
+        [ "laminas/laminas-cache-storage-adapter-memory", "1.1.0" ],
+        [ "laminas/laminas-cache-storage-adapter-mongodb", "1.0.1" ],
+        [ "laminas/laminas-cache-storage-adapter-redis", "1.2.0" ],
+        [ "laminas/laminas-cache-storage-adapter-session", "1.1.0" ],
+        [ "laminas/laminas-cache-storage-adapter-wincache", "1.0.1" ],
+        [ "laminas/laminas-cache-storage-adapter-xcache", "1.0.1" ],
+        [ "laminas/laminas-cache-storage-adapter-zend-server", "1.0.1" ],
+        [ "laminas/laminas-eventmanager", "3.5.0" ],
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "laminas/laminas-zendframework-bridge", "1.6.1" ],
+        [ "psr/cache", "1.0.1" ],
+        [ "psr/simple-cache", "1.0.1" ]
+      ]
+    },
+    "laminas/laminas-config": {
+      "3.7.0": [
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "laminas/laminas-crypt": {
+      "3.8.0": [
+        [ "laminas/laminas-math", "3.5.0" ],
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "psr/container", "1.1.2" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "laminas/laminas-db": {
+      "2.15.0": [
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-developer-tools": {
+      "2.5.0": [
+        [ "laminas/laminas-eventmanager", "3.5.0" ],
+        [ "laminas/laminas-http", "2.16.0" ],
+        [ "laminas/laminas-modulemanager", "2.12.0" ],
+        [ "laminas/laminas-mvc", "3.3.5" ],
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "laminas/laminas-view", "2.23.0" ],
+        [ "symfony/var-dumper", "v5.4.11" ]
+      ]
+    },
+    "laminas/laminas-escaper": {
+      "2.10.0": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "laminas/laminas-file": {
+      "2.11.0": [
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-filter": {
+      "2.20.0": [
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-form": {
+      "2.15.1": [
+        [ "laminas/laminas-hydrator", "2.4.2" ],
+        [ "laminas/laminas-inputfilter", "2.21.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "laminas/laminas-zendframework-bridge", "1.6.1" ]
+      ]
+    },
+    "laminas/laminas-http": {
+      "2.16.0": [
+        [ "laminas/laminas-loader", "2.8.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "laminas/laminas-uri", "2.9.1" ],
+        [ "laminas/laminas-validator", "2.25.0" ]
+      ]
+    },
+    "laminas/laminas-hydrator": {
+      "2.4.2": [
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "laminas/laminas-zendframework-bridge", "1.6.1" ]
+      ]
+    },
+    "laminas/laminas-i18n": {
+      "2.18.0": [
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-inputfilter": {
+      "2.21.0": [
+        [ "laminas/laminas-filter", "2.20.0" ],
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "laminas/laminas-validator", "2.25.0" ]
+      ]
+    },
+    "laminas/laminas-mail": {
+      "2.18.0": [
+        [ "laminas/laminas-loader", "2.8.0" ],
+        [ "laminas/laminas-mime", "2.10.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "laminas/laminas-validator", "2.25.0" ],
+        [ "symfony/polyfill-intl-idn", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "laminas/laminas-math": {
+      "3.5.0": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "laminas/laminas-mime": {
+      "2.10.0": [
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-modulemanager": {
+      "2.12.0": [
+        [ "brick/varexporter", "0.3.7" ],
+        [ "laminas/laminas-config", "3.7.0" ],
+        [ "laminas/laminas-eventmanager", "3.5.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "webimpress/safe-writer", "2.2.0" ]
+      ]
+    },
+    "laminas/laminas-mvc": {
+      "3.3.5": [
+        [ "laminas/laminas-eventmanager", "3.5.0" ],
+        [ "laminas/laminas-http", "2.16.0" ],
+        [ "laminas/laminas-modulemanager", "2.12.0" ],
+        [ "laminas/laminas-router", "3.9.0" ],
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "laminas/laminas-view", "2.23.0" ]
+      ]
+    },
+    "laminas/laminas-mvc-i18n": {
+      "1.4.0": [
+        [ "laminas/laminas-i18n", "2.18.0" ],
+        [ "laminas/laminas-router", "3.9.0" ],
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "laminas/laminas-validator", "2.25.0" ]
+      ]
+    },
+    "laminas/laminas-navigation": {
+      "2.15.0": [
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-router": {
+      "3.9.0": [
+        [ "laminas/laminas-http", "2.16.0" ],
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-serializer": {
+      "2.13.0": [
+        [ "laminas/laminas-json", "3.3.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-servicemanager": {
+      "3.17.0": [
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "laminas/laminas-session": {
+      "2.13.0": [
+        [ "laminas/laminas-eventmanager", "3.5.0" ],
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-uri": {
+      "2.9.1": [
+        [ "laminas/laminas-escaper", "2.10.0" ],
+        [ "laminas/laminas-validator", "2.25.0" ]
+      ]
+    },
+    "laminas/laminas-validator": {
+      "2.25.0": [
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ]
+      ]
+    },
+    "laminas/laminas-view": {
+      "2.23.0": [
+        [ "laminas/laminas-escaper", "2.10.0" ],
+        [ "laminas/laminas-eventmanager", "3.5.0" ],
+        [ "laminas/laminas-json", "3.3.0" ],
+        [ "laminas/laminas-servicemanager", "3.17.0" ],
+        [ "laminas/laminas-stdlib", "3.13.0" ],
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "matthiasmullie/minify": {
+      "1.3.69": [
+        [ "matthiasmullie/path-converter", "1.1.3" ]
+      ]
+    },
+    "melisplatform/melis-asset-manager": {
+      "v4.1.0": [
+        [ "melisplatform/melis-core", "v4.0.8" ]
+      ]
+    },
+    "melisplatform/melis-composerdeploy": {
+      "v4.1.0": [
+        [ "composer/composer", "1.9.3" ]
+      ]
+    },
+    "melisplatform/melis-core": {
+      "v4.0.8": [
+        [ "composer/composer", "1.9.3" ],
+        [ "justinrainbow/json-schema", "5.2.1" ],
+        [ "laminas/laminas-authentication", "2.12.0" ],
+        [ "laminas/laminas-crypt", "3.8.0" ],
+        [ "laminas/laminas-db", "2.15.0" ],
+        [ "laminas/laminas-developer-tools", "2.5.0" ],
+        [ "laminas/laminas-development-mode", "3.8.0" ],
+        [ "laminas/laminas-file", "2.11.0" ],
+        [ "laminas/laminas-form", "2.15.1" ],
+        [ "laminas/laminas-hydrator", "2.4.2" ],
+        [ "laminas/laminas-i18n", "2.18.0" ],
+        [ "laminas/laminas-inputfilter", "2.21.0" ],
+        [ "laminas/laminas-mail", "2.18.0" ],
+        [ "laminas/laminas-mime", "2.10.0" ],
+        [ "laminas/laminas-mvc", "3.3.5" ],
+        [ "laminas/laminas-mvc-i18n", "1.4.0" ],
+        [ "laminas/laminas-session", "2.13.0" ],
+        [ "melisplatform/melis-asset-manager", "v4.1.0" ],
+        [ "melisplatform/melis-composerdeploy", "v4.1.0" ],
+        [ "melisplatform/melis-dbdeploy", "v4.1.0" ],
+        [ "symfony/service-contracts", "v1.1.8" ]
+      ]
+    },
+    "melisplatform/melis-dbdeploy": {
+      "v4.1.0": [
+        [ "phing/phing", "2.16.4" ]
+      ]
+    },
+    "melisplatform/melis-engine": {
+      "v4.0.4": [
+        [ "laminas/laminas-cache", "2.11.3" ],
+        [ "melisplatform/melis-core", "v4.0.8" ],
+        [ "melisplatform/melis-front", "v4.1.2" ]
+      ]
+    },
+    "melisplatform/melis-front": {
+      "v4.1.2": [
+        [ "laminas/laminas-file", "2.11.0" ],
+        [ "laminas/laminas-navigation", "2.15.0" ],
+        [ "laminas/laminas-serializer", "2.13.0" ],
+        [ "matthiasmullie/minify", "1.3.69" ],
+        [ "melisplatform/melis-core", "v4.0.8" ],
+        [ "melisplatform/melis-engine", "v4.0.4" ]
+      ]
+    },
+    "symfony/console": {
+      "v4.4.45": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/service-contracts", "v1.1.8" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v4.4.42": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/finder": {
+      "v4.4.44": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": [
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-php72", "v1.26.0" ]
+      ]
+    },
+    "symfony/process": {
+      "v4.4.44": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v1.1.8": [
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "symfony/var-dumper": {
+      "v5.4.11": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.11.0": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "brick/varexporter": {
+      "0.3.7": {
+        "rev": "3e263cd718d242594c52963760fee2059fd5833c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/brick/varexporter.git"
+      }
+    },
+    "composer/ca-bundle": {
+      "1.3.3": {
+        "rev": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "composer/composer": {
+      "1.9.3": {
+        "rev": "1291a16ce3f48bfdeca39d64fca4875098af4d7b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/composer.git"
+      }
+    },
+    "composer/semver": {
+      "1.7.2": {
+        "rev": "647490bbcaf7fc4891c58f47b825eb99d19c377a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/spdx-licenses": {
+      "1.5.7": {
+        "rev": "c848241796da2abf65837d51dce1fae55a960149",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/spdx-licenses.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "1.4.6": {
+        "rev": "f27e06cd9675801df441b3656569b328e04aa37c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "justinrainbow/json-schema": {
+      "5.2.1": {
+        "rev": "429be236f296ca249d61c65649cdf2652f4a5e80",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/justinrainbow/json-schema.git"
+      }
+    },
+    "laminas/laminas-authentication": {
+      "2.12.0": {
+        "rev": "ecb59c6d7f7d0ed39790264ca16a94636cac98ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-authentication.git"
+      }
+    },
+    "laminas/laminas-cache": {
+      "2.11.3": {
+        "rev": "775cf8815cfd5a654f9b7b341ebaf28e72aa457d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-apc": {
+      "1.0.1": {
+        "rev": "8b375d994f6e67534f6ae6e995249e706faa30c1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-apc.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-apcu": {
+      "1.1.0": {
+        "rev": "e182aab739d6b03992a9915cc3c7019391a94548",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-apcu.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-blackhole": {
+      "1.2.1": {
+        "rev": "4af1053efd81785a292c2a9442871c075700345a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-blackhole.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-dba": {
+      "1.0.1": {
+        "rev": "ad968d3d8a0350af8e6717be58bb96e5a9e77f3b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-dba.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-ext-mongodb": {
+      "1.2.0": {
+        "rev": "72f68589cc8323fa688167a4720b795dd0907f4e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-ext-mongodb.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-filesystem": {
+      "1.1.1": {
+        "rev": "76fc488c3fa0ad442e4e70f807305c940d1bdcbc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-filesystem.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-memcache": {
+      "1.1.0": {
+        "rev": "1d2a74e300a0fd0b8d0e0cb4e379a173ccad0088",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-memcache.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-memcached": {
+      "1.2.0": {
+        "rev": "d05f33e43a352b85c6d0208e9cfbf2a59f02ede3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-memcached.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-memory": {
+      "1.1.0": {
+        "rev": "02c7a4a1118bbd47d1c0f0bfe1e8b140af79d2bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-memory.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-mongodb": {
+      "1.0.1": {
+        "rev": "ef4aa396b55533b8eb3e1d4126c39a78a22e49a6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-mongodb.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-redis": {
+      "1.2.0": {
+        "rev": "de8a63d4a0ef1ccead401eb7fb6d75b57fa3f9ee",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-redis.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-session": {
+      "1.1.0": {
+        "rev": "74a275056cfca2300eb9a67cd1d917f7066b4113",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-session.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-wincache": {
+      "1.0.1": {
+        "rev": "0f54599c5d9aff11b01adadd2742097f923170ba",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-wincache.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-xcache": {
+      "1.0.1": {
+        "rev": "24049557aa796ec7527bcc8032ed68346232b219",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-xcache.git"
+      }
+    },
+    "laminas/laminas-cache-storage-adapter-zend-server": {
+      "1.0.1": {
+        "rev": "8d0b0d219a048a92472d89a5e527990f3ea2decc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-cache-storage-adapter-zend-server.git"
+      }
+    },
+    "laminas/laminas-config": {
+      "3.7.0": {
+        "rev": "e43d13dcfc273d4392812eb395ce636f73f34dfd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-config.git"
+      }
+    },
+    "laminas/laminas-crypt": {
+      "3.8.0": {
+        "rev": "0972bb907fd555c16e2a65309b66720acf2b8699",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-crypt.git"
+      }
+    },
+    "laminas/laminas-db": {
+      "2.15.0": {
+        "rev": "1125ef2e55108bdfcc1f0030d3a0f9b895e09606",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-db.git"
+      }
+    },
+    "laminas/laminas-developer-tools": {
+      "2.5.0": {
+        "rev": "d6a7110dbdc4674f4382325ac6d81e476ff7c8ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-developer-tools.git"
+      }
+    },
+    "laminas/laminas-development-mode": {
+      "3.8.0": {
+        "rev": "a01e937a41909df8a6750d500a819fbda4ce6be0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-development-mode.git"
+      }
+    },
+    "laminas/laminas-escaper": {
+      "2.10.0": {
+        "rev": "58af67282db37d24e584a837a94ee55b9c7552be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-escaper.git"
+      }
+    },
+    "laminas/laminas-eventmanager": {
+      "3.5.0": {
+        "rev": "41f7209428f37cab9573365e361f4078209aaafa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-eventmanager.git"
+      }
+    },
+    "laminas/laminas-file": {
+      "2.11.0": {
+        "rev": "8eebc51715188032161fbafeae22a618af16bdb3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-file.git"
+      }
+    },
+    "laminas/laminas-filter": {
+      "2.20.0": {
+        "rev": "fa2ef11911a5b99e4323ee24e9ed85703f14a983",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-filter.git"
+      }
+    },
+    "laminas/laminas-form": {
+      "2.15.1": {
+        "rev": "37c5f5ac9240159f5d93f52367d0e57fa96f9b22",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-form.git"
+      }
+    },
+    "laminas/laminas-http": {
+      "2.16.0": {
+        "rev": "7300482d3e570e81b6a6ecf6b28da1b12334bf63",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-http.git"
+      }
+    },
+    "laminas/laminas-hydrator": {
+      "2.4.2": {
+        "rev": "4a0e81cf05f32edcace817f1f48cb4055f689d85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-hydrator.git"
+      }
+    },
+    "laminas/laminas-i18n": {
+      "2.18.0": {
+        "rev": "ba4c7a12e0ff63a033aa16d4aa061ea09bda7f98",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-i18n.git"
+      }
+    },
+    "laminas/laminas-inputfilter": {
+      "2.21.0": {
+        "rev": "8668227246d19564f339643f0f2aedcdff66612b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-inputfilter.git"
+      }
+    },
+    "laminas/laminas-json": {
+      "3.3.0": {
+        "rev": "9a0ce9f330b7d11e70c4acb44d67e8c4f03f437f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-json.git"
+      }
+    },
+    "laminas/laminas-loader": {
+      "2.8.0": {
+        "rev": "d0589ec9dd48365fd95ad10d1c906efd7711c16b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-loader.git"
+      }
+    },
+    "laminas/laminas-mail": {
+      "2.18.0": {
+        "rev": "0976a33ca997c803379f9a4641d4942dfb79b2cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-mail.git"
+      }
+    },
+    "laminas/laminas-math": {
+      "3.5.0": {
+        "rev": "146d8187ab247ae152e811a6704a953d43537381",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-math.git"
+      }
+    },
+    "laminas/laminas-mime": {
+      "2.10.0": {
+        "rev": "62a899a7c9100889c2d2386b1357003a2cb52fa9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-mime.git"
+      }
+    },
+    "laminas/laminas-modulemanager": {
+      "2.12.0": {
+        "rev": "cd2dd3b3dc59e75a9f2117374222c0d84b25bf19",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-modulemanager.git"
+      }
+    },
+    "laminas/laminas-mvc": {
+      "3.3.5": {
+        "rev": "43fa8b0a02376cfe3209a91140bc97e94cd62d6e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-mvc.git"
+      }
+    },
+    "laminas/laminas-mvc-i18n": {
+      "1.4.0": {
+        "rev": "6dc949c045d7a2c27652a3bb891d46ef5e1814e4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-mvc-i18n.git"
+      }
+    },
+    "laminas/laminas-navigation": {
+      "2.15.0": {
+        "rev": "4818d772a3d51231c07e1ae3067e48ceef746b85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-navigation.git"
+      }
+    },
+    "laminas/laminas-router": {
+      "3.9.0": {
+        "rev": "ebd084f7fda7520394b9ddc1e9ec2cbdf2094daa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-router.git"
+      }
+    },
+    "laminas/laminas-serializer": {
+      "2.13.0": {
+        "rev": "aa72a694d79f01ef1252b276ca9930158c3b877d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-serializer.git"
+      }
+    },
+    "laminas/laminas-servicemanager": {
+      "3.17.0": {
+        "rev": "360be5f16955dd1edbcce1cfaa98ed82a17f02ec",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-servicemanager.git"
+      }
+    },
+    "laminas/laminas-session": {
+      "2.13.0": {
+        "rev": "9f8a6077dd22b3b253583b1be84ddd5bf6fa1ef4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-session.git"
+      }
+    },
+    "laminas/laminas-stdlib": {
+      "3.13.0": {
+        "rev": "66a6d03c381f6c9f1dd988bf8244f9afb9380d76",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-stdlib.git"
+      }
+    },
+    "laminas/laminas-uri": {
+      "2.9.1": {
+        "rev": "7e837dc15c8fd3949df7d1213246fd7c8640032b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-uri.git"
+      }
+    },
+    "laminas/laminas-validator": {
+      "2.25.0": {
+        "rev": "42de39b78e73b321db7d948cf8530a2764f8b9aa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-validator.git"
+      }
+    },
+    "laminas/laminas-view": {
+      "2.23.0": {
+        "rev": "69ea122cd53f7839e58cb250975932332e542524",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-view.git"
+      }
+    },
+    "laminas/laminas-zendframework-bridge": {
+      "1.6.1": {
+        "rev": "e112dd2c099f4f6142c16fc65fda89a638e06885",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-zendframework-bridge.git"
+      }
+    },
+    "matthiasmullie/minify": {
+      "1.3.69": {
+        "rev": "a61c949cccd086808063611ef9698eabe42ef22f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/matthiasmullie/minify.git"
+      }
+    },
+    "matthiasmullie/path-converter": {
+      "1.1.3": {
+        "rev": "e7d13b2c7e2f2268e1424aaed02085518afa02d9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/matthiasmullie/path-converter.git"
+      }
+    },
+    "melisplatform/melis-asset-manager": {
+      "v4.1.0": {
+        "rev": "05e59297e59e9aa8148cd2eafd76eace9f55815b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/melisplatform/melis-asset-manager.git"
+      }
+    },
+    "melisplatform/melis-composerdeploy": {
+      "v4.1.0": {
+        "rev": "60a2909adc838c443123fd5d5b2fa734d513ad0e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/melisplatform/melis-composerdeploy.git"
+      }
+    },
+    "melisplatform/melis-core": {
+      "v4.0.8": {
+        "rev": "27b565ae27c4f1f0b2e023ecf151f2bc70c8490f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/melisplatform/melis-core.git"
+      }
+    },
+    "melisplatform/melis-dbdeploy": {
+      "v4.1.0": {
+        "rev": "f4cc3f63853c09f2775e3e8572450c89ce6ce8cf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/melisplatform/melis-dbdeploy.git"
+      }
+    },
+    "melisplatform/melis-engine": {
+      "v4.0.4": {
+        "rev": "fa5f97ac98d244cff6bc7aea71f92dc05881c6d7",
+        "type": "git",
+        "url": "https://github.com/melisplatform/melis-engine.git"
+      }
+    },
+    "melisplatform/melis-front": {
+      "v4.1.2": {
+        "rev": "254f5818e06b850c086b8242c9b015c3ce6fec64",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/melisplatform/melis-front.git"
+      }
+    },
+    "nikic/php-parser": {
+      "v4.15.1": {
+        "rev": "0ef6c55a3f47f89d7a374e6f835197a0b5fcf900",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nikic/PHP-Parser.git"
+      }
+    },
+    "phing/phing": {
+      "2.16.4": {
+        "rev": "30831b22fc6bab57003f1893842668c44b7f65ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phingofficial/phing.git"
+      }
+    },
+    "psr/cache": {
+      "1.0.1": {
+        "rev": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "psr/simple-cache": {
+      "1.0.1": {
+        "rev": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/simple-cache.git"
+      }
+    },
+    "seld/jsonlint": {
+      "1.9.0": {
+        "rev": "4211420d25eba80712bff236a98960ef68b866b7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/jsonlint.git"
+      }
+    },
+    "seld/phar-utils": {
+      "1.2.1": {
+        "rev": "ea2f4014f163c1be4c601b9b7bd6af81ba8d701c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/phar-utils.git"
+      }
+    },
+    "symfony/console": {
+      "v4.4.45": {
+        "rev": "28b77970939500fb04180166a1f716e75a871ef8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v4.4.42": {
+        "rev": "815412ee8971209bd4c1eecd5f4f481eacd44bf5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v4.4.44": {
+        "rev": "66bd787edb5e42ff59d3523f623895af05043e4f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": {
+        "rev": "59a8d271f00dd0e4c2e518104cc7963f655a1aa8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-idn.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php72": {
+      "v1.26.0": {
+        "rev": "bf44a9fd41feaac72b074de600314a93e2ae78e2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php72.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/process": {
+      "v4.4.44": {
+        "rev": "5cee9cdc4f7805e2699d9fd66991a0e6df8252a2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v1.1.8": {
+        "rev": "ffc7f5692092df31515df2a5ecf3b7302b3ddacf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/var-dumper": {
+      "v5.4.11": {
+        "rev": "b8f306d7b8ef34fb3db3305be97ba8e088fb4861",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/var-dumper.git"
+      }
+    },
+    "webimpress/safe-writer": {
+      "2.2.0": {
+        "rev": "9d37cc8bee20f7cb2f58f6e23e05097eab5072e6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webimpress/safe-writer.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.11.0": {
+        "rev": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git"
+      }
+    }
+  }
+}

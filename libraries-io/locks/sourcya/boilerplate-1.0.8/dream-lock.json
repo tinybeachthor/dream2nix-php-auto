@@ -1,0 +1,362 @@
+{
+  "_generic": {
+    "defaultPackage": "sourcya/boilerplate",
+    "location": "",
+    "packages": {
+      "sourcya/boilerplate": "1.0.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "openssl",
+      "mbstring",
+      "fileinfo",
+      "dom",
+      "libxml"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {
+    "sourcya/address-module": {
+      "1.0.2": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/agent-module": {
+      "1.0.0": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/app-settings-module": {
+      "1.0.0": [
+        [ "sourcya/core", "1.2.0" ]
+      ]
+    },
+    "sourcya/attribute-module": {
+      "1.0.0": [
+        [ "sourcya/core", "1.2.0" ]
+      ]
+    },
+    "sourcya/comment-module": {
+      "1.0.1": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/contact-module": {
+      "1.0.2": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/core": {
+      "1.2.0": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/notification-module": {
+      "1.0.0": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/rating-module": {
+      "1.0.0": [
+        [ "sourcya/core", "1.2.0" ]
+      ]
+    },
+    "sourcya/status-module": {
+      "1.0.1": [
+        [ "sourcya/core", "1.2.0" ]
+      ]
+    },
+    "sourcya/upload-module": {
+      "1.0.1": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/user-module": {
+      "1.0.2": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "laravel/passport": {
+      "v7.5.1": [
+        [ "firebase/php-jwt", "v5.5.1" ],
+        [ "league/oauth2-server", "7.4.0" ],
+        [ "symfony/psr-http-message-bridge", "v1.3.0" ]
+      ]
+    },
+    "league/oauth2-server": {
+      "7.4.0": [
+        [ "defuse/php-encryption", "v2.3.1" ],
+        [ "league/event", "2.2.0" ]
+      ]
+    },
+    "nicolaslopezj/searchable": {
+      "1.13.0": [
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "sourcya/address-module": {
+      "1.0.2": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/agent-module": {
+      "1.0.0": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/app-settings-module": {
+      "1.0.0": [
+        [ "sourcya/core", "1.2.0" ]
+      ]
+    },
+    "sourcya/attribute-module": {
+      "1.0.0": [
+        [ "sourcya/core", "1.2.0" ]
+      ]
+    },
+    "sourcya/boilerplate": {
+      "1.0.8": [
+        [ "biscolab/laravel-recaptcha", "v3.6.1" ],
+        [ "laravel/passport", "v7.5.1" ],
+        [ "nicolaslopezj/searchable", "1.13.0" ],
+        [ "sourcya/agent-module", "1.0.0" ],
+        [ "sourcya/core", "1.2.0" ],
+        [ "sourcya/notification-module", "1.0.0" ],
+        [ "sourcya/upload-module", "1.0.1" ],
+        [ "sourcya/user-module", "1.0.2" ]
+      ]
+    },
+    "sourcya/comment-module": {
+      "1.0.1": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/contact-module": {
+      "1.0.2": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/core": {
+      "1.2.0": [
+        [ "sourcya/address-module", "1.0.2" ],
+        [ "sourcya/app-settings-module", "1.0.0" ],
+        [ "sourcya/attribute-module", "1.0.0" ],
+        [ "sourcya/boilerplate", "1.0.8" ],
+        [ "sourcya/comment-module", "1.0.1" ],
+        [ "sourcya/contact-module", "1.0.2" ],
+        [ "sourcya/rating-module", "1.0.0" ],
+        [ "sourcya/status-module", "1.0.1" ]
+      ]
+    },
+    "sourcya/notification-module": {
+      "1.0.0": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/rating-module": {
+      "1.0.0": [
+        [ "sourcya/core", "1.2.0" ]
+      ]
+    },
+    "sourcya/status-module": {
+      "1.0.1": [
+        [ "sourcya/core", "1.2.0" ]
+      ]
+    },
+    "sourcya/upload-module": {
+      "1.0.1": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    },
+    "sourcya/user-module": {
+      "1.0.2": [
+        [ "sourcya/boilerplate", "1.0.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "biscolab/laravel-recaptcha": {
+      "v3.6.1": {
+        "rev": "77e65a06b64f8fa1efefb4fd355bc9993620a664",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/biscolab/laravel-recaptcha.git"
+      }
+    },
+    "defuse/php-encryption": {
+      "v2.3.1": {
+        "rev": "77880488b9954b7884c25555c2a0ea9e7053f9d2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/defuse/php-encryption.git"
+      }
+    },
+    "firebase/php-jwt": {
+      "v5.5.1": {
+        "rev": "83b609028194aa042ea33b5af2d41a7427de80e6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/firebase/php-jwt.git"
+      }
+    },
+    "laravel/passport": {
+      "v7.5.1": {
+        "rev": "d63cdd672c3d65b3c35b73d0ef13a9dbfcb71c08",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel/passport.git"
+      }
+    },
+    "league/event": {
+      "2.2.0": {
+        "rev": "d2cc124cf9a3fab2bb4ff963307f60361ce4d119",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/event.git"
+      }
+    },
+    "league/oauth2-server": {
+      "7.4.0": {
+        "rev": "2eb1cf79e59d807d89c256e7ac5e2bf8bdbd4acf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/oauth2-server.git"
+      }
+    },
+    "nicolaslopezj/searchable": {
+      "1.13.0": {
+        "rev": "b1d24ea45f75e36a11a093efa46fe44c06dd10b7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nicolaslopezj/searchable.git"
+      }
+    },
+    "sourcya/address-module": {
+      "1.0.2": {
+        "rev": "985851d592d7eacca8c6c6a99572d40a86064ebd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/address-module.git"
+      }
+    },
+    "sourcya/agent-module": {
+      "1.0.0": {
+        "rev": "80da5e4952cc4bdff0d7c312291879469babb416",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/agent-module.git"
+      }
+    },
+    "sourcya/app-settings-module": {
+      "1.0.0": {
+        "rev": "84b5a809d829173c8b28e42bf594c7b0c79ee715",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/app-settings-module.git"
+      }
+    },
+    "sourcya/attribute-module": {
+      "1.0.0": {
+        "rev": "cad0f87c9376d34ec191389d933737c02f1c1b97",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/attribute-module.git"
+      }
+    },
+    "sourcya/boilerplate": {
+      "1.0.8": {
+        "rev": "e6a91b7e02c5f8c8167f02ebda2087580c8fee1a",
+        "type": "git",
+        "url": "https://github.com/sourcya/boilerplate.git"
+      }
+    },
+    "sourcya/comment-module": {
+      "1.0.1": {
+        "rev": "8eb8761fd5e6fd0809459fa86ba281d90779523e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/comment-module.git"
+      }
+    },
+    "sourcya/contact-module": {
+      "1.0.2": {
+        "rev": "8be3523bad4aae218e217f8b2860e429021fe81d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/contact-module.git"
+      }
+    },
+    "sourcya/core": {
+      "1.2.0": {
+        "rev": "9207c8029d08213141f0c6a5bc865a3777b6a17a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/core.git"
+      }
+    },
+    "sourcya/notification-module": {
+      "1.0.0": {
+        "rev": "173bc21f3ce507565e2413e9db7f6654db561344",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/notification-module.git"
+      }
+    },
+    "sourcya/rating-module": {
+      "1.0.0": {
+        "rev": "beee19e746ba86ec54f2bb0d01cd2176d91e993d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/rating-module.git"
+      }
+    },
+    "sourcya/status-module": {
+      "1.0.1": {
+        "rev": "7baa426de65ba97d114f31d0cffcccc03ff3edec",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/status-module.git"
+      }
+    },
+    "sourcya/upload-module": {
+      "1.0.1": {
+        "rev": "c6950d91201b5920a91f5a06d3ff886a29b0d97c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/upload-module.git"
+      }
+    },
+    "sourcya/user-module": {
+      "1.0.2": {
+        "rev": "e7a76b5b2f4199ef0a7d815b2d7f8e57798ea643",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sourcya/user-module.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/psr-http-message-bridge": {
+      "v1.3.0": {
+        "rev": "9d3e80d54d9ae747ad573cad796e8e247df7b796",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/psr-http-message-bridge.git"
+      }
+    }
+  }
+}

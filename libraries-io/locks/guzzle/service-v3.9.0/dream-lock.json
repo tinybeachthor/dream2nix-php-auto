@@ -1,0 +1,140 @@
+{
+  "_generic": {
+    "defaultPackage": "guzzle/service",
+    "location": "",
+    "packages": {
+      "guzzle/service": "v3.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=5.3.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "guzzle/cache": {
+      "v3.9.0": [
+        [ "guzzle/common", "v3.9.0" ]
+      ]
+    },
+    "guzzle/common": {
+      "v3.9.0": [
+        [ "symfony/event-dispatcher", "v6.1.0" ]
+      ]
+    },
+    "guzzle/http": {
+      "v3.9.0": [
+        [ "guzzle/common", "v3.9.0" ],
+        [ "guzzle/parser", "v3.9.0" ],
+        [ "guzzle/stream", "v3.9.0" ]
+      ]
+    },
+    "guzzle/service": {
+      "v3.9.0": [
+        [ "guzzle/cache", "v3.9.0" ],
+        [ "guzzle/http", "v3.9.0" ],
+        [ "guzzle/inflection", "v3.9.0" ]
+      ]
+    },
+    "guzzle/stream": {
+      "v3.9.0": [
+        [ "guzzle/common", "v3.9.0" ]
+      ]
+    },
+    "symfony/event-dispatcher": {
+      "v6.1.0": [
+        [ "symfony/event-dispatcher-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/event-dispatcher-contracts": {
+      "v3.1.1": [
+        [ "psr/event-dispatcher", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "guzzle/cache": {
+      "v3.9.0": {
+        "rev": "9d20d5afd4203f84893e809777ffa01e47bd4ea7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Guzzle3/cache.git"
+      }
+    },
+    "guzzle/common": {
+      "v3.9.0": {
+        "rev": "ada14a205bf73d8b34e6af8bbe6c07d4edb3674e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Guzzle3/common.git"
+      }
+    },
+    "guzzle/http": {
+      "v3.9.0": {
+        "rev": "9780379f23c99241bbe185c516d392d9d5d31e1a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Guzzle3/http.git"
+      }
+    },
+    "guzzle/inflection": {
+      "v3.9.0": {
+        "rev": "c3ee7d90d0674d94834b843115d07c58570fc2e4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Guzzle3/inflection.git"
+      }
+    },
+    "guzzle/parser": {
+      "v3.9.0": {
+        "rev": "6874d171318a8e93eb6d224cf85e4678490b625c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Guzzle3/parser.git"
+      }
+    },
+    "guzzle/service": {
+      "v3.9.0": {
+        "rev": "583c623473b45cc3dd607ab19d9629a0a4fbb762",
+        "type": "git",
+        "url": "https://github.com/Guzzle3/service.git"
+      }
+    },
+    "guzzle/stream": {
+      "v3.9.0": {
+        "rev": "fa8af730ca714861c0001cfba64aaecc5f21bb96",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Guzzle3/stream.git"
+      }
+    },
+    "psr/event-dispatcher": {
+      "1.0.0": {
+        "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v6.1.0": {
+        "rev": "a0449a7ad7daa0f7c0acd508259f80544ab5a347",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/event-dispatcher-contracts": {
+      "v3.1.1": {
+        "rev": "02ff5eea2f453731cfbc6bc215e456b781480448",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher-contracts.git"
+      }
+    }
+  }
+}

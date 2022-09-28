@@ -1,0 +1,226 @@
+{
+  "_generic": {
+    "defaultPackage": "hyperf/filesystem",
+    "location": "",
+    "packages": {
+      "hyperf/filesystem": "v2.2.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "json",
+      "fileinfo",
+      "pcre"
+    ],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "doctrine/annotations": {
+      "1.13.3": [
+        [ "doctrine/lexer", "1.2.3" ],
+        [ "psr/cache", "3.0.0" ]
+      ]
+    },
+    "graham-campbell/result-type": {
+      "v1.1.0": [
+        [ "phpoption/phpoption", "1.9.0" ]
+      ]
+    },
+    "hyperf/di": {
+      "v2.2.33": [
+        [ "doctrine/annotations", "1.13.3" ],
+        [ "doctrine/instantiator", "1.4.1" ],
+        [ "nikic/php-parser", "v4.15.1" ],
+        [ "php-di/phpdoc-reader", "2.2.1" ],
+        [ "psr/container", "2.0.2" ],
+        [ "symfony/finder", "v5.4.11" ],
+        [ "vlucas/phpdotenv", "v5.4.1" ]
+      ]
+    },
+    "hyperf/filesystem": {
+      "v2.2.16": [
+        [ "hyperf/di", "v2.2.33" ],
+        [ "league/flysystem", "2.5.0" ]
+      ]
+    },
+    "league/flysystem": {
+      "2.5.0": [
+        [ "league/mime-type-detection", "1.11.0" ]
+      ]
+    },
+    "symfony/finder": {
+      "v5.4.11": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "vlucas/phpdotenv": {
+      "v5.4.1": [
+        [ "graham-campbell/result-type", "v1.1.0" ],
+        [ "phpoption/phpoption", "1.9.0" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/annotations": {
+      "1.13.3": {
+        "rev": "648b0343343565c4a056bfc8392201385e8d89f0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/annotations.git"
+      }
+    },
+    "doctrine/instantiator": {
+      "1.4.1": {
+        "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "doctrine/lexer": {
+      "1.2.3": {
+        "rev": "c268e882d4dbdd85e36e4ad69e02dc284f89d229",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/lexer.git"
+      }
+    },
+    "graham-campbell/result-type": {
+      "v1.1.0": {
+        "rev": "a878d45c1914464426dc94da61c9e1d36ae262a8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/GrahamCampbell/Result-Type.git"
+      }
+    },
+    "hyperf/di": {
+      "v2.2.33": {
+        "rev": "471c3cf9e0c02ab3aaa0c6e9884062bd541e4577",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hyperf/di.git"
+      }
+    },
+    "hyperf/filesystem": {
+      "v2.2.16": {
+        "rev": "b0a4926d5b818d5d5cc88ec3c5f99b4912cedb0e",
+        "type": "git",
+        "url": "https://github.com/hyperf/filesystem.git"
+      }
+    },
+    "league/flysystem": {
+      "2.5.0": {
+        "rev": "8aaffb653c5777781b0f7f69a5d937baf7ab6cdb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/flysystem.git"
+      }
+    },
+    "league/mime-type-detection": {
+      "1.11.0": {
+        "rev": "ff6248ea87a9f116e78edd6002e39e5128a0d4dd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/mime-type-detection.git"
+      }
+    },
+    "nikic/php-parser": {
+      "v4.15.1": {
+        "rev": "0ef6c55a3f47f89d7a374e6f835197a0b5fcf900",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nikic/PHP-Parser.git"
+      }
+    },
+    "php-di/phpdoc-reader": {
+      "2.2.1": {
+        "rev": "66daff34cbd2627740ffec9469ffbac9f8c8185c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHP-DI/PhpDocReader.git"
+      }
+    },
+    "phpoption/phpoption": {
+      "1.9.0": {
+        "rev": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/schmittjoh/php-option.git"
+      }
+    },
+    "psr/cache": {
+      "3.0.0": {
+        "rev": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/finder": {
+      "v5.4.11": {
+        "rev": "7872a66f57caffa2916a584db1aa7f12adc76f8c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "vlucas/phpdotenv": {
+      "v5.4.1": {
+        "rev": "264dce589e7ce37a7ba99cb901eed8249fbec92f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/vlucas/phpdotenv.git"
+      }
+    }
+  }
+}

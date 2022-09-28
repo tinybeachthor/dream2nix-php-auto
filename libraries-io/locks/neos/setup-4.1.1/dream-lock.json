@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "neos/setup",
+    "location": "",
+    "packages": {
+      "neos/setup": "4.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "neos/composer-plugin@2.1.3": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "openssl",
+      "pcre",
+      "tokenizer",
+      "pdo",
+      "ctype",
+      "reflection",
+      "spl",
+      "xml",
+      "zlib",
+      "mbstring"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "neos/setup": {
+      "4.1.1": [
+        [ "neos/twitter-bootstrap", "dev-master" ]
+      ]
+    }
+  },
+  "sources": {
+    "neos/setup": {
+      "4.1.1": {
+        "rev": "4f6cdfbe8daf403e7bbe9a9dcb6f51301e3a431f",
+        "type": "git",
+        "url": "https://github.com/neos/setup.git"
+      }
+    },
+    "neos/twitter-bootstrap": {
+      "dev-master": {
+        "rev": "124c5903793d3fb05bb6e0d94157d51d56a5061e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/neos/twitter-bootstrap.git"
+      }
+    }
+  }
+}

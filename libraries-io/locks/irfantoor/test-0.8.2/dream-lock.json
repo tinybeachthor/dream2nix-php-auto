@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "irfantoor/test",
+    "location": "",
+    "packages": {
+      "irfantoor/test": "0.8.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">= 7.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "irfantoor/command": {
+      "0.6": [
+        [ "irfantoor/debug", "0.6.2" ],
+        [ "irfantoor/terminal", "0.2" ]
+      ]
+    },
+    "irfantoor/debug": {
+      "0.6.2": [
+        [ "irfantoor/terminal", "0.2" ]
+      ]
+    },
+    "irfantoor/test": {
+      "0.8.2": [
+        [ "irfantoor/command", "0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "irfantoor/command": {
+      "0.6": {
+        "rev": "4db2a0cd621e780774042c46212d189894a87c15",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/irfantoor/command.git"
+      }
+    },
+    "irfantoor/debug": {
+      "0.6.2": {
+        "rev": "d242f19269b89a38f6d14dfd4173003d4fab4595",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/irfantoor/debug.git"
+      }
+    },
+    "irfantoor/terminal": {
+      "0.2": {
+        "rev": "24cd4f5973e3aa4bc3d46a345efe6c3c2908cd93",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/irfantoor/terminal.git"
+      }
+    },
+    "irfantoor/test": {
+      "0.8.2": {
+        "rev": "34bdb732b873bd8d3488bd3931bab5b045129734",
+        "type": "git",
+        "url": "https://github.com/irfantoor/test.git"
+      }
+    }
+  }
+}

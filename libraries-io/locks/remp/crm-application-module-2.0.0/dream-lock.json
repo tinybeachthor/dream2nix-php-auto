@@ -1,0 +1,1157 @@
+{
+  "_generic": {
+    "defaultPackage": "remp/crm-application-module",
+    "location": "",
+    "packages": {
+      "remp/crm-application-module": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "curl",
+      "dom",
+      "filter",
+      "hash",
+      "iconv",
+      "json",
+      "pdo",
+      "posix",
+      "simplexml",
+      "zip",
+      "openssl",
+      "pcre",
+      "tokenizer",
+      "mbstring",
+      "fileinfo",
+      "ctype",
+      "gd",
+      "libxml",
+      "xml",
+      "xmlreader",
+      "xmlwriter",
+      "zlib",
+      "session"
+    ],
+    "phpSemver": "^8.0"
+  },
+  "cyclicDependencies": {
+    "cakephp/utility": {
+      "4.4.5": [
+        [ "cakephp/core", "4.4.5" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "cakephp/core": {
+      "4.4.5": [
+        [ "cakephp/utility", "4.4.5" ]
+      ]
+    },
+    "cakephp/database": {
+      "4.4.5": [
+        [ "cakephp/core", "4.4.5" ],
+        [ "cakephp/datasource", "4.4.5" ]
+      ]
+    },
+    "cakephp/datasource": {
+      "4.4.5": [
+        [ "cakephp/core", "4.4.5" ],
+        [ "psr/log", "1.1.4" ],
+        [ "psr/simple-cache", "2.0.0" ]
+      ]
+    },
+    "cakephp/utility": {
+      "4.4.5": [
+        [ "cakephp/core", "4.4.5" ]
+      ]
+    },
+    "composer/class-map-generator": {
+      "1.0.0": [
+        [ "composer/pcre", "3.0.0" ],
+        [ "symfony/finder", "v6.1.3" ]
+      ]
+    },
+    "composer/composer": {
+      "2.4.2": [
+        [ "composer/ca-bundle", "1.3.3" ],
+        [ "composer/class-map-generator", "1.0.0" ],
+        [ "composer/metadata-minifier", "1.0.0" ],
+        [ "composer/pcre", "3.0.0" ],
+        [ "composer/semver", "3.3.2" ],
+        [ "composer/spdx-licenses", "1.5.7" ],
+        [ "composer/xdebug-handler", "3.0.3" ],
+        [ "justinrainbow/json-schema", "5.2.12" ],
+        [ "psr/log", "1.1.4" ],
+        [ "react/promise", "v2.9.0" ],
+        [ "seld/jsonlint", "1.9.0" ],
+        [ "seld/phar-utils", "1.2.1" ],
+        [ "seld/signal-handler", "2.0.1" ],
+        [ "symfony/console", "v5.4.12" ],
+        [ "symfony/filesystem", "v6.1.4" ],
+        [ "symfony/finder", "v6.1.3" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/process", "v6.1.3" ]
+      ]
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": [
+        [ "composer/pcre", "3.0.0" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "contributte/forms-multiplier": {
+      "v3.3.0": [
+        [ "nette/forms", "v3.1.7" ]
+      ]
+    },
+    "contributte/translation": {
+      "v2.0.0": [
+        [ "latte/latte", "v3.0.3" ],
+        [ "nette/di", "v3.0.13" ],
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/http", "v3.1.6" ],
+        [ "nette/neon", "v3.3.3" ],
+        [ "nette/routing", "v3.0.3" ],
+        [ "nette/schema", "v1.2.2" ],
+        [ "nette/utils", "v3.2.8" ],
+        [ "symfony/config", "v6.1.3" ],
+        [ "symfony/translation", "v6.1.4" ]
+      ]
+    },
+    "fakerphp/faker": {
+      "v1.20.0": [
+        [ "psr/container", "2.0.2" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "graham-campbell/result-type": {
+      "v1.1.0": [
+        [ "phpoption/phpoption", "1.9.0" ]
+      ]
+    },
+    "kdyby/autowired": {
+      "v2.2.1": [
+        [ "nette/application", "v3.1.7" ],
+        [ "nette/caching", "v3.1.3" ],
+        [ "nette/component-model", "v3.0.2" ],
+        [ "nette/di", "v3.0.13" ],
+        [ "nette/utils", "v3.2.8" ],
+        [ "tracy/tracy", "v2.9.4" ]
+      ]
+    },
+    "league/csv": {
+      "9.8.0": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "league/flysystem": {
+      "1.1.9": [
+        [ "league/mime-type-detection", "1.11.0" ]
+      ]
+    },
+    "maennchen/zipstream-php": {
+      "2.2.1": [
+        [ "myclabs/php-enum", "1.8.4" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "malkusch/lock": {
+      "v2.2.1": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "monolog/monolog": {
+      "1.27.1": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "nette/application": {
+      "v3.1.7": [
+        [ "nette/component-model", "v3.0.2" ],
+        [ "nette/http", "v3.1.6" ],
+        [ "nette/routing", "v3.0.3" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/bootstrap": {
+      "v3.1.2": [
+        [ "nette/di", "v3.0.13" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/caching": {
+      "v3.1.3": [
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/component-model": {
+      "v3.0.2": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/database": {
+      "v3.1.5": [
+        [ "nette/caching", "v3.1.3" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/di": {
+      "v3.0.13": [
+        [ "nette/neon", "v3.3.3" ],
+        [ "nette/php-generator", "v4.0.3" ],
+        [ "nette/robot-loader", "v3.4.1" ],
+        [ "nette/schema", "v1.2.2" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.5.3": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/forms": {
+      "v3.1.7": [
+        [ "nette/component-model", "v3.0.2" ],
+        [ "nette/http", "v3.1.6" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/http": {
+      "v3.1.6": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/mail": {
+      "v3.1.8": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/php-generator": {
+      "v4.0.3": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/robot-loader": {
+      "v3.4.1": [
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/routing": {
+      "v3.0.3": [
+        [ "nette/http", "v3.1.6" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/schema": {
+      "v1.2.2": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/security": {
+      "v3.1.5": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "odan/phinx-migrations-generator": {
+      "5.5.0": [
+        [ "riimu/kit-phpencoder", "v2.4.1" ],
+        [ "robmorgan/phinx", "0.12.12" ],
+        [ "symfony/console", "v5.4.12" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ]
+      ]
+    },
+    "phpoffice/phpspreadsheet": {
+      "1.25.2": [
+        [ "ezyang/htmlpurifier", "v4.16.0" ],
+        [ "maennchen/zipstream-php", "2.2.1" ],
+        [ "markbaker/complex", "3.0.1" ],
+        [ "markbaker/matrix", "3.0.0" ],
+        [ "psr/http-client", "1.0.1" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/simple-cache", "2.0.0" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "psr/http-client": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "ramsey/collection": {
+      "1.2.2": [
+        [ "symfony/polyfill-php81", "v1.26.0" ]
+      ]
+    },
+    "ramsey/uuid": {
+      "4.5.1": [
+        [ "brick/math", "0.10.2" ],
+        [ "ramsey/collection", "1.2.2" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "remp/crm-application-module": {
+      "2.0.0": [
+        [ "composer/composer", "2.4.2" ],
+        [ "contributte/forms-multiplier", "v3.3.0" ],
+        [ "contributte/translation", "v2.0.0" ],
+        [ "fakerphp/faker", "v1.20.0" ],
+        [ "kdyby/autowired", "v2.2.1" ],
+        [ "latte/latte", "v3.0.3" ],
+        [ "league/csv", "9.8.0" ],
+        [ "league/event", "2.2.0" ],
+        [ "league/flysystem", "1.1.9" ],
+        [ "malkusch/lock", "v2.2.1" ],
+        [ "monolog/monolog", "1.27.1" ],
+        [ "nette/application", "v3.1.7" ],
+        [ "nette/bootstrap", "v3.1.2" ],
+        [ "nette/caching", "v3.1.3" ],
+        [ "nette/database", "v3.1.5" ],
+        [ "nette/di", "v3.0.13" ],
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/forms", "v3.1.7" ],
+        [ "nette/http", "v3.1.6" ],
+        [ "nette/mail", "v3.1.8" ],
+        [ "nette/robot-loader", "v3.4.1" ],
+        [ "nette/security", "v3.1.5" ],
+        [ "nette/utils", "v3.2.8" ],
+        [ "odan/phinx-migrations-generator", "5.5.0" ],
+        [ "phpoffice/phpspreadsheet", "1.25.2" ],
+        [ "predis/predis", "v1.1.10" ],
+        [ "robmorgan/phinx", "0.12.12" ],
+        [ "symfony/yaml", "v5.4.12" ],
+        [ "tomaj/hermes", "4.0.1" ],
+        [ "tomaj/nette-bootstrap-form", "2.0.1" ],
+        [ "tracy/tracy", "v2.9.4" ],
+        [ "twig/twig", "v2.15.3" ],
+        [ "vlucas/phpdotenv", "v5.4.1" ]
+      ]
+    },
+    "robmorgan/phinx": {
+      "0.12.12": [
+        [ "cakephp/database", "4.4.5" ],
+        [ "psr/container", "2.0.2" ],
+        [ "symfony/config", "v6.1.3" ],
+        [ "symfony/console", "v5.4.12" ]
+      ]
+    },
+    "symfony/config": {
+      "v6.1.3": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/filesystem", "v6.1.4" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "symfony/console": {
+      "v5.4.12": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/service-contracts", "v3.1.1" ],
+        [ "symfony/string", "v6.1.4" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v3.1.1": [
+        [ "psr/container", "2.0.2" ]
+      ]
+    },
+    "symfony/string": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/translation": {
+      "v6.1.4": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/translation-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v5.4.12": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "tomaj/hermes": {
+      "4.0.1": [
+        [ "psr/log", "1.1.4" ],
+        [ "ramsey/uuid", "4.5.1" ],
+        [ "tracy/tracy", "v2.9.4" ]
+      ]
+    },
+    "tomaj/nette-bootstrap-form": {
+      "2.0.1": [
+        [ "nette/forms", "v3.1.7" ]
+      ]
+    },
+    "twig/twig": {
+      "v2.15.3": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php72", "v1.26.0" ]
+      ]
+    },
+    "vlucas/phpdotenv": {
+      "v5.4.1": [
+        [ "graham-campbell/result-type", "v1.1.0" ],
+        [ "phpoption/phpoption", "1.9.0" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "brick/math": {
+      "0.10.2": {
+        "rev": "459f2781e1a08d52ee56b0b1444086e038561e3f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/brick/math.git"
+      }
+    },
+    "cakephp/core": {
+      "4.4.5": {
+        "rev": "77e53e3784863c1b8006464b82ab842ee7c58e6b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cakephp/core.git"
+      }
+    },
+    "cakephp/database": {
+      "4.4.5": {
+        "rev": "eec6239b0734e2a4dfe212dc93bcd505c7d296ef",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cakephp/database.git"
+      }
+    },
+    "cakephp/datasource": {
+      "4.4.5": {
+        "rev": "6fbd1f49833dedf3bd351e1a98b18133a6b9e86c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cakephp/datasource.git"
+      }
+    },
+    "cakephp/utility": {
+      "4.4.5": {
+        "rev": "7d28a3935f746fcbbfb38e8dddaa9c9d48b251c5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cakephp/utility.git"
+      }
+    },
+    "composer/ca-bundle": {
+      "1.3.3": {
+        "rev": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "composer/class-map-generator": {
+      "1.0.0": {
+        "rev": "1e1cb2b791facb2dfe32932a7718cf2571187513",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/class-map-generator.git"
+      }
+    },
+    "composer/composer": {
+      "2.4.2": {
+        "rev": "7d887621e69a0311eb50aed4a16f7044b2b385b9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/composer.git"
+      }
+    },
+    "composer/metadata-minifier": {
+      "1.0.0": {
+        "rev": "c549d23829536f0d0e984aaabbf02af91f443207",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/metadata-minifier.git"
+      }
+    },
+    "composer/pcre": {
+      "3.0.0": {
+        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/pcre.git"
+      }
+    },
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/spdx-licenses": {
+      "1.5.7": {
+        "rev": "c848241796da2abf65837d51dce1fae55a960149",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/spdx-licenses.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "contributte/forms-multiplier": {
+      "v3.3.0": {
+        "rev": "5bafb566431294220f7723616d8417cc631d0a43",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/contributte/forms-multiplier.git"
+      }
+    },
+    "contributte/translation": {
+      "v2.0.0": {
+        "rev": "d24a58184356a8b38e524826c62431d7f2f27cd4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/contributte/translation.git"
+      }
+    },
+    "ezyang/htmlpurifier": {
+      "v4.16.0": {
+        "rev": "523407fb06eb9e5f3d59889b3978d5bfe94299c8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezyang/htmlpurifier.git"
+      }
+    },
+    "fakerphp/faker": {
+      "v1.20.0": {
+        "rev": "37f751c67a5372d4e26353bd9384bc03744ec77b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FakerPHP/Faker.git"
+      }
+    },
+    "graham-campbell/result-type": {
+      "v1.1.0": {
+        "rev": "a878d45c1914464426dc94da61c9e1d36ae262a8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/GrahamCampbell/Result-Type.git"
+      }
+    },
+    "justinrainbow/json-schema": {
+      "5.2.12": {
+        "rev": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/justinrainbow/json-schema.git"
+      }
+    },
+    "kdyby/autowired": {
+      "v2.2.1": {
+        "rev": "119d8781df9678a8b1e2b2e33da56279d17669ed",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Kdyby/Autowired.git"
+      }
+    },
+    "latte/latte": {
+      "v3.0.3": {
+        "rev": "aad059390316d33c4c81a09703117303ce57f06c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/latte.git"
+      }
+    },
+    "league/csv": {
+      "9.8.0": {
+        "rev": "9d2e0265c5d90f5dd601bc65ff717e05cec19b47",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/csv.git"
+      }
+    },
+    "league/event": {
+      "2.2.0": {
+        "rev": "d2cc124cf9a3fab2bb4ff963307f60361ce4d119",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/event.git"
+      }
+    },
+    "league/flysystem": {
+      "1.1.9": {
+        "rev": "094defdb4a7001845300334e7c1ee2335925ef99",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/flysystem.git"
+      }
+    },
+    "league/mime-type-detection": {
+      "1.11.0": {
+        "rev": "ff6248ea87a9f116e78edd6002e39e5128a0d4dd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/mime-type-detection.git"
+      }
+    },
+    "maennchen/zipstream-php": {
+      "2.2.1": {
+        "rev": "211e9ba1530ea5260b45d90c9ea252f56ec52729",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/maennchen/ZipStream-PHP.git"
+      }
+    },
+    "malkusch/lock": {
+      "v2.2.1": {
+        "rev": "63c1b268f521a702cb8755ed92631c1fac1775e6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-lock/lock.git"
+      }
+    },
+    "markbaker/complex": {
+      "3.0.1": {
+        "rev": "ab8bc271e404909db09ff2d5ffa1e538085c0f22",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/MarkBaker/PHPComplex.git"
+      }
+    },
+    "markbaker/matrix": {
+      "3.0.0": {
+        "rev": "c66aefcafb4f6c269510e9ac46b82619a904c576",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/MarkBaker/PHPMatrix.git"
+      }
+    },
+    "monolog/monolog": {
+      "1.27.1": {
+        "rev": "904713c5929655dc9b97288b69cfeedad610c9a1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "myclabs/php-enum": {
+      "1.8.4": {
+        "rev": "a867478eae49c9f59ece437ae7f9506bfaa27483",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/myclabs/php-enum.git"
+      }
+    },
+    "nette/application": {
+      "v3.1.7": {
+        "rev": "a831a22c8291638624b39a673d40935c854371e3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/application.git"
+      }
+    },
+    "nette/bootstrap": {
+      "v3.1.2": {
+        "rev": "3ab4912a08af0c16d541c3709935c3478b5ee090",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/bootstrap.git"
+      }
+    },
+    "nette/caching": {
+      "v3.1.3": {
+        "rev": "7a59a7762e43ba6d8e4aa0484eaaf6a40835a4ad",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/caching.git"
+      }
+    },
+    "nette/component-model": {
+      "v3.0.2": {
+        "rev": "20a39df12009029c7e425bc5e0439ee4ab5304af",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/component-model.git"
+      }
+    },
+    "nette/database": {
+      "v3.1.5": {
+        "rev": "b138afb94d6ce93c3a7ad9786c2e925ac1ac501f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/database.git"
+      }
+    },
+    "nette/di": {
+      "v3.0.13": {
+        "rev": "9878f2958a0a804b08430dbc719a52e493022739",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.5.3": {
+        "rev": "64dc25b7929b731e72a1bc84a9e57727f5d5d3e8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/forms": {
+      "v3.1.7": {
+        "rev": "fe2109ce8b77846a5f664bc412c7cf3008f63074",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/forms.git"
+      }
+    },
+    "nette/http": {
+      "v3.1.6": {
+        "rev": "65bfe68f9c611e7cd1935a5f794a560c52e4614f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/http.git"
+      }
+    },
+    "nette/mail": {
+      "v3.1.8": {
+        "rev": "69b43ae9a5c63ff68804531ef0113c372c676ce6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/mail.git"
+      }
+    },
+    "nette/neon": {
+      "v3.3.3": {
+        "rev": "22e384da162fab42961d48eb06c06d3ad0c11b95",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/neon.git"
+      }
+    },
+    "nette/php-generator": {
+      "v4.0.3": {
+        "rev": "ce449138b73ee788e818afeb41af51df3ec03710",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/php-generator.git"
+      }
+    },
+    "nette/robot-loader": {
+      "v3.4.1": {
+        "rev": "e2adc334cb958164c050f485d99c44c430f51fe2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/robot-loader.git"
+      }
+    },
+    "nette/routing": {
+      "v3.0.3": {
+        "rev": "5e02bdde257029db0223d3291c281d913abd587f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/routing.git"
+      }
+    },
+    "nette/schema": {
+      "v1.2.2": {
+        "rev": "9a39cef03a5b34c7de64f551538cbba05c2be5df",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/schema.git"
+      }
+    },
+    "nette/security": {
+      "v3.1.5": {
+        "rev": "c120893f561b09494486c66594720b2abcb099b2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/security.git"
+      }
+    },
+    "nette/utils": {
+      "v3.2.8": {
+        "rev": "02a54c4c872b99e4ec05c4aec54b5a06eb0f6368",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "odan/phinx-migrations-generator": {
+      "5.5.0": {
+        "rev": "86942d5701c9136574bbf37ab6e8c5b389ef634b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/odan/phinx-migrations-generator.git"
+      }
+    },
+    "phpoffice/phpspreadsheet": {
+      "1.25.2": {
+        "rev": "a317a09e7def49852400a4b3eca4a4b0790ceeb5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHPOffice/PhpSpreadsheet.git"
+      }
+    },
+    "phpoption/phpoption": {
+      "1.9.0": {
+        "rev": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/schmittjoh/php-option.git"
+      }
+    },
+    "predis/predis": {
+      "v1.1.10": {
+        "rev": "a2fb02d738bedadcffdbb07efa3a5e7bd57f8d6e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/predis/predis.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/http-client": {
+      "1.0.1": {
+        "rev": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-client.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "psr/simple-cache": {
+      "2.0.0": {
+        "rev": "8707bf3cea6f710bf6ef05491234e3ab06f6432a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/simple-cache.git"
+      }
+    },
+    "ramsey/collection": {
+      "1.2.2": {
+        "rev": "cccc74ee5e328031b15640b51056ee8d3bb66c0a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ramsey/collection.git"
+      }
+    },
+    "ramsey/uuid": {
+      "4.5.1": {
+        "rev": "a161a26d917604dc6d3aa25100fddf2556e9f35d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ramsey/uuid.git"
+      }
+    },
+    "react/promise": {
+      "v2.9.0": {
+        "rev": "234f8fd1023c9158e2314fa9d7d0e6a83db42910",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
+    "remp/crm-application-module": {
+      "2.0.0": {
+        "rev": "4ee75ac185cd191ba6053969645b95c3ccd08726",
+        "type": "git",
+        "url": "https://github.com/remp2020/crm-application-module.git"
+      }
+    },
+    "riimu/kit-phpencoder": {
+      "v2.4.1": {
+        "rev": "ca6f004e1290aec7ef4bebf6c0807b30fcf981d7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Riimu/Kit-PHPEncoder.git"
+      }
+    },
+    "robmorgan/phinx": {
+      "0.12.12": {
+        "rev": "9a6ce1e7fdf0fa4e602ba5875b5bc9442ccaa115",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cakephp/phinx.git"
+      }
+    },
+    "seld/jsonlint": {
+      "1.9.0": {
+        "rev": "4211420d25eba80712bff236a98960ef68b866b7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/jsonlint.git"
+      }
+    },
+    "seld/phar-utils": {
+      "1.2.1": {
+        "rev": "ea2f4014f163c1be4c601b9b7bd6af81ba8d701c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/phar-utils.git"
+      }
+    },
+    "seld/signal-handler": {
+      "2.0.1": {
+        "rev": "f69d119511dc0360440cdbdaa71829c149b7be75",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/signal-handler.git"
+      }
+    },
+    "symfony/config": {
+      "v6.1.3": {
+        "rev": "a0645dc585d378b73c01115dd7ab9348f7d40c85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/console": {
+      "v5.4.12": {
+        "rev": "c072aa8f724c3af64e2c7a96b796a4863d24dba1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v6.1.4": {
+        "rev": "3f39c04d2630c34019907b02f85672dac99f8659",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v6.1.3": {
+        "rev": "39696bff2c2970b3779a5cac7bf9f0b88fc2b709",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-intl-grapheme": {
+      "v1.26.0": {
+        "rev": "433d05519ce6990bf3530fba6957499d327395c2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-grapheme.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php72": {
+      "v1.26.0": {
+        "rev": "bf44a9fd41feaac72b074de600314a93e2ae78e2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php72.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/polyfill-php81": {
+      "v1.26.0": {
+        "rev": "13f6d1271c663dc5ae9fb843a8f16521db7687a1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php81.git"
+      }
+    },
+    "symfony/process": {
+      "v6.1.3": {
+        "rev": "a6506e99cfad7059b1ab5cab395854a0a0c21292",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v3.1.1": {
+        "rev": "925e713fe8fcacf6bc05e936edd8dd5441a21239",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/string": {
+      "v6.1.4": {
+        "rev": "290972cad7b364e3befaa74ba0ec729800fb161c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/string.git"
+      }
+    },
+    "symfony/translation": {
+      "v6.1.4": {
+        "rev": "45d0f5bb8df7255651ca91c122fab604e776af03",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/translation-contracts": {
+      "v3.1.1": {
+        "rev": "606be0f48e05116baef052f7f3abdb345c8e02cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation-contracts.git"
+      }
+    },
+    "symfony/yaml": {
+      "v5.4.12": {
+        "rev": "7a3aa21ac8ab1a96cc6de5bbcab4bc9fc943b18c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "tomaj/hermes": {
+      "4.0.1": {
+        "rev": "9ab65481c5a7578feba039d6e73106da79be509e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tomaj/hermes.git"
+      }
+    },
+    "tomaj/nette-bootstrap-form": {
+      "2.0.1": {
+        "rev": "c4aeee158ede5c64cf2dab588ee181135b8b2e92",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tomaj/nette-bootstrap-form.git"
+      }
+    },
+    "tracy/tracy": {
+      "v2.9.4": {
+        "rev": "0ed605329b095f5f5fe2db2adc3d1ee80c917294",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tracy.git"
+      }
+    },
+    "twig/twig": {
+      "v2.15.3": {
+        "rev": "ab402673db8746cb3a4c46f3869d6253699f614a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git"
+      }
+    },
+    "vlucas/phpdotenv": {
+      "v5.4.1": {
+        "rev": "264dce589e7ce37a7ba99cb901eed8249fbec92f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/vlucas/phpdotenv.git"
+      }
+    }
+  }
+}

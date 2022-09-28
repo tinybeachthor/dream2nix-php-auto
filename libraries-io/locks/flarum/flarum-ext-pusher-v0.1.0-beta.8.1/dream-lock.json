@@ -1,0 +1,53 @@
+{
+  "_generic": {
+    "defaultPackage": "flarum/flarum-ext-pusher",
+    "location": "",
+    "packages": {
+      "flarum/flarum-ext-pusher": "v0.1.0-beta.8.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "pcre",
+      "pdo",
+      "mbstring",
+      "fileinfo",
+      "ctype",
+      "curl",
+      "dom",
+      "filter",
+      "libxml"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "flarum/flarum-ext-pusher": {
+      "v0.1.0-beta.8.1": [
+        [ "pusher/pusher-php-server", "2.6.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "flarum/flarum-ext-pusher": {
+      "v0.1.0-beta.8.1": {
+        "rev": "657c69890674e81f6f225e7962940f25122c5d9a",
+        "type": "git",
+        "url": "https://github.com/flarum/pusher.git"
+      }
+    },
+    "pusher/pusher-php-server": {
+      "2.6.4": {
+        "rev": "2cf2ba85e7ce3250468a1c42ab7c948a7d43839d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pusher/pusher-http-php.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "_generic": {
+    "defaultPackage": "keltiecochrane/themosis-illuminate",
+    "location": "",
+    "packages": {
+      "keltiecochrane/themosis-illuminate": "1.1.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "composer/installers@v1.2.0": "^1.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "mbstring"
+    ],
+    "phpSemver": ">=7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "filp/whoops": {
+      "2.1.8": [
+        [ "psr/log", "1.0.2" ]
+      ]
+    },
+    "illuminate/config": {
+      "v5.4.17": [
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ]
+      ]
+    },
+    "illuminate/container": {
+      "v5.4.17": [
+        [ "illuminate/contracts", "v5.4.17" ]
+      ]
+    },
+    "illuminate/database": {
+      "v5.4.17": [
+        [ "illuminate/container", "v5.4.17" ],
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ],
+        [ "nesbot/carbon", "1.22.1" ]
+      ]
+    },
+    "illuminate/events": {
+      "v5.4.17": [
+        [ "illuminate/container", "v5.4.17" ],
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ]
+      ]
+    },
+    "illuminate/filesystem": {
+      "v5.4.17": [
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ],
+        [ "symfony/finder", "v3.2.7" ]
+      ]
+    },
+    "illuminate/http": {
+      "v5.4.17": [
+        [ "illuminate/session", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ],
+        [ "symfony/http-foundation", "v3.2.7" ],
+        [ "symfony/http-kernel", "v3.2.7" ]
+      ]
+    },
+    "illuminate/mail": {
+      "v5.4.17": [
+        [ "erusev/parsedown", "1.6.2" ],
+        [ "illuminate/container", "v5.4.17" ],
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ],
+        [ "psr/log", "1.0.2" ],
+        [ "swiftmailer/swiftmailer", "v5.4.6" ],
+        [ "tijsverkoyen/css-to-inline-styles", "2.2.0" ]
+      ]
+    },
+    "illuminate/pipeline": {
+      "v5.4.17": [
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ]
+      ]
+    },
+    "illuminate/routing": {
+      "v5.4.17": [
+        [ "illuminate/container", "v5.4.17" ],
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/http", "v5.4.17" ],
+        [ "illuminate/pipeline", "v5.4.17" ],
+        [ "illuminate/session", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ],
+        [ "symfony/debug", "v3.2.7" ],
+        [ "symfony/http-foundation", "v3.2.7" ],
+        [ "symfony/http-kernel", "v3.2.7" ],
+        [ "symfony/routing", "v3.2.7" ]
+      ]
+    },
+    "illuminate/session": {
+      "v5.4.17": [
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/filesystem", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ],
+        [ "nesbot/carbon", "1.22.1" ],
+        [ "symfony/finder", "v3.2.7" ],
+        [ "symfony/http-foundation", "v3.2.7" ]
+      ]
+    },
+    "illuminate/support": {
+      "v5.4.17": [
+        [ "doctrine/inflector", "v1.1.0" ],
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "paragonie/random_compat", "v2.0.10" ]
+      ]
+    },
+    "illuminate/translation": {
+      "v5.4.17": [
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/filesystem", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ]
+      ]
+    },
+    "illuminate/validation": {
+      "v5.4.17": [
+        [ "illuminate/container", "v5.4.17" ],
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ],
+        [ "illuminate/translation", "v5.4.17" ],
+        [ "symfony/http-foundation", "v3.2.7" ]
+      ]
+    },
+    "illuminate/view": {
+      "v5.4.17": [
+        [ "illuminate/container", "v5.4.17" ],
+        [ "illuminate/contracts", "v5.4.17" ],
+        [ "illuminate/events", "v5.4.17" ],
+        [ "illuminate/filesystem", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ],
+        [ "symfony/debug", "v3.2.7" ]
+      ]
+    },
+    "keltiecochrane/themosis-illuminate": {
+      "1.1.5": [
+        [ "composer/installers", "v1.2.0" ],
+        [ "illuminate/config", "v5.4.17" ],
+        [ "illuminate/database", "v5.4.17" ],
+        [ "illuminate/filesystem", "v5.4.17" ],
+        [ "illuminate/mail", "v5.4.17" ],
+        [ "illuminate/support", "v5.4.17" ],
+        [ "illuminate/translation", "v5.4.17" ],
+        [ "illuminate/validation", "v5.4.17" ],
+        [ "league/flysystem", "1.0.37" ],
+        [ "themosis/framework", "1.3.2" ]
+      ]
+    },
+    "nesbot/carbon": {
+      "1.22.1": [
+        [ "symfony/translation", "v3.2.7" ]
+      ]
+    },
+    "symfony/debug": {
+      "v3.2.7": [
+        [ "psr/log", "1.0.2" ]
+      ]
+    },
+    "symfony/http-foundation": {
+      "v3.2.7": [
+        [ "symfony/polyfill-mbstring", "v1.3.0" ]
+      ]
+    },
+    "symfony/http-kernel": {
+      "v3.2.7": [
+        [ "psr/log", "1.0.2" ],
+        [ "symfony/debug", "v3.2.7" ],
+        [ "symfony/event-dispatcher", "v3.2.7" ],
+        [ "symfony/http-foundation", "v3.2.7" ]
+      ]
+    },
+    "symfony/translation": {
+      "v3.2.7": [
+        [ "symfony/polyfill-mbstring", "v1.3.0" ]
+      ]
+    },
+    "themosis/framework": {
+      "1.3.2": [
+        [ "composer/installers", "v1.2.0" ],
+        [ "filp/whoops", "2.1.8" ],
+        [ "illuminate/container", "v5.4.17" ],
+        [ "illuminate/events", "v5.4.17" ],
+        [ "illuminate/filesystem", "v5.4.17" ],
+        [ "illuminate/http", "v5.4.17" ],
+        [ "illuminate/routing", "v5.4.17" ],
+        [ "illuminate/view", "v5.4.17" ],
+        [ "twig/twig", "v1.33.0" ]
+      ]
+    },
+    "tijsverkoyen/css-to-inline-styles": {
+      "2.2.0": [
+        [ "symfony/css-selector", "v3.2.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "composer/installers": {
+      "v1.2.0": {
+        "rev": "d78064c68299743e0161004f2de3a0204e33b804",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/installers.git"
+      }
+    },
+    "doctrine/inflector": {
+      "v1.1.0": {
+        "rev": "90b2128806bfde671b6952ab8bea493942c1fdae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/inflector.git"
+      }
+    },
+    "erusev/parsedown": {
+      "1.6.2": {
+        "rev": "1bf24f7334fe16c88bf9d467863309ceaf285b01",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/erusev/parsedown.git"
+      }
+    },
+    "filp/whoops": {
+      "2.1.8": {
+        "rev": "f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/filp/whoops.git"
+      }
+    },
+    "illuminate/config": {
+      "v5.4.17": {
+        "rev": "8fe700aa596bc623d347e4578041fbda7a44c3d9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/config.git"
+      }
+    },
+    "illuminate/container": {
+      "v5.4.17": {
+        "rev": "1fc0d2451e23d2ea73c10462d74add4767e2b74c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/container.git"
+      }
+    },
+    "illuminate/contracts": {
+      "v5.4.17": {
+        "rev": "ab2825726bee46a67c8cc66789852189dbef74a9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/contracts.git"
+      }
+    },
+    "illuminate/database": {
+      "v5.4.17": {
+        "rev": "7323bfc4e3e0aa46f427c705091dc373160d3983",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/database.git"
+      }
+    },
+    "illuminate/events": {
+      "v5.4.17": {
+        "rev": "e8337bde9cc65409d5fa7548ff11d360a4b4ae2b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/events.git"
+      }
+    },
+    "illuminate/filesystem": {
+      "v5.4.17": {
+        "rev": "3ed8b9a35880a9619141e2965fd5cbbe2e1c0da1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/filesystem.git"
+      }
+    },
+    "illuminate/http": {
+      "v5.4.17": {
+        "rev": "2c66bd7791505899afa86bb4d467e3ea8b7dab8c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/http.git"
+      }
+    },
+    "illuminate/mail": {
+      "v5.4.17": {
+        "rev": "a49ead80f1591f298fcf1d55e31af2ee027a6a4e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/mail.git"
+      }
+    },
+    "illuminate/pipeline": {
+      "v5.4.17": {
+        "rev": "ada6dc2435afa57a74e3dcd4570c31a1a1244e65",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/pipeline.git"
+      }
+    },
+    "illuminate/routing": {
+      "v5.4.17": {
+        "rev": "f561d09708cbc8c406d3f973fff69d615a50b0d8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/routing.git"
+      }
+    },
+    "illuminate/session": {
+      "v5.4.17": {
+        "rev": "59f994b299318ba5a91b390fe482e24fdaa08ec5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/session.git"
+      }
+    },
+    "illuminate/support": {
+      "v5.4.17": {
+        "rev": "c7e7c9daf5044e76b46085b8351f8235a3e979c6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/support.git"
+      }
+    },
+    "illuminate/translation": {
+      "v5.4.17": {
+        "rev": "156e7f619a36de6c9421c6ef85571859afb14fe1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/translation.git"
+      }
+    },
+    "illuminate/validation": {
+      "v5.4.17": {
+        "rev": "2b5916676965d9a5f18eb7c12efb6216ab027025",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/validation.git"
+      }
+    },
+    "illuminate/view": {
+      "v5.4.17": {
+        "rev": "45932749b21aeee7a5f60601a2ceafb36d032a94",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/view.git"
+      }
+    },
+    "keltiecochrane/themosis-illuminate": {
+      "1.1.5": {
+        "rev": "13ee4c3413cddd85a2f262ac361f35c81da0c53c",
+        "type": "git",
+        "url": "https://github.com/djgadd/themosis-illuminate.git"
+      }
+    },
+    "league/flysystem": {
+      "1.0.37": {
+        "rev": "78b5cc4feb61a882302df4fbaf63b7662e5e4ccd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/flysystem.git"
+      }
+    },
+    "nesbot/carbon": {
+      "1.22.1": {
+        "rev": "7cdf42c0b1cc763ab7e4c33c47a24e27c66bfccc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/briannesbitt/Carbon.git"
+      }
+    },
+    "paragonie/random_compat": {
+      "v2.0.10": {
+        "rev": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/paragonie/random_compat.git"
+      }
+    },
+    "psr/log": {
+      "1.0.2": {
+        "rev": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "swiftmailer/swiftmailer": {
+      "v5.4.6": {
+        "rev": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/swiftmailer/swiftmailer.git"
+      }
+    },
+    "symfony/css-selector": {
+      "v3.2.7": {
+        "rev": "a48f13dc83c168f1253a5d2a5a4fb46c36244c4c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/css-selector.git"
+      }
+    },
+    "symfony/debug": {
+      "v3.2.7": {
+        "rev": "56f613406446a4a0a031475cfd0a01751de22659",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/debug.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v3.2.7": {
+        "rev": "154bb1ef7b0e42ccc792bd53edbce18ed73440ca",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/finder": {
+      "v3.2.7": {
+        "rev": "b20900ce5ea164cd9314af52725b0bb5a758217a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/http-foundation": {
+      "v3.2.7": {
+        "rev": "cb0b6418f588952c9290b3df4ca650f1b7ab570a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-foundation.git"
+      }
+    },
+    "symfony/http-kernel": {
+      "v3.2.7": {
+        "rev": "8285ab5faf1306b1a5ebcf287fe91c231a6de88e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-kernel.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.3.0": {
+        "rev": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/routing": {
+      "v3.2.7": {
+        "rev": "d6605f9a5767bc5bc4895e1c762ba93964608aee",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/routing.git"
+      }
+    },
+    "symfony/translation": {
+      "v3.2.7": {
+        "rev": "c740eee70783d2af4d3d6b70d5146f209e6b4d13",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "themosis/framework": {
+      "1.3.2": {
+        "rev": "9eb35bd0afebcb0e6cb7e30eca8b5c6d6a0c38ad",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/themosis/framework.git"
+      }
+    },
+    "tijsverkoyen/css-to-inline-styles": {
+      "2.2.0": {
+        "rev": "ab03919dfd85a74ae0372f8baf9f3c7d5c03b04b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git"
+      }
+    },
+    "twig/twig": {
+      "v1.33.0": {
+        "rev": "05cf49921b13f6f01d3cfdf9018cfa7a8086fd5a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git"
+      }
+    }
+  }
+}

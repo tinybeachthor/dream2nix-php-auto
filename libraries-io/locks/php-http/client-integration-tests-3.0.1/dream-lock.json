@@ -1,0 +1,60 @@
+{
+  "_generic": {
+    "defaultPackage": "php-http/client-integration-tests",
+    "location": "",
+    "packages": {
+      "php-http/client-integration-tests": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "json",
+      "mbstring",
+      "xml"
+    ],
+    "phpSemver": "^7.1 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "php-http/client-integration-tests": {
+      "3.0.1": [
+        [ "php-http/message", "1.13.0" ],
+        [ "th3n3rd/cartesian-product", "v0.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "php-http/client-integration-tests": {
+      "3.0.1": {
+        "rev": "8a4c0c493f07d1f2cbb012aebf607c7e8a886149",
+        "type": "git",
+        "url": "https://github.com/php-http/client-integration-tests.git"
+      }
+    },
+    "php-http/message": {
+      "1.13.0": {
+        "rev": "7886e647a30a966a1a8d1dad1845b71ca8678361",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/message.git"
+      }
+    },
+    "th3n3rd/cartesian-product": {
+      "v0.3.0": {
+        "rev": "78b22f4feb4ef3efc1e99dfe5d932e17024b035d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/th3n3rd/cartesian-product.git"
+      }
+    }
+  }
+}

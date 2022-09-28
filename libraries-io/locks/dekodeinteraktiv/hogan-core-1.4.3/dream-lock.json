@@ -1,0 +1,121 @@
+{
+  "_generic": {
+    "defaultPackage": "dekodeinteraktiv/hogan-core",
+    "location": "",
+    "packages": {
+      "dekodeinteraktiv/hogan-core": "1.4.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "composer/installers@v1.5.0": "^1.0",
+      "dealerdirect/phpcodesniffer-composer-installer@v0.4.4": "^1.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.4.4": [
+        [ "squizlabs/php_codesniffer", "3.2.3" ]
+      ]
+    },
+    "dekodeinteraktiv/coding-standards": {
+      "0.3.1": [
+        [ "automattic/phpcs-neutron-standard", "v1.5.0" ],
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.4.4" ],
+        [ "wimg/php-compatibility", "8.1.0" ],
+        [ "wp-coding-standards/wpcs", "0.14.1" ]
+      ]
+    },
+    "dekodeinteraktiv/hogan-core": {
+      "1.4.3": [
+        [ "composer/installers", "v1.5.0" ],
+        [ "dekodeinteraktiv/coding-standards", "0.3.1" ]
+      ]
+    },
+    "wimg/php-compatibility": {
+      "8.1.0": [
+        [ "squizlabs/php_codesniffer", "3.2.3" ]
+      ]
+    },
+    "wp-coding-standards/wpcs": {
+      "0.14.1": [
+        [ "squizlabs/php_codesniffer", "3.2.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "automattic/phpcs-neutron-standard": {
+      "v1.5.0": {
+        "rev": "7491ee86f705082ebd318fc90d16f8b874440901",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Automattic/phpcs-neutron-standard.git"
+      }
+    },
+    "composer/installers": {
+      "v1.5.0": {
+        "rev": "049797d727261bf27f2690430d935067710049c2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/installers.git"
+      }
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.4.4": {
+        "rev": "2e41850d5f7797cbb1af7b030d245b3b24e63a08",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "dekodeinteraktiv/coding-standards": {
+      "0.3.1": {
+        "rev": "89e9a14ffbeb632fbe4a42a5a72648e08aeda573",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/DekodeInteraktiv/coding-standards.git"
+      }
+    },
+    "dekodeinteraktiv/hogan-core": {
+      "1.4.3": {
+        "rev": "abb6adc76db899f60d08e73aeb3c3540a0403785",
+        "type": "git",
+        "url": "https://github.com/DekodeInteraktiv/hogan-core.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.2.3": {
+        "rev": "4842476c434e375f9d3182ff7b89059583aa8b27",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "wimg/php-compatibility": {
+      "8.1.0": {
+        "rev": "4ac01e4fe8faaa4f8d3b3cd06ea92e5418ce472e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/wimg/PHPCompatibility.git"
+      }
+    },
+    "wp-coding-standards/wpcs": {
+      "0.14.1": {
+        "rev": "cf6b310caad735816caef7573295f8a534374706",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git"
+      }
+    }
+  }
+}

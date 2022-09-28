@@ -1,0 +1,111 @@
+{
+  "_generic": {
+    "defaultPackage": "async-aws/core",
+    "location": "",
+    "packages": {
+      "async-aws/core": "1.16.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "hash",
+      "json",
+      "simplexml"
+    ],
+    "phpSemver": "^7.2.5 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "async-aws/core": {
+      "1.16.0": [
+        [ "psr/cache", "3.0.0" ],
+        [ "psr/log", "3.0.0" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/http-client", "v6.1.4" ],
+        [ "symfony/http-client-contracts", "v3.1.1" ],
+        [ "symfony/service-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/http-client": {
+      "v6.1.4": [
+        [ "psr/log", "3.0.0" ],
+        [ "symfony/http-client-contracts", "v3.1.1" ],
+        [ "symfony/service-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v3.1.1": [
+        [ "psr/container", "2.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "async-aws/core": {
+      "1.16.0": {
+        "rev": "f5a69caba5ddee8475c90b7ee1b6f6dfdfac4f53",
+        "type": "git",
+        "url": "https://github.com/async-aws/core.git"
+      }
+    },
+    "psr/cache": {
+      "3.0.0": {
+        "rev": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/http-client": {
+      "v6.1.4": {
+        "rev": "06dc27cbdcee26d6796c226db5266a0d58359739",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-client.git"
+      }
+    },
+    "symfony/http-client-contracts": {
+      "v3.1.1": {
+        "rev": "fd038f08c623ab5d22b26e9ba35afe8c79071800",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-client-contracts.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v3.1.1": {
+        "rev": "925e713fe8fcacf6bc05e936edd8dd5441a21239",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    }
+  }
+}

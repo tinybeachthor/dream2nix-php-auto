@@ -1,0 +1,55 @@
+{
+  "_generic": {
+    "defaultPackage": "spryker/monolog",
+    "location": "",
+    "packages": {
+      "spryker/monolog": "2.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "monolog/monolog": {
+      "2.8.0": [
+        [ "psr/log", "3.0.0" ]
+      ]
+    },
+    "spryker/monolog": {
+      "2.0.5": [
+        [ "monolog/monolog", "2.8.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "monolog/monolog": {
+      "2.8.0": {
+        "rev": "720488632c590286b88b80e62aa3d3d551ad4a50",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "spryker/monolog": {
+      "2.0.5": {
+        "rev": "d3f6c1ee63208c552010b131bc42fc80654d1313",
+        "type": "git",
+        "url": "https://github.com/spryker/monolog.git"
+      }
+    }
+  }
+}

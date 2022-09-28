@@ -1,0 +1,651 @@
+{
+  "_generic": {
+    "defaultPackage": "widop/http-adapter-bundle",
+    "location": "",
+    "packages": {
+      "widop/http-adapter-bundle": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "curl",
+      "tokenizer",
+      "ctype",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "container-interop/container-interop": {
+      "1.2.0": [
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "doctrine/annotations": {
+      "1.13.3": [
+        [ "doctrine/lexer", "1.2.3" ],
+        [ "psr/cache", "3.0.0" ]
+      ]
+    },
+    "guzzle/guzzle": {
+      "v3.9.3": [
+        [ "symfony/event-dispatcher", "v2.8.52" ]
+      ]
+    },
+    "kriswallsmith/buzz": {
+      "1.2.1": [
+        [ "php-http/httplug", "2.3.0" ],
+        [ "psr/http-client", "1.0.1" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "symfony/options-resolver", "v6.1.0" ]
+      ]
+    },
+    "php-http/httplug": {
+      "2.3.0": [
+        [ "php-http/promise", "1.1.0" ],
+        [ "psr/http-client", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "1.2.18": [
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "1.2.2" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "3.7.38": [
+        [ "phpunit/php-code-coverage", "1.2.18" ],
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-timer", "1.0.9" ],
+        [ "phpunit/phpunit-mock-objects", "1.2.3" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/yaml", "v2.8.52" ]
+      ]
+    },
+    "phpunit/phpunit-mock-objects": {
+      "1.2.3": [
+        [ "phpunit/php-text-template", "1.2.1" ]
+      ]
+    },
+    "psr/http-client": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "symfony/config": {
+      "v2.8.52": [
+        [ "symfony/filesystem", "v3.0.9" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "symfony/debug": {
+      "v2.8.52": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "symfony/framework-bundle": {
+      "v2.8.17": [
+        [ "doctrine/annotations", "1.13.3" ],
+        [ "doctrine/cache", "1.13.0" ],
+        [ "symfony/asset", "v3.0.9" ],
+        [ "symfony/class-loader", "v3.0.9" ],
+        [ "symfony/config", "v2.8.52" ],
+        [ "symfony/dependency-injection", "v2.8.52" ],
+        [ "symfony/event-dispatcher", "v2.8.52" ],
+        [ "symfony/filesystem", "v3.0.9" ],
+        [ "symfony/finder", "v3.0.9" ],
+        [ "symfony/http-foundation", "v2.8.52" ],
+        [ "symfony/http-kernel", "v2.8.52" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/routing", "v2.8.52" ],
+        [ "symfony/security-core", "v3.0.9" ],
+        [ "symfony/security-csrf", "v3.0.9" ],
+        [ "symfony/stopwatch", "v3.0.9" ],
+        [ "symfony/templating", "v3.0.9" ],
+        [ "symfony/translation", "v2.8.52" ]
+      ]
+    },
+    "symfony/http-foundation": {
+      "v2.8.52": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php54", "v1.20.0" ],
+        [ "symfony/polyfill-php55", "v1.20.0" ]
+      ]
+    },
+    "symfony/http-kernel": {
+      "v2.8.52": [
+        [ "psr/log", "1.1.4" ],
+        [ "symfony/debug", "v2.8.52" ],
+        [ "symfony/event-dispatcher", "v2.8.52" ],
+        [ "symfony/http-foundation", "v2.8.52" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-php56", "v1.20.0" ]
+      ]
+    },
+    "symfony/options-resolver": {
+      "v6.1.0": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/security-core": {
+      "v3.0.9": [
+        [ "symfony/polyfill-php56", "v1.20.0" ],
+        [ "symfony/polyfill-util", "v1.26.0" ]
+      ]
+    },
+    "symfony/security-csrf": {
+      "v3.0.9": [
+        [ "symfony/polyfill-php56", "v1.20.0" ],
+        [ "symfony/polyfill-php70", "v1.20.0" ],
+        [ "symfony/security-core", "v3.0.9" ]
+      ]
+    },
+    "symfony/translation": {
+      "v2.8.52": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v2.8.52": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "widop/http-adapter-bundle": {
+      "1.2.0": [
+        [ "guzzle/guzzle", "v3.9.3" ],
+        [ "kriswallsmith/buzz", "1.2.1" ],
+        [ "phpunit/phpunit", "3.7.38" ],
+        [ "symfony/framework-bundle", "v2.8.17" ],
+        [ "widop/http-adapter", "1.1.0" ],
+        [ "zendframework/zend-http", "2.11.2" ]
+      ]
+    },
+    "zendframework/zend-http": {
+      "2.11.2": [
+        [ "zendframework/zend-loader", "2.6.1" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ],
+        [ "zendframework/zend-uri", "2.7.1" ],
+        [ "zendframework/zend-validator", "2.13.0" ]
+      ]
+    },
+    "zendframework/zend-uri": {
+      "2.7.1": [
+        [ "zendframework/zend-escaper", "2.6.1" ],
+        [ "zendframework/zend-validator", "2.13.0" ]
+      ]
+    },
+    "zendframework/zend-validator": {
+      "2.13.0": [
+        [ "container-interop/container-interop", "1.2.0" ],
+        [ "zendframework/zend-stdlib", "3.2.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "container-interop/container-interop": {
+      "1.2.0": {
+        "rev": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/container-interop/container-interop.git"
+      }
+    },
+    "doctrine/annotations": {
+      "1.13.3": {
+        "rev": "648b0343343565c4a056bfc8392201385e8d89f0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/annotations.git"
+      }
+    },
+    "doctrine/cache": {
+      "1.13.0": {
+        "rev": "56cd022adb5514472cb144c087393c1821911d09",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/cache.git"
+      }
+    },
+    "doctrine/lexer": {
+      "1.2.3": {
+        "rev": "c268e882d4dbdd85e36e4ad69e02dc284f89d229",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/lexer.git"
+      }
+    },
+    "guzzle/guzzle": {
+      "v3.9.3": {
+        "rev": "0645b70d953bc1c067bbc8d5bc53194706b628d9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle3.git"
+      }
+    },
+    "kriswallsmith/buzz": {
+      "1.2.1": {
+        "rev": "2db23c3627ae7a86240ef2e68c6f8bb2c622e90d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/kriswallsmith/Buzz.git"
+      }
+    },
+    "php-http/httplug": {
+      "2.3.0": {
+        "rev": "f640739f80dfa1152533976e3c112477f69274eb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/httplug.git"
+      }
+    },
+    "php-http/promise": {
+      "1.1.0": {
+        "rev": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/promise.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "1.2.18": {
+        "rev": "fe2466802556d3fe4e4d1d58ffd3ccfd0a19be0b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "1.4.5": {
+        "rev": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "1.0.9": {
+        "rev": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.2.2": {
+        "rev": "ad4e1e23ae01b483c16f600ff1bebec184588e32",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "3.7.38": {
+        "rev": "38709dc22d519a3d1be46849868aa2ddf822bcf6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "phpunit/phpunit-mock-objects": {
+      "1.2.3": {
+        "rev": "5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
+      }
+    },
+    "psr/cache": {
+      "3.0.0": {
+        "rev": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/http-client": {
+      "1.0.1": {
+        "rev": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-client.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/asset": {
+      "v3.0.9": {
+        "rev": "f844899f663285ce819c041237777140e0c061c3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/asset.git"
+      }
+    },
+    "symfony/class-loader": {
+      "v3.0.9": {
+        "rev": "00c66ca2de5a9a367706826338df721529a07ca8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/class-loader.git"
+      }
+    },
+    "symfony/config": {
+      "v2.8.52": {
+        "rev": "7dd5f5040dc04c118d057fb5886563963eb70011",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/debug": {
+      "v2.8.52": {
+        "rev": "74251c8d50dd3be7c4ce0c7b862497cdc641a5d0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/debug.git"
+      }
+    },
+    "symfony/dependency-injection": {
+      "v2.8.52": {
+        "rev": "c306198fee8f872a8f5f031e6e4f6f83086992d8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/dependency-injection.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v2.8.52": {
+        "rev": "a77e974a5fecb4398833b0709210e3d5e334ffb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v3.0.9": {
+        "rev": "b2da5009d9bacbd91d83486aa1f44c793a8c380d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v3.0.9": {
+        "rev": "3eb4e64c6145ef8b92adefb618a74ebdde9e3fe9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/framework-bundle": {
+      "v2.8.17": {
+        "rev": "1c6bf2f6bf0e960881aedf99b9bba88b6f2c5810",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/framework-bundle.git"
+      }
+    },
+    "symfony/http-foundation": {
+      "v2.8.52": {
+        "rev": "3929d9fe8148d17819ad0178c748b8d339420709",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-foundation.git"
+      }
+    },
+    "symfony/http-kernel": {
+      "v2.8.52": {
+        "rev": "c3be27b8627cd5ee8dfa8d1b923982f618ec521c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-kernel.git"
+      }
+    },
+    "symfony/options-resolver": {
+      "v6.1.0": {
+        "rev": "a3016f5442e28386ded73c43a32a5b68586dd1c4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/options-resolver.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php54": {
+      "v1.20.0": {
+        "rev": "37285b1d5d13f37c8bee546d8d2ad0353460c4c7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php54.git"
+      }
+    },
+    "symfony/polyfill-php55": {
+      "v1.20.0": {
+        "rev": "c17452124a883900e1d73961f9075a638399c1a0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php55.git"
+      }
+    },
+    "symfony/polyfill-php56": {
+      "v1.20.0": {
+        "rev": "54b8cd7e6c1643d78d011f3be89f3ef1f9f4c675",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php56.git"
+      }
+    },
+    "symfony/polyfill-php70": {
+      "v1.20.0": {
+        "rev": "5f03a781d984aae42cebd18e7912fa80f02ee644",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php70.git"
+      }
+    },
+    "symfony/polyfill-util": {
+      "v1.26.0": {
+        "rev": "f39b2df257d6f73263d268512e16812df5de0a8f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-util.git"
+      }
+    },
+    "symfony/routing": {
+      "v2.8.52": {
+        "rev": "8b0df6869d1997baafff6a1541826eac5a03d067",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/routing.git"
+      }
+    },
+    "symfony/security-core": {
+      "v3.0.9": {
+        "rev": "78a08496e6294572432240251c31f613f838e345",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/security-core.git"
+      }
+    },
+    "symfony/security-csrf": {
+      "v3.0.9": {
+        "rev": "d185d43d480a809b8da555146ac711ba0fe55167",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/security-csrf.git"
+      }
+    },
+    "symfony/stopwatch": {
+      "v3.0.9": {
+        "rev": "49c0ea2f3d3a779df4780927671332edc406ea84",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/stopwatch.git"
+      }
+    },
+    "symfony/templating": {
+      "v3.0.9": {
+        "rev": "8e5cc0417316d9fe62fb78e474f98e5f4d95dbfd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/templating.git"
+      }
+    },
+    "symfony/translation": {
+      "v2.8.52": {
+        "rev": "fc58c2a19e56c29f5ba2736ec40d0119a0de2089",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/yaml": {
+      "v2.8.52": {
+        "rev": "02c1859112aa779d9ab394ae4f3381911d84052b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "widop/http-adapter": {
+      "1.1.0": {
+        "rev": "9f21040064d290cc70db4affe3191828f419f5af",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/widop/http-adapter.git"
+      }
+    },
+    "widop/http-adapter-bundle": {
+      "1.2.0": {
+        "rev": "f8ff24f423ee8db7ba0a72eecafcf53dcb453d79",
+        "type": "git",
+        "url": "https://github.com/widop/WidopHttpAdapterBundle.git"
+      }
+    },
+    "zendframework/zend-escaper": {
+      "2.6.1": {
+        "rev": "3801caa21b0ca6aca57fa1c42b08d35c395ebd5f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-escaper.git"
+      }
+    },
+    "zendframework/zend-http": {
+      "2.11.2": {
+        "rev": "e15e0ce45a2a4f642cd0b7b4f4d4d0366b729a1a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-http.git"
+      }
+    },
+    "zendframework/zend-loader": {
+      "2.6.1": {
+        "rev": "91da574d29b58547385b2298c020b257310898c6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-loader.git"
+      }
+    },
+    "zendframework/zend-stdlib": {
+      "3.2.1": {
+        "rev": "66536006722aff9e62d1b331025089b7ec71c065",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-stdlib.git"
+      }
+    },
+    "zendframework/zend-uri": {
+      "2.7.1": {
+        "rev": "bfc4a5b9a309711e968d7c72afae4ac50c650083",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-uri.git"
+      }
+    },
+    "zendframework/zend-validator": {
+      "2.13.0": {
+        "rev": "b54acef1f407741c5347f2a97f899ab21f2229ef",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-validator.git"
+      }
+    }
+  }
+}

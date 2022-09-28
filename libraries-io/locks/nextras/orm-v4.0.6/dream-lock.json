@@ -1,0 +1,336 @@
+{
+  "_generic": {
+    "defaultPackage": "nextras/orm",
+    "location": "",
+    "packages": {
+      "nextras/orm": "v4.0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "phpstan/extension-installer@1.0.5": "^1.1 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "ctype",
+      "json",
+      "reflection",
+      "tokenizer",
+      "session"
+    ],
+    "phpSemver": ">=7.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "marc-mabe/php-enum-phpstan": {
+      "v2.0.0": [
+        [ "marc-mabe/php-enum", "v3.2.0" ],
+        [ "phpstan/phpstan", "1.1.2" ]
+      ]
+    },
+    "mockery/mockery": {
+      "1.5.1": [
+        [ "hamcrest/hamcrest-php", "v2.0.1" ]
+      ]
+    },
+    "nette/bootstrap": {
+      "v3.1.2": [
+        [ "nette/di", "v3.0.13" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/caching": {
+      "v3.1.3": [
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/di": {
+      "v3.0.13": [
+        [ "nette/neon", "v3.3.3" ],
+        [ "nette/php-generator", "v4.0.3" ],
+        [ "nette/robot-loader", "v3.4.1" ],
+        [ "nette/schema", "v1.2.2" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.5.3": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/php-generator": {
+      "v4.0.3": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/robot-loader": {
+      "v3.4.1": [
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nette/schema": {
+      "v1.2.2": [
+        [ "nette/utils", "v3.2.8" ]
+      ]
+    },
+    "nextras/orm": {
+      "v4.0.6": [
+        [ "marc-mabe/php-enum", "v3.2.0" ],
+        [ "marc-mabe/php-enum-phpstan", "v2.0.0" ],
+        [ "mockery/mockery", "1.5.1" ],
+        [ "nette/bootstrap", "v3.1.2" ],
+        [ "nette/caching", "v3.1.3" ],
+        [ "nette/di", "v3.0.13" ],
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/neon", "v3.3.3" ],
+        [ "nette/tester", "v2.4.3" ],
+        [ "nette/tokenizer", "v3.1.1" ],
+        [ "nette/utils", "v3.2.8" ],
+        [ "nextras/dbal", "v4.0.x-dev" ],
+        [ "nextras/orm-phpstan", "v1.0.0" ],
+        [ "phpstan/extension-installer", "1.0.5" ],
+        [ "phpstan/phpstan", "1.1.2" ],
+        [ "phpstan/phpstan-deprecation-rules", "1.0.0" ],
+        [ "phpstan/phpstan-mockery", "1.0.0" ],
+        [ "phpstan/phpstan-nette", "1.0.0" ],
+        [ "phpstan/phpstan-strict-rules", "1.0.0" ],
+        [ "tracy/tracy", "v2.9.4" ]
+      ]
+    },
+    "nextras/orm-phpstan": {
+      "v1.0.0": [
+        [ "phpstan/phpstan", "1.1.2" ]
+      ]
+    },
+    "phpstan/extension-installer": {
+      "1.0.5": [
+        [ "phpstan/phpstan", "1.1.2" ]
+      ]
+    },
+    "phpstan/phpstan-deprecation-rules": {
+      "1.0.0": [
+        [ "phpstan/phpstan", "1.1.2" ]
+      ]
+    },
+    "phpstan/phpstan-mockery": {
+      "1.0.0": [
+        [ "phpstan/phpstan", "1.1.2" ]
+      ]
+    },
+    "phpstan/phpstan-nette": {
+      "1.0.0": [
+        [ "phpstan/phpstan", "1.1.2" ]
+      ]
+    },
+    "phpstan/phpstan-strict-rules": {
+      "1.0.0": [
+        [ "phpstan/phpstan", "1.1.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "hamcrest/hamcrest-php": {
+      "v2.0.1": {
+        "rev": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hamcrest/hamcrest-php.git"
+      }
+    },
+    "marc-mabe/php-enum": {
+      "v3.2.0": {
+        "rev": "021dae8d9ddb9e726554ad636081496345cf12e1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/marc-mabe/php-enum.git"
+      }
+    },
+    "marc-mabe/php-enum-phpstan": {
+      "v2.0.0": {
+        "rev": "0a20a9f6df13c9c9b9e398d9a845b3d58f1f91c2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/marc-mabe/php-enum-phpstan.git"
+      }
+    },
+    "mockery/mockery": {
+      "1.5.1": {
+        "rev": "e92dcc83d5a51851baf5f5591d32cb2b16e3684e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/mockery/mockery.git"
+      }
+    },
+    "nette/bootstrap": {
+      "v3.1.2": {
+        "rev": "3ab4912a08af0c16d541c3709935c3478b5ee090",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/bootstrap.git"
+      }
+    },
+    "nette/caching": {
+      "v3.1.3": {
+        "rev": "7a59a7762e43ba6d8e4aa0484eaaf6a40835a4ad",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/caching.git"
+      }
+    },
+    "nette/di": {
+      "v3.0.13": {
+        "rev": "9878f2958a0a804b08430dbc719a52e493022739",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.5.3": {
+        "rev": "64dc25b7929b731e72a1bc84a9e57727f5d5d3e8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/neon": {
+      "v3.3.3": {
+        "rev": "22e384da162fab42961d48eb06c06d3ad0c11b95",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/neon.git"
+      }
+    },
+    "nette/php-generator": {
+      "v4.0.3": {
+        "rev": "ce449138b73ee788e818afeb41af51df3ec03710",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/php-generator.git"
+      }
+    },
+    "nette/robot-loader": {
+      "v3.4.1": {
+        "rev": "e2adc334cb958164c050f485d99c44c430f51fe2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/robot-loader.git"
+      }
+    },
+    "nette/schema": {
+      "v1.2.2": {
+        "rev": "9a39cef03a5b34c7de64f551538cbba05c2be5df",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/schema.git"
+      }
+    },
+    "nette/tester": {
+      "v2.4.3": {
+        "rev": "451f6e97b117797e817446de8d19fe06e54fd33f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tester.git"
+      }
+    },
+    "nette/tokenizer": {
+      "v3.1.1": {
+        "rev": "370c5e4e2e10eb4d3e406d3a90526f821de98190",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tokenizer.git"
+      }
+    },
+    "nette/utils": {
+      "v3.2.8": {
+        "rev": "02a54c4c872b99e4ec05c4aec54b5a06eb0f6368",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "nextras/dbal": {
+      "v4.0.x-dev": {
+        "rev": "05c44e728bd9362699c7a0b65ed458fcb62d02ac",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nextras/dbal.git"
+      }
+    },
+    "nextras/orm": {
+      "v4.0.6": {
+        "rev": "2abc593a3bb7a80bdb9ad94f3e9c47ead65ea69f",
+        "type": "git",
+        "url": "https://github.com/nextras/orm.git"
+      }
+    },
+    "nextras/orm-phpstan": {
+      "v1.0.0": {
+        "rev": "7c230e0b10967ffe0a822845af52d5beab5dcadf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nextras/orm-phpstan.git"
+      }
+    },
+    "phpstan/extension-installer": {
+      "1.0.5": {
+        "rev": "5c2da3846819f951385cb6a25d3277051481c48a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/extension-installer.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "1.1.2": {
+        "rev": "bcea0ae85868a89d5789c75f012c93129f842934",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "phpstan/phpstan-deprecation-rules": {
+      "1.0.0": {
+        "rev": "e5ccafb0dd8d835dd65d8d7a1a0d2b1b75414682",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-deprecation-rules.git"
+      }
+    },
+    "phpstan/phpstan-mockery": {
+      "1.0.0": {
+        "rev": "1767581e025d830d9288702761ad3cc7b72ecca4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-mockery.git"
+      }
+    },
+    "phpstan/phpstan-nette": {
+      "1.0.0": {
+        "rev": "f4654b27b107241e052755ec187a0b1964541ba6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-nette.git"
+      }
+    },
+    "phpstan/phpstan-strict-rules": {
+      "1.0.0": {
+        "rev": "7f50eb112f37fda2ef956813d3f1e9b1e69d7940",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-strict-rules.git"
+      }
+    },
+    "tracy/tracy": {
+      "v2.9.4": {
+        "rev": "0ed605329b095f5f5fe2db2adc3d1ee80c917294",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tracy.git"
+      }
+    }
+  }
+}

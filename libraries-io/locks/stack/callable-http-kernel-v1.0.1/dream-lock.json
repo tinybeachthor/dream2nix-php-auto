@@ -1,0 +1,83 @@
+{
+  "_generic": {
+    "defaultPackage": "stack/callable-http-kernel",
+    "location": "",
+    "packages": {
+      "stack/callable-http-kernel": "v1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=5.3.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "stack/callable-http-kernel": {
+      "v1.0.1": [
+        [ "symfony/http-foundation", "v2.3.6" ],
+        [ "symfony/http-kernel", "v2.3.6" ]
+      ]
+    },
+    "symfony/http-kernel": {
+      "v2.3.6": [
+        [ "psr/log", "1.0.0" ],
+        [ "symfony/debug", "v2.3.6" ],
+        [ "symfony/event-dispatcher", "v2.3.6" ],
+        [ "symfony/http-foundation", "v2.3.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "psr/log": {
+      "1.0.0": {
+        "rev": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "stack/callable-http-kernel": {
+      "v1.0.1": {
+        "rev": "a7802f842e46c175bdc3645b3f0768c5bb9c4b23",
+        "type": "git",
+        "url": "https://github.com/stackphp/CallableHttpKernel.git"
+      }
+    },
+    "symfony/debug": {
+      "v2.3.6": {
+        "rev": "7f671456b9617d0a54f04597ae1c1ed3a1e858fd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/Debug.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v2.3.6": {
+        "rev": "7fc72a7a346a1887d3968cc1ce5642a15cd182e9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/EventDispatcher.git"
+      }
+    },
+    "symfony/http-foundation": {
+      "v2.3.6": {
+        "rev": "59e712338cd05463ebcb8da6422a01b1291871e3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/HttpFoundation.git"
+      }
+    },
+    "symfony/http-kernel": {
+      "v2.3.6": {
+        "rev": "9ace7b963fa6d2eae8471c246e6fabc2ef714566",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/HttpKernel.git"
+      }
+    }
+  }
+}

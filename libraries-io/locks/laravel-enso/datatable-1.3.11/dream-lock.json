@@ -1,0 +1,1224 @@
+{
+  "_generic": {
+    "defaultPackage": "laravel-enso/datatable",
+    "location": "",
+    "packages": {
+      "laravel-enso/datatable": "1.3.11"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "kylekatarnls/update-helper@1.2.1": "^1.1.0 || ^2.0.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "mbstring",
+      "json",
+      "fileinfo",
+      "openssl",
+      "tokenizer",
+      "xml",
+      "xmlwriter",
+      "dom",
+      "libxml"
+    ],
+    "phpSemver": ">=7.1.0"
+  },
+  "cyclicDependencies": {
+    "laravel-enso/avatarmanager": {
+      "1.3.4": [
+        [ "laravel-enso/core", "1.3.32" ]
+      ]
+    },
+    "laravel-enso/core": {
+      "1.3.32": [
+        [ "laravel-enso/datatable", "1.3.11" ]
+      ]
+    },
+    "laravel-enso/filemanager": {
+      "1.3.2": [
+        [ "laravel-enso/core", "1.3.32" ]
+      ]
+    },
+    "laravel-enso/impersonate": {
+      "1.3.3": [
+        [ "laravel-enso/core", "1.3.32" ]
+      ]
+    },
+    "laravel-enso/localisation": {
+      "1.3.8": [
+        [ "laravel-enso/core", "1.3.32" ],
+        [ "laravel-enso/datatable", "1.3.11" ]
+      ]
+    },
+    "laravel-enso/menumanager": {
+      "1.3.7": [
+        [ "laravel-enso/datatable", "1.3.11" ]
+      ]
+    },
+    "laravel-enso/permissionmanager": {
+      "1.3.8": [
+        [ "laravel-enso/datatable", "1.3.11" ],
+        [ "laravel-enso/rolemanager", "1.3.3" ]
+      ]
+    },
+    "laravel-enso/rolemanager": {
+      "1.3.3": [
+        [ "laravel-enso/datatable", "1.3.11" ],
+        [ "laravel-enso/menumanager", "1.3.7" ]
+      ]
+    },
+    "laravel-enso/structuremanager": {
+      "1.3.1": [
+        [ "laravel-enso/menumanager", "1.3.7" ],
+        [ "laravel-enso/permissionmanager", "1.3.8" ],
+        [ "laravel-enso/rolemanager", "1.3.3" ]
+      ]
+    },
+    "laravel-enso/tutorialmanager": {
+      "1.3.2": [
+        [ "laravel-enso/datatable", "1.3.11" ],
+        [ "laravel-enso/permissionmanager", "1.3.8" ],
+        [ "laravel-enso/structuremanager", "1.3.1" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "egulias/email-validator": {
+      "3.2.1": [
+        [ "doctrine/lexer", "1.2.3" ],
+        [ "symfony/polyfill-intl-idn", "v1.26.0" ]
+      ]
+    },
+    "erusev/parsedown": {
+      "1.7.4": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "guzzlehttp/guzzle": {
+      "6.5.8": [
+        [ "guzzlehttp/promises", "1.5.2" ],
+        [ "guzzlehttp/psr7", "1.9.0" ],
+        [ "symfony/polyfill-intl-idn", "v1.26.0" ]
+      ]
+    },
+    "guzzlehttp/psr7": {
+      "1.9.0": [
+        [ "psr/http-message", "1.0.1" ],
+        [ "ralouphie/getallheaders", "3.0.3" ]
+      ]
+    },
+    "intervention/image": {
+      "2.7.2": [
+        [ "guzzlehttp/psr7", "1.9.0" ]
+      ]
+    },
+    "jenssegers/date": {
+      "v3.5.0": [
+        [ "nesbot/carbon", "1.26.6" ],
+        [ "symfony/translation", "v4.4.45" ]
+      ]
+    },
+    "jeremeamia/superclosure": {
+      "2.4.0": [
+        [ "nikic/php-parser", "v4.15.1" ],
+        [ "symfony/polyfill-php56", "v1.20.0" ]
+      ]
+    },
+    "laracasts/flash": {
+      "3.2.1": [
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/actionlogger": {
+      "1.3.1": [
+        [ "jenssegers/date", "v3.5.0" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/avatarmanager": {
+      "1.3.4": [
+        [ "laravel-enso/core", "1.3.32" ],
+        [ "laravel-enso/imagetransformer", "1.4.4" ]
+      ]
+    },
+    "laravel-enso/charts": {
+      "1.3.1": [
+        [ "laravel-enso/vueadminlte", "1.3.55" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/core": {
+      "1.3.32": [
+        [ "guzzlehttp/guzzle", "6.5.8" ],
+        [ "laracasts/flash", "3.2.1" ],
+        [ "laravel-enso/actionlogger", "1.3.1" ],
+        [ "laravel-enso/avatarmanager", "1.3.4" ],
+        [ "laravel-enso/charts", "1.3.1" ],
+        [ "laravel-enso/datatable", "1.3.11" ],
+        [ "laravel-enso/dbsyncmigrations", "1.3.2" ],
+        [ "laravel-enso/filemanager", "1.3.2" ],
+        [ "laravel-enso/formbuilder", "1.3.7" ],
+        [ "laravel-enso/helpers", "1.4.0" ],
+        [ "laravel-enso/historytracker", "1.4.12" ],
+        [ "laravel-enso/howtovideos", "1.0.8" ],
+        [ "laravel-enso/impersonate", "1.3.3" ],
+        [ "laravel-enso/localisation", "1.3.8" ],
+        [ "laravel-enso/logmanager", "1.3.4" ],
+        [ "laravel-enso/menumanager", "1.3.7" ],
+        [ "laravel-enso/permissionmanager", "1.3.8" ],
+        [ "laravel-enso/rememberable", "1.3.9" ],
+        [ "laravel-enso/rolemanager", "1.3.3" ],
+        [ "laravel-enso/select", "1.3.6" ],
+        [ "laravel-enso/structuremanager", "1.3.1" ],
+        [ "laravel-enso/trackwho", "1.3.3" ],
+        [ "laravel-enso/tutorialmanager", "1.3.2" ],
+        [ "laravel-enso/vueadminlte", "1.3.55" ],
+        [ "laravel/framework", "v5.6.40" ],
+        [ "laravelcollective/html", "v5.6.10" ]
+      ]
+    },
+    "laravel-enso/datatable": {
+      "1.3.11": [
+        [ "laravel-enso/core", "1.3.32" ],
+        [ "laravel-enso/helpers", "1.4.0" ],
+        [ "laravel-enso/vueadminlte", "1.3.55" ],
+        [ "maatwebsite/excel", "2.1.30" ]
+      ]
+    },
+    "laravel-enso/dbsyncmigrations": {
+      "1.3.2": [
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/filemanager": {
+      "1.3.2": [
+        [ "laravel-enso/core", "1.3.32" ],
+        [ "laravel-enso/vueadminlte", "1.3.55" ]
+      ]
+    },
+    "laravel-enso/formbuilder": {
+      "1.3.7": [
+        [ "laravel-enso/select", "1.3.6" ],
+        [ "laravel-enso/vueadminlte", "1.3.55" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/helpers": {
+      "1.4.0": [
+        [ "nesbot/carbon", "1.26.6" ]
+      ]
+    },
+    "laravel-enso/historytracker": {
+      "1.4.12": [
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/howtovideos": {
+      "1.0.8": [
+        [ "laravel-enso/filemanager", "1.3.2" ],
+        [ "laravel-enso/imagetransformer", "1.4.4" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/imagetransformer": {
+      "1.4.4": [
+        [ "intervention/image", "2.7.2" ],
+        [ "laravel/framework", "v5.6.40" ],
+        [ "spatie/laravel-image-optimizer", "1.3.3" ]
+      ]
+    },
+    "laravel-enso/impersonate": {
+      "1.3.3": [
+        [ "laravel-enso/core", "1.3.32" ],
+        [ "laravel-enso/menumanager", "1.3.7" ],
+        [ "laravel-enso/permissionmanager", "1.3.8" ],
+        [ "laravel-enso/rolemanager", "1.3.3" ],
+        [ "laravel-enso/structuremanager", "1.3.1" ]
+      ]
+    },
+    "laravel-enso/localisation": {
+      "1.3.8": [
+        [ "jenssegers/date", "v3.5.0" ],
+        [ "laravel-enso/core", "1.3.32" ],
+        [ "laravel-enso/datatable", "1.3.11" ],
+        [ "laravel-enso/formbuilder", "1.3.7" ],
+        [ "laravel-enso/helpers", "1.4.0" ],
+        [ "laravel-enso/structuremanager", "1.3.1" ]
+      ]
+    },
+    "laravel-enso/logmanager": {
+      "1.3.4": [
+        [ "jenssegers/date", "v3.5.0" ],
+        [ "laravel-enso/structuremanager", "1.3.1" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/menumanager": {
+      "1.3.7": [
+        [ "laravel-enso/datatable", "1.3.11" ],
+        [ "laravel-enso/dbsyncmigrations", "1.3.2" ],
+        [ "laravel-enso/formbuilder", "1.3.7" ],
+        [ "laravel-enso/helpers", "1.4.0" ],
+        [ "laravel-enso/rolemanager", "1.3.3" ],
+        [ "laravel-enso/structuremanager", "1.3.1" ],
+        [ "laravel-enso/vueadminlte", "1.3.55" ],
+        [ "laravel/framework", "v5.6.40" ],
+        [ "nesbot/carbon", "1.26.6" ]
+      ]
+    },
+    "laravel-enso/permissionmanager": {
+      "1.3.8": [
+        [ "laravel-enso/datatable", "1.3.11" ],
+        [ "laravel-enso/dbsyncmigrations", "1.3.2" ],
+        [ "laravel-enso/formbuilder", "1.3.7" ],
+        [ "laravel-enso/helpers", "1.4.0" ],
+        [ "laravel-enso/rolemanager", "1.3.3" ],
+        [ "laravel-enso/structuremanager", "1.3.1" ],
+        [ "laravel-enso/tutorialmanager", "1.3.2" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/rememberable": {
+      "1.3.9": [
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/rolemanager": {
+      "1.3.3": [
+        [ "laravel-enso/datatable", "1.3.11" ],
+        [ "laravel-enso/dbsyncmigrations", "1.3.2" ],
+        [ "laravel-enso/formbuilder", "1.3.7" ],
+        [ "laravel-enso/helpers", "1.4.0" ],
+        [ "laravel-enso/menumanager", "1.3.7" ],
+        [ "laravel-enso/permissionmanager", "1.3.8" ],
+        [ "laravel-enso/select", "1.3.6" ],
+        [ "laravel-enso/structuremanager", "1.3.1" ],
+        [ "laravel-enso/vueadminlte", "1.3.55" ],
+        [ "laravel/framework", "v5.6.40" ],
+        [ "nesbot/carbon", "1.26.6" ]
+      ]
+    },
+    "laravel-enso/select": {
+      "1.3.6": [
+        [ "laravel-enso/vueadminlte", "1.3.55" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/structuremanager": {
+      "1.3.1": [
+        [ "laravel-enso/menumanager", "1.3.7" ],
+        [ "laravel-enso/permissionmanager", "1.3.8" ],
+        [ "laravel-enso/rolemanager", "1.3.3" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/testhelper": {
+      "1.3.2": [
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/trackwho": {
+      "1.3.3": [
+        [ "laravel-enso/testhelper", "1.3.2" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/tutorialmanager": {
+      "1.3.2": [
+        [ "laravel-enso/datatable", "1.3.11" ],
+        [ "laravel-enso/formbuilder", "1.3.7" ],
+        [ "laravel-enso/helpers", "1.4.0" ],
+        [ "laravel-enso/permissionmanager", "1.3.8" ],
+        [ "laravel-enso/structuremanager", "1.3.1" ],
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel-enso/vueadminlte": {
+      "1.3.55": [
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "laravel/framework": {
+      "v5.6.40": [
+        [ "doctrine/inflector", "1.4.4" ],
+        [ "dragonmantank/cron-expression", "v2.3.1" ],
+        [ "erusev/parsedown", "1.7.4" ],
+        [ "league/flysystem", "1.1.9" ],
+        [ "monolog/monolog", "1.27.1" ],
+        [ "nesbot/carbon", "1.26.6" ],
+        [ "psr/container", "1.1.2" ],
+        [ "psr/simple-cache", "1.0.1" ],
+        [ "ramsey/uuid", "3.9.6" ],
+        [ "swiftmailer/swiftmailer", "v6.3.0" ],
+        [ "symfony/console", "v4.4.45" ],
+        [ "symfony/debug", "v4.4.44" ],
+        [ "symfony/finder", "v4.4.44" ],
+        [ "symfony/http-foundation", "v4.4.45" ],
+        [ "symfony/http-kernel", "v4.4.45" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/process", "v4.4.44" ],
+        [ "symfony/routing", "v4.4.44" ],
+        [ "symfony/var-dumper", "v4.4.44" ],
+        [ "tijsverkoyen/css-to-inline-styles", "2.2.5" ],
+        [ "vlucas/phpdotenv", "v2.6.9" ]
+      ]
+    },
+    "laravelcollective/html": {
+      "v5.6.10": [
+        [ "laravel/framework", "v5.6.40" ]
+      ]
+    },
+    "league/flysystem": {
+      "1.1.9": [
+        [ "league/mime-type-detection", "1.11.0" ]
+      ]
+    },
+    "maatwebsite/excel": {
+      "2.1.30": [
+        [ "jeremeamia/superclosure", "2.4.0" ],
+        [ "laravel/framework", "v5.6.40" ],
+        [ "nesbot/carbon", "1.26.6" ],
+        [ "phpoffice/phpexcel", "1.8.2" ],
+        [ "tijsverkoyen/css-to-inline-styles", "2.2.5" ]
+      ]
+    },
+    "monolog/monolog": {
+      "1.27.1": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "nesbot/carbon": {
+      "1.26.6": [
+        [ "kylekatarnls/update-helper", "1.2.1" ],
+        [ "symfony/translation", "v4.4.45" ]
+      ]
+    },
+    "phpoffice/phpexcel": {
+      "1.8.2": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "ramsey/uuid": {
+      "3.9.6": [
+        [ "paragonie/random_compat", "v9.99.100" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "spatie/image-optimizer": {
+      "1.6.2": [
+        [ "psr/log", "1.1.4" ],
+        [ "symfony/process", "v4.4.44" ]
+      ]
+    },
+    "spatie/laravel-image-optimizer": {
+      "1.3.3": [
+        [ "laravel/framework", "v5.6.40" ],
+        [ "spatie/image-optimizer", "1.6.2" ]
+      ]
+    },
+    "swiftmailer/swiftmailer": {
+      "v6.3.0": [
+        [ "egulias/email-validator", "3.2.1" ],
+        [ "symfony/polyfill-iconv", "v1.26.0" ],
+        [ "symfony/polyfill-intl-idn", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/console": {
+      "v4.4.45": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/service-contracts", "v2.5.2" ]
+      ]
+    },
+    "symfony/debug": {
+      "v4.4.44": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "symfony/error-handler": {
+      "v4.4.44": [
+        [ "psr/log", "1.1.4" ],
+        [ "symfony/debug", "v4.4.44" ],
+        [ "symfony/var-dumper", "v4.4.44" ]
+      ]
+    },
+    "symfony/event-dispatcher": {
+      "v4.4.44": [
+        [ "symfony/event-dispatcher-contracts", "v1.1.13" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/finder": {
+      "v4.4.44": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/http-foundation": {
+      "v4.4.45": [
+        [ "symfony/mime", "v5.4.12" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/http-kernel": {
+      "v4.4.45": [
+        [ "psr/log", "1.1.4" ],
+        [ "symfony/error-handler", "v4.4.44" ],
+        [ "symfony/event-dispatcher", "v4.4.44" ],
+        [ "symfony/http-client-contracts", "v2.5.2" ],
+        [ "symfony/http-foundation", "v4.4.45" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/mime": {
+      "v5.4.12": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-intl-idn", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": [
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-php72", "v1.26.0" ]
+      ]
+    },
+    "symfony/process": {
+      "v4.4.44": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/routing": {
+      "v4.4.44": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v2.5.2": [
+        [ "psr/container", "1.1.2" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/translation": {
+      "v4.4.45": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/translation-contracts", "v2.5.2" ]
+      ]
+    },
+    "symfony/var-dumper": {
+      "v4.4.44": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php72", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "tijsverkoyen/css-to-inline-styles": {
+      "2.2.5": [
+        [ "symfony/css-selector", "v6.1.3" ]
+      ]
+    },
+    "vlucas/phpdotenv": {
+      "v2.6.9": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/inflector": {
+      "1.4.4": {
+        "rev": "4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/inflector.git"
+      }
+    },
+    "doctrine/lexer": {
+      "1.2.3": {
+        "rev": "c268e882d4dbdd85e36e4ad69e02dc284f89d229",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/lexer.git"
+      }
+    },
+    "dragonmantank/cron-expression": {
+      "v2.3.1": {
+        "rev": "65b2d8ee1f10915efb3b55597da3404f096acba2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/dragonmantank/cron-expression.git"
+      }
+    },
+    "egulias/email-validator": {
+      "3.2.1": {
+        "rev": "f88dcf4b14af14a98ad96b14b2b317969eab6715",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/egulias/EmailValidator.git"
+      }
+    },
+    "erusev/parsedown": {
+      "1.7.4": {
+        "rev": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/erusev/parsedown.git"
+      }
+    },
+    "guzzlehttp/guzzle": {
+      "6.5.8": {
+        "rev": "a52f0440530b54fa079ce76e8c5d196a42cad981",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle.git"
+      }
+    },
+    "guzzlehttp/promises": {
+      "1.5.2": {
+        "rev": "b94b2807d85443f9719887892882d0329d1e2598",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/promises.git"
+      }
+    },
+    "guzzlehttp/psr7": {
+      "1.9.0": {
+        "rev": "e98e3e6d4f86621a9b75f623996e6bbdeb4b9318",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git"
+      }
+    },
+    "intervention/image": {
+      "2.7.2": {
+        "rev": "04be355f8d6734c826045d02a1079ad658322dad",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Intervention/image.git"
+      }
+    },
+    "jenssegers/date": {
+      "v3.5.0": {
+        "rev": "58393b0544fc2525b3fcd02aa4c989857107e05a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/jenssegers/date.git"
+      }
+    },
+    "jeremeamia/superclosure": {
+      "2.4.0": {
+        "rev": "5707d5821b30b9a07acfb4d76949784aaa0e9ce9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/jeremeamia/super_closure.git"
+      }
+    },
+    "kylekatarnls/update-helper": {
+      "1.2.1": {
+        "rev": "429be50660ed8a196e0798e5939760f168ec8ce9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/kylekatarnls/update-helper.git"
+      }
+    },
+    "laracasts/flash": {
+      "3.2.1": {
+        "rev": "f64a8d97f901fdb3ce8eb9b28c5308a726455467",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laracasts/flash.git"
+      }
+    },
+    "laravel-enso/actionlogger": {
+      "1.3.1": {
+        "rev": "3c5c1abff8c449ed918512546a187b4b8b47ecb6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/ActionLogger.git"
+      }
+    },
+    "laravel-enso/avatarmanager": {
+      "1.3.4": {
+        "rev": "e08bf150ee586b8a01005bfad7d3b8ba12b8e41c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/AvatarManager.git"
+      }
+    },
+    "laravel-enso/charts": {
+      "1.3.1": {
+        "rev": "62e9354e50f52c6a5678bf8a56fb7f53d274e3de",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/Charts.git"
+      }
+    },
+    "laravel-enso/core": {
+      "1.3.32": {
+        "rev": "266219df4978b11bb6809b259f67f788d29d0231",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/Core.git"
+      }
+    },
+    "laravel-enso/datatable": {
+      "1.3.11": {
+        "rev": "3bb0dd20c9db88512c6fff462a5b14cd9e5ff089",
+        "type": "git",
+        "url": "https://github.com/laravel-enso/DataTable.git"
+      }
+    },
+    "laravel-enso/dbsyncmigrations": {
+      "1.3.2": {
+        "rev": "123f08fc9d7e0c64c311a2d351bc6ac85b5a8369",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/DbSyncMigrations.git"
+      }
+    },
+    "laravel-enso/filemanager": {
+      "1.3.2": {
+        "rev": "c0e525b9e064928fbeb2edef97370291476d4ea8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/FileManager.git"
+      }
+    },
+    "laravel-enso/formbuilder": {
+      "1.3.7": {
+        "rev": "9714244d7c107c2617ebb1a1da3f3556b317327c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/FormBuilder.git"
+      }
+    },
+    "laravel-enso/helpers": {
+      "1.4.0": {
+        "rev": "7e59df70d71c12aa1999d61784059077bc6d46af",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/Helpers.git"
+      }
+    },
+    "laravel-enso/historytracker": {
+      "1.4.12": {
+        "rev": "1e4adeec29b23dea043a29f8f978bdc73bf305d1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/HistoryTracker.git"
+      }
+    },
+    "laravel-enso/howtovideos": {
+      "1.0.8": {
+        "rev": "72b07c7ac201ddf71a56163acf11118ae107d41c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/HowToVideos.git"
+      }
+    },
+    "laravel-enso/imagetransformer": {
+      "1.4.4": {
+        "rev": "a113a2ca57dd5e412a108397c18d25a9f4bb8c9e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/ImageTransformer.git"
+      }
+    },
+    "laravel-enso/impersonate": {
+      "1.3.3": {
+        "rev": "f2f2f85c5d210d290c9a1458e546dee75255c0a4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/Impersonate.git"
+      }
+    },
+    "laravel-enso/localisation": {
+      "1.3.8": {
+        "rev": "c5e31d933325a587b02d4ab78d95c0e5890da433",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/Localisation.git"
+      }
+    },
+    "laravel-enso/logmanager": {
+      "1.3.4": {
+        "rev": "dc397ba8f6937a1273fc73be08f549c761f658f6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/LogManager.git"
+      }
+    },
+    "laravel-enso/menumanager": {
+      "1.3.7": {
+        "rev": "738c06607b52b1335c1b169509c602206fe283e4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/MenuManager.git"
+      }
+    },
+    "laravel-enso/permissionmanager": {
+      "1.3.8": {
+        "rev": "e95ebc587ff18183bf303b5819a95e12d9ff2090",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/PermissionManager.git"
+      }
+    },
+    "laravel-enso/rememberable": {
+      "1.3.9": {
+        "rev": "920e427a97e74d58d4e69cfbead1d8bb1bffca68",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/Rememberable.git"
+      }
+    },
+    "laravel-enso/rolemanager": {
+      "1.3.3": {
+        "rev": "0ad50db089049c7305d1eaec9d9f439973013c67",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/RoleManager.git"
+      }
+    },
+    "laravel-enso/select": {
+      "1.3.6": {
+        "rev": "110a49b2240115f365da614222ebaacd4c9abc6e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/Select.git"
+      }
+    },
+    "laravel-enso/structuremanager": {
+      "1.3.1": {
+        "rev": "a02b8c7505968bda831efd73e32f19619e92e1c0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/StructureManager.git"
+      }
+    },
+    "laravel-enso/testhelper": {
+      "1.3.2": {
+        "rev": "8bde81d47dcd2ecf6641260c502ac8982ef1ec7a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/TestHelper.git"
+      }
+    },
+    "laravel-enso/trackwho": {
+      "1.3.3": {
+        "rev": "5c38ec20265a1e33c8214dfbb6c397e917a5e1a9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/TrackWho.git"
+      }
+    },
+    "laravel-enso/tutorialmanager": {
+      "1.3.2": {
+        "rev": "b29065917825e87f60eecd7cabe9343f4b6d3851",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/TutorialManager.git"
+      }
+    },
+    "laravel-enso/vueadminlte": {
+      "1.3.55": {
+        "rev": "f415f06797323f3c28f10aa6a607c9366c2105a6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel-enso/VueAdminLTE.git"
+      }
+    },
+    "laravel/framework": {
+      "v5.6.40": {
+        "rev": "5ceadf91f13be89a3338c3d4166a4676272a23bf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel/framework.git"
+      }
+    },
+    "laravelcollective/html": {
+      "v5.6.10": {
+        "rev": "974605fcd22a7e4d19f0b2ef635a0d1d7400387d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/LaravelCollective/html.git"
+      }
+    },
+    "league/flysystem": {
+      "1.1.9": {
+        "rev": "094defdb4a7001845300334e7c1ee2335925ef99",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/flysystem.git"
+      }
+    },
+    "league/mime-type-detection": {
+      "1.11.0": {
+        "rev": "ff6248ea87a9f116e78edd6002e39e5128a0d4dd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/mime-type-detection.git"
+      }
+    },
+    "maatwebsite/excel": {
+      "2.1.30": {
+        "rev": "f5540c4ba3ac50cebd98b09ca42e61f926ef299f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Maatwebsite/Laravel-Excel.git"
+      }
+    },
+    "monolog/monolog": {
+      "1.27.1": {
+        "rev": "904713c5929655dc9b97288b69cfeedad610c9a1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "nesbot/carbon": {
+      "1.26.6": {
+        "rev": "c6820f814496d71da7498d423427e6193d1f57c9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/briannesbitt/Carbon.git"
+      }
+    },
+    "nikic/php-parser": {
+      "v4.15.1": {
+        "rev": "0ef6c55a3f47f89d7a374e6f835197a0b5fcf900",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nikic/PHP-Parser.git"
+      }
+    },
+    "paragonie/random_compat": {
+      "v9.99.100": {
+        "rev": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/paragonie/random_compat.git"
+      }
+    },
+    "phpoffice/phpexcel": {
+      "1.8.2": {
+        "rev": "1441011fb7ecdd8cc689878f54f8b58a6805f870",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHPOffice/PHPExcel.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "psr/simple-cache": {
+      "1.0.1": {
+        "rev": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/simple-cache.git"
+      }
+    },
+    "ralouphie/getallheaders": {
+      "3.0.3": {
+        "rev": "120b605dfeb996808c31b6477290a714d356e822",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git"
+      }
+    },
+    "ramsey/uuid": {
+      "3.9.6": {
+        "rev": "ffa80ab953edd85d5b6c004f96181a538aad35a3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ramsey/uuid.git"
+      }
+    },
+    "spatie/image-optimizer": {
+      "1.6.2": {
+        "rev": "6db75529cbf8fa84117046a9d513f277aead90a0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spatie/image-optimizer.git"
+      }
+    },
+    "spatie/laravel-image-optimizer": {
+      "1.3.3": {
+        "rev": "49a7223f3382e7bc8991c3219672488bded4ca1c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spatie/laravel-image-optimizer.git"
+      }
+    },
+    "swiftmailer/swiftmailer": {
+      "v6.3.0": {
+        "rev": "8a5d5072dca8f48460fce2f4131fcc495eec654c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/swiftmailer/swiftmailer.git"
+      }
+    },
+    "symfony/console": {
+      "v4.4.45": {
+        "rev": "28b77970939500fb04180166a1f716e75a871ef8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/css-selector": {
+      "v6.1.3": {
+        "rev": "0dd5e36b80e1de97f8f74ed7023ac2b837a36443",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/css-selector.git"
+      }
+    },
+    "symfony/debug": {
+      "v4.4.44": {
+        "rev": "1a692492190773c5310bc7877cb590c04c2f05be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/debug.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/error-handler": {
+      "v4.4.44": {
+        "rev": "be731658121ef2d8be88f3a1ec938148a9237291",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/error-handler.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v4.4.44": {
+        "rev": "1e866e9e5c1b22168e0ce5f0b467f19bba61266a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/event-dispatcher-contracts": {
+      "v1.1.13": {
+        "rev": "1d5cd762abaa6b2a4169d3e77610193a7157129e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher-contracts.git"
+      }
+    },
+    "symfony/finder": {
+      "v4.4.44": {
+        "rev": "66bd787edb5e42ff59d3523f623895af05043e4f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/http-client-contracts": {
+      "v2.5.2": {
+        "rev": "ba6a9f0e8f3edd190520ee3b9a958596b6ca2e70",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-client-contracts.git"
+      }
+    },
+    "symfony/http-foundation": {
+      "v4.4.45": {
+        "rev": "b2f2e3cb66349d89cb46c939cea03c62ad71cf00",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-foundation.git"
+      }
+    },
+    "symfony/http-kernel": {
+      "v4.4.45": {
+        "rev": "4f2d38e9a3c6997ea0886ede5aaf337dfd0fc938",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-kernel.git"
+      }
+    },
+    "symfony/mime": {
+      "v5.4.12": {
+        "rev": "03876e9c5a36f5b45e7d9a381edda5421eff8a90",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/mime.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-iconv": {
+      "v1.26.0": {
+        "rev": "143f1881e655bebca1312722af8068de235ae5dc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-iconv.git"
+      }
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": {
+        "rev": "59a8d271f00dd0e4c2e518104cc7963f655a1aa8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-idn.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php56": {
+      "v1.20.0": {
+        "rev": "54b8cd7e6c1643d78d011f3be89f3ef1f9f4c675",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php56.git"
+      }
+    },
+    "symfony/polyfill-php72": {
+      "v1.26.0": {
+        "rev": "bf44a9fd41feaac72b074de600314a93e2ae78e2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php72.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/process": {
+      "v4.4.44": {
+        "rev": "5cee9cdc4f7805e2699d9fd66991a0e6df8252a2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/routing": {
+      "v4.4.44": {
+        "rev": "f7751fd8b60a07f3f349947a309b5bdfce22d6ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/routing.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v2.5.2": {
+        "rev": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/translation": {
+      "v4.4.45": {
+        "rev": "4e6b4c0dbeb04d6f004ed7f43eb0905ce8396def",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/translation-contracts": {
+      "v2.5.2": {
+        "rev": "136b19dd05cdf0709db6537d058bcab6dd6e2dbe",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation-contracts.git"
+      }
+    },
+    "symfony/var-dumper": {
+      "v4.4.44": {
+        "rev": "f19951007dae942cc79b979c1fe26bfdfbeb54ed",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/var-dumper.git"
+      }
+    },
+    "tijsverkoyen/css-to-inline-styles": {
+      "2.2.5": {
+        "rev": "4348a3a06651827a27d989ad1d13efec6bb49b19",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git"
+      }
+    },
+    "vlucas/phpdotenv": {
+      "v2.6.9": {
+        "rev": "2e93cc98e2e8e869f8d9cfa61bb3a99ba4fc4141",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/vlucas/phpdotenv.git"
+      }
+    }
+  }
+}

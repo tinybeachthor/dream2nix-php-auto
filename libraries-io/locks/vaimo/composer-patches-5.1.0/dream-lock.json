@@ -1,0 +1,440 @@
+{
+  "_generic": {
+    "defaultPackage": "vaimo/composer-patches",
+    "location": "",
+    "packages": {
+      "vaimo/composer-patches": "5.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "vaimo/composer-changelogs@1.0.0": "^1.0 || ^2.0",
+      "vaimo/composer-patches-proxy@1.0.0": "^1.0 || ^2.0",
+      "vaimo/composer-patches@5.1.0": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "openssl",
+      "pcre",
+      "xml",
+      "simplexml",
+      "tokenizer",
+      "xmlwriter",
+      "dom"
+    ],
+    "phpSemver": ">=7.0.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "composer/composer": {
+      "2.0.13": [
+        [ "composer/ca-bundle", "1.3.1" ],
+        [ "composer/metadata-minifier", "1.0.0" ],
+        [ "composer/semver", "3.3.2" ],
+        [ "composer/spdx-licenses", "1.5.6" ],
+        [ "composer/xdebug-handler", "1.4.6" ],
+        [ "justinrainbow/json-schema", "5.2.12" ],
+        [ "psr/log", "1.1.4" ],
+        [ "react/promise", "v2.9.0" ],
+        [ "seld/jsonlint", "1.9.0" ],
+        [ "seld/phar-utils", "1.2.0" ],
+        [ "symfony/console", "v2.8.52" ],
+        [ "symfony/filesystem", "v2.8.52" ],
+        [ "symfony/finder", "v4.4.41" ],
+        [ "symfony/process", "v5.4.8" ]
+      ]
+    },
+    "composer/xdebug-handler": {
+      "1.4.6": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "pdepend/pdepend": {
+      "2.8.0": [
+        [ "symfony/config", "v2.8.52" ],
+        [ "symfony/dependency-injection", "v2.8.52" ],
+        [ "symfony/filesystem", "v2.8.52" ]
+      ]
+    },
+    "phpcompatibility/php-compatibility": {
+      "9.3.5": [
+        [ "squizlabs/php_codesniffer", "2.9.2" ]
+      ]
+    },
+    "phpmd/phpmd": {
+      "2.9.1": [
+        [ "composer/xdebug-handler", "1.4.6" ],
+        [ "pdepend/pdepend", "2.8.0" ]
+      ]
+    },
+    "sebastian/finder-facade": {
+      "1.2.2": [
+        [ "symfony/finder", "v4.4.41" ],
+        [ "theseer/fdomdocument", "1.6.6" ]
+      ]
+    },
+    "sebastian/phpcpd": {
+      "2.0.4": [
+        [ "phpunit/php-timer", "1.0.9" ],
+        [ "sebastian/finder-facade", "1.2.2" ],
+        [ "sebastian/version", "1.0.6" ],
+        [ "symfony/console", "v2.8.52" ],
+        [ "theseer/fdomdocument", "1.6.6" ]
+      ]
+    },
+    "symfony/config": {
+      "v2.8.52": [
+        [ "symfony/filesystem", "v2.8.52" ],
+        [ "symfony/polyfill-ctype", "v1.25.0" ]
+      ]
+    },
+    "symfony/console": {
+      "v2.8.52": [
+        [ "symfony/debug", "v3.0.9" ],
+        [ "symfony/polyfill-mbstring", "v1.25.0" ]
+      ]
+    },
+    "symfony/debug": {
+      "v3.0.9": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v2.8.52": [
+        [ "symfony/polyfill-ctype", "v1.25.0" ]
+      ]
+    },
+    "symfony/finder": {
+      "v4.4.41": [
+        [ "symfony/polyfill-php80", "v1.25.0" ]
+      ]
+    },
+    "symfony/process": {
+      "v5.4.8": [
+        [ "symfony/polyfill-php80", "v1.25.0" ]
+      ]
+    },
+    "vaimo/composer-changelogs": {
+      "1.0.0": [
+        [ "camspiers/json-pretty", "1.0.2" ],
+        [ "mustache/mustache", "v2.14.1" ],
+        [ "seld/jsonlint", "1.9.0" ],
+        [ "symfony/process", "v5.4.8" ]
+      ]
+    },
+    "vaimo/composer-patches": {
+      "5.1.0": [
+        [ "composer/composer", "2.0.13" ],
+        [ "loophp/phposinfo", "1.7.2" ],
+        [ "phpcompatibility/php-compatibility", "9.3.5" ],
+        [ "phpmd/phpmd", "2.9.1" ],
+        [ "sebastian/phpcpd", "2.0.4" ],
+        [ "seld/jsonlint", "1.9.0" ],
+        [ "squizlabs/php_codesniffer", "2.9.2" ],
+        [ "vaimo/composer-changelogs", "1.0.0" ],
+        [ "vaimo/composer-patches-proxy", "1.0.0" ],
+        [ "vaimo/topological-sort", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "camspiers/json-pretty": {
+      "1.0.2": {
+        "rev": "17be37cb83af8014658da48fa0012604179039a7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/camspiers/json-pretty.git"
+      }
+    },
+    "composer/ca-bundle": {
+      "1.3.1": {
+        "rev": "4c679186f2aca4ab6a0f1b0b9cf9252decb44d0b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "composer/composer": {
+      "2.0.13": {
+        "rev": "986e8b86b7b570632ad0a905c3726c33dd4c0efb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/composer.git"
+      }
+    },
+    "composer/metadata-minifier": {
+      "1.0.0": {
+        "rev": "c549d23829536f0d0e984aaabbf02af91f443207",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/metadata-minifier.git"
+      }
+    },
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/spdx-licenses": {
+      "1.5.6": {
+        "rev": "a30d487169d799745ca7280bc90fdfa693536901",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/spdx-licenses.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "1.4.6": {
+        "rev": "f27e06cd9675801df441b3656569b328e04aa37c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "justinrainbow/json-schema": {
+      "5.2.12": {
+        "rev": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/justinrainbow/json-schema.git"
+      }
+    },
+    "loophp/phposinfo": {
+      "1.7.2": {
+        "rev": "106e7b3f00849dce1787ebf38da493ba586b48f2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/loophp/phposinfo.git"
+      }
+    },
+    "mustache/mustache": {
+      "v2.14.1": {
+        "rev": "579ffa5c96e1d292c060b3dd62811ff01ad8c24e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bobthecow/mustache.php.git"
+      }
+    },
+    "pdepend/pdepend": {
+      "2.8.0": {
+        "rev": "c64472f8e76ca858c79ad9a4cf1e2734b3f8cc38",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pdepend/pdepend.git"
+      }
+    },
+    "phpcompatibility/php-compatibility": {
+      "9.3.5": {
+        "rev": "9fb324479acf6f39452e0655d2429cc0d3914243",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHPCompatibility/PHPCompatibility.git"
+      }
+    },
+    "phpmd/phpmd": {
+      "2.9.1": {
+        "rev": "ce10831d4ddc2686c1348a98069771dd314534a8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpmd/phpmd.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "1.0.9": {
+        "rev": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "react/promise": {
+      "v2.9.0": {
+        "rev": "234f8fd1023c9158e2314fa9d7d0e6a83db42910",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
+    "sebastian/finder-facade": {
+      "1.2.2": {
+        "rev": "4a3174709c2dc565fe5fb26fcf827f6a1fc7b09f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/finder-facade.git"
+      }
+    },
+    "sebastian/phpcpd": {
+      "2.0.4": {
+        "rev": "24d9a880deadb0b8c9680e9cfe78e30b704225db",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpcpd.git"
+      }
+    },
+    "sebastian/version": {
+      "1.0.6": {
+        "rev": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "seld/jsonlint": {
+      "1.9.0": {
+        "rev": "4211420d25eba80712bff236a98960ef68b866b7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/jsonlint.git"
+      }
+    },
+    "seld/phar-utils": {
+      "1.2.0": {
+        "rev": "9f3452c93ff423469c0d56450431562ca423dcee",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/phar-utils.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "2.9.2": {
+        "rev": "2acf168de78487db620ab4bc524135a13cfe6745",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "symfony/config": {
+      "v2.8.52": {
+        "rev": "7dd5f5040dc04c118d057fb5886563963eb70011",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/console": {
+      "v2.8.52": {
+        "rev": "cbcf4b5e233af15cd2bbd50dee1ccc9b7927dc12",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/debug": {
+      "v3.0.9": {
+        "rev": "697c527acd9ea1b2d3efac34d9806bf255278b0a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/debug.git"
+      }
+    },
+    "symfony/dependency-injection": {
+      "v2.8.52": {
+        "rev": "c306198fee8f872a8f5f031e6e4f6f83086992d8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/dependency-injection.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v2.8.52": {
+        "rev": "7ae46872dad09dffb7fe1e93a0937097339d0080",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v4.4.41": {
+        "rev": "40790bdf293b462798882ef6da72bb49a4a6633a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.25.0": {
+        "rev": "30885182c981ab175d4d034db0f6f469898070ab",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.25.0": {
+        "rev": "0abb51d2f102e00a4eefcf46ba7fec406d245825",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.25.0": {
+        "rev": "4407588e0d3f1f52efb65fbe92babe41f37fe50c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/process": {
+      "v5.4.8": {
+        "rev": "597f3fff8e3e91836bb0bd38f5718b56ddbde2f3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "theseer/fdomdocument": {
+      "1.6.6": {
+        "rev": "6e8203e40a32a9c770bcb62fe37e68b948da6dca",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/theseer/fDOMDocument.git"
+      }
+    },
+    "vaimo/composer-changelogs": {
+      "1.0.0": {
+        "rev": "1ba3f11ca922fc0e9e5de00395166150d9263da4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/vaimo/composer-changelogs.git"
+      }
+    },
+    "vaimo/composer-patches": {
+      "5.1.0": {
+        "rev": "8484748969cadebe843b29192c36fae255e74722",
+        "type": "git",
+        "url": "https://github.com/vaimo/composer-patches.git"
+      }
+    },
+    "vaimo/composer-patches-proxy": {
+      "1.0.0": {
+        "path": "modules/proxy-plugin",
+        "rootName": "vaimo/composer-patches-proxy",
+        "rootVersion": "1.0.0",
+        "type": "path"
+      }
+    },
+    "vaimo/topological-sort": {
+      "1.0.0": {
+        "rev": "e19b93df2bac0e995ecd4b982ec4ea2fb1131e64",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/vaimo/topological-sort.git"
+      }
+    }
+  }
+}

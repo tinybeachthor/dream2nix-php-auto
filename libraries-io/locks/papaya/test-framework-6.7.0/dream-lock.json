@@ -1,0 +1,61 @@
+{
+  "_generic": {
+    "defaultPackage": "papaya/test-framework",
+    "location": "",
+    "packages": {
+      "papaya/test-framework": "6.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "dom",
+      "gd",
+      "json",
+      "libxml",
+      "xsl"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "papaya/cms-core": {
+      "6.15.3": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "papaya/test-framework": {
+      "6.7.0": [
+        [ "papaya/cms-core", "6.15.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "papaya/cms-core": {
+      "6.15.3": {
+        "rev": "f4ba773f5b306c72e028a912ca22b9abcdc2c323",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/papayaCMS/papayacms-core.git"
+      }
+    },
+    "papaya/test-framework": {
+      "6.7.0": {
+        "rev": "da614b082be89118ad5f1da68d2587bbd864520e",
+        "type": "git",
+        "url": "https://github.com/papayaCMS/papayacms-test-framework.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    }
+  }
+}

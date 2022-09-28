@@ -1,0 +1,117 @@
+{
+  "_generic": {
+    "defaultPackage": "qingbing/php-database",
+    "location": "",
+    "packages": {
+      "qingbing/php-database": "1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "monolog/monolog": {
+      "1.27.1": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "qingbing/php-abstracts-component": {
+      "1.0.1": [
+        [ "qingbing/php-config", "1.0.1" ],
+        [ "qingbing/php-helper", "1.0.1" ]
+      ]
+    },
+    "qingbing/php-config": {
+      "1.0.1": [
+        [ "qingbing/php-helper", "1.0.1" ]
+      ]
+    },
+    "qingbing/php-database": {
+      "1.0.1": [
+        [ "qingbing/php-config", "1.0.1" ],
+        [ "qingbing/php-debug-bootstrap", "dev-master" ],
+        [ "qingbing/php-helper", "1.0.1" ],
+        [ "qingbing/php-log", "1.0.1" ]
+      ]
+    },
+    "qingbing/php-log": {
+      "1.0.1": [
+        [ "monolog/monolog", "1.27.1" ],
+        [ "qingbing/php-abstracts-component", "1.0.1" ],
+        [ "qingbing/php-config", "1.0.1" ],
+        [ "qingbing/php-helper", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "monolog/monolog": {
+      "1.27.1": {
+        "rev": "904713c5929655dc9b97288b69cfeedad610c9a1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "qingbing/php-abstracts-component": {
+      "1.0.1": {
+        "rev": "d3bc81875d8451a217df2771810422658956ef70",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-abstracts-component.git"
+      }
+    },
+    "qingbing/php-config": {
+      "1.0.1": {
+        "rev": "16590f38bbf636ccd940113bf2daf24da0fcbfaa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-config.git"
+      }
+    },
+    "qingbing/php-database": {
+      "1.0.1": {
+        "rev": "b107783cd8f7b8541b4e20a1441e19c14edf1bf5",
+        "type": "git",
+        "url": "https://github.com/qingbing/php-database.git"
+      }
+    },
+    "qingbing/php-debug-bootstrap": {
+      "dev-master": {
+        "rev": "3addc4dec4e2bb32d2f5d998490385c30d1d06f1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-debug-bootstrap.git"
+      }
+    },
+    "qingbing/php-helper": {
+      "1.0.1": {
+        "rev": "7233d7a0b3c02fe519cfcc559dc4e3d38e8b3893",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-helper.git"
+      }
+    },
+    "qingbing/php-log": {
+      "1.0.1": {
+        "rev": "d3a05bb9ff48fbbdfe52988a5939fc7c747b9420",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-log.git"
+      }
+    }
+  }
+}

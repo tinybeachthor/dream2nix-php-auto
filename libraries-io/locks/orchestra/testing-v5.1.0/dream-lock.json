@@ -1,0 +1,99 @@
+{
+  "_generic": {
+    "defaultPackage": "orchestra/testing",
+    "location": "",
+    "packages": {
+      "orchestra/testing": "v5.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "pdo",
+      "dom",
+      "mbstring",
+      "openssl",
+      "fileinfo",
+      "ctype",
+      "libxml",
+      "tokenizer",
+      "phar",
+      "xmlwriter",
+      "xml"
+    ],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "doctrine/dbal": {
+      "2.13.9": [
+        [ "doctrine/deprecations", "v1.0.0" ]
+      ]
+    },
+    "orchestra/platform": {
+      "5.x-dev": [
+        [ "fideloper/proxy", "4.4.2" ]
+      ]
+    },
+    "orchestra/testing": {
+      "v5.1.0": [
+        [ "doctrine/dbal", "2.13.9" ],
+        [ "mockery/mockery", "1.5.1" ],
+        [ "orchestra/platform", "5.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/dbal": {
+      "2.13.9": {
+        "rev": "c480849ca3ad6706a39c970cdfe6888fa8a058b8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/dbal.git"
+      }
+    },
+    "doctrine/deprecations": {
+      "v1.0.0": {
+        "rev": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/deprecations.git"
+      }
+    },
+    "fideloper/proxy": {
+      "4.4.2": {
+        "rev": "a751f2bc86dd8e6cfef12dc0cbdada82f5a18750",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/fideloper/TrustedProxy.git"
+      }
+    },
+    "mockery/mockery": {
+      "1.5.1": {
+        "rev": "e92dcc83d5a51851baf5f5591d32cb2b16e3684e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/mockery/mockery.git"
+      }
+    },
+    "orchestra/platform": {
+      "5.x-dev": {
+        "rev": "5cc7d1c0c24c7c4ba38548f12b5e936be00bebda",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/orchestral/platform.git"
+      }
+    },
+    "orchestra/testing": {
+      "v5.1.0": {
+        "rev": "a8ca9418546f41f016940241adfe13b5875d4587",
+        "type": "git",
+        "url": "https://github.com/orchestral/testing.git"
+      }
+    }
+  }
+}

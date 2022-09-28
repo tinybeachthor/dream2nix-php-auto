@@ -1,0 +1,88 @@
+{
+  "_generic": {
+    "defaultPackage": "reinvanoyen/oak",
+    "location": "",
+    "packages": {
+      "reinvanoyen/oak": "1.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "ctype"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dragonmantank/cron-expression": {
+      "dev-master": [
+        [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "reinvanoyen/oak": {
+      "1.1.4": [
+        [ "dragonmantank/cron-expression", "dev-master" ],
+        [ "nyholm/psr7", "1.5.1" ],
+        [ "nyholm/psr7-server", "dev-master" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.11.0": [
+        [ "symfony/polyfill-ctype", "dev-main" ]
+      ]
+    }
+  },
+  "sources": {
+    "dragonmantank/cron-expression": {
+      "dev-master": {
+        "rev": "782ca5968ab8b954773518e9e49a6f892a34b2a8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/dragonmantank/cron-expression.git"
+      }
+    },
+    "nyholm/psr7": {
+      "1.5.1": {
+        "rev": "f734364e38a876a23be4d906a2a089e1315be18a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Nyholm/psr7.git"
+      }
+    },
+    "nyholm/psr7-server": {
+      "dev-master": {
+        "rev": "b846a689844cef114e8079d8c80f0afd96745ae3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Nyholm/psr7-server.git"
+      }
+    },
+    "reinvanoyen/oak": {
+      "1.1.4": {
+        "rev": "f65a3e9add73b07ce5e3a0e42c80f0c0092da0df",
+        "type": "git",
+        "url": "https://github.com/reinvanoyen/oak.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "dev-main": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.11.0": {
+        "rev": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "_generic": {
+    "defaultPackage": "dhii/expression-interface",
+    "location": "",
+    "packages": {
+      "dhii/expression-interface": "v0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "curl",
+      "tokenizer",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl",
+      "simplexml"
+    ],
+    "phpSemver": "^5.3 | ^7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dhii/evaluable-interface": {
+      "v0.1": [
+        [ "dhii/data-key-value-aware-interface", "v0.1" ]
+      ]
+    },
+    "dhii/expression-interface": {
+      "v0.1": [
+        [ "codeclimate/php-test-reporter", "v0.3.2" ],
+        [ "dhii/evaluable-interface", "v0.1" ],
+        [ "dhii/php-cs-fixer-config", "dev-php-5.3" ],
+        [ "ptrofimov/xpmock", "1.1.5" ]
+      ]
+    },
+    "dhii/php-cs-fixer-config": {
+      "dev-php-5.3": [
+        [ "friendsofphp/php-cs-fixer", "v1.11.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "codeclimate/php-test-reporter": {
+      "v0.3.2": {
+        "rev": "3a2d3ebdc1df5acf372458c15041af240a6fc016",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/codeclimate/php-test-reporter.git"
+      }
+    },
+    "dhii/data-key-value-aware-interface": {
+      "v0.1": {
+        "rev": "220232bc9040fab78a6c039f5a4a5f9542317bdc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dhii/data-key-value-aware-interface.git"
+      }
+    },
+    "dhii/evaluable-interface": {
+      "v0.1": {
+        "rev": "da21c1a22cf0e49d5b05e93937928887657e49ed",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dhii/evaluable-interface.git"
+      }
+    },
+    "dhii/expression-interface": {
+      "v0.1": {
+        "rev": "ac1fb00c039fb33ed9476a0f141072b8b3adb6c5",
+        "type": "git",
+        "url": "https://github.com/Dhii/expression-interface.git"
+      }
+    },
+    "dhii/php-cs-fixer-config": {
+      "dev-php-5.3": {
+        "rev": "ee3cc6c906a1aa4dca2bcbfcfef684dbd1ebb8ca",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dhii/php-cs-fixer-config.git"
+      }
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v1.11.8": {
+        "rev": "117137e9970054d022b7656209f094dab852b90c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git"
+      }
+    },
+    "ptrofimov/xpmock": {
+      "1.1.5": {
+        "rev": "5b95ace33624b66bf4e854071b8856722fde515e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ptrofimov/xpmock.git"
+      }
+    }
+  }
+}

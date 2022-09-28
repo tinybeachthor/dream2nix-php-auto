@@ -1,0 +1,128 @@
+{
+  "_generic": {
+    "defaultPackage": "kunstmaan/node-bundle",
+    "location": "",
+    "packages": {
+      "kunstmaan/node-bundle": "5.8.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "composer/package-versions-deprecated@dev-master": "^1.1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "xmlreader",
+      "zip",
+      "openssl",
+      "tokenizer",
+      "pdo",
+      "dom",
+      "json",
+      "xml",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "mbstring"
+    ],
+    "phpSemver": "^7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "doctrine/dbal": {
+      "2.13.9": [
+        [ "doctrine/deprecations", "v1.0.0" ]
+      ]
+    },
+    "kunstmaan/node-bundle": {
+      "5.8.0": [
+        [ "doctrine/dbal", "2.13.9" ],
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ],
+        [ "matthiasnoback/symfony-dependency-injection-test", "4.3.0" ],
+        [ "symfony-cmf/routing-bundle", "2.5.1" ]
+      ]
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": [
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ]
+      ]
+    },
+    "symfony-cmf/routing": {
+      "2.3.4": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "symfony-cmf/routing-bundle": {
+      "2.5.1": [
+        [ "symfony-cmf/routing", "2.3.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/dbal": {
+      "2.13.9": {
+        "rev": "c480849ca3ad6706a39c970cdfe6888fa8a058b8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/dbal.git"
+      }
+    },
+    "doctrine/deprecations": {
+      "v1.0.0": {
+        "rev": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/deprecations.git"
+      }
+    },
+    "kunstmaan/node-bundle": {
+      "5.8.0": {
+        "rev": "fc74c8c66e52e74a1b468276c791a6f872d8d3b7",
+        "type": "git",
+        "url": "https://github.com/Kunstmaan/KunstmaanNodeBundle.git"
+      }
+    },
+    "matthiasnoback/symfony-config-test": {
+      "4.3.0": {
+        "rev": "e7db0f5ea98817c7ba1b9266f8039c085e673db4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyConfigTest.git"
+      }
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": {
+        "rev": "d6b94169d9a60f4747efbcc45bfd51f071ba03d7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyDependencyInjectionTest.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony-cmf/routing": {
+      "2.3.4": {
+        "rev": "bbcdf2f6301d740454ba9ebb8adaefd436c36a6b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony-cmf/Routing.git"
+      }
+    },
+    "symfony-cmf/routing-bundle": {
+      "2.5.1": {
+        "rev": "e9c3dfb9815b68b7f95d18308ca036cccadd4739",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony-cmf/routing-bundle.git"
+      }
+    }
+  }
+}

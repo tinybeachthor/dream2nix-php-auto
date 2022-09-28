@@ -1,0 +1,195 @@
+{
+  "_generic": {
+    "defaultPackage": "eloquent/pathogen",
+    "location": "",
+    "packages": {
+      "eloquent/pathogen": "0.6.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "mbstring",
+      "curl",
+      "tokenizer",
+      "json",
+      "simplexml"
+    ],
+    "phpSemver": ">=5.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "eloquent/liberator": {
+      "2.0.0": [
+        [ "eloquent/pops", "4.1.0" ]
+      ]
+    },
+    "eloquent/pathogen": {
+      "0.6.1": [
+        [ "eloquent/liberator", "2.0.0" ],
+        [ "icecave/archer", "1.3.0" ],
+        [ "icecave/isolator", "2.3.0" ]
+      ]
+    },
+    "guzzle/guzzle": {
+      "v3.9.2": [
+        [ "symfony/event-dispatcher", "v2.5.5" ]
+      ]
+    },
+    "icecave/archer": {
+      "1.3.0": [
+        [ "phake/phake", "v1.0.5" ],
+        [ "satooshi/php-coveralls", "v0.6.1" ],
+        [ "symfony/console", "v2.5.5" ],
+        [ "symfony/process", "v2.5.5" ]
+      ]
+    },
+    "satooshi/php-coveralls": {
+      "v0.6.1": [
+        [ "guzzle/guzzle", "v3.9.2" ],
+        [ "psr/log", "1.0.0" ],
+        [ "symfony/config", "v2.5.5" ],
+        [ "symfony/console", "v2.5.5" ],
+        [ "symfony/stopwatch", "v2.5.5" ],
+        [ "symfony/yaml", "v2.5.5" ]
+      ]
+    },
+    "symfony/config": {
+      "v2.5.5": [
+        [ "symfony/filesystem", "v2.5.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "eloquent/liberator": {
+      "2.0.0": {
+        "rev": "8d71b1ff4794b09fc7d0e205ee994780412d3a1f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/eloquent/liberator.git"
+      }
+    },
+    "eloquent/pathogen": {
+      "0.6.1": {
+        "rev": "baa1376e1de56ad462cd67794de808d690904fb8",
+        "type": "git",
+        "url": "https://github.com/eloquent/pathogen.git"
+      }
+    },
+    "eloquent/pops": {
+      "4.1.0": {
+        "rev": "80dbee5422347dc581d38ade92001509dce34926",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/eloquent/pops.git"
+      }
+    },
+    "guzzle/guzzle": {
+      "v3.9.2": {
+        "rev": "54991459675c1a2924122afbb0e5609ade581155",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle3.git"
+      }
+    },
+    "icecave/archer": {
+      "1.3.0": {
+        "rev": "5b1b4748d0fd6a8f977486d15d10e52e68349379",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/IcecaveStudios/archer.git"
+      }
+    },
+    "icecave/isolator": {
+      "2.3.0": {
+        "rev": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/IcecaveStudios/isolator.git"
+      }
+    },
+    "phake/phake": {
+      "v1.0.5": {
+        "rev": "14e4788698e4a21774220c22f3dcaa2e97648b61",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/mlively/Phake.git"
+      }
+    },
+    "psr/log": {
+      "1.0.0": {
+        "rev": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "satooshi/php-coveralls": {
+      "v0.6.1": {
+        "rev": "dd0df95bd37a7cf5c5c50304dfe260ffe4b50760",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/satooshi/php-coveralls.git"
+      }
+    },
+    "symfony/config": {
+      "v2.5.5": {
+        "rev": "0316364bfebc8b080077c731a99f189341476bd7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/Config.git"
+      }
+    },
+    "symfony/console": {
+      "v2.5.5": {
+        "rev": "ca053eaa031c93afb68a71e4eb1f4168dfd4a661",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/Console.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v2.5.5": {
+        "rev": "f6281337bf5f985f585d1db6a83adb05ce531f46",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/EventDispatcher.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v2.5.5": {
+        "rev": "4e62fab0060a826561c78b665925b37c870c45f5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/Filesystem.git"
+      }
+    },
+    "symfony/process": {
+      "v2.5.5": {
+        "rev": "8a1ec96c4e519cee0fb971ea48a1eb7369dda54b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/Process.git"
+      }
+    },
+    "symfony/stopwatch": {
+      "v2.5.5": {
+        "rev": "9f8a33a24f2378c0ec5f372a8d50b2d43069c050",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/Stopwatch.git"
+      }
+    },
+    "symfony/yaml": {
+      "v2.5.5": {
+        "rev": "b1dbc53593b98c2d694ebf383660ac9134d30b96",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/Yaml.git"
+      }
+    }
+  }
+}

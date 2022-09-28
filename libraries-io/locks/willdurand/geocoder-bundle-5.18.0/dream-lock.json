@@ -1,0 +1,1457 @@
+{
+  "_generic": {
+    "defaultPackage": "willdurand/geocoder-bundle",
+    "location": "",
+    "packages": {
+      "willdurand/geocoder-bundle": "5.18.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "xml",
+      "openssl",
+      "pcre",
+      "tokenizer",
+      "ctype",
+      "json",
+      "curl"
+    ],
+    "phpSemver": "^7.4 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "composer/xdebug-handler": {
+      "3.0.3": [
+        [ "composer/pcre", "3.0.0" ],
+        [ "psr/log", "3.0.0" ]
+      ]
+    },
+    "doctrine/annotations": {
+      "1.13.3": [
+        [ "doctrine/lexer", "1.2.3" ],
+        [ "psr/cache", "3.0.0" ]
+      ]
+    },
+    "doctrine/collections": {
+      "1.7.3": [
+        [ "doctrine/deprecations", "v1.0.0" ]
+      ]
+    },
+    "doctrine/common": {
+      "3.4.2": [
+        [ "doctrine/persistence", "3.0.3" ]
+      ]
+    },
+    "doctrine/dbal": {
+      "3.4.5": [
+        [ "doctrine/cache", "2.2.0" ],
+        [ "doctrine/deprecations", "v1.0.0" ],
+        [ "doctrine/event-manager", "1.1.2" ],
+        [ "psr/cache", "3.0.0" ],
+        [ "psr/log", "3.0.0" ]
+      ]
+    },
+    "doctrine/orm": {
+      "2.13.2": [
+        [ "doctrine/cache", "2.2.0" ],
+        [ "doctrine/collections", "1.7.3" ],
+        [ "doctrine/common", "3.4.2" ],
+        [ "doctrine/dbal", "3.4.5" ],
+        [ "doctrine/deprecations", "v1.0.0" ],
+        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/inflector", "2.0.5" ],
+        [ "doctrine/instantiator", "1.4.1" ],
+        [ "doctrine/lexer", "1.2.3" ],
+        [ "doctrine/persistence", "3.0.3" ],
+        [ "psr/cache", "3.0.0" ],
+        [ "symfony/console", "v6.1.4" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-php72", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "doctrine/persistence": {
+      "3.0.3": [
+        [ "doctrine/event-manager", "1.1.2" ],
+        [ "psr/cache", "3.0.0" ]
+      ]
+    },
+    "fakerphp/faker": {
+      "v1.20.0": [
+        [ "psr/container", "2.0.2" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v3.11.0": [
+        [ "composer/semver", "3.3.2" ],
+        [ "composer/xdebug-handler", "3.0.3" ],
+        [ "doctrine/annotations", "1.13.3" ],
+        [ "sebastian/diff", "4.0.4" ],
+        [ "symfony/console", "v6.1.4" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
+        [ "symfony/filesystem", "v6.1.4" ],
+        [ "symfony/finder", "v6.1.3" ],
+        [ "symfony/options-resolver", "v6.1.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/polyfill-php81", "v1.26.0" ],
+        [ "symfony/process", "v6.1.3" ],
+        [ "symfony/stopwatch", "v6.1.0" ]
+      ]
+    },
+    "geocoder-php/algolia-places-provider": {
+      "0.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/arcgis-online-provider": {
+      "4.4.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/bing-maps-provider": {
+      "4.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/cache-provider": {
+      "4.4.0": [
+        [ "psr/simple-cache", "3.0.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/chain-provider": {
+      "4.5.0": [
+        [ "psr/log", "3.0.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/common-http": {
+      "4.5.0": [
+        [ "nyholm/psr7", "1.5.1" ],
+        [ "php-http/curl-client", "2.2.1" ],
+        [ "php-http/discovery", "1.14.3" ],
+        [ "php-http/httplug", "2.3.0" ],
+        [ "php-http/message-factory", "v1.0.2" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/free-geoip-provider": {
+      "4.5.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/geo-plugin-provider": {
+      "4.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "igorw/get-in", "v1.0.3" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/geoip2-provider": {
+      "4.3.0": [
+        [ "geoip2/geoip2", "v2.13.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/geoips-provider": {
+      "4.2.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/geonames-provider": {
+      "4.4.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/google-maps-places-provider": {
+      "1.4.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/google-maps-provider": {
+      "4.7.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/here-provider": {
+      "0.6.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/host-ip-provider": {
+      "4.4.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/ip-info-db-provider": {
+      "4.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/ip-info-provider": {
+      "0.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/ipstack-provider": {
+      "0.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/locationiq-provider": {
+      "1.4.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/mapbox-provider": {
+      "1.4.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/mapquest-provider": {
+      "4.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/mapzen-provider": {
+      "4.1.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/maxmind-binary-provider": {
+      "4.3.0": [
+        [ "geoip/geoip", "v1.17" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/maxmind-provider": {
+      "4.4.0": [
+        [ "igorw/get-in", "v1.0.3" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/nominatim-provider": {
+      "5.6.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/open-cage-provider": {
+      "4.6.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/openrouteservice-provider": {
+      "1.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "geocoder-php/pelias-provider", "1.4.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/pelias-provider": {
+      "1.4.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/pickpoint-provider": {
+      "4.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/plugin": {
+      "1.5.0": [
+        [ "php-http/promise", "1.1.0" ],
+        [ "psr/log", "3.0.0" ],
+        [ "psr/simple-cache", "3.0.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/tomtom-provider": {
+      "4.3.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geocoder-php/yandex-provider": {
+      "4.5.0": [
+        [ "geocoder-php/common-http", "4.5.0" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    },
+    "geoip2/geoip2": {
+      "v2.13.0": [
+        [ "maxmind-db/reader", "v1.11.0" ],
+        [ "maxmind/web-service-common", "v0.9.0" ]
+      ]
+    },
+    "maxmind/web-service-common": {
+      "v0.9.0": [
+        [ "composer/ca-bundle", "1.3.3" ]
+      ]
+    },
+    "nyholm/nsa": {
+      "1.3.0": [
+        [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "nyholm/psr7": {
+      "1.5.1": [
+        [ "php-http/message-factory", "v1.0.2" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "nyholm/symfony-bundle-test": {
+      "dev-master": [
+        [ "symfony/dependency-injection", "v6.1.3" ],
+        [ "symfony/filesystem", "v6.1.4" ],
+        [ "symfony/framework-bundle", "v6.1.4" ],
+        [ "symfony/http-kernel", "v6.1.4" ],
+        [ "symfony/yaml", "v6.1.4" ]
+      ]
+    },
+    "php-http/curl-client": {
+      "2.2.1": [
+        [ "php-http/discovery", "1.14.3" ],
+        [ "php-http/httplug", "2.3.0" ],
+        [ "php-http/message", "1.13.0" ],
+        [ "psr/http-client", "1.0.1" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "symfony/options-resolver", "v6.1.0" ]
+      ]
+    },
+    "php-http/httplug": {
+      "2.3.0": [
+        [ "php-http/promise", "1.1.0" ],
+        [ "psr/http-client", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "php-http/message": {
+      "1.13.0": [
+        [ "clue/stream-filter", "v1.6.0" ],
+        [ "php-http/message-factory", "v1.0.2" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "php-http/message-factory": {
+      "v1.0.2": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-client": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "symfony/cache": {
+      "v6.1.3": [
+        [ "psr/cache", "3.0.0" ],
+        [ "psr/log", "3.0.0" ],
+        [ "symfony/cache-contracts", "v3.1.1" ],
+        [ "symfony/service-contracts", "v3.1.1" ],
+        [ "symfony/var-exporter", "v6.1.3" ]
+      ]
+    },
+    "symfony/cache-contracts": {
+      "v3.1.1": [
+        [ "psr/cache", "3.0.0" ]
+      ]
+    },
+    "symfony/config": {
+      "v6.1.3": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/filesystem", "v6.1.4" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "symfony/console": {
+      "v6.1.4": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/service-contracts", "v3.1.1" ],
+        [ "symfony/string", "v6.1.4" ]
+      ]
+    },
+    "symfony/dependency-injection": {
+      "v6.1.3": [
+        [ "psr/container", "2.0.2" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/service-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/error-handler": {
+      "v6.1.3": [
+        [ "psr/log", "3.0.0" ],
+        [ "symfony/var-dumper", "v6.1.3" ]
+      ]
+    },
+    "symfony/event-dispatcher": {
+      "v6.1.0": [
+        [ "symfony/event-dispatcher-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/event-dispatcher-contracts": {
+      "v3.1.1": [
+        [ "psr/event-dispatcher", "1.0.0" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/framework-bundle": {
+      "v6.1.4": [
+        [ "symfony/cache", "v6.1.3" ],
+        [ "symfony/config", "v6.1.3" ],
+        [ "symfony/dependency-injection", "v6.1.3" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/error-handler", "v6.1.3" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
+        [ "symfony/filesystem", "v6.1.4" ],
+        [ "symfony/finder", "v6.1.3" ],
+        [ "symfony/http-foundation", "v6.1.4" ],
+        [ "symfony/http-kernel", "v6.1.4" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/routing", "v6.1.3" ]
+      ]
+    },
+    "symfony/http-foundation": {
+      "v6.1.4": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/http-kernel": {
+      "v6.1.4": [
+        [ "psr/log", "3.0.0" ],
+        [ "symfony/error-handler", "v6.1.3" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
+        [ "symfony/http-foundation", "v6.1.4" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "symfony/options-resolver": {
+      "v6.1.0": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v3.1.1": [
+        [ "psr/container", "2.0.2" ]
+      ]
+    },
+    "symfony/stopwatch": {
+      "v6.1.0": [
+        [ "symfony/service-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/string": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/validator": {
+      "v6.1.4": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/translation-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/var-dumper": {
+      "v6.1.3": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.11.0": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "willdurand/geocoder-bundle": {
+      "5.18.0": [
+        [ "doctrine/orm", "2.13.2" ],
+        [ "fakerphp/faker", "v1.20.0" ],
+        [ "friendsofphp/php-cs-fixer", "v3.11.0" ],
+        [ "geocoder-php/algolia-places-provider", "0.3.0" ],
+        [ "geocoder-php/arcgis-online-provider", "4.4.0" ],
+        [ "geocoder-php/bing-maps-provider", "4.3.0" ],
+        [ "geocoder-php/cache-provider", "4.4.0" ],
+        [ "geocoder-php/chain-provider", "4.5.0" ],
+        [ "geocoder-php/free-geoip-provider", "4.5.0" ],
+        [ "geocoder-php/geo-plugin-provider", "4.3.0" ],
+        [ "geocoder-php/geoip2-provider", "4.3.0" ],
+        [ "geocoder-php/geoips-provider", "4.2.0" ],
+        [ "geocoder-php/geonames-provider", "4.4.0" ],
+        [ "geocoder-php/google-maps-places-provider", "1.4.0" ],
+        [ "geocoder-php/google-maps-provider", "4.7.0" ],
+        [ "geocoder-php/here-provider", "0.6.0" ],
+        [ "geocoder-php/host-ip-provider", "4.4.0" ],
+        [ "geocoder-php/ip-info-db-provider", "4.3.0" ],
+        [ "geocoder-php/ip-info-provider", "0.3.0" ],
+        [ "geocoder-php/ipstack-provider", "0.3.0" ],
+        [ "geocoder-php/locationiq-provider", "1.4.0" ],
+        [ "geocoder-php/mapbox-provider", "1.4.0" ],
+        [ "geocoder-php/mapquest-provider", "4.3.0" ],
+        [ "geocoder-php/mapzen-provider", "4.1.0" ],
+        [ "geocoder-php/maxmind-binary-provider", "4.3.0" ],
+        [ "geocoder-php/maxmind-provider", "4.4.0" ],
+        [ "geocoder-php/nominatim-provider", "5.6.0" ],
+        [ "geocoder-php/open-cage-provider", "4.6.0" ],
+        [ "geocoder-php/openrouteservice-provider", "1.3.0" ],
+        [ "geocoder-php/pickpoint-provider", "4.3.0" ],
+        [ "geocoder-php/plugin", "1.5.0" ],
+        [ "geocoder-php/tomtom-provider", "4.3.0" ],
+        [ "geocoder-php/yandex-provider", "4.5.0" ],
+        [ "geoip/geoip", "v1.17" ],
+        [ "nyholm/nsa", "1.3.0" ],
+        [ "nyholm/psr7", "1.5.1" ],
+        [ "nyholm/symfony-bundle-test", "dev-master" ],
+        [ "php-http/curl-client", "2.2.1" ],
+        [ "php-http/discovery", "1.14.3" ],
+        [ "php-http/message", "1.13.0" ],
+        [ "phpstan/phpstan", "1.8.6" ],
+        [ "symfony/config", "v6.1.3" ],
+        [ "symfony/console", "v6.1.4" ],
+        [ "symfony/framework-bundle", "v6.1.4" ],
+        [ "symfony/options-resolver", "v6.1.0" ],
+        [ "symfony/phpunit-bridge", "v6.1.3" ],
+        [ "symfony/validator", "v6.1.4" ],
+        [ "symfony/yaml", "v6.1.4" ],
+        [ "willdurand/geocoder", "4.6.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "clue/stream-filter": {
+      "v1.6.0": {
+        "rev": "d6169430c7731d8509da7aecd0af756a5747b78e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/clue/stream-filter.git"
+      }
+    },
+    "composer/ca-bundle": {
+      "1.3.3": {
+        "rev": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "composer/pcre": {
+      "3.0.0": {
+        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/pcre.git"
+      }
+    },
+    "composer/semver": {
+      "3.3.2": {
+        "rev": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/semver.git"
+      }
+    },
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "doctrine/annotations": {
+      "1.13.3": {
+        "rev": "648b0343343565c4a056bfc8392201385e8d89f0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/annotations.git"
+      }
+    },
+    "doctrine/cache": {
+      "2.2.0": {
+        "rev": "1ca8f21980e770095a31456042471a57bc4c68fb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/cache.git"
+      }
+    },
+    "doctrine/collections": {
+      "1.7.3": {
+        "rev": "09dde3eb237756190f2de738d3c97cff10a8407b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/collections.git"
+      }
+    },
+    "doctrine/common": {
+      "3.4.2": {
+        "rev": "609c3a7b6af49a7b4b13945ca2fdf4af801946af",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/common.git"
+      }
+    },
+    "doctrine/dbal": {
+      "3.4.5": {
+        "rev": "a5a58773109c0abb13e658c8ccd92aeec8d07f9e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/dbal.git"
+      }
+    },
+    "doctrine/deprecations": {
+      "v1.0.0": {
+        "rev": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/deprecations.git"
+      }
+    },
+    "doctrine/event-manager": {
+      "1.1.2": {
+        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/event-manager.git"
+      }
+    },
+    "doctrine/inflector": {
+      "2.0.5": {
+        "rev": "ade2b3bbfb776f27f0558e26eed43b5d9fe1b392",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/inflector.git"
+      }
+    },
+    "doctrine/instantiator": {
+      "1.4.1": {
+        "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "doctrine/lexer": {
+      "1.2.3": {
+        "rev": "c268e882d4dbdd85e36e4ad69e02dc284f89d229",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/lexer.git"
+      }
+    },
+    "doctrine/orm": {
+      "2.13.2": {
+        "rev": "a8b02fd70fa777ca8278b9604fdef75c15c6a12f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/orm.git"
+      }
+    },
+    "doctrine/persistence": {
+      "3.0.3": {
+        "rev": "ac6fce61f037d7e54dbb2435f5b5648d86548e23",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/persistence.git"
+      }
+    },
+    "fakerphp/faker": {
+      "v1.20.0": {
+        "rev": "37f751c67a5372d4e26353bd9384bc03744ec77b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FakerPHP/Faker.git"
+      }
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v3.11.0": {
+        "rev": "7dcdea3f2f5f473464e835be9be55283ff8cfdc3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git"
+      }
+    },
+    "geocoder-php/algolia-places-provider": {
+      "0.3.0": {
+        "rev": "9f0c953aab32a6f9e4de96b8f46a9a6cfe9a91e0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/algolia-places-provider.git"
+      }
+    },
+    "geocoder-php/arcgis-online-provider": {
+      "4.4.0": {
+        "rev": "4586f178db3c8ce806d64f15dd5de4afd498536f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/arcgis-online-provider.git"
+      }
+    },
+    "geocoder-php/bing-maps-provider": {
+      "4.3.0": {
+        "rev": "2fad7c51eb5f84b409cf7ce8f988dbbc5b043ee0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/bing-maps-provider.git"
+      }
+    },
+    "geocoder-php/cache-provider": {
+      "4.4.0": {
+        "rev": "0b03ae7c3108c1e48d6615cc52cac3d52bcff797",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/cache-provider.git"
+      }
+    },
+    "geocoder-php/chain-provider": {
+      "4.5.0": {
+        "rev": "ebcae03b9cc6f8dd1ebebf48f8105103e28b9152",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/chain-provider.git"
+      }
+    },
+    "geocoder-php/common-http": {
+      "4.5.0": {
+        "rev": "4ee2cee60d21631e2a09c196bf6b9fd296bca728",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/php-common-http.git"
+      }
+    },
+    "geocoder-php/free-geoip-provider": {
+      "4.5.0": {
+        "rev": "19b61dfe74add2383c3e6f4d23221fc600c7814a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/free-geoip-provider.git"
+      }
+    },
+    "geocoder-php/geo-plugin-provider": {
+      "4.3.0": {
+        "rev": "fcb8fd60bb6324be305a90deae59497b928ccbd3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/geo-plugin-provider.git"
+      }
+    },
+    "geocoder-php/geoip2-provider": {
+      "4.3.0": {
+        "rev": "5738512f0efeba99037446b8c896df7d7252fd1a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/geoip2-provider.git"
+      }
+    },
+    "geocoder-php/geoips-provider": {
+      "4.2.0": {
+        "rev": "fb5efaac21041fac8d9a37554ba1b78f8de1222d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/geoips-provider.git"
+      }
+    },
+    "geocoder-php/geonames-provider": {
+      "4.4.0": {
+        "rev": "5247f7f807ed78724e4ab6e781c4b4a22e09a8b9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/geonames-provider.git"
+      }
+    },
+    "geocoder-php/google-maps-places-provider": {
+      "1.4.0": {
+        "rev": "4d8b360119e924fb357f30d2e141621499e2c803",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/google-maps-places-provider.git"
+      }
+    },
+    "geocoder-php/google-maps-provider": {
+      "4.7.0": {
+        "rev": "378cd4dd26cba5a004f2a4738e8988e646af3274",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/google-maps-provider.git"
+      }
+    },
+    "geocoder-php/here-provider": {
+      "0.6.0": {
+        "rev": "d6b96e1bf5824714cbaea3486edd5b53956173dd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/here-provider.git"
+      }
+    },
+    "geocoder-php/host-ip-provider": {
+      "4.4.0": {
+        "rev": "762c6f06417a08fd96af7d3b4a36e3237aec550e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/host-ip-provider.git"
+      }
+    },
+    "geocoder-php/ip-info-db-provider": {
+      "4.3.0": {
+        "rev": "5779a54122ec7fb7fd14edc51a054e5fd9cde93c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/ip-info-db-provider.git"
+      }
+    },
+    "geocoder-php/ip-info-provider": {
+      "0.3.0": {
+        "rev": "04c52b41b3e55e4ca1bce20c5550238534334cbf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/ip-info-provider.git"
+      }
+    },
+    "geocoder-php/ipstack-provider": {
+      "0.3.0": {
+        "rev": "e4873122442f9d42cb0af2a2f019eed30b8fbf63",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/ipstack-provider.git"
+      }
+    },
+    "geocoder-php/locationiq-provider": {
+      "1.4.0": {
+        "rev": "68a4c3a79edb60e42c5af779c61cedc0ac63c533",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/locationiq-provider.git"
+      }
+    },
+    "geocoder-php/mapbox-provider": {
+      "1.4.0": {
+        "rev": "95287b1c4724de32a1552bdaa27e53d7a9490fe8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/mapbox-provider.git"
+      }
+    },
+    "geocoder-php/mapquest-provider": {
+      "4.3.0": {
+        "rev": "87644f213e6405b5d49817a9e033f8cada5e3562",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/mapquest-provider.git"
+      }
+    },
+    "geocoder-php/mapzen-provider": {
+      "4.1.0": {
+        "rev": "a35324a836c616452b5a5b28293b574a6aaf46d3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/mapzen-provider.git"
+      }
+    },
+    "geocoder-php/maxmind-binary-provider": {
+      "4.3.0": {
+        "rev": "9cf4a25e7a1ed7f1818ec9676bcdd044f6f6a5c7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/maxmind-binary-provider.git"
+      }
+    },
+    "geocoder-php/maxmind-provider": {
+      "4.4.0": {
+        "rev": "185ca220f620d23dabe1209e370f03367ba5bf63",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/maxmind-provider.git"
+      }
+    },
+    "geocoder-php/nominatim-provider": {
+      "5.6.0": {
+        "rev": "a59c34388542e25e3ba3eecd4f07d731b1fa98fe",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/nominatim-provider.git"
+      }
+    },
+    "geocoder-php/open-cage-provider": {
+      "4.6.0": {
+        "rev": "7fea0ceeec40ecf12d5926fc5a781f44c6b943cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/open-cage-provider.git"
+      }
+    },
+    "geocoder-php/openrouteservice-provider": {
+      "1.3.0": {
+        "rev": "10ef7401afefbb17ff21e9f1ceaf01fc0287759e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/openrouteservice-provider.git"
+      }
+    },
+    "geocoder-php/pelias-provider": {
+      "1.4.0": {
+        "rev": "081245e7b47a8b7f234e3e78a67895fa85179e20",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/pelias-provider.git"
+      }
+    },
+    "geocoder-php/pickpoint-provider": {
+      "4.3.0": {
+        "rev": "b848a60df2238271f78787272782378d5dc86dc4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/pickpoint-provider.git"
+      }
+    },
+    "geocoder-php/plugin": {
+      "1.5.0": {
+        "rev": "ecda7277f9c3742cd6cf4eeea01b69065a8c2d28",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/plugin.git"
+      }
+    },
+    "geocoder-php/tomtom-provider": {
+      "4.3.0": {
+        "rev": "c4f29d5dc4605c20d3be68729cd9d18243eb4cfc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/tomtom-provider.git"
+      }
+    },
+    "geocoder-php/yandex-provider": {
+      "4.5.0": {
+        "rev": "2a54d394724084ab2d6de9bda2698fac7f53971a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/yandex-provider.git"
+      }
+    },
+    "geoip/geoip": {
+      "v1.17": {
+        "rev": "2053a85c2ed3e7adcbaf0117e26832f57366e370",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/maxmind/geoip-api-php.git"
+      }
+    },
+    "geoip2/geoip2": {
+      "v2.13.0": {
+        "rev": "6a41d8fbd6b90052bc34dff3b4252d0f88067b23",
+        "submodules": false,
+        "type": "git",
+        "url": "git@github.com:maxmind/GeoIP2-php.git"
+      }
+    },
+    "igorw/get-in": {
+      "v1.0.3": {
+        "rev": "170ded831f49abc6a6061f655aba9bdbcf7b8111",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/igorw/get-in.git"
+      }
+    },
+    "maxmind-db/reader": {
+      "v1.11.0": {
+        "rev": "b1f3c0699525336d09cc5161a2861268d9f2ae5b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/maxmind/MaxMind-DB-Reader-php.git"
+      }
+    },
+    "maxmind/web-service-common": {
+      "v0.9.0": {
+        "rev": "4dc5a3e8df38aea4ca3b1096cee3a038094e9b53",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/maxmind/web-service-common-php.git"
+      }
+    },
+    "nyholm/nsa": {
+      "1.3.0": {
+        "rev": "c264c17ed2aa8251c64ad289442ed53f64cdb283",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Nyholm/NSA.git"
+      }
+    },
+    "nyholm/psr7": {
+      "1.5.1": {
+        "rev": "f734364e38a876a23be4d906a2a089e1315be18a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Nyholm/psr7.git"
+      }
+    },
+    "nyholm/symfony-bundle-test": {
+      "dev-master": {
+        "rev": "ac04570711af15a66b85a0ebff700222f98a0814",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/symfony-bundle-test.git"
+      }
+    },
+    "php-http/curl-client": {
+      "2.2.1": {
+        "rev": "2ed4245a817d859dd0c1d51c7078cdb343cf5233",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/curl-client.git"
+      }
+    },
+    "php-http/discovery": {
+      "1.14.3": {
+        "rev": "31d8ee46d0215108df16a8527c7438e96a4d7735",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/discovery.git"
+      }
+    },
+    "php-http/httplug": {
+      "2.3.0": {
+        "rev": "f640739f80dfa1152533976e3c112477f69274eb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/httplug.git"
+      }
+    },
+    "php-http/message": {
+      "1.13.0": {
+        "rev": "7886e647a30a966a1a8d1dad1845b71ca8678361",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/message.git"
+      }
+    },
+    "php-http/message-factory": {
+      "v1.0.2": {
+        "rev": "a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/message-factory.git"
+      }
+    },
+    "php-http/promise": {
+      "1.1.0": {
+        "rev": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/promise.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "1.8.6": {
+        "rev": "c386ab2741e64cc9e21729f891b28b2b10fe6618",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "psr/cache": {
+      "3.0.0": {
+        "rev": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/event-dispatcher": {
+      "1.0.0": {
+        "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    },
+    "psr/http-client": {
+      "1.0.1": {
+        "rev": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-client.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "psr/simple-cache": {
+      "3.0.0": {
+        "rev": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/simple-cache.git"
+      }
+    },
+    "sebastian/diff": {
+      "4.0.4": {
+        "rev": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "symfony/cache": {
+      "v6.1.3": {
+        "rev": "5cf8e75f02932818889e0609380b8d5427a6c86c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/cache.git"
+      }
+    },
+    "symfony/cache-contracts": {
+      "v3.1.1": {
+        "rev": "2eab7fa459af6d75c6463e63e633b667a9b761d3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/cache-contracts.git"
+      }
+    },
+    "symfony/config": {
+      "v6.1.3": {
+        "rev": "a0645dc585d378b73c01115dd7ab9348f7d40c85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/console": {
+      "v6.1.4": {
+        "rev": "7fccea8728aa2d431a6725b02b3ce759049fc84d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/dependency-injection": {
+      "v6.1.3": {
+        "rev": "079e336a1880f457b219aecc3d41bef2f1093b0b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/dependency-injection.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/error-handler": {
+      "v6.1.3": {
+        "rev": "736e42db3fd586d91820355988698e434e1d8419",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/error-handler.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v6.1.0": {
+        "rev": "a0449a7ad7daa0f7c0acd508259f80544ab5a347",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/event-dispatcher-contracts": {
+      "v3.1.1": {
+        "rev": "02ff5eea2f453731cfbc6bc215e456b781480448",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher-contracts.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v6.1.4": {
+        "rev": "3f39c04d2630c34019907b02f85672dac99f8659",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v6.1.3": {
+        "rev": "39696bff2c2970b3779a5cac7bf9f0b88fc2b709",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/framework-bundle": {
+      "v6.1.4": {
+        "rev": "4fabea93ce983b0d86512764ca852c683cc4730b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/framework-bundle.git"
+      }
+    },
+    "symfony/http-foundation": {
+      "v6.1.4": {
+        "rev": "18e0f106a32887bcebef757e5b39c88e39a08f20",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-foundation.git"
+      }
+    },
+    "symfony/http-kernel": {
+      "v6.1.4": {
+        "rev": "2144c53a278254af57fa1e6f71427be656fab6f4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-kernel.git"
+      }
+    },
+    "symfony/options-resolver": {
+      "v6.1.0": {
+        "rev": "a3016f5442e28386ded73c43a32a5b68586dd1c4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/options-resolver.git"
+      }
+    },
+    "symfony/phpunit-bridge": {
+      "v6.1.3": {
+        "rev": "75c2fa71d049c1f48e39d208c0cefba97e66335a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/phpunit-bridge.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-intl-grapheme": {
+      "v1.26.0": {
+        "rev": "433d05519ce6990bf3530fba6957499d327395c2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-grapheme.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php72": {
+      "v1.26.0": {
+        "rev": "bf44a9fd41feaac72b074de600314a93e2ae78e2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php72.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/polyfill-php81": {
+      "v1.26.0": {
+        "rev": "13f6d1271c663dc5ae9fb843a8f16521db7687a1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php81.git"
+      }
+    },
+    "symfony/process": {
+      "v6.1.3": {
+        "rev": "a6506e99cfad7059b1ab5cab395854a0a0c21292",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/routing": {
+      "v6.1.3": {
+        "rev": "ef9108b3a88045b7546e808fb404ddb073dd35ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/routing.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v3.1.1": {
+        "rev": "925e713fe8fcacf6bc05e936edd8dd5441a21239",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/stopwatch": {
+      "v6.1.0": {
+        "rev": "77dedae82ce2a26e2e9b481855473fc3b3e4e54d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/stopwatch.git"
+      }
+    },
+    "symfony/string": {
+      "v6.1.4": {
+        "rev": "290972cad7b364e3befaa74ba0ec729800fb161c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/string.git"
+      }
+    },
+    "symfony/translation-contracts": {
+      "v3.1.1": {
+        "rev": "606be0f48e05116baef052f7f3abdb345c8e02cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation-contracts.git"
+      }
+    },
+    "symfony/validator": {
+      "v6.1.4": {
+        "rev": "14ec426b9c8ca8cf02bd863a645fb0cc0d73db79",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/validator.git"
+      }
+    },
+    "symfony/var-dumper": {
+      "v6.1.3": {
+        "rev": "d5a5e44a2260c5eb5e746bf4f1fbd12ee6ceb427",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/var-dumper.git"
+      }
+    },
+    "symfony/var-exporter": {
+      "v6.1.3": {
+        "rev": "b49350f45cebbba6e5286485264b912f2bcfc9ef",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/var-exporter.git"
+      }
+    },
+    "symfony/yaml": {
+      "v6.1.4": {
+        "rev": "86ee4d8fa594ed45e40d86eedfda1bcb66c8d919",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.11.0": {
+        "rev": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git"
+      }
+    },
+    "willdurand/geocoder": {
+      "4.6.0": {
+        "rev": "be3d9ed0fddf8c698ee079d8a07ae9520b4a49a1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/geocoder-php/php-common.git"
+      }
+    },
+    "willdurand/geocoder-bundle": {
+      "5.18.0": {
+        "rev": "d0b509ed5dd5a27bbe9aa75e87657c39de99edb7",
+        "type": "git",
+        "url": "https://github.com/geocoder-php/BazingaGeocoderBundle.git"
+      }
+    }
+  }
+}

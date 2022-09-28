@@ -1,0 +1,72 @@
+{
+  "_generic": {
+    "defaultPackage": "knpuniversity/oauth2-client-bundle",
+    "location": "",
+    "packages": {
+      "knpuniversity/oauth2-client-bundle": "v2.10.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "xml"
+    ],
+    "phpSemver": ">=7.2.5"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "knpuniversity/oauth2-client-bundle": {
+      "v2.10.1": [
+        [ "league/oauth2-client", "2.6.1" ],
+        [ "league/oauth2-facebook", "2.2.0" ]
+      ]
+    },
+    "league/oauth2-client": {
+      "2.6.1": [
+        [ "paragonie/random_compat", "v9.99.100" ]
+      ]
+    },
+    "league/oauth2-facebook": {
+      "2.2.0": [
+        [ "league/oauth2-client", "2.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "knpuniversity/oauth2-client-bundle": {
+      "v2.10.1": {
+        "rev": "0f4b238f16793ea6d2225044cfeae41b148a5c49",
+        "type": "git",
+        "url": "https://github.com/knpuniversity/oauth2-client-bundle.git"
+      }
+    },
+    "league/oauth2-client": {
+      "2.6.1": {
+        "rev": "2334c249907190c132364f5dae0287ab8666aa19",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/oauth2-client.git"
+      }
+    },
+    "league/oauth2-facebook": {
+      "2.2.0": {
+        "rev": "ec6d62a00b548c6cd56d7b734346b9e6befbfbbb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/oauth2-facebook.git"
+      }
+    },
+    "paragonie/random_compat": {
+      "v9.99.100": {
+        "rev": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/paragonie/random_compat.git"
+      }
+    }
+  }
+}

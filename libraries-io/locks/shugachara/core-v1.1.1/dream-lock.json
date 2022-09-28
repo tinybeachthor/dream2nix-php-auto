@@ -1,0 +1,104 @@
+{
+  "_generic": {
+    "defaultPackage": "shugachara/core",
+    "location": "",
+    "packages": {
+      "shugachara/core": "v1.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "raylin666/contract": {
+      "v1.0.1": [
+        [ "psr/container", "1.0.0" ],
+        [ "psr/event-dispatcher", "1.0.0" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "shugachara/core": {
+      "v1.1.1": [
+        [ "raylin666/contract", "v1.0.1" ],
+        [ "symfony/finder", "v5.4.11" ]
+      ]
+    },
+    "symfony/finder": {
+      "v5.4.11": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "psr/container": {
+      "1.0.0": {
+        "rev": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/event-dispatcher": {
+      "1.0.0": {
+        "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "raylin666/contract": {
+      "v1.0.1": {
+        "rev": "c1b61a3d9a5a74de82d12991acb135ea50786930",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/raylin666/php-contract.git"
+      }
+    },
+    "shugachara/core": {
+      "v1.1.1": {
+        "rev": "7d268e7555296f573ff4ff53d982978f8ed30919",
+        "type": "git",
+        "url": "https://github.com/raylin666/util.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/finder": {
+      "v5.4.11": {
+        "rev": "7872a66f57caffa2916a584db1aa7f12adc76f8c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "m6web/redis-mock",
+    "location": "",
+    "packages": {
+      "m6web/redis-mock": "v5.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "hash",
+      "json",
+      "tokenizer",
+      "xml"
+    ],
+    "phpSemver": ">=7.1.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "m6web/redis-mock": {
+      "v5.3.0": [
+        [ "atoum/atoum", "4.0.3" ],
+        [ "predis/predis", "v1.1.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "atoum/atoum": {
+      "4.0.3": {
+        "rev": "0fe4495643f6a529f9e304ea6933d29733253489",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/atoum/atoum.git"
+      }
+    },
+    "m6web/redis-mock": {
+      "v5.3.0": {
+        "rev": "e126231c0130ff2e83d53dbc0c305a8eed20372e",
+        "type": "git",
+        "url": "https://github.com/BedrockStreaming/RedisMock.git"
+      }
+    },
+    "predis/predis": {
+      "v1.1.10": {
+        "rev": "a2fb02d738bedadcffdbb07efa3a5e7bd57f8d6e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/predis/predis.git"
+      }
+    }
+  }
+}

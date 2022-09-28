@@ -1,0 +1,380 @@
+{
+  "_generic": {
+    "defaultPackage": "nguyenanhung/requests",
+    "location": "",
+    "packages": {
+      "nguyenanhung/requests": "v2.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "curl",
+      "iconv",
+      "json",
+      "mbstring"
+    ],
+    "phpSemver": ">=5.6"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cocur/slugify": {
+      "v3.2": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "guzzlehttp/guzzle": {
+      "7.5.0": [
+        [ "guzzlehttp/promises", "1.5.2" ],
+        [ "guzzlehttp/psr7", "2.4.1" ],
+        [ "psr/http-client", "1.0.1" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "guzzlehttp/psr7": {
+      "2.4.1": [
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "ralouphie/getallheaders", "3.0.3" ]
+      ]
+    },
+    "monolog/monolog": {
+      "2.8.0": [
+        [ "psr/log", "3.0.0" ]
+      ]
+    },
+    "nguyenanhung/filesystem-helper": {
+      "v1.0.4": [
+        [ "symfony/filesystem", "v3.4.47" ],
+        [ "theseer/directoryscanner", "1.3.3" ]
+      ]
+    },
+    "nguyenanhung/ip-helper": {
+      "v1.0.9": [
+        [ "markrogoyski/ipv4-subnet-calculator", "v3.1.0" ],
+        [ "mlocati/ip-lib", "1.18.0" ]
+      ]
+    },
+    "nguyenanhung/my-debug": {
+      "v2.1.2": [
+        [ "monolog/monolog", "2.8.0" ],
+        [ "nguyenanhung/benchmark", "v1.0.1" ],
+        [ "nguyenanhung/filesystem-helper", "v1.0.4" ],
+        [ "nguyenanhung/slug-helper", "v1.0.3" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "nguyenanhung/requests": {
+      "v2.1.2": [
+        [ "guzzlehttp/guzzle", "7.5.0" ],
+        [ "kint-php/kint", "3.3" ],
+        [ "nguyenanhung/ip-helper", "v1.0.9" ],
+        [ "nguyenanhung/my-debug", "v2.1.2" ],
+        [ "nguyenanhung/nusoap", "v0.9.8.1" ],
+        [ "php-curl-class/php-curl-class", "9.6.3" ],
+        [ "symfony/http-foundation", "v4.4.45" ]
+      ]
+    },
+    "nguyenanhung/slug-helper": {
+      "v1.0.3": [
+        [ "cocur/slugify", "v3.2" ]
+      ]
+    },
+    "psr/http-client": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v3.4.47": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "symfony/http-foundation": {
+      "v4.4.45": [
+        [ "symfony/mime", "v5.4.12" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/mime": {
+      "v5.4.12": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-intl-idn", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": [
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-php72", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "cocur/slugify": {
+      "v3.2": {
+        "rev": "d41701efe58ba2df9cae029c3d21e1518cc6780e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cocur/slugify.git"
+      }
+    },
+    "guzzlehttp/guzzle": {
+      "7.5.0": {
+        "rev": "b50a2a1251152e43f6a37f0fa053e730a67d25ba",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle.git"
+      }
+    },
+    "guzzlehttp/promises": {
+      "1.5.2": {
+        "rev": "b94b2807d85443f9719887892882d0329d1e2598",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/promises.git"
+      }
+    },
+    "guzzlehttp/psr7": {
+      "2.4.1": {
+        "rev": "69568e4293f4fa993f3b0e51c9723e1e17c41379",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git"
+      }
+    },
+    "kint-php/kint": {
+      "3.3": {
+        "rev": "335ac1bcaf04d87df70d8aa51e8887ba2c6d203b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/kint-php/kint.git"
+      }
+    },
+    "markrogoyski/ipv4-subnet-calculator": {
+      "v3.1.0": {
+        "rev": "67ed2ef2f7faf528b0b6289074d38de09acea17a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/markrogoyski/ipv4-subnet-calculator-php.git"
+      }
+    },
+    "mlocati/ip-lib": {
+      "1.18.0": {
+        "rev": "c77bd0b1f3e3956c7e9661e75cb1f54ed67d95d2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/mlocati/ip-lib.git"
+      }
+    },
+    "monolog/monolog": {
+      "2.8.0": {
+        "rev": "720488632c590286b88b80e62aa3d3d551ad4a50",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "nguyenanhung/benchmark": {
+      "v1.0.1": {
+        "rev": "6fc5816913a6dd5300c4ecddb5b8417b802e18c8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nguyenanhung/benchmark.git"
+      }
+    },
+    "nguyenanhung/filesystem-helper": {
+      "v1.0.4": {
+        "rev": "1bbfcbdc184e6d76115cbbec1101d9bb0fbb5296",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nguyenanhung/filesystem-helper.git"
+      }
+    },
+    "nguyenanhung/ip-helper": {
+      "v1.0.9": {
+        "rev": "0abafbf363c3f245a13998a028c6bbda31ff5bb8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nguyenanhung/ip-helper.git"
+      }
+    },
+    "nguyenanhung/my-debug": {
+      "v2.1.2": {
+        "rev": "549e0a16c5b861b9c30471a2ebe4270ba06bf569",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nguyenanhung/my-debug.git"
+      }
+    },
+    "nguyenanhung/nusoap": {
+      "v0.9.8.1": {
+        "rev": "dd4e13aa1f0d81d47c1e948a42f22ec2c22f8c3b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nguyenanhung/nusoap.git"
+      }
+    },
+    "nguyenanhung/requests": {
+      "v2.1.2": {
+        "rev": "e469e2a7ce3074f5937c45a25917c44cf4939227",
+        "type": "git",
+        "url": "https://github.com/nguyenanhung/requests.git"
+      }
+    },
+    "nguyenanhung/slug-helper": {
+      "v1.0.3": {
+        "rev": "8ebfa4547670be30b3bf5722b1d79363f4702e6c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nguyenanhung/slug-helper.git"
+      }
+    },
+    "php-curl-class/php-curl-class": {
+      "9.6.3": {
+        "rev": "4b096ed518bd847219f2be771c77a29c3883b040",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-curl-class/php-curl-class.git"
+      }
+    },
+    "psr/http-client": {
+      "1.0.1": {
+        "rev": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-client.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "ralouphie/getallheaders": {
+      "3.0.3": {
+        "rev": "120b605dfeb996808c31b6477290a714d356e822",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v3.4.47": {
+        "rev": "e58d7841cddfed6e846829040dca2cca0ebbbbb3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/http-foundation": {
+      "v4.4.45": {
+        "rev": "b2f2e3cb66349d89cb46c939cea03c62ad71cf00",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-foundation.git"
+      }
+    },
+    "symfony/mime": {
+      "v5.4.12": {
+        "rev": "03876e9c5a36f5b45e7d9a381edda5421eff8a90",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/mime.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": {
+        "rev": "59a8d271f00dd0e4c2e518104cc7963f655a1aa8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-idn.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php72": {
+      "v1.26.0": {
+        "rev": "bf44a9fd41feaac72b074de600314a93e2ae78e2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php72.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "theseer/directoryscanner": {
+      "1.3.3": {
+        "rev": "4cdce31c1b5120779a01225b5b0968f9321342d6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/theseer/DirectoryScanner.git"
+      }
+    }
+  }
+}

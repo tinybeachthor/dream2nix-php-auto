@@ -1,0 +1,85 @@
+{
+  "_generic": {
+    "defaultPackage": "nepada/coding-standard",
+    "location": "",
+    "packages": {
+      "nepada/coding-standard": "v7.5.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=7.4.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "nepada/coding-standard": {
+      "v7.5.2": [
+        [ "slevomat/coding-standard", "8.5.2" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "8.5.2": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "phpstan/phpdoc-parser", "1.8.0" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": {
+        "rev": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "nepada/coding-standard": {
+      "v7.5.2": {
+        "rev": "ff741f41257be03e645038924a3b5fbaeb1e88fc",
+        "type": "git",
+        "url": "https://github.com/nepada/coding-standard.git"
+      }
+    },
+    "phpstan/phpdoc-parser": {
+      "1.8.0": {
+        "rev": "8dd908dd6156e974b9a0f8bb4cd5ad0707830f04",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpdoc-parser.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "8.5.2": {
+        "rev": "f32937dc41b587f3500efed1dbca2f82aa519373",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

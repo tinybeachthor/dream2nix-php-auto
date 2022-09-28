@@ -1,0 +1,238 @@
+{
+  "_generic": {
+    "defaultPackage": "graphaware/neo4j-php-client",
+    "location": "",
+    "packages": {
+      "graphaware/neo4j-php-client": "4.8.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "bcmath",
+      "mbstring",
+      "json",
+      "tokenizer",
+      "filter",
+      "dom",
+      "pcre",
+      "reflection",
+      "spl",
+      "ctype"
+    ],
+    "phpSemver": "^5.6 || ^7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "friendsofphp/php-cs-fixer": {
+      "v2.19.3": [
+        [ "php-cs-fixer/diff", "v1.3.1" ]
+      ]
+    },
+    "graphaware/neo4j-bolt": {
+      "1.11.0": [
+        [ "graphaware/neo4j-common", "3.5.0" ],
+        [ "myclabs/php-enum", "1.8.4" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "graphaware/neo4j-common": {
+      "3.5.0": [
+        [ "myclabs/php-enum", "1.8.4" ]
+      ]
+    },
+    "graphaware/neo4j-php-client": {
+      "4.8.5": [
+        [ "friendsofphp/php-cs-fixer", "v2.19.3" ],
+        [ "graphaware/neo4j-bolt", "1.11.0" ],
+        [ "graphaware/neo4j-common", "3.5.0" ],
+        [ "myclabs/php-enum", "1.8.4" ],
+        [ "php-http/discovery", "1.14.3" ],
+        [ "php-http/guzzle6-adapter", "v1.1.1" ],
+        [ "php-http/httplug", "v1.1.0" ],
+        [ "php-http/message", "1.13.0" ],
+        [ "phpunit/phpunit", "4.8.36" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "php-http/guzzle6-adapter": {
+      "v1.1.1": [
+        [ "php-http/httplug", "v1.1.0" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": [
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "1.4.12" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/version", "1.0.6" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "4.8.36": [
+        [ "phpspec/prophecy", "v1.10.3" ],
+        [ "phpunit/php-code-coverage", "2.2.4" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/exporter", "1.2.2" ],
+        [ "sebastian/version", "1.0.6" ]
+      ]
+    }
+  },
+  "sources": {
+    "friendsofphp/php-cs-fixer": {
+      "v2.19.3": {
+        "rev": "75ac86f33fab4714ea5a39a396784d83ae3b5ed8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git"
+      }
+    },
+    "graphaware/neo4j-bolt": {
+      "1.11.0": {
+        "rev": "c4fdfc5b4ed52fe409926395a10a22d860ad31ed",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/graphaware/neo4j-bolt-php.git"
+      }
+    },
+    "graphaware/neo4j-common": {
+      "3.5.0": {
+        "rev": "a1aef65e3275c006a9c91ca8be7d800e8391b514",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/graphaware/neo4j-php-commons.git"
+      }
+    },
+    "graphaware/neo4j-php-client": {
+      "4.8.5": {
+        "rev": "3e90a37f0aaf476c42574ffa2aa28dc2edf5a78b",
+        "type": "git",
+        "url": "https://github.com/graphaware/neo4j-php-client.git"
+      }
+    },
+    "myclabs/php-enum": {
+      "1.8.4": {
+        "rev": "a867478eae49c9f59ece437ae7f9506bfaa27483",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/myclabs/php-enum.git"
+      }
+    },
+    "php-cs-fixer/diff": {
+      "v1.3.1": {
+        "rev": "dbd31aeb251639ac0b9e7e29405c1441907f5759",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHP-CS-Fixer/diff.git"
+      }
+    },
+    "php-http/discovery": {
+      "1.14.3": {
+        "rev": "31d8ee46d0215108df16a8527c7438e96a4d7735",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/discovery.git"
+      }
+    },
+    "php-http/guzzle6-adapter": {
+      "v1.1.1": {
+        "rev": "a56941f9dc6110409cfcddc91546ee97039277ab",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/guzzle6-adapter.git"
+      }
+    },
+    "php-http/httplug": {
+      "v1.1.0": {
+        "rev": "1c6381726c18579c4ca2ef1ec1498fdae8bdf018",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/httplug.git"
+      }
+    },
+    "php-http/message": {
+      "1.13.0": {
+        "rev": "7886e647a30a966a1a8d1dad1845b71ca8678361",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/message.git"
+      }
+    },
+    "phpspec/prophecy": {
+      "v1.10.3": {
+        "rev": "451c3cd1418cf640de218914901e51b064abb093",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpspec/prophecy.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": {
+        "rev": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.4.12": {
+        "rev": "1ce90ba27c42e4e44e6d8458241466380b51fa16",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "4.8.36": {
+        "rev": "46023de9a91eec7dfb06cc56cb4e260017298517",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "sebastian/environment": {
+      "1.3.8": {
+        "rev": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/environment.git"
+      }
+    },
+    "sebastian/exporter": {
+      "1.2.2": {
+        "rev": "42c4c2eec485ee3e159ec9884f95b431287edde4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/exporter.git"
+      }
+    },
+    "sebastian/version": {
+      "1.0.6": {
+        "rev": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    }
+  }
+}

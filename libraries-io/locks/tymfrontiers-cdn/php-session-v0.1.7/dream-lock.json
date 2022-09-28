@@ -1,0 +1,279 @@
+{
+  "_generic": {
+    "defaultPackage": "tymfrontiers-cdn/php-session",
+    "location": "",
+    "packages": {
+      "tymfrontiers-cdn/php-session": "v0.1.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {
+    "tymfrontiers-cdn/php-location": {
+      "v0.1.7": [
+        [ "tymfrontiers-cdn/php-session", "v0.1.7" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "giggsey/libphonenumber-for-php": {
+      "8.12.56": [
+        [ "giggsey/locale", "2.2" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "guzzlehttp/guzzle": {
+      "7.5.0": [
+        [ "guzzlehttp/promises", "1.5.2" ],
+        [ "guzzlehttp/psr7", "2.4.1" ],
+        [ "psr/http-client", "1.0.1" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "guzzlehttp/psr7": {
+      "2.4.1": [
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "ralouphie/getallheaders", "3.0.3" ]
+      ]
+    },
+    "ipinfo/ipinfo": {
+      "v2.3.1": [
+        [ "guzzlehttp/guzzle", "7.5.0" ],
+        [ "sabre/cache", "1.0.4" ]
+      ]
+    },
+    "psr/http-client": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "sabre/cache": {
+      "1.0.4": [
+        [ "psr/simple-cache", "1.0.1" ]
+      ]
+    },
+    "tymfrontiers-cdn/php-data": {
+      "v0.2.1": [
+        [ "giggsey/libphonenumber-for-php", "8.12.56" ],
+        [ "guzzlehttp/guzzle", "7.5.0" ]
+      ]
+    },
+    "tymfrontiers-cdn/php-location": {
+      "v0.1.7": [
+        [ "tymfrontiers-cdn/php-multiform", "v0.1.4" ],
+        [ "tymfrontiers-cdn/php-session", "v0.1.7" ],
+        [ "victorybiz/geoip-location", "v1.1.10" ]
+      ]
+    },
+    "tymfrontiers-cdn/php-multiform": {
+      "v0.1.4": [
+        [ "tymfrontiers-cdn/php-mysql-database", "v0.1.9" ],
+        [ "tymfrontiers-cdn/php-mysql-database-object", "v0.2.6" ],
+        [ "tymfrontiers-cdn/php-pagination", "v0.1.1" ]
+      ]
+    },
+    "tymfrontiers-cdn/php-session": {
+      "v0.1.7": [
+        [ "tymfrontiers-cdn/php-data", "v0.2.1" ],
+        [ "tymfrontiers-cdn/php-location", "v0.1.7" ]
+      ]
+    },
+    "victorybiz/geoip-location": {
+      "v1.1.10": [
+        [ "guzzlehttp/guzzle", "7.5.0" ],
+        [ "ipinfo/ipinfo", "v2.3.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "giggsey/libphonenumber-for-php": {
+      "8.12.56": {
+        "rev": "0f6481df7bee33fe0ed87d2af06770527a2e1c86",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/giggsey/libphonenumber-for-php.git"
+      }
+    },
+    "giggsey/locale": {
+      "2.2": {
+        "rev": "9c1dca769253f6a3e81f9a5c167f53b6a54ab635",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/giggsey/Locale.git"
+      }
+    },
+    "guzzlehttp/guzzle": {
+      "7.5.0": {
+        "rev": "b50a2a1251152e43f6a37f0fa053e730a67d25ba",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle.git"
+      }
+    },
+    "guzzlehttp/promises": {
+      "1.5.2": {
+        "rev": "b94b2807d85443f9719887892882d0329d1e2598",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/promises.git"
+      }
+    },
+    "guzzlehttp/psr7": {
+      "2.4.1": {
+        "rev": "69568e4293f4fa993f3b0e51c9723e1e17c41379",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git"
+      }
+    },
+    "ipinfo/ipinfo": {
+      "v2.3.1": {
+        "rev": "8a8e85fbc85f10101ef9ce58c0350f31c4a8e3c5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ipinfo/php.git"
+      }
+    },
+    "psr/http-client": {
+      "1.0.1": {
+        "rev": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-client.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/simple-cache": {
+      "1.0.1": {
+        "rev": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/simple-cache.git"
+      }
+    },
+    "ralouphie/getallheaders": {
+      "3.0.3": {
+        "rev": "120b605dfeb996808c31b6477290a714d356e822",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git"
+      }
+    },
+    "sabre/cache": {
+      "1.0.4": {
+        "rev": "be9b6a2aa3bf07098ea12bf758ef62b3eade8101",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sabre-io/cache.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "tymfrontiers-cdn/php-data": {
+      "v0.2.1": {
+        "rev": "29b14bfb02d82a927206cec71c95db360a17dfdf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tymfrontiers-cdn/php-data.git"
+      }
+    },
+    "tymfrontiers-cdn/php-location": {
+      "v0.1.7": {
+        "rev": "5cd79a7e815780fe362e9aadea87474c7ae370f6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tymfrontiers-cdn/php-location.git"
+      }
+    },
+    "tymfrontiers-cdn/php-multiform": {
+      "v0.1.4": {
+        "rev": "996d02f6b682874bd6e7cc4ebfaf7634138ea43f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tymfrontiers-cdn/php-multiform.git"
+      }
+    },
+    "tymfrontiers-cdn/php-mysql-database": {
+      "v0.1.9": {
+        "rev": "c103e953bf386278f629bb07c742d3f249800809",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tymfrontiers-cdn/php-mysql-database.git"
+      }
+    },
+    "tymfrontiers-cdn/php-mysql-database-object": {
+      "v0.2.6": {
+        "rev": "5f7afd216304521bd262e89d35889b402e16b5fb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tymfrontiers-cdn/php-mysql-database-object.git"
+      }
+    },
+    "tymfrontiers-cdn/php-pagination": {
+      "v0.1.1": {
+        "rev": "c6c995943d3cfafe5394a76f90d86389c07f70fa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tymfrontiers-cdn/php-pagination.git"
+      }
+    },
+    "tymfrontiers-cdn/php-session": {
+      "v0.1.7": {
+        "rev": "301a41f82c8f2f9192983ec99deae9d5835f084a",
+        "type": "git",
+        "url": "https://github.com/tymfrontiers-cdn/php-session.git"
+      }
+    },
+    "victorybiz/geoip-location": {
+      "v1.1.10": {
+        "rev": "530a3b7e2cfa6e4d5755f7a9119efc1d5ec3c797",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/victorybiz/geoip-location.git"
+      }
+    }
+  }
+}

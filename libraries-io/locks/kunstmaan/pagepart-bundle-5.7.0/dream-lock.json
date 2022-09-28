@@ -1,0 +1,70 @@
+{
+  "_generic": {
+    "defaultPackage": "kunstmaan/pagepart-bundle",
+    "location": "",
+    "packages": {
+      "kunstmaan/pagepart-bundle": "5.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "xmlreader",
+      "zip",
+      "openssl",
+      "tokenizer",
+      "pdo",
+      "ctype",
+      "dom",
+      "json",
+      "xml",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "mbstring"
+    ],
+    "phpSemver": "^7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "kunstmaan/pagepart-bundle": {
+      "5.7.0": [
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ],
+        [ "matthiasnoback/symfony-dependency-injection-test", "4.3.0" ]
+      ]
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": [
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "kunstmaan/pagepart-bundle": {
+      "5.7.0": {
+        "rev": "3c8c8d48719893860b2d8aceaf608d296cc662d8",
+        "type": "git",
+        "url": "https://github.com/Kunstmaan/KunstmaanPagePartBundle.git"
+      }
+    },
+    "matthiasnoback/symfony-config-test": {
+      "4.3.0": {
+        "rev": "e7db0f5ea98817c7ba1b9266f8039c085e673db4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyConfigTest.git"
+      }
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": {
+        "rev": "d6b94169d9a60f4747efbcc45bfd51f071ba03d7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyDependencyInjectionTest.git"
+      }
+    }
+  }
+}

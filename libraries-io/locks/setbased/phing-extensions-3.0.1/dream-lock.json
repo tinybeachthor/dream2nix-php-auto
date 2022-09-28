@@ -1,0 +1,166 @@
+{
+  "_generic": {
+    "defaultPackage": "setbased/phing-extensions",
+    "location": "",
+    "packages": {
+      "setbased/phing-extensions": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=7.4"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "phing/phing": {
+      "3.0.0a3": [
+        [ "mehr-als-nix/parallel", "v1.0.0" ],
+        [ "sebastian/version", "2.0.1" ],
+        [ "symfony/console", "v4.4.45" ],
+        [ "symfony/yaml", "v4.4.45" ]
+      ]
+    },
+    "setbased/phing-extensions": {
+      "3.0.1": [
+        [ "phing/phing", "3.0.0a3" ],
+        [ "setbased/helper-program-execution", "1.1.0" ]
+      ]
+    },
+    "symfony/console": {
+      "v4.4.45": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/service-contracts", "v2.5.2" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v2.5.2": [
+        [ "psr/container", "1.1.2" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v4.4.45": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "mehr-als-nix/parallel": {
+      "v1.0.0": {
+        "rev": "14a71eb1a8f851108bed4a5b32d1c1027976e8f3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/MehrAlsNix/Parallel.git"
+      }
+    },
+    "phing/phing": {
+      "3.0.0a3": {
+        "rev": "ef6ec07ee9b8931f44ca64803c3debcb0e52b5dd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phingofficial/phing.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "sebastian/version": {
+      "2.0.1": {
+        "rev": "99732be0ddb3361e16ad77b68ba41efc8e979019",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "setbased/helper-program-execution": {
+      "1.1.0": {
+        "rev": "c2174c6a0412a42625e8229d91188ecd48c7ee4b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SetBased/php-helper-program-execution.git"
+      }
+    },
+    "setbased/phing-extensions": {
+      "3.0.1": {
+        "rev": "e2ae8517aa6578b6abd8ab6f75fc05e4a5f4e9da",
+        "type": "git",
+        "url": "https://github.com/SetBased/phing-extensions.git"
+      }
+    },
+    "symfony/console": {
+      "v4.4.45": {
+        "rev": "28b77970939500fb04180166a1f716e75a871ef8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v2.5.2": {
+        "rev": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/yaml": {
+      "v4.4.45": {
+        "rev": "aeccc4dc52a9e634f1d1eebeb21eacfdcff1053d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    }
+  }
+}

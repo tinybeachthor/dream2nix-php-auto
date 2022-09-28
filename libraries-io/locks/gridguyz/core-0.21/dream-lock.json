@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "gridguyz/core",
+    "location": "",
+    "packages": {
+      "gridguyz/core": "0.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "pdo_pgsql",
+      "xml",
+      "curl",
+      "fileinfo",
+      "gd",
+      "intl",
+      "mbstring",
+      "openssl",
+      "zip"
+    ],
+    "phpSemver": ">=5.4"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "gridguyz/core": {
+      "0.21": [
+        [ "codeplex/phpexcel", "1.7.8" ],
+        [ "dflydev/markdown", "v1.0.3" ],
+        [ "gridguyz/module-installer", "0.5" ],
+        [ "gridguyz/zork", "0.11.1" ]
+      ]
+    },
+    "gridguyz/zork": {
+      "0.11.1": [
+        [ "zendframework/zendframework", "2.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "codeplex/phpexcel": {
+      "1.7.8": {
+        "rev": "6236b1e1513dda38a68a5ac22bbab5fc2b7942fd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/markushausammann/PHPExcel.git"
+      }
+    },
+    "dflydev/markdown": {
+      "v1.0.3": {
+        "rev": "6baed9b50f29c980795b6656d43722aadb126f7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/dflydev/dflydev-markdown.git"
+      }
+    },
+    "gridguyz/core": {
+      "0.21": {
+        "rev": "5b7565192c48b088947206909d150797f6a70c87",
+        "type": "git",
+        "url": "https://github.com/gridguyz/core.git"
+      }
+    },
+    "gridguyz/module-installer": {
+      "0.5": {
+        "rev": "d1d47386daabaf2dd3ee73262ce7d5f9953c4caf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/gridguyz/module-installer.git"
+      }
+    },
+    "gridguyz/zork": {
+      "0.11.1": {
+        "rev": "aae37fe8b2a06c68e2d96a7792b78cd16e3c3be9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/gridguyz/zork.git"
+      }
+    },
+    "zendframework/zendframework": {
+      "2.2.0": {
+        "rev": "2b7e952e680a47842beed07ee83e4ab3d749f4f4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zendframework.git"
+      }
+    }
+  }
+}

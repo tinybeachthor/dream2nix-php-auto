@@ -1,0 +1,531 @@
+{
+  "_generic": {
+    "defaultPackage": "php-extended/php-json-object",
+    "location": "",
+    "packages": {
+      "php-extended/php-json-object": "5.4.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=7.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "php-extended/php-charset-interface": {
+      "3.1.40": [
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-charset-object": {
+      "3.1.34": [
+        [ "php-extended/php-charset-interface", "3.1.40" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "php-extended/php-domain-interface": {
+      "4.0.0": [
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-domain-object": {
+      "4.0.0": [
+        [ "php-extended/php-domain-interface", "4.0.0" ]
+      ]
+    },
+    "php-extended/php-email-address-interface": {
+      "3.4.11": [
+        [ "php-extended/php-parser-interface", "3.1.12" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "php-extended/php-email-address-object": {
+      "3.5.7": [
+        [ "php-extended/php-email-address-interface", "3.4.11" ],
+        [ "php-extended/php-ip-object", "4.4.7" ],
+        [ "php-extended/php-parser-object", "3.1.7" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-ensurer-interface": {
+      "3.2.41": [
+        [ "php-extended/php-inspector-interface", "3.1.40" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-ensurer-object": {
+      "3.3.35": [
+        [ "php-extended/php-ensurer-interface", "3.2.41" ],
+        [ "php-extended/php-inspector-object", "3.1.30" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-factory-interface": {
+      "3.0.41": [
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-factory-object": {
+      "3.0.29": [
+        [ "php-extended/php-factory-interface", "3.0.41" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-http-message-factory-psr17": {
+      "3.2.6": [
+        [ "php-extended/php-http-message-psr7", "3.2.23" ],
+        [ "php-extended/php-uri-parser-object", "3.1.6" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ],
+        [ "psr/http-factory", "1.0.1" ]
+      ]
+    },
+    "php-extended/php-http-message-psr7": {
+      "3.2.23": [
+        [ "php-extended/php-domain-object", "4.0.0" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ],
+        [ "php-extended/polyfill-str-levenshtein", "1.1.0" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "php-extended/php-inspector-interface": {
+      "3.1.40": [
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-inspector-object": {
+      "3.1.30": [
+        [ "php-extended/php-inspector-interface", "3.1.40" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-io-interface": {
+      "3.1.40": [
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-ip-interface": {
+      "4.3.11": [
+        [ "php-extended/php-parser-interface", "3.1.12" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-ip-object": {
+      "4.4.7": [
+        [ "php-extended/php-ip-interface", "4.3.11" ],
+        [ "php-extended/php-parser-lexer", "3.1.6" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-json-object": {
+      "5.4.7": [
+        [ "php-extended/php-email-address-object", "3.5.7" ],
+        [ "php-extended/php-ensurer-object", "3.3.35" ],
+        [ "php-extended/php-http-message-factory-psr17", "3.2.6" ],
+        [ "php-extended/php-ip-object", "4.4.7" ],
+        [ "php-extended/php-mac-object", "3.3.8" ],
+        [ "php-extended/php-uuid-object", "3.4.10" ],
+        [ "php-extended/php-version-object", "4.2.7" ],
+        [ "php-extended/placeholder-phpunit", "8.1.1" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ],
+        [ "psr/http-factory", "1.0.1" ]
+      ]
+    },
+    "php-extended/php-lexer-interface": {
+      "3.2.35": [
+        [ "php-extended/php-charset-interface", "3.1.40" ],
+        [ "php-extended/php-io-interface", "3.1.40" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "php-extended/php-lexer-object": {
+      "3.2.22": [
+        [ "php-extended/php-charset-object", "3.1.34" ],
+        [ "php-extended/php-lexer-interface", "3.2.35" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-mac-interface": {
+      "3.4.11": [
+        [ "php-extended/php-parser-interface", "3.1.12" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-mac-object": {
+      "3.3.8": [
+        [ "php-extended/php-mac-interface", "3.4.11" ],
+        [ "php-extended/php-parser-lexer", "3.1.6" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-parser-interface": {
+      "3.1.12": [
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-parser-lexer": {
+      "3.1.6": [
+        [ "php-extended/php-lexer-object", "3.2.22" ],
+        [ "php-extended/php-parser-object", "3.1.7" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-parser-object": {
+      "3.1.7": [
+        [ "php-extended/php-parser-interface", "3.1.12" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-uri-parser-interface": {
+      "3.0.39": [
+        [ "php-extended/php-parser-interface", "3.1.12" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "php-extended/php-uri-parser-object": {
+      "3.1.6": [
+        [ "php-extended/php-http-message-psr7", "3.2.23" ],
+        [ "php-extended/php-parser-object", "3.1.7" ],
+        [ "php-extended/php-uri-parser-interface", "3.0.39" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-uuid-interface": {
+      "3.4.12": [
+        [ "php-extended/php-factory-interface", "3.0.41" ],
+        [ "php-extended/php-parser-interface", "3.1.12" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-uuid-object": {
+      "3.4.10": [
+        [ "php-extended/php-factory-object", "3.0.29" ],
+        [ "php-extended/php-parser-lexer", "3.1.6" ],
+        [ "php-extended/php-uuid-interface", "3.4.12" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-version-interface": {
+      "4.1.15": [
+        [ "php-extended/php-parser-interface", "3.1.12" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "php-extended/php-version-object": {
+      "4.2.7": [
+        [ "php-extended/php-parser-lexer", "3.1.6" ],
+        [ "php-extended/php-version-interface", "4.1.15" ],
+        [ "php-extended/polyfill-php80-stringable", "1.1.0" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "php-extended/php-charset-interface": {
+      "3.1.40": {
+        "rev": "140c1994fe3d566d143799c622411a6e13a2502b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-charset-interface.git"
+      }
+    },
+    "php-extended/php-charset-object": {
+      "3.1.34": {
+        "rev": "090c8f0352433f1c11b2aca206cf549b09978a8d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-charset-object.git"
+      }
+    },
+    "php-extended/php-domain-interface": {
+      "4.0.0": {
+        "rev": "c9150e0cecd49629cc0eb6631c1e9ab4b4c6e774",
+        "submodules": false,
+        "type": "git",
+        "url": "git@gitlab.com:php-extended/php-domain-interface.git"
+      }
+    },
+    "php-extended/php-domain-object": {
+      "4.0.0": {
+        "rev": "fbf8c22246befe80631e4ae276d02ec88f7d4c0c",
+        "submodules": false,
+        "type": "git",
+        "url": "git@gitlab.com:php-extended/php-domain-object.git"
+      }
+    },
+    "php-extended/php-email-address-interface": {
+      "3.4.11": {
+        "rev": "27101dde0237ad0949884d33b8c8cec22a9d0130",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-email-address-interface.git"
+      }
+    },
+    "php-extended/php-email-address-object": {
+      "3.5.7": {
+        "rev": "60631674e37f9f11a38d02bcfa225996fefd6f70",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-email-address-object.git"
+      }
+    },
+    "php-extended/php-ensurer-interface": {
+      "3.2.41": {
+        "rev": "91e93849c492bd9ead016d9f312e5502c6457beb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-ensurer-interface.git"
+      }
+    },
+    "php-extended/php-ensurer-object": {
+      "3.3.35": {
+        "rev": "84f0b1b46d33c40a6ab3818b694d38de9a24efb8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-ensurer-object.git"
+      }
+    },
+    "php-extended/php-factory-interface": {
+      "3.0.41": {
+        "rev": "8a8e20ca88c422eaf5aa211c07cbad7b72cee1a2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-factory-interface.git"
+      }
+    },
+    "php-extended/php-factory-object": {
+      "3.0.29": {
+        "rev": "9ae91c9e8e69311c365d1f6702c58bf08e133652",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-factory-object.git"
+      }
+    },
+    "php-extended/php-http-message-factory-psr17": {
+      "3.2.6": {
+        "rev": "f15f6bb2f7e3d528ecd321c36e3e53434e884000",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-http-message-factory-psr17.git"
+      }
+    },
+    "php-extended/php-http-message-psr7": {
+      "3.2.23": {
+        "rev": "8666dd0604864c31ab6a750397171bd65d3f57dd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-http-message-psr7.git"
+      }
+    },
+    "php-extended/php-inspector-interface": {
+      "3.1.40": {
+        "rev": "8d19b9590f7f67a075129999a5e58316273e5644",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-inspector-interface.git"
+      }
+    },
+    "php-extended/php-inspector-object": {
+      "3.1.30": {
+        "rev": "b5cfe9a9c8c97f4cf3a27354a1c475bb8646ba60",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-inspector-object.git"
+      }
+    },
+    "php-extended/php-io-interface": {
+      "3.1.40": {
+        "rev": "e6994ba3aa421f350a78d2cb570f39cb357e7acc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-io-interface.git"
+      }
+    },
+    "php-extended/php-ip-interface": {
+      "4.3.11": {
+        "rev": "44d3ba1222f9120c01db85f8a5a986d1c00a43ec",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-ip-interface.git"
+      }
+    },
+    "php-extended/php-ip-object": {
+      "4.4.7": {
+        "rev": "52442b1a0c77cdeaec718c9d5ca4bfdabca6f549",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-ip-object.git"
+      }
+    },
+    "php-extended/php-json-object": {
+      "5.4.7": {
+        "rev": "2382f484f000253c067b5b92b1dc869e2b41decb",
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-json-object.git"
+      }
+    },
+    "php-extended/php-lexer-interface": {
+      "3.2.35": {
+        "rev": "4c7e390be07c5ffb84332b98b82f9f79522bcd71",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-lexer-interface.git"
+      }
+    },
+    "php-extended/php-lexer-object": {
+      "3.2.22": {
+        "rev": "a6d9db6a50f530df30062e7cef21d00b7e24958d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-lexer-object.git"
+      }
+    },
+    "php-extended/php-mac-interface": {
+      "3.4.11": {
+        "rev": "99132890aef80b44b9fdde36701c010fe5bfb6df",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-mac-interface.git"
+      }
+    },
+    "php-extended/php-mac-object": {
+      "3.3.8": {
+        "rev": "b081a389ab216151c52906a0c2788b6684181594",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-mac-object.git"
+      }
+    },
+    "php-extended/php-parser-interface": {
+      "3.1.12": {
+        "rev": "3a647329f6dcd1f2930b72805151882b15f22781",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-parser-interface.git"
+      }
+    },
+    "php-extended/php-parser-lexer": {
+      "3.1.6": {
+        "rev": "57fab9e73248646e6ed1c2c6617a783451807a12",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-parser-lexer.git"
+      }
+    },
+    "php-extended/php-parser-object": {
+      "3.1.7": {
+        "rev": "3b226a64915bae3824a2ba62bb9b5fc16366bbcb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-parser-object.git"
+      }
+    },
+    "php-extended/php-uri-parser-interface": {
+      "3.0.39": {
+        "rev": "686823a3491779cd17344366408d01e0ca558757",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-uri-parser-interface.git"
+      }
+    },
+    "php-extended/php-uri-parser-object": {
+      "3.1.6": {
+        "rev": "b9f22ac17a3104faaa8a770636e48d3f6004a405",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-uri-parser-object.git"
+      }
+    },
+    "php-extended/php-uuid-interface": {
+      "3.4.12": {
+        "rev": "08734106b806c2c5c5ba26025586e424109dfbd1",
+        "submodules": false,
+        "type": "git",
+        "url": "git@gitlab.com:php-extended/php-uuid-interface.git"
+      }
+    },
+    "php-extended/php-uuid-object": {
+      "3.4.10": {
+        "rev": "ae1fbca688a42a5cb0cb1e39ac225f04761d2988",
+        "submodules": false,
+        "type": "git",
+        "url": "git@gitlab.com:php-extended/php-uuid-object.git"
+      }
+    },
+    "php-extended/php-version-interface": {
+      "4.1.15": {
+        "rev": "70319c43440a652875799d23eaa094b2aa449c9e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-version-interface.git"
+      }
+    },
+    "php-extended/php-version-object": {
+      "4.2.7": {
+        "rev": "12487256309af8017b770d3b2faaab5cd4a14bf5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://gitlab.com/php-extended/php-version-object.git"
+      }
+    },
+    "php-extended/placeholder-phpunit": {
+      "8.1.1": {
+        "rev": "bc81e96b7a0c46f915145992391b9fbf0b7fe9d9",
+        "submodules": false,
+        "type": "git",
+        "url": "git@gitlab.com:php-extended/placeholder-phpunit.git"
+      }
+    },
+    "php-extended/polyfill-php80-stringable": {
+      "1.1.0": {
+        "rev": "3d50e2240b0c8de49e00d163198454a33c70c88e",
+        "submodules": false,
+        "type": "git",
+        "url": "git@gitlab.com:php-extended/polyfill-php80-stringable.git"
+      }
+    },
+    "php-extended/polyfill-str-levenshtein": {
+      "1.1.0": {
+        "rev": "3af516f0f14ac958549effa2a30cdb9be7d6760f",
+        "submodules": false,
+        "type": "git",
+        "url": "git@gitlab.com:php-extended/polyfill-str-levenshtein.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    }
+  }
+}

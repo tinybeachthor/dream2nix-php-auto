@@ -1,0 +1,262 @@
+{
+  "_generic": {
+    "defaultPackage": "umpirsky/locale-list",
+    "location": "",
+    "packages": {
+      "umpirsky/locale-list": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=5.4"
+  },
+  "cyclicDependencies": {
+    "symfony/polyfill-intl-icu": {
+      "v1.0.1": [
+        [ "symfony/intl", "v3.0.1" ]
+      ]
+    },
+    "zendframework/zend-hydrator": {
+      "1.0.0": [
+        [ "zendframework/zend-stdlib", "2.7.4" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "doctrine/annotations": {
+      "v1.2.7": [
+        [ "doctrine/lexer", "v1.0.1" ]
+      ]
+    },
+    "doctrine/common": {
+      "v2.6.1": [
+        [ "doctrine/annotations", "v1.2.7" ],
+        [ "doctrine/cache", "v1.6.0" ],
+        [ "doctrine/collections", "v1.3.0" ],
+        [ "doctrine/inflector", "v1.1.0" ],
+        [ "doctrine/lexer", "v1.0.1" ]
+      ]
+    },
+    "doctrine/dbal": {
+      "v2.5.4": [
+        [ "doctrine/common", "v2.6.1" ]
+      ]
+    },
+    "symfony/console": {
+      "v3.0.1": [
+        [ "symfony/polyfill-mbstring", "v1.0.1" ]
+      ]
+    },
+    "symfony/intl": {
+      "v3.0.1": [
+        [ "symfony/polyfill-intl-icu", "v1.0.1" ]
+      ]
+    },
+    "symfony/locale": {
+      "v2.8.1": [
+        [ "symfony/intl", "v3.0.1" ]
+      ]
+    },
+    "symfony/polyfill-intl-icu": {
+      "v1.0.1": [
+        [ "symfony/intl", "v3.0.1" ]
+      ]
+    },
+    "umpirsky/list-generator": {
+      "v1.1.0": [
+        [ "doctrine/dbal", "v2.5.4" ],
+        [ "symfony/console", "v3.0.1" ],
+        [ "symfony/filesystem", "v3.0.1" ],
+        [ "symfony/finder", "v3.0.1" ],
+        [ "symfony/yaml", "v3.0.1" ],
+        [ "zendframework/zend-db", "2.6.2" ]
+      ]
+    },
+    "umpirsky/locale-list": {
+      "1.0.0": [
+        [ "symfony/locale", "v2.8.1" ],
+        [ "umpirsky/list-generator", "v1.1.0" ]
+      ]
+    },
+    "zendframework/zend-db": {
+      "2.6.2": [
+        [ "zendframework/zend-stdlib", "2.7.4" ]
+      ]
+    },
+    "zendframework/zend-hydrator": {
+      "1.0.0": [
+        [ "zendframework/zend-stdlib", "2.7.4" ]
+      ]
+    },
+    "zendframework/zend-stdlib": {
+      "2.7.4": [
+        [ "zendframework/zend-hydrator", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/annotations": {
+      "v1.2.7": {
+        "rev": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/annotations.git"
+      }
+    },
+    "doctrine/cache": {
+      "v1.6.0": {
+        "rev": "f8af318d14bdb0eff0336795b428b547bd39ccb6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/cache.git"
+      }
+    },
+    "doctrine/collections": {
+      "v1.3.0": {
+        "rev": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/collections.git"
+      }
+    },
+    "doctrine/common": {
+      "v2.6.1": {
+        "rev": "a579557bc689580c19fee4e27487a67fe60defc0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/common.git"
+      }
+    },
+    "doctrine/dbal": {
+      "v2.5.4": {
+        "rev": "abbdfd1cff43a7b99d027af3be709bc8fc7d4769",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/dbal.git"
+      }
+    },
+    "doctrine/inflector": {
+      "v1.1.0": {
+        "rev": "90b2128806bfde671b6952ab8bea493942c1fdae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/inflector.git"
+      }
+    },
+    "doctrine/lexer": {
+      "v1.0.1": {
+        "rev": "83893c552fd2045dd78aef794c31e694c37c0b8c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/lexer.git"
+      }
+    },
+    "symfony/console": {
+      "v3.0.1": {
+        "rev": "ebcdc507829df915f4ca23067bd59ee4ef61f6c3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v3.0.1": {
+        "rev": "c2e59d11dccd135dc8f00ee97f34fe1de842e70c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v3.0.1": {
+        "rev": "8617895eb798b6bdb338321ce19453dc113e5675",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/intl": {
+      "v3.0.1": {
+        "rev": "9abd5cd590211c35cda87591f0dee856b7a16125",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/intl.git"
+      }
+    },
+    "symfony/locale": {
+      "v2.8.1": {
+        "rev": "f6a45c3e81bbdf0565ff3b43c2bf8e704f867600",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/locale.git"
+      }
+    },
+    "symfony/polyfill-intl-icu": {
+      "v1.0.1": {
+        "rev": "2deb44160e1c886241c06602b12b98779f728177",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-icu.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.0.1": {
+        "rev": "49ff736bd5d41f45240cec77b44967d76e0c3d25",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/yaml": {
+      "v3.0.1": {
+        "rev": "3df409958a646dad2bc5046c3fb671ee24a1a691",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "umpirsky/list-generator": {
+      "v1.1.0": {
+        "rev": "e51abb5288a9615c8f13842a977bf2171e8f5fab",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/umpirsky/list-generator.git"
+      }
+    },
+    "umpirsky/locale-list": {
+      "1.0.0": {
+        "rev": "8141f749e16e568a5a9f7e813c50f72efa794c2e",
+        "type": "git",
+        "url": "https://github.com/umpirsky/locale-list.git"
+      }
+    },
+    "zendframework/zend-db": {
+      "2.6.2": {
+        "rev": "8bda58293d6baa3e1d8316300fce0fed55df8ea0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-db.git"
+      }
+    },
+    "zendframework/zend-hydrator": {
+      "1.0.0": {
+        "rev": "f3ed8b833355140350bbed98d8a7b8b66875903f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-hydrator.git"
+      }
+    },
+    "zendframework/zend-stdlib": {
+      "2.7.4": {
+        "rev": "cae029346a33663b998507f94962eb27de060683",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zendframework/zend-stdlib.git"
+      }
+    }
+  }
+}

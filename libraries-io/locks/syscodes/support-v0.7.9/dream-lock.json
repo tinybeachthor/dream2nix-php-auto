@@ -1,0 +1,319 @@
+{
+  "_generic": {
+    "defaultPackage": "syscodes/support",
+    "location": "",
+    "packages": {
+      "syscodes/support": "v0.7.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "^7.4|^8.0"
+  },
+  "cyclicDependencies": {
+    "syscodes/console": {
+      "v0.7.9": [
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/controller": {
+      "v0.7.9": [
+        [ "syscodes/routing", "v0.7.9" ]
+      ]
+    },
+    "syscodes/core": {
+      "v0.7.9": [
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/database": {
+      "v0.7.9": [
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/debug": {
+      "v0.7.9": [
+        [ "syscodes/core", "v0.7.9" ]
+      ]
+    },
+    "syscodes/events": {
+      "v0.7.9": [
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/filesystem": {
+      "v0.7.9": [
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/http": {
+      "v0.7.9": [
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/log": {
+      "v0.7.9": [
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/routing": {
+      "v0.7.9": [
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ],
+        [ "syscodes/http", "v0.7.9" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "syscodes/collections": {
+      "v0.7.10": [
+        [ "syscodes/contracts", "v0.7.10" ]
+      ]
+    },
+    "syscodes/console": {
+      "v0.7.9": [
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ],
+        [ "syscodes/version", "v0.7.10" ]
+      ]
+    },
+    "syscodes/container": {
+      "v0.7.10": [
+        [ "psr/container", "1.1.2" ],
+        [ "syscodes/contracts", "v0.7.10" ]
+      ]
+    },
+    "syscodes/contracts": {
+      "v0.7.10": [
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "syscodes/controller": {
+      "v0.7.9": [
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/routing", "v0.7.9" ]
+      ]
+    },
+    "syscodes/core": {
+      "v0.7.9": [
+        [ "psr/log", "1.1.4" ],
+        [ "syscodes/collections", "v0.7.10" ],
+        [ "syscodes/console", "v0.7.9" ],
+        [ "syscodes/container", "v0.7.10" ],
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/database", "v0.7.9" ],
+        [ "syscodes/debug", "v0.7.9" ],
+        [ "syscodes/events", "v0.7.9" ],
+        [ "syscodes/http", "v0.7.9" ],
+        [ "syscodes/log", "v0.7.9" ],
+        [ "syscodes/routing", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/database": {
+      "v0.7.9": [
+        [ "syscodes/collections", "v0.7.10" ],
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/debug": {
+      "v0.7.9": [
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/core", "v0.7.9" ]
+      ]
+    },
+    "syscodes/events": {
+      "v0.7.9": [
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/filesystem": {
+      "v0.7.9": [
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/http": {
+      "v0.7.9": [
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/filesystem", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/log": {
+      "v0.7.9": [
+        [ "psr/log", "1.1.4" ],
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/routing": {
+      "v0.7.9": [
+        [ "syscodes/container", "v0.7.10" ],
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/controller", "v0.7.9" ],
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/http", "v0.7.9" ],
+        [ "syscodes/support", "v0.7.9" ]
+      ]
+    },
+    "syscodes/support": {
+      "v0.7.9": [
+        [ "syscodes/contracts", "v0.7.10" ],
+        [ "syscodes/core", "v0.7.9" ],
+        [ "syscodes/http", "v0.7.9" ],
+        [ "syscodes/version", "v0.7.10" ]
+      ]
+    }
+  },
+  "sources": {
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "syscodes/collections": {
+      "v0.7.10": {
+        "rev": "17e01ecc8389ffc2cc115c50d7d568813bf2b377",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/collections.git"
+      }
+    },
+    "syscodes/console": {
+      "v0.7.9": {
+        "rev": "cb2cbcf32348312df2855e90cb558d80f1f76ea7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/console.git"
+      }
+    },
+    "syscodes/container": {
+      "v0.7.10": {
+        "rev": "95d5db4882c30585a769e2e1725801072022ac15",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/container.git"
+      }
+    },
+    "syscodes/contracts": {
+      "v0.7.10": {
+        "rev": "89a83e038e5276a7379e65e6b64416766a382f8c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/contracts.git"
+      }
+    },
+    "syscodes/controller": {
+      "v0.7.9": {
+        "rev": "1677f75422c4695e661102e30197aeb5b7698fa2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/controller.git"
+      }
+    },
+    "syscodes/core": {
+      "v0.7.9": {
+        "rev": "7fa6915c4e1e9114879d2595eb476077c18d8f6c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/core.git"
+      }
+    },
+    "syscodes/database": {
+      "v0.7.9": {
+        "rev": "637ff9a3d3c0cc19b4d787e3ff858260932a9915",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/database.git"
+      }
+    },
+    "syscodes/debug": {
+      "v0.7.9": {
+        "rev": "0317be56c0532fd00343313efa6bc2373bf882d9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/debug.git"
+      }
+    },
+    "syscodes/events": {
+      "v0.7.9": {
+        "rev": "d4754bdf2353bfb602927738f6562be316a1c51d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/events.git"
+      }
+    },
+    "syscodes/filesystem": {
+      "v0.7.9": {
+        "rev": "529c3a468d549ee3ccb8615d3293615e10387a1f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/filesystem.git"
+      }
+    },
+    "syscodes/http": {
+      "v0.7.9": {
+        "rev": "4293d44ed83f70c90871467660490a493ba05375",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/http.git"
+      }
+    },
+    "syscodes/log": {
+      "v0.7.9": {
+        "rev": "f85126756888fef4028109ebab9e6eadaa79f6d1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/log.git"
+      }
+    },
+    "syscodes/routing": {
+      "v0.7.9": {
+        "rev": "2c45f3a3049bf080e79539be17012c7bdaa0e80d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/routing.git"
+      }
+    },
+    "syscodes/support": {
+      "v0.7.9": {
+        "rev": "155ec4cae40d31d19c46c6b7631e7b8e5a9feadc",
+        "type": "git",
+        "url": "https://github.com/syscodes/support.git"
+      }
+    },
+    "syscodes/version": {
+      "v0.7.10": {
+        "rev": "7995fd69e526345d1e31d0d098ce4b20ebeb8fc0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/syscodes/version.git"
+      }
+    }
+  }
+}

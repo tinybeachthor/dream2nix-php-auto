@@ -1,0 +1,72 @@
+{
+  "_generic": {
+    "defaultPackage": "kriswallsmith/spork",
+    "location": "",
+    "packages": {
+      "kriswallsmith/spork": "v0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "pcntl",
+      "posix",
+      "shmop"
+    ],
+    "phpSemver": ">=5.3.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "kriswallsmith/spork": {
+      "v0.3": [
+        [ "symfony/event-dispatcher", "v6.1.0" ]
+      ]
+    },
+    "symfony/event-dispatcher": {
+      "v6.1.0": [
+        [ "symfony/event-dispatcher-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/event-dispatcher-contracts": {
+      "v3.1.1": [
+        [ "psr/event-dispatcher", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "kriswallsmith/spork": {
+      "v0.3": {
+        "rev": "530fcf57fce4d54806288547b22aa8dcbb4b6c96",
+        "type": "git",
+        "url": "https://github.com/kriswallsmith/spork.git"
+      }
+    },
+    "psr/event-dispatcher": {
+      "1.0.0": {
+        "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    },
+    "symfony/event-dispatcher": {
+      "v6.1.0": {
+        "rev": "a0449a7ad7daa0f7c0acd508259f80544ab5a347",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher.git"
+      }
+    },
+    "symfony/event-dispatcher-contracts": {
+      "v3.1.1": {
+        "rev": "02ff5eea2f453731cfbc6bc215e456b781480448",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/event-dispatcher-contracts.git"
+      }
+    }
+  }
+}

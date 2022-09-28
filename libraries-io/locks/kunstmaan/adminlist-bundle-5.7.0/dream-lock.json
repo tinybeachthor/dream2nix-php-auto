@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "kunstmaan/adminlist-bundle",
+    "location": "",
+    "packages": {
+      "kunstmaan/adminlist-bundle": "5.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "composer/package-versions-deprecated@dev-master": "^1.1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "xmlreader",
+      "zip",
+      "openssl",
+      "tokenizer",
+      "pdo",
+      "ctype",
+      "dom",
+      "json",
+      "xml",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "mbstring"
+    ],
+    "phpSemver": "^7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "kunstmaan/adminlist-bundle": {
+      "5.7.0": [
+        [ "box/spout", "v2.7.3" ],
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ],
+        [ "matthiasnoback/symfony-dependency-injection-test", "4.3.0" ]
+      ]
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": [
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "box/spout": {
+      "v2.7.3": {
+        "rev": "3681a3421a868ab9a65da156c554f756541f452b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/box/spout.git"
+      }
+    },
+    "kunstmaan/adminlist-bundle": {
+      "5.7.0": {
+        "rev": "1e5bf97433be7d6534adee07304acb5f06af510c",
+        "type": "git",
+        "url": "https://github.com/Kunstmaan/KunstmaanAdminListBundle.git"
+      }
+    },
+    "matthiasnoback/symfony-config-test": {
+      "4.3.0": {
+        "rev": "e7db0f5ea98817c7ba1b9266f8039c085e673db4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyConfigTest.git"
+      }
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": {
+        "rev": "d6b94169d9a60f4747efbcc45bfd51f071ba03d7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyDependencyInjectionTest.git"
+      }
+    }
+  }
+}

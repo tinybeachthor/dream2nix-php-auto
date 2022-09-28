@@ -1,0 +1,268 @@
+{
+  "_generic": {
+    "defaultPackage": "liip/doctrine-cache-bundle",
+    "location": "",
+    "packages": {
+      "liip/doctrine-cache-bundle": "1.0.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "xml"
+    ],
+    "phpSemver": ">=5.3.0"
+  },
+  "cyclicDependencies": {
+    "friendsofphp/proxy-manager-lts": {
+      "v1.0.12": [
+        [ "symfony/symfony", "v6.1.4" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "doctrine/common": {
+      "3.4.2": [
+        [ "doctrine/persistence", "3.0.3" ]
+      ]
+    },
+    "doctrine/persistence": {
+      "3.0.3": [
+        [ "doctrine/event-manager", "1.1.2" ],
+        [ "psr/cache", "3.0.0" ]
+      ]
+    },
+    "friendsofphp/proxy-manager-lts": {
+      "v1.0.12": [
+        [ "laminas/laminas-code", "4.7.0" ],
+        [ "symfony/symfony", "v6.1.4" ]
+      ]
+    },
+    "liip/doctrine-cache-bundle": {
+      "1.0.4": [
+        [ "doctrine/common", "3.4.2" ],
+        [ "symfony/symfony", "v6.1.4" ]
+      ]
+    },
+    "symfony/contracts": {
+      "v3.1.1": [
+        [ "psr/cache", "3.0.0" ],
+        [ "psr/container", "2.0.2" ],
+        [ "psr/event-dispatcher", "1.0.0" ]
+      ]
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": [
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-php72", "v1.26.0" ]
+      ]
+    },
+    "symfony/symfony": {
+      "v6.1.4": [
+        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/persistence", "3.0.3" ],
+        [ "friendsofphp/proxy-manager-lts", "v1.0.12" ],
+        [ "psr/cache", "3.0.0" ],
+        [ "psr/container", "2.0.2" ],
+        [ "psr/event-dispatcher", "1.0.0" ],
+        [ "psr/link", "2.0.1" ],
+        [ "psr/log", "3.0.0" ],
+        [ "symfony/contracts", "v3.1.1" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
+        [ "symfony/polyfill-intl-icu", "v1.26.0" ],
+        [ "symfony/polyfill-intl-idn", "v1.26.0" ],
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-uuid", "v1.26.0" ],
+        [ "twig/twig", "v3.4.3" ]
+      ]
+    },
+    "twig/twig": {
+      "v3.4.3": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/common": {
+      "3.4.2": {
+        "rev": "609c3a7b6af49a7b4b13945ca2fdf4af801946af",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/common.git"
+      }
+    },
+    "doctrine/event-manager": {
+      "1.1.2": {
+        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/event-manager.git"
+      }
+    },
+    "doctrine/persistence": {
+      "3.0.3": {
+        "rev": "ac6fce61f037d7e54dbb2435f5b5648d86548e23",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/persistence.git"
+      }
+    },
+    "friendsofphp/proxy-manager-lts": {
+      "v1.0.12": {
+        "rev": "8419f0158715b30d4b99a5bd37c6a39671994ad7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FriendsOfPHP/proxy-manager-lts.git"
+      }
+    },
+    "laminas/laminas-code": {
+      "4.7.0": {
+        "rev": "0337d9265bc2e6376babad8c511500821620cb30",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laminas/laminas-code.git"
+      }
+    },
+    "liip/doctrine-cache-bundle": {
+      "1.0.4": {
+        "rev": "fd154ded8a51a60219d1fa864eb668e4cc70ec21",
+        "type": "git",
+        "url": "https://github.com/liip/LiipDoctrineCacheBundle.git"
+      }
+    },
+    "psr/cache": {
+      "3.0.0": {
+        "rev": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/event-dispatcher": {
+      "1.0.0": {
+        "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    },
+    "psr/link": {
+      "2.0.1": {
+        "rev": "84b159194ecfd7eaa472280213976e96415433f7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/link.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/contracts": {
+      "v3.1.1": {
+        "rev": "8656c9e7f44435eaf428f2aa7f083c65297fb22f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/contracts.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-intl-grapheme": {
+      "v1.26.0": {
+        "rev": "433d05519ce6990bf3530fba6957499d327395c2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-grapheme.git"
+      }
+    },
+    "symfony/polyfill-intl-icu": {
+      "v1.26.0": {
+        "rev": "e407643d610e5f2c8a4b14189150f68934bf5e48",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-icu.git"
+      }
+    },
+    "symfony/polyfill-intl-idn": {
+      "v1.26.0": {
+        "rev": "59a8d271f00dd0e4c2e518104cc7963f655a1aa8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-idn.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php72": {
+      "v1.26.0": {
+        "rev": "bf44a9fd41feaac72b074de600314a93e2ae78e2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php72.git"
+      }
+    },
+    "symfony/polyfill-uuid": {
+      "v1.26.0": {
+        "rev": "a41886c1c81dc075a09c71fe6db5b9d68c79de23",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-uuid.git"
+      }
+    },
+    "symfony/symfony": {
+      "v6.1.4": {
+        "rev": "03ed2b5a4dbdd5ea58097fadd1fd5e5fd49c9f46",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/symfony.git"
+      }
+    },
+    "twig/twig": {
+      "v3.4.3": {
+        "rev": "c38fd6b0b7f370c198db91ffd02e23b517426b58",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git"
+      }
+    }
+  }
+}

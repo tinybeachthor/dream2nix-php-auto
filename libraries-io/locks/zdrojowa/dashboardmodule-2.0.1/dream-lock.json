@@ -1,0 +1,79 @@
+{
+  "_generic": {
+    "defaultPackage": "zdrojowa/dashboardmodule",
+    "location": "",
+    "packages": {
+      "zdrojowa/dashboardmodule": "2.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "symfony/yaml": {
+      "v4.4.45": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "zdrojowa/cms-kernel": {
+      "3.0.0": [
+        [ "myclabs/php-enum", "1.8.4" ],
+        [ "symfony/yaml", "v4.4.45" ]
+      ]
+    },
+    "zdrojowa/dashboardmodule": {
+      "2.0.1": [
+        [ "zdrojowa/cms-kernel", "3.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "myclabs/php-enum": {
+      "1.8.4": {
+        "rev": "a867478eae49c9f59ece437ae7f9506bfaa27483",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/myclabs/php-enum.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/yaml": {
+      "v4.4.45": {
+        "rev": "aeccc4dc52a9e634f1d1eebeb21eacfdcff1053d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "zdrojowa/cms-kernel": {
+      "3.0.0": {
+        "rev": "b83f95c6a3f40598ede0503370503cf7236994ef",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zdrojowa/cms-kernel.git"
+      }
+    },
+    "zdrojowa/dashboardmodule": {
+      "2.0.1": {
+        "rev": "36b6f695c96dca49a6823997a56ebb47672c3840",
+        "type": "git",
+        "url": "https://github.com/zdrojowa/dashboard-module.git"
+      }
+    }
+  }
+}

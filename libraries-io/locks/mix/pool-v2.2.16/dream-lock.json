@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "mix/pool",
+    "location": "",
+    "packages": {
+      "mix/pool": "v2.2.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "swoole"
+    ],
+    "phpSemver": ">=7.0.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "mix/pool": {
+      "v2.2.16": [
+        [ "psr/event-dispatcher", "1.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "mix/pool": {
+      "v2.2.16": {
+        "rev": "f3f12d43ee5717f7734417482d309c050e802b8a",
+        "type": "git",
+        "url": "https://github.com/mix-php/object-pool.git"
+      }
+    },
+    "psr/event-dispatcher": {
+      "1.0.0": {
+        "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    }
+  }
+}

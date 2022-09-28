@@ -1,0 +1,87 @@
+{
+  "_generic": {
+    "defaultPackage": "ignited/laravel-omnipay",
+    "location": "",
+    "packages": {
+      "ignited/laravel-omnipay": "3.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "mbstring",
+      "bcmath",
+      "filter"
+    ],
+    "phpSemver": ">=5.4.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ignited/laravel-omnipay": {
+      "3.3.0": [
+        [ "omnipay/common", "v3.2.0" ]
+      ]
+    },
+    "omnipay/common": {
+      "v3.2.0": [
+        [ "moneyphp/money", "v4.0.5" ],
+        [ "php-http/discovery", "1.14.3" ],
+        [ "php-http/guzzle7-adapter", "0.1.1" ],
+        [ "php-http/message", "1.13.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "ignited/laravel-omnipay": {
+      "3.3.0": {
+        "rev": "7899bfdde24645c50c4dff7712e80e1645b27226",
+        "type": "git",
+        "url": "https://github.com/ignited/laravel-omnipay.git"
+      }
+    },
+    "moneyphp/money": {
+      "v4.0.5": {
+        "rev": "cee58435ff82a5de252c516e6a31beb674898985",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/moneyphp/money.git"
+      }
+    },
+    "omnipay/common": {
+      "v3.2.0": {
+        "rev": "e278ff00676c05cd0f4aaaf6189a226f26ae056e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/omnipay-common.git"
+      }
+    },
+    "php-http/discovery": {
+      "1.14.3": {
+        "rev": "31d8ee46d0215108df16a8527c7438e96a4d7735",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/discovery.git"
+      }
+    },
+    "php-http/guzzle7-adapter": {
+      "0.1.1": {
+        "rev": "1967de656b9679a2a6a66d0e4e16fa99bbed1ad1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/guzzle7-adapter.git"
+      }
+    },
+    "php-http/message": {
+      "1.13.0": {
+        "rev": "7886e647a30a966a1a8d1dad1845b71ca8678361",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-http/message.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "_generic": {
+    "defaultPackage": "fof/console",
+    "location": "",
+    "packages": {
+      "fof/console": "0.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "pcre",
+      "pdo",
+      "mbstring",
+      "fileinfo",
+      "ctype",
+      "dom",
+      "filter",
+      "libxml"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dragonmantank/cron-expression": {
+      "v3.3.2": [
+        [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "fof/console": {
+      "0.7.0": [
+        [ "dragonmantank/cron-expression", "v3.3.2" ],
+        [ "illuminate/console", "v8.83.24" ],
+        [ "illuminate/support", "v8.83.24" ],
+        [ "symfony/process", "v5.4.11" ]
+      ]
+    },
+    "illuminate/collections": {
+      "v8.83.24": [
+        [ "illuminate/contracts", "v8.83.24" ],
+        [ "illuminate/macroable", "v8.83.24" ]
+      ]
+    },
+    "illuminate/console": {
+      "v8.83.24": [
+        [ "illuminate/collections", "v8.83.24" ],
+        [ "illuminate/contracts", "v8.83.24" ],
+        [ "illuminate/macroable", "v8.83.24" ],
+        [ "illuminate/support", "v8.83.24" ],
+        [ "symfony/console", "v5.4.12" ],
+        [ "symfony/process", "v5.4.11" ]
+      ]
+    },
+    "illuminate/contracts": {
+      "v8.83.24": [
+        [ "psr/container", "1.1.2" ],
+        [ "psr/simple-cache", "1.0.1" ]
+      ]
+    },
+    "illuminate/support": {
+      "v8.83.24": [
+        [ "doctrine/inflector", "2.0.5" ],
+        [ "illuminate/collections", "v8.83.24" ],
+        [ "illuminate/contracts", "v8.83.24" ],
+        [ "illuminate/macroable", "v8.83.24" ],
+        [ "nesbot/carbon", "2.62.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "voku/portable-ascii", "1.6.1" ]
+      ]
+    },
+    "nesbot/carbon": {
+      "2.62.1": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/translation", "v5.4.12" ]
+      ]
+    },
+    "symfony/console": {
+      "v5.4.12": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/service-contracts", "v2.5.2" ],
+        [ "symfony/string", "v6.1.4" ]
+      ]
+    },
+    "symfony/process": {
+      "v5.4.11": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v2.5.2": [
+        [ "psr/container", "1.1.2" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/string": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/translation": {
+      "v5.4.12": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/translation-contracts", "v2.5.2" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.11.0": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/inflector": {
+      "2.0.5": {
+        "rev": "ade2b3bbfb776f27f0558e26eed43b5d9fe1b392",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/inflector.git"
+      }
+    },
+    "dragonmantank/cron-expression": {
+      "v3.3.2": {
+        "rev": "782ca5968ab8b954773518e9e49a6f892a34b2a8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/dragonmantank/cron-expression.git"
+      }
+    },
+    "fof/console": {
+      "0.7.0": {
+        "rev": "90d944ee596c48efe5f5c9e21c4d307daea63896",
+        "type": "git",
+        "url": "https://github.com/FriendsOfFlarum/console.git"
+      }
+    },
+    "illuminate/collections": {
+      "v8.83.24": {
+        "rev": "705a4e1ef93cd492c45b9b3e7911cccc990a07f4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/collections.git"
+      }
+    },
+    "illuminate/console": {
+      "v8.83.24": {
+        "rev": "4aaa93223eb3bd8119157c95f58c022967826035",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/console.git"
+      }
+    },
+    "illuminate/contracts": {
+      "v8.83.24": {
+        "rev": "5e0fd287a1b22a6b346a9f7cd484d8cf0234585d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/contracts.git"
+      }
+    },
+    "illuminate/macroable": {
+      "v8.83.24": {
+        "rev": "aed81891a6e046fdee72edd497f822190f61c162",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/macroable.git"
+      }
+    },
+    "illuminate/support": {
+      "v8.83.24": {
+        "rev": "1c79242468d3bbd9a0f7477df34f9647dde2a09b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/illuminate/support.git"
+      }
+    },
+    "nesbot/carbon": {
+      "2.62.1": {
+        "rev": "01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/briannesbitt/Carbon.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/simple-cache": {
+      "1.0.1": {
+        "rev": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/simple-cache.git"
+      }
+    },
+    "symfony/console": {
+      "v5.4.12": {
+        "rev": "c072aa8f724c3af64e2c7a96b796a4863d24dba1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-intl-grapheme": {
+      "v1.26.0": {
+        "rev": "433d05519ce6990bf3530fba6957499d327395c2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-grapheme.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/process": {
+      "v5.4.11": {
+        "rev": "6e75fe6874cbc7e4773d049616ab450eff537bf1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v2.5.2": {
+        "rev": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/string": {
+      "v6.1.4": {
+        "rev": "290972cad7b364e3befaa74ba0ec729800fb161c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/string.git"
+      }
+    },
+    "symfony/translation": {
+      "v5.4.12": {
+        "rev": "42ecc77eb4f229ce2df702a648ec93b8478d76ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/translation-contracts": {
+      "v2.5.2": {
+        "rev": "136b19dd05cdf0709db6537d058bcab6dd6e2dbe",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation-contracts.git"
+      }
+    },
+    "voku/portable-ascii": {
+      "1.6.1": {
+        "rev": "87337c91b9dfacee02452244ee14ab3c43bc485a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/voku/portable-ascii.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.11.0": {
+        "rev": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git"
+      }
+    }
+  }
+}

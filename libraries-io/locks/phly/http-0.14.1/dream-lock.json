@@ -1,0 +1,59 @@
+{
+  "_generic": {
+    "defaultPackage": "phly/http",
+    "location": "",
+    "packages": {
+      "phly/http": "0.14.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=5.4.8"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "phly/http": {
+      "0.14.1": [
+        [ "psr/http-message", "1.0" ],
+        [ "squizlabs/php_codesniffer", "2.3.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "phly/http": {
+      "0.14.1": {
+        "rev": "0d02d98106caf418a6b4031f2bf5fce3293faddc",
+        "type": "git",
+        "url": "https://github.com/phly/http.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0": {
+        "rev": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "2.3.2": {
+        "rev": "e96d8579fbed0c95ecf2a0501ec4f307a4aa6404",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

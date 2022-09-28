@@ -1,0 +1,97 @@
+{
+  "_generic": {
+    "defaultPackage": "pmvc-plugin/controller",
+    "location": "",
+    "packages": {
+      "pmvc-plugin/controller": "0.10.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "pmvc-plugin/annotation": {
+      "dev-master": [
+        [ "pmvc/pmvc", "dev-main" ]
+      ]
+    },
+    "pmvc-plugin/controller": {
+      "0.10.6": [
+        [ "pmvc-plugin/dispatcher", "dev-master" ],
+        [ "pmvc-plugin/unit", "dev-main" ],
+        [ "pmvc/pmvc", "dev-main" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "pmvc-plugin/dispatcher": {
+      "dev-master": [
+        [ "pmvc/pmvc", "dev-main" ]
+      ]
+    },
+    "pmvc-plugin/unit": {
+      "dev-main": [
+        [ "pmvc-plugin/annotation", "dev-master" ],
+        [ "pmvc/pmvc", "dev-main" ]
+      ]
+    }
+  },
+  "sources": {
+    "pmvc-plugin/annotation": {
+      "dev-master": {
+        "rev": "d87b2d1cb17e149333c96635e93f7563da894ea9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/annotation.git"
+      }
+    },
+    "pmvc-plugin/controller": {
+      "0.10.6": {
+        "rev": "65e498ef89bd9161fd9b4583090e77aec3a805ae",
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/controller.git"
+      }
+    },
+    "pmvc-plugin/dispatcher": {
+      "dev-master": {
+        "rev": "8a1a9225daf196c64cfdc35981ebd2d02aa34e55",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/dispatcher.git"
+      }
+    },
+    "pmvc-plugin/unit": {
+      "dev-main": {
+        "rev": "c752e34bbe49faf9c59c627c1cd3b5872f18db98",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc-plugin/unit.git"
+      }
+    },
+    "pmvc/pmvc": {
+      "dev-main": {
+        "rev": "db671180ad5320aa76db1b19d871d33afd2f9741",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pmvc/pmvc.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

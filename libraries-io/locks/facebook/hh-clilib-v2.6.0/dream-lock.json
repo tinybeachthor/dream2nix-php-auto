@@ -1,0 +1,122 @@
+{
+  "_generic": {
+    "defaultPackage": "facebook/hh-clilib",
+    "location": "",
+    "packages": {
+      "facebook/hh-clilib": "v2.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "hhvm/hhvm-autoload@v3.3.2": "^1.0|^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "facebook/difflib": {
+      "v1.3.0": [
+        [ "hhvm/hsl", "v4.108.1" ]
+      ]
+    },
+    "facebook/fbexpect": {
+      "v2.9.1": [
+        [ "facebook/difflib", "v1.3.0" ],
+        [ "hhvm/hacktest", "v2.4.0" ]
+      ]
+    },
+    "facebook/hh-clilib": {
+      "v2.6.0": [
+        [ "facebook/fbexpect", "v2.9.1" ],
+        [ "hhvm/hhvm-autoload", "v3.3.2" ],
+        [ "hhvm/hsl", "v4.108.1" ],
+        [ "hhvm/hsl-experimental", "v4.108.0" ],
+        [ "hhvm/type-assert", "v4.2.2" ]
+      ]
+    },
+    "hhvm/hacktest": {
+      "v2.4.0": [
+        [ "hhvm/type-assert", "v4.2.2" ]
+      ]
+    },
+    "hhvm/hsl-experimental": {
+      "v4.108.0": [
+        [ "hhvm/hsl", "v4.108.1" ]
+      ]
+    },
+    "hhvm/type-assert": {
+      "v4.2.2": [
+        [ "hhvm/hsl", "v4.108.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "facebook/difflib": {
+      "v1.3.0": {
+        "rev": "97bb1df49ac7b6fe14a5da75a08a52ec59dcd77f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hhvm/difflib.git"
+      }
+    },
+    "facebook/fbexpect": {
+      "v2.9.1": {
+        "rev": "5ad14d4f6e6e57a468f9b415d97ab6050630e144",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hhvm/fbexpect.git"
+      }
+    },
+    "facebook/hh-clilib": {
+      "v2.6.0": {
+        "rev": "a275f2fe7e5c1144c09793fcb2a8f57533f2eb68",
+        "type": "git",
+        "url": "https://github.com/hhvm/hh-clilib.git"
+      }
+    },
+    "hhvm/hacktest": {
+      "v2.4.0": {
+        "rev": "84b7a0094f59329dc41ac29ad77d09f85a9b1c91",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hhvm/hacktest.git"
+      }
+    },
+    "hhvm/hhvm-autoload": {
+      "v3.3.2": {
+        "rev": "186d1fc5d5bf69caebaacac5c80a69e3c08f50d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hhvm/hhvm-autoload.git"
+      }
+    },
+    "hhvm/hsl": {
+      "v4.108.1": {
+        "rev": "3b4375e6adf63ac9171721b031b662dd3524c5bb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hhvm/hsl.git"
+      }
+    },
+    "hhvm/hsl-experimental": {
+      "v4.108.0": {
+        "rev": "c145eda4344a3668119fde743e9d224bae7efe98",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hhvm/hsl-experimental.git"
+      }
+    },
+    "hhvm/type-assert": {
+      "v4.2.2": {
+        "rev": "7106e783dc43724efa5d4147456025a2316480f0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hhvm/type-assert.git"
+      }
+    }
+  }
+}

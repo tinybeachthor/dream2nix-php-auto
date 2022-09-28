@@ -1,0 +1,47 @@
+{
+  "_generic": {
+    "defaultPackage": "symfony-cmf/create-bundle",
+    "location": "",
+    "packages": {
+      "symfony-cmf/create-bundle": "1.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "xml",
+      "pdo",
+      "dom"
+    ],
+    "phpSemver": "^5.3.9|^7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "symfony-cmf/create-bundle": {
+      "1.3.0": [
+        [ "jms/serializer-bundle", "1.5.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "jms/serializer-bundle": {
+      "1.5.0": {
+        "rev": "85ee039a2b7f89d77c403e33cee7b43a875c31e5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/schmittjoh/JMSSerializerBundle.git"
+      }
+    },
+    "symfony-cmf/create-bundle": {
+      "1.3.0": {
+        "rev": "bcf8138312eb9f4b594bb71620ed60cea9574172",
+        "type": "git",
+        "url": "https://github.com/symfony-cmf/create-bundle.git"
+      }
+    }
+  }
+}

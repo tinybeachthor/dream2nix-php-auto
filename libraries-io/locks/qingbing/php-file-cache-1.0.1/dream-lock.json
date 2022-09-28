@@ -1,0 +1,94 @@
+{
+  "_generic": {
+    "defaultPackage": "qingbing/php-file-cache",
+    "location": "",
+    "packages": {
+      "qingbing/php-file-cache": "1.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "qingbing/php-abstracts-component": {
+      "1.0.1": [
+        [ "qingbing/php-config", "1.0.1" ],
+        [ "qingbing/php-helper", "1.0.1" ]
+      ]
+    },
+    "qingbing/php-abstracts-store": {
+      "1.0.1": [
+        [ "qingbing/php-abstracts-component", "1.0.1" ],
+        [ "qingbing/php-helper", "1.0.1" ]
+      ]
+    },
+    "qingbing/php-config": {
+      "1.0.1": [
+        [ "qingbing/php-helper", "1.0.1" ]
+      ]
+    },
+    "qingbing/php-file-cache": {
+      "1.0.1": [
+        [ "qingbing/php-abstracts-store", "1.0.1" ],
+        [ "qingbing/php-config", "1.0.1" ],
+        [ "qingbing/php-debug-bootstrap", "dev-master" ],
+        [ "qingbing/php-helper", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "qingbing/php-abstracts-component": {
+      "1.0.1": {
+        "rev": "d3bc81875d8451a217df2771810422658956ef70",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-abstracts-component.git"
+      }
+    },
+    "qingbing/php-abstracts-store": {
+      "1.0.1": {
+        "rev": "8b1b84b598007733a675b6e5a979b37d6347a63c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-abstracts-store.git"
+      }
+    },
+    "qingbing/php-config": {
+      "1.0.1": {
+        "rev": "16590f38bbf636ccd940113bf2daf24da0fcbfaa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-config.git"
+      }
+    },
+    "qingbing/php-debug-bootstrap": {
+      "dev-master": {
+        "rev": "3addc4dec4e2bb32d2f5d998490385c30d1d06f1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-debug-bootstrap.git"
+      }
+    },
+    "qingbing/php-file-cache": {
+      "1.0.1": {
+        "rev": "fe30bfa1ddf179f5912bf6ee706c0efa3ad0a922",
+        "type": "git",
+        "url": "https://github.com/qingbing/php-file-cache.git"
+      }
+    },
+    "qingbing/php-helper": {
+      "1.0.1": {
+        "rev": "7233d7a0b3c02fe519cfcc559dc4e3d38e8b3893",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/qingbing/php-helper.git"
+      }
+    }
+  }
+}

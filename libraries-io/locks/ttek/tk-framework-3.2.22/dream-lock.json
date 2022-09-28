@@ -1,0 +1,192 @@
+{
+  "_generic": {
+    "defaultPackage": "ttek/tk-framework",
+    "location": "",
+    "packages": {
+      "ttek/tk-framework": "3.2.22"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "ttek/tk-installers@3.2.8": "^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "fileinfo",
+      "gd",
+      "simplexml"
+    ],
+    "phpSemver": "^7.3||^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "guzzlehttp/psr7": {
+      "2.4.1": [
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "ralouphie/getallheaders", "3.0.3" ]
+      ]
+    },
+    "intervention/image": {
+      "2.7.2": [
+        [ "guzzlehttp/psr7", "2.4.1" ]
+      ]
+    },
+    "lasserafn/php-initial-avatar-generator": {
+      "4.2.1": [
+        [ "intervention/image", "2.7.2" ],
+        [ "lasserafn/php-initials", "3.1" ],
+        [ "meyfa/php-svg", "v0.9.1" ],
+        [ "overtrue/pinyin", "4.0.8" ]
+      ]
+    },
+    "monolog/monolog": {
+      "2.8.0": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "symfony/http-foundation": {
+      "v4.2.12": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "ttek/tk-framework": {
+      "3.2.22": [
+        [ "lasserafn/php-initial-avatar-generator", "4.2.1" ],
+        [ "monolog/monolog", "2.8.0" ],
+        [ "psr/log", "1.1.4" ],
+        [ "symfony/http-foundation", "v4.2.12" ],
+        [ "ttek/tk-installers", "3.2.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "guzzlehttp/psr7": {
+      "2.4.1": {
+        "rev": "69568e4293f4fa993f3b0e51c9723e1e17c41379",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git"
+      }
+    },
+    "intervention/image": {
+      "2.7.2": {
+        "rev": "04be355f8d6734c826045d02a1079ad658322dad",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Intervention/image.git"
+      }
+    },
+    "lasserafn/php-initial-avatar-generator": {
+      "4.2.1": {
+        "rev": "49d0b10cc8819af831e0f6fb1056a7d5ed9512d0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/LasseRafn/php-initial-avatar-generator.git"
+      }
+    },
+    "lasserafn/php-initials": {
+      "3.1": {
+        "rev": "d287e1542687390eb68de779949bc0adc49e2d52",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/LasseRafn/php-initials.git"
+      }
+    },
+    "meyfa/php-svg": {
+      "v0.9.1": {
+        "rev": "34401edef1f724898f468f71b85505fbcc8351bb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/meyfa/php-svg.git"
+      }
+    },
+    "monolog/monolog": {
+      "2.8.0": {
+        "rev": "720488632c590286b88b80e62aa3d3d551ad4a50",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git"
+      }
+    },
+    "overtrue/pinyin": {
+      "4.0.8": {
+        "rev": "04bdb4d33d50e8fb1aa5a824064c5151c4b15dc2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/overtrue/pinyin.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "ralouphie/getallheaders": {
+      "3.0.3": {
+        "rev": "120b605dfeb996808c31b6477290a714d356e822",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git"
+      }
+    },
+    "symfony/http-foundation": {
+      "v4.2.12": {
+        "rev": "2ae778ff4a1f8baba7724db1ca977ada3b796749",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/http-foundation.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "ttek/tk-framework": {
+      "3.2.22": {
+        "rev": "0af704157bb0fc535d34a86d4127c7ceea4c17fa",
+        "type": "git",
+        "url": "https://github.com/tropotek/tk-framework.git"
+      }
+    },
+    "ttek/tk-installers": {
+      "3.2.8": {
+        "rev": "dbe1f1704ae6e020c265257ab5bc8a5f45d1c6c5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tropotek/tk-installers.git"
+      }
+    }
+  }
+}

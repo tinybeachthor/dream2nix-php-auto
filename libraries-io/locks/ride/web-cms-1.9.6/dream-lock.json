@@ -1,0 +1,610 @@
+{
+  "_generic": {
+    "defaultPackage": "ride/web-cms",
+    "location": "",
+    "packages": {
+      "ride/web-cms": "1.9.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "dom",
+      "libxml",
+      "simplexml"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ride/app": {
+      "1.1.0": [
+        [ "ride/lib-cache", "1.1.1" ],
+        [ "ride/lib-common", "1.1.0" ],
+        [ "ride/lib-config", "1.0.2" ],
+        [ "ride/lib-dependency", "1.0.3" ],
+        [ "ride/lib-event", "1.0.1" ],
+        [ "ride/lib-log", "1.0.3" ],
+        [ "ride/lib-reflection", "1.0.3" ],
+        [ "ride/lib-system", "1.1.2" ]
+      ]
+    },
+    "ride/app-form": {
+      "1.0.1": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/app-validation", "1.2.0" ],
+        [ "ride/lib-dependency", "1.0.3" ],
+        [ "ride/lib-form", "1.0.6" ]
+      ]
+    },
+    "ride/app-i18n": {
+      "1.0.1": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/lib-i18n", "1.0.1" ]
+      ]
+    },
+    "ride/app-mail": {
+      "1.0.0": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/lib-mail", "1.0.0" ]
+      ]
+    },
+    "ride/app-mime": {
+      "1.0.0": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/lib-mime", "1.0.1" ]
+      ]
+    },
+    "ride/app-template": {
+      "1.1.0": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/lib-dependency", "1.0.3" ],
+        [ "ride/lib-template", "1.0.2" ]
+      ]
+    },
+    "ride/app-validation": {
+      "1.2.0": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/lib-dependency", "1.0.3" ],
+        [ "ride/lib-validation", "1.3.0" ]
+      ]
+    },
+    "ride/lib-cache": {
+      "1.1.1": [
+        [ "ride/lib-system", "1.1.2" ]
+      ]
+    },
+    "ride/lib-cms": {
+      "1.6.9": [
+        [ "ride/lib-cache", "1.1.1" ],
+        [ "ride/lib-common", "1.1.0" ],
+        [ "ride/lib-config", "1.0.2" ],
+        [ "ride/lib-reflection", "1.0.3" ],
+        [ "ride/lib-security", "1.1.0" ],
+        [ "ride/lib-system", "1.1.2" ],
+        [ "ride/lib-template", "1.0.2" ],
+        [ "ride/lib-widget", "1.0.0" ],
+        [ "voku/simple_html_dom", "4.8.6" ]
+      ]
+    },
+    "ride/lib-config": {
+      "1.0.2": [
+        [ "ride/lib-system", "1.1.2" ]
+      ]
+    },
+    "ride/lib-dependency": {
+      "1.0.3": [
+        [ "ride/lib-reflection", "1.0.3" ]
+      ]
+    },
+    "ride/lib-event": {
+      "1.0.1": [
+        [ "ride/lib-reflection", "1.0.3" ]
+      ]
+    },
+    "ride/lib-form": {
+      "1.0.6": [
+        [ "ride/lib-common", "1.1.0" ],
+        [ "ride/lib-image", "1.0.2" ],
+        [ "ride/lib-reflection", "1.0.3" ],
+        [ "ride/lib-system", "1.1.2" ],
+        [ "ride/lib-validation", "1.3.0" ]
+      ]
+    },
+    "ride/lib-html": {
+      "1.1.1": [
+        [ "ride/lib-common", "1.1.0" ],
+        [ "ride/lib-form", "1.0.6" ],
+        [ "ride/lib-image", "1.0.2" ],
+        [ "ride/lib-reflection", "1.0.3" ]
+      ]
+    },
+    "ride/lib-http-client": {
+      "1.0.1": [
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-log", "1.0.3" ]
+      ]
+    },
+    "ride/lib-image": {
+      "1.0.2": [
+        [ "ride/lib-system", "1.1.2" ]
+      ]
+    },
+    "ride/lib-log": {
+      "1.0.3": [
+        [ "ride/lib-common", "1.1.0" ]
+      ]
+    },
+    "ride/lib-mail": {
+      "1.0.0": [
+        [ "ride/lib-log", "1.0.3" ],
+        [ "ride/lib-system", "1.1.2" ],
+        [ "ride/lib-validation", "1.3.0" ]
+      ]
+    },
+    "ride/lib-mvc": {
+      "1.1.1": [
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-reflection", "1.0.3" ],
+        [ "ride/lib-router", "1.4.1" ]
+      ]
+    },
+    "ride/lib-security": {
+      "1.1.0": [
+        [ "ride/lib-encryption", "1.1.0" ],
+        [ "ride/lib-event", "1.0.1" ],
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-log", "1.0.3" ]
+      ]
+    },
+    "ride/lib-template": {
+      "1.0.2": [
+        [ "ride/lib-system", "1.1.2" ]
+      ]
+    },
+    "ride/lib-validation": {
+      "1.3.0": [
+        [ "ride/lib-reflection", "1.0.3" ]
+      ]
+    },
+    "ride/lib-widget": {
+      "1.0.0": [
+        [ "ride/lib-mvc", "1.1.1" ]
+      ]
+    },
+    "ride/web": {
+      "1.1.4": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/app-mime", "1.0.0" ],
+        [ "ride/lib-common", "1.1.0" ],
+        [ "ride/lib-config", "1.0.2" ],
+        [ "ride/lib-dependency", "1.0.3" ],
+        [ "ride/lib-event", "1.0.1" ],
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-http-client", "1.0.1" ],
+        [ "ride/lib-log", "1.0.3" ],
+        [ "ride/lib-mvc", "1.1.1" ],
+        [ "ride/lib-router", "1.4.1" ],
+        [ "ride/lib-system", "1.1.2" ]
+      ]
+    },
+    "ride/web-base": {
+      "1.7.2": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/app-mail", "1.0.0" ],
+        [ "ride/app-template", "1.1.0" ],
+        [ "ride/app-validation", "1.2.0" ],
+        [ "ride/lib-config", "1.0.2" ],
+        [ "ride/lib-event", "1.0.1" ],
+        [ "ride/lib-form", "1.0.6" ],
+        [ "ride/lib-html", "1.1.1" ],
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-i18n", "1.0.1" ],
+        [ "ride/lib-mvc", "1.1.1" ],
+        [ "ride/lib-router", "1.4.1" ],
+        [ "ride/lib-security", "1.1.0" ],
+        [ "ride/lib-validation", "1.3.0" ],
+        [ "ride/web", "1.1.4" ],
+        [ "ride/web-form", "1.1.1" ],
+        [ "ride/web-i18n", "1.1.0" ],
+        [ "ride/web-security", "1.1.3" ],
+        [ "ride/web-template", "1.0.0" ]
+      ]
+    },
+    "ride/web-cms": {
+      "1.9.6": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/lib-cache", "1.1.1" ],
+        [ "ride/lib-cms", "1.6.9" ],
+        [ "ride/lib-common", "1.1.0" ],
+        [ "ride/lib-dependency", "1.0.3" ],
+        [ "ride/lib-event", "1.0.1" ],
+        [ "ride/lib-form", "1.0.6" ],
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-i18n", "1.0.1" ],
+        [ "ride/lib-image", "1.0.2" ],
+        [ "ride/lib-mvc", "1.1.1" ],
+        [ "ride/lib-reflection", "1.0.3" ],
+        [ "ride/lib-router", "1.4.1" ],
+        [ "ride/lib-security", "1.1.0" ],
+        [ "ride/lib-template", "1.0.2" ],
+        [ "ride/lib-validation", "1.3.0" ],
+        [ "ride/lib-widget", "1.0.0" ],
+        [ "ride/web", "1.1.4" ],
+        [ "ride/web-base", "1.7.2" ]
+      ]
+    },
+    "ride/web-form": {
+      "1.1.1": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/app-form", "1.0.1" ],
+        [ "ride/lib-common", "1.1.0" ],
+        [ "ride/lib-encryption", "1.1.0" ],
+        [ "ride/lib-form", "1.0.6" ],
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-mvc", "1.1.1" ]
+      ]
+    },
+    "ride/web-i18n": {
+      "1.1.0": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/app-i18n", "1.0.1" ],
+        [ "ride/lib-dependency", "1.0.3" ],
+        [ "ride/lib-i18n", "1.0.1" ],
+        [ "ride/lib-log", "1.0.3" ],
+        [ "ride/lib-mvc", "1.1.1" ]
+      ]
+    },
+    "ride/web-security": {
+      "1.1.3": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/lib-event", "1.0.1" ],
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-router", "1.4.1" ],
+        [ "ride/lib-security", "1.1.0" ],
+        [ "ride/lib-system", "1.1.2" ],
+        [ "ride/web", "1.1.4" ]
+      ]
+    },
+    "ride/web-template": {
+      "1.0.0": [
+        [ "ride/app", "1.1.0" ],
+        [ "ride/app-template", "1.1.0" ],
+        [ "ride/lib-config", "1.0.2" ],
+        [ "ride/lib-dependency", "1.0.3" ],
+        [ "ride/lib-mvc", "1.1.1" ],
+        [ "ride/lib-template", "1.0.2" ],
+        [ "ride/web", "1.1.4" ]
+      ]
+    },
+    "voku/simple_html_dom": {
+      "4.8.6": [
+        [ "symfony/css-selector", "v6.1.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "ride/app": {
+      "1.1.0": {
+        "rev": "71f4d58bcea4dbb5f08bb3b89a7cd8993fa5dff6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-app.git"
+      }
+    },
+    "ride/app-form": {
+      "1.0.1": {
+        "rev": "0ffdd205115c734291dac1cdcb283d23a25250e7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-app-form.git"
+      }
+    },
+    "ride/app-i18n": {
+      "1.0.1": {
+        "rev": "436aa8432ecf966ecfa85f7c1b56a472d827dcfb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-app-i18n.git"
+      }
+    },
+    "ride/app-mail": {
+      "1.0.0": {
+        "rev": "a999050ae28b641328c5b2f5d93ed145004ae643",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-app-mail.git"
+      }
+    },
+    "ride/app-mime": {
+      "1.0.0": {
+        "rev": "d3889eb7d28e0e49bf64856c132add24ddd4eb9a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-app-mime.git"
+      }
+    },
+    "ride/app-template": {
+      "1.1.0": {
+        "rev": "49a96ac9ca1af7114f8c37373259da7ce491cd2b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-app-template.git"
+      }
+    },
+    "ride/app-validation": {
+      "1.2.0": {
+        "rev": "b9ee6ab295819811c1993afe93dd53830621dadf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-app-validation.git"
+      }
+    },
+    "ride/lib-cache": {
+      "1.1.1": {
+        "rev": "c8ce87334ea26e00dc44c43ad2d1704ab2c4c29a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-cache.git"
+      }
+    },
+    "ride/lib-cms": {
+      "1.6.9": {
+        "rev": "c3fed9141df3ba77aa760b6e443ceabf8da797f4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-cms.git"
+      }
+    },
+    "ride/lib-common": {
+      "1.1.0": {
+        "rev": "89b8990259b7ac0ad86ece34f2dde764d571c7b0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-common.git"
+      }
+    },
+    "ride/lib-config": {
+      "1.0.2": {
+        "rev": "08c3da7e32231054dfbc5fc0a629618a41c3f39f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-config.git"
+      }
+    },
+    "ride/lib-dependency": {
+      "1.0.3": {
+        "rev": "3d9a173af3634907315fc7f943c7b9a6fcb987bb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-dependency.git"
+      }
+    },
+    "ride/lib-encryption": {
+      "1.1.0": {
+        "rev": "f15fbb0450478936259d9ddeb5d492d4b011a0ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-encryption.git"
+      }
+    },
+    "ride/lib-event": {
+      "1.0.1": {
+        "rev": "10c6458c98ee692867b1d6b3803434bed54faa6a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-event.git"
+      }
+    },
+    "ride/lib-form": {
+      "1.0.6": {
+        "rev": "3de830123afcc4fdcad50201b2832f94d1209d0b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-form.git"
+      }
+    },
+    "ride/lib-html": {
+      "1.1.1": {
+        "rev": "67f7923a346f2260b750bf067666bb3432f70209",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-html.git"
+      }
+    },
+    "ride/lib-http": {
+      "1.2.3": {
+        "rev": "2342ec6215821bc9edcf34ff793dd1242a56cad7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-http.git"
+      }
+    },
+    "ride/lib-http-client": {
+      "1.0.1": {
+        "rev": "153a30e45aff0880fdf32401a242fd86903405e0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-http-client.git"
+      }
+    },
+    "ride/lib-i18n": {
+      "1.0.1": {
+        "rev": "162cc7d05a2ccea5785c7aff1b83ea49d5cef8eb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-i18n.git"
+      }
+    },
+    "ride/lib-image": {
+      "1.0.2": {
+        "rev": "e525ae2939fa6a536b82bd1f288814ac88120ce6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-image.git"
+      }
+    },
+    "ride/lib-log": {
+      "1.0.3": {
+        "rev": "d0ce7d5059810c6b36125e2f4f42ec03e7440a06",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-log.git"
+      }
+    },
+    "ride/lib-mail": {
+      "1.0.0": {
+        "rev": "f886c5ed4f00315fbfadd6a971aaf483ba4c22d5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-mail.git"
+      }
+    },
+    "ride/lib-mime": {
+      "1.0.1": {
+        "rev": "c3f2033673ee5c7cc90a27524cae0209ed0523a4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-mime.git"
+      }
+    },
+    "ride/lib-mvc": {
+      "1.1.1": {
+        "rev": "2d8fbd83c50928088bd775f8de837bdecb4c890b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-mvc.git"
+      }
+    },
+    "ride/lib-reflection": {
+      "1.0.3": {
+        "rev": "636d20ca887fef17de260048d0bf2c36340bc9cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-reflection.git"
+      }
+    },
+    "ride/lib-router": {
+      "1.4.1": {
+        "rev": "449d2b359036a501955edfa96d13f920dbb5cb7a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-router.git"
+      }
+    },
+    "ride/lib-security": {
+      "1.1.0": {
+        "rev": "c39bfaebab11ca8b16514bfca1b6d247e49b74c3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-security.git"
+      }
+    },
+    "ride/lib-system": {
+      "1.1.2": {
+        "rev": "097c8671c98daee713c8e76a08575f739440b299",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-system.git"
+      }
+    },
+    "ride/lib-template": {
+      "1.0.2": {
+        "rev": "a838b48e272724d757356ba29b6471a17efb2796",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-template.git"
+      }
+    },
+    "ride/lib-validation": {
+      "1.3.0": {
+        "rev": "0572759432fb8a70277b0d1e6408b8151d7a64d7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-validation.git"
+      }
+    },
+    "ride/lib-widget": {
+      "1.0.0": {
+        "rev": "24a52bce005566f53c94ed5871482cfe1bf7bd48",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-widget.git"
+      }
+    },
+    "ride/web": {
+      "1.1.4": {
+        "rev": "f90d8f1ccc917455b75953bf4f9ab93ea84e6e32",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-web.git"
+      }
+    },
+    "ride/web-base": {
+      "1.7.2": {
+        "rev": "b1ac3a6eda717a4c427e360a552b1e3f2778f9ec",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-web-base.git"
+      }
+    },
+    "ride/web-cms": {
+      "1.9.6": {
+        "rev": "7ed03bd463f68dc4c3ee637e80675b91dc2e7bc5",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-web-cms.git"
+      }
+    },
+    "ride/web-form": {
+      "1.1.1": {
+        "rev": "6ad12b6a5477f601c5f39dccc069ccb51ec0e42e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-web-form.git"
+      }
+    },
+    "ride/web-i18n": {
+      "1.1.0": {
+        "rev": "2ae67ecf991ce79ea10c75084a37e89f769b2e67",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-web-i18n.git"
+      }
+    },
+    "ride/web-security": {
+      "1.1.3": {
+        "rev": "a0cfeab460362807abcdfe0edfd0f42d7805612e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-web-security.git"
+      }
+    },
+    "ride/web-template": {
+      "1.0.0": {
+        "rev": "d13d9cf0b6b34d7a862708fb599cfb73108e7d82",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-web-template.git"
+      }
+    },
+    "symfony/css-selector": {
+      "v6.1.3": {
+        "rev": "0dd5e36b80e1de97f8f74ed7023ac2b837a36443",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/css-selector.git"
+      }
+    },
+    "voku/simple_html_dom": {
+      "4.8.6": {
+        "rev": "1df7e9844eddbe190450c87f281e87bbd8d7f645",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/voku/simple_html_dom.git"
+      }
+    }
+  }
+}

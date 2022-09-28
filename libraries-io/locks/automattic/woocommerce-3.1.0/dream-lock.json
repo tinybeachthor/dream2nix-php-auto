@@ -1,0 +1,66 @@
+{
+  "_generic": {
+    "defaultPackage": "automattic/woocommerce",
+    "location": "",
+    "packages": {
+      "automattic/woocommerce": "3.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "curl",
+      "json",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "tokenizer",
+      "mbstring",
+      "xml",
+      "simplexml"
+    ],
+    "phpSemver": ">= 7.1.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "automattic/woocommerce": {
+      "3.1.0": [
+        [ "overtrue/phplint", "7.4.x-dev" ]
+      ]
+    },
+    "overtrue/phplint": {
+      "7.4.x-dev": [
+        [ "n98/junit-xml", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "automattic/woocommerce": {
+      "3.1.0": {
+        "rev": "d3b292f04c0b3b21dced691ebad8be073a83b4ad",
+        "type": "git",
+        "url": "https://github.com/woocommerce/wc-api-php.git"
+      }
+    },
+    "n98/junit-xml": {
+      "1.1.0": {
+        "rev": "0017dd92ac8cb619f02e32f4cffd768cfe327c73",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cmuench/junit-xml.git"
+      }
+    },
+    "overtrue/phplint": {
+      "7.4.x-dev": {
+        "rev": "c3021ad8cebd802ad3f4924c45f508803e0b80e5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/overtrue/phplint.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "_generic": {
+    "defaultPackage": "ongr/elasticsearch-bundle",
+    "location": "",
+    "packages": {
+      "ongr/elasticsearch-bundle": "v7.0.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "json",
+      "xml",
+      "ctype",
+      "dom",
+      "libxml",
+      "phar",
+      "filter",
+      "xmlwriter",
+      "mbstring",
+      "simplexml"
+    ],
+    "phpSemver": "^7.1 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ongr/elasticsearch-bundle": {
+      "v7.0.5": [
+        [ "ongr/elasticsearch-dsl", "v7.1.1" ],
+        [ "phpunit/phpunit", "7.5.20" ]
+      ]
+    },
+    "ongr/elasticsearch-dsl": {
+      "v7.1.1": [
+        [ "paragonie/random_compat", "dev-master" ]
+      ]
+    },
+    "phar-io/manifest": {
+      "1.0.3": [
+        [ "phar-io/version", "2.0.1" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "6.1.4": [
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "sebastian/version", "2.0.1" ],
+        [ "theseer/tokenizer", "1.2.1" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "7.5.20": [
+        [ "phar-io/manifest", "1.0.3" ],
+        [ "phar-io/version", "2.0.1" ],
+        [ "phpunit/php-code-coverage", "6.1.4" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "sebastian/global-state", "2.0.0" ],
+        [ "sebastian/version", "2.0.1" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    }
+  },
+  "sources": {
+    "ongr/elasticsearch-bundle": {
+      "v7.0.5": {
+        "rev": "932577b18064d5d9f68f6288a16bf529bcff588f",
+        "type": "git",
+        "url": "https://github.com/ongr-io/ElasticsearchBundle.git"
+      }
+    },
+    "ongr/elasticsearch-dsl": {
+      "v7.1.1": {
+        "rev": "08c74ce757b2198783baf0095f7a7139fda682b0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ongr-io/ElasticsearchDSL.git"
+      }
+    },
+    "paragonie/random_compat": {
+      "dev-master": {
+        "rev": "64f3265002e9e181436942aac2fbd482e186dc55",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/paragonie/random_compat.git"
+      }
+    },
+    "phar-io/manifest": {
+      "1.0.3": {
+        "rev": "7761fcacf03b4d4f16e7ccb606d4879ca431fcf4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phar-io/manifest.git"
+      }
+    },
+    "phar-io/version": {
+      "2.0.1": {
+        "rev": "45a2ec53a73c70ce41d55cedef9063630abaf1b6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phar-io/version.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "6.1.4": {
+        "rev": "807e6013b00af69b6c5d9ceb4282d0393dbb9d8d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "7.5.20": {
+        "rev": "9467db479d1b0487c99733bb1e7944d32deded2c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "sebastian/global-state": {
+      "2.0.0": {
+        "rev": "e8ba02eed7bbbb9e59e43dedd3dddeff4a56b0c4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/global-state.git"
+      }
+    },
+    "sebastian/version": {
+      "2.0.1": {
+        "rev": "99732be0ddb3361e16ad77b68ba41efc8e979019",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "theseer/tokenizer": {
+      "1.2.1": {
+        "rev": "34a41e998c2183e22995f158c581e7b5e755ab9e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/theseer/tokenizer.git"
+      }
+    }
+  }
+}

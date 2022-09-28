@@ -1,0 +1,74 @@
+{
+  "_generic": {
+    "defaultPackage": "croogo/core",
+    "location": "",
+    "packages": {
+      "croogo/core": "4.0.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "intl",
+      "mbstring",
+      "tokenizer",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl",
+      "xmlwriter"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cakephp/cakephp-codesniffer": {
+      "dev-master": [
+        [ "squizlabs/php_codesniffer", "2.3.3" ]
+      ]
+    },
+    "croogo/core": {
+      "4.0.6": [
+        [ "cakephp/cakephp-codesniffer", "dev-master" ],
+        [ "friendsofcake/cakephp-test-utilities", "dev-master" ]
+      ]
+    }
+  },
+  "sources": {
+    "cakephp/cakephp-codesniffer": {
+      "dev-master": {
+        "rev": "558a3acd9d15d1625997494c5947d62b88dcdaf1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cakephp/cakephp-codesniffer.git"
+      }
+    },
+    "croogo/core": {
+      "4.0.6": {
+        "rev": "a40d15e30a01b1e1ab2390e17649aec1545f7f15",
+        "type": "git",
+        "url": "https://github.com/croogo/core.git"
+      }
+    },
+    "friendsofcake/cakephp-test-utilities": {
+      "dev-master": {
+        "rev": "f396ff17d90e9b3e2289a94ea3976740902bcc0b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FriendsOfCake/cakephp-test-utilities.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "2.3.3": {
+        "rev": "c1a26c729508f73560c1a4f767f60b8ab6b4a666",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

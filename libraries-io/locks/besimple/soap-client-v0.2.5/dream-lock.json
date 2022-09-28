@@ -1,0 +1,100 @@
+{
+  "_generic": {
+    "defaultPackage": "besimple/soap-client",
+    "location": "",
+    "packages": {
+      "besimple/soap-client": "v0.2.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "curl",
+      "soap",
+      "openssl"
+    ],
+    "phpSemver": ">=5.3.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "besimple/soap-client": {
+      "v0.2.5": [
+        [ "ass/xmlsecurity", "v1.1.1" ],
+        [ "besimple/soap-common", "v0.2.6" ],
+        [ "mikey179/vfsstream", "v1.6.11" ],
+        [ "symfony/filesystem", "v2.8.52" ],
+        [ "symfony/process", "v2.8.52" ]
+      ]
+    },
+    "besimple/soap-common": {
+      "v0.2.6": [
+        [ "ass/xmlsecurity", "v1.1.1" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v2.8.52": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "ass/xmlsecurity": {
+      "v1.1.1": {
+        "rev": "c8976519ebbf6e4d953cd781d09df44b7f65fbb8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/aschamberger/XmlSecurity.git"
+      }
+    },
+    "besimple/soap-client": {
+      "v0.2.5": {
+        "rev": "50f186fd3e9fafc4ce2d194d5d18e3987d5fbf41",
+        "type": "git",
+        "url": "https://github.com/BeSimple/BeSimpleSoapClient.git"
+      }
+    },
+    "besimple/soap-common": {
+      "v0.2.6": {
+        "rev": "08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/BeSimple/BeSimpleSoapCommon.git"
+      }
+    },
+    "mikey179/vfsstream": {
+      "v1.6.11": {
+        "rev": "17d16a85e6c26ce1f3e2fa9ceeacdc2855db1e9f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bovigo/vfsStream.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v2.8.52": {
+        "rev": "7ae46872dad09dffb7fe1e93a0937097339d0080",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/process": {
+      "v2.8.52": {
+        "rev": "c3591a09c78639822b0b290d44edb69bf9f05dc8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    }
+  }
+}

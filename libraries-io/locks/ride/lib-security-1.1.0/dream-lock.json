@@ -1,0 +1,95 @@
+{
+  "_generic": {
+    "defaultPackage": "ride/lib-security",
+    "location": "",
+    "packages": {
+      "ride/lib-security": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ride/lib-event": {
+      "1.0.1": [
+        [ "ride/lib-reflection", "1.0.3" ]
+      ]
+    },
+    "ride/lib-log": {
+      "1.0.3": [
+        [ "ride/lib-common", "1.1.0" ]
+      ]
+    },
+    "ride/lib-security": {
+      "1.1.0": [
+        [ "ride/lib-encryption", "1.1.0" ],
+        [ "ride/lib-event", "1.0.1" ],
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-log", "1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "ride/lib-common": {
+      "1.1.0": {
+        "rev": "89b8990259b7ac0ad86ece34f2dde764d571c7b0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-common.git"
+      }
+    },
+    "ride/lib-encryption": {
+      "1.1.0": {
+        "rev": "f15fbb0450478936259d9ddeb5d492d4b011a0ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-encryption.git"
+      }
+    },
+    "ride/lib-event": {
+      "1.0.1": {
+        "rev": "10c6458c98ee692867b1d6b3803434bed54faa6a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-event.git"
+      }
+    },
+    "ride/lib-http": {
+      "1.2.3": {
+        "rev": "2342ec6215821bc9edcf34ff793dd1242a56cad7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-http.git"
+      }
+    },
+    "ride/lib-log": {
+      "1.0.3": {
+        "rev": "d0ce7d5059810c6b36125e2f4f42ec03e7440a06",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-log.git"
+      }
+    },
+    "ride/lib-reflection": {
+      "1.0.3": {
+        "rev": "636d20ca887fef17de260048d0bf2c36340bc9cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-reflection.git"
+      }
+    },
+    "ride/lib-security": {
+      "1.1.0": {
+        "rev": "c39bfaebab11ca8b16514bfca1b6d247e49b74c3",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-security.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_generic": {
+    "defaultPackage": "ride/lib-mvc",
+    "location": "",
+    "packages": {
+      "ride/lib-mvc": "1.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ride/lib-mvc": {
+      "1.1.1": [
+        [ "ride/lib-http", "1.2.3" ],
+        [ "ride/lib-reflection", "1.0.3" ],
+        [ "ride/lib-router", "1.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "ride/lib-http": {
+      "1.2.3": {
+        "rev": "2342ec6215821bc9edcf34ff793dd1242a56cad7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-http.git"
+      }
+    },
+    "ride/lib-mvc": {
+      "1.1.1": {
+        "rev": "2d8fbd83c50928088bd775f8de837bdecb4c890b",
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-mvc.git"
+      }
+    },
+    "ride/lib-reflection": {
+      "1.0.3": {
+        "rev": "636d20ca887fef17de260048d0bf2c36340bc9cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-reflection.git"
+      }
+    },
+    "ride/lib-router": {
+      "1.4.1": {
+        "rev": "449d2b359036a501955edfa96d13f920dbb5cb7a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/all-ride/ride-lib-router.git"
+      }
+    }
+  }
+}

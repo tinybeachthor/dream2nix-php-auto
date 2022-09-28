@@ -1,0 +1,110 @@
+{
+  "_generic": {
+    "defaultPackage": "kunstmaan/admin-bundle",
+    "location": "",
+    "packages": {
+      "kunstmaan/admin-bundle": "6.1.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "xmlreader",
+      "zip",
+      "openssl",
+      "tokenizer",
+      "pdo",
+      "ctype",
+      "json",
+      "xml",
+      "mbstring",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter"
+    ],
+    "phpSemver": "^7.2|^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "doctrine/dbal": {
+      "2.13.9": [
+        [ "doctrine/deprecations", "v1.0.0" ]
+      ]
+    },
+    "kunstmaan/admin-bundle": {
+      "6.1.3": [
+        [ "doctrine/dbal", "2.13.9" ],
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ],
+        [ "matthiasnoback/symfony-dependency-injection-test", "4.3.0" ],
+        [ "sensio/framework-extra-bundle", "v6.2.8" ],
+        [ "symfony/acl-bundle", "v2.3.0" ]
+      ]
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": [
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/dbal": {
+      "2.13.9": {
+        "rev": "c480849ca3ad6706a39c970cdfe6888fa8a058b8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/dbal.git"
+      }
+    },
+    "doctrine/deprecations": {
+      "v1.0.0": {
+        "rev": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/deprecations.git"
+      }
+    },
+    "kunstmaan/admin-bundle": {
+      "6.1.3": {
+        "rev": "05affdf374149f17ec358dec87d65cc8defa0488",
+        "type": "git",
+        "url": "https://github.com/Kunstmaan/KunstmaanAdminBundle.git"
+      }
+    },
+    "matthiasnoback/symfony-config-test": {
+      "4.3.0": {
+        "rev": "e7db0f5ea98817c7ba1b9266f8039c085e673db4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyConfigTest.git"
+      }
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": {
+        "rev": "d6b94169d9a60f4747efbcc45bfd51f071ba03d7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyDependencyInjectionTest.git"
+      }
+    },
+    "sensio/framework-extra-bundle": {
+      "v6.2.8": {
+        "rev": "bb962f8aed09e60b0942545f6e4842ffeee4aafd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git"
+      }
+    },
+    "symfony/acl-bundle": {
+      "v2.3.0": {
+        "rev": "a1068ab629a258d244bf8bcb98cda56884773d93",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/acl-bundle.git"
+      }
+    }
+  }
+}

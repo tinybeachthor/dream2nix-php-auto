@@ -1,0 +1,618 @@
+{
+  "_generic": {
+    "defaultPackage": "wyrihaximus/react-guzzle-psr7",
+    "location": "",
+    "packages": {
+      "wyrihaximus/react-guzzle-psr7": "2.1.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "tokenizer",
+      "dom",
+      "pcre",
+      "reflection",
+      "spl",
+      "simplexml",
+      "xmlwriter"
+    ],
+    "phpSemver": "^5.5|^7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "clue/block-react": {
+      "v1.3.1": [
+        [ "react/event-loop", "v1.1.0" ],
+        [ "react/promise", "v2.7.1" ],
+        [ "react/promise-timer", "v1.5.1" ]
+      ]
+    },
+    "clue/buzz-react": {
+      "v2.5.0": [
+        [ "psr/http-message", "1.0.1" ],
+        [ "react/event-loop", "v1.1.0" ],
+        [ "react/http-client", "v0.5.9" ],
+        [ "react/promise", "v2.7.1" ],
+        [ "react/promise-stream", "v1.1.1" ],
+        [ "react/promise-timer", "v1.5.1" ],
+        [ "react/socket", "v1.2.0" ],
+        [ "react/stream", "v1.1.0" ],
+        [ "ringcentral/psr7", "1.2.2" ]
+      ]
+    },
+    "clue/http-proxy-react": {
+      "v1.4.0": [
+        [ "react/promise", "v2.7.1" ],
+        [ "react/socket", "v1.2.0" ],
+        [ "ringcentral/psr7", "1.2.2" ]
+      ]
+    },
+    "clue/socks-react": {
+      "v0.8.7": [
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "react/promise", "v2.7.1" ],
+        [ "react/socket", "v1.2.0" ]
+      ]
+    },
+    "guzzlehttp/guzzle": {
+      "6.5.1": [
+        [ "guzzlehttp/promises", "v1.3.1" ],
+        [ "guzzlehttp/psr7", "1.6.1" ]
+      ]
+    },
+    "guzzlehttp/psr7": {
+      "1.6.1": [
+        [ "psr/http-message", "1.0.1" ],
+        [ "ralouphie/getallheaders", "2.0.5" ]
+      ]
+    },
+    "phpdocumentor/reflection-docblock": {
+      "3.2.2": [
+        [ "phpdocumentor/reflection-common", "1.0.1" ],
+        [ "phpdocumentor/type-resolver", "0.3.0" ],
+        [ "webmozart/assert", "1.4.0" ]
+      ]
+    },
+    "phpdocumentor/type-resolver": {
+      "0.3.0": [
+        [ "phpdocumentor/reflection-common", "1.0.1" ]
+      ]
+    },
+    "phpspec/prophecy": {
+      "1.8.0": [
+        [ "doctrine/instantiator", "1.0.5" ],
+        [ "phpdocumentor/reflection-docblock", "3.2.2" ],
+        [ "sebastian/comparator", "1.2.4" ],
+        [ "sebastian/recursion-context", "1.0.5" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": [
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "1.4.12" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/version", "1.0.6" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "4.8.36": [
+        [ "phpspec/prophecy", "1.8.0" ],
+        [ "phpunit/php-code-coverage", "2.2.4" ],
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-timer", "1.0.9" ],
+        [ "phpunit/phpunit-mock-objects", "2.3.8" ],
+        [ "sebastian/comparator", "1.2.4" ],
+        [ "sebastian/diff", "1.4.3" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/exporter", "1.2.2" ],
+        [ "sebastian/global-state", "1.1.1" ],
+        [ "sebastian/version", "1.0.6" ],
+        [ "symfony/yaml", "v2.8.49" ]
+      ]
+    },
+    "phpunit/phpunit-mock-objects": {
+      "2.3.8": [
+        [ "doctrine/instantiator", "1.0.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "sebastian/exporter", "1.2.2" ]
+      ]
+    },
+    "react/cache": {
+      "v0.5.0": [
+        [ "react/promise", "v2.7.1" ]
+      ]
+    },
+    "react/dns": {
+      "v0.4.17": [
+        [ "react/cache", "v0.5.0" ],
+        [ "react/event-loop", "v1.1.0" ],
+        [ "react/promise", "v2.7.1" ],
+        [ "react/promise-timer", "v1.5.1" ],
+        [ "react/stream", "v1.1.0" ]
+      ]
+    },
+    "react/http-client": {
+      "v0.5.9": [
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "react/event-loop", "v1.1.0" ],
+        [ "react/promise", "v2.7.1" ],
+        [ "react/socket", "v1.2.0" ],
+        [ "react/stream", "v1.1.0" ],
+        [ "ringcentral/psr7", "1.2.2" ]
+      ]
+    },
+    "react/promise-stream": {
+      "v1.1.1": [
+        [ "react/promise", "v2.7.1" ],
+        [ "react/stream", "v1.1.0" ]
+      ]
+    },
+    "react/promise-timer": {
+      "v1.5.1": [
+        [ "react/event-loop", "v1.1.0" ],
+        [ "react/promise", "v2.7.1" ]
+      ]
+    },
+    "react/socket": {
+      "v1.2.0": [
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "react/dns", "v0.4.17" ],
+        [ "react/event-loop", "v1.1.0" ],
+        [ "react/promise", "v2.7.1" ],
+        [ "react/promise-timer", "v1.5.1" ],
+        [ "react/stream", "v1.1.0" ]
+      ]
+    },
+    "react/stream": {
+      "v1.1.0": [
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "react/event-loop", "v1.1.0" ]
+      ]
+    },
+    "ringcentral/psr7": {
+      "1.2.2": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "sebastian/comparator": {
+      "1.2.4": [
+        [ "sebastian/diff", "1.4.3" ],
+        [ "sebastian/exporter", "1.2.2" ]
+      ]
+    },
+    "sebastian/exporter": {
+      "1.2.2": [
+        [ "sebastian/recursion-context", "1.0.5" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v2.8.49": [
+        [ "symfony/polyfill-ctype", "v1.10.0" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.4.0": [
+        [ "symfony/polyfill-ctype", "v1.10.0" ]
+      ]
+    },
+    "wyrihaximus/react-guzzle-http-client": {
+      "4.0.2": [
+        [ "clue/buzz-react", "v2.5.0" ],
+        [ "clue/http-proxy-react", "v1.4.0" ],
+        [ "clue/socks-react", "v0.8.7" ],
+        [ "guzzlehttp/psr7", "1.6.1" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "wyrihaximus/ticking-promise", "1.6.3" ]
+      ]
+    },
+    "wyrihaximus/react-guzzle-psr7": {
+      "2.1.3": [
+        [ "clue/block-react", "v1.3.1" ],
+        [ "guzzlehttp/guzzle", "6.5.1" ],
+        [ "phake/phake", "v1.0.8" ],
+        [ "phpunit/phpunit", "4.8.36" ],
+        [ "squizlabs/php_codesniffer", "3.5.3" ],
+        [ "vectorface/dunit", "v2.1.0" ],
+        [ "wyrihaximus/react-guzzle-http-client", "4.0.2" ]
+      ]
+    },
+    "wyrihaximus/ticking-promise": {
+      "1.6.3": [
+        [ "react/event-loop", "v1.1.0" ],
+        [ "react/promise", "v2.7.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "clue/block-react": {
+      "v1.3.1": {
+        "rev": "2f516b28259c203d67c4c963772dd7e9db652737",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/clue/reactphp-block.git"
+      }
+    },
+    "clue/buzz-react": {
+      "v2.5.0": {
+        "rev": "758a731c626eac2b88bad5359431650ef7384a55",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/clue/reactphp-buzz.git"
+      }
+    },
+    "clue/http-proxy-react": {
+      "v1.4.0": {
+        "rev": "5a6790443366dada996993c0a458f13e616fe10e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/clue/reactphp-http-proxy.git"
+      }
+    },
+    "clue/socks-react": {
+      "v0.8.7": {
+        "rev": "0fcd6f2f506918ff003f1b995c6e78443f26e8ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/clue/php-socks-react.git"
+      }
+    },
+    "doctrine/instantiator": {
+      "1.0.5": {
+        "rev": "8e884e78f9f0eb1329e445619e04456e64d8051d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "evenement/evenement": {
+      "v2.1.0": {
+        "rev": "6ba9a777870ab49f417e703229d53931ed40fd7a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/igorw/evenement.git"
+      }
+    },
+    "guzzlehttp/guzzle": {
+      "6.5.1": {
+        "rev": "0274c05370a7bc9bb3a33838858253418bd7d14b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle.git"
+      }
+    },
+    "guzzlehttp/promises": {
+      "v1.3.1": {
+        "rev": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/promises.git"
+      }
+    },
+    "guzzlehttp/psr7": {
+      "1.6.1": {
+        "rev": "239400de7a173fe9901b9ac7c06497751f00727a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git"
+      }
+    },
+    "phake/phake": {
+      "v1.0.8": {
+        "rev": "c5a3d7a75fc7431e8a5e21a922f084af95456bc6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/mlively/Phake.git"
+      }
+    },
+    "phpdocumentor/reflection-common": {
+      "1.0.1": {
+        "rev": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionCommon.git"
+      }
+    },
+    "phpdocumentor/reflection-docblock": {
+      "3.2.2": {
+        "rev": "4aada1f93c72c35e22fb1383b47fee43b8f1d157",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "phpdocumentor/type-resolver": {
+      "0.3.0": {
+        "rev": "fb3933512008d8162b3cdf9e18dba9309b7c3773",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/TypeResolver.git"
+      }
+    },
+    "phpspec/prophecy": {
+      "1.8.0": {
+        "rev": "4ba436b55987b4bf311cb7c6ba82aa528aac0a06",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpspec/prophecy.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": {
+        "rev": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "1.4.5": {
+        "rev": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "1.0.9": {
+        "rev": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.4.12": {
+        "rev": "1ce90ba27c42e4e44e6d8458241466380b51fa16",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "4.8.36": {
+        "rev": "46023de9a91eec7dfb06cc56cb4e260017298517",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "phpunit/phpunit-mock-objects": {
+      "2.3.8": {
+        "rev": "ac8e7a3db35738d56ee9a76e78a4e03d97628983",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "ralouphie/getallheaders": {
+      "2.0.5": {
+        "rev": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git"
+      }
+    },
+    "react/cache": {
+      "v0.5.0": {
+        "rev": "7d7da7fb7574d471904ba357b39bbf110ccdbf66",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/cache.git"
+      }
+    },
+    "react/dns": {
+      "v0.4.17": {
+        "rev": "0f30c6ceb71504d359d51132a97e1703051f1589",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/dns.git"
+      }
+    },
+    "react/event-loop": {
+      "v1.1.0": {
+        "rev": "a0ecac955c67b57c40fe4a1b88a7cca1b58c982d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/event-loop.git"
+      }
+    },
+    "react/http-client": {
+      "v0.5.9": {
+        "rev": "f8e81a022b61938e0b37c94c6351fc170b7d87f6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/http-client.git"
+      }
+    },
+    "react/promise": {
+      "v2.7.1": {
+        "rev": "31ffa96f8d2ed0341a57848cbb84d88b89dd664d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
+    "react/promise-stream": {
+      "v1.1.1": {
+        "rev": "00e269d611e9c9a29356aef64c07f7e513e73dc9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise-stream.git"
+      }
+    },
+    "react/promise-timer": {
+      "v1.5.1": {
+        "rev": "35fb910604fd86b00023fc5cda477c8074ad0abc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise-timer.git"
+      }
+    },
+    "react/socket": {
+      "v1.2.0": {
+        "rev": "23b7372bb25cea934f6124f5bdac34e30161959e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/socket.git"
+      }
+    },
+    "react/stream": {
+      "v1.1.0": {
+        "rev": "50426855f7a77ddf43b9266c22320df5bf6c6ce6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/stream.git"
+      }
+    },
+    "ringcentral/psr7": {
+      "1.2.2": {
+        "rev": "dcd84bbb49b96c616d1dcc8bfb9bef3f2cd53d1c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ringcentral/psr7.git"
+      }
+    },
+    "sebastian/comparator": {
+      "1.2.4": {
+        "rev": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/comparator.git"
+      }
+    },
+    "sebastian/diff": {
+      "1.4.3": {
+        "rev": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "sebastian/environment": {
+      "1.3.8": {
+        "rev": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/environment.git"
+      }
+    },
+    "sebastian/exporter": {
+      "1.2.2": {
+        "rev": "42c4c2eec485ee3e159ec9884f95b431287edde4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/exporter.git"
+      }
+    },
+    "sebastian/global-state": {
+      "1.1.1": {
+        "rev": "bc37d50fea7d017d3d340f230811c9f1d7280af4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/global-state.git"
+      }
+    },
+    "sebastian/recursion-context": {
+      "1.0.5": {
+        "rev": "b19cc3298482a335a95f3016d2f8a6950f0fbcd7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/recursion-context.git"
+      }
+    },
+    "sebastian/version": {
+      "1.0.6": {
+        "rev": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.5.3": {
+        "rev": "557a1fc7ac702c66b0bbfe16ab3d55839ef724cb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.10.0": {
+        "rev": "e3d826245268269cd66f8326bd8bc066687b4a19",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/yaml": {
+      "v2.8.49": {
+        "rev": "02c1859112aa779d9ab394ae4f3381911d84052b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "vectorface/dunit": {
+      "v2.1.0": {
+        "rev": "3f04c7a8bef5ff100666e92db96e93f80a6640bf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Vectorface/dunit.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.4.0": {
+        "rev": "83e253c8e0be5b0257b881e1827274667c5c17a9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozart/assert.git"
+      }
+    },
+    "wyrihaximus/react-guzzle-http-client": {
+      "4.0.2": {
+        "rev": "328a7b8f56058d611e611f51f941aa686a2785cd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/react-guzzle-http-client.git"
+      }
+    },
+    "wyrihaximus/react-guzzle-psr7": {
+      "2.1.3": {
+        "rev": "cf2ec8e96e19ee5c7a396b60e7ffcd5b34bd9d97",
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/react-guzzle-psr7.git"
+      }
+    },
+    "wyrihaximus/ticking-promise": {
+      "1.6.3": {
+        "rev": "4bb99024402bb7526de8880f3dab0c1f0858def5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/TickingPromise.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "_generic": {
+    "defaultPackage": "opine/db",
+    "location": "",
+    "packages": {
+      "opine/db": "2.0.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "openssl",
+      "tokenizer",
+      "dom",
+      "pcre",
+      "reflection",
+      "spl"
+    ],
+    "phpSemver": ">=5.5.0"
+  },
+  "cyclicDependencies": {
+    "opine/bundle": {
+      "2.0.12": [
+        [ "opine/container", "2.0.8" ]
+      ]
+    },
+    "opine/route": {
+      "3.0.20": [
+        [ "opine/bundle", "2.0.12" ],
+        [ "opine/container", "2.0.8" ]
+      ]
+    },
+    "opine/user": {
+      "1.0.5": [
+        [ "opine/container", "2.0.8" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "opine/bundle": {
+      "2.0.12": [
+        [ "opine/cache", "2.0.17" ],
+        [ "opine/config", "3.0.9" ],
+        [ "opine/container", "2.0.8" ],
+        [ "opine/interfaces", "1.0.10" ],
+        [ "opine/route", "3.0.20" ],
+        [ "symfony/yaml", "v2.6.1" ]
+      ]
+    },
+    "opine/cache": {
+      "2.0.17": [
+        [ "opine/interfaces", "1.0.10" ],
+        [ "symfony/yaml", "v2.6.1" ]
+      ]
+    },
+    "opine/config": {
+      "3.0.9": [
+        [ "opine/cache", "2.0.17" ],
+        [ "opine/interfaces", "1.0.10" ],
+        [ "symfony/yaml", "v2.6.1" ]
+      ]
+    },
+    "opine/container": {
+      "2.0.8": [
+        [ "opine/bundle", "2.0.12" ],
+        [ "opine/config", "3.0.9" ],
+        [ "opine/interfaces", "1.0.10" ],
+        [ "symfony/yaml", "v2.6.1" ]
+      ]
+    },
+    "opine/db": {
+      "2.0.8": [
+        [ "opine/config", "3.0.9" ],
+        [ "opine/container", "2.0.8" ],
+        [ "opine/interfaces", "1.0.10" ],
+        [ "opine/pubsub", "2.0.9" ],
+        [ "phpunit/phpunit", "3.7.32" ]
+      ]
+    },
+    "opine/pubsub": {
+      "2.0.9": [
+        [ "opine/bundle", "2.0.12" ],
+        [ "opine/config", "3.0.9" ],
+        [ "opine/container", "2.0.8" ],
+        [ "opine/interfaces", "1.0.10" ],
+        [ "opine/route", "3.0.20" ],
+        [ "symfony/yaml", "v2.6.1" ]
+      ]
+    },
+    "opine/route": {
+      "3.0.20": [
+        [ "nikic/fast-route", "v1.0.1" ],
+        [ "opine/bundle", "2.0.12" ],
+        [ "opine/config", "3.0.9" ],
+        [ "opine/container", "2.0.8" ],
+        [ "opine/interfaces", "1.0.10" ],
+        [ "opine/user", "1.0.5" ]
+      ]
+    },
+    "opine/user": {
+      "1.0.5": [
+        [ "lcobucci/jwt", "3.2.1" ],
+        [ "opine/config", "3.0.9" ],
+        [ "opine/container", "2.0.8" ],
+        [ "opine/interfaces", "1.0.10" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "1.2.18": [
+        [ "phpunit/php-file-iterator", "3.0.6" ],
+        [ "phpunit/php-text-template", "2.0.4" ],
+        [ "phpunit/php-token-stream", "1.2.2" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "3.7.32": [
+        [ "phpunit/php-code-coverage", "1.2.18" ],
+        [ "phpunit/php-file-iterator", "3.0.6" ],
+        [ "phpunit/php-text-template", "2.0.4" ],
+        [ "phpunit/php-timer", "5.0.3" ],
+        [ "phpunit/phpunit-mock-objects", "1.2.3" ],
+        [ "symfony/yaml", "v2.6.1" ]
+      ]
+    },
+    "phpunit/phpunit-mock-objects": {
+      "1.2.3": [
+        [ "phpunit/php-text-template", "2.0.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "lcobucci/jwt": {
+      "3.2.1": {
+        "rev": "ddce703826f9c5229781933b1a39069e38e6a0f3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/lcobucci/jwt.git"
+      }
+    },
+    "nikic/fast-route": {
+      "v1.0.1": {
+        "rev": "8ea928195fa9b907f0d6e48312d323c1a13cc2af",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nikic/FastRoute.git"
+      }
+    },
+    "opine/bundle": {
+      "2.0.12": {
+        "rev": "8765cee787c3a48cf479ab8fb9eab5fc58b58c84",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Opine-Org/Bundle.git"
+      }
+    },
+    "opine/cache": {
+      "2.0.17": {
+        "rev": "a909987fb3af489dc21698573268b9707542bc12",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Opine-Org/Cache.git"
+      }
+    },
+    "opine/config": {
+      "3.0.9": {
+        "rev": "4eb5ce372496ff4ae3e599e7fa96e0ccdf479959",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Opine-Org/Config.git"
+      }
+    },
+    "opine/container": {
+      "2.0.8": {
+        "rev": "c76ef5f02f91d46cd09bc00bdf5ad6b999c98f71",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Opine-Org/Container.git"
+      }
+    },
+    "opine/db": {
+      "2.0.8": {
+        "rev": "1461de591332a1ccc0e1812bf48aff723fb9f7a4",
+        "type": "git",
+        "url": "https://github.com/Opine-Org/DB.git"
+      }
+    },
+    "opine/interfaces": {
+      "1.0.10": {
+        "rev": "5d9c3275d7e5de5bbc1c9d282ca353919ca80421",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Opine-Org/Interfaces.git"
+      }
+    },
+    "opine/pubsub": {
+      "2.0.9": {
+        "rev": "d8e62a4776ec50f10b872ce527f2171e617cafad",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Opine-Org/PubSub.git"
+      }
+    },
+    "opine/route": {
+      "3.0.20": {
+        "rev": "8e90f1979bf30df0305598cb5b36f12cab302aaf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Opine-Org/Route.git"
+      }
+    },
+    "opine/user": {
+      "1.0.5": {
+        "rev": "18d1bba533705b94bbf9df93c51a0a17b6eb2c74",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Opine-Org/User.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "1.2.18": {
+        "rev": "fe2466802556d3fe4e4d1d58ffd3ccfd0a19be0b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "3.0.6": {
+        "rev": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "2.0.4": {
+        "rev": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "5.0.3": {
+        "rev": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.2.2": {
+        "rev": "ad4e1e23ae01b483c16f600ff1bebec184588e32",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "3.7.32": {
+        "rev": "2752cbb9ea5bd84c2811b34b6953f76965ec7a2f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "phpunit/phpunit-mock-objects": {
+      "1.2.3": {
+        "rev": "5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
+      }
+    },
+    "symfony/yaml": {
+      "v2.6.1": {
+        "rev": "3346fc090a3eb6b53d408db2903b241af51dcb20",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/Yaml.git"
+      }
+    }
+  }
+}

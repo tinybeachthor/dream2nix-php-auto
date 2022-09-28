@@ -1,0 +1,70 @@
+{
+  "_generic": {
+    "defaultPackage": "joomla/database",
+    "location": "",
+    "packages": {
+      "joomla/database": "2.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "json",
+      "mbstring",
+      "xml",
+      "simplexml"
+    ],
+    "phpSemver": "^7.2.5|~8.0.0|~8.1.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "joomla/database": {
+      "2.1.1": [
+        [ "joomla/console", "2.0.1" ],
+        [ "joomla/test", "2.0.2" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "joomla/console": {
+      "2.0.1": {
+        "rev": "e575f65a74c2af7e7ed9647383d17d198194dfa4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/joomla-framework/console.git"
+      }
+    },
+    "joomla/database": {
+      "2.1.1": {
+        "rev": "7da995b798e22642c6642878096f496c62dbbe08",
+        "type": "git",
+        "url": "https://github.com/joomla-framework/database.git"
+      }
+    },
+    "joomla/test": {
+      "2.0.2": {
+        "rev": "557149c24173aea1780d655d3bd2aa69fe921b5b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/joomla-framework/test.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    }
+  }
+}

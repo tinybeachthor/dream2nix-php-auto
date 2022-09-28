@@ -1,0 +1,89 @@
+{
+  "_generic": {
+    "defaultPackage": "vanio/coding-standards",
+    "location": "",
+    "packages": {
+      "vanio/coding-standards": "v0.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": "^7.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "escapestudios/symfony2-coding-standard": {
+      "3.13.0": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "vanio/coding-standards": {
+      "v0.3.0": [
+        [ "escapestudios/symfony2-coding-standard", "3.13.0" ],
+        [ "slevomat/coding-standard", "6.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": {
+        "rev": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "escapestudios/symfony2-coding-standard": {
+      "3.13.0": {
+        "rev": "46d5387bc9e2fca44d46642550ffbaea22ebaf86",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/djoos/Symfony-coding-standard.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": {
+        "rev": "696dcca217d0c9da2c40d02731526c1e25b65346",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "vanio/coding-standards": {
+      "v0.3.0": {
+        "rev": "0159086e6769e8c1a08723ef3f7e660f7d2843aa",
+        "type": "git",
+        "url": "https://github.com/vaniocz/coding-standards.git"
+      }
+    }
+  }
+}

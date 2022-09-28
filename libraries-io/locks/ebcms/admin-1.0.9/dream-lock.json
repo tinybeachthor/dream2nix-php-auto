@@ -1,0 +1,402 @@
+{
+  "_generic": {
+    "defaultPackage": "ebcms/admin",
+    "location": "",
+    "packages": {
+      "ebcms/admin": "1.0.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "pdo",
+      "gd",
+      "mbstring"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "diggphp/database": {
+      "1.0.0": [
+        [ "catfan/medoo", "v2.1.7" ]
+      ]
+    },
+    "diggphp/form": {
+      "1.0.0": [
+        [ "diggphp/template", "1.0.0" ]
+      ]
+    },
+    "diggphp/framework": {
+      "1.0.1": [
+        [ "diggphp/database", "1.0.0" ],
+        [ "diggphp/form", "1.0.0" ],
+        [ "diggphp/pagination", "1.0.0" ],
+        [ "diggphp/request", "1.0.0" ],
+        [ "diggphp/session", "1.0.0" ],
+        [ "diggphp/template", "1.0.0" ],
+        [ "diggphp/tinyapp", "1.0.2" ]
+      ]
+    },
+    "diggphp/psr11": {
+      "1.0.0": [
+        [ "psr/container", "2.0.2" ]
+      ]
+    },
+    "diggphp/psr14": {
+      "1.0.0": [
+        [ "fig/event-dispatcher-util", "1.3.1" ],
+        [ "psr/event-dispatcher", "1.0.0" ]
+      ]
+    },
+    "diggphp/psr15": {
+      "1.0.0": [
+        [ "psr/http-server-handler", "1.0.1" ],
+        [ "psr/http-server-middleware", "1.0.1" ]
+      ]
+    },
+    "diggphp/psr16": {
+      "1.0.0": [
+        [ "psr/simple-cache", "1.0.1" ]
+      ]
+    },
+    "diggphp/psr17": {
+      "1.0.0": [
+        [ "guzzlehttp/psr7", "1.9.0" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "diggphp/psr3": {
+      "1.0.0": [
+        [ "psr/log", "3.0.0" ]
+      ]
+    },
+    "diggphp/request": {
+      "1.0.0": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "diggphp/responser": {
+      "1.0.0": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "diggphp/template": {
+      "1.0.0": [
+        [ "diggphp/includer", "1.0.0" ],
+        [ "psr/simple-cache", "1.0.1" ]
+      ]
+    },
+    "diggphp/tinyapp": {
+      "1.0.2": [
+        [ "diggphp/psr11", "1.0.0" ],
+        [ "diggphp/psr14", "1.0.0" ],
+        [ "diggphp/psr15", "1.0.0" ],
+        [ "diggphp/psr16", "1.0.0" ],
+        [ "diggphp/psr17", "1.0.0" ],
+        [ "diggphp/psr3", "1.0.0" ],
+        [ "diggphp/responser", "1.0.0" ],
+        [ "diggphp/router", "1.0.0" ]
+      ]
+    },
+    "ebcms/admin": {
+      "1.0.9": [
+        [ "diggphp/framework", "1.0.1" ],
+        [ "gregwar/captcha", "v1.1.9" ]
+      ]
+    },
+    "fig/event-dispatcher-util": {
+      "1.3.1": [
+        [ "psr/event-dispatcher", "1.0.0" ]
+      ]
+    },
+    "gregwar/captcha": {
+      "v1.1.9": [
+        [ "symfony/finder", "v6.1.3" ]
+      ]
+    },
+    "guzzlehttp/psr7": {
+      "1.9.0": [
+        [ "psr/http-message", "1.0.1" ],
+        [ "ralouphie/getallheaders", "3.0.3" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-server-handler": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-server-middleware": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ],
+        [ "psr/http-server-handler", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "catfan/medoo": {
+      "v2.1.7": {
+        "rev": "74be58f80d330d1075ef3bfd0fb3d057349597ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/catfan/Medoo.git"
+      }
+    },
+    "diggphp/database": {
+      "1.0.0": {
+        "rev": "79efdbf41c35066dbf9ded6a39e29e8fced1bea6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/database.git"
+      }
+    },
+    "diggphp/form": {
+      "1.0.0": {
+        "rev": "9a6aeca97d325e9673383336014f61e3d39cc9b7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/form.git"
+      }
+    },
+    "diggphp/framework": {
+      "1.0.1": {
+        "rev": "d0f5b259c674689da28bb8791150d959df60f2f7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/framework.git"
+      }
+    },
+    "diggphp/includer": {
+      "1.0.0": {
+        "rev": "4f057642d0e759e2c48ad3607ad9f163d3872fc4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/includer.git"
+      }
+    },
+    "diggphp/pagination": {
+      "1.0.0": {
+        "rev": "27cbfc5c3b41d81efaf9f8c1e1b247de6a58151e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/pagination.git"
+      }
+    },
+    "diggphp/psr11": {
+      "1.0.0": {
+        "rev": "ef2a32e45ffe30348ed49188ea2eec8d02e7d0e3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/psr11.git"
+      }
+    },
+    "diggphp/psr14": {
+      "1.0.0": {
+        "rev": "51be167345575d582c248751bc2e614699de55f0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/psr14.git"
+      }
+    },
+    "diggphp/psr15": {
+      "1.0.0": {
+        "rev": "b151180ddd492afb1207cca4ca58f0d7f5be73b9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/psr15.git"
+      }
+    },
+    "diggphp/psr16": {
+      "1.0.0": {
+        "rev": "8edf56b5ef63f4f4666a7796dcca5f8002c459ff",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/psr16.git"
+      }
+    },
+    "diggphp/psr17": {
+      "1.0.0": {
+        "rev": "3cbc872a4b4d35cd4e6eb9fdd7c0784374db55b6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/psr17.git"
+      }
+    },
+    "diggphp/psr3": {
+      "1.0.0": {
+        "rev": "ed02805cc7e177072afcd16b030ccc75f40953b8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/psr3.git"
+      }
+    },
+    "diggphp/request": {
+      "1.0.0": {
+        "rev": "fc1d096b0da58c1d74bce34b302e89d9faa43b3b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/request.git"
+      }
+    },
+    "diggphp/responser": {
+      "1.0.0": {
+        "rev": "f52c093c39e1c28c4f20babc10032af047a759cd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/responser.git"
+      }
+    },
+    "diggphp/router": {
+      "1.0.0": {
+        "rev": "41419998ff77ee8f492f2645bb0640f218918d83",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/router.git"
+      }
+    },
+    "diggphp/session": {
+      "1.0.0": {
+        "rev": "cce8dd91028b0df1d77c33f2f3dd25b7a57091e7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/session.git"
+      }
+    },
+    "diggphp/template": {
+      "1.0.0": {
+        "rev": "1c3f35621dab33bbf309c9a6636a8a66f20c085c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/template.git"
+      }
+    },
+    "diggphp/tinyapp": {
+      "1.0.2": {
+        "rev": "a57f46d7efc2e0ddda30717a2eb1688987214ffd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/diggphp/tinyapp.git"
+      }
+    },
+    "ebcms/admin": {
+      "1.0.9": {
+        "rev": "930fa20a2cdd6ccfa59e678adce053812b71f732",
+        "type": "git",
+        "url": "https://github.com/ebcms/admin.git"
+      }
+    },
+    "fig/event-dispatcher-util": {
+      "1.3.1": {
+        "rev": "0ec802e305872e7e27fd7864bdc75bb1ed4f2f23",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher-util.git"
+      }
+    },
+    "gregwar/captcha": {
+      "v1.1.9": {
+        "rev": "4bb668e6b40e3205a020ca5ee4ca8cff8b8780c5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Gregwar/Captcha.git"
+      }
+    },
+    "guzzlehttp/psr7": {
+      "1.9.0": {
+        "rev": "e98e3e6d4f86621a9b75f623996e6bbdeb4b9318",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/event-dispatcher": {
+      "1.0.0": {
+        "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/http-server-handler": {
+      "1.0.1": {
+        "rev": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-server-handler.git"
+      }
+    },
+    "psr/http-server-middleware": {
+      "1.0.1": {
+        "rev": "2296f45510945530b9dceb8bcedb5cb84d40c5f5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-server-middleware.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "psr/simple-cache": {
+      "1.0.1": {
+        "rev": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/simple-cache.git"
+      }
+    },
+    "ralouphie/getallheaders": {
+      "3.0.3": {
+        "rev": "120b605dfeb996808c31b6477290a714d356e822",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git"
+      }
+    },
+    "symfony/finder": {
+      "v6.1.3": {
+        "rev": "39696bff2c2970b3779a5cac7bf9f0b88fc2b709",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    }
+  }
+}

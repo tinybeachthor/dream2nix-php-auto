@@ -1,0 +1,103 @@
+{
+  "_generic": {
+    "defaultPackage": "hoa/router",
+    "location": "",
+    "packages": {
+      "hoa/router": "3.17.01.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {
+    "hoa/event": {
+      "1.17.01.13": [
+        [ "hoa/consistency", "1.17.05.02" ],
+        [ "hoa/exception", "1.17.01.16" ]
+      ]
+    },
+    "hoa/exception": {
+      "1.17.01.16": [
+        [ "hoa/consistency", "1.17.05.02" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "hoa/consistency": {
+      "1.17.05.02": [
+        [ "hoa/exception", "1.17.01.16" ]
+      ]
+    },
+    "hoa/event": {
+      "1.17.01.13": [
+        [ "hoa/consistency", "1.17.05.02" ],
+        [ "hoa/exception", "1.17.01.16" ]
+      ]
+    },
+    "hoa/exception": {
+      "1.17.01.16": [
+        [ "hoa/consistency", "1.17.05.02" ],
+        [ "hoa/event", "1.17.01.13" ]
+      ]
+    },
+    "hoa/router": {
+      "3.17.01.14": [
+        [ "hoa/consistency", "1.17.05.02" ],
+        [ "hoa/exception", "1.17.01.16" ],
+        [ "hoa/zformat", "1.17.01.10" ]
+      ]
+    },
+    "hoa/zformat": {
+      "1.17.01.10": [
+        [ "hoa/consistency", "1.17.05.02" ],
+        [ "hoa/exception", "1.17.01.16" ]
+      ]
+    }
+  },
+  "sources": {
+    "hoa/consistency": {
+      "1.17.05.02": {
+        "rev": "fd7d0adc82410507f332516faf655b6ed22e4c2f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hoaproject/Consistency.git"
+      }
+    },
+    "hoa/event": {
+      "1.17.01.13": {
+        "rev": "6c0060dced212ffa3af0e34bb46624f990b29c54",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hoaproject/Event.git"
+      }
+    },
+    "hoa/exception": {
+      "1.17.01.16": {
+        "rev": "091727d46420a3d7468ef0595651488bfc3a458f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hoaproject/Exception.git"
+      }
+    },
+    "hoa/router": {
+      "3.17.01.14": {
+        "rev": "8f09a2ed672f8cbf33d2e7e2e9db9181f1925b91",
+        "type": "git",
+        "url": "https://github.com/hoaproject/Router.git"
+      }
+    },
+    "hoa/zformat": {
+      "1.17.01.10": {
+        "rev": "522c381a2a075d4b9dbb42eb4592dd09520e4ac2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hoaproject/Zformat.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "_generic": {
+    "defaultPackage": "zf1/zend-date",
+    "location": "",
+    "packages": {
+      "zf1/zend-date": "1.12.12"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=5.2.11"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "zf1/zend-cache": {
+      "1.12.12": [
+        [ "zf1/zend-exception", "1.12.12" ]
+      ]
+    },
+    "zf1/zend-date": {
+      "1.12.12": [
+        [ "zf1/zend-exception", "1.12.12" ],
+        [ "zf1/zend-locale", "1.12.12" ]
+      ]
+    },
+    "zf1/zend-locale": {
+      "1.12.12": [
+        [ "zf1/zend-cache", "1.12.12" ],
+        [ "zf1/zend-exception", "1.12.12" ],
+        [ "zf1/zend-xml", "1.12.12" ]
+      ]
+    },
+    "zf1/zend-xml": {
+      "1.12.12": [
+        [ "zf1/zend-exception", "1.12.12" ]
+      ]
+    }
+  },
+  "sources": {
+    "zf1/zend-cache": {
+      "1.12.12": {
+        "rev": "c3a6fc20f5d5c5ab7adc16f29f33eb5b2e00d86e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zf1/zend-cache.git"
+      }
+    },
+    "zf1/zend-date": {
+      "1.12.12": {
+        "rev": "1ce0eb1ca9417e4a3e53d84d2d5adc7f0138c340",
+        "type": "git",
+        "url": "https://github.com/zf1/zend-date.git"
+      }
+    },
+    "zf1/zend-exception": {
+      "1.12.12": {
+        "rev": "ca30959d3e2f522f481a3d1459386acf1aa4ca74",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zf1/zend-exception.git"
+      }
+    },
+    "zf1/zend-locale": {
+      "1.12.12": {
+        "rev": "336df96aebb0270fb682e6ee8bf0cc0781cc3edb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zf1/zend-locale.git"
+      }
+    },
+    "zf1/zend-xml": {
+      "1.12.12": {
+        "rev": "330ca342f69ad446b874158acc9b90dc43d9bbaa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zf1/zend-xml.git"
+      }
+    }
+  }
+}

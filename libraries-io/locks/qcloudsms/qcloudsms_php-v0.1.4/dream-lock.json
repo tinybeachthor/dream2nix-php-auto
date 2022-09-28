@@ -1,0 +1,259 @@
+{
+  "_generic": {
+    "defaultPackage": "qcloudsms/qcloudsms_php",
+    "location": "",
+    "packages": {
+      "qcloudsms/qcloudsms_php": "v0.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "openssl",
+      "pcre",
+      "tokenizer"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "blackfire/php-sdk": {
+      "v1.31.0": [
+        [ "composer/ca-bundle", "1.3.3" ]
+      ]
+    },
+    "pimple/pimple": {
+      "v3.5.0": [
+        [ "psr/container", "2.0.2" ]
+      ]
+    },
+    "qcloudsms/qcloudsms_php": {
+      "v0.1.4": [
+        [ "sami/sami", "dev-master" ]
+      ]
+    },
+    "sami/sami": {
+      "dev-master": [
+        [ "blackfire/php-sdk", "v1.31.0" ],
+        [ "michelf/php-markdown", "1.9.1" ],
+        [ "nikic/php-parser", "v3.1.5" ],
+        [ "phpdocumentor/reflection-docblock", "2.0.5" ],
+        [ "pimple/pimple", "v3.5.0" ],
+        [ "symfony/console", "v4.4.45" ],
+        [ "symfony/filesystem", "v4.4.42" ],
+        [ "symfony/finder", "v4.4.44" ],
+        [ "symfony/process", "v4.4.44" ],
+        [ "symfony/yaml", "v4.4.45" ],
+        [ "twig/twig", "v2.15.3" ]
+      ]
+    },
+    "symfony/console": {
+      "v4.4.45": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/service-contracts", "v1.1.2" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v4.4.42": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/finder": {
+      "v4.4.44": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/process": {
+      "v4.4.44": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v4.4.45": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "twig/twig": {
+      "v2.15.3": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php72", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "blackfire/php-sdk": {
+      "v1.31.0": {
+        "rev": "cec036e106d349d66db565c172ffc8f4beece6ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/blackfireio/php-sdk.git"
+      }
+    },
+    "composer/ca-bundle": {
+      "1.3.3": {
+        "rev": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/ca-bundle.git"
+      }
+    },
+    "michelf/php-markdown": {
+      "1.9.1": {
+        "rev": "5024d623c1a057dcd2d076d25b7d270a1d0d55f3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/michelf/php-markdown.git"
+      }
+    },
+    "nikic/php-parser": {
+      "v3.1.5": {
+        "rev": "bb87e28e7d7b8d9a7fda231d37457c9210faf6ce",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nikic/PHP-Parser.git"
+      }
+    },
+    "phpdocumentor/reflection-docblock": {
+      "2.0.5": {
+        "rev": "e6a969a640b00d8daa3c66518b0405fb41ae0c4b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "pimple/pimple": {
+      "v3.5.0": {
+        "rev": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/silexphp/Pimple.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "qcloudsms/qcloudsms_php": {
+      "v0.1.4": {
+        "rev": "48822045772d343b93c3d505d8a187cd51153c5a",
+        "type": "git",
+        "url": "https://github.com/qcloudsms/qcloudsms_php.git"
+      }
+    },
+    "sami/sami": {
+      "dev-master": {
+        "rev": "394f3e156e814d362b88fa2f682fb8f5c273c970",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FriendsOfPHP/Sami.git"
+      }
+    },
+    "symfony/console": {
+      "v4.4.45": {
+        "rev": "28b77970939500fb04180166a1f716e75a871ef8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v4.4.42": {
+        "rev": "815412ee8971209bd4c1eecd5f4f481eacd44bf5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/finder": {
+      "v4.4.44": {
+        "rev": "66bd787edb5e42ff59d3523f623895af05043e4f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php72": {
+      "v1.26.0": {
+        "rev": "bf44a9fd41feaac72b074de600314a93e2ae78e2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php72.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/process": {
+      "v4.4.44": {
+        "rev": "5cee9cdc4f7805e2699d9fd66991a0e6df8252a2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v1.1.2": {
+        "rev": "191afdcb5804db960d26d8566b7e9a2843cab3a0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/yaml": {
+      "v4.4.45": {
+        "rev": "aeccc4dc52a9e634f1d1eebeb21eacfdcff1053d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "twig/twig": {
+      "v2.15.3": {
+        "rev": "ab402673db8746cb3a4c46f3869d6253699f614a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git"
+      }
+    }
+  }
+}

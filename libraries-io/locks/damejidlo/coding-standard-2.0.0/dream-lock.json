@@ -1,0 +1,76 @@
+{
+  "_generic": {
+    "defaultPackage": "damejidlo/coding-standard",
+    "location": "",
+    "packages": {
+      "damejidlo/coding-standard": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "damejidlo/coding-standard": {
+      "2.0.0": [
+        [ "slevomat/coding-standard", "6.4.1" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": [
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "squizlabs/php_codesniffer", "3.7.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "damejidlo/coding-standard": {
+      "2.0.0": {
+        "rev": "2b171a551335b4dc5872080882937e4dc12b4181",
+        "type": "git",
+        "url": "https://github.com/damejidlo/coding-standard.git"
+      }
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": {
+        "rev": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": {
+        "rev": "696dcca217d0c9da2c40d02731526c1e25b65346",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.7.1": {
+        "rev": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

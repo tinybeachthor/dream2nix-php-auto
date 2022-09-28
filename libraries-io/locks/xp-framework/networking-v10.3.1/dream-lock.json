@@ -1,0 +1,70 @@
+{
+  "_generic": {
+    "defaultPackage": "xp-framework/networking",
+    "location": "",
+    "packages": {
+      "xp-framework/networking": "v10.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=7.0.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "xp-framework/logging": {
+      "v11.0.0": [
+        [ "xp-framework/core", "v11.4.2" ]
+      ]
+    },
+    "xp-framework/networking": {
+      "v10.3.1": [
+        [ "xp-framework/core", "v11.4.2" ],
+        [ "xp-framework/logging", "v11.0.0" ],
+        [ "xp-framework/unittest", "v11.3.2" ]
+      ]
+    },
+    "xp-framework/unittest": {
+      "v11.3.2": [
+        [ "xp-framework/core", "v11.4.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "xp-framework/core": {
+      "v11.4.2": {
+        "rev": "7d1b22c0d2adb5e3bbf9ccb8faa1b7552d0987e3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/xp-framework/core.git"
+      }
+    },
+    "xp-framework/logging": {
+      "v11.0.0": {
+        "rev": "9caf6d6b76683832a77a37fecc54e9ec742ea84f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/xp-framework/logging.git"
+      }
+    },
+    "xp-framework/networking": {
+      "v10.3.1": {
+        "rev": "e45481c2976698378a4b6e3dfabc4737b221e32f",
+        "type": "git",
+        "url": "https://github.com/xp-framework/networking.git"
+      }
+    },
+    "xp-framework/unittest": {
+      "v11.3.2": {
+        "rev": "63fe5c8278031572d5bdf382eb01108efc12b81e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/xp-framework/unittest.git"
+      }
+    }
+  }
+}

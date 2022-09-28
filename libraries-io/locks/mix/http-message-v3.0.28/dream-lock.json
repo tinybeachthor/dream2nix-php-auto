@@ -1,0 +1,74 @@
+{
+  "_generic": {
+    "defaultPackage": "mix/http-message",
+    "location": "",
+    "packages": {
+      "mix/http-message": "v3.0.28"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=7.0.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "mix/http-message": {
+      "v3.0.28": [
+        [ "lukasoppermann/http-status", "3.2.1" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "ralouphie/getallheaders", "3.0.3" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "lukasoppermann/http-status": {
+      "3.2.1": {
+        "rev": "2ea4e39d713ae7285080a993dcd96b3c0e2c5c0c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/lukasoppermann/http-status.git"
+      }
+    },
+    "mix/http-message": {
+      "v3.0.28": {
+        "rev": "e3e17dc7fc7cb30d7e8afe8c460f48f6a9017e19",
+        "type": "git",
+        "url": "https://github.com/mix-php/http-message.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "ralouphie/getallheaders": {
+      "3.0.3": {
+        "rev": "120b605dfeb996808c31b6477290a714d356e822",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git"
+      }
+    }
+  }
+}

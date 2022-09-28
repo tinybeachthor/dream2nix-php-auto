@@ -1,0 +1,63 @@
+{
+  "_generic": {
+    "defaultPackage": "markbaker/complex",
+    "location": "",
+    "packages": {
+      "markbaker/complex": "3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "json",
+      "mbstring",
+      "xml",
+      "simplexml"
+    ],
+    "phpSemver": "^7.2 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "markbaker/complex": {
+      "3.0.1": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "phpcompatibility/php-compatibility", "9.3.5" ]
+      ]
+    }
+  },
+  "sources": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": {
+        "rev": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "markbaker/complex": {
+      "3.0.1": {
+        "rev": "ab8bc271e404909db09ff2d5ffa1e538085c0f22",
+        "type": "git",
+        "url": "https://github.com/MarkBaker/PHPComplex.git"
+      }
+    },
+    "phpcompatibility/php-compatibility": {
+      "9.3.5": {
+        "rev": "9fb324479acf6f39452e0655d2429cc0d3914243",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHPCompatibility/PHPCompatibility.git"
+      }
+    }
+  }
+}

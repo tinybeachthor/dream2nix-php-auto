@@ -1,0 +1,48 @@
+{
+  "_generic": {
+    "defaultPackage": "esas/cmsgate-core",
+    "location": "",
+    "packages": {
+      "esas/cmsgate-core": "v1.17.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "curl",
+      "json",
+      "mbstring",
+      "simplexml",
+      "xml"
+    ],
+    "phpSemver": ">= 5.6.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "esas/cmsgate-core": {
+      "v1.17.8": [
+        [ "apache/log4php", "2.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "apache/log4php": {
+      "2.3.0": {
+        "rev": "cac428b6f67d2035af39784da1d1a299ef42fcf2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/apache/logging-log4php.git"
+      }
+    },
+    "esas/cmsgate-core": {
+      "v1.17.8": {
+        "rev": "398eeebfb46b481a0b6f647d2d8d99b1d1ed2b92",
+        "type": "git",
+        "url": "https://bitbucket.org/esasby/cmsgate-core.git"
+      }
+    }
+  }
+}

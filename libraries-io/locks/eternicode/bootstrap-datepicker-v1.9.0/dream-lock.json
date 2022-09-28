@@ -1,0 +1,88 @@
+{
+  "_generic": {
+    "defaultPackage": "eternicode/bootstrap-datepicker",
+    "location": "",
+    "packages": {
+      "eternicode/bootstrap-datepicker": "v1.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "robloach/component-installer@0.2.3": "^1.0"
+    },
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "eternicode/bootstrap-datepicker": {
+      "v1.9.0": [
+        [ "components/bootstrap", "3.4.1" ],
+        [ "components/jquery", "3.6.0" ],
+        [ "robloach/component-installer", "0.2.3" ]
+      ]
+    },
+    "kriswallsmith/assetic": {
+      "v1.4.0": [
+        [ "symfony/process", "v3.4.47" ]
+      ]
+    },
+    "robloach/component-installer": {
+      "0.2.3": [
+        [ "kriswallsmith/assetic", "v1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "components/bootstrap": {
+      "3.4.1": {
+        "rev": "427f4d414fc6ae8385aee02b7efc8e391eb141ad",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/components/bootstrap.git"
+      }
+    },
+    "components/jquery": {
+      "3.6.0": {
+        "rev": "6cf38ee1fd04b6adf8e7dda161283aa35be818c3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/components/jquery.git"
+      }
+    },
+    "eternicode/bootstrap-datepicker": {
+      "v1.9.0": {
+        "rev": "fb8776d65825068b9f914ab37d6fd847c951f488",
+        "type": "git",
+        "url": "https://github.com/uxsolutions/bootstrap-datepicker.git"
+      }
+    },
+    "kriswallsmith/assetic": {
+      "v1.4.0": {
+        "rev": "e911c437dbdf006a8f62c2f59b15b2d69a5e0aa1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/kriswallsmith/assetic.git"
+      }
+    },
+    "robloach/component-installer": {
+      "0.2.3": {
+        "rev": "908a859aa7c4949ba9ad67091e67bac10b66d3d7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/RobLoach/component-installer.git"
+      }
+    },
+    "symfony/process": {
+      "v3.4.47": {
+        "rev": "b8648cf1d5af12a44a51d07ef9bf980921f15fca",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/process.git"
+      }
+    }
+  }
+}

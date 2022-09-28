@@ -1,0 +1,99 @@
+{
+  "_generic": {
+    "defaultPackage": "cakephp/acl",
+    "location": "",
+    "packages": {
+      "cakephp/acl": "0.8.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "cakephp/plugin-installer@1.x-dev": "^1.0 || ^2.0",
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.2": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "intl",
+      "json",
+      "mbstring",
+      "openssl",
+      "pcre",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "tokenizer",
+      "xml",
+      "simplexml"
+    ],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cakephp/acl": {
+      "0.8.0": [
+        [ "cakephp/cakephp-codesniffer", "4.2.4" ]
+      ]
+    },
+    "cakephp/cakephp-codesniffer": {
+      "4.2.4": [
+        [ "slevomat/coding-standard", "6.4.1" ],
+        [ "squizlabs/php_codesniffer", "3.5.8" ]
+      ]
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": [
+        [ "squizlabs/php_codesniffer", "3.5.8" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
+        [ "squizlabs/php_codesniffer", "3.5.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "cakephp/acl": {
+      "0.8.0": {
+        "rev": "3eae9a9a6770768d077f08115794677be53de2d4",
+        "type": "git",
+        "url": "https://github.com/cakephp/acl.git"
+      }
+    },
+    "cakephp/cakephp-codesniffer": {
+      "4.2.4": {
+        "rev": "c5bb1faeebf09cd4a3604bdb0c84f7bc92dc5475",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cakephp/cakephp-codesniffer.git"
+      }
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.2": {
+        "rev": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": {
+        "rev": "696dcca217d0c9da2c40d02731526c1e25b65346",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.5.8": {
+        "rev": "9d583721a7157ee997f235f327de038e7ea6dac4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

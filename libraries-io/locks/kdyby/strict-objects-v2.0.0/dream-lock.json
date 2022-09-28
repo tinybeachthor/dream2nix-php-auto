@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "kdyby/strict-objects",
+    "location": "",
+    "packages": {
+      "kdyby/strict-objects": "v2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": "^7.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "kdyby/coding-standard": {
+      "v1.0": [
+        [ "nette/utils", "v3.2.x-dev" ],
+        [ "slevomat/coding-standard", "2.5.0" ]
+      ]
+    },
+    "kdyby/strict-objects": {
+      "v2.0.0": [
+        [ "jakub-onderka/php-parallel-lint", "v1.0.0" ],
+        [ "kdyby/coding-standard", "v1.0" ],
+        [ "phpstan/phpstan-shim", "0.11.19" ]
+      ]
+    }
+  },
+  "sources": {
+    "jakub-onderka/php-parallel-lint": {
+      "v1.0.0": {
+        "rev": "04fbd3f5fb1c83f08724aa58a23db90bd9086ee8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/JakubOnderka/PHP-Parallel-Lint.git"
+      }
+    },
+    "kdyby/coding-standard": {
+      "v1.0": {
+        "rev": "b1df144c44b40104167dfb96533e1a84e11ec60a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Kdyby/CodingStandard.git"
+      }
+    },
+    "kdyby/strict-objects": {
+      "v2.0.0": {
+        "rev": "c0579f929516d4b62a5adb93b5c21888995de3ce",
+        "type": "git",
+        "url": "https://github.com/Kdyby/StrictObjects.git"
+      }
+    },
+    "nette/utils": {
+      "v3.2.x-dev": {
+        "rev": "02a54c4c872b99e4ec05c4aec54b5a06eb0f6368",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "phpstan/phpstan-shim": {
+      "0.11.19": {
+        "rev": "e3c06b1d63691dae644ae1e5b540905c8c021801",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-shim.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "2.5.0": {
+        "rev": "4f59b04396da59871b2328147cbed2bcb459c212",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    }
+  }
+}

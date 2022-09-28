@@ -1,0 +1,951 @@
+{
+  "_generic": {
+    "defaultPackage": "nattreid/web-manager",
+    "location": "",
+    "packages": {
+      "nattreid/web-manager": "1.7.15"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "tokenizer",
+      "fileinfo",
+      "libxml",
+      "simplexml",
+      "zip",
+      "zlib",
+      "iconv",
+      "session"
+    ],
+    "phpSemver": ">= 7.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "attreid/forms-replicator": {
+      "v1.4.1": [
+        [ "nette/forms", "v2.4.11" ]
+      ]
+    },
+    "attreid/webloader": {
+      "2.5.1": [
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "ipub/flash-messages": {
+      "v2.0.10": [
+        [ "latte/latte", "v2.11.5" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/http", "v2.4.12" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "joseki/webloader-filters": {
+      "v1.1": [
+        [ "natxet/cssmin", "v3.0.6" ],
+        [ "tedivm/jshrink", "v1.4.0" ]
+      ]
+    },
+    "kdyby/translation": {
+      "v2.6.1": [
+        [ "kdyby/strict-objects", "v1.0.0" ],
+        [ "latte/latte", "v2.11.5" ],
+        [ "nette/caching", "v2.5.9" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/http", "v2.4.12" ],
+        [ "nette/neon", "v2.4.3" ],
+        [ "nette/php-generator", "v3.4.1" ],
+        [ "nette/reflection", "v2.4.2" ],
+        [ "nette/utils", "v2.5.7" ],
+        [ "psr/log", "1.1.4" ],
+        [ "symfony/config", "v4.4.44" ],
+        [ "symfony/translation", "v4.4.45" ]
+      ]
+    },
+    "nattreid/app-manager": {
+      "1.6.3": [
+        [ "nattreid/routing", "1.2.6" ],
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/caching", "v2.5.9" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "tracy/tracy", "v2.6.8" ]
+      ]
+    },
+    "nattreid/breadcrumbs": {
+      "1.1.1": [
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ]
+      ]
+    },
+    "nattreid/cms": {
+      "1.8.10": [
+        [ "attreid/webloader", "2.5.1" ],
+        [ "ipub/flash-messages", "v2.0.10" ],
+        [ "joseki/webloader-filters", "v1.1" ],
+        [ "kdyby/translation", "v2.6.1" ],
+        [ "nattreid/app-manager", "1.6.3" ],
+        [ "nattreid/file-manager", "1.5.5" ],
+        [ "nattreid/form", "1.7.11" ],
+        [ "nattreid/image-storage", "1.1.2" ],
+        [ "nattreid/latte", "1.1.8" ],
+        [ "nattreid/mailing", "1.2.1" ],
+        [ "nattreid/menu", "2.5.6" ],
+        [ "nattreid/modal", "2.1.6" ],
+        [ "nattreid/routing", "1.2.6" ],
+        [ "nattreid/security", "1.8.0" ],
+        [ "nattreid/tracking", "1.5.4" ],
+        [ "nattreid/tracy-plugin", "1.1.1" ],
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nextras/secured-links", "v1.4.0" ],
+        [ "oyejorge/less.php", "v1.7.0.14" ],
+        [ "ublaboo/datagrid", "v5.7.8" ]
+      ]
+    },
+    "nattreid/file-manager": {
+      "1.5.5": [
+        [ "ipub/flash-messages", "v2.0.10" ],
+        [ "nattreid/form", "1.7.11" ],
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nextras/secured-links", "v1.4.0" ]
+      ]
+    },
+    "nattreid/form": {
+      "1.7.11": [
+        [ "attreid/forms-replicator", "v1.4.1" ],
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/forms", "v2.4.11" ],
+        [ "nextras/forms", "v2.0.5" ]
+      ]
+    },
+    "nattreid/gallery": {
+      "2.4.10": [
+        [ "nattreid/image-storage", "1.1.2" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/utils", "v2.5.7" ],
+        [ "nextras/secured-links", "v1.4.0" ]
+      ]
+    },
+    "nattreid/image-storage": {
+      "1.1.2": [
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/http", "v2.4.12" ]
+      ]
+    },
+    "nattreid/latte": {
+      "1.1.8": [
+        [ "latte/latte", "v2.11.5" ],
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ]
+      ]
+    },
+    "nattreid/mailing": {
+      "1.2.1": [
+        [ "nattreid/latte", "1.1.8" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/mail", "v2.4.6" ]
+      ]
+    },
+    "nattreid/menu": {
+      "2.5.6": [
+        [ "nattreid/breadcrumbs", "1.1.1" ],
+        [ "nattreid/security", "1.8.0" ],
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ]
+      ]
+    },
+    "nattreid/modal": {
+      "2.1.6": [
+        [ "nette/application", "v2.4.17" ]
+      ]
+    },
+    "nattreid/orm": {
+      "1.11.0": [
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nextras/orm", "v3.1.4" ]
+      ]
+    },
+    "nattreid/routing": {
+      "1.2.6": [
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ]
+      ]
+    },
+    "nattreid/security": {
+      "1.8.0": [
+        [ "jaybizzle/crawler-detect", "v1.2.111" ],
+        [ "mobiledetect/mobiledetectlib", "2.8.39" ],
+        [ "nattreid/orm", "1.11.0" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/security", "v2.4.4" ]
+      ]
+    },
+    "nattreid/tracking": {
+      "1.5.4": [
+        [ "nattreid/orm", "1.11.0" ],
+        [ "nattreid/routing", "1.2.6" ],
+        [ "nattreid/security", "1.8.0" ],
+        [ "nattreid/utils", "1.7.7" ],
+        [ "nette/di", "v2.4.17" ]
+      ]
+    },
+    "nattreid/tracy-plugin": {
+      "1.1.1": [
+        [ "nette/bootstrap", "v2.4.6" ],
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/http", "v2.4.12" ],
+        [ "nette/utils", "v2.5.7" ],
+        [ "nextras/mail-panel", "v2.4.0" ],
+        [ "tracy/tracy", "v2.6.8" ]
+      ]
+    },
+    "nattreid/utils": {
+      "1.7.7": [
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nattreid/web-manager": {
+      "1.7.15": [
+        [ "nattreid/cms", "1.8.10" ],
+        [ "nattreid/gallery", "2.4.10" ],
+        [ "nette/tester", "v2.4.3" ],
+        [ "tracy/tracy", "v2.6.8" ]
+      ]
+    },
+    "nette/application": {
+      "v2.4.17": [
+        [ "nette/component-model", "v2.4.0" ],
+        [ "nette/http", "v2.4.12" ],
+        [ "nette/reflection", "v2.4.2" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/bootstrap": {
+      "v2.4.6": [
+        [ "nette/di", "v2.4.17" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/caching": {
+      "v2.5.9": [
+        [ "nette/finder", "v2.5.3" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/component-model": {
+      "v2.4.0": [
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/di": {
+      "v2.4.17": [
+        [ "nette/neon", "v2.4.3" ],
+        [ "nette/php-generator", "v3.4.1" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.5.3": [
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/forms": {
+      "v2.4.11": [
+        [ "nette/component-model", "v2.4.0" ],
+        [ "nette/http", "v2.4.12" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/http": {
+      "v2.4.12": [
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/mail": {
+      "v2.4.6": [
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/php-generator": {
+      "v3.4.1": [
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/reflection": {
+      "v2.4.2": [
+        [ "nette/caching", "v2.5.9" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nette/security": {
+      "v2.4.4": [
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nextras/forms": {
+      "v2.0.5": [
+        [ "latte/latte", "v2.11.5" ],
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/component-model", "v2.4.0" ],
+        [ "nette/forms", "v2.4.11" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "nextras/mail-panel": {
+      "v2.4.0": [
+        [ "latte/latte", "v2.11.5" ],
+        [ "nette/http", "v2.4.12" ],
+        [ "nette/mail", "v2.4.6" ],
+        [ "nette/utils", "v2.5.7" ],
+        [ "tracy/tracy", "v2.6.8" ]
+      ]
+    },
+    "nextras/orm": {
+      "v3.1.4": [
+        [ "nette/caching", "v2.5.9" ],
+        [ "nette/tokenizer", "v3.1.1" ],
+        [ "nette/utils", "v2.5.7" ],
+        [ "nextras/dbal", "v3.1.2" ]
+      ]
+    },
+    "nextras/secured-links": {
+      "v1.4.0": [
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    },
+    "symfony/config": {
+      "v4.4.44": [
+        [ "symfony/filesystem", "v5.4.12" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/polyfill-php81", "v1.26.0" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v5.4.12": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/inflector": {
+      "v5.4.11": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/string", "v6.1.4" ]
+      ]
+    },
+    "symfony/property-access": {
+      "v4.4.44": [
+        [ "symfony/inflector", "v5.4.11" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/string": {
+      "v6.1.4": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
+        [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/translation": {
+      "v4.4.45": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/translation-contracts", "v2.5.2" ]
+      ]
+    },
+    "ublaboo/datagrid": {
+      "v5.7.8": [
+        [ "nette/application", "v2.4.17" ],
+        [ "nette/forms", "v2.4.11" ],
+        [ "nette/utils", "v2.5.7" ],
+        [ "symfony/property-access", "v4.4.44" ],
+        [ "ublaboo/responses", "v1.0.7" ]
+      ]
+    },
+    "ublaboo/responses": {
+      "v1.0.7": [
+        [ "nette/http", "v2.4.12" ],
+        [ "nette/utils", "v2.5.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "attreid/forms-replicator": {
+      "v1.4.1": {
+        "rev": "213c5a11ef6f5a00f50ec67611de329e2fecd3fd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/attreid/FormsReplicator.git"
+      }
+    },
+    "attreid/webloader": {
+      "2.5.1": {
+        "rev": "abe7c13bac87afd36c8c245402da92c0f9c8ed20",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/attreid/WebLoader.git"
+      }
+    },
+    "ipub/flash-messages": {
+      "v2.0.10": {
+        "rev": "b4ada75c8da2f40e2b119f9c50d7cfb1fc6f61a8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ipublikuj-ui/flash-messages.git"
+      }
+    },
+    "jaybizzle/crawler-detect": {
+      "v1.2.111": {
+        "rev": "d572ed4a65a70a2d2871dc5137c9c5b7e69745ab",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/JayBizzle/Crawler-Detect.git"
+      }
+    },
+    "joseki/webloader-filters": {
+      "v1.1": {
+        "rev": "9598aab9efcbb762c6410c706c97578db5c2cd75",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Joseki/WebloaderFilters.git"
+      }
+    },
+    "kdyby/strict-objects": {
+      "v1.0.0": {
+        "rev": "ff6c82b54d8bea0d3f43dc5fce890ebe126e95c7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Kdyby/StrictObjects.git"
+      }
+    },
+    "kdyby/translation": {
+      "v2.6.1": {
+        "rev": "2bc453b6c10a06f28c11db5797304521e8fa1575",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Kdyby/Translation.git"
+      }
+    },
+    "latte/latte": {
+      "v2.11.5": {
+        "rev": "89e647e51213af8a270fe9903b8735a2f6c83ad1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/latte.git"
+      }
+    },
+    "mobiledetect/mobiledetectlib": {
+      "2.8.39": {
+        "rev": "0fd6753003fc870f6e229bae869cc1337c99bc45",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/serbanghita/Mobile-Detect.git"
+      }
+    },
+    "nattreid/app-manager": {
+      "1.6.3": {
+        "rev": "d5ecdab32699950f1764a2959921802d25a5631d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/app-manager.git"
+      }
+    },
+    "nattreid/breadcrumbs": {
+      "1.1.1": {
+        "rev": "3e5b2f0401491a1dbba2a2ab19b720391d698180",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/breadcrumbs.git"
+      }
+    },
+    "nattreid/cms": {
+      "1.8.10": {
+        "rev": "846c23a59afce083f6324931bd1d7abc45b83f1d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/cms.git"
+      }
+    },
+    "nattreid/file-manager": {
+      "1.5.5": {
+        "rev": "44fdbdfea330d42dd504deadc17ec0bc93984d7f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/file-manager.git"
+      }
+    },
+    "nattreid/form": {
+      "1.7.11": {
+        "rev": "d753520d34120ec8a096d099d6a805264f223d09",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/form.git"
+      }
+    },
+    "nattreid/gallery": {
+      "2.4.10": {
+        "rev": "f4d015b1d9419d7c43a3e40aa2bd0eb0696c85f9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/gallery.git"
+      }
+    },
+    "nattreid/image-storage": {
+      "1.1.2": {
+        "rev": "d2058e8468f3e3c49b76066081dab7bf1056ab1b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/image-storage.git"
+      }
+    },
+    "nattreid/latte": {
+      "1.1.8": {
+        "rev": "7775cda83bb920dfe4d1a9c6e86f57e77ac8cfbc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/latte.git"
+      }
+    },
+    "nattreid/mailing": {
+      "1.2.1": {
+        "rev": "d61750a47c38d7533294d74d6601ca99a25f1b7c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/mailing.git"
+      }
+    },
+    "nattreid/menu": {
+      "2.5.6": {
+        "rev": "d6813fb337548dac01079157cad30312759326d5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/menu.git"
+      }
+    },
+    "nattreid/modal": {
+      "2.1.6": {
+        "rev": "3a504c055b0832bcba1861bcff2f5fb3a29611f5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/modal.git"
+      }
+    },
+    "nattreid/orm": {
+      "1.11.0": {
+        "rev": "10c5ad30138d29ce268b205dccc2246eb78cafd2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/orm.git"
+      }
+    },
+    "nattreid/routing": {
+      "1.2.6": {
+        "rev": "0e6e761148258dcada16438c8bebb833a80aae0d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/routing.git"
+      }
+    },
+    "nattreid/security": {
+      "1.8.0": {
+        "rev": "b4917a68598f818613356ccac822b1a47abf850d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/security.git"
+      }
+    },
+    "nattreid/tracking": {
+      "1.5.4": {
+        "rev": "5fc7c993c08774945405c79a393584ef2ed589f7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/tracking.git"
+      }
+    },
+    "nattreid/tracy-plugin": {
+      "1.1.1": {
+        "rev": "045ce4a473c95ecedd4a630c1ce8718e56d8cf1c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/tracy-plugin.git"
+      }
+    },
+    "nattreid/utils": {
+      "1.7.7": {
+        "rev": "58ebbc1258da1afdce1272b31bbcc17853684662",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nattreid/utils.git"
+      }
+    },
+    "nattreid/web-manager": {
+      "1.7.15": {
+        "rev": "774b4939e0dc286569e0efd39d67ff466ed98f30",
+        "type": "git",
+        "url": "https://github.com/nattreid/web-manager.git"
+      }
+    },
+    "natxet/cssmin": {
+      "v3.0.6": {
+        "rev": "d5d9f4c3e5cedb1ae96a95a21731f8790e38f1dd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/natxet/CssMin.git"
+      }
+    },
+    "nette/application": {
+      "v2.4.17": {
+        "rev": "c2d4def8fce2602d74f03ff29204da0ee708c9dc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/application.git"
+      }
+    },
+    "nette/bootstrap": {
+      "v2.4.6": {
+        "rev": "268816e3f1bb7426c3a4ceec2bd38a036b532543",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/bootstrap.git"
+      }
+    },
+    "nette/caching": {
+      "v2.5.9": {
+        "rev": "d93ef446836a5a0ff7ef78d5ffebb7fe043f9953",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/caching.git"
+      }
+    },
+    "nette/component-model": {
+      "v2.4.0": {
+        "rev": "6e7980f5ddec31f68a39e767799b1b0be9dd1014",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/component-model.git"
+      }
+    },
+    "nette/di": {
+      "v2.4.17": {
+        "rev": "aa25fa3dfcb0fc40af8da1f2495af75b63b5db1d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.5.3": {
+        "rev": "64dc25b7929b731e72a1bc84a9e57727f5d5d3e8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/forms": {
+      "v2.4.11": {
+        "rev": "f29624795d77b155d5de82f186d0f63c8ebe03fe",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/forms.git"
+      }
+    },
+    "nette/http": {
+      "v2.4.12": {
+        "rev": "a5adfb1746f1d21d75e8b77f84a3d7f84977dcb6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/http.git"
+      }
+    },
+    "nette/mail": {
+      "v2.4.6": {
+        "rev": "431f1774034cc14ee6a795b6514fe6343f75a68e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/mail.git"
+      }
+    },
+    "nette/neon": {
+      "v2.4.3": {
+        "rev": "5e72b1dd3e2d34f0863c5561139a19df6a1ef398",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/neon.git"
+      }
+    },
+    "nette/php-generator": {
+      "v3.4.1": {
+        "rev": "7051954c534cebafd650efe8b145ac75b223cb66",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/php-generator.git"
+      }
+    },
+    "nette/reflection": {
+      "v2.4.2": {
+        "rev": "b12327e98ead74e87a1315e0d48182a702adf901",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/reflection.git"
+      }
+    },
+    "nette/security": {
+      "v2.4.4": {
+        "rev": "7b8ac90c9ec405bb3b4dab9214bf122d3620fc65",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/security.git"
+      }
+    },
+    "nette/tester": {
+      "v2.4.3": {
+        "rev": "451f6e97b117797e817446de8d19fe06e54fd33f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tester.git"
+      }
+    },
+    "nette/tokenizer": {
+      "v3.1.1": {
+        "rev": "370c5e4e2e10eb4d3e406d3a90526f821de98190",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tokenizer.git"
+      }
+    },
+    "nette/utils": {
+      "v2.5.7": {
+        "rev": "d272f87cd6491377231702b1ccd920b6e981b713",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "nextras/dbal": {
+      "v3.1.2": {
+        "rev": "884431eb074bebab8dd2bdfb7b68055a78ecabbb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nextras/dbal.git"
+      }
+    },
+    "nextras/forms": {
+      "v2.0.5": {
+        "rev": "895eee801b060af80bdea68b30bcc9fce391701b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nextras/forms.git"
+      }
+    },
+    "nextras/mail-panel": {
+      "v2.4.0": {
+        "rev": "790008bcbb9df1de8254cdda920ac023909b6b59",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nextras/mail-panel.git"
+      }
+    },
+    "nextras/orm": {
+      "v3.1.4": {
+        "rev": "d781eb328a345a680f9790c345337a2cb97b1109",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nextras/orm.git"
+      }
+    },
+    "nextras/secured-links": {
+      "v1.4.0": {
+        "rev": "39fe1b12fc737c584974bd8c4667fa4745aa561b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nextras/secured-links.git"
+      }
+    },
+    "oyejorge/less.php": {
+      "v1.7.0.14": {
+        "rev": "42925c5a01a07d67ca7e82dfc8fb31814d557bc9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oyejorge/less.php.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/config": {
+      "v4.4.44": {
+        "rev": "ed42f8f9da528d2c6cae36fe1f380b0c1d8f0658",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v5.4.12": {
+        "rev": "2d67c1f9a1937406a9be3171b4b22250c0a11447",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/inflector": {
+      "v5.4.11": {
+        "rev": "4cb14dfb9cf782a1c743aaf4dac101003583d377",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/inflector.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-intl-grapheme": {
+      "v1.26.0": {
+        "rev": "433d05519ce6990bf3530fba6957499d327395c2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-grapheme.git"
+      }
+    },
+    "symfony/polyfill-intl-normalizer": {
+      "v1.26.0": {
+        "rev": "219aa369ceff116e673852dce47c3a41794c14bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-intl-normalizer.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/polyfill-php81": {
+      "v1.26.0": {
+        "rev": "13f6d1271c663dc5ae9fb843a8f16521db7687a1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php81.git"
+      }
+    },
+    "symfony/property-access": {
+      "v4.4.44": {
+        "rev": "d49682f6f0764df725c95128213a38f7e0a9f358",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/property-access.git"
+      }
+    },
+    "symfony/string": {
+      "v6.1.4": {
+        "rev": "290972cad7b364e3befaa74ba0ec729800fb161c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/string.git"
+      }
+    },
+    "symfony/translation": {
+      "v4.4.45": {
+        "rev": "4e6b4c0dbeb04d6f004ed7f43eb0905ce8396def",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/translation-contracts": {
+      "v2.5.2": {
+        "rev": "136b19dd05cdf0709db6537d058bcab6dd6e2dbe",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation-contracts.git"
+      }
+    },
+    "tedivm/jshrink": {
+      "v1.4.0": {
+        "rev": "0513ba1407b1f235518a939455855e6952a48bbc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tedious/JShrink.git"
+      }
+    },
+    "tracy/tracy": {
+      "v2.6.8": {
+        "rev": "08710e2708a67e360b82e243c09489b2af2e3f54",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tracy.git"
+      }
+    },
+    "ublaboo/datagrid": {
+      "v5.7.8": {
+        "rev": "ee300c73c770d4030e3822022546393337ab50fb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/contributte/datagrid.git"
+      }
+    },
+    "ublaboo/responses": {
+      "v1.0.7": {
+        "rev": "b152c2ee836c315cf1878a7d092551244680ce42",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ublaboo/responses.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "_generic": {
+    "defaultPackage": "bearcms/bearframework-addon",
+    "location": "",
+    "packages": {
+      "bearcms/bearframework-addon": "v1.53.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "curl",
+      "zip",
+      "gd",
+      "openssl",
+      "dom"
+    ],
+    "phpSemver": "7.1.*|7.2.*|7.3.*|7.4.*|8.0.*|8.1.*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bearcms/bearframework-addon": {
+      "v1.53.1": [
+        [ "bearframework/addon-tests", "v1.3.0" ],
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "bearframework/emails-addon", "v1.2.0" ],
+        [ "bearframework/html-template", "v1.1.0" ],
+        [ "bearframework/localization-addon", "v1.2.1" ],
+        [ "bearframework/models-addon", "v1.4.0" ],
+        [ "bearframework/tasks-addon", "v1.1.0" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/data-bundle-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/data-object", "v1.2.1" ],
+        [ "ivopetkov/docs-generator", "v1.0.0" ],
+        [ "ivopetkov/encryption-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/form-bearframework-addon", "1.7.0" ],
+        [ "ivopetkov/form-elements-bearframework-addon", "v1.5.0" ],
+        [ "ivopetkov/google-fonts-embed-bearframework-addon", "v1.2.0" ],
+        [ "ivopetkov/html-server-components-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-js-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ],
+        [ "ivopetkov/image-gallery-bearframework-addon", "v1.9.0" ],
+        [ "ivopetkov/navigation-menu-bearframework-addon", "v1.3.1" ],
+        [ "ivopetkov/notifications-bearframework-addon", "v1.2.1" ],
+        [ "ivopetkov/responsive-attributes-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/responsively-lazy-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/server-requests-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/users-bearframework-addon", "v1.1.2" ],
+        [ "ivopetkov/video-embed", "v0.4.2" ]
+      ]
+    },
+    "bearframework/addon-tests": {
+      "v1.3.0": [
+        [ "bearframework/bearframework", "v1.8.0" ]
+      ]
+    },
+    "bearframework/bearframework": {
+      "v1.8.0": [
+        [ "ivopetkov/data-object", "v1.2.1" ],
+        [ "ivopetkov/object-storage", "v1.3.0" ]
+      ]
+    },
+    "bearframework/emails-addon": {
+      "v1.2.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "bearframework/models-addon", "v1.4.0" ]
+      ]
+    },
+    "bearframework/html-template": {
+      "v1.1.0": [
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ]
+      ]
+    },
+    "bearframework/localization-addon": {
+      "v1.2.1": [
+        [ "bearframework/bearframework", "v1.8.0" ]
+      ]
+    },
+    "bearframework/models-addon": {
+      "v1.4.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/data-object", "v1.2.1" ]
+      ]
+    },
+    "bearframework/tasks-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/locks-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/client-packages-bearframework-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ]
+      ]
+    },
+    "ivopetkov/data-bundle-bearframework-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/locks-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/encryption-bearframework-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ]
+      ]
+    },
+    "ivopetkov/form-bearframework-addon": {
+      "1.7.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "bearframework/localization-addon", "v1.2.1" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/encryption-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html-server-components-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ],
+        [ "ivopetkov/server-requests-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/form-elements-bearframework-addon": {
+      "v1.5.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "bearframework/localization-addon", "v1.2.1" ],
+        [ "ivopetkov/html-server-components-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ]
+      ]
+    },
+    "ivopetkov/google-fonts-embed-bearframework-addon": {
+      "v1.2.0": [
+        [ "bearframework/bearframework", "v1.8.0" ]
+      ]
+    },
+    "ivopetkov/html-server-components-bearframework-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/html-server-components-compiler", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/html-server-components-compiler": {
+      "v1.1.0": [
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ]
+      ]
+    },
+    "ivopetkov/html5-dom-document-js-bearframework-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/image-gallery-bearframework-addon": {
+      "v1.9.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/encryption-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html-server-components-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-js-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ],
+        [ "ivopetkov/js-lightbox-bearframework-addon", "v1.3.0" ],
+        [ "ivopetkov/lazy-image-bearframework-addon", "v1.7.2" ],
+        [ "ivopetkov/responsive-attributes-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/server-requests-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/js-lightbox-bearframework-addon": {
+      "v1.3.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-js-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/lazy-image-bearframework-addon": {
+      "v1.7.2": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html-server-components-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/responsively-lazy-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/locks-bearframework-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/lock", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/navigation-menu-bearframework-addon": {
+      "v1.3.1": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html-server-components-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ],
+        [ "ivopetkov/responsive-attributes-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/notifications-bearframework-addon": {
+      "v1.2.1": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/data-object", "v1.2.1" ]
+      ]
+    },
+    "ivopetkov/responsive-attributes-bearframework-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/responsively-lazy-bearframework-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ]
+      ]
+    },
+    "ivopetkov/server-requests-bearframework-addon": {
+      "v1.1.0": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ]
+      ]
+    },
+    "ivopetkov/users-bearframework-addon": {
+      "v1.1.2": [
+        [ "bearframework/bearframework", "v1.8.0" ],
+        [ "bearframework/localization-addon", "v1.2.1" ],
+        [ "ivopetkov/client-packages-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/data-object", "v1.2.1" ],
+        [ "ivopetkov/form-bearframework-addon", "1.7.0" ],
+        [ "ivopetkov/form-elements-bearframework-addon", "v1.5.0" ],
+        [ "ivopetkov/html-server-components-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-js-bearframework-addon", "v1.1.0" ],
+        [ "ivopetkov/html5-dom-document-php", "v2.3.1" ],
+        [ "ivopetkov/js-lightbox-bearframework-addon", "v1.3.0" ],
+        [ "ivopetkov/server-requests-bearframework-addon", "v1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "bearcms/bearframework-addon": {
+      "v1.53.1": {
+        "rev": "064b6398b43529c2b8577025b1fc5b2ce4b5ff8f",
+        "type": "git",
+        "url": "https://github.com/bearcms/bearframework-addon.git"
+      }
+    },
+    "bearframework/addon-tests": {
+      "v1.3.0": {
+        "rev": "18a963d5afd0297595255a0c8dbef9f4466b7838",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bearframework/addon-tests.git"
+      }
+    },
+    "bearframework/bearframework": {
+      "v1.8.0": {
+        "rev": "35ea547490ae95237f4fec3187cc8a6166ac9708",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bearframework/bearframework.git"
+      }
+    },
+    "bearframework/emails-addon": {
+      "v1.2.0": {
+        "rev": "ff51c79c0859dd48f5ba15eff686d59f9ed3bbdd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bearframework/emails-addon.git"
+      }
+    },
+    "bearframework/html-template": {
+      "v1.1.0": {
+        "rev": "e2cfa4d58c4156507fd7d269e91d4650832b7227",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bearframework/html-template.git"
+      }
+    },
+    "bearframework/localization-addon": {
+      "v1.2.1": {
+        "rev": "831c60d05681218a5c1331c4c25189ff8c82a34a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bearframework/localization-addon.git"
+      }
+    },
+    "bearframework/models-addon": {
+      "v1.4.0": {
+        "rev": "4825db681d03814c4840f4ebf113852942e39f70",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bearframework/models-addon.git"
+      }
+    },
+    "bearframework/tasks-addon": {
+      "v1.1.0": {
+        "rev": "adefb84cd240d8bd48fc6adeecc258b28ea3db51",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bearframework/tasks-addon.git"
+      }
+    },
+    "ivopetkov/client-packages-bearframework-addon": {
+      "v1.1.0": {
+        "rev": "9ef0b5f24775b32ea6e75fc2755a96e11db62f4f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/client-packages-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/data-bundle-bearframework-addon": {
+      "v1.1.0": {
+        "rev": "3166286055df84da6e9692b36e6670a5d97d204c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/data-bundle-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/data-object": {
+      "v1.2.1": {
+        "rev": "5ed9ae846fd7ba0b7e92a02802f1a51b77a16c90",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/data-object.git"
+      }
+    },
+    "ivopetkov/docs-generator": {
+      "v1.0.0": {
+        "rev": "e05955fdce1d580933576aa6c0146fc4a328b515",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/docs-generator.git"
+      }
+    },
+    "ivopetkov/encryption-bearframework-addon": {
+      "v1.1.0": {
+        "rev": "cf7525bf93eefe48056729167db17e7814a30c2c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/encryption-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/form-bearframework-addon": {
+      "1.7.0": {
+        "rev": "87ed4a0713d49c4adfd09e5baefab28f7c11fceb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/form-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/form-elements-bearframework-addon": {
+      "v1.5.0": {
+        "rev": "c8c66e1906566916c5b12d7e279fd9ba83e0dc91",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/form-elements-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/google-fonts-embed-bearframework-addon": {
+      "v1.2.0": {
+        "rev": "a3000cc0c6c71543fbf5c799de1618f40121ab2e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/google-fonts-embed-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/html-server-components-bearframework-addon": {
+      "v1.1.0": {
+        "rev": "18111e80adfecc9797a8cea2af10492ba9067f32",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/html-server-components-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/html-server-components-compiler": {
+      "v1.1.0": {
+        "rev": "5239a50700e4ffd5fd51f4dc2d9e9ff0b090b88e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/html-server-components-compiler.git"
+      }
+    },
+    "ivopetkov/html5-dom-document-js-bearframework-addon": {
+      "v1.1.0": {
+        "rev": "3f1491ef3978624ca2070cc3ab3da3eb21fc4bd4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/html5-dom-document-js-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/html5-dom-document-php": {
+      "v2.3.1": {
+        "rev": "311fefc9707e610aed149b5d705897bb6de2ab2c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/html5-dom-document-php.git"
+      }
+    },
+    "ivopetkov/image-gallery-bearframework-addon": {
+      "v1.9.0": {
+        "rev": "16b1beac82dd9dace18d67c89093079660d3341a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/image-gallery-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/js-lightbox-bearframework-addon": {
+      "v1.3.0": {
+        "rev": "5cdca6245d8181e0c2c82103e5ca64380f5724e2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/js-lightbox-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/lazy-image-bearframework-addon": {
+      "v1.7.2": {
+        "rev": "b4472ed00c9040cdcb39e4cf864cf8ff659ea6c8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/lazy-image-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/lock": {
+      "v1.1.0": {
+        "rev": "f32ec4cb6eb0b5e5a378eef22be8baa429a1b9c7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/lock.git"
+      }
+    },
+    "ivopetkov/locks-bearframework-addon": {
+      "v1.1.0": {
+        "rev": "eb4695c9992c5836065e6f94bc53a8201ab4c19a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/locks-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/navigation-menu-bearframework-addon": {
+      "v1.3.1": {
+        "rev": "d4c0a7093de225221e76ad1c1042d3569227834a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/navigation-menu-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/notifications-bearframework-addon": {
+      "v1.2.1": {
+        "rev": "b1a886d61db27528400b1282cbdc6cdd5c2c0871",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/notifications-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/object-storage": {
+      "v1.3.0": {
+        "rev": "bf4a44bf695392c32e4d1f6faad6b70f91ff01ef",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/object-storage.git"
+      }
+    },
+    "ivopetkov/responsive-attributes-bearframework-addon": {
+      "v1.1.0": {
+        "rev": "33d2147daf67bb7ced63042d37938447933d689a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/responsive-attributes-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/responsively-lazy-bearframework-addon": {
+      "v1.1.0": {
+        "rev": "5f28327744631277f53adac8ccf99c3722b75f61",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/responsively-lazy-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/server-requests-bearframework-addon": {
+      "v1.1.0": {
+        "rev": "13138c78ad1fe7176d99758942b7ada6700c40af",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/server-requests-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/users-bearframework-addon": {
+      "v1.1.2": {
+        "rev": "a97a84f47fdb94328ae56c9301514a78471905cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/users-bearframework-addon.git"
+      }
+    },
+    "ivopetkov/video-embed": {
+      "v0.4.2": {
+        "rev": "ba7f1fb87557535737245b49cf4083995c3ff288",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ivopetkov/video-embed.git"
+      }
+    }
+  }
+}

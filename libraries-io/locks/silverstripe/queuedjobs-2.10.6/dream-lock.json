@@ -1,0 +1,126 @@
+{
+  "_generic": {
+    "defaultPackage": "silverstripe/queuedjobs",
+    "location": "",
+    "packages": {
+      "silverstripe/queuedjobs": "2.10.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "composer/installers@v1.12.0": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "asyncphp/doorman": {
+      "1.2.0": [
+        [ "jeremeamia/superclosure", "1.0.2" ],
+        [ "ramsey/array_column", "1.1.3" ]
+      ]
+    },
+    "jeremeamia/superclosure": {
+      "1.0.2": [
+        [ "nikic/php-parser", "v0.9.5" ]
+      ]
+    },
+    "silverstripe/framework": {
+      "3.7.7": [
+        [ "composer/installers", "v1.12.0" ],
+        [ "mustangostang/spyc", "0.6.3" ]
+      ]
+    },
+    "silverstripe/queuedjobs": {
+      "2.10.6": [
+        [ "asyncphp/doorman", "1.2.0" ],
+        [ "silverstripe/framework", "3.7.7" ],
+        [ "symbiote/silverstripe-multivaluefield", "2.4.4" ]
+      ]
+    },
+    "symbiote/silverstripe-multivaluefield": {
+      "2.4.4": [
+        [ "silverstripe/framework", "3.7.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "asyncphp/doorman": {
+      "1.2.0": {
+        "rev": "0da7eabebeae503fc05e90acaed021c692fceb57",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/asyncphp/doorman.git"
+      }
+    },
+    "composer/installers": {
+      "v1.12.0": {
+        "rev": "d20a64ed3c94748397ff5973488761b22f6d3f19",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/installers.git"
+      }
+    },
+    "jeremeamia/superclosure": {
+      "1.0.2": {
+        "rev": "4d89ca74994feab128ea46d5b3add92e6cb84554",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/jeremeamia/super_closure.git"
+      }
+    },
+    "mustangostang/spyc": {
+      "0.6.3": {
+        "rev": "4627c838b16550b666d15aeae1e5289dd5b77da0",
+        "submodules": false,
+        "type": "git",
+        "url": "git@github.com:mustangostang/spyc.git"
+      }
+    },
+    "nikic/php-parser": {
+      "v0.9.5": {
+        "rev": "ef70767475434bdb3615b43c327e2cae17ef12eb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nikic/PHP-Parser.git"
+      }
+    },
+    "ramsey/array_column": {
+      "1.1.3": {
+        "rev": "f8e52eb28e67eb50e613b451dd916abcf783c1db",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ramsey/array_column.git"
+      }
+    },
+    "silverstripe/framework": {
+      "3.7.7": {
+        "rev": "d68a50aeaad334badb292e6d87f3c7ca7a3459c3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/silverstripe/silverstripe-framework.git"
+      }
+    },
+    "silverstripe/queuedjobs": {
+      "2.10.6": {
+        "rev": "aabfab5c18c5fc36d8e0b70553468e18b403d14c",
+        "type": "git",
+        "url": "https://github.com/symbiote/silverstripe-queuedjobs.git"
+      }
+    },
+    "symbiote/silverstripe-multivaluefield": {
+      "2.4.4": {
+        "rev": "e280683e3ce7973c916fa1436d06aa44a350f768",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symbiote/silverstripe-multivaluefield.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_generic": {
+    "defaultPackage": "joomla/utilities",
+    "location": "",
+    "packages": {
+      "joomla/utilities": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "json",
+      "mbstring",
+      "xml",
+      "simplexml"
+    ],
+    "phpSemver": "^7.2.5|^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "joomla/utilities": {
+      "2.0.0": [
+        [ "joomla/coding-standards", "2.0-rc4" ]
+      ]
+    }
+  },
+  "sources": {
+    "joomla/coding-standards": {
+      "2.0-rc4": {
+        "rev": "d6a62eab09e342be51be2b30030b61071e26c8ca",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/joomla/coding-standards.git"
+      }
+    },
+    "joomla/utilities": {
+      "2.0.0": {
+        "rev": "f5d4fcf778abbbf1c099814297c87ef177e8b268",
+        "type": "git",
+        "url": "https://github.com/joomla-framework/utilities.git"
+      }
+    }
+  }
+}

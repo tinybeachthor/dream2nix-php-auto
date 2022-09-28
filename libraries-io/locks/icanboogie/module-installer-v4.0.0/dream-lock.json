@@ -1,0 +1,310 @@
+{
+  "_generic": {
+    "defaultPackage": "icanboogie/module-installer",
+    "location": "",
+    "packages": {
+      "icanboogie/module-installer": "v4.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "mbstring",
+      "json"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {
+    "icanboogie/bind-event": {
+      "v3.0.0": [
+        [ "icanboogie/icanboogie", "v4.0.0" ]
+      ]
+    },
+    "icanboogie/bind-prototype": {
+      "v4.0.0": [
+        [ "icanboogie/icanboogie", "v4.0.0" ]
+      ]
+    },
+    "icanboogie/icanboogie": {
+      "v4.0.0": [
+        [ "icanboogie/bind-http", "v3.0.0" ],
+        [ "icanboogie/bind-routing", "v4.0.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "icanboogie/accessor": {
+      "v1.0.3": [
+        [ "icanboogie/common", "v1.3.2" ]
+      ]
+    },
+    "icanboogie/bind-event": {
+      "v3.0.0": [
+        [ "icanboogie/event", "v3.0.0" ],
+        [ "icanboogie/icanboogie", "v4.0.0" ]
+      ]
+    },
+    "icanboogie/bind-http": {
+      "v3.0.0": [
+        [ "icanboogie/http", "v3.0.0" ],
+        [ "icanboogie/icanboogie", "v4.0.0" ]
+      ]
+    },
+    "icanboogie/bind-prototype": {
+      "v4.0.0": [
+        [ "icanboogie/icanboogie", "v4.0.0" ],
+        [ "icanboogie/prototype", "v4.1.0" ]
+      ]
+    },
+    "icanboogie/bind-routing": {
+      "v4.0.0": [
+        [ "icanboogie/bind-http", "v3.0.0" ],
+        [ "icanboogie/icanboogie", "v4.0.0" ],
+        [ "icanboogie/routing", "v4.0.1" ]
+      ]
+    },
+    "icanboogie/config": {
+      "v1.3.0": [
+        [ "icanboogie/common", "v1.3.2" ],
+        [ "icanboogie/storage", "v3.0.0" ]
+      ]
+    },
+    "icanboogie/errors": {
+      "v2.0.1": [
+        [ "icanboogie/common", "v1.3.2" ]
+      ]
+    },
+    "icanboogie/event": {
+      "v3.0.0": [
+        [ "icanboogie/accessor", "v1.0.3" ],
+        [ "icanboogie/common", "v1.3.2" ],
+        [ "icanboogie/inflector", "v1.5.0" ]
+      ]
+    },
+    "icanboogie/http": {
+      "v3.0.0": [
+        [ "icanboogie/datetime", "v1.2.0" ],
+        [ "icanboogie/event", "v3.0.0" ],
+        [ "icanboogie/prototype", "v4.1.0" ]
+      ]
+    },
+    "icanboogie/icanboogie": {
+      "v4.0.0": [
+        [ "icanboogie/bind-event", "v3.0.0" ],
+        [ "icanboogie/bind-http", "v3.0.0" ],
+        [ "icanboogie/bind-prototype", "v4.0.0" ],
+        [ "icanboogie/bind-routing", "v4.0.0" ],
+        [ "icanboogie/config", "v1.3.0" ],
+        [ "icanboogie/session", "v1.0.0" ],
+        [ "icanboogie/storage", "v3.0.0" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "icanboogie/module": {
+      "v4.0.0": [
+        [ "icanboogie/errors", "v2.0.1" ],
+        [ "icanboogie/event", "v3.0.0" ],
+        [ "icanboogie/operation", "v4.0.0" ]
+      ]
+    },
+    "icanboogie/module-installer": {
+      "v4.0.0": [
+        [ "icanboogie/module", "v4.0.0" ]
+      ]
+    },
+    "icanboogie/operation": {
+      "v4.0.0": [
+        [ "icanboogie/bind-routing", "v4.0.0" ],
+        [ "icanboogie/errors", "v2.0.1" ]
+      ]
+    },
+    "icanboogie/prototype": {
+      "v4.1.0": [
+        [ "icanboogie/accessor", "v1.0.3" ],
+        [ "icanboogie/common", "v1.3.2" ]
+      ]
+    },
+    "icanboogie/routing": {
+      "v4.0.1": [
+        [ "icanboogie/http", "v3.0.0" ]
+      ]
+    },
+    "icanboogie/session": {
+      "v1.0.0": [
+        [ "icanboogie/accessor", "v1.0.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "icanboogie/accessor": {
+      "v1.0.3": {
+        "rev": "96b5511180f46481add11a2b447d17e38bdb55a1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Accessor.git"
+      }
+    },
+    "icanboogie/bind-event": {
+      "v3.0.0": {
+        "rev": "8e03dc0623ac303bbd346ce17743278179aa40f5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/bind-event.git"
+      }
+    },
+    "icanboogie/bind-http": {
+      "v3.0.0": {
+        "rev": "9083dcaceef5f7b6990a93b0f4736f881f0b9915",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/bind-http.git"
+      }
+    },
+    "icanboogie/bind-prototype": {
+      "v4.0.0": {
+        "rev": "3f8c5efeec0b7fb9a2b0bb6930011675df26d55d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/bind-prototype.git"
+      }
+    },
+    "icanboogie/bind-routing": {
+      "v4.0.0": {
+        "rev": "e75ea0a64b700a86ff473814d864759be6928b3d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/bind-routing.git"
+      }
+    },
+    "icanboogie/common": {
+      "v1.3.2": {
+        "rev": "2a08c4fd0d3303aaaee48bf9163c37f87582dcd5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Common.git"
+      }
+    },
+    "icanboogie/config": {
+      "v1.3.0": {
+        "rev": "8bac5bf061ea4eaf9933730efe7a22058369632f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Config.git"
+      }
+    },
+    "icanboogie/datetime": {
+      "v1.2.0": {
+        "rev": "16314ad8b8bbd9a166ea6917d916fbbb6acbf229",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/DateTime.git"
+      }
+    },
+    "icanboogie/errors": {
+      "v2.0.1": {
+        "rev": "9aa5776e84bce0ab9a42ccc50ca5c6265c03eebf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Errors.git"
+      }
+    },
+    "icanboogie/event": {
+      "v3.0.0": {
+        "rev": "a136837c6604e7040fca9f72c77b13f0e298be9d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Event.git"
+      }
+    },
+    "icanboogie/http": {
+      "v3.0.0": {
+        "rev": "64552f11fcbd9aa848e3fd2243186413e8437bfc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/HTTP.git"
+      }
+    },
+    "icanboogie/icanboogie": {
+      "v4.0.0": {
+        "rev": "f33ed22c51a4036b04c92ca923879e427a4f7ff6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/ICanBoogie.git"
+      }
+    },
+    "icanboogie/inflector": {
+      "v1.5.0": {
+        "rev": "fb6ca7977f8a7ebb46aff0183ee868d798f77ab8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Inflector.git"
+      }
+    },
+    "icanboogie/module": {
+      "v4.0.0": {
+        "rev": "40bda9821ac06f0bcdcf21e1585c20bdea8e3d88",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Module.git"
+      }
+    },
+    "icanboogie/module-installer": {
+      "v4.0.0": {
+        "rev": "497dc6423f73c7473780df1384fe13daadccba19",
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/modules-installer.git"
+      }
+    },
+    "icanboogie/operation": {
+      "v4.0.0": {
+        "rev": "61f1539d59232231adfad3e012cc194eef39efac",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Operation.git"
+      }
+    },
+    "icanboogie/prototype": {
+      "v4.1.0": {
+        "rev": "e319dabc0c75f8be57a3d8d0867fe2bdddbd1bb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Prototype.git"
+      }
+    },
+    "icanboogie/routing": {
+      "v4.0.1": {
+        "rev": "d62c95be271879445334a618f24c18d77ea816c3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Routing.git"
+      }
+    },
+    "icanboogie/session": {
+      "v1.0.0": {
+        "rev": "1dc5feb01e9149876200c5d8472adf8d07641a95",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Session.git"
+      }
+    },
+    "icanboogie/storage": {
+      "v3.0.0": {
+        "rev": "c040968a0b994e53de4c4573d4b0501e89e73a88",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Storage.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    }
+  }
+}

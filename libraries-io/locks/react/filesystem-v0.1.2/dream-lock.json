@@ -1,0 +1,525 @@
+{
+  "_generic": {
+    "defaultPackage": "react/filesystem",
+    "location": "",
+    "packages": {
+      "react/filesystem": "v0.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "dom",
+      "json",
+      "pcre",
+      "reflection",
+      "spl"
+    ],
+    "phpSemver": ">=5.4.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "clue/block-react": {
+      "v1.2.0": [
+        [ "react/event-loop", "v0.5.2" ],
+        [ "react/promise", "v2.5.1" ],
+        [ "react/promise-timer", "v1.2.1" ]
+      ]
+    },
+    "phpspec/prophecy": {
+      "1.7.5": [
+        [ "doctrine/instantiator", "1.0.5" ],
+        [ "phpdocumentor/reflection-docblock", "2.0.5" ],
+        [ "sebastian/comparator", "1.2.4" ],
+        [ "sebastian/recursion-context", "1.0.5" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": [
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "1.4.12" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/version", "1.0.6" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "4.8.36": [
+        [ "phpspec/prophecy", "1.7.5" ],
+        [ "phpunit/php-code-coverage", "2.2.4" ],
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-timer", "1.0.9" ],
+        [ "phpunit/phpunit-mock-objects", "2.3.8" ],
+        [ "sebastian/comparator", "1.2.4" ],
+        [ "sebastian/diff", "1.4.3" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/exporter", "1.2.2" ],
+        [ "sebastian/global-state", "1.1.1" ],
+        [ "sebastian/version", "1.0.6" ],
+        [ "symfony/yaml", "v2.8.36" ]
+      ]
+    },
+    "phpunit/phpunit-mock-objects": {
+      "2.3.8": [
+        [ "doctrine/instantiator", "1.0.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "sebastian/exporter", "1.2.2" ]
+      ]
+    },
+    "react/cache": {
+      "v0.4.2": [
+        [ "react/promise", "v2.5.1" ]
+      ]
+    },
+    "react/child-process": {
+      "v0.5.2": [
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "react/event-loop", "v0.5.2" ],
+        [ "react/stream", "v0.7.7" ]
+      ]
+    },
+    "react/dns": {
+      "v0.4.13": [
+        [ "react/cache", "v0.4.2" ],
+        [ "react/event-loop", "v0.5.2" ],
+        [ "react/promise", "v2.5.1" ],
+        [ "react/promise-timer", "v1.2.1" ],
+        [ "react/stream", "v0.7.7" ]
+      ]
+    },
+    "react/filesystem": {
+      "v0.1.2": [
+        [ "clue/block-react", "v1.2.0" ],
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "phpunit/phpunit", "4.8.36" ],
+        [ "react/event-loop", "v0.5.2" ],
+        [ "react/promise", "v2.5.1" ],
+        [ "react/promise-stream", "v1.1.1" ],
+        [ "react/stream", "v0.7.7" ],
+        [ "wyrihaximus/react-child-process-pool", "1.4.2" ]
+      ]
+    },
+    "react/promise-stream": {
+      "v1.1.1": [
+        [ "react/promise", "v2.5.1" ],
+        [ "react/stream", "v0.7.7" ]
+      ]
+    },
+    "react/promise-timer": {
+      "v1.2.1": [
+        [ "react/event-loop", "v0.5.2" ],
+        [ "react/promise", "v2.5.1" ]
+      ]
+    },
+    "react/socket": {
+      "v0.8.10": [
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "react/dns", "v0.4.13" ],
+        [ "react/event-loop", "v0.5.2" ],
+        [ "react/promise", "v2.5.1" ],
+        [ "react/promise-timer", "v1.2.1" ],
+        [ "react/stream", "v0.7.7" ]
+      ]
+    },
+    "react/stream": {
+      "v0.7.7": [
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "react/event-loop", "v0.5.2" ]
+      ]
+    },
+    "sebastian/comparator": {
+      "1.2.4": [
+        [ "sebastian/diff", "1.4.3" ],
+        [ "sebastian/exporter", "1.2.2" ]
+      ]
+    },
+    "sebastian/exporter": {
+      "1.2.2": [
+        [ "sebastian/recursion-context", "1.0.5" ]
+      ]
+    },
+    "wyrihaximus/cpu-core-detector": {
+      "1.0.1": [
+        [ "react/child-process", "v0.5.2" ],
+        [ "tivie/php-os-detector", "1.1.0" ],
+        [ "wyrihaximus/react-child-process-promise", "2.0.1" ],
+        [ "wyrihaximus/ticking-promise", "1.6.3" ]
+      ]
+    },
+    "wyrihaximus/json-throwable": {
+      "1.1.1": [
+        [ "doctrine/instantiator", "1.0.5" ]
+      ]
+    },
+    "wyrihaximus/react-child-process-messenger": {
+      "2.8.1": [
+        [ "cakephp/utility", "3.4.7" ],
+        [ "doctrine/inflector", "v1.1.0" ],
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "indigophp/hash-compat", "v1.1.0" ],
+        [ "paragonie/random_compat", "v2.0.11" ],
+        [ "react/child-process", "v0.5.2" ],
+        [ "react/promise", "v2.5.1" ],
+        [ "react/promise-stream", "v1.1.1" ],
+        [ "react/socket", "v0.8.10" ],
+        [ "wyrihaximus/json-throwable", "1.1.1" ],
+        [ "wyrihaximus/ticking-promise", "1.6.3" ]
+      ]
+    },
+    "wyrihaximus/react-child-process-pool": {
+      "1.4.2": [
+        [ "evenement/evenement", "v2.1.0" ],
+        [ "wyrihaximus/cpu-core-detector", "1.0.1" ],
+        [ "wyrihaximus/react-child-process-messenger", "2.8.1" ],
+        [ "wyrihaximus/ticking-promise", "1.6.3" ]
+      ]
+    },
+    "wyrihaximus/react-child-process-promise": {
+      "2.0.1": [
+        [ "react/child-process", "v0.5.2" ],
+        [ "react/promise", "v2.5.1" ],
+        [ "wyrihaximus/ticking-promise", "1.6.3" ]
+      ]
+    },
+    "wyrihaximus/ticking-promise": {
+      "1.6.3": [
+        [ "react/event-loop", "v0.5.2" ],
+        [ "react/promise", "v2.5.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "cakephp/utility": {
+      "3.4.7": {
+        "rev": "f194ce6c83f54d96ce8ae0020b5f58fa850a8ef4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cakephp/utility.git"
+      }
+    },
+    "clue/block-react": {
+      "v1.2.0": {
+        "rev": "966c255580ec7a0259338798ddb89f77e121fe9e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/clue/php-block-react.git"
+      }
+    },
+    "doctrine/inflector": {
+      "v1.1.0": {
+        "rev": "90b2128806bfde671b6952ab8bea493942c1fdae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/inflector.git"
+      }
+    },
+    "doctrine/instantiator": {
+      "1.0.5": {
+        "rev": "8e884e78f9f0eb1329e445619e04456e64d8051d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "evenement/evenement": {
+      "v2.1.0": {
+        "rev": "6ba9a777870ab49f417e703229d53931ed40fd7a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/igorw/evenement.git"
+      }
+    },
+    "indigophp/hash-compat": {
+      "v1.1.0": {
+        "rev": "43a19f42093a0cd2d11874dff9d891027fc42214",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/indigophp/hash-compat.git"
+      }
+    },
+    "paragonie/random_compat": {
+      "v2.0.11": {
+        "rev": "5da4d3c796c275c55f057af5a643ae297d96b4d8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/paragonie/random_compat.git"
+      }
+    },
+    "phpdocumentor/reflection-docblock": {
+      "2.0.5": {
+        "rev": "e6a969a640b00d8daa3c66518b0405fb41ae0c4b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "phpspec/prophecy": {
+      "1.7.5": {
+        "rev": "dfd6be44111a7c41c2e884a336cc4f461b3b2401",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpspec/prophecy.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": {
+        "rev": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "1.4.5": {
+        "rev": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "1.0.9": {
+        "rev": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.4.12": {
+        "rev": "1ce90ba27c42e4e44e6d8458241466380b51fa16",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "4.8.36": {
+        "rev": "46023de9a91eec7dfb06cc56cb4e260017298517",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "phpunit/phpunit-mock-objects": {
+      "2.3.8": {
+        "rev": "ac8e7a3db35738d56ee9a76e78a4e03d97628983",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
+      }
+    },
+    "react/cache": {
+      "v0.4.2": {
+        "rev": "75494f26b4ef089db9bf8c90b63c296246e099e8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/cache.git"
+      }
+    },
+    "react/child-process": {
+      "v0.5.2": {
+        "rev": "aae49d7f1340bafb695b9af3ce4421ea41a39620",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/child-process.git"
+      }
+    },
+    "react/dns": {
+      "v0.4.13": {
+        "rev": "7d1e08c300fd7de600810883386ee5e2a64898f4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/dns.git"
+      }
+    },
+    "react/event-loop": {
+      "v0.5.2": {
+        "rev": "e94985d93c689c554265b01014f8c3064921ca27",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/event-loop.git"
+      }
+    },
+    "react/filesystem": {
+      "v0.1.2": {
+        "rev": "766cdef9ba806367114f0c5ba36ea2a6eec8ccd2",
+        "type": "git",
+        "url": "https://github.com/reactphp/filesystem.git"
+      }
+    },
+    "react/promise": {
+      "v2.5.1": {
+        "rev": "62785ae604c8d69725d693eb370e1d67e94c4053",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
+    "react/promise-stream": {
+      "v1.1.1": {
+        "rev": "00e269d611e9c9a29356aef64c07f7e513e73dc9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise-stream.git"
+      }
+    },
+    "react/promise-timer": {
+      "v1.2.1": {
+        "rev": "9b4cd9cbe7457e0d87fe8aa7ccceab8a2c830fbd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise-timer.git"
+      }
+    },
+    "react/socket": {
+      "v0.8.10": {
+        "rev": "d3957313c92b539537fccc80170c05a27ec25796",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/socket.git"
+      }
+    },
+    "react/stream": {
+      "v0.7.7": {
+        "rev": "10100896018fd847a257cd81143b8e1b7be08e40",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/stream.git"
+      }
+    },
+    "sebastian/comparator": {
+      "1.2.4": {
+        "rev": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/comparator.git"
+      }
+    },
+    "sebastian/diff": {
+      "1.4.3": {
+        "rev": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "sebastian/environment": {
+      "1.3.8": {
+        "rev": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/environment.git"
+      }
+    },
+    "sebastian/exporter": {
+      "1.2.2": {
+        "rev": "42c4c2eec485ee3e159ec9884f95b431287edde4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/exporter.git"
+      }
+    },
+    "sebastian/global-state": {
+      "1.1.1": {
+        "rev": "bc37d50fea7d017d3d340f230811c9f1d7280af4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/global-state.git"
+      }
+    },
+    "sebastian/recursion-context": {
+      "1.0.5": {
+        "rev": "b19cc3298482a335a95f3016d2f8a6950f0fbcd7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/recursion-context.git"
+      }
+    },
+    "sebastian/version": {
+      "1.0.6": {
+        "rev": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "symfony/yaml": {
+      "v2.8.36": {
+        "rev": "be720fcfae4614df204190d57795351059946a77",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "tivie/php-os-detector": {
+      "1.1.0": {
+        "rev": "9461dcd85c00e03842264f2fc8ccdc8d46867321",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/tivie/php-os-detector.git"
+      }
+    },
+    "wyrihaximus/cpu-core-detector": {
+      "1.0.1": {
+        "rev": "459dbf380172f06de6bf1aaecb9b1a003f7937b1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/php-cpu-core-detector.git"
+      }
+    },
+    "wyrihaximus/json-throwable": {
+      "1.1.1": {
+        "rev": "fc3588681dcccc3f1f2f94c8eca71687f0899340",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/php-json-throwable.git"
+      }
+    },
+    "wyrihaximus/react-child-process-messenger": {
+      "2.8.1": {
+        "rev": "afde926a729868f5d6f64f378836123c3b247dea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/reactphp-child-process-messenger.git"
+      }
+    },
+    "wyrihaximus/react-child-process-pool": {
+      "1.4.2": {
+        "rev": "232f2aef55ce6df816f837442e79ff2976ebc8ed",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/reactphp-child-process-pool.git"
+      }
+    },
+    "wyrihaximus/react-child-process-promise": {
+      "2.0.1": {
+        "rev": "9b6f1bace7af43afc79fa85b91c793cdb3ff199b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/reactphp-child-process-promise.git"
+      }
+    },
+    "wyrihaximus/ticking-promise": {
+      "1.6.3": {
+        "rev": "4bb99024402bb7526de8880f3dab0c1f0858def5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/WyriHaximus/TickingPromise.git"
+      }
+    }
+  }
+}

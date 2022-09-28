@@ -1,0 +1,330 @@
+{
+  "_generic": {
+    "defaultPackage": "oat-sa/extension-tao-itemqti",
+    "location": "",
+    "packages": {
+      "oat-sa/extension-tao-itemqti": "v29.12.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "composer/package-versions-deprecated@dev-master": "^1.1.0 || ^2.0",
+      "oat-sa/composer-npm-bridge@v0.4.4": "^1.0 || ^2.0",
+      "oat-sa/oatbox-extension-installer@v1.2": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "simplexml",
+      "json",
+      "pcre",
+      "tokenizer",
+      "pdo",
+      "dom",
+      "mbstring",
+      "xmlreader",
+      "fileinfo",
+      "libxml",
+      "ctype",
+      "phar",
+      "xmlwriter",
+      "xml"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "doctrine/dbal": {
+      "2.13.9": [
+        [ "doctrine/deprecations", "v0.5.3" ]
+      ]
+    },
+    "league/openapi-psr7-validator": {
+      "0.9": [
+        [ "cebe/php-openapi", "1.7.0" ],
+        [ "psr/cache", "1.0.1" ],
+        [ "riverline/multipart-parser", "2.0.9" ],
+        [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "oat-sa/extension-tao-itemqti": {
+      "v29.12.7": [
+        [ "naneau/semver", "0.0.7" ],
+        [ "oat-sa/lib-tao-qti", "7.7.1" ],
+        [ "oat-sa/oatbox-extension-installer", "v1.2" ],
+        [ "oat-sa/tao-core", "v50.24.4" ],
+        [ "phpunit/phpunit", "dev-main" ]
+      ]
+    },
+    "oat-sa/lib-tao-qti": {
+      "7.7.1": [
+        [ "qtism/qtism", "0.28.1" ]
+      ]
+    },
+    "oat-sa/tao-core": {
+      "v50.24.4": [
+        [ "doctrine/dbal", "2.13.9" ],
+        [ "ezyang/htmlpurifier", "v4.16.0" ],
+        [ "flow/jsonpath", "0.5.0" ],
+        [ "imsglobal/lti", "3.0.2" ],
+        [ "jtl-software/opsgenie-client", "2.0.2" ],
+        [ "league/openapi-psr7-validator", "0.9" ],
+        [ "oat-sa/composer-npm-bridge", "v0.4.4" ],
+        [ "oat-sa/jig", "v0.1" ],
+        [ "oat-sa/oatbox-extension-installer", "v1.2" ],
+        [ "paragonie/random_compat", "v2.0.21" ],
+        [ "phpdocumentor/reflection-docblock", "2.0.5" ],
+        [ "pimple/pimple", "v3.5.0" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "dev-main": [
+        [ "phar-io/version", "3.2.1" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "qtism/qtism": {
+      "0.28.1": [
+        [ "oat-sa/lib-beeme", "0.2.0" ],
+        [ "oat-sa/lib-tao-dtms", "v1.0.2" ]
+      ]
+    },
+    "riverline/multipart-parser": {
+      "2.0.9": [
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.11.0": [
+        [ "symfony/polyfill-ctype", "dev-main" ]
+      ]
+    }
+  },
+  "sources": {
+    "cebe/php-openapi": {
+      "1.7.0": {
+        "rev": "020d72b8e3a9a60bc229953e93eda25c49f46f45",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cebe/php-openapi.git"
+      }
+    },
+    "doctrine/dbal": {
+      "2.13.9": {
+        "rev": "c480849ca3ad6706a39c970cdfe6888fa8a058b8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/dbal.git"
+      }
+    },
+    "doctrine/deprecations": {
+      "v0.5.3": {
+        "rev": "9504165960a1f83cc1480e2be1dd0a0478561314",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/deprecations.git"
+      }
+    },
+    "ezyang/htmlpurifier": {
+      "v4.16.0": {
+        "rev": "523407fb06eb9e5f3d59889b3978d5bfe94299c8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezyang/htmlpurifier.git"
+      }
+    },
+    "flow/jsonpath": {
+      "0.5.0": {
+        "rev": "b9738858c75d008c1211612b973e9510f8b7f8ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FlowCommunications/JSONPath.git"
+      }
+    },
+    "imsglobal/lti": {
+      "3.0.2": {
+        "rev": "06b12f70c2803ee08da116bcda2951eefd411ac9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/IMSGlobal/LTI-Tool-Provider-Library-PHP.git"
+      }
+    },
+    "jtl-software/opsgenie-client": {
+      "2.0.2": {
+        "rev": "fd2b5eb1baf1c9887edda334062956884078f58d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/jtl-software/php-api-client-opsgenie.git"
+      }
+    },
+    "league/openapi-psr7-validator": {
+      "0.9": {
+        "rev": "ac49e52407b92ceb52ab1a57083a51db8e8de660",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/openapi-psr7-validator.git"
+      }
+    },
+    "naneau/semver": {
+      "0.0.7": {
+        "rev": "60ea59641aad840f97f3c9057e2f2b7bc087eaa3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/naneau/semver.git"
+      }
+    },
+    "oat-sa/composer-npm-bridge": {
+      "v0.4.4": {
+        "rev": "20bf3d9e740ab23787005bc0f884b7a9241e457b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/composer-npm-bridge.git"
+      }
+    },
+    "oat-sa/extension-tao-itemqti": {
+      "v29.12.7": {
+        "rev": "b1cf30b8586fd60705bab208ab6dbe1fe9154b2c",
+        "type": "git",
+        "url": "https://github.com/oat-sa/extension-tao-itemqti.git"
+      }
+    },
+    "oat-sa/jig": {
+      "v0.1": {
+        "rev": "521f260d16a5b8a820140f3b83458813d9928255",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/jig.git"
+      }
+    },
+    "oat-sa/lib-beeme": {
+      "0.2.0": {
+        "rev": "a93c6a8887591ed13af6b07215784fdea85458e5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/lib-beeme.git"
+      }
+    },
+    "oat-sa/lib-tao-dtms": {
+      "v1.0.2": {
+        "rev": "08d9d4efd86246c692e480b44496ba7f64129e0f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/lib-tao-dtms.git"
+      }
+    },
+    "oat-sa/lib-tao-qti": {
+      "7.7.1": {
+        "rev": "dc4d856f5de147f9515804f7665038d59de923f1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/lib-tao-qti.git"
+      }
+    },
+    "oat-sa/oatbox-extension-installer": {
+      "v1.2": {
+        "rev": "db5e03f1d5dcffbe608f2840974331e54f0f8fc8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/oatbox-extension-installer.git"
+      }
+    },
+    "oat-sa/tao-core": {
+      "v50.24.4": {
+        "rev": "669fe6dd6b580e4ecfd7bd113ddcdfa9f9f69260",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/tao-core.git"
+      }
+    },
+    "paragonie/random_compat": {
+      "v2.0.21": {
+        "rev": "96c132c7f2f7bc3230723b66e89f8f150b29d5ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/paragonie/random_compat.git"
+      }
+    },
+    "phar-io/version": {
+      "3.2.1": {
+        "rev": "4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phar-io/version.git"
+      }
+    },
+    "phpdocumentor/reflection-docblock": {
+      "2.0.5": {
+        "rev": "e6a969a640b00d8daa3c66518b0405fb41ae0c4b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "dev-main": {
+        "rev": "e46b6fa50c205a9fa9420844a390654ca26835bd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "pimple/pimple": {
+      "v3.5.0": {
+        "rev": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/silexphp/Pimple.git"
+      }
+    },
+    "psr/cache": {
+      "1.0.1": {
+        "rev": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "qtism/qtism": {
+      "0.28.1": {
+        "rev": "b3ba7862108fc048919a82de5368a321ec8ac022",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/qti-sdk.git"
+      }
+    },
+    "riverline/multipart-parser": {
+      "2.0.9": {
+        "rev": "ebba10245b5a6e03a673ff52c547d05029caedab",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Riverline/multipart-parser.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "dev-main": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.11.0": {
+        "rev": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git"
+      }
+    }
+  }
+}

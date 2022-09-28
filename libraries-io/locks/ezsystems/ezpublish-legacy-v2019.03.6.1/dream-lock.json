@@ -1,0 +1,762 @@
+{
+  "_generic": {
+    "defaultPackage": "ezsystems/ezpublish-legacy",
+    "location": "",
+    "packages": {
+      "ezsystems/ezpublish-legacy": "v2019.03.6.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "ezsystems/ezpublish-legacy-installer@v2.1.0": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "dom",
+      "iconv",
+      "json",
+      "libxml",
+      "mbstring",
+      "pcre",
+      "reflection",
+      "session",
+      "simplexml",
+      "spl",
+      "filter",
+      "tokenizer",
+      "ctype"
+    ],
+    "phpSemver": "~5.5|~7.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ezsystems/ezautosave-ls": {
+      "v5.4.4": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezdemo-ls-extension": {
+      "v5.4.2.1": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezflow-ls-extension": {
+      "v5.3.14": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezgmaplocation-ls-extension": {
+      "v5.3.3": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezie-ls": {
+      "v5.3.2": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezmbpaex-ls": {
+      "v5.3.4": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezmultiupload-ls": {
+      "v5.3.1.3": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezodf-ls": {
+      "v5.3.8": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezprestapiprovider-ls": {
+      "v5.3.0": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezpublish-legacy": {
+      "v2019.03.6.1": [
+        [ "ezsystems/ezautosave-ls", "v5.4.4" ],
+        [ "ezsystems/ezdemo-ls-extension", "v5.4.2.1" ],
+        [ "ezsystems/ezflow-ls-extension", "v5.3.14" ],
+        [ "ezsystems/ezgmaplocation-ls-extension", "v5.3.3" ],
+        [ "ezsystems/ezie-ls", "v5.3.2" ],
+        [ "ezsystems/ezmbpaex-ls", "v5.3.4" ],
+        [ "ezsystems/ezmultiupload-ls", "v5.3.1.3" ],
+        [ "ezsystems/ezodf-ls", "v5.3.8" ],
+        [ "ezsystems/ezprestapiprovider-ls", "v5.3.0" ],
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ],
+        [ "ezsystems/ezstarrating-ls-extension", "v5.3.3" ],
+        [ "ezsystems/ezwt-ls-extension", "v5.3.10" ],
+        [ "phpunit/phpunit", "4.8.36" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "zetacomponents/archive", "1.5" ],
+        [ "zetacomponents/authentication", "1.4" ],
+        [ "zetacomponents/authentication-database-tiein", "1.2" ],
+        [ "zetacomponents/cache", "1.6.2" ],
+        [ "zetacomponents/configuration", "1.4" ],
+        [ "zetacomponents/console-tools", "1.7.3" ],
+        [ "zetacomponents/database", "1.5.2" ],
+        [ "zetacomponents/debug", "1.3" ],
+        [ "zetacomponents/event-log", "1.5" ],
+        [ "zetacomponents/feed", "1.4.2" ],
+        [ "zetacomponents/image-conversion", "1.4" ],
+        [ "zetacomponents/mail", "1.9.4" ],
+        [ "zetacomponents/mvc-authentication-tiein", "1.1" ],
+        [ "zetacomponents/mvc-tools", "1.2.1" ],
+        [ "zetacomponents/persistent-object", "1.8.1" ],
+        [ "zetacomponents/php-generator", "1.1" ],
+        [ "zetacomponents/signal-slot", "1.2" ],
+        [ "zetacomponents/system-information", "1.1.1" ],
+        [ "zetacomponents/webdav", "1.2" ]
+      ]
+    },
+    "ezsystems/ezstarrating-ls-extension": {
+      "v5.3.3": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "ezsystems/ezwt-ls-extension": {
+      "v5.3.10": [
+        [ "ezsystems/ezpublish-legacy-installer", "v2.1.0" ]
+      ]
+    },
+    "phpdocumentor/reflection-docblock": {
+      "5.3.0": [
+        [ "phpdocumentor/reflection-common", "2.2.0" ],
+        [ "phpdocumentor/type-resolver", "1.6.1" ],
+        [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "phpdocumentor/type-resolver": {
+      "1.6.1": [
+        [ "phpdocumentor/reflection-common", "2.2.0" ]
+      ]
+    },
+    "phpspec/prophecy": {
+      "v1.10.3": [
+        [ "doctrine/instantiator", "1.4.1" ],
+        [ "phpdocumentor/reflection-docblock", "5.3.0" ],
+        [ "sebastian/comparator", "1.2.4" ],
+        [ "sebastian/recursion-context", "1.0.5" ]
+      ]
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": [
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-token-stream", "1.4.12" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/version", "1.0.6" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "4.8.36": [
+        [ "phpspec/prophecy", "v1.10.3" ],
+        [ "phpunit/php-code-coverage", "2.2.4" ],
+        [ "phpunit/php-file-iterator", "1.4.5" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "phpunit/php-timer", "1.0.9" ],
+        [ "phpunit/phpunit-mock-objects", "2.3.8" ],
+        [ "sebastian/comparator", "1.2.4" ],
+        [ "sebastian/diff", "1.4.3" ],
+        [ "sebastian/environment", "1.3.8" ],
+        [ "sebastian/exporter", "1.2.2" ],
+        [ "sebastian/global-state", "1.1.1" ],
+        [ "sebastian/version", "1.0.6" ],
+        [ "symfony/yaml", "v3.4.47" ]
+      ]
+    },
+    "phpunit/phpunit-mock-objects": {
+      "2.3.8": [
+        [ "doctrine/instantiator", "1.4.1" ],
+        [ "phpunit/php-text-template", "1.2.1" ],
+        [ "sebastian/exporter", "1.2.2" ]
+      ]
+    },
+    "sebastian/comparator": {
+      "1.2.4": [
+        [ "sebastian/diff", "1.4.3" ],
+        [ "sebastian/exporter", "1.2.2" ]
+      ]
+    },
+    "sebastian/exporter": {
+      "1.2.2": [
+        [ "sebastian/recursion-context", "1.0.5" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v3.4.47": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.11.0": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "zetacomponents/archive": {
+      "1.5": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/authentication": {
+      "1.4": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/authentication-database-tiein": {
+      "1.2": [
+        [ "zetacomponents/authentication", "1.4" ],
+        [ "zetacomponents/database", "1.5.2" ]
+      ]
+    },
+    "zetacomponents/cache": {
+      "1.6.2": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/configuration": {
+      "1.4": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/console-tools": {
+      "1.7.3": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/database": {
+      "1.5.2": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/debug": {
+      "1.3": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/event-log": {
+      "1.5": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/feed": {
+      "1.4.2": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/image-analysis": {
+      "1.2": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/image-conversion": {
+      "1.4": [
+        [ "zetacomponents/base", "1.9.3" ],
+        [ "zetacomponents/image-analysis", "1.2" ]
+      ]
+    },
+    "zetacomponents/mail": {
+      "1.9.4": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/mvc-authentication-tiein": {
+      "1.1": [
+        [ "zetacomponents/authentication", "1.4" ],
+        [ "zetacomponents/mvc-tools", "1.2.1" ]
+      ]
+    },
+    "zetacomponents/mvc-tools": {
+      "1.2.1": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/persistent-object": {
+      "1.8.1": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/php-generator": {
+      "1.1": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/signal-slot": {
+      "1.2": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/system-information": {
+      "1.1.1": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    },
+    "zetacomponents/webdav": {
+      "1.2": [
+        [ "zetacomponents/base", "1.9.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "doctrine/instantiator": {
+      "1.4.1": {
+        "rev": "10dcfce151b967d20fde1b34ae6640712c3891bc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/instantiator.git"
+      }
+    },
+    "ezsystems/ezautosave-ls": {
+      "v5.4.4": {
+        "rev": "700cd49c870d94127a1f5536d4107b98ab4a9749",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezautosave.git"
+      }
+    },
+    "ezsystems/ezdemo-ls-extension": {
+      "v5.4.2.1": {
+        "rev": "6313879cbf8880d56eb457a45d7374953ecf2835",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezdemo-ls-extension.git"
+      }
+    },
+    "ezsystems/ezflow-ls-extension": {
+      "v5.3.14": {
+        "rev": "f2307521b54414118a6e74995b8ee1b16b00bc08",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezflow-ls-extension.git"
+      }
+    },
+    "ezsystems/ezgmaplocation-ls-extension": {
+      "v5.3.3": {
+        "rev": "b27459488a0db4c1a3d49c658e6abb861274f241",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezgmaplocation-ls-extension.git"
+      }
+    },
+    "ezsystems/ezie-ls": {
+      "v5.3.2": {
+        "rev": "0d14bfa5330cf3afe002f97ff8deae0b8025c382",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezie.git"
+      }
+    },
+    "ezsystems/ezmbpaex-ls": {
+      "v5.3.4": {
+        "rev": "85db74920c6930998c0e04dbe75903150adb28f5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezmbpaex.git"
+      }
+    },
+    "ezsystems/ezmultiupload-ls": {
+      "v5.3.1.3": {
+        "rev": "9975de81979fdfca71a24b40ef7055bf6ad20d34",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezmultiupload.git"
+      }
+    },
+    "ezsystems/ezodf-ls": {
+      "v5.3.8": {
+        "rev": "e6d43b830f8812168ddba2c5922e998c1deca2cb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezodf.git"
+      }
+    },
+    "ezsystems/ezprestapiprovider-ls": {
+      "v5.3.0": {
+        "rev": "84938212a66b4e0674451f1120c250052059c7aa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezprestapiprovider.git"
+      }
+    },
+    "ezsystems/ezpublish-legacy": {
+      "v2019.03.6.1": {
+        "rev": "1abeba2a24bccf2490eaa06c3a6aa80c7ed95fdd",
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezpublish-legacy.git"
+      }
+    },
+    "ezsystems/ezpublish-legacy-installer": {
+      "v2.1.0": {
+        "rev": "20474ed7a2b45b1ef8818940d5c54a6608d2adb6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezpublish-legacy-installer.git"
+      }
+    },
+    "ezsystems/ezstarrating-ls-extension": {
+      "v5.3.3": {
+        "rev": "e8c7d8208bf6889f1d750d794ee32d0bb77110b0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezstarrating-ls-extension.git"
+      }
+    },
+    "ezsystems/ezwt-ls-extension": {
+      "v5.3.10": {
+        "rev": "12b84669916d2c0b796d33976fd1e617efa654c7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezsystems/ezwt-ls-extension.git"
+      }
+    },
+    "phpdocumentor/reflection-common": {
+      "2.2.0": {
+        "rev": "1d01c49d4ed62f25aa84a747ad35d5a16924662b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionCommon.git"
+      }
+    },
+    "phpdocumentor/reflection-docblock": {
+      "5.3.0": {
+        "rev": "622548b623e81ca6d78b721c5e029f4ce664f170",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "phpdocumentor/type-resolver": {
+      "1.6.1": {
+        "rev": "77a32518733312af16a44300404e945338981de3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/TypeResolver.git"
+      }
+    },
+    "phpspec/prophecy": {
+      "v1.10.3": {
+        "rev": "451c3cd1418cf640de218914901e51b064abb093",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpspec/prophecy.git"
+      }
+    },
+    "phpunit/php-code-coverage": {
+      "2.2.4": {
+        "rev": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+      }
+    },
+    "phpunit/php-file-iterator": {
+      "1.4.5": {
+        "rev": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "1.2.1": {
+        "rev": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "1.0.9": {
+        "rev": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/php-token-stream": {
+      "1.4.12": {
+        "rev": "1ce90ba27c42e4e44e6d8458241466380b51fa16",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "4.8.36": {
+        "rev": "46023de9a91eec7dfb06cc56cb4e260017298517",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "phpunit/phpunit-mock-objects": {
+      "2.3.8": {
+        "rev": "ac8e7a3db35738d56ee9a76e78a4e03d97628983",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
+      }
+    },
+    "sebastian/comparator": {
+      "1.2.4": {
+        "rev": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/comparator.git"
+      }
+    },
+    "sebastian/diff": {
+      "1.4.3": {
+        "rev": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "sebastian/environment": {
+      "1.3.8": {
+        "rev": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/environment.git"
+      }
+    },
+    "sebastian/exporter": {
+      "1.2.2": {
+        "rev": "42c4c2eec485ee3e159ec9884f95b431287edde4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/exporter.git"
+      }
+    },
+    "sebastian/global-state": {
+      "1.1.1": {
+        "rev": "bc37d50fea7d017d3d340f230811c9f1d7280af4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/global-state.git"
+      }
+    },
+    "sebastian/recursion-context": {
+      "1.0.5": {
+        "rev": "b19cc3298482a335a95f3016d2f8a6950f0fbcd7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/recursion-context.git"
+      }
+    },
+    "sebastian/version": {
+      "1.0.6": {
+        "rev": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/version.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/yaml": {
+      "v3.4.47": {
+        "rev": "88289caa3c166321883f67fe5130188ebbb47094",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.11.0": {
+        "rev": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git"
+      }
+    },
+    "zetacomponents/archive": {
+      "1.5": {
+        "rev": "ffd0f7c37471563b2c5f64dcb6ec7fe3bcb23d20",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Archive.git"
+      }
+    },
+    "zetacomponents/authentication": {
+      "1.4": {
+        "rev": "32f41debff35afa0b966f5f424b4b5dacad94c9a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Authentication.git"
+      }
+    },
+    "zetacomponents/authentication-database-tiein": {
+      "1.2": {
+        "rev": "d02222a254c730bba43d78afa054b2fe1d9466d0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/AuthenticationDatabaseTiein.git"
+      }
+    },
+    "zetacomponents/base": {
+      "1.9.3": {
+        "rev": "2f432f4117a5aa2164d4fb1784f84db91dbdd3b8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Base.git"
+      }
+    },
+    "zetacomponents/cache": {
+      "1.6.2": {
+        "rev": "52325c3b3ca1e55fa91bbe2be4bb943abf144fa4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Cache.git"
+      }
+    },
+    "zetacomponents/configuration": {
+      "1.4": {
+        "rev": "3885fb93ac59d69ff0ef721b33adfc613277a2f1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Configuration.git"
+      }
+    },
+    "zetacomponents/console-tools": {
+      "1.7.3": {
+        "rev": "fbc31f1be66ccd178c68d846d7c0ae09dbb97c89",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/ConsoleTools.git"
+      }
+    },
+    "zetacomponents/database": {
+      "1.5.2": {
+        "rev": "85a2fd2af4e49f64d5c7616b6fb82c1b88de53b4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Database.git"
+      }
+    },
+    "zetacomponents/debug": {
+      "1.3": {
+        "rev": "e2a56f25db9b3ead4395ae724b70b5ad6c730326",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Debug.git"
+      }
+    },
+    "zetacomponents/event-log": {
+      "1.5": {
+        "rev": "ef624d12f4c367e4211573ae3633943f727acdf7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/EventLog.git"
+      }
+    },
+    "zetacomponents/feed": {
+      "1.4.2": {
+        "rev": "008a9a73415aca41ee8be95b51edc23d5224822b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Feed.git"
+      }
+    },
+    "zetacomponents/image-analysis": {
+      "1.2": {
+        "rev": "7d49a1975709b7bca861dce8604acf59592f7205",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/ImageAnalysis.git"
+      }
+    },
+    "zetacomponents/image-conversion": {
+      "1.4": {
+        "rev": "120feb40965eb053482bc030e107352d9bbc5f13",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/ImageConversion.git"
+      }
+    },
+    "zetacomponents/mail": {
+      "1.9.4": {
+        "rev": "83ba646f36f753c0bbc8b2189c88d41ece326ea0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Mail.git"
+      }
+    },
+    "zetacomponents/mvc-authentication-tiein": {
+      "1.1": {
+        "rev": "4867e4001da4e05b29cae4fb5e066a7c4fec18ee",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/MvcAuthenticationTiein.git"
+      }
+    },
+    "zetacomponents/mvc-tools": {
+      "1.2.1": {
+        "rev": "6e910be5b6adf9749694813417a3341ea1a628fd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/MvcTools.git"
+      }
+    },
+    "zetacomponents/persistent-object": {
+      "1.8.1": {
+        "rev": "d6fc6cbc94c0ac6e36d78008ae86953ef9166223",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/PersistentObject.git"
+      }
+    },
+    "zetacomponents/php-generator": {
+      "1.1": {
+        "rev": "61ee6a1fe438b6c34d7a0b38151e2128eb0afa51",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/PhpGenerator.git"
+      }
+    },
+    "zetacomponents/signal-slot": {
+      "1.2": {
+        "rev": "9be26ecf7a407cf941b475b6f48baa486466d461",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/SignalSlot.git"
+      }
+    },
+    "zetacomponents/system-information": {
+      "1.1.1": {
+        "rev": "314ea9b2c98b3c20321a8d05ea8ba976479d8f88",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/SystemInformation.git"
+      }
+    },
+    "zetacomponents/webdav": {
+      "1.2": {
+        "rev": "44a182f559e5c7bebccab5a112dd3ba8c84a48c0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zetacomponents/Webdav.git"
+      }
+    }
+  }
+}

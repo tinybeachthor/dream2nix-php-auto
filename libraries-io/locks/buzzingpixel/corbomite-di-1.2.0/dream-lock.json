@@ -1,0 +1,217 @@
+{
+  "_generic": {
+    "defaultPackage": "buzzingpixel/corbomite-di",
+    "location": "",
+    "packages": {
+      "buzzingpixel/corbomite-di": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "tokenizer",
+      "xml",
+      "simplexml",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {
+    "buzzingpixel/corbomite-config-collector": {
+      "1.1.1": [
+        [ "buzzingpixel/corbomite-di", "1.2.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "buzzingpixel/corbomite-config-collector": {
+      "1.1.1": [
+        [ "buzzingpixel/corbomite-di", "1.2.0" ]
+      ]
+    },
+    "buzzingpixel/corbomite-di": {
+      "1.2.0": [
+        [ "buzzingpixel/corbomite-config-collector", "1.1.1" ],
+        [ "php-di/php-di", "6.0.7" ],
+        [ "phpmd/phpmd", "2.6.0" ],
+        [ "roave/security-advisories", "dev-master" ],
+        [ "squizlabs/php_codesniffer", "3.4.1" ]
+      ]
+    },
+    "pdepend/pdepend": {
+      "2.5.2": [
+        [ "symfony/config", "v4.2.4" ],
+        [ "symfony/dependency-injection", "v4.2.4" ],
+        [ "symfony/filesystem", "v4.2.4" ]
+      ]
+    },
+    "php-di/invoker": {
+      "2.0.0": [
+        [ "psr/container", "1.0.0" ]
+      ]
+    },
+    "php-di/php-di": {
+      "6.0.7": [
+        [ "nikic/php-parser", "v4.2.1" ],
+        [ "php-di/invoker", "2.0.0" ],
+        [ "php-di/phpdoc-reader", "2.1.0" ],
+        [ "psr/container", "1.0.0" ]
+      ]
+    },
+    "phpmd/phpmd": {
+      "2.6.0": [
+        [ "pdepend/pdepend", "2.5.2" ]
+      ]
+    },
+    "symfony/config": {
+      "v4.2.4": [
+        [ "symfony/filesystem", "v4.2.4" ],
+        [ "symfony/polyfill-ctype", "v1.11.0" ]
+      ]
+    },
+    "symfony/dependency-injection": {
+      "v4.2.4": [
+        [ "psr/container", "1.0.0" ],
+        [ "symfony/contracts", "v1.0.2" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v4.2.4": [
+        [ "symfony/polyfill-ctype", "v1.11.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "buzzingpixel/corbomite-config-collector": {
+      "1.1.1": {
+        "rev": "5fdca5a3b143c5480d3642d7464251e03d7e35e2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/buzzingpixel/corbomite-config-collector.git"
+      }
+    },
+    "buzzingpixel/corbomite-di": {
+      "1.2.0": {
+        "rev": "e8ef39e88bf5d2ff4893f14c0ba42e192c90fd78",
+        "type": "git",
+        "url": "https://github.com/buzzingpixel/corbomite-di.git"
+      }
+    },
+    "nikic/php-parser": {
+      "v4.2.1": {
+        "rev": "5221f49a608808c1e4d436df32884cbc1b821ac0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nikic/PHP-Parser.git"
+      }
+    },
+    "pdepend/pdepend": {
+      "2.5.2": {
+        "rev": "9daf26d0368d4a12bed1cacae1a9f3a6f0adf239",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/pdepend/pdepend.git"
+      }
+    },
+    "php-di/invoker": {
+      "2.0.0": {
+        "rev": "540c27c86f663e20fe39a24cd72fa76cdb21d41a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHP-DI/Invoker.git"
+      }
+    },
+    "php-di/php-di": {
+      "6.0.7": {
+        "rev": "78326779037852fb8c13be606110434b9911eebd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHP-DI/PHP-DI.git"
+      }
+    },
+    "php-di/phpdoc-reader": {
+      "2.1.0": {
+        "rev": "7d0de60b9341933c8afd172a6255cd7557601e0e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHP-DI/PhpDocReader.git"
+      }
+    },
+    "phpmd/phpmd": {
+      "2.6.0": {
+        "rev": "4e9924b2c157a3eb64395460fcf56b31badc8374",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpmd/phpmd.git"
+      }
+    },
+    "psr/container": {
+      "1.0.0": {
+        "rev": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "roave/security-advisories": {
+      "dev-master": {
+        "rev": "0698207bf8a9bed212fdde2d8c7cdc77085660c4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Roave/SecurityAdvisories.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.4.1": {
+        "rev": "5b4333b4010625d29580eb4a41f1e53251be6baa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "symfony/config": {
+      "v4.2.4": {
+        "rev": "7f70d79c7a24a94f8e98abb988049403a53d7b31",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
+      }
+    },
+    "symfony/contracts": {
+      "v1.0.2": {
+        "rev": "1aa7ab2429c3d594dd70689604b5cf7421254cdf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/contracts.git"
+      }
+    },
+    "symfony/dependency-injection": {
+      "v4.2.4": {
+        "rev": "cdadb3765df7c89ac93628743913b92bb91f1704",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/dependency-injection.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v4.2.4": {
+        "rev": "e16b9e471703b2c60b95f14d31c1239f68f11601",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.11.0": {
+        "rev": "82ebae02209c21113908c229e9883c419720738a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    }
+  }
+}

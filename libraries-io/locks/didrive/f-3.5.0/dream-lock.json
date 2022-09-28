@@ -1,0 +1,156 @@
+{
+  "_generic": {
+    "defaultPackage": "didrive/f",
+    "location": "",
+    "packages": {
+      "didrive/f": "3.5.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=7.1.0"
+  },
+  "cyclicDependencies": {
+    "didrive/base": {
+      "2.16.0": [
+        [ "didrive/f", "3.5.0" ]
+      ]
+    },
+    "didrive_mod/backword": {
+      "1.2.0": [
+        [ "didrive/f", "3.5.0" ]
+      ]
+    },
+    "didrive_mod/vars_on_site": {
+      "1.2.0": [
+        [ "didrive/base", "2.16.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "didrive/aut": {
+      "0.2.0": [
+        [ "twig/twig", "v3.4.3" ]
+      ]
+    },
+    "didrive/base": {
+      "2.16.0": [
+        [ "components/jquery", "3.6.0" ],
+        [ "didrive/aut", "0.2.0" ],
+        [ "didrive/f", "3.5.0" ],
+        [ "didrive_mod/backword", "1.2.0" ],
+        [ "didrive_mod/vars_on_site", "1.2.0" ],
+        [ "twbs/bootstrap", "v5.2.1" ],
+        [ "twig/twig", "v3.4.3" ]
+      ]
+    },
+    "didrive/f": {
+      "3.5.0": [
+        [ "didrive/base", "2.16.0" ]
+      ]
+    },
+    "didrive_mod/backword": {
+      "1.2.0": [
+        [ "didrive/f", "3.5.0" ],
+        [ "twig/twig", "v3.4.3" ]
+      ]
+    },
+    "didrive_mod/vars_on_site": {
+      "1.2.0": [
+        [ "didrive/base", "2.16.0" ],
+        [ "twig/twig", "v3.4.3" ]
+      ]
+    },
+    "twig/twig": {
+      "v3.4.3": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "components/jquery": {
+      "3.6.0": {
+        "rev": "6cf38ee1fd04b6adf8e7dda161283aa35be818c3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/components/jquery.git"
+      }
+    },
+    "didrive/aut": {
+      "0.2.0": {
+        "rev": "216f2b50af741d77f09368196e595062dc832dfb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nyosru/composer_didrive_aut.git"
+      }
+    },
+    "didrive/base": {
+      "2.16.0": {
+        "rev": "cec4ba047abbed6a27d431c326b4c45c8c2bfcae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nyosru/didrive_composer_base.git"
+      }
+    },
+    "didrive/f": {
+      "3.5.0": {
+        "rev": "25ee1004651b2c39c276216ea44d6ea734468a39",
+        "type": "git",
+        "url": "https://github.com/nyosru/composer_didrive_f.git"
+      }
+    },
+    "didrive_mod/backword": {
+      "1.2.0": {
+        "rev": "b0f6ea180878e41d656a31390e12142315d1d870",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nyosru/composer_didrive_mod_backword.git"
+      }
+    },
+    "didrive_mod/vars_on_site": {
+      "1.2.0": {
+        "rev": "b5c39bf42aca61b00b0ab16e26b80ebcea136919",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nyosru/composer_didrive_mod_vars_on_site.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "twbs/bootstrap": {
+      "v5.2.1": {
+        "rev": "23e50829f958ea1d741d63e2781716be037e4644",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/twbs/bootstrap.git"
+      }
+    },
+    "twig/twig": {
+      "v3.4.3": {
+        "rev": "c38fd6b0b7f370c198db91ffd02e23b517426b58",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/twigphp/Twig.git"
+      }
+    }
+  }
+}
