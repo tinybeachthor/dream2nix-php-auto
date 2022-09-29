@@ -17,13 +17,14 @@
     "noDev": false,
     "phpExtensions": [
       "json",
-      "pcre",
       "tokenizer",
       "pdo",
       "dom",
       "mbstring",
+      "pcre",
       "xmlreader",
       "fileinfo",
+      "filter",
       "date",
       "libxml",
       "simplexml",
@@ -31,17 +32,18 @@
     ],
     "phpSemver": "*"
   },
-  "cyclicDependencies": {},
+  "cyclicDependencies": {
+    "oat-sa/lib-tao-elasticsearch": {
+      "v2.5.2": [
+        [ "oat-sa/tao-core", "v50.24.6" ]
+      ]
+    }
+  },
   "dependencies": {
     "cebe/php-openapi": {
       "1.7.0": [
         [ "justinrainbow/json-schema", "5.2.12" ],
         [ "symfony/yaml", "v4.4.45" ]
-      ]
-    },
-    "dflydev/fig-cookies": {
-      "v2.0.3": [
-        [ "psr/http-message", "1.0.1" ]
       ]
     },
     "doctrine/annotations": {
@@ -52,30 +54,42 @@
     },
     "doctrine/collections": {
       "1.7.3": [
-        [ "doctrine/deprecations", "v1.0.0" ]
+        [ "doctrine/deprecations", "v0.5.3" ]
       ]
     },
     "doctrine/dbal": {
       "2.13.9": [
         [ "doctrine/cache", "2.2.0" ],
-        [ "doctrine/deprecations", "v1.0.0" ],
+        [ "doctrine/deprecations", "v0.5.3" ],
         [ "doctrine/event-manager", "1.1.2" ]
       ]
     },
     "doctrine/migrations": {
-      "3.1.5": [
-        [ "composer/package-versions-deprecated", "1.11.99.5" ],
+      "3.4.2": [
         [ "doctrine/dbal", "2.13.9" ],
+        [ "doctrine/deprecations", "v0.5.3" ],
         [ "doctrine/event-manager", "1.1.2" ],
         [ "friendsofphp/proxy-manager-lts", "v1.0.12" ],
         [ "psr/log", "1.1.4" ],
         [ "symfony/console", "v3.4.47" ],
-        [ "symfony/stopwatch", "v5.4.5" ]
+        [ "symfony/stopwatch", "v6.1.0" ]
       ]
     },
     "easyrdf/easyrdf": {
       "1.1.1": [
         [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "elasticsearch/elasticsearch": {
+      "v7.17.0": [
+        [ "ezimuel/ringphp", "1.2.0" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "ezimuel/ringphp": {
+      "1.2.0": [
+        [ "ezimuel/guzzlestreams", "3.0.1" ],
+        [ "react/promise", "v2.9.0" ]
       ]
     },
     "friendsofphp/proxy-manager-lts": {
@@ -123,15 +137,21 @@
       ]
     },
     "league/openapi-psr7-validator": {
-      "0.9": [
+      "0.18": [
         [ "cebe/php-openapi", "1.7.0" ],
-        [ "dflydev/fig-cookies", "v2.0.3" ],
+        [ "league/uri", "6.8.0" ],
         [ "psr/cache", "1.0.1" ],
         [ "psr/http-message", "1.0.1" ],
         [ "psr/http-server-middleware", "1.0.1" ],
-        [ "respect/validation", "1.1.31" ],
+        [ "respect/validation", "2.2.3" ],
         [ "riverline/multipart-parser", "2.0.9" ],
         [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "league/uri": {
+      "6.8.0": [
+        [ "league/uri-interfaces", "2.3.0" ],
+        [ "psr/http-message", "1.0.1" ]
       ]
     },
     "monolog/monolog": {
@@ -144,7 +164,7 @@
         [ "oat-sa/extension-tao-outcome", "v13.2.1" ],
         [ "oat-sa/generis", "v15.22.0" ],
         [ "oat-sa/oatbox-extension-installer", "v1.2" ],
-        [ "oat-sa/tao-core", "v50.24.4" ]
+        [ "oat-sa/tao-core", "v50.24.6" ]
       ]
     },
     "oat-sa/extension-tao-outcome": {
@@ -152,7 +172,7 @@
         [ "oat-sa/generis", "v15.22.0" ],
         [ "oat-sa/lib-tao-dtms", "v1.0.0" ],
         [ "oat-sa/oatbox-extension-installer", "v1.2" ],
-        [ "oat-sa/tao-core", "v50.24.4" ],
+        [ "oat-sa/tao-core", "v50.24.6" ],
         [ "qtism/qtism", "17.0.3" ]
       ]
     },
@@ -186,32 +206,51 @@
         [ "laminas/laminas-servicemanager", "2.5.1" ]
       ]
     },
+    "oat-sa/lib-tao-elasticsearch": {
+      "v2.5.2": [
+        [ "elasticsearch/elasticsearch", "v7.17.0" ],
+        [ "oat-sa/tao-core", "v50.24.6" ]
+      ]
+    },
     "oat-sa/tao-core": {
-      "v50.24.4": [
+      "v50.24.6": [
         [ "composer/package-versions-deprecated", "1.11.99.5" ],
         [ "doctrine/collections", "1.7.3" ],
         [ "doctrine/dbal", "2.13.9" ],
-        [ "doctrine/migrations", "3.1.5" ],
+        [ "doctrine/migrations", "3.4.2" ],
         [ "ezyang/htmlpurifier", "v4.16.0" ],
         [ "flow/jsonpath", "0.5.0" ],
         [ "guzzlehttp/guzzle", "6.5.8" ],
         [ "guzzlehttp/psr7", "1.9.0" ],
-        [ "imsglobal/lti", "3.0.2" ],
         [ "jtl-software/opsgenie-client", "2.0.2" ],
         [ "justinrainbow/json-schema", "5.2.12" ],
         [ "league/csv", "9.8.0" ],
-        [ "league/openapi-psr7-validator", "0.9" ],
+        [ "league/openapi-psr7-validator", "0.18" ],
         [ "oat-sa/composer-npm-bridge", "v0.4.4" ],
         [ "oat-sa/generis", "v15.22.0" ],
+        [ "oat-sa/imsglobal-lti", "4.0.1" ],
         [ "oat-sa/jig", "v0.1" ],
+        [ "oat-sa/lib-tao-elasticsearch", "v2.5.2" ],
         [ "oat-sa/oatbox-extension-installer", "v1.2" ],
         [ "paragonie/random_compat", "v2.0.21" ],
-        [ "phpdocumentor/reflection-docblock", "2.0.5" ],
+        [ "phpdocumentor/reflection-docblock", "5.3.0" ],
         [ "pimple/pimple", "v3.5.0" ],
         [ "psr/http-message", "1.0.1" ],
         [ "slim/slim", "3.12.4" ],
         [ "symfony/dotenv", "v4.4.37" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "phpdocumentor/reflection-docblock": {
+      "5.3.0": [
+        [ "phpdocumentor/reflection-common", "2.2.0" ],
+        [ "phpdocumentor/type-resolver", "1.6.1" ],
+        [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "phpdocumentor/type-resolver": {
+      "1.6.1": [
+        [ "phpdocumentor/reflection-common", "2.2.0" ]
       ]
     },
     "pimple/pimple": {
@@ -252,7 +291,8 @@
       ]
     },
     "respect/validation": {
-      "1.1.31": [
+      "2.2.3": [
+        [ "respect/stringifier", "0.2.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ]
       ]
     },
@@ -339,7 +379,7 @@
       ]
     },
     "symfony/stopwatch": {
-      "v5.4.5": [
+      "v6.1.0": [
         [ "symfony/service-contracts", "v2.5.2" ]
       ]
     },
@@ -384,14 +424,6 @@
         "url": "https://github.com/composer/package-versions-deprecated.git"
       }
     },
-    "dflydev/fig-cookies": {
-      "v2.0.3": {
-        "rev": "aa3c3a6224fea4ca2c05cf6b8285ce023ff41d9b",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/dflydev/dflydev-fig-cookies.git"
-      }
-    },
     "doctrine/annotations": {
       "1.13.3": {
         "rev": "648b0343343565c4a056bfc8392201385e8d89f0",
@@ -425,8 +457,8 @@
       }
     },
     "doctrine/deprecations": {
-      "v1.0.0": {
-        "rev": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+      "v0.5.3": {
+        "rev": "9504165960a1f83cc1480e2be1dd0a0478561314",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/deprecations.git"
@@ -449,8 +481,8 @@
       }
     },
     "doctrine/migrations": {
-      "3.1.5": {
-        "rev": "537a847ec5525f50f927702fa01b97bacdc2c636",
+      "3.4.2": {
+        "rev": "f9b4c8032276460afd9dfa62fb215734b4380d90",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/migrations.git"
@@ -462,6 +494,30 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/easyrdf/easyrdf.git"
+      }
+    },
+    "elasticsearch/elasticsearch": {
+      "v7.17.0": {
+        "rev": "1890f9d7fde076b5a3ddcf579a802af05b2e781b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/elastic/elasticsearch-php.git"
+      }
+    },
+    "ezimuel/guzzlestreams": {
+      "3.0.1": {
+        "rev": "abe3791d231167f14eb80d413420d1eab91163a8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezimuel/guzzlestreams.git"
+      }
+    },
+    "ezimuel/ringphp": {
+      "1.2.0": {
+        "rev": "92b8161404ab1ad84059ebed41d9f757e897ce74",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ezimuel/ringphp.git"
       }
     },
     "ezyang/htmlpurifier": {
@@ -518,14 +574,6 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/guzzle/psr7.git"
-      }
-    },
-    "imsglobal/lti": {
-      "3.0.2": {
-        "rev": "06b12f70c2803ee08da116bcda2951eefd411ac9",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/IMSGlobal/LTI-Tool-Provider-Library-PHP.git"
       }
     },
     "jtl-software/opsgenie-client": {
@@ -601,11 +649,27 @@
       }
     },
     "league/openapi-psr7-validator": {
-      "0.9": {
-        "rev": "ac49e52407b92ceb52ab1a57083a51db8e8de660",
+      "0.18": {
+        "rev": "5f98f98abf37f4533473699ef2ff2b4dc9b8d52e",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/thephpleague/openapi-psr7-validator.git"
+      }
+    },
+    "league/uri": {
+      "6.8.0": {
+        "rev": "a700b4656e4c54371b799ac61e300ab25a2d1d39",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/uri.git"
+      }
+    },
+    "league/uri-interfaces": {
+      "2.3.0": {
+        "rev": "00e7e2943f76d8cb50c7dfdc2f6dee356e15e383",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/uri-interfaces.git"
       }
     },
     "monolog/monolog": {
@@ -655,6 +719,14 @@
         "url": "https://github.com/oat-sa/generis.git"
       }
     },
+    "oat-sa/imsglobal-lti": {
+      "4.0.1": {
+        "rev": "bf4f393b9c76c8e8c14c417a6d795141e3c2d5d9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/imsglobal-lti.git"
+      }
+    },
     "oat-sa/jig": {
       "v0.1": {
         "rev": "521f260d16a5b8a820140f3b83458813d9928255",
@@ -687,6 +759,14 @@
         "url": "https://github.com/oat-sa/lib-tao-dtms.git"
       }
     },
+    "oat-sa/lib-tao-elasticsearch": {
+      "v2.5.2": {
+        "rev": "7139b68d804191cfe2cdc6448d232fde45afd943",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/lib-tao-elasticsearch.git"
+      }
+    },
     "oat-sa/oatbox-extension-installer": {
       "v1.2": {
         "rev": "db5e03f1d5dcffbe608f2840974331e54f0f8fc8",
@@ -696,8 +776,8 @@
       }
     },
     "oat-sa/tao-core": {
-      "v50.24.4": {
-        "rev": "669fe6dd6b580e4ecfd7bd113ddcdfa9f9f69260",
+      "v50.24.6": {
+        "rev": "cdae62e3b374fddfef480b209fd1754bb1de5c1f",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/oat-sa/tao-core.git"
@@ -711,12 +791,28 @@
         "url": "https://github.com/paragonie/random_compat.git"
       }
     },
+    "phpdocumentor/reflection-common": {
+      "2.2.0": {
+        "rev": "1d01c49d4ed62f25aa84a747ad35d5a16924662b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionCommon.git"
+      }
+    },
     "phpdocumentor/reflection-docblock": {
-      "2.0.5": {
-        "rev": "e6a969a640b00d8daa3c66518b0405fb41ae0c4b",
+      "5.3.0": {
+        "rev": "622548b623e81ca6d78b721c5e029f4ce664f170",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "phpdocumentor/type-resolver": {
+      "1.6.1": {
+        "rev": "77a32518733312af16a44300404e945338981de3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/TypeResolver.git"
       }
     },
     "pimple/pimple": {
@@ -807,6 +903,14 @@
         "url": "https://github.com/ramsey/uuid.git"
       }
     },
+    "react/promise": {
+      "v2.9.0": {
+        "rev": "234f8fd1023c9158e2314fa9d7d0e6a83db42910",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/reactphp/promise.git"
+      }
+    },
     "relay/relay": {
       "2.1.2": {
         "rev": "924fdf9473492d6d221bd7760a8f201f8b35d96c",
@@ -815,9 +919,17 @@
         "url": "https://github.com/relayphp/Relay.Relay.git"
       }
     },
+    "respect/stringifier": {
+      "0.2.0": {
+        "rev": "e55af3c8aeaeaa2abb5fa47a58a8e9688cc23b59",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Respect/Stringifier.git"
+      }
+    },
     "respect/validation": {
-      "1.1.31": {
-        "rev": "45d109fc830644fecc1145200d6351ce4f2769d0",
+      "2.2.3": {
+        "rev": "4c21a7ffc9a4915673cb2c2843963919e664e627",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Respect/Validation.git"
@@ -1000,8 +1112,8 @@
       }
     },
     "symfony/stopwatch": {
-      "v5.4.5": {
-        "rev": "4d04b5c24f3c9a1a168a131f6cbe297155bc0d30",
+      "v6.1.0": {
+        "rev": "77dedae82ce2a26e2e9b481855473fc3b3e4e54d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/stopwatch.git"
