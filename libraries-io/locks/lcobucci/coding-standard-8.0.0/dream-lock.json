@@ -1,0 +1,99 @@
+{
+  "_generic": {
+    "defaultPackage": "lcobucci/coding-standard",
+    "location": "",
+    "packages": {
+      "lcobucci/coding-standard": "8.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.1": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": "^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.1": [
+        [ "squizlabs/php_codesniffer", "3.6.1" ]
+      ]
+    },
+    "doctrine/coding-standard": {
+      "9.0.0": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.1" ],
+        [ "slevomat/coding-standard", "7.0.15" ],
+        [ "squizlabs/php_codesniffer", "3.6.1" ]
+      ]
+    },
+    "lcobucci/coding-standard": {
+      "8.0.0": [
+        [ "doctrine/coding-standard", "9.0.0" ],
+        [ "roave/security-advisories", "dev-master" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "7.0.15": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.1" ],
+        [ "squizlabs/php_codesniffer", "3.6.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.1": {
+        "rev": "fe390591e0241955f22eb9ba327d137e501c771c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "doctrine/coding-standard": {
+      "9.0.0": {
+        "rev": "35a2452c6025cb739c3244b3348bcd1604df07d1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/coding-standard.git"
+      }
+    },
+    "lcobucci/coding-standard": {
+      "8.0.0": {
+        "rev": "060bf65affbde2a4da148fb10c20ea1d2e3a2ecd",
+        "type": "git",
+        "url": "https://github.com/lcobucci/coding-standard.git"
+      }
+    },
+    "roave/security-advisories": {
+      "dev-master": {
+        "rev": "0488e161600117fc3a0d72397dad154729002f54",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Roave/SecurityAdvisories.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "7.0.15": {
+        "rev": "cc80e59f9b4ca642f02dc1b615c37a9afc2a0f80",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.6.1": {
+        "rev": "f268ca40d54617c6e06757f83f699775c9b3ff2e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}

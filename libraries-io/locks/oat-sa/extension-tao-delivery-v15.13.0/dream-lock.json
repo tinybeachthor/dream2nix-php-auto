@@ -33,6 +33,11 @@
     "phpSemver": "*"
   },
   "cyclicDependencies": {
+    "oat-sa/extension-tao-outcome": {
+      "v13.2.2": [
+        [ "oat-sa/extension-tao-delivery", "v15.13.0" ]
+      ]
+    },
     "oat-sa/lib-tao-elasticsearch": {
       "v2.5.2": [
         [ "oat-sa/tao-core", "v50.24.6" ]
@@ -53,7 +58,7 @@
       ]
     },
     "doctrine/collections": {
-      "1.7.3": [
+      "1.8.0": [
         [ "doctrine/deprecations", "v0.5.3" ]
       ]
     },
@@ -161,16 +166,17 @@
     },
     "oat-sa/extension-tao-delivery": {
       "v15.13.0": [
-        [ "oat-sa/extension-tao-outcome", "v13.2.1" ],
+        [ "oat-sa/extension-tao-outcome", "v13.2.2" ],
         [ "oat-sa/generis", "v15.22.0" ],
         [ "oat-sa/oatbox-extension-installer", "v1.2" ],
         [ "oat-sa/tao-core", "v50.24.6" ]
       ]
     },
     "oat-sa/extension-tao-outcome": {
-      "v13.2.1": [
+      "v13.2.2": [
+        [ "oat-sa/extension-tao-delivery", "v15.13.0" ],
         [ "oat-sa/generis", "v15.22.0" ],
-        [ "oat-sa/lib-tao-dtms", "v1.0.0" ],
+        [ "oat-sa/lib-tao-dtms", "v1.0.2" ],
         [ "oat-sa/oatbox-extension-installer", "v1.2" ],
         [ "oat-sa/tao-core", "v50.24.6" ],
         [ "qtism/qtism", "17.0.3" ]
@@ -195,7 +201,7 @@
         [ "psr/simple-cache", "1.0.1" ],
         [ "ramsey/uuid", "3.9.6" ],
         [ "relay/relay", "2.1.2" ],
-        [ "symfony/cache", "v4.4.44" ],
+        [ "symfony/cache", "v4.4.46" ],
         [ "symfony/config", "v5.3.14" ],
         [ "symfony/dependency-injection", "v5.3.14" ],
         [ "symfony/lock", "v3.4.47" ]
@@ -215,7 +221,7 @@
     "oat-sa/tao-core": {
       "v50.24.6": [
         [ "composer/package-versions-deprecated", "1.11.99.5" ],
-        [ "doctrine/collections", "1.7.3" ],
+        [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/dbal", "2.13.9" ],
         [ "doctrine/migrations", "3.4.2" ],
         [ "ezyang/htmlpurifier", "v4.16.0" ],
@@ -310,7 +316,7 @@
       ]
     },
     "symfony/cache": {
-      "v4.4.44": [
+      "v4.4.46": [
         [ "psr/cache", "1.0.1" ],
         [ "psr/log", "1.1.4" ],
         [ "symfony/cache-contracts", "v2.5.2" ],
@@ -441,8 +447,8 @@
       }
     },
     "doctrine/collections": {
-      "1.7.3": {
-        "rev": "09dde3eb237756190f2de738d3c97cff10a8407b",
+      "1.8.0": {
+        "rev": "2b44dd4cbca8b5744327de78bafef5945c7e7b5e",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/collections.git"
@@ -704,8 +710,8 @@
       }
     },
     "oat-sa/extension-tao-outcome": {
-      "v13.2.1": {
-        "rev": "248ca81e09ee340c8b9117a1152d9fcdda138190",
+      "v13.2.2": {
+        "rev": "b7253887deebbb41578b6d24436c1834988e84f8",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/oat-sa/extension-tao-outcome.git"
@@ -752,8 +758,8 @@
       }
     },
     "oat-sa/lib-tao-dtms": {
-      "v1.0.0": {
-        "rev": "dc3979af897154850756bc72e19a9670064b9f25",
+      "v1.0.2": {
+        "rev": "08d9d4efd86246c692e480b44496ba7f64129e0f",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/oat-sa/lib-tao-dtms.git"
@@ -952,8 +958,8 @@
       }
     },
     "symfony/cache": {
-      "v4.4.44": {
-        "rev": "db611fb1b86e2223d406c5bf3d813536c95de7ce",
+      "v4.4.46": {
+        "rev": "f59de59d747fbb55c9bd148c092de4e52b2054c8",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/cache.git"

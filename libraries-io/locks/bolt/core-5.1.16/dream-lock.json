@@ -45,11 +45,11 @@
       ]
     },
     "api-platform/core": {
-      "v2.7.0": [
+      "v2.7.1": [
         [ "doctrine/inflector", "2.0.5" ],
-        [ "fig/link-util", "1.2.0" ],
         [ "psr/cache", "2.0.0" ],
         [ "psr/container", "1.1.2" ],
+        [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/http-foundation", "v5.4.12" ],
         [ "symfony/http-kernel", "v5.4.12" ],
         [ "symfony/property-access", "v5.4.11" ],
@@ -95,7 +95,7 @@
     "bolt/core": {
       "5.1.16": [
         [ "acmecorp/reference-extension", "1.2.1" ],
-        [ "api-platform/core", "v2.7.0" ],
+        [ "api-platform/core", "v2.7.1" ],
         [ "babdev/pagerfanta-bundle", "v2.11.0" ],
         [ "beberlei/doctrineextensions", "v1.3.0" ],
         [ "bobdenotter/configuration-notices", "1.3.0" ],
@@ -134,7 +134,7 @@
         [ "php-translation/symfony-bundle", "0.12.7" ],
         [ "phpdocumentor/reflection-docblock", "5.3.0" ],
         [ "phpstan/phpstan", "1.8.6" ],
-        [ "phpstan/phpstan-doctrine", "1.3.14" ],
+        [ "phpstan/phpstan-doctrine", "1.3.15" ],
         [ "phpstan/phpstan-symfony", "1.2.13" ],
         [ "phpunit/phpunit", "8.5.30" ],
         [ "psr/event-dispatcher", "1.0.0" ],
@@ -257,7 +257,7 @@
       ]
     },
     "doctrine/collections": {
-      "1.7.3": [
+      "1.8.0": [
         [ "doctrine/deprecations", "v0.5.3" ]
       ]
     },
@@ -330,7 +330,7 @@
     "doctrine/orm": {
       "2.13.2": [
         [ "doctrine/cache", "2.2.0" ],
-        [ "doctrine/collections", "1.7.3" ],
+        [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/common", "3.4.2" ],
         [ "doctrine/dbal", "2.13.9" ],
         [ "doctrine/deprecations", "v0.5.3" ],
@@ -349,7 +349,7 @@
     "doctrine/persistence": {
       "2.5.4": [
         [ "doctrine/cache", "2.2.0" ],
-        [ "doctrine/collections", "1.7.3" ],
+        [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/deprecations", "v0.5.3" ],
         [ "doctrine/event-manager", "1.1.2" ],
         [ "psr/cache", "2.0.0" ]
@@ -384,14 +384,9 @@
         [ "symfony/deprecation-contracts", "v2.5.2" ]
       ]
     },
-    "fig/link-util": {
-      "1.2.0": [
-        [ "psr/link", "2.0.1" ]
-      ]
-    },
     "friendsofapi/localise.biz": {
       "1.1.0": [
-        [ "php-http/client-common", "2.5.0" ],
+        [ "php-http/client-common", "2.6.0" ],
         [ "php-http/discovery", "1.14.3" ],
         [ "php-http/httplug", "2.3.0" ],
         [ "php-http/multipart-stream-builder", "1.2.0" ]
@@ -519,7 +514,7 @@
       ]
     },
     "php-http/client-common": {
-      "2.5.0": [
+      "2.6.0": [
         [ "php-http/httplug", "2.3.0" ],
         [ "php-http/message", "1.13.0" ],
         [ "php-http/message-factory", "v1.0.2" ],
@@ -549,7 +544,7 @@
     },
     "php-http/httplug-bundle": {
       "1.27.0": [
-        [ "php-http/client-common", "2.5.0" ],
+        [ "php-http/client-common", "2.6.0" ],
         [ "php-http/curl-client", "2.2.1" ],
         [ "php-http/discovery", "1.14.3" ],
         [ "php-http/httplug", "2.3.0" ],
@@ -567,7 +562,7 @@
     },
     "php-http/logger-plugin": {
       "1.3.0": [
-        [ "php-http/client-common", "2.5.0" ],
+        [ "php-http/client-common", "2.6.0" ],
         [ "php-http/message", "1.13.0" ],
         [ "psr/log", "2.0.0" ],
         [ "symfony/polyfill-php73", "v1.26.0" ]
@@ -595,7 +590,7 @@
     },
     "php-http/stopwatch-plugin": {
       "1.4.1": [
-        [ "php-http/client-common", "2.5.0" ],
+        [ "php-http/client-common", "2.6.0" ],
         [ "symfony/stopwatch", "v5.4.5" ]
       ]
     },
@@ -654,7 +649,7 @@
       ]
     },
     "phpstan/phpstan-doctrine": {
-      "1.3.14": [
+      "1.3.15": [
         [ "phpstan/phpstan", "1.8.6" ]
       ]
     },
@@ -1275,8 +1270,8 @@
       }
     },
     "api-platform/core": {
-      "v2.7.0": {
-        "rev": "d3f5fb8a1e5de4d516c3407b71e592e26efdca05",
+      "v2.7.1": {
+        "rev": "fbc076044413e80ef8360376ed4dc8b3c320375a",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/api-platform/core.git"
@@ -1482,8 +1477,8 @@
       }
     },
     "doctrine/collections": {
-      "1.7.3": {
-        "rev": "09dde3eb237756190f2de738d3c97cff10a8407b",
+      "1.8.0": {
+        "rev": "2b44dd4cbca8b5744327de78bafef5945c7e7b5e",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/collections.git"
@@ -1655,14 +1650,6 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/FakerPHP/Faker.git"
-      }
-    },
-    "fig/link-util": {
-      "1.2.0": {
-        "rev": "10e52348a2e9ad4581f2bf3e16458f0861a88c6a",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/php-fig/link-util.git"
       }
     },
     "friendsofapi/localise.biz": {
@@ -1914,8 +1901,8 @@
       }
     },
     "php-http/client-common": {
-      "2.5.0": {
-        "rev": "d135751167d57e27c74de674d6a30cef2dc8e054",
+      "2.6.0": {
+        "rev": "45db684cd4e186dcdc2b9c06b22970fe123796c0",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/php-http/client-common.git"
@@ -2074,8 +2061,8 @@
       }
     },
     "phpstan/phpstan-doctrine": {
-      "1.3.14": {
-        "rev": "bfefffeee7ea770090c99934509f29ced1b29c3f",
+      "1.3.15": {
+        "rev": "93fe8c18ee955009e2033efeb64284b4e4df66a0",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/phpstan/phpstan-doctrine.git"
