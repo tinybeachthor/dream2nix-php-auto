@@ -40,7 +40,7 @@
         [ "predis/predis", "v1.1.10" ],
         [ "psr/cache", "1.0.1" ],
         [ "psr/log", "1.1.4" ],
-        [ "symfony/framework-bundle", "v4.4.45" ],
+        [ "symfony/framework-bundle", "v4.4.46" ],
         [ "symfony/options-resolver", "v4.4.44" ],
         [ "symfony/phpunit-bridge", "v4.4.44" ]
       ]
@@ -184,13 +184,13 @@
     "nyholm/symfony-bundle-test": {
       "1.8.2": [
         [ "symfony/dependency-injection", "v4.4.44" ],
-        [ "symfony/framework-bundle", "v4.4.45" ],
-        [ "symfony/http-kernel", "v4.4.45" ],
+        [ "symfony/framework-bundle", "v4.4.46" ],
+        [ "symfony/http-kernel", "v4.4.46" ],
         [ "symfony/yaml", "v4.4.45" ]
       ]
     },
     "symfony/cache": {
-      "v5.4.11": [
+      "v5.4.13": [
         [ "psr/cache", "1.0.1" ],
         [ "psr/log", "1.1.4" ],
         [ "symfony/cache-contracts", "v2.5.2" ],
@@ -208,7 +208,7 @@
     },
     "symfony/config": {
       "v4.4.44": [
-        [ "symfony/filesystem", "v5.4.12" ],
+        [ "symfony/filesystem", "v5.4.13" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/polyfill-php81", "v1.26.0" ]
@@ -230,7 +230,7 @@
       "v4.4.44": [
         [ "psr/log", "1.1.4" ],
         [ "symfony/debug", "v4.4.44" ],
-        [ "symfony/var-dumper", "v5.4.11" ]
+        [ "symfony/var-dumper", "v5.4.13" ]
       ]
     },
     "symfony/event-dispatcher": {
@@ -240,7 +240,7 @@
       ]
     },
     "symfony/filesystem": {
-      "v5.4.12": [
+      "v5.4.13": [
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
@@ -253,34 +253,34 @@
       ]
     },
     "symfony/framework-bundle": {
-      "v4.4.45": [
-        [ "symfony/cache", "v5.4.11" ],
+      "v4.4.46": [
+        [ "symfony/cache", "v5.4.13" ],
         [ "symfony/config", "v4.4.44" ],
         [ "symfony/dependency-injection", "v4.4.44" ],
         [ "symfony/error-handler", "v4.4.44" ],
-        [ "symfony/filesystem", "v5.4.12" ],
+        [ "symfony/filesystem", "v5.4.13" ],
         [ "symfony/finder", "v5.4.11" ],
-        [ "symfony/http-foundation", "v5.4.12" ],
-        [ "symfony/http-kernel", "v4.4.45" ],
+        [ "symfony/http-foundation", "v5.4.13" ],
+        [ "symfony/http-kernel", "v4.4.46" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/routing", "v4.4.44" ]
       ]
     },
     "symfony/http-foundation": {
-      "v5.4.12": [
+      "v5.4.13": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "symfony/http-kernel": {
-      "v4.4.45": [
+      "v4.4.46": [
         [ "psr/log", "1.1.4" ],
         [ "symfony/error-handler", "v4.4.44" ],
         [ "symfony/event-dispatcher", "v4.4.44" ],
         [ "symfony/http-client-contracts", "v2.5.2" ],
-        [ "symfony/http-foundation", "v5.4.12" ],
+        [ "symfony/http-foundation", "v5.4.13" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php73", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
@@ -303,7 +303,7 @@
       ]
     },
     "symfony/var-dumper": {
-      "v5.4.11": [
+      "v5.4.13": [
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
@@ -539,8 +539,8 @@
       }
     },
     "symfony/cache": {
-      "v5.4.11": {
-        "rev": "5a0fff46df349f0db3fe242263451fddf5277362",
+      "v5.4.13": {
+        "rev": "89bb6a0fe27205636d80e568ffaf9bbb52f691e3",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/cache.git"
@@ -611,8 +611,8 @@
       }
     },
     "symfony/filesystem": {
-      "v5.4.12": {
-        "rev": "2d67c1f9a1937406a9be3171b4b22250c0a11447",
+      "v5.4.13": {
+        "rev": "ac09569844a9109a5966b9438fc29113ce77cf51",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/filesystem.git"
@@ -627,8 +627,8 @@
       }
     },
     "symfony/framework-bundle": {
-      "v4.4.45": {
-        "rev": "bd7d15b5412d6414036cc5fd6c562202ceac9daf",
+      "v4.4.46": {
+        "rev": "479e327f05eb12cf6a899ba94ceac57cf0f31bfa",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/framework-bundle.git"
@@ -643,16 +643,16 @@
       }
     },
     "symfony/http-foundation": {
-      "v5.4.12": {
-        "rev": "f4bfe9611b113b15d98a43da68ec9b5a00d56791",
+      "v5.4.13": {
+        "rev": "54be067587a4f2b7fffb7a699f9481ec3daf9379",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/http-foundation.git"
       }
     },
     "symfony/http-kernel": {
-      "v4.4.45": {
-        "rev": "4f2d38e9a3c6997ea0886ede5aaf337dfd0fc938",
+      "v4.4.46": {
+        "rev": "fb72bc54f300151fadef84fce79764138b1ef943",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/http-kernel.git"
@@ -731,8 +731,8 @@
       }
     },
     "symfony/var-dumper": {
-      "v5.4.11": {
-        "rev": "b8f306d7b8ef34fb3db3305be97ba8e088fb4861",
+      "v5.4.13": {
+        "rev": "2bf2ccab581bec363191672f0df40e0c85569e1c",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/var-dumper.git"

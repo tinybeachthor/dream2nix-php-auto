@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "yawik/auth",
+    "location": "",
+    "packages": {
+      "yawik/auth": "v0.35.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "laminas/laminas-dependency-plugin@2.4.0": ">=1.1.0 <2.3.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "ctype",
+      "hash",
+      "mongodb",
+      "tokenizer",
+      "curl",
+      "json",
+      "mbstring",
+      "dom",
+      "libxml",
+      "intl",
+      "iconv",
+      "session"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hybridauth/hybridauth": {
+      "v2.18.0": [
+        [ "facebook/graph-sdk", "5.7.0" ],
+        [ "paypal/rest-api-sdk-php", "1.14.0" ]
+      ]
+    },
+    "paypal/rest-api-sdk-php": {
+      "1.14.0": [
+        [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "yawik/auth": {
+      "v0.35.0": [
+        [ "hybridauth/hybridauth", "v2.18.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "facebook/graph-sdk": {
+      "5.7.0": {
+        "rev": "2d8250638b33d73e7a87add65f47fabf91f8ad9b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/facebook/php-graph-sdk.git"
+      }
+    },
+    "hybridauth/hybridauth": {
+      "v2.18.0": {
+        "rev": "a879408ad340b68c79faeea2e7a85b95a1f261ba",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/hybridauth/hybridauth.git"
+      }
+    },
+    "paypal/rest-api-sdk-php": {
+      "1.14.0": {
+        "rev": "72e2f2466975bf128a31e02b15110180f059fc04",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/paypal/PayPal-PHP-SDK.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "yawik/auth": {
+      "v0.35.0": {
+        "rev": "1ea3de44cf2b8361bee63019aeaea0ae6dc09eb5",
+        "type": "git",
+        "url": "https://github.com/yawik/auth.git"
+      }
+    }
+  }
+}
