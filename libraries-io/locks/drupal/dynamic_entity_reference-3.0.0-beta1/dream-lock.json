@@ -1,0 +1,71 @@
+{
+  "_generic": {
+    "defaultPackage": "drupal/dynamic_entity_reference",
+    "location": "",
+    "packages": {
+      "drupal/dynamic_entity_reference": "3.0.0-beta1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "date",
+      "dom",
+      "filter",
+      "gd",
+      "hash",
+      "json",
+      "pcre",
+      "pdo",
+      "session",
+      "simplexml",
+      "spl",
+      "xml",
+      "ctype",
+      "libxml"
+    ],
+    "phpSemver": ">=8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "drupal/dynamic_entity_reference": {
+      "3.0.0-beta1": [
+        [ "mglaman/phpstan-drupal", "1.1.25" ]
+      ]
+    },
+    "mglaman/phpstan-drupal": {
+      "1.1.25": [
+        [ "webflo/drupal-finder", "1.2.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "drupal/dynamic_entity_reference": {
+      "3.0.0-beta1": {
+        "rev": "27b1230d0e386e44fe5ba86cd8bf9a96043e60b8",
+        "type": "git",
+        "url": "https://git.drupalcode.org/project/dynamic_entity_reference.git"
+      }
+    },
+    "mglaman/phpstan-drupal": {
+      "1.1.25": {
+        "rev": "480245d5d0bd1858e01c43d738718dab85be0ad2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/mglaman/phpstan-drupal.git"
+      }
+    },
+    "webflo/drupal-finder": {
+      "1.2.2": {
+        "rev": "c8e5dbe65caef285fec8057a4c718a0d4138d1ee",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webflo/drupal-finder.git"
+      }
+    }
+  }
+}
