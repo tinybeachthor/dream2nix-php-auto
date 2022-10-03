@@ -19,8 +19,22 @@
     "phpSemver": ">=8.1"
   },
   "cyclicDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "symfony/serializer": {
+      "v6.1.0-RC1": [
+        [ "symfony/mime", "v6.1.5" ]
+      ]
+    }
+  },
   "sources": {
+    "symfony/mime": {
+      "v6.1.5": {
+        "rev": "d521b2204f7dcebe81c1b5fb99ed70dfb6f34b4b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/mime.git"
+      }
+    },
     "symfony/serializer": {
       "v6.1.0-RC1": {
         "rev": "70aebc6d266cbd1b92285c052b3fdad3ca2ae033",
