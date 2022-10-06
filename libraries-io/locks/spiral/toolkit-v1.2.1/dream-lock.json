@@ -1,0 +1,422 @@
+{
+  "_generic": {
+    "defaultPackage": "spiral/toolkit",
+    "location": "",
+    "packages": {
+      "spiral/toolkit": "v1.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "mbstring",
+      "json"
+    ],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cocur/slugify": {
+      "v3.2": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-server-handler": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-server-middleware": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ],
+        [ "psr/http-server-handler", "1.0.1" ]
+      ]
+    },
+    "spiral/boot": {
+      "2.14.1": [
+        [ "spiral/config", "2.14.1" ],
+        [ "spiral/core", "2.14.1" ],
+        [ "spiral/debug", "2.14.1" ],
+        [ "spiral/exceptions", "2.14.1" ],
+        [ "spiral/files", "2.14.1" ]
+      ]
+    },
+    "spiral/config": {
+      "2.14.1": [
+        [ "spiral/core", "2.14.1" ]
+      ]
+    },
+    "spiral/core": {
+      "2.14.1": [
+        [ "psr/container", "2.0.2" ]
+      ]
+    },
+    "spiral/debug": {
+      "2.14.1": [
+        [ "spiral/logger", "2.14.1" ]
+      ]
+    },
+    "spiral/dumper": {
+      "2.14.1": [
+        [ "codedungeon/php-cli-colors", "1.12.2" ]
+      ]
+    },
+    "spiral/exceptions": {
+      "2.14.1": [
+        [ "spiral/debug", "2.14.1" ],
+        [ "spiral/dumper", "2.14.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "spiral/hmvc": {
+      "2.14.1": [
+        [ "spiral/core", "2.14.1" ]
+      ]
+    },
+    "spiral/http": {
+      "2.14.1": [
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "psr/http-server-middleware", "1.0.1" ],
+        [ "spiral/core", "2.14.1" ],
+        [ "spiral/files", "2.14.1" ],
+        [ "spiral/streams", "2.14.1" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "spiral/logger": {
+      "2.14.1": [
+        [ "spiral/core", "2.14.1" ]
+      ]
+    },
+    "spiral/router": {
+      "2.14.1": [
+        [ "cocur/slugify", "v3.2" ],
+        [ "doctrine/inflector", "2.0.5" ],
+        [ "spiral/core", "2.14.1" ],
+        [ "spiral/hmvc", "2.14.1" ],
+        [ "spiral/http", "2.14.1" ]
+      ]
+    },
+    "spiral/stempler": {
+      "2.14.1": [
+        [ "myclabs/deep-copy", "1.11.0" ]
+      ]
+    },
+    "spiral/stempler-bridge": {
+      "2.14.1": [
+        [ "spiral/boot", "2.14.1" ],
+        [ "spiral/config", "2.14.1" ],
+        [ "spiral/core", "2.14.1" ],
+        [ "spiral/files", "2.14.1" ],
+        [ "spiral/router", "2.14.1" ],
+        [ "spiral/stempler", "2.14.1" ],
+        [ "spiral/translator", "2.14.1" ],
+        [ "spiral/views", "2.14.1" ]
+      ]
+    },
+    "spiral/streams": {
+      "2.14.1": [
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "spiral/tokenizer": {
+      "2.14.1": [
+        [ "spiral/core", "2.14.1" ],
+        [ "spiral/logger", "2.14.1" ],
+        [ "symfony/finder", "v6.1.3" ]
+      ]
+    },
+    "spiral/toolkit": {
+      "v1.2.1": [
+        [ "spiral/stempler-bridge", "2.14.1" ]
+      ]
+    },
+    "spiral/translator": {
+      "2.14.1": [
+        [ "spiral/core", "2.14.1" ],
+        [ "spiral/logger", "2.14.1" ],
+        [ "spiral/tokenizer", "2.14.1" ],
+        [ "symfony/translation", "v6.1.4" ]
+      ]
+    },
+    "spiral/views": {
+      "2.14.1": [
+        [ "spiral/core", "2.14.1" ],
+        [ "spiral/files", "2.14.1" ]
+      ]
+    },
+    "symfony/translation": {
+      "v6.1.4": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/translation-contracts", "v3.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "cocur/slugify": {
+      "v3.2": {
+        "rev": "d41701efe58ba2df9cae029c3d21e1518cc6780e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/cocur/slugify.git"
+      }
+    },
+    "codedungeon/php-cli-colors": {
+      "1.12.2": {
+        "rev": "e346156f75717140a3dd622124d2ec686aa7ff8e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/mikeerickson/php-cli-colors.git"
+      }
+    },
+    "doctrine/inflector": {
+      "2.0.5": {
+        "rev": "ade2b3bbfb776f27f0558e26eed43b5d9fe1b392",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/inflector.git"
+      }
+    },
+    "myclabs/deep-copy": {
+      "1.11.0": {
+        "rev": "14daed4296fae74d9e3201d2c4925d1acb7aa614",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/myclabs/DeepCopy.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/http-server-handler": {
+      "1.0.1": {
+        "rev": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-server-handler.git"
+      }
+    },
+    "psr/http-server-middleware": {
+      "1.0.1": {
+        "rev": "2296f45510945530b9dceb8bcedb5cb84d40c5f5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-server-middleware.git"
+      }
+    },
+    "spiral/boot": {
+      "2.14.1": {
+        "rev": "426d3bc87f151fb9565ee51750331504a8be3712",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/boot.git"
+      }
+    },
+    "spiral/config": {
+      "2.14.1": {
+        "rev": "54de74a861df74dcd33126f01d92646cac5a7d80",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/config.git"
+      }
+    },
+    "spiral/core": {
+      "2.14.1": {
+        "rev": "bbc0a4a1d3c4f14d8d7354d94a05577e60129416",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/core.git"
+      }
+    },
+    "spiral/debug": {
+      "2.14.1": {
+        "rev": "43269e78b2aca97f86b96a2615cde1fdcd83c3fe",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/debug.git"
+      }
+    },
+    "spiral/dumper": {
+      "2.14.1": {
+        "rev": "427b8a80f2549003de8d80bab7ce975fb03a437f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/dumper.git"
+      }
+    },
+    "spiral/exceptions": {
+      "2.14.1": {
+        "rev": "60e0708d3f53d642aab5c19949b1854f7b77a54c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/exceptions.git"
+      }
+    },
+    "spiral/files": {
+      "2.14.1": {
+        "rev": "54f918315bfb383d101661efcb34058d9c20f380",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/files.git"
+      }
+    },
+    "spiral/hmvc": {
+      "2.14.1": {
+        "rev": "850030f95bb089c593722d20ce8ed16db394cf44",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/hmvc.git"
+      }
+    },
+    "spiral/http": {
+      "2.14.1": {
+        "rev": "c8df3799410d2d03ccea899cb2a1fa2b34a78362",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/http.git"
+      }
+    },
+    "spiral/logger": {
+      "2.14.1": {
+        "rev": "14ea05f8a24a5d4ecb3b8811e34948d3a735576e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/logger.git"
+      }
+    },
+    "spiral/router": {
+      "2.14.1": {
+        "rev": "9224030bf177fd7e60599bbfbc5d76b6c41510b9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/router.git"
+      }
+    },
+    "spiral/stempler": {
+      "2.14.1": {
+        "rev": "b7b9290dd7f16181e86502c0307720285704c6cd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/stempler.git"
+      }
+    },
+    "spiral/stempler-bridge": {
+      "2.14.1": {
+        "rev": "7c02bb0a12ed230d1e3555345048366b0fe6b148",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/stempler-bridge.git"
+      }
+    },
+    "spiral/streams": {
+      "2.14.1": {
+        "rev": "4c9afd723cd3a0efa14d073d68bf9e11c8017fb9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/streams.git"
+      }
+    },
+    "spiral/tokenizer": {
+      "2.14.1": {
+        "rev": "45f704219f115fb2aa3b384aa83ed8ec34cff9ca",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/tokenizer.git"
+      }
+    },
+    "spiral/toolkit": {
+      "v1.2.1": {
+        "rev": "f74fe979a4f6308fde5fd7c0ae50765f89f0ce7b",
+        "type": "git",
+        "url": "https://github.com/spiral/toolkit.git"
+      }
+    },
+    "spiral/translator": {
+      "2.14.1": {
+        "rev": "8ff04694bec9ffc17e6107b8ec7985398b763af9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/translator.git"
+      }
+    },
+    "spiral/views": {
+      "2.14.1": {
+        "rev": "aa26ff63fc0afb889034dd72baed9d623be5c6db",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spiral/views.git"
+      }
+    },
+    "symfony/finder": {
+      "v6.1.3": {
+        "rev": "39696bff2c2970b3779a5cac7bf9f0b88fc2b709",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/translation": {
+      "v6.1.4": {
+        "rev": "45d0f5bb8df7255651ca91c122fab604e776af03",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/translation-contracts": {
+      "v3.1.1": {
+        "rev": "606be0f48e05116baef052f7f3abdb345c8e02cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation-contracts.git"
+      }
+    }
+  }
+}
