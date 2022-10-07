@@ -1,0 +1,72 @@
+{
+  "_generic": {
+    "defaultPackage": "froq/froq-common",
+    "location": "",
+    "packages": {
+      "froq/froq-common": "5.16.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "^8.0"
+  },
+  "cyclicDependencies": {
+    "froq/froq-collection": {
+      "5.28.0": [
+        [ "froq/froq-common", "5.16.2" ]
+      ]
+    },
+    "froq/froq-util": {
+      "5.44.4": [
+        [ "froq/froq-common", "5.16.2" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "froq/froq-collection": {
+      "5.28.0": [
+        [ "froq/froq-common", "5.16.2" ]
+      ]
+    },
+    "froq/froq-common": {
+      "5.16.2": [
+        [ "froq/froq-collection", "5.28.0" ],
+        [ "froq/froq-util", "5.44.4" ]
+      ]
+    },
+    "froq/froq-util": {
+      "5.44.4": [
+        [ "froq/froq-common", "5.16.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "froq/froq-collection": {
+      "5.28.0": {
+        "rev": "7f7e4dabb9eed6caa62c04e02d59e797c95e2650",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/froq/froq-collection.git"
+      }
+    },
+    "froq/froq-common": {
+      "5.16.2": {
+        "rev": "d7aa2dc533fd468214998469368b348648355d4d",
+        "type": "git",
+        "url": "https://github.com/froq/froq-common.git"
+      }
+    },
+    "froq/froq-util": {
+      "5.44.4": {
+        "rev": "0b6e2f135bd90b4da21b695484ee8bcfd78a0d61",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/froq/froq-util.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "_generic": {
+    "defaultPackage": "maslosoft/hedron",
+    "location": "",
+    "packages": {
+      "maslosoft/hedron": "2.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json"
+    ],
+    "phpSemver": ">=7.4"
+  },
+  "cyclicDependencies": {
+    "maslosoft/gazebo": {
+      "2.0.2": [
+        [ "maslosoft/addendum", "7.0.4" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "maslosoft/addendum": {
+      "7.0.4": [
+        [ "maslosoft/cache", "2.0.0" ],
+        [ "maslosoft/cli-shared", "1.0.9" ],
+        [ "maslosoft/embedi", "2.0.1" ],
+        [ "maslosoft/gazebo", "2.0.2" ],
+        [ "psr/log", "2.0.0" ]
+      ]
+    },
+    "maslosoft/cache": {
+      "2.0.0": [
+        [ "maslosoft/embedi", "2.0.1" ]
+      ]
+    },
+    "maslosoft/cli-shared": {
+      "1.0.9": [
+        [ "psr/log", "2.0.0" ],
+        [ "symfony/finder", "v4.4.44" ],
+        [ "symfony/yaml", "v4.4.45" ]
+      ]
+    },
+    "maslosoft/gazebo": {
+      "2.0.2": [
+        [ "maslosoft/addendum", "7.0.4" ],
+        [ "maslosoft/embedi", "2.0.1" ]
+      ]
+    },
+    "maslosoft/hedron": {
+      "2.0.1": [
+        [ "maslosoft/addendum", "7.0.4" ],
+        [ "maslosoft/cli-shared", "1.0.9" ],
+        [ "maslosoft/sitcom", "1.0.5" ],
+        [ "roave/security-advisories", "dev-latest" ],
+        [ "symfony/console", "v4.4.45" ],
+        [ "symfony/finder", "v4.4.44" ],
+        [ "symfony/yaml", "v4.4.45" ],
+        [ "zordius/lightncandy", "v1.2.6" ]
+      ]
+    },
+    "maslosoft/sitcom": {
+      "1.0.5": [
+        [ "symfony/console", "v4.4.45" ]
+      ]
+    },
+    "symfony/console": {
+      "v4.4.45": [
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php73", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/service-contracts", "v2.5.2" ]
+      ]
+    },
+    "symfony/finder": {
+      "v4.4.44": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/service-contracts": {
+      "v2.5.2": [
+        [ "psr/container", "1.1.2" ],
+        [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "symfony/yaml": {
+      "v4.4.45": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "maslosoft/addendum": {
+      "7.0.4": {
+        "rev": "533ec1db4459104d9ee317c03f811345c2d5c6e1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Maslosoft/Addendum.git"
+      }
+    },
+    "maslosoft/cache": {
+      "2.0.0": {
+        "rev": "15396befe54ca4f85be21e0c9b6485cb9d0df79d",
+        "submodules": false,
+        "type": "git",
+        "url": "peter@git.maslosoft.com:/git/Maslosoft/cache.git"
+      }
+    },
+    "maslosoft/cli-shared": {
+      "1.0.9": {
+        "rev": "c1b65518cd628e45a803abe132f1e1399a23dcbe",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Maslosoft/CLIShared.git"
+      }
+    },
+    "maslosoft/embedi": {
+      "2.0.1": {
+        "rev": "20e35d2dca2de6a56707ee02af07ebcbf7e4c531",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Maslosoft/EmbeDi.git"
+      }
+    },
+    "maslosoft/gazebo": {
+      "2.0.2": {
+        "rev": "cbfd5003a750fa5fb6fa24207ae1cda85b0184a7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Maslosoft/Gazebo.git"
+      }
+    },
+    "maslosoft/hedron": {
+      "2.0.1": {
+        "rev": "bbe538b47ab6868c955b477855195af79063ec29",
+        "type": "git",
+        "url": "https://github.com/Maslosoft/Hedron.git"
+      }
+    },
+    "maslosoft/sitcom": {
+      "1.0.5": {
+        "rev": "f013958effc3e052306911ddfb27eecc6876386c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Maslosoft/Sitcom.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/log": {
+      "2.0.0": {
+        "rev": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "roave/security-advisories": {
+      "dev-latest": {
+        "rev": "b0d3e99ce9c8ec237338a70277dd409ffcf6cedc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Roave/SecurityAdvisories.git"
+      }
+    },
+    "symfony/console": {
+      "v4.4.45": {
+        "rev": "28b77970939500fb04180166a1f716e75a871ef8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/console.git"
+      }
+    },
+    "symfony/deprecation-contracts": {
+      "v3.1.1": {
+        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/finder": {
+      "v4.4.44": {
+        "rev": "66bd787edb5e42ff59d3523f623895af05043e4f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/finder.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php73": {
+      "v1.26.0": {
+        "rev": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.26.0": {
+        "rev": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/service-contracts": {
+      "v2.5.2": {
+        "rev": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git"
+      }
+    },
+    "symfony/yaml": {
+      "v4.4.45": {
+        "rev": "aeccc4dc52a9e634f1d1eebeb21eacfdcff1053d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/yaml.git"
+      }
+    },
+    "zordius/lightncandy": {
+      "v1.2.6": {
+        "rev": "b451f73e8b5c73e62e365997ba3c993a0376b72a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/zordius/lightncandy.git"
+      }
+    }
+  }
+}
