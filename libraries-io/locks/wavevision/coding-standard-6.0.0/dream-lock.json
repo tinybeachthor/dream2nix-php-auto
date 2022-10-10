@@ -1,0 +1,94 @@
+{
+  "_generic": {
+    "defaultPackage": "wavevision/coding-standard",
+    "location": "",
+    "packages": {
+      "wavevision/coding-standard": "6.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "dealerdirect/phpcodesniffer-composer-installer@v0.7.0": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "simplexml",
+      "tokenizer",
+      "xmlwriter"
+    ],
+    "phpSemver": ">=7.4"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.0": [
+        [ "squizlabs/php_codesniffer", "3.5.6" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": [
+        [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.0" ],
+        [ "squizlabs/php_codesniffer", "3.5.6" ]
+      ]
+    },
+    "wavevision/coding-standard": {
+      "6.0.0": [
+        [ "php-parallel-lint/php-parallel-lint", "v1.2.0" ],
+        [ "phpstan/phpstan", "0.12.50" ],
+        [ "slevomat/coding-standard", "6.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "dealerdirect/phpcodesniffer-composer-installer": {
+      "v0.7.0": {
+        "rev": "e8d808670b8f882188368faaf1144448c169c0b7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git"
+      }
+    },
+    "php-parallel-lint/php-parallel-lint": {
+      "v1.2.0": {
+        "rev": "474f18bc6cc6aca61ca40bfab55139de614e51ca",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-parallel-lint/PHP-Parallel-Lint.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "0.12.50": {
+        "rev": "b8248f9c81265af75d6d969ca3252aaf3e998f3a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "6.4.1": {
+        "rev": "696dcca217d0c9da2c40d02731526c1e25b65346",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.5.6": {
+        "rev": "e97627871a7eab2f70e59166072a6b767d5834e0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    },
+    "wavevision/coding-standard": {
+      "6.0.0": {
+        "rev": "95cf2c694bb1f391bd8a650bb1ceeffb0988e522",
+        "type": "git",
+        "url": "https://github.com/wavevision/coding-standard.git"
+      }
+    }
+  }
+}

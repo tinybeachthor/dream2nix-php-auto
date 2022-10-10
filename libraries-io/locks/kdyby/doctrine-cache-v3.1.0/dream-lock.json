@@ -1,0 +1,238 @@
+{
+  "_generic": {
+    "defaultPackage": "kdyby/doctrine-cache",
+    "location": "",
+    "packages": {
+      "kdyby/doctrine-cache": "v3.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "typo3/class-alias-loader@dev-main": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "json",
+      "ctype",
+      "simplexml",
+      "xmlwriter"
+    ],
+    "phpSemver": "^7.1"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "consistence/coding-standard": {
+      "3.9": [
+        [ "slevomat/coding-standard", "5.0.4" ],
+        [ "squizlabs/php_codesniffer", "3.5.8" ]
+      ]
+    },
+    "kdyby/coding-standard": {
+      "dev-master": [
+        [ "consistence/coding-standard", "3.9" ],
+        [ "nette/utils", "v3.1.x-dev" ],
+        [ "slevomat/coding-standard", "5.0.4" ],
+        [ "squizlabs/php_codesniffer", "3.5.8" ]
+      ]
+    },
+    "kdyby/doctrine-cache": {
+      "v3.1.0": [
+        [ "jakub-onderka/php-parallel-lint", "v1.0.0" ],
+        [ "kdyby/coding-standard", "dev-master" ],
+        [ "nette/bootstrap", "v3.1.0" ],
+        [ "nette/caching", "v3.1.x-dev" ],
+        [ "nette/di", "v3.0.x-dev" ],
+        [ "nette/tester", "v2.2.0" ],
+        [ "php-coveralls/php-coveralls", "v2.5.3" ],
+        [ "phpstan/phpstan-shim", "0.11.19" ]
+      ]
+    },
+    "nette/bootstrap": {
+      "v3.1.0": [
+        [ "nette/utils", "v3.1.x-dev" ]
+      ]
+    },
+    "nette/caching": {
+      "v3.1.x-dev": [
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/utils", "v3.1.x-dev" ]
+      ]
+    },
+    "nette/di": {
+      "v3.0.x-dev": [
+        [ "nette/php-generator", "v3.6.x-dev" ],
+        [ "nette/robot-loader", "v3.4.x-dev" ],
+        [ "nette/schema", "v1.2.x-dev" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.6.x-dev": [
+        [ "nette/utils", "v3.1.x-dev" ]
+      ]
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": [
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/utils", "v3.1.x-dev" ]
+      ]
+    },
+    "php-coveralls/php-coveralls": {
+      "v2.5.3": [
+        [ "psr/log", "2.0.0" ]
+      ]
+    },
+    "slevomat/coding-standard": {
+      "5.0.4": [
+        [ "squizlabs/php_codesniffer", "3.5.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "consistence/coding-standard": {
+      "3.9": {
+        "rev": "8fc0507fe629c9a626983978cb8011e576217725",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/consistence/coding-standard.git"
+      }
+    },
+    "jakub-onderka/php-parallel-lint": {
+      "v1.0.0": {
+        "rev": "04fbd3f5fb1c83f08724aa58a23db90bd9086ee8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/JakubOnderka/PHP-Parallel-Lint.git"
+      }
+    },
+    "kdyby/coding-standard": {
+      "dev-master": {
+        "rev": "0105a53d7ec7b31a014073591c0421487511919b",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Kdyby/CodingStandard.git"
+      }
+    },
+    "kdyby/doctrine-cache": {
+      "v3.1.0": {
+        "rev": "419994c4573ecf31363c1cab069241f09ed62213",
+        "type": "git",
+        "url": "https://github.com/Kdyby/DoctrineCache.git"
+      }
+    },
+    "nette/bootstrap": {
+      "v3.1.0": {
+        "rev": "87b56eac5de9359f95b587304e42e918847282da",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/bootstrap.git"
+      }
+    },
+    "nette/caching": {
+      "v3.1.x-dev": {
+        "rev": "4396ac00b3681c7d7f0629e1c09a69446d405dc5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/caching.git"
+      }
+    },
+    "nette/di": {
+      "v3.0.x-dev": {
+        "rev": "14ccc2243464f0b776866f54ce6dba138ff5aea1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.6.x-dev": {
+        "rev": "77454868db9395d15dc07607ad9e8eda3a959e5d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/php-generator": {
+      "v3.6.x-dev": {
+        "rev": "d31782f7bd2ae84ad06f863391ec3fb77ca4d0a6",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/php-generator.git"
+      }
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": {
+        "rev": "faf431348a184afdcdb932c798897c3b336d2462",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/robot-loader.git"
+      }
+    },
+    "nette/schema": {
+      "v1.2.x-dev": {
+        "rev": "6055ddad8d4fa46406235795e7381cc6e56cc229",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/schema.git"
+      }
+    },
+    "nette/tester": {
+      "v2.2.0": {
+        "rev": "899c70c53b40dfe4a214e568babb617a9c454071",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tester.git"
+      }
+    },
+    "nette/utils": {
+      "v3.1.x-dev": {
+        "rev": "2c8d1628317fddc692d90fd7732e3dd98327dbf0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "php-coveralls/php-coveralls": {
+      "v2.5.3": {
+        "rev": "9d8243bbf0e053333692857c98fab7cfba0d60a9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-coveralls/php-coveralls.git"
+      }
+    },
+    "phpstan/phpstan-shim": {
+      "0.11.19": {
+        "rev": "e3c06b1d63691dae644ae1e5b540905c8c021801",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-shim.git"
+      }
+    },
+    "psr/log": {
+      "2.0.0": {
+        "rev": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "slevomat/coding-standard": {
+      "5.0.4": {
+        "rev": "287ac3347c47918c0bf5e10335e36197ea10894c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git"
+      }
+    },
+    "squizlabs/php_codesniffer": {
+      "3.5.8": {
+        "rev": "9d583721a7157ee997f235f327de038e7ea6dac4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+      }
+    }
+  }
+}
