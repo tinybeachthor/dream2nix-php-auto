@@ -58,8 +58,8 @@
     },
     "contao-community-alliance/dependency-container": {
       "2.1.1": [
-        [ "contao/core-bundle", "4.13.10" ],
-        [ "contao/manager-bundle", "4.13.10" ],
+        [ "contao/core-bundle", "4.13.11" ],
+        [ "contao/manager-bundle", "4.13.11" ],
         [ "pimple/pimple", "v1.1.1" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
@@ -148,7 +148,7 @@
       ]
     },
     "contao/core-bundle": {
-      "4.13.10": [
+      "4.13.11": [
         [ "ausi/slug-generator", "v1.1.1" ],
         [ "bacon/bacon-qr-code", "2.0.7" ],
         [ "contao-components/ace", "1.11.2" ],
@@ -180,7 +180,7 @@
         [ "imagine/imagine", "1.3.2" ],
         [ "knplabs/knp-menu", "v3.3.0" ],
         [ "knplabs/knp-menu-bundle", "v3.2.0" ],
-        [ "knplabs/knp-time-bundle", "v1.19.0" ],
+        [ "knplabs/knp-time-bundle", "v1.20.0" ],
         [ "lcobucci/jwt", "4.2.1" ],
         [ "league/commonmark", "2.3.5" ],
         [ "league/flysystem", "3.5.2" ],
@@ -233,6 +233,7 @@
         [ "symfony/password-hasher", "v5.4.11" ],
         [ "symfony/polyfill-intl-idn", "v1.26.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/process", "v5.4.11" ],
         [ "symfony/property-access", "v5.4.11" ],
         [ "symfony/routing", "v5.4.11" ],
@@ -270,8 +271,8 @@
       ]
     },
     "contao/installation-bundle": {
-      "4.13.10": [
-        [ "contao/core-bundle", "4.13.10" ],
+      "4.13.11": [
+        [ "contao/core-bundle", "4.13.11" ],
         [ "doctrine/dbal", "3.4.5" ],
         [ "psr/log", "1.1.4" ],
         [ "sensiolabs/ansi-to-html", "v1.2.1" ],
@@ -290,9 +291,9 @@
       ]
     },
     "contao/manager-bundle": {
-      "4.13.10": [
-        [ "contao/core-bundle", "4.13.10" ],
-        [ "contao/installation-bundle", "4.13.10" ],
+      "4.13.11": [
+        [ "contao/core-bundle", "4.13.11" ],
+        [ "contao/installation-bundle", "4.13.11" ],
         [ "contao/manager-plugin", "2.12.0" ],
         [ "doctrine/dbal", "3.4.5" ],
         [ "doctrine/doctrine-bundle", "2.7.0" ],
@@ -446,9 +447,10 @@
       ]
     },
     "knplabs/knp-time-bundle": {
-      "v1.19.0": [
+      "v1.20.0": [
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
+        [ "symfony/templating", "v6.1.3" ],
         [ "symfony/translation", "v5.4.12" ]
       ]
     },
@@ -957,6 +959,11 @@
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
+    "symfony/templating": {
+      "v6.1.3": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
     "symfony/translation": {
       "v5.4.12": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
@@ -1248,8 +1255,8 @@
       }
     },
     "contao/core-bundle": {
-      "4.13.10": {
-        "rev": "70dfbb601d3b7425385389cc8fe3b312d6146656",
+      "4.13.11": {
+        "rev": "b4d593307dbec54a46cf353516396578d89972c4",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/contao/core-bundle.git"
@@ -1272,7 +1279,7 @@
       }
     },
     "contao/installation-bundle": {
-      "4.13.10": {
+      "4.13.11": {
         "rev": "7ac41d0a13e788b080f92d7634b697741abdb18a",
         "submodules": false,
         "type": "git",
@@ -1280,8 +1287,8 @@
       }
     },
     "contao/manager-bundle": {
-      "4.13.10": {
-        "rev": "8c4d928a6a667e31163b6f836b898aff42f261e2",
+      "4.13.11": {
+        "rev": "fad1e4bb931732a70d2f5d300d675ecd2394092b",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/contao/manager-bundle.git"
@@ -1488,8 +1495,8 @@
       }
     },
     "knplabs/knp-time-bundle": {
-      "v1.19.0": {
-        "rev": "56e4d154bcd14c1b67c0d1defa1e7d00d27430e3",
+      "v1.20.0": {
+        "rev": "81ffad54d91f62528466267fd4a2fb8a5a0335f4",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/KnpLabs/KnpTimeBundle.git"
@@ -2285,6 +2292,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/string.git"
+      }
+    },
+    "symfony/templating": {
+      "v6.1.3": {
+        "rev": "6d8e5d7cc2d7759aab512e7c7ac3d0bad1c7d3eb",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/templating.git"
       }
     },
     "symfony/translation": {

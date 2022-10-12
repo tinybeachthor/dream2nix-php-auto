@@ -15,10 +15,10 @@
     "noDev": false,
     "phpExtensions": [
       "json",
+      "mbstring",
       "bcmath",
       "intl",
       "curl",
-      "mbstring",
       "dom",
       "tokenizer",
       "phar",
@@ -75,6 +75,11 @@
         [ "spryker/locale", "3.8.1" ]
       ]
     },
+    "spryker/oauth-client-extension": {
+      "1.0.0": [
+        [ "spryker/transfer", "3.33.0" ]
+      ]
+    },
     "spryker/propel": {
       "3.35.0": [
         [ "spryker/kernel", "3.69.0" ],
@@ -97,8 +102,9 @@
       ]
     },
     "spryker/store": {
-      "1.15.0": [
+      "1.16.0": [
         [ "spryker/kernel", "3.69.0" ],
+        [ "spryker/log", "3.13.0" ],
         [ "spryker/propel-orm", "1.17.0" ],
         [ "spryker/transfer", "3.33.0" ]
       ]
@@ -210,9 +216,10 @@
       ]
     },
     "laminas/laminas-filter": {
-      "2.21.0": [
+      "2.23.0": [
         [ "laminas/laminas-servicemanager", "3.19.0" ],
-        [ "laminas/laminas-stdlib", "3.15.0" ]
+        [ "laminas/laminas-stdlib", "3.15.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
       ]
     },
     "laminas/laminas-servicemanager": {
@@ -425,7 +432,7 @@
     "spryker/laminas": {
       "1.0.0": [
         [ "laminas/laminas-config", "3.7.0" ],
-        [ "laminas/laminas-filter", "2.21.0" ],
+        [ "laminas/laminas-filter", "2.23.0" ],
         [ "laminas/laminas-servicemanager", "3.19.0" ]
       ]
     },
@@ -457,7 +464,7 @@
         [ "spryker/kernel", "3.69.0" ],
         [ "spryker/locale", "3.8.1" ],
         [ "spryker/monitoring-extension", "1.0.0" ],
-        [ "spryker/store", "1.15.0" ],
+        [ "spryker/store", "1.16.0" ],
         [ "spryker/symfony", "3.8.1" ],
         [ "spryker/util-network", "1.1.1" ]
       ]
@@ -465,6 +472,11 @@
     "spryker/monolog": {
       "2.0.5": [
         [ "monolog/monolog", "2.8.0" ]
+      ]
+    },
+    "spryker/oauth-client-extension": {
+      "1.0.0": [
+        [ "spryker/transfer", "3.33.0" ]
       ]
     },
     "spryker/propel": {
@@ -516,9 +528,12 @@
       ]
     },
     "spryker/store": {
-      "1.15.0": [
+      "1.16.0": [
         [ "spryker/application-extension", "1.1.0" ],
         [ "spryker/kernel", "3.69.0" ],
+        [ "spryker/log", "3.13.0" ],
+        [ "spryker/message-broker-extension", "1.0.0" ],
+        [ "spryker/oauth-client-extension", "1.0.0" ],
         [ "spryker/propel-orm", "1.17.0" ],
         [ "spryker/quote-extension", "1.7.0" ],
         [ "spryker/symfony", "3.8.1" ],
@@ -1002,8 +1017,8 @@
       }
     },
     "laminas/laminas-filter": {
-      "2.21.0": {
-        "rev": "7835f3f3227b1892676cb7366fbed0e521cac845",
+      "2.23.0": {
+        "rev": "41cff2f850753f0bb3fc75c5ce011fcad6aa1731",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/laminas/laminas-filter.git"
@@ -1448,6 +1463,14 @@
         "url": "https://github.com/spryker/log.git"
       }
     },
+    "spryker/message-broker-extension": {
+      "1.0.0": {
+        "rev": "5ea18b678fc07f73779d34163dd4a3c15a275f10",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spryker/message-broker-extension.git"
+      }
+    },
     "spryker/monitoring": {
       "2.5.0": {
         "rev": "ddcfbac5a8d73462216b9506ab54da7ccd2c5efb",
@@ -1470,6 +1493,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/spryker/monolog.git"
+      }
+    },
+    "spryker/oauth-client-extension": {
+      "1.0.0": {
+        "rev": "6b1bdc609f83f69e50e3aa89ae7dab4c8e99cd14",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/spryker/oauth-client-extension.git"
       }
     },
     "spryker/propel": {
@@ -1529,8 +1560,8 @@
       }
     },
     "spryker/store": {
-      "1.15.0": {
-        "rev": "89955522102a15882c1b9ecc456172a7bcedb8d6",
+      "1.16.0": {
+        "rev": "f19670bb1dab9c6eb10bfc7473b31c56597947c3",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/spryker/store.git"
