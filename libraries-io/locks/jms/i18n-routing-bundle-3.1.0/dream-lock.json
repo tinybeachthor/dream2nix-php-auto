@@ -26,7 +26,7 @@
   "cyclicDependencies": {
     "friendsofphp/proxy-manager-lts": {
       "v1.0.12": [
-        [ "symfony/symfony", "v5.4.13" ]
+        [ "symfony/symfony", "v5.4.14" ]
       ]
     }
   },
@@ -37,23 +37,28 @@
         [ "psr/cache", "2.0.0" ]
       ]
     },
+    "doctrine/event-manager": {
+      "1.2.0": [
+        [ "doctrine/deprecations", "v1.0.0" ]
+      ]
+    },
     "doctrine/persistence": {
       "3.0.3": [
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "2.0.0" ]
       ]
     },
     "friendsofphp/proxy-manager-lts": {
       "v1.0.12": [
         [ "laminas/laminas-code", "4.7.0" ],
-        [ "symfony/symfony", "v5.4.13" ]
+        [ "symfony/symfony", "v5.4.14" ]
       ]
     },
     "jms/i18n-routing-bundle": {
       "3.1.0": [
         [ "phpunit/phpunit", "9.5.25" ],
         [ "sensio/framework-extra-bundle", "v6.2.8" ],
-        [ "symfony/symfony", "v5.4.13" ]
+        [ "symfony/symfony", "v5.4.14" ]
       ]
     },
     "phar-io/manifest": {
@@ -135,7 +140,7 @@
     "sensio/framework-extra-bundle": {
       "v6.2.8": [
         [ "doctrine/annotations", "1.13.3" ],
-        [ "symfony/symfony", "v5.4.13" ]
+        [ "symfony/symfony", "v5.4.14" ]
       ]
     },
     "symfony/contracts": {
@@ -152,8 +157,8 @@
       ]
     },
     "symfony/symfony": {
-      "v5.4.13": [
-        [ "doctrine/event-manager", "1.1.2" ],
+      "v5.4.14": [
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/persistence", "3.0.3" ],
         [ "friendsofphp/proxy-manager-lts", "v1.0.12" ],
         [ "psr/cache", "2.0.0" ],
@@ -191,9 +196,17 @@
         "url": "https://github.com/doctrine/annotations.git"
       }
     },
+    "doctrine/deprecations": {
+      "v1.0.0": {
+        "rev": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/deprecations.git"
+      }
+    },
     "doctrine/event-manager": {
-      "1.1.2": {
-        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+      "1.2.0": {
+        "rev": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/event-manager.git"
@@ -599,8 +612,8 @@
       }
     },
     "symfony/symfony": {
-      "v5.4.13": {
-        "rev": "dcedd9ca61d8cd084b34db05e7c552bda9adac6a",
+      "v5.4.14": {
+        "rev": "70103a18446ec0a09a0f952dbb5c570b93c8b936",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/symfony.git"

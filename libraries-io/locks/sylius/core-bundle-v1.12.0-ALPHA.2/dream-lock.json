@@ -31,17 +31,17 @@
   "cyclicDependencies": {
     "symfony/amqp-messenger": {
       "v6.0.13": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     },
     "symfony/doctrine-messenger": {
       "v6.1.4": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     },
     "symfony/redis-messenger": {
       "v6.0.13": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     }
   },
@@ -52,8 +52,8 @@
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/property-access", "v5.4.11" ],
         [ "symfony/routing", "v5.4.11" ]
       ]
@@ -71,20 +71,20 @@
     },
     "doctrine/common": {
       "3.4.3": [
-        [ "doctrine/persistence", "2.5.4" ]
+        [ "doctrine/persistence", "2.5.5" ]
       ]
     },
     "doctrine/data-fixtures": {
       "1.5.3": [
         [ "doctrine/common", "3.4.3" ],
-        [ "doctrine/persistence", "2.5.4" ]
+        [ "doctrine/persistence", "2.5.5" ]
       ]
     },
     "doctrine/dbal": {
       "3.4.5": [
         [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "3.0.0" ],
         [ "psr/log", "2.0.0" ]
       ]
@@ -94,15 +94,15 @@
         [ "doctrine/annotations", "1.13.3" ],
         [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/dbal", "3.4.5" ],
-        [ "doctrine/persistence", "2.5.4" ],
+        [ "doctrine/persistence", "2.5.5" ],
         [ "doctrine/sql-formatter", "1.1.3" ],
         [ "symfony/cache", "v6.1.5" ],
         [ "symfony/config", "v5.4.11" ],
-        [ "symfony/console", "v6.1.5" ],
+        [ "symfony/console", "v6.1.6" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/doctrine-bridge", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/doctrine-bridge", "v5.4.14" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/service-contracts", "v2.5.2" ]
       ]
     },
@@ -110,17 +110,22 @@
       "3.2.2": [
         [ "doctrine/doctrine-bundle", "2.7.0" ],
         [ "doctrine/migrations", "3.5.2" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
+      ]
+    },
+    "doctrine/event-manager": {
+      "1.2.0": [
+        [ "doctrine/deprecations", "v1.0.0" ]
       ]
     },
     "doctrine/migrations": {
       "3.5.2": [
         [ "doctrine/dbal", "3.4.5" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "friendsofphp/proxy-manager-lts", "v1.0.12" ],
         [ "psr/log", "2.0.0" ],
-        [ "symfony/console", "v6.1.5" ],
+        [ "symfony/console", "v6.1.6" ],
         [ "symfony/stopwatch", "v6.1.5" ]
       ]
     },
@@ -131,24 +136,24 @@
         [ "doctrine/common", "3.4.3" ],
         [ "doctrine/dbal", "3.4.5" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/inflector", "2.0.5" ],
         [ "doctrine/instantiator", "1.4.1" ],
         [ "doctrine/lexer", "1.2.3" ],
-        [ "doctrine/persistence", "2.5.4" ],
+        [ "doctrine/persistence", "2.5.5" ],
         [ "psr/cache", "3.0.0" ],
-        [ "symfony/console", "v6.1.5" ],
+        [ "symfony/console", "v6.1.6" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php72", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "doctrine/persistence": {
-      "2.5.4": [
+      "2.5.5": [
         [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "3.0.0" ]
       ]
     },
@@ -175,11 +180,11 @@
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/routing", "v5.4.11" ],
-        [ "symfony/security-core", "v5.4.13" ],
+        [ "symfony/security-core", "v5.4.14" ],
         [ "willdurand/jsonp-callback-validator", "v2.0.0" ],
         [ "willdurand/negotiation", "3.1.0" ]
       ]
@@ -190,8 +195,8 @@
         [ "doctrine/annotations", "1.13.3" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/common", "3.4.3" ],
-        [ "doctrine/event-manager", "1.1.2" ],
-        [ "doctrine/persistence", "2.5.4" ],
+        [ "doctrine/event-manager", "1.2.0" ],
+        [ "doctrine/persistence", "2.5.5" ],
         [ "psr/cache", "3.0.0" ],
         [ "symfony/cache", "v6.1.5" ]
       ]
@@ -218,11 +223,11 @@
         [ "php-http/message-factory", "v1.0.2" ],
         [ "psr/http-message", "1.0.1" ],
         [ "symfony/form", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/options-resolver", "v5.4.11" ],
         [ "symfony/security-bundle", "v5.4.11" ],
         [ "symfony/templating", "v5.4.11" ],
-        [ "symfony/yaml", "v5.4.12" ]
+        [ "symfony/yaml", "v5.4.14" ]
       ]
     },
     "jms/serializer": {
@@ -231,7 +236,7 @@
         [ "doctrine/instantiator", "1.4.1" ],
         [ "doctrine/lexer", "1.2.3" ],
         [ "jms/metadata", "2.7.0" ],
-        [ "phpstan/phpdoc-parser", "1.9.0" ]
+        [ "phpstan/phpdoc-parser", "1.10.0" ]
       ]
     },
     "jms/serializer-bundle": {
@@ -239,7 +244,7 @@
         [ "jms/metadata", "2.7.0" ],
         [ "jms/serializer", "3.18.2" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "knplabs/knp-gaufrette-bundle": {
@@ -247,13 +252,13 @@
         [ "knplabs/gaufrette", "v0.8.3" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "knplabs/knp-menu-bundle": {
       "v3.2.0": [
         [ "knplabs/knp-menu", "v3.3.0" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "league/flysystem": {
@@ -267,7 +272,7 @@
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/options-resolver", "v5.4.11" ]
       ]
     },
@@ -288,8 +293,8 @@
         [ "imagine/imagine", "1.3.2" ],
         [ "symfony/filesystem", "v6.1.5" ],
         [ "symfony/finder", "v6.1.3" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/mime", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/mime", "v5.4.14" ],
         [ "symfony/options-resolver", "v5.4.11" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/process", "v6.1.3" ],
@@ -306,7 +311,7 @@
         [ "matthiasnoback/symfony-config-test", "4.3.0" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
-        [ "symfony/yaml", "v5.4.12" ]
+        [ "symfony/yaml", "v5.4.14" ]
       ]
     },
     "monolog/monolog": {
@@ -334,10 +339,10 @@
     "payum/payum-bundle": {
       "2.5.0": [
         [ "symfony/form", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/security-csrf", "v5.4.11" ],
-        [ "symfony/validator", "v5.4.13" ]
+        [ "symfony/validator", "v5.4.14" ]
       ]
     },
     "phar-io/manifest": {
@@ -401,11 +406,11 @@
         [ "phpspec/php-diff", "v1.1.3" ],
         [ "phpspec/prophecy", "v1.15.0" ],
         [ "sebastian/exporter", "3.1.5" ],
-        [ "symfony/console", "v6.1.5" ],
+        [ "symfony/console", "v6.1.6" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
         [ "symfony/finder", "v6.1.3" ],
         [ "symfony/process", "v6.1.3" ],
-        [ "symfony/yaml", "v5.4.12" ]
+        [ "symfony/yaml", "v5.4.14" ]
       ]
     },
     "phpspec/prophecy": {
@@ -499,17 +504,17 @@
         [ "sonata-project/form-extensions", "1.18.0" ],
         [ "symfony/asset", "v6.1.5" ],
         [ "symfony/config", "v5.4.11" ],
-        [ "symfony/console", "v6.1.5" ],
+        [ "symfony/console", "v6.1.6" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
         [ "symfony/event-dispatcher-contracts", "v3.1.1" ],
         [ "symfony/form", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/options-resolver", "v5.4.11" ],
         [ "symfony/twig-bundle", "v5.4.8" ],
-        [ "symfony/validator", "v5.4.13" ],
+        [ "symfony/validator", "v5.4.14" ],
         [ "twig/twig", "v2.15.3" ]
       ]
     },
@@ -521,7 +526,7 @@
     "sonata-project/doctrine-extensions": {
       "2.0.1": [
         [ "doctrine/dbal", "3.4.5" ],
-        [ "doctrine/persistence", "2.5.4" ]
+        [ "doctrine/persistence", "2.5.5" ]
       ]
     },
     "sonata-project/form-extensions": {
@@ -534,9 +539,9 @@
         [ "symfony/options-resolver", "v5.4.11" ],
         [ "symfony/property-access", "v5.4.11" ],
         [ "symfony/security-csrf", "v5.4.11" ],
-        [ "symfony/translation", "v5.4.12" ],
+        [ "symfony/translation", "v5.4.14" ],
         [ "symfony/translation-contracts", "v2.5.2" ],
-        [ "symfony/validator", "v5.4.13" ],
+        [ "symfony/validator", "v5.4.14" ],
         [ "twig/twig", "v2.15.3" ]
       ]
     },
@@ -546,7 +551,7 @@
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
-        [ "symfony/http-kernel", "v5.4.13" ]
+        [ "symfony/http-kernel", "v5.4.14" ]
       ]
     },
     "swiftmailer/swiftmailer": {
@@ -568,7 +573,7 @@
         [ "doctrine/doctrine-migrations-bundle", "3.2.2" ],
         [ "doctrine/migrations", "3.5.2" ],
         [ "marcj/topsort", "1.1.0" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius-labs/polyfill-symfony-event-dispatcher": {
@@ -579,21 +584,21 @@
     },
     "sylius-labs/polyfill-symfony-framework-bundle": {
       "v1.1.0": [
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius-labs/polyfill-symfony-security": {
       "v1.1.1": [
         [ "symfony/dependency-injection", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
-        [ "symfony/security-core", "v5.4.13" ]
+        [ "symfony/http-kernel", "v5.4.14" ],
+        [ "symfony/security-core", "v5.4.14" ]
       ]
     },
     "sylius/addressing": {
       "v1.11.9": [
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/intl", "v5.4.11" ]
+        [ "symfony/intl", "v5.4.14" ]
       ]
     },
     "sylius/addressing-bundle": {
@@ -601,8 +606,8 @@
         [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
         [ "sylius/addressing", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/intl", "v5.4.11" ]
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/intl", "v5.4.14" ]
       ]
     },
     "sylius/attribute": {
@@ -610,7 +615,7 @@
         [ "doctrine/collections", "1.8.0" ],
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/validator", "v5.4.13" ]
+        [ "symfony/validator", "v5.4.14" ]
       ]
     },
     "sylius/attribute-bundle": {
@@ -619,12 +624,12 @@
         [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
         [ "sylius/attribute", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/calendar": {
       "v0.3.0": [
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/channel": {
@@ -632,14 +637,14 @@
         [ "laminas/laminas-stdlib", "3.15.0" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
         [ "symfony/form", "v5.4.13" ],
-        [ "symfony/http-foundation", "v5.4.13" ]
+        [ "symfony/http-foundation", "v5.4.14" ]
       ]
     },
     "sylius/channel-bundle": {
       "v1.11.9": [
         [ "sylius/channel", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/core": {
@@ -667,9 +672,9 @@
         [ "sylius/taxation", "v1.11.9" ],
         [ "sylius/taxonomy", "v1.11.9" ],
         [ "sylius/user", "v1.11.9" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
-        [ "symfony/mime", "v5.4.13" ],
-        [ "symfony/string", "v5.4.13" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
+        [ "symfony/mime", "v5.4.14" ],
+        [ "symfony/string", "v5.4.14" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
@@ -719,9 +724,9 @@
         [ "sylius/ui-bundle", "v1.11.9" ],
         [ "sylius/user-bundle", "v1.11.9" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/intl", "v5.4.11" ],
-        [ "symfony/messenger", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/intl", "v5.4.14" ],
+        [ "symfony/messenger", "v5.4.14" ],
         [ "symfony/swiftmailer-bundle", "v3.5.4" ],
         [ "symfony/templating", "v5.4.11" ],
         [ "symfony/webpack-encore-bundle", "v1.15.1" ],
@@ -732,15 +737,15 @@
       "v1.11.9": [
         [ "laminas/laminas-stdlib", "3.15.0" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/intl", "v5.4.11" ]
+        [ "symfony/intl", "v5.4.14" ]
       ]
     },
     "sylius/currency-bundle": {
       "v1.11.9": [
         [ "sylius/currency", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/intl", "v5.4.11" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/intl", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ]
       ]
     },
@@ -756,7 +761,7 @@
         [ "egulias/email-validator", "3.2.1" ],
         [ "sylius/customer", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
@@ -764,7 +769,7 @@
       "v1.7.0": [
         [ "doctrine/data-fixtures", "1.5.3" ],
         [ "monolog/monolog", "2.8.0" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/monolog-bridge", "v5.4.10" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
@@ -778,8 +783,8 @@
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
         [ "symfony/form", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/options-resolver", "v5.4.11" ],
         [ "symfony/property-access", "v5.4.11" ],
         [ "webmozart/assert", "1.11.0" ]
@@ -795,23 +800,23 @@
       "v1.11.9": [
         [ "sylius/inventory", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ],
-        [ "symfony/validator", "v5.4.13" ]
+        [ "symfony/validator", "v5.4.14" ]
       ]
     },
     "sylius/locale": {
       "v1.11.9": [
         [ "laminas/laminas-stdlib", "3.15.0" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/intl", "v5.4.11" ]
+        [ "symfony/intl", "v5.4.14" ]
       ]
     },
     "sylius/locale-bundle": {
       "v1.11.9": [
         [ "sylius/locale", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ]
       ]
     },
@@ -821,8 +826,8 @@
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "twig/twig", "v2.15.3" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
@@ -830,8 +835,8 @@
     "sylius/money-bundle": {
       "v1.11.9": [
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/intl", "v5.4.11" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/intl", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
@@ -850,7 +855,7 @@
         [ "sylius/money-bundle", "v1.11.9" ],
         [ "sylius/order", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ]
       ]
     },
@@ -864,7 +869,7 @@
       "v1.11.9": [
         [ "sylius/payment", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/payum-bundle": {
@@ -895,7 +900,7 @@
         [ "sylius/locale-bundle", "v1.11.9" ],
         [ "sylius/product", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/promotion": {
@@ -913,7 +918,7 @@
         [ "sylius/promotion", "v1.11.9" ],
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/resource-bundle": {
@@ -921,22 +926,22 @@
         [ "babdev/pagerfanta-bundle", "v2.11.0" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/doctrine-bundle", "2.7.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/inflector", "2.0.5" ],
-        [ "doctrine/persistence", "2.5.4" ],
+        [ "doctrine/persistence", "2.5.5" ],
         [ "friendsofsymfony/rest-bundle", "3.4.0" ],
         [ "gedmo/doctrine-extensions", "v3.9.0" ],
         [ "jms/serializer-bundle", "3.10.0" ],
         [ "sylius/registry", "v1.6.0" ],
         [ "symfony/config", "v5.4.11" ],
-        [ "symfony/expression-language", "v5.4.11" ],
+        [ "symfony/expression-language", "v5.4.14" ],
         [ "symfony/form", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/security-csrf", "v5.4.11" ],
-        [ "symfony/translation", "v5.4.12" ],
+        [ "symfony/translation", "v5.4.14" ],
         [ "symfony/twig-bundle", "v5.4.8" ],
-        [ "symfony/validator", "v5.4.13" ],
-        [ "symfony/yaml", "v5.4.12" ],
+        [ "symfony/validator", "v5.4.14" ],
+        [ "symfony/yaml", "v5.4.14" ],
         [ "webmozart/assert", "1.11.0" ],
         [ "willdurand/hateoas-bundle", "2.5.0" ],
         [ "winzou/state-machine-bundle", "0.5.1" ]
@@ -955,7 +960,7 @@
         [ "sylius/resource-bundle", "v1.8.4" ],
         [ "sylius/review", "v1.11.9" ],
         [ "sylius/user-bundle", "v1.11.9" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/shipping": {
@@ -972,7 +977,7 @@
         [ "sylius/money-bundle", "v1.11.9" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
         [ "sylius/shipping", "v1.11.9" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/taxation": {
@@ -987,7 +992,7 @@
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
         [ "sylius/taxation", "v1.11.9" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/taxonomy": {
@@ -1002,24 +1007,24 @@
         [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
         [ "sylius/taxonomy", "v1.11.9" ],
-        [ "symfony/framework-bundle", "v5.4.13" ]
+        [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/theme-bundle": {
       "v2.3.0": [
         [ "symfony/asset", "v6.1.5" ],
         [ "symfony/config", "v5.4.11" ],
-        [ "symfony/console", "v6.1.5" ],
+        [ "symfony/console", "v6.1.6" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/filesystem", "v6.1.5" ],
         [ "symfony/finder", "v6.1.3" ],
         [ "symfony/form", "v5.4.13" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/options-resolver", "v5.4.11" ],
         [ "symfony/service-contracts", "v2.5.2" ],
-        [ "symfony/translation", "v5.4.12" ],
+        [ "symfony/translation", "v5.4.14" ],
         [ "symfony/translation-contracts", "v2.5.2" ]
       ]
     },
@@ -1033,9 +1038,9 @@
         [ "sylius-labs/polyfill-symfony-event-dispatcher", "v1.1.0" ],
         [ "sylius/grid-bundle", "v1.11.0" ],
         [ "symfony/config", "v5.4.11" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/security-bundle", "v5.4.11" ],
-        [ "symfony/security-core", "v5.4.13" ],
+        [ "symfony/security-core", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ]
       ]
     },
@@ -1045,7 +1050,7 @@
         [ "sylius-labs/polyfill-symfony-security", "v1.1.1" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
-        [ "symfony/security-core", "v5.4.13" ]
+        [ "symfony/security-core", "v5.4.14" ]
       ]
     },
     "sylius/user-bundle": {
@@ -1057,13 +1062,13 @@
         [ "sylius/mailer-bundle", "v1.8.0" ],
         [ "sylius/resource-bundle", "v1.8.4" ],
         [ "sylius/user", "v1.11.9" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
     "symfony/amqp-messenger": {
       "v6.0.13": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     },
     "symfony/cache": {
@@ -1090,11 +1095,11 @@
       ]
     },
     "symfony/console": {
-      "v6.1.5": [
+      "v6.1.6": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/service-contracts", "v2.5.2" ],
-        [ "symfony/string", "v5.4.13" ]
+        [ "symfony/string", "v5.4.14" ]
       ]
     },
     "symfony/dependency-injection": {
@@ -1107,9 +1112,9 @@
       ]
     },
     "symfony/doctrine-bridge": {
-      "v5.4.13": [
-        [ "doctrine/event-manager", "1.1.2" ],
-        [ "doctrine/persistence", "2.5.4" ],
+      "v5.4.14": [
+        [ "doctrine/event-manager", "1.2.0" ],
+        [ "doctrine/persistence", "2.5.5" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
@@ -1120,14 +1125,14 @@
     "symfony/doctrine-messenger": {
       "v6.1.4": [
         [ "doctrine/dbal", "3.4.5" ],
-        [ "symfony/messenger", "v5.4.13" ],
+        [ "symfony/messenger", "v5.4.14" ],
         [ "symfony/service-contracts", "v2.5.2" ]
       ]
     },
     "symfony/error-handler": {
-      "v6.1.3": [
+      "v6.1.6": [
         [ "psr/log", "2.0.0" ],
-        [ "symfony/var-dumper", "v6.1.5" ]
+        [ "symfony/var-dumper", "v6.1.6" ]
       ]
     },
     "symfony/event-dispatcher": {
@@ -1143,7 +1148,7 @@
       ]
     },
     "symfony/expression-language": {
-      "v5.4.11": [
+      "v5.4.14": [
         [ "symfony/cache", "v6.1.5" ],
         [ "symfony/service-contracts", "v2.5.2" ]
       ]
@@ -1169,17 +1174,17 @@
       ]
     },
     "symfony/framework-bundle": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/cache", "v6.1.5" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/error-handler", "v6.1.3" ],
+        [ "symfony/error-handler", "v6.1.6" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
         [ "symfony/filesystem", "v6.1.5" ],
         [ "symfony/finder", "v6.1.3" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/polyfill-php81", "v1.26.0" ],
@@ -1187,32 +1192,32 @@
       ]
     },
     "symfony/http-foundation": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "symfony/http-kernel": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "psr/log", "2.0.0" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/error-handler", "v6.1.3" ],
+        [ "symfony/error-handler", "v6.1.6" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php73", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "symfony/intl": {
-      "v5.4.11": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "symfony/messenger": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "psr/log", "2.0.0" ],
         [ "symfony/amqp-messenger", "v6.0.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
@@ -1222,7 +1227,7 @@
       ]
     },
     "symfony/mime": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-intl-idn", "v1.26.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
@@ -1233,7 +1238,7 @@
       "v5.4.10": [
         [ "monolog/monolog", "2.8.0" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/service-contracts", "v2.5.2" ]
       ]
@@ -1255,17 +1260,17 @@
       "v5.4.11": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
-        [ "symfony/property-info", "v6.1.3" ]
+        [ "symfony/property-info", "v6.1.6" ]
       ]
     },
     "symfony/property-info": {
-      "v6.1.3": [
-        [ "symfony/string", "v5.4.13" ]
+      "v6.1.6": [
+        [ "symfony/string", "v5.4.14" ]
       ]
     },
     "symfony/redis-messenger": {
       "v6.0.13": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     },
     "symfony/routing": {
@@ -1280,18 +1285,18 @@
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/password-hasher", "v6.1.3" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
-        [ "symfony/security-core", "v5.4.13" ],
+        [ "symfony/security-core", "v5.4.14" ],
         [ "symfony/security-csrf", "v5.4.11" ],
         [ "symfony/security-guard", "v5.4.13" ],
         [ "symfony/security-http", "v5.4.13" ]
       ]
     },
     "symfony/security-core": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/event-dispatcher-contracts", "v3.1.1" ],
         [ "symfony/password-hasher", "v6.1.3" ],
@@ -1302,25 +1307,25 @@
     "symfony/security-csrf": {
       "v5.4.11": [
         [ "symfony/polyfill-php80", "v1.26.0" ],
-        [ "symfony/security-core", "v5.4.13" ]
+        [ "symfony/security-core", "v5.4.14" ]
       ]
     },
     "symfony/security-guard": {
       "v5.4.13": [
         [ "symfony/polyfill-php80", "v1.26.0" ],
-        [ "symfony/security-core", "v5.4.13" ],
+        [ "symfony/security-core", "v5.4.14" ],
         [ "symfony/security-http", "v5.4.13" ]
       ]
     },
     "symfony/security-http": {
       "v5.4.13": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/property-access", "v5.4.11" ],
-        [ "symfony/security-core", "v5.4.13" ]
+        [ "symfony/security-core", "v5.4.14" ]
       ]
     },
     "symfony/service-contracts": {
@@ -1335,7 +1340,7 @@
       ]
     },
     "symfony/string": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
         [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
@@ -1348,7 +1353,7 @@
         [ "swiftmailer/swiftmailer", "v6.3.0" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ]
+        [ "symfony/http-kernel", "v5.4.14" ]
       ]
     },
     "symfony/templating": {
@@ -1357,7 +1362,7 @@
       ]
     },
     "symfony/translation": {
-      "v5.4.12": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
@@ -1365,7 +1370,7 @@
       ]
     },
     "symfony/twig-bridge": {
-      "v6.0.12": [
+      "v6.0.14": [
         [ "symfony/translation-contracts", "v2.5.2" ],
         [ "twig/twig", "v2.15.3" ]
       ]
@@ -1373,16 +1378,16 @@
     "symfony/twig-bundle": {
       "v5.4.8": [
         [ "symfony/config", "v5.4.11" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
-        [ "symfony/twig-bridge", "v6.0.12" ],
+        [ "symfony/twig-bridge", "v6.0.14" ],
         [ "twig/twig", "v2.15.3" ]
       ]
     },
     "symfony/validator": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
@@ -1393,7 +1398,7 @@
       ]
     },
     "symfony/var-dumper": {
-      "v6.1.5": [
+      "v6.1.6": [
         [ "symfony/polyfill-mbstring", "v1.26.0" ]
       ]
     },
@@ -1403,13 +1408,13 @@
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/http-kernel", "v5.4.13" ],
+        [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/service-contracts", "v2.5.2" ]
       ]
     },
     "symfony/yaml": {
-      "v5.4.12": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ]
       ]
@@ -1431,27 +1436,27 @@
         [ "doctrine/annotations", "1.13.3" ],
         [ "jms/metadata", "2.7.0" ],
         [ "jms/serializer", "3.18.2" ],
-        [ "symfony/expression-language", "v5.4.11" ]
+        [ "symfony/expression-language", "v5.4.14" ]
       ]
     },
     "willdurand/hateoas-bundle": {
       "2.5.0": [
         [ "jms/serializer-bundle", "3.10.0" ],
-        [ "symfony/expression-language", "v5.4.11" ],
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/expression-language", "v5.4.14" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "willdurand/hateoas", "3.8.0" ]
       ]
     },
     "winzou/state-machine": {
       "0.4.3": [
         [ "symfony/event-dispatcher", "v5.4.9" ],
-        [ "symfony/expression-language", "v5.4.11" ],
+        [ "symfony/expression-language", "v5.4.14" ],
         [ "symfony/property-access", "v5.4.11" ]
       ]
     },
     "winzou/state-machine-bundle": {
       "0.5.1": [
-        [ "symfony/framework-bundle", "v5.4.13" ],
+        [ "symfony/framework-bundle", "v5.4.14" ],
         [ "winzou/state-machine", "0.4.3" ]
       ]
     }
@@ -1562,8 +1567,8 @@
       }
     },
     "doctrine/event-manager": {
-      "1.1.2": {
-        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+      "1.2.0": {
+        "rev": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/event-manager.git"
@@ -1610,8 +1615,8 @@
       }
     },
     "doctrine/persistence": {
-      "2.5.4": {
-        "rev": "830c2ba42093e0e428eca37568ab36bd8008bc17",
+      "2.5.5": {
+        "rev": "38670dd6ac8f2d997a0b5b6c98cb380ef0ba9bd3",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/persistence.git"
@@ -2042,8 +2047,8 @@
       }
     },
     "phpstan/phpdoc-parser": {
-      "1.9.0": {
-        "rev": "5f7eb9724b0ae386b922f34b62b3b55fee3b26cd",
+      "1.10.0": {
+        "rev": "87fa2d526e56737a2ae8fa201a61b15efae59b8a",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/phpstan/phpdoc-parser.git"
@@ -2745,8 +2750,8 @@
       }
     },
     "symfony/console": {
-      "v6.1.5": {
-        "rev": "17524a64ebcfab68d237bbed247e9a9917747096",
+      "v6.1.6": {
+        "rev": "7fa3b9cf17363468795e539231a5c91b02b608fc",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/console.git"
@@ -2769,8 +2774,8 @@
       }
     },
     "symfony/doctrine-bridge": {
-      "v5.4.13": {
-        "rev": "6ac912989e0c31b178aa534eb9ed75f7fa485fae",
+      "v5.4.14": {
+        "rev": "3e1e56af2174c205d60a73f5acd7eff89cef65b2",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/doctrine-bridge.git"
@@ -2785,8 +2790,8 @@
       }
     },
     "symfony/error-handler": {
-      "v6.1.3": {
-        "rev": "736e42db3fd586d91820355988698e434e1d8419",
+      "v6.1.6": {
+        "rev": "49f718e41f1b6f0fd5730895ca5b1c37defd828d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/error-handler.git"
@@ -2809,8 +2814,8 @@
       }
     },
     "symfony/expression-language": {
-      "v5.4.11": {
-        "rev": "eb59000eb72c9681502cb501af3c666be42d215e",
+      "v5.4.14": {
+        "rev": "2f27d5b1e7926bba18e87719af75f696977cd58b",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/expression-language.git"
@@ -2841,48 +2846,48 @@
       }
     },
     "symfony/framework-bundle": {
-      "v5.4.13": {
-        "rev": "394866c2cb8bb189b9bd5ebd043b66f89c800363",
+      "v5.4.14": {
+        "rev": "00ac4d7e31597f6a49759bd925d83fc87d4ade68",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/framework-bundle.git"
       }
     },
     "symfony/http-foundation": {
-      "v5.4.13": {
-        "rev": "54be067587a4f2b7fffb7a699f9481ec3daf9379",
+      "v5.4.14": {
+        "rev": "e7c7b395c3a61d746919c21e915f51f0039c3f75",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/http-foundation.git"
       }
     },
     "symfony/http-kernel": {
-      "v5.4.13": {
-        "rev": "4f25330c216b7bb178603b2e25fb7a9325015507",
+      "v5.4.14": {
+        "rev": "6f77fabc1a37c2dceecc6f78cca44772705dc52f",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/http-kernel.git"
       }
     },
     "symfony/intl": {
-      "v5.4.11": {
-        "rev": "d305c0c1d31b30b3876e041804c35e49e5f8a96e",
+      "v5.4.14": {
+        "rev": "dd26864d69c11e0e077ffc6b89f66c5772ac456e",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/intl.git"
       }
     },
     "symfony/messenger": {
-      "v5.4.13": {
-        "rev": "8f8d3425991e627902f8288088609a8d8f6c6ea4",
+      "v5.4.14": {
+        "rev": "de4b258a5551934460c422620b61cf0a35744f51",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/messenger.git"
       }
     },
     "symfony/mime": {
-      "v5.4.13": {
-        "rev": "bb2ccf759e2b967dcd11bdee5bdf30dddd2290bd",
+      "v5.4.14": {
+        "rev": "1c118b253bb3495d81e95a6e3ec6c2766a98a0c4",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/mime.git"
@@ -3017,8 +3022,8 @@
       }
     },
     "symfony/property-info": {
-      "v6.1.3": {
-        "rev": "2fc363ed2f2b5d3b231ed0824e066d140d3fd1d8",
+      "v6.1.6": {
+        "rev": "f28d0db9d2687f81d68d0dc6b2e42817647f5d64",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/property-info.git"
@@ -3049,8 +3054,8 @@
       }
     },
     "symfony/security-core": {
-      "v5.4.13": {
-        "rev": "71bc477807d9afc9c904fd62b3b5d48f97308460",
+      "v5.4.14": {
+        "rev": "0f8b4595ce4725f8f02fbb63729036813645fc2c",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/security-core.git"
@@ -3097,8 +3102,8 @@
       }
     },
     "symfony/string": {
-      "v5.4.13": {
-        "rev": "2900c668a32138a34118740de3e4d5a701801f53",
+      "v5.4.14": {
+        "rev": "089e7237497fae7a9c404d0c3aeb8db3254733e4",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/string.git"
@@ -3121,8 +3126,8 @@
       }
     },
     "symfony/translation": {
-      "v5.4.12": {
-        "rev": "42ecc77eb4f229ce2df702a648ec93b8478d76ae",
+      "v5.4.14": {
+        "rev": "f0ed07675863aa6e3939df8b1bc879450b585cab",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/translation.git"
@@ -3137,8 +3142,8 @@
       }
     },
     "symfony/twig-bridge": {
-      "v6.0.12": {
-        "rev": "4c35acac2a4f319f0423f2f3fdc8678d37ef1b4e",
+      "v6.0.14": {
+        "rev": "dd131baf98fe52faf9ca159d9cd1ed3e1babbba1",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/twig-bridge.git"
@@ -3153,16 +3158,16 @@
       }
     },
     "symfony/validator": {
-      "v5.4.13": {
-        "rev": "8fba40ed3c21054cb9a543ccecd4f3175b6a011b",
+      "v5.4.14": {
+        "rev": "717b1eabbc51795369400697458f7e813fc6c71e",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/validator.git"
       }
     },
     "symfony/var-dumper": {
-      "v6.1.5": {
-        "rev": "d0833493fb2413a86f522fb54a1896a7718e98ec",
+      "v6.1.6": {
+        "rev": "0f0adde127f24548e23cbde83bcaeadc491c551f",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/var-dumper.git"
@@ -3185,8 +3190,8 @@
       }
     },
     "symfony/yaml": {
-      "v5.4.12": {
-        "rev": "7a3aa21ac8ab1a96cc6de5bbcab4bc9fc943b18c",
+      "v5.4.14": {
+        "rev": "e83fe9a72011f07c662da46a05603d66deeeb487",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/yaml.git"

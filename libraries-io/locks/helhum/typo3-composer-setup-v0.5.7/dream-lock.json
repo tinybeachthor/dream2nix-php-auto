@@ -39,7 +39,12 @@
     "doctrine/dbal": {
       "2.11.3": [
         [ "doctrine/cache", "1.13.0" ],
-        [ "doctrine/event-manager", "1.1.2" ]
+        [ "doctrine/event-manager", "1.2.0" ]
+      ]
+    },
+    "doctrine/event-manager": {
+      "1.2.0": [
+        [ "doctrine/deprecations", "v1.0.0" ]
       ]
     },
     "guzzlehttp/guzzle": {
@@ -68,7 +73,7 @@
         [ "doctrine/annotations", "1.13.3" ],
         [ "helhum/config-loader", "v0.12.5" ],
         [ "helhum/typo3-console-plugin", "v2.0.7" ],
-        [ "symfony/console", "v4.4.45" ],
+        [ "symfony/console", "v4.4.47" ],
         [ "symfony/process", "v4.4.44" ],
         [ "typo3/cms-backend", "v9.5.31" ],
         [ "typo3/cms-core", "v9.5.31" ],
@@ -119,7 +124,7 @@
       ]
     },
     "symfony/console": {
-      "v4.4.45": [
+      "v4.4.47": [
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php73", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
@@ -138,7 +143,7 @@
       ]
     },
     "symfony/http-foundation": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
@@ -205,10 +210,10 @@
         [ "psr/http-server-middleware", "1.0.1" ],
         [ "psr/log", "1.1.4" ],
         [ "swiftmailer/swiftmailer", "v5.4.12" ],
-        [ "symfony/console", "v4.4.45" ],
+        [ "symfony/console", "v4.4.47" ],
         [ "symfony/expression-language", "v4.4.47" ],
         [ "symfony/finder", "v4.4.44" ],
-        [ "symfony/http-foundation", "v5.4.13" ],
+        [ "symfony/http-foundation", "v5.4.14" ],
         [ "symfony/polyfill-intl-icu", "v1.26.0" ],
         [ "symfony/polyfill-intl-idn", "v1.26.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
@@ -322,9 +327,17 @@
         "url": "https://github.com/doctrine/dbal.git"
       }
     },
+    "doctrine/deprecations": {
+      "v1.0.0": {
+        "rev": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/deprecations.git"
+      }
+    },
     "doctrine/event-manager": {
-      "1.1.2": {
-        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+      "1.2.0": {
+        "rev": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/event-manager.git"
@@ -506,8 +519,8 @@
       }
     },
     "symfony/console": {
-      "v4.4.45": {
-        "rev": "28b77970939500fb04180166a1f716e75a871ef8",
+      "v4.4.47": {
+        "rev": "4f40012db8d55c956406890b5720f686fee7f7b7",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/console.git"
@@ -538,8 +551,8 @@
       }
     },
     "symfony/http-foundation": {
-      "v5.4.13": {
-        "rev": "54be067587a4f2b7fffb7a699f9481ec3daf9379",
+      "v5.4.14": {
+        "rev": "e7c7b395c3a61d746919c21e915f51f0039c3f75",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/http-foundation.git"

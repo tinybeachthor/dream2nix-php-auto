@@ -36,16 +36,21 @@
     },
     "doctrine/common": {
       "3.4.3": [
-        [ "doctrine/persistence", "3.0.3" ]
+        [ "doctrine/persistence", "3.0.4" ]
       ]
     },
     "doctrine/dbal": {
       "3.4.5": [
         [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "3.0.0" ],
         [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "doctrine/event-manager": {
+      "1.2.0": [
+        [ "doctrine/deprecations", "v1.0.0" ]
       ]
     },
     "doctrine/orm": {
@@ -55,11 +60,11 @@
         [ "doctrine/common", "3.4.3" ],
         [ "doctrine/dbal", "3.4.5" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/inflector", "1.4.4" ],
         [ "doctrine/instantiator", "1.4.1" ],
         [ "doctrine/lexer", "1.2.3" ],
-        [ "doctrine/persistence", "3.0.3" ],
+        [ "doctrine/persistence", "3.0.4" ],
         [ "psr/cache", "3.0.0" ],
         [ "symfony/console", "v4.2.12" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
@@ -68,8 +73,8 @@
       ]
     },
     "doctrine/persistence": {
-      "3.0.3": [
-        [ "doctrine/event-manager", "1.1.2" ],
+      "3.0.4": [
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "3.0.0" ]
       ]
     },
@@ -110,7 +115,7 @@
       "2.62.1": [
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
-        [ "symfony/translation", "v5.2.12" ]
+        [ "symfony/translation", "v4.4.47" ]
       ]
     },
     "phpdocumentor/reflection-docblock": {
@@ -240,8 +245,14 @@
     },
     "symfony/console": {
       "v4.2.12": [
-        [ "symfony/contracts", "v1.1.0" ],
+        [ "symfony/contracts", "v1.1.13" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "symfony/contracts": {
+      "v1.1.13": [
+        [ "psr/cache", "3.0.0" ],
+        [ "psr/container", "1.1.2" ]
       ]
     },
     "symfony/filesystem": {
@@ -251,22 +262,16 @@
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
-    "symfony/service-contracts": {
-      "v2.5.2": [
-        [ "psr/container", "1.1.2" ],
-        [ "symfony/deprecation-contracts", "v3.1.1" ]
-      ]
-    },
     "symfony/stopwatch": {
       "v4.4.46": [
-        [ "symfony/service-contracts", "v2.5.2" ]
+        [ "symfony/contracts", "v1.1.13" ]
       ]
     },
     "symfony/translation": {
-      "v5.2.12": [
+      "v4.4.47": [
+        [ "symfony/contracts", "v1.1.13" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
-        [ "symfony/polyfill-php80", "v1.26.0" ],
-        [ "symfony/translation-contracts", "v2.5.2" ]
+        [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "symfony/yaml": {
@@ -327,8 +332,8 @@
       }
     },
     "doctrine/event-manager": {
-      "1.1.2": {
-        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+      "1.2.0": {
+        "rev": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/event-manager.git"
@@ -367,8 +372,8 @@
       }
     },
     "doctrine/persistence": {
-      "3.0.3": {
-        "rev": "ac6fce61f037d7e54dbb2435f5b5648d86548e23",
+      "3.0.4": {
+        "rev": "05612da375f8a3931161f435f91d6704926e6ec5",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/persistence.git"
@@ -718,19 +723,11 @@
       }
     },
     "symfony/contracts": {
-      "v1.1.0": {
-        "rev": "d3636025e8253c6144358ec0a62773cae588395b",
+      "v1.1.13": {
+        "rev": "9e27f5c175ecbd6fff554d839ff4a432da797168",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/contracts.git"
-      }
-    },
-    "symfony/deprecation-contracts": {
-      "v3.1.1": {
-        "rev": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/symfony/deprecation-contracts.git"
       }
     },
     "symfony/event-dispatcher": {
@@ -789,14 +786,6 @@
         "url": "https://github.com/symfony/polyfill-php81.git"
       }
     },
-    "symfony/service-contracts": {
-      "v2.5.2": {
-        "rev": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/symfony/service-contracts.git"
-      }
-    },
     "symfony/stopwatch": {
       "v4.4.46": {
         "rev": "757660703fbd139eea0001b759c6c3bf5bc3ea52",
@@ -806,19 +795,11 @@
       }
     },
     "symfony/translation": {
-      "v5.2.12": {
-        "rev": "7b4ef368b25bbb758a7bd5fe20349433e84220ed",
+      "v4.4.47": {
+        "rev": "45036b1d53accc48fe9bab71ccd86d57eba0dd94",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/translation.git"
-      }
-    },
-    "symfony/translation-contracts": {
-      "v2.5.2": {
-        "rev": "136b19dd05cdf0709db6537d058bcab6dd6e2dbe",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/symfony/translation-contracts.git"
       }
     },
     "symfony/yaml": {

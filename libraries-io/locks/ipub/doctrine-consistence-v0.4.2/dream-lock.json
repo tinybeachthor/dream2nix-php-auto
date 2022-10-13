@@ -36,7 +36,7 @@
     "contributte/console": {
       "v0.9.2": [
         [ "contributte/di", "v0.5.3" ],
-        [ "symfony/console", "v6.1.5" ]
+        [ "symfony/console", "v6.1.6" ]
       ]
     },
     "contributte/di": {
@@ -63,16 +63,21 @@
     },
     "doctrine/common": {
       "3.4.3": [
-        [ "doctrine/persistence", "3.0.3" ]
+        [ "doctrine/persistence", "3.0.4" ]
       ]
     },
     "doctrine/dbal": {
       "3.4.5": [
         [ "doctrine/cache", "1.13.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "3.0.0" ],
         [ "psr/log", "3.0.0" ]
+      ]
+    },
+    "doctrine/event-manager": {
+      "1.2.0": [
+        [ "doctrine/deprecations", "v1.0.0" ]
       ]
     },
     "doctrine/orm": {
@@ -82,21 +87,21 @@
         [ "doctrine/common", "3.4.3" ],
         [ "doctrine/dbal", "3.4.5" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/inflector", "2.0.5" ],
         [ "doctrine/instantiator", "1.4.1" ],
         [ "doctrine/lexer", "1.2.3" ],
-        [ "doctrine/persistence", "3.0.3" ],
+        [ "doctrine/persistence", "3.0.4" ],
         [ "psr/cache", "3.0.0" ],
-        [ "symfony/console", "v6.1.5" ],
+        [ "symfony/console", "v6.1.6" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php72", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "doctrine/persistence": {
-      "3.0.3": [
-        [ "doctrine/event-manager", "1.1.2" ],
+      "3.0.4": [
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "3.0.0" ]
       ]
     },
@@ -143,7 +148,7 @@
       ]
     },
     "nette/finder": {
-      "v2.5.3": [
+      "v2.5.4": [
         [ "nette/utils", "v3.2.8" ]
       ]
     },
@@ -154,7 +159,7 @@
     },
     "nette/robot-loader": {
       "v3.4.1": [
-        [ "nette/finder", "v2.5.3" ],
+        [ "nette/finder", "v2.5.4" ],
         [ "nette/utils", "v3.2.8" ]
       ]
     },
@@ -191,7 +196,7 @@
         [ "nettrine/annotations", "v0.7.0" ],
         [ "nettrine/cache", "v0.3.0" ],
         [ "nettrine/dbal", "v0.8.0" ],
-        [ "symfony/console", "v6.1.5" ]
+        [ "symfony/console", "v6.1.6" ]
       ]
     },
     "ninjify/coding-standard": {
@@ -243,11 +248,11 @@
       ]
     },
     "symfony/console": {
-      "v6.1.5": [
+      "v6.1.6": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/service-contracts", "v3.1.1" ],
-        [ "symfony/string", "v6.1.5" ]
+        [ "symfony/string", "v6.1.6" ]
       ]
     },
     "symfony/service-contracts": {
@@ -256,7 +261,7 @@
       ]
     },
     "symfony/string": {
-      "v6.1.5": [
+      "v6.1.6": [
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
         [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
@@ -354,8 +359,8 @@
       }
     },
     "doctrine/event-manager": {
-      "1.1.2": {
-        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+      "1.2.0": {
+        "rev": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/event-manager.git"
@@ -394,8 +399,8 @@
       }
     },
     "doctrine/persistence": {
-      "3.0.3": {
-        "rev": "ac6fce61f037d7e54dbb2435f5b5648d86548e23",
+      "3.0.4": {
+        "rev": "05612da375f8a3931161f435f91d6704926e6ec5",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/persistence.git"
@@ -441,8 +446,8 @@
       }
     },
     "nette/finder": {
-      "v2.5.3": {
-        "rev": "64dc25b7929b731e72a1bc84a9e57727f5d5d3e8",
+      "v2.5.4": {
+        "rev": "4a1236db9067d86a75c3dcc0d9c2aced17f9bde8",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/nette/finder.git"
@@ -657,8 +662,8 @@
       }
     },
     "symfony/console": {
-      "v6.1.5": {
-        "rev": "17524a64ebcfab68d237bbed247e9a9917747096",
+      "v6.1.6": {
+        "rev": "7fa3b9cf17363468795e539231a5c91b02b608fc",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/console.git"
@@ -729,8 +734,8 @@
       }
     },
     "symfony/string": {
-      "v6.1.5": {
-        "rev": "17c08b068176996a1d7db8d00ffae3c248267016",
+      "v6.1.6": {
+        "rev": "7e7e0ff180d4c5a6636eaad57b65092014b61864",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/string.git"

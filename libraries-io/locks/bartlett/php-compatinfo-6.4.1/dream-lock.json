@@ -30,17 +30,17 @@
   "cyclicDependencies": {
     "symfony/amqp-messenger": {
       "v6.0.13": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     },
     "symfony/doctrine-messenger": {
       "v6.1.4": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     },
     "symfony/redis-messenger": {
       "v6.0.13": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     }
   },
@@ -60,11 +60,11 @@
         [ "psr/log", "1.1.4" ],
         [ "ramsey/uuid", "4.5.1" ],
         [ "symfony/config", "v5.4.11" ],
-        [ "symfony/console", "v5.4.13" ],
+        [ "symfony/console", "v5.4.14" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
         [ "symfony/finder", "v5.4.11" ],
-        [ "symfony/serializer", "v5.4.13" ],
+        [ "symfony/serializer", "v5.4.14" ],
         [ "symfony/stopwatch", "v5.4.13" ]
       ]
     },
@@ -76,12 +76,12 @@
         [ "doctrine/orm", "2.13.3" ],
         [ "symfony/cache", "v5.4.13" ],
         [ "symfony/config", "v5.4.11" ],
-        [ "symfony/console", "v5.4.13" ],
+        [ "symfony/console", "v5.4.14" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
         [ "symfony/finder", "v5.4.11" ],
-        [ "symfony/http-client", "v5.4.13" ],
-        [ "symfony/messenger", "v5.4.13" ],
+        [ "symfony/http-client", "v5.4.14" ],
+        [ "symfony/messenger", "v5.4.14" ],
         [ "symfony/process", "v5.4.11" ],
         [ "symfony/requirements-checker", "v2.0.1" ],
         [ "symfony/stopwatch", "v5.4.13" ]
@@ -107,9 +107,14 @@
       "3.4.5": [
         [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "2.0.0" ],
         [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "doctrine/event-manager": {
+      "1.2.0": [
+        [ "doctrine/deprecations", "v1.0.0" ]
       ]
     },
     "doctrine/orm": {
@@ -119,13 +124,13 @@
         [ "doctrine/common", "3.4.3" ],
         [ "doctrine/dbal", "3.4.5" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/inflector", "2.0.5" ],
         [ "doctrine/instantiator", "1.4.1" ],
         [ "doctrine/lexer", "1.2.3" ],
         [ "doctrine/persistence", "3.0.3" ],
         [ "psr/cache", "2.0.0" ],
-        [ "symfony/console", "v5.4.13" ],
+        [ "symfony/console", "v5.4.14" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php72", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
@@ -133,7 +138,7 @@
     },
     "doctrine/persistence": {
       "3.0.3": [
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "2.0.0" ]
       ]
     },
@@ -151,7 +156,7 @@
     },
     "symfony/amqp-messenger": {
       "v6.0.13": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     },
     "symfony/cache": {
@@ -181,13 +186,13 @@
       ]
     },
     "symfony/console": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php73", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/service-contracts", "v2.5.2" ],
-        [ "symfony/string", "v6.1.5" ]
+        [ "symfony/string", "v6.1.6" ]
       ]
     },
     "symfony/dependency-injection": {
@@ -202,7 +207,7 @@
     "symfony/doctrine-messenger": {
       "v6.1.4": [
         [ "doctrine/dbal", "3.4.5" ],
-        [ "symfony/messenger", "v5.4.13" ],
+        [ "symfony/messenger", "v5.4.14" ],
         [ "symfony/service-contracts", "v2.5.2" ]
       ]
     },
@@ -231,7 +236,7 @@
       ]
     },
     "symfony/http-client": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "psr/log", "1.1.4" ],
         [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/http-client-contracts", "v2.5.2" ],
@@ -241,7 +246,7 @@
       ]
     },
     "symfony/messenger": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "psr/log", "1.1.4" ],
         [ "symfony/amqp-messenger", "v6.0.13" ],
         [ "symfony/deprecation-contracts", "v3.1.1" ],
@@ -257,11 +262,11 @@
     },
     "symfony/redis-messenger": {
       "v6.0.13": [
-        [ "symfony/messenger", "v5.4.13" ]
+        [ "symfony/messenger", "v5.4.14" ]
       ]
     },
     "symfony/serializer": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
@@ -279,7 +284,7 @@
       ]
     },
     "symfony/string": {
-      "v6.1.5": [
+      "v6.1.6": [
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
         [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
@@ -392,8 +397,8 @@
       }
     },
     "doctrine/event-manager": {
-      "1.1.2": {
-        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+      "1.2.0": {
+        "rev": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/event-manager.git"
@@ -528,8 +533,8 @@
       }
     },
     "symfony/console": {
-      "v5.4.13": {
-        "rev": "3f97f6c7b7e26848a90c0c0cfb91eeb2bb8618be",
+      "v5.4.14": {
+        "rev": "984ea2c0f45f42dfed01d2f3987b187467c4b16d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/console.git"
@@ -592,8 +597,8 @@
       }
     },
     "symfony/http-client": {
-      "v5.4.13": {
-        "rev": "596fd752f00e0205d895cd6b184d135c27bb5d6a",
+      "v5.4.14": {
+        "rev": "8a3929c814cba77db93de61c22759e0dbeaa4c87",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/http-client.git"
@@ -608,8 +613,8 @@
       }
     },
     "symfony/messenger": {
-      "v5.4.13": {
-        "rev": "8f8d3425991e627902f8288088609a8d8f6c6ea4",
+      "v5.4.14": {
+        "rev": "de4b258a5551934460c422620b61cf0a35744f51",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/messenger.git"
@@ -704,8 +709,8 @@
       }
     },
     "symfony/serializer": {
-      "v5.4.13": {
-        "rev": "f8c32e94c8656c17a7360d88d6d486bc8ce23b2d",
+      "v5.4.14": {
+        "rev": "21c329453e3c9345b51bf4b67b187c963a4edc45",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/serializer.git"
@@ -728,8 +733,8 @@
       }
     },
     "symfony/string": {
-      "v6.1.5": {
-        "rev": "17c08b068176996a1d7db8d00ffae3c248267016",
+      "v6.1.6": {
+        "rev": "7e7e0ff180d4c5a6636eaad57b65092014b61864",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/string.git"

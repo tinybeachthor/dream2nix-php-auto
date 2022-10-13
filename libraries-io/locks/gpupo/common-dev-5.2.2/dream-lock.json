@@ -57,16 +57,21 @@
     },
     "doctrine/common": {
       "3.4.3": [
-        [ "doctrine/persistence", "2.5.4" ]
+        [ "doctrine/persistence", "2.5.5" ]
       ]
     },
     "doctrine/dbal": {
       "3.4.5": [
         [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "2.0.0" ],
         [ "psr/log", "1.1.4" ]
+      ]
+    },
+    "doctrine/event-manager": {
+      "1.2.0": [
+        [ "doctrine/deprecations", "v1.0.0" ]
       ]
     },
     "doctrine/orm": {
@@ -76,24 +81,24 @@
         [ "doctrine/common", "3.4.3" ],
         [ "doctrine/dbal", "3.4.5" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/inflector", "2.0.5" ],
         [ "doctrine/instantiator", "1.4.1" ],
         [ "doctrine/lexer", "1.2.3" ],
-        [ "doctrine/persistence", "2.5.4" ],
+        [ "doctrine/persistence", "2.5.5" ],
         [ "psr/cache", "2.0.0" ],
-        [ "symfony/console", "v5.4.13" ],
+        [ "symfony/console", "v5.4.14" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php72", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "doctrine/persistence": {
-      "2.5.4": [
+      "2.5.5": [
         [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "2.0.0" ]
       ]
     },
@@ -106,18 +111,18 @@
     "gpupo/common": {
       "5.8.0": [
         [ "doctrine/orm", "2.13.3" ],
-        [ "doctrine/persistence", "2.5.4" ],
+        [ "doctrine/persistence", "2.5.5" ],
         [ "monolog/monolog", "2.8.0" ],
         [ "phpdocumentor/reflection-docblock", "5.3.0" ],
         [ "psr/simple-cache", "1.0.1" ],
         [ "symfony/cache", "v5.4.13" ],
-        [ "symfony/console", "v5.4.13" ],
+        [ "symfony/console", "v5.4.14" ],
         [ "symfony/dotenv", "v5.4.5" ],
         [ "symfony/filesystem", "v5.4.13" ],
         [ "symfony/finder", "v5.4.11" ],
         [ "symfony/lock", "v5.4.10" ],
-        [ "symfony/var-dumper", "v5.4.13" ],
-        [ "symfony/yaml", "v5.4.12" ],
+        [ "symfony/var-dumper", "v5.4.14" ],
+        [ "symfony/yaml", "v5.4.14" ],
         [ "twig/twig", "v3.4.3" ]
       ]
     },
@@ -128,7 +133,7 @@
         [ "phpunit/phpunit", "8.5.30" ],
         [ "symfony/dotenv", "v5.4.5" ],
         [ "symfony/finder", "v5.4.11" ],
-        [ "symfony/var-dumper", "v5.4.13" ],
+        [ "symfony/var-dumper", "v5.4.14" ],
         [ "vimeo/psalm", "3.18.2" ]
       ]
     },
@@ -162,7 +167,7 @@
         [ "microsoft/tolerant-php-parser", "v0.0.20" ],
         [ "netresearch/jsonmapper", "v2.1.0" ],
         [ "sabre/event", "5.1.4" ],
-        [ "symfony/console", "v5.4.13" ],
+        [ "symfony/console", "v5.4.14" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php72", "v1.26.0" ]
       ]
@@ -268,13 +273,13 @@
       ]
     },
     "symfony/console": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php73", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/service-contracts", "v3.1.1" ],
-        [ "symfony/string", "v6.1.5" ]
+        [ "symfony/string", "v6.1.6" ]
       ]
     },
     "symfony/dotenv": {
@@ -308,7 +313,7 @@
       ]
     },
     "symfony/string": {
-      "v6.1.5": [
+      "v6.1.6": [
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-intl-grapheme", "v1.26.0" ],
         [ "symfony/polyfill-intl-normalizer", "v1.26.0" ],
@@ -316,13 +321,13 @@
       ]
     },
     "symfony/var-dumper": {
-      "v5.4.13": [
+      "v5.4.14": [
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "symfony/yaml": {
-      "v5.4.12": [
+      "v5.4.14": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ]
       ]
@@ -347,7 +352,7 @@
         [ "nikic/php-parser", "v4.15.1" ],
         [ "openlss/lib-array2xml", "1.0.0" ],
         [ "sebastian/diff", "3.0.3" ],
-        [ "symfony/console", "v5.4.13" ],
+        [ "symfony/console", "v5.4.14" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "webmozart/glob", "4.6.0" ],
         [ "webmozart/path-util", "2.3.0" ]
@@ -454,8 +459,8 @@
       }
     },
     "doctrine/event-manager": {
-      "1.1.2": {
-        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+      "1.2.0": {
+        "rev": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/event-manager.git"
@@ -494,8 +499,8 @@
       }
     },
     "doctrine/persistence": {
-      "2.5.4": {
-        "rev": "830c2ba42093e0e428eca37568ab36bd8008bc17",
+      "2.5.5": {
+        "rev": "38670dd6ac8f2d997a0b5b6c98cb380ef0ba9bd3",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/persistence.git"
@@ -869,8 +874,8 @@
       }
     },
     "symfony/console": {
-      "v5.4.13": {
-        "rev": "3f97f6c7b7e26848a90c0c0cfb91eeb2bb8618be",
+      "v5.4.14": {
+        "rev": "984ea2c0f45f42dfed01d2f3987b187467c4b16d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/console.git"
@@ -981,16 +986,16 @@
       }
     },
     "symfony/string": {
-      "v6.1.5": {
-        "rev": "17c08b068176996a1d7db8d00ffae3c248267016",
+      "v6.1.6": {
+        "rev": "7e7e0ff180d4c5a6636eaad57b65092014b61864",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/string.git"
       }
     },
     "symfony/var-dumper": {
-      "v5.4.13": {
-        "rev": "2bf2ccab581bec363191672f0df40e0c85569e1c",
+      "v5.4.14": {
+        "rev": "6894d06145fefebd9a4c7272baa026a1c394a430",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/var-dumper.git"
@@ -1005,8 +1010,8 @@
       }
     },
     "symfony/yaml": {
-      "v5.4.12": {
-        "rev": "7a3aa21ac8ab1a96cc6de5bbcab4bc9fc943b18c",
+      "v5.4.14": {
+        "rev": "e83fe9a72011f07c662da46a05603d66deeeb487",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/yaml.git"

@@ -27,7 +27,7 @@
   "cyclicDependencies": {
     "friendsofphp/proxy-manager-lts": {
       "v1.0.12": [
-        [ "symfony/symfony", "v4.4.46" ]
+        [ "symfony/symfony", "v4.4.47" ]
       ]
     }
   },
@@ -38,13 +38,13 @@
         [ "behat/transliterator", "v1.5.0" ],
         [ "psr/container", "1.1.2" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
-        [ "symfony/symfony", "v4.4.46" ]
+        [ "symfony/symfony", "v4.4.47" ]
       ]
     },
     "behat/mink-extension": {
       "2.3.1": [
         [ "behat/behat", "v3.11.0" ],
-        [ "symfony/symfony", "v4.4.46" ]
+        [ "symfony/symfony", "v4.4.47" ]
       ]
     },
     "behat/symfony2-extension": {
@@ -53,19 +53,24 @@
         [ "behat/mink-extension", "2.3.1" ],
         [ "phpspec/phpspec", "4.3.4" ],
         [ "phpunit/phpunit", "5.7.27" ],
-        [ "symfony/symfony", "v4.4.46" ]
+        [ "symfony/symfony", "v4.4.47" ]
+      ]
+    },
+    "doctrine/event-manager": {
+      "1.2.0": [
+        [ "doctrine/deprecations", "v1.0.0" ]
       ]
     },
     "doctrine/persistence": {
       "3.0.3": [
-        [ "doctrine/event-manager", "1.1.2" ],
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "2.0.0" ]
       ]
     },
     "friendsofphp/proxy-manager-lts": {
       "v1.0.12": [
         [ "laminas/laminas-code", "4.7.0" ],
-        [ "symfony/symfony", "v4.4.46" ]
+        [ "symfony/symfony", "v4.4.47" ]
       ]
     },
     "phpdocumentor/reflection-docblock": {
@@ -86,7 +91,7 @@
         [ "phpspec/php-diff", "v1.1.3" ],
         [ "phpspec/prophecy", "v1.10.3" ],
         [ "sebastian/exporter", "2.0.0" ],
-        [ "symfony/symfony", "v4.4.46" ]
+        [ "symfony/symfony", "v4.4.47" ]
       ]
     },
     "phpspec/prophecy": {
@@ -125,7 +130,7 @@
         [ "sebastian/resource-operations", "1.0.0" ],
         [ "sebastian/version", "2.0.1" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
-        [ "symfony/symfony", "v4.4.46" ]
+        [ "symfony/symfony", "v4.4.47" ]
       ]
     },
     "phpunit/phpunit-mock-objects": {
@@ -164,8 +169,8 @@
       ]
     },
     "symfony/symfony": {
-      "v4.4.46": [
-        [ "doctrine/event-manager", "1.1.2" ],
+      "v4.4.47": [
+        [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/persistence", "3.0.3" ],
         [ "friendsofphp/proxy-manager-lts", "v1.0.12" ],
         [ "psr/cache", "2.0.0" ],
@@ -236,9 +241,17 @@
         "url": "https://github.com/Behat/Transliterator.git"
       }
     },
+    "doctrine/deprecations": {
+      "v1.0.0": {
+        "rev": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/deprecations.git"
+      }
+    },
     "doctrine/event-manager": {
-      "1.1.2": {
-        "rev": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+      "1.2.0": {
+        "rev": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/event-manager.git"
@@ -581,8 +594,8 @@
       }
     },
     "symfony/symfony": {
-      "v4.4.46": {
-        "rev": "ba87d8e2af7b7a3e12c9abb5e87bfc05e3c85e8a",
+      "v4.4.47": {
+        "rev": "988b385dc014c7d617b89ed021f10bc6a1422bb1",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/symfony.git"

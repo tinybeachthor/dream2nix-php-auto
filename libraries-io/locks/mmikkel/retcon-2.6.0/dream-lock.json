@@ -1,0 +1,140 @@
+{
+  "_generic": {
+    "defaultPackage": "mmikkel/retcon",
+    "location": "",
+    "packages": {
+      "mmikkel/retcon": "2.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "craftcms/plugin-installer@1.5.7": "^1.0 || ^2.0",
+      "yiisoft/yii2-composer@2.0.10": "^1.0 | ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "openssl",
+      "pcre",
+      "bcmath",
+      "curl",
+      "dom",
+      "intl",
+      "json",
+      "mbstring",
+      "pdo",
+      "zip",
+      "libxml",
+      "ctype",
+      "filter"
+    ],
+    "phpSemver": "^7.2.5|^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "craftcms/rector": {
+      "dev-main": [
+        [ "rector/rector", "0.14.5" ]
+      ]
+    },
+    "masterminds/html5": {
+      "2.7.6": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
+      ]
+    },
+    "mmikkel/retcon": {
+      "2.6.0": [
+        [ "craftcms/rector", "dev-main" ],
+        [ "masterminds/html5", "2.7.6" ],
+        [ "symfony/css-selector", "v6.1.3" ],
+        [ "symfony/dom-crawler", "v6.1.4" ]
+      ]
+    },
+    "rector/rector": {
+      "0.14.5": [
+        [ "phpstan/phpstan", "1.8.8" ]
+      ]
+    },
+    "symfony/dom-crawler": {
+      "v6.1.4": [
+        [ "masterminds/html5", "2.7.6" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "craftcms/rector": {
+      "dev-main": {
+        "rev": "3ddcfa2aba361249c4f815dfcb2b2f93819ff211",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/craftcms/rector.git"
+      }
+    },
+    "masterminds/html5": {
+      "2.7.6": {
+        "rev": "897eb517a343a2281f11bc5556d6548db7d93947",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Masterminds/html5-php.git"
+      }
+    },
+    "mmikkel/retcon": {
+      "2.6.0": {
+        "rev": "9a3dbfd6ca7b82586f59d15443429935beb84e50",
+        "type": "git",
+        "url": "https://github.com/mmikkel/Retcon-Craft.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "1.8.8": {
+        "rev": "08310ce271984587e2a4cda94e1ac66510a6ea07",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "rector/rector": {
+      "0.14.5": {
+        "rev": "f7fd87b2435835f481e6a94ee28e09af412bd3cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/rectorphp/rector.git"
+      }
+    },
+    "symfony/css-selector": {
+      "v6.1.3": {
+        "rev": "0dd5e36b80e1de97f8f74ed7023ac2b837a36443",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/css-selector.git"
+      }
+    },
+    "symfony/dom-crawler": {
+      "v6.1.4": {
+        "rev": "8cb4c6e6c8d30c26f70529ed5e50d79a09576c0c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/dom-crawler.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "v1.26.0": {
+        "rev": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.26.0": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "_generic": {
+    "defaultPackage": "nette/security",
+    "location": "",
+    "packages": {
+      "nette/security": "v3.1.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "json",
+      "session"
+    ],
+    "phpSemver": ">=7.2 <8.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "nette/di": {
+      "v3.1.x-dev": [
+        [ "nette/robot-loader", "v3.4.x-dev" ],
+        [ "nette/schema", "v1.2.x-dev" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.6.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/http": {
+      "v3.1.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": [
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/schema": {
+      "v1.2.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/security": {
+      "v3.1.6": [
+        [ "mockery/mockery", "1.5.1" ],
+        [ "nette/di", "v3.1.x-dev" ],
+        [ "nette/http", "v3.1.x-dev" ],
+        [ "tracy/tracy", "v2.9.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "mockery/mockery": {
+      "1.5.1": {
+        "rev": "e92dcc83d5a51851baf5f5591d32cb2b16e3684e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/mockery/mockery.git"
+      }
+    },
+    "nette/di": {
+      "v3.1.x-dev": {
+        "rev": "04e6fc7f41e8c7570fcf0b89c58b064b720e68dd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.6.x-dev": {
+        "rev": "991aefb42860abeab8e003970c3809a9d83cb932",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/http": {
+      "v3.1.x-dev": {
+        "rev": "3d0f37872f2d699072b88f9c744b60b231d6402f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/http.git"
+      }
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": {
+        "rev": "42d7353884557066211f91f73590e1f8d6ed452a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/robot-loader.git"
+      }
+    },
+    "nette/schema": {
+      "v1.2.x-dev": {
+        "rev": "abbdbb70e0245d5f3bf77874cea1dfb0c930d06f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/schema.git"
+      }
+    },
+    "nette/security": {
+      "v3.1.6": {
+        "rev": "77a20cac539d62f5bcde15cd29244ae13890b483",
+        "type": "git",
+        "url": "https://github.com/nette/security.git"
+      }
+    },
+    "nette/utils": {
+      "v3.2.x-dev": {
+        "rev": "d0982065f8ff061e2b7243db0c7f7075ff94fae2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "tracy/tracy": {
+      "v2.9.x-dev": {
+        "rev": "9545cec3067f58a5f93482d334a41dcd0cd33859",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tracy.git"
+      }
+    }
+  }
+}
