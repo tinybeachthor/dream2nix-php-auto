@@ -1,0 +1,152 @@
+{
+  "_generic": {
+    "defaultPackage": "league/flysystem-webdav",
+    "location": "",
+    "packages": {
+      "league/flysystem-webdav": "3.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "fileinfo",
+      "ctype",
+      "date",
+      "dom",
+      "iconv",
+      "json",
+      "mbstring",
+      "pcre",
+      "simplexml",
+      "spl",
+      "curl",
+      "xmlreader",
+      "xmlwriter"
+    ],
+    "phpSemver": "^8.0.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "league/flysystem": {
+      "3.6.0": [
+        [ "league/mime-type-detection", "1.11.0" ]
+      ]
+    },
+    "league/flysystem-webdav": {
+      "3.6.0": [
+        [ "league/flysystem", "3.6.0" ],
+        [ "sabre/dav", "4.4.0" ]
+      ]
+    },
+    "sabre/dav": {
+      "4.4.0": [
+        [ "psr/log", "3.0.0" ],
+        [ "sabre/event", "5.1.4" ],
+        [ "sabre/http", "5.1.6" ],
+        [ "sabre/uri", "2.3.2" ],
+        [ "sabre/vobject", "4.5.1" ],
+        [ "sabre/xml", "2.2.5" ]
+      ]
+    },
+    "sabre/http": {
+      "5.1.6": [
+        [ "sabre/event", "5.1.4" ],
+        [ "sabre/uri", "2.3.2" ]
+      ]
+    },
+    "sabre/vobject": {
+      "4.5.1": [
+        [ "sabre/xml", "2.2.5" ]
+      ]
+    },
+    "sabre/xml": {
+      "2.2.5": [
+        [ "sabre/uri", "2.3.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "league/flysystem": {
+      "3.6.0": {
+        "rev": "8eded334b9894dc90ebdcb7be81e3a1c9413f709",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/flysystem.git"
+      }
+    },
+    "league/flysystem-webdav": {
+      "3.6.0": {
+        "rev": "ec54bd02348bd328a7d910638ad9ed32e25b2bea",
+        "type": "git",
+        "url": "https://github.com/thephpleague/flysystem-webdav.git"
+      }
+    },
+    "league/mime-type-detection": {
+      "1.11.0": {
+        "rev": "ff6248ea87a9f116e78edd6002e39e5128a0d4dd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/thephpleague/mime-type-detection.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "sabre/dav": {
+      "4.4.0": {
+        "rev": "b65362abc926520eda2c57e219f022a6c288069d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sabre-io/dav.git"
+      }
+    },
+    "sabre/event": {
+      "5.1.4": {
+        "rev": "d7da22897125d34d7eddf7977758191c06a74497",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sabre-io/event.git"
+      }
+    },
+    "sabre/http": {
+      "5.1.6": {
+        "rev": "9976ac34ced206bd6579b7b37b401de9fac98dae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sabre-io/http.git"
+      }
+    },
+    "sabre/uri": {
+      "2.3.2": {
+        "rev": "eceb4a1b8b680b45e215574222d6ca00be541970",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sabre-io/uri.git"
+      }
+    },
+    "sabre/vobject": {
+      "4.5.1": {
+        "rev": "1f836740c88bac483f3b572a332eb8fd1cd04981",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sabre-io/vobject.git"
+      }
+    },
+    "sabre/xml": {
+      "2.2.5": {
+        "rev": "a6af111850e7536d200d9637c34885cd3c77a86c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sabre-io/xml.git"
+      }
+    }
+  }
+}
