@@ -1,0 +1,88 @@
+{
+  "_generic": {
+    "defaultPackage": "orchestra/testbench-dusk",
+    "location": "",
+    "packages": {
+      "orchestra/testbench-dusk": "v7.10.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "zip",
+      "mbstring",
+      "openssl",
+      "fileinfo",
+      "tokenizer",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "curl",
+      "xml",
+      "pcre",
+      "ctype"
+    ],
+    "phpSemver": "^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "laravel/pint": {
+      "v1.2.0": [
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "orchestra/testbench-dusk": {
+      "v7.10.2": [
+        [ "konsulting/project-root", "1.1" ],
+        [ "laravel/laravel", "9.x-dev" ],
+        [ "laravel/pint", "v1.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "konsulting/project-root": {
+      "1.1": {
+        "rev": "3e33eddad57ad01a530e59733855a91a25d94495",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/konsulting/project-root.git"
+      }
+    },
+    "laravel/laravel": {
+      "9.x-dev": {
+        "rev": "5daa02c70b27212aea4b2e302c4ac5ba65b1e789",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel/laravel.git"
+      }
+    },
+    "laravel/pint": {
+      "v1.2.0": {
+        "rev": "1d276e4c803397a26cc337df908f55c2a4e90d86",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/laravel/pint.git"
+      }
+    },
+    "orchestra/testbench-dusk": {
+      "v7.10.2": {
+        "rev": "0dfc5228a21dd9e05ef19b6007038f09bc0230ea",
+        "type": "git",
+        "url": "https://github.com/orchestral/testbench-dusk.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    }
+  }
+}

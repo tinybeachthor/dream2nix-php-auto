@@ -1,0 +1,76 @@
+{
+  "_generic": {
+    "defaultPackage": "codeception/module-webdriver",
+    "location": "",
+    "packages": {
+      "codeception/module-webdriver": "3.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "mbstring",
+      "curl",
+      "dom",
+      "tokenizer",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "zip",
+      "xml"
+    ],
+    "phpSemver": "^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "codeception/lib-web": {
+      "1.0.1": [
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "codeception/module-webdriver": {
+      "3.2.0": [
+        [ "codeception/lib-web", "1.0.1" ],
+        [ "codeception/stub", "4.0.2" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    }
+  },
+  "sources": {
+    "codeception/lib-web": {
+      "1.0.1": {
+        "rev": "91e35c5a849479a626f79daf4754ca4ba4e3227f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Codeception/lib-web.git"
+      }
+    },
+    "codeception/module-webdriver": {
+      "3.2.0": {
+        "rev": "8d65b02f50f90bf3f4da2174693a1cb5cd5fe7b2",
+        "type": "git",
+        "url": "https://github.com/Codeception/module-webdriver.git"
+      }
+    },
+    "codeception/stub": {
+      "4.0.2": {
+        "rev": "18a148dacd293fc7b044042f5aa63a82b08bff5d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Codeception/Stub.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    }
+  }
+}
