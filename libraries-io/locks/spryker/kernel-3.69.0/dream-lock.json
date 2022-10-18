@@ -110,7 +110,7 @@
       ]
     },
     "spryker/testify": {
-      "3.46.0": [
+      "3.46.2": [
         [ "spryker/kernel", "3.69.0" ]
       ]
     },
@@ -164,23 +164,28 @@
   },
   "dependencies": {
     "codeception/codeception": {
-      "5.0.3": [
+      "4.2.2": [
         [ "behat/gherkin", "v4.9.0" ],
         [ "codeception/lib-asserts", "2.0.1" ],
+        [ "codeception/phpunit-wrapper", "9.0.9" ],
         [ "codeception/stub", "4.0.2" ],
-        [ "phpunit/php-code-coverage", "9.2.17" ],
-        [ "phpunit/php-text-template", "2.0.4" ],
-        [ "phpunit/php-timer", "5.0.3" ],
-        [ "phpunit/phpunit", "9.5.25" ],
-        [ "psy/psysh", "v0.11.8" ],
-        [ "sebastian/comparator", "4.0.8" ],
-        [ "sebastian/diff", "4.0.4" ],
+        [ "guzzlehttp/psr7", "2.4.1" ],
         [ "symfony/console", "v5.4.14" ],
-        [ "symfony/css-selector", "v6.1.3" ],
+        [ "symfony/css-selector", "v5.4.11" ],
         [ "symfony/event-dispatcher", "v5.4.9" ],
         [ "symfony/finder", "v5.4.11" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/yaml", "v5.4.14" ]
+      ]
+    },
+    "codeception/lib-asserts": {
+      "2.0.1": [
+        [ "codeception/phpunit-wrapper", "9.0.9" ]
+      ]
+    },
+    "codeception/phpunit-wrapper": {
+      "9.0.9": [
+        [ "phpunit/phpunit", "9.5.25" ]
       ]
     },
     "codeception/stub": {
@@ -207,6 +212,13 @@
       "v1.20.0": [
         [ "psr/container", "1.1.2" ],
         [ "symfony/deprecation-contracts", "v3.1.1" ]
+      ]
+    },
+    "guzzlehttp/psr7": {
+      "2.4.1": [
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
+        [ "ralouphie/getallheaders", "3.0.3" ]
       ]
     },
     "laminas/laminas-config": {
@@ -288,11 +300,9 @@
         [ "symfony/yaml", "v5.4.14" ]
       ]
     },
-    "psy/psysh": {
-      "v0.11.8": [
-        [ "nikic/php-parser", "v4.15.1" ],
-        [ "symfony/console", "v5.4.14" ],
-        [ "symfony/var-dumper", "v6.1.6" ]
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
       ]
     },
     "sebastian/comparator": {
@@ -329,9 +339,9 @@
       ]
     },
     "slevomat/coding-standard": {
-      "8.5.2": [
+      "8.6.0": [
         [ "dealerdirect/phpcodesniffer-composer-installer", "v0.7.2" ],
-        [ "phpstan/phpdoc-parser", "1.8.0" ],
+        [ "phpstan/phpdoc-parser", "1.11.0" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ]
       ]
     },
@@ -356,7 +366,7 @@
     },
     "spryker/code-sniffer": {
       "0.17.13": [
-        [ "slevomat/coding-standard", "8.5.2" ],
+        [ "slevomat/coding-standard", "8.6.0" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ]
       ]
     },
@@ -425,7 +435,7 @@
         [ "spryker/propel-orm", "1.17.0" ],
         [ "spryker/silex", "2.2.1" ],
         [ "spryker/symfony", "3.8.1" ],
-        [ "spryker/testify", "3.46.0" ],
+        [ "spryker/testify", "3.46.2" ],
         [ "spryker/util-encoding", "2.1.0" ]
       ]
     },
@@ -574,8 +584,8 @@
       ]
     },
     "spryker/testify": {
-      "3.46.0": [
-        [ "codeception/codeception", "5.0.3" ],
+      "3.46.2": [
+        [ "codeception/codeception", "4.2.2" ],
         [ "dms/phpunit-arraysubset-asserts", "v0.4.0" ],
         [ "fakerphp/faker", "v1.20.0" ],
         [ "mikey179/vfsstream", "v1.6.11" ],
@@ -678,6 +688,11 @@
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/service-contracts", "v2.5.2" ],
         [ "symfony/string", "v6.1.6" ]
+      ]
+    },
+    "symfony/css-selector": {
+      "v5.4.11": [
+        [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
     "symfony/debug": {
@@ -937,8 +952,8 @@
       }
     },
     "codeception/codeception": {
-      "5.0.3": {
-        "rev": "b9a12f8bf233c265079c7c38b559ce3bc7dbef27",
+      "4.2.2": {
+        "rev": "b88014f3348c93f3df99dc6d0967b0dbfa804474",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Codeception/Codeception.git"
@@ -950,6 +965,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Codeception/lib-asserts.git"
+      }
+    },
+    "codeception/phpunit-wrapper": {
+      "9.0.9": {
+        "rev": "7439a53ae367986e9c22b2ac00f9d7376bb2f8cf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Codeception/phpunit-wrapper.git"
       }
     },
     "codeception/stub": {
@@ -1006,6 +1029,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/FakerPHP/Faker.git"
+      }
+    },
+    "guzzlehttp/psr7": {
+      "2.4.1": {
+        "rev": "69568e4293f4fa993f3b0e51c9723e1e17c41379",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git"
       }
     },
     "laminas/laminas-config": {
@@ -1089,8 +1120,8 @@
       }
     },
     "phpstan/phpdoc-parser": {
-      "1.8.0": {
-        "rev": "8dd908dd6156e974b9a0f8bb4cd5ad0707830f04",
+      "1.11.0": {
+        "rev": "7d1e81213b0c7eb8d5a9f524456cbc2778ed5c65",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/phpstan/phpdoc-parser.git"
@@ -1168,6 +1199,22 @@
         "url": "https://github.com/php-fig/event-dispatcher.git"
       }
     },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
     "psr/log": {
       "1.1.4": {
         "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
@@ -1176,12 +1223,12 @@
         "url": "https://github.com/php-fig/log.git"
       }
     },
-    "psy/psysh": {
-      "v0.11.8": {
-        "rev": "f455acf3645262ae389b10e9beba0c358aa6994e",
+    "ralouphie/getallheaders": {
+      "3.0.3": {
+        "rev": "120b605dfeb996808c31b6477290a714d356e822",
         "submodules": false,
         "type": "git",
-        "url": "https://github.com/bobthecow/psysh.git"
+        "url": "https://github.com/ralouphie/getallheaders.git"
       }
     },
     "sebastian/cli-parser": {
@@ -1313,8 +1360,8 @@
       }
     },
     "slevomat/coding-standard": {
-      "8.5.2": {
-        "rev": "f32937dc41b587f3500efed1dbca2f82aa519373",
+      "8.6.0": {
+        "rev": "d4175d8bf1246f4bf8be04ab688fbdc6fed18ece",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/slevomat/coding-standard.git"
@@ -1576,8 +1623,8 @@
       }
     },
     "spryker/testify": {
-      "3.46.0": {
-        "rev": "e088545a6cd06a0892ba9e4cc25a335885cc361a",
+      "3.46.2": {
+        "rev": "9935de15ccbcac1fa433c85c4e2ed530f45535fb",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/spryker/testify.git"
@@ -1712,8 +1759,8 @@
       }
     },
     "symfony/css-selector": {
-      "v6.1.3": {
-        "rev": "0dd5e36b80e1de97f8f74ed7023ac2b837a36443",
+      "v5.4.11": {
+        "rev": "c1681789f059ab756001052164726ae88512ae3d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/css-selector.git"

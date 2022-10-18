@@ -11,7 +11,7 @@
   "_subsystem": {
     "composerPluginApiSemver": {
       "pestphp/pest-plugin@v1.1.0": "^1.1.0 || ^2.0.0",
-      "phpstan/extension-installer@1.1.0": "^1.1 || ^2.0"
+      "phpstan/extension-installer@1.2.0": "^2.0"
     },
     "noDev": false,
     "phpExtensions": [
@@ -37,7 +37,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "aws/aws-sdk-php": {
-      "3.238.5": [
+      "3.238.6": [
         [ "aws/aws-crt-php", "v1.0.2" ],
         [ "guzzlehttp/guzzle", "7.5.0" ],
         [ "guzzlehttp/promises", "1.5.2" ],
@@ -106,10 +106,10 @@
         [ "fruitcake/php-cors", "v1.2.0" ],
         [ "laravel/serializable-closure", "v1.2.2" ],
         [ "league/commonmark", "2.3.5" ],
-        [ "league/flysystem", "3.6.0" ],
+        [ "league/flysystem", "3.7.0" ],
         [ "monolog/monolog", "2.8.0" ],
         [ "nesbot/carbon", "2.62.1" ],
-        [ "nunomaduro/termwind", "v1.14.0" ],
+        [ "nunomaduro/termwind", "v1.14.1" ],
         [ "psr/container", "2.0.2" ],
         [ "psr/log", "3.0.0" ],
         [ "psr/simple-cache", "3.0.0" ],
@@ -153,14 +153,14 @@
       ]
     },
     "league/flysystem": {
-      "3.6.0": [
+      "3.7.0": [
         [ "league/mime-type-detection", "1.11.0" ]
       ]
     },
     "league/flysystem-aws-s3-v3": {
-      "3.6.0": [
-        [ "aws/aws-sdk-php", "3.238.5" ],
-        [ "league/flysystem", "3.6.0" ],
+      "3.7.0": [
+        [ "aws/aws-sdk-php", "3.238.6" ],
+        [ "league/flysystem", "3.7.0" ],
         [ "league/mime-type-detection", "1.11.0" ]
       ]
     },
@@ -204,11 +204,11 @@
         [ "laravel/framework", "v9.35.1" ],
         [ "mockery/mockery", "1.5.1" ],
         [ "phpmyadmin/sql-parser", "5.5.0" ],
-        [ "phpstan/phpstan", "1.8.9" ]
+        [ "phpstan/phpstan", "1.8.10" ]
       ]
     },
     "nunomaduro/termwind": {
-      "v1.14.0": [
+      "v1.14.1": [
         [ "symfony/console", "v6.1.6" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ]
       ]
@@ -244,18 +244,18 @@
       ]
     },
     "phpstan/extension-installer": {
-      "1.1.0": [
-        [ "phpstan/phpstan", "1.8.9" ]
+      "1.2.0": [
+        [ "phpstan/phpstan", "1.8.10" ]
       ]
     },
     "phpstan/phpstan-deprecation-rules": {
       "1.0.0": [
-        [ "phpstan/phpstan", "1.8.9" ]
+        [ "phpstan/phpstan", "1.8.10" ]
       ]
     },
     "phpstan/phpstan-phpunit": {
       "1.1.1": [
-        [ "phpstan/phpstan", "1.8.9" ]
+        [ "phpstan/phpstan", "1.8.10" ]
       ]
     },
     "phpunit/php-code-coverage": {
@@ -365,13 +365,13 @@
       "8.1.4": [
         [ "laravel/framework", "v9.35.1" ],
         [ "laravel/slack-notification-channel", "v2.4.0" ],
-        [ "league/flysystem", "3.6.0" ],
-        [ "league/flysystem-aws-s3-v3", "3.6.0" ],
+        [ "league/flysystem", "3.7.0" ],
+        [ "league/flysystem-aws-s3-v3", "3.7.0" ],
         [ "mockery/mockery", "1.5.1" ],
         [ "nunomaduro/larastan", "2.2.4" ],
         [ "orchestra/testbench", "v7.10.2" ],
         [ "pestphp/pest", "v1.22.1" ],
-        [ "phpstan/extension-installer", "1.1.0" ],
+        [ "phpstan/extension-installer", "1.2.0" ],
         [ "phpstan/phpstan-deprecation-rules", "1.0.0" ],
         [ "phpstan/phpstan-phpunit", "1.1.1" ],
         [ "spatie/db-dumper", "3.3.0" ],
@@ -561,8 +561,8 @@
       }
     },
     "aws/aws-sdk-php": {
-      "3.238.5": {
-        "rev": "2f5440652fa7a6f20a1bb15926dd8248c24c733c",
+      "3.238.6": {
+        "rev": "79a76b438bd20ae687394561b4f28cb6c10db08e",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/aws/aws-sdk-php.git"
@@ -745,16 +745,16 @@
       }
     },
     "league/flysystem": {
-      "3.6.0": {
-        "rev": "8eded334b9894dc90ebdcb7be81e3a1c9413f709",
+      "3.7.0": {
+        "rev": "0deb0ff21094cbd37b13cbda085c076312708e6c",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/thephpleague/flysystem.git"
       }
     },
     "league/flysystem-aws-s3-v3": {
-      "3.6.0": {
-        "rev": "5518ab783314c91bfd781b81fea912f553afb323",
+      "3.7.0": {
+        "rev": "8c884379593dd2081ec07394842665be6fe6fd61",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/thephpleague/flysystem-aws-s3-v3.git"
@@ -849,8 +849,8 @@
       }
     },
     "nunomaduro/termwind": {
-      "v1.14.0": {
-        "rev": "10065367baccf13b6e30f5e9246fa4f63a79eb1d",
+      "v1.14.1": {
+        "rev": "86fc30eace93b9b6d4c844ba6de76db84184e01b",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/nunomaduro/termwind.git"
@@ -921,16 +921,16 @@
       }
     },
     "phpstan/extension-installer": {
-      "1.1.0": {
-        "rev": "66c7adc9dfa38b6b5838a9fb728b68a7d8348051",
+      "1.2.0": {
+        "rev": "f06dbb052ddc394e7896fcd1cfcd533f9f6ace40",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/phpstan/extension-installer.git"
       }
     },
     "phpstan/phpstan": {
-      "1.8.9": {
-        "rev": "3a72d9d9f2528fbd50c2d8fcf155fd9f74ade3f2",
+      "1.8.10": {
+        "rev": "0c4459dc42c568b818b3f25186589f3acddc1823",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/phpstan/phpstan.git"

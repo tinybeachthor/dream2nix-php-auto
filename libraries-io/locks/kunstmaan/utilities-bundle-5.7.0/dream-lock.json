@@ -1,0 +1,85 @@
+{
+  "_generic": {
+    "defaultPackage": "kunstmaan/utilities-bundle",
+    "location": "",
+    "packages": {
+      "kunstmaan/utilities-bundle": "5.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "openssl",
+      "ctype",
+      "xml",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "tokenizer",
+      "json",
+      "mbstring"
+    ],
+    "phpSemver": "^7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "kunstmaan/utilities-bundle": {
+      "5.7.0": [
+        [ "defuse/php-encryption", "v2.3.1" ],
+        [ "ekino/newrelic-bundle", "1.4.0" ],
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ],
+        [ "matthiasnoback/symfony-dependency-injection-test", "4.3.0" ]
+      ]
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": [
+        [ "matthiasnoback/symfony-config-test", "4.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "defuse/php-encryption": {
+      "v2.3.1": {
+        "rev": "77880488b9954b7884c25555c2a0ea9e7053f9d2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/defuse/php-encryption.git"
+      }
+    },
+    "ekino/newrelic-bundle": {
+      "1.4.0": {
+        "rev": "92877a9ba014401d635da4890ca0f5b2d9df1c59",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/ekino/EkinoNewRelicBundle.git"
+      }
+    },
+    "kunstmaan/utilities-bundle": {
+      "5.7.0": {
+        "rev": "57adbea4353bc99a3d43928ecf1fed36a1c61134",
+        "type": "git",
+        "url": "https://github.com/Kunstmaan/KunstmaanUtilitiesBundle.git"
+      }
+    },
+    "matthiasnoback/symfony-config-test": {
+      "4.3.0": {
+        "rev": "e7db0f5ea98817c7ba1b9266f8039c085e673db4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyConfigTest.git"
+      }
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+      "4.3.0": {
+        "rev": "d6b94169d9a60f4747efbcc45bfd51f071ba03d7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/SymfonyTest/SymfonyDependencyInjectionTest.git"
+      }
+    }
+  }
+}
