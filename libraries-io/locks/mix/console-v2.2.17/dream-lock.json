@@ -1,0 +1,82 @@
+{
+  "_generic": {
+    "defaultPackage": "mix/console",
+    "location": "",
+    "packages": {
+      "mix/console": "v2.2.17"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": ">=7.0.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "mix/bean": {
+      "v2.2.19": [
+        [ "php-di/phpdoc-reader", "2.2.1" ],
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
+    "mix/console": {
+      "v2.2.17": [
+        [ "mix/bean", "v2.2.19" ],
+        [ "psr/event-dispatcher", "1.0.0" ],
+        [ "psr/log", "1.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "mix/bean": {
+      "v2.2.19": {
+        "rev": "051895b8528a3591c456046289ae4e543b06f09e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/mix-php/bean.git"
+      }
+    },
+    "mix/console": {
+      "v2.2.17": {
+        "rev": "456eb6ddaeed98157cc92eb8a42ba2c896da5cb2",
+        "type": "git",
+        "url": "https://github.com/mix-php/console.git"
+      }
+    },
+    "php-di/phpdoc-reader": {
+      "2.2.1": {
+        "rev": "66daff34cbd2627740ffec9469ffbac9f8c8185c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHP-DI/PhpDocReader.git"
+      }
+    },
+    "psr/container": {
+      "1.1.2": {
+        "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/event-dispatcher": {
+      "1.0.0": {
+        "rev": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    },
+    "psr/log": {
+      "1.1.4": {
+        "rev": "d49695b909c3b7628b6289db5479a1c204601f11",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    }
+  }
+}
