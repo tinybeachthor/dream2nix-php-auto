@@ -41,18 +41,11 @@
     }
   },
   "dependencies": {
-    "composer/class-map-generator": {
-      "1.0.0": [
-        [ "composer/pcre", "3.0.0" ],
-        [ "symfony/finder", "v6.1.3" ]
-      ]
-    },
     "composer/composer": {
-      "2.4.3": [
+      "2.2.18": [
         [ "composer/ca-bundle", "1.3.4" ],
-        [ "composer/class-map-generator", "1.0.0" ],
         [ "composer/metadata-minifier", "1.0.0" ],
-        [ "composer/pcre", "3.0.0" ],
+        [ "composer/pcre", "1.0.1" ],
         [ "composer/semver", "3.3.2" ],
         [ "composer/spdx-licenses", "1.5.7" ],
         [ "composer/xdebug-handler", "3.0.3" ],
@@ -61,7 +54,6 @@
         [ "react/promise", "v2.9.0" ],
         [ "seld/jsonlint", "1.9.0" ],
         [ "seld/phar-utils", "1.2.1" ],
-        [ "seld/signal-handler", "2.0.1" ],
         [ "symfony/console", "v5.4.14" ],
         [ "symfony/filesystem", "v6.1.5" ],
         [ "symfony/finder", "v6.1.3" ],
@@ -70,7 +62,7 @@
     },
     "composer/xdebug-handler": {
       "3.0.3": [
-        [ "composer/pcre", "3.0.0" ],
+        [ "composer/pcre", "1.0.1" ],
         [ "psr/log", "2.0.0" ]
       ]
     },
@@ -200,7 +192,7 @@
     },
     "neos/flow": {
       "8.1.1": [
-        [ "composer/composer", "2.4.3" ],
+        [ "composer/composer", "2.2.18" ],
         [ "doctrine/annotations", "1.13.3" ],
         [ "doctrine/common", "3.4.3" ],
         [ "doctrine/dbal", "2.13.9" ],
@@ -480,17 +472,9 @@
         "url": "https://github.com/composer/ca-bundle.git"
       }
     },
-    "composer/class-map-generator": {
-      "1.0.0": {
-        "rev": "1e1cb2b791facb2dfe32932a7718cf2571187513",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/composer/class-map-generator.git"
-      }
-    },
     "composer/composer": {
-      "2.4.3": {
-        "rev": "b34c0e9a93f2cd688c62ce4dfcc69e13b6ce7aa4",
+      "2.2.18": {
+        "rev": "84175907664ca8b73f73f4883e67e886dfefb9f5",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/composer/composer.git"
@@ -505,8 +489,8 @@
       }
     },
     "composer/pcre": {
-      "3.0.0": {
-        "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
+      "1.0.1": {
+        "rev": "67a32d7d6f9f560b726ab25a061b38ff3a80c560",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/composer/pcre.git"
@@ -1029,14 +1013,6 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Seldaek/phar-utils.git"
-      }
-    },
-    "seld/signal-handler": {
-      "2.0.1": {
-        "rev": "f69d119511dc0360440cdbdaa71829c149b7be75",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/Seldaek/signal-handler.git"
       }
     },
     "symfony/cache": {

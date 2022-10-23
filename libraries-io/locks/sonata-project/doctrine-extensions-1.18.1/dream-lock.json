@@ -20,12 +20,12 @@
       "ctype",
       "json",
       "xml",
-      "dom",
       "pdo",
       "hash",
       "pcre",
       "reflection",
       "spl",
+      "dom",
       "phar",
       "xmlwriter",
       "filter",
@@ -38,7 +38,7 @@
   "cyclicDependencies": {
     "jackalope/jackalope": {
       "1.4.5": [
-        [ "jackalope/jackalope-doctrine-dbal", "1.8.0" ]
+        [ "jackalope/jackalope-doctrine-dbal", "1.7.1" ]
       ]
     }
   },
@@ -71,8 +71,8 @@
       ]
     },
     "doctrine/dbal": {
-      "3.4.5": [
-        [ "doctrine/cache", "1.13.0" ],
+      "3.5.0": [
+        [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
         [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "3.0.0" ],
@@ -82,8 +82,8 @@
     "doctrine/doctrine-bundle": {
       "2.7.0": [
         [ "doctrine/annotations", "1.13.3" ],
-        [ "doctrine/cache", "1.13.0" ],
-        [ "doctrine/dbal", "3.4.5" ],
+        [ "doctrine/cache", "2.2.0" ],
+        [ "doctrine/dbal", "3.5.0" ],
         [ "doctrine/persistence", "3.0.4" ],
         [ "doctrine/sql-formatter", "1.1.3" ],
         [ "symfony/cache", "v6.1.5" ],
@@ -104,7 +104,7 @@
     "doctrine/mongodb-odm": {
       "2.4.2": [
         [ "doctrine/annotations", "1.13.3" ],
-        [ "doctrine/cache", "1.13.0" ],
+        [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/instantiator", "1.4.1" ],
@@ -120,10 +120,10 @@
     },
     "doctrine/orm": {
       "2.13.3": [
-        [ "doctrine/cache", "1.13.0" ],
+        [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/common", "3.4.3" ],
-        [ "doctrine/dbal", "3.4.5" ],
+        [ "doctrine/dbal", "3.5.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
         [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/inflector", "2.0.6" ],
@@ -175,14 +175,13 @@
     },
     "jackalope/jackalope": {
       "1.4.5": [
-        [ "jackalope/jackalope-doctrine-dbal", "1.8.0" ],
+        [ "jackalope/jackalope-doctrine-dbal", "1.7.1" ],
         [ "phpcr/phpcr-utils", "1.6.2" ]
       ]
     },
     "jackalope/jackalope-doctrine-dbal": {
-      "1.8.0": [
-        [ "doctrine/cache", "1.13.0" ],
-        [ "doctrine/dbal", "3.4.5" ],
+      "1.7.1": [
+        [ "doctrine/dbal", "3.5.0" ],
         [ "jackalope/jackalope", "1.4.5" ],
         [ "phpcr/phpcr", "2.1.6" ],
         [ "phpcr/phpcr-utils", "1.6.2" ]
@@ -331,13 +330,13 @@
     "sonata-project/doctrine-extensions": {
       "1.18.1": [
         [ "doctrine/common", "3.4.3" ],
-        [ "doctrine/dbal", "3.4.5" ],
+        [ "doctrine/dbal", "3.5.0" ],
         [ "doctrine/doctrine-bundle", "2.7.0" ],
         [ "doctrine/mongodb-odm", "2.4.2" ],
         [ "doctrine/orm", "2.13.3" ],
         [ "doctrine/persistence", "3.0.4" ],
         [ "friendsofphp/php-cs-fixer", "v3.12.0" ],
-        [ "jackalope/jackalope-doctrine-dbal", "1.8.0" ],
+        [ "jackalope/jackalope-doctrine-dbal", "1.7.1" ],
         [ "matthiasnoback/symfony-config-test", "4.3.0" ],
         [ "matthiasnoback/symfony-dependency-injection-test", "4.3.0" ],
         [ "phpstan/extension-installer", "1.2.0" ],
@@ -590,8 +589,8 @@
       }
     },
     "doctrine/cache": {
-      "1.13.0": {
-        "rev": "56cd022adb5514472cb144c087393c1821911d09",
+      "2.2.0": {
+        "rev": "1ca8f21980e770095a31456042471a57bc4c68fb",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/cache.git"
@@ -614,8 +613,8 @@
       }
     },
     "doctrine/dbal": {
-      "3.4.5": {
-        "rev": "a5a58773109c0abb13e658c8ccd92aeec8d07f9e",
+      "3.5.0": {
+        "rev": "b66f55c7037402d9f522f19d86841e71c09f0195",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/dbal.git"
@@ -742,8 +741,8 @@
       }
     },
     "jackalope/jackalope-doctrine-dbal": {
-      "1.8.0": {
-        "rev": "d4808c98fdbb9e6795b4579cd71b8696f32583af",
+      "1.7.1": {
+        "rev": "96fc20550578ee976b467f0f78fa7f1f21358fbf",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git"
