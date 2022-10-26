@@ -47,15 +47,16 @@
   },
   "dependencies": {
     "babdev/pagerfanta-bundle": {
-      "v2.11.0": [
-        [ "pagerfanta/pagerfanta", "v2.7.3" ],
+      "v3.7.0": [
+        [ "pagerfanta/core", "v3.6.2" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/http-foundation", "v5.4.14" ],
         [ "symfony/http-kernel", "v5.4.14" ],
-        [ "symfony/property-access", "v5.4.11" ],
-        [ "symfony/routing", "v5.4.11" ]
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/property-access", "v6.1.3" ],
+        [ "symfony/routing", "v6.1.5" ]
       ]
     },
     "doctrine/annotations": {
@@ -179,11 +180,11 @@
       "3.4.0": [
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/http-foundation", "v5.4.14" ],
         [ "symfony/http-kernel", "v5.4.14" ],
-        [ "symfony/routing", "v5.4.11" ],
+        [ "symfony/routing", "v6.1.5" ],
         [ "symfony/security-core", "v5.4.14" ],
         [ "willdurand/jsonp-callback-validator", "v2.0.0" ],
         [ "willdurand/negotiation", "3.1.0" ]
@@ -319,8 +320,8 @@
         [ "psr/log", "2.0.0" ]
       ]
     },
-    "pagerfanta/pagerfanta": {
-      "v2.7.3": [
+    "pagerfanta/core": {
+      "v3.6.2": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
@@ -407,7 +408,7 @@
         [ "phpspec/prophecy", "v1.15.0" ],
         [ "sebastian/exporter", "3.1.5" ],
         [ "symfony/console", "v6.1.6" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/finder", "v6.1.3" ],
         [ "symfony/process", "v6.1.3" ],
         [ "symfony/yaml", "v5.4.14" ]
@@ -494,7 +495,7 @@
       ]
     },
     "sonata-project/block-bundle": {
-      "4.18.0": [
+      "4.19.0": [
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/common", "3.4.3" ],
         [ "psr/cache", "3.0.0" ],
@@ -506,7 +507,7 @@
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/console", "v6.1.6" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/event-dispatcher-contracts", "v3.1.1" ],
         [ "symfony/form", "v5.4.13" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
@@ -534,10 +535,10 @@
         [ "jms/metadata", "2.7.0" ],
         [ "jms/serializer", "3.18.2" ],
         [ "sonata-project/doctrine-extensions", "2.0.1" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/form", "v5.4.13" ],
         [ "symfony/options-resolver", "v5.4.11" ],
-        [ "symfony/property-access", "v5.4.11" ],
+        [ "symfony/property-access", "v6.1.3" ],
         [ "symfony/security-csrf", "v5.4.11" ],
         [ "symfony/translation", "v5.4.14" ],
         [ "symfony/translation-contracts", "v2.5.2" ],
@@ -550,7 +551,7 @@
         [ "gedmo/doctrine-extensions", "v3.9.0" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/http-kernel", "v5.4.14" ]
       ]
     },
@@ -565,7 +566,7 @@
     "sylius-labs/association-hydrator": {
       "v1.2.0": [
         [ "doctrine/orm", "2.13.3" ],
-        [ "symfony/property-access", "v5.4.11" ]
+        [ "symfony/property-access", "v6.1.3" ]
       ]
     },
     "sylius-labs/doctrine-migrations-extra-bundle": {
@@ -578,7 +579,7 @@
     },
     "sylius-labs/polyfill-symfony-event-dispatcher": {
       "v1.1.0": [
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/event-dispatcher-contracts", "v3.1.1" ]
       ]
     },
@@ -597,7 +598,7 @@
     "sylius/addressing": {
       "v1.11.9": [
         [ "sylius/registry", "v1.6.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/intl", "v5.4.14" ]
       ]
     },
@@ -605,7 +606,7 @@
       "v1.11.9": [
         [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
         [ "sylius/addressing", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/intl", "v5.4.14" ]
       ]
@@ -614,7 +615,7 @@
       "v1.11.9": [
         [ "doctrine/collections", "1.8.0" ],
         [ "sylius/registry", "v1.6.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/validator", "v5.4.14" ]
       ]
     },
@@ -623,7 +624,7 @@
         [ "ramsey/uuid", "3.9.6" ],
         [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
         [ "sylius/attribute", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
@@ -635,7 +636,7 @@
     "sylius/channel": {
       "v1.11.9": [
         [ "laminas/laminas-stdlib", "3.15.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/form", "v5.4.13" ],
         [ "symfony/http-foundation", "v5.4.14" ]
       ]
@@ -643,7 +644,7 @@
     "sylius/channel-bundle": {
       "v1.11.9": [
         [ "sylius/channel", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
@@ -666,7 +667,7 @@
         [ "sylius/product", "v1.11.9" ],
         [ "sylius/promotion", "v1.11.9" ],
         [ "sylius/registry", "v1.6.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "sylius/review", "v1.11.9" ],
         [ "sylius/shipping", "v1.11.9" ],
         [ "sylius/taxation", "v1.11.9" ],
@@ -694,7 +695,7 @@
         [ "matthiasnoback/symfony-dependency-injection-test", "4.3.0" ],
         [ "phpspec/phpspec", "7.2.0" ],
         [ "phpunit/phpunit", "8.5.30" ],
-        [ "sonata-project/block-bundle", "4.18.0" ],
+        [ "sonata-project/block-bundle", "4.19.0" ],
         [ "swiftmailer/swiftmailer", "v6.3.0" ],
         [ "sylius-labs/association-hydrator", "v1.2.0" ],
         [ "sylius-labs/doctrine-migrations-extra-bundle", "v0.1.4" ],
@@ -706,7 +707,7 @@
         [ "sylius/currency-bundle", "v1.11.9" ],
         [ "sylius/customer-bundle", "v1.11.9" ],
         [ "sylius/fixtures-bundle", "v1.8.0" ],
-        [ "sylius/grid-bundle", "v1.11.0" ],
+        [ "sylius/grid-bundle", "v1.12.0-BETA.1" ],
         [ "sylius/inventory-bundle", "v1.11.9" ],
         [ "sylius/locale-bundle", "v1.11.9" ],
         [ "sylius/money-bundle", "v1.11.9" ],
@@ -715,7 +716,7 @@
         [ "sylius/payum-bundle", "v1.11.9" ],
         [ "sylius/product-bundle", "v1.11.9" ],
         [ "sylius/promotion-bundle", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "sylius/review-bundle", "v1.11.9" ],
         [ "sylius/shipping-bundle", "v1.11.9" ],
         [ "sylius/taxation-bundle", "v1.11.9" ],
@@ -736,14 +737,14 @@
     "sylius/currency": {
       "v1.11.9": [
         [ "laminas/laminas-stdlib", "3.15.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/intl", "v5.4.14" ]
       ]
     },
     "sylius/currency-bundle": {
       "v1.11.9": [
         [ "sylius/currency", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/intl", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ]
@@ -752,7 +753,7 @@
     "sylius/customer": {
       "v1.11.9": [
         [ "doctrine/collections", "1.8.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ]
+        [ "sylius/resource-bundle", "v1.8.3" ]
       ]
     },
     "sylius/customer-bundle": {
@@ -760,7 +761,7 @@
         [ "doctrine/orm", "2.13.3" ],
         [ "egulias/email-validator", "3.2.1" ],
         [ "sylius/customer", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
@@ -775,31 +776,31 @@
       ]
     },
     "sylius/grid-bundle": {
-      "v1.11.0": [
+      "v1.12.0-BETA.1": [
         [ "sylius-labs/polyfill-symfony-event-dispatcher", "v1.1.0" ],
         [ "sylius/registry", "v1.6.0" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/form", "v5.4.13" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/options-resolver", "v5.4.11" ],
-        [ "symfony/property-access", "v5.4.11" ],
+        [ "symfony/property-access", "v6.1.3" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
     "sylius/inventory": {
       "v1.11.9": [
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
     "sylius/inventory-bundle": {
       "v1.11.9": [
         [ "sylius/inventory", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ],
         [ "symfony/validator", "v5.4.14" ]
@@ -808,14 +809,14 @@
     "sylius/locale": {
       "v1.11.9": [
         [ "laminas/laminas-stdlib", "3.15.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/intl", "v5.4.14" ]
       ]
     },
     "sylius/locale-bundle": {
       "v1.11.9": [
         [ "sylius/locale", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ]
       ]
@@ -834,7 +835,7 @@
     },
     "sylius/money-bundle": {
       "v1.11.9": [
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/intl", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ],
@@ -844,7 +845,7 @@
     "sylius/order": {
       "v1.11.9": [
         [ "laminas/laminas-stdlib", "3.15.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
@@ -854,7 +855,7 @@
         [ "sylius-labs/polyfill-symfony-framework-bundle", "v1.1.0" ],
         [ "sylius/money-bundle", "v1.11.9" ],
         [ "sylius/order", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/templating", "v5.4.11" ]
       ]
@@ -862,13 +863,13 @@
     "sylius/payment": {
       "v1.11.9": [
         [ "sylius/registry", "v1.6.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ]
+        [ "sylius/resource-bundle", "v1.8.3" ]
       ]
     },
     "sylius/payment-bundle": {
       "v1.11.9": [
         [ "sylius/payment", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
@@ -881,14 +882,14 @@
         [ "sylius/currency", "v1.11.9" ],
         [ "sylius/order-bundle", "v1.11.9" ],
         [ "sylius/payment-bundle", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ]
+        [ "sylius/resource-bundle", "v1.8.3" ]
       ]
     },
     "sylius/product": {
       "v1.11.9": [
         [ "behat/transliterator", "v1.5.0" ],
         [ "sylius/attribute", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/polyfill-iconv", "v1.26.0" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
@@ -899,7 +900,7 @@
         [ "sylius/attribute-bundle", "v1.11.9" ],
         [ "sylius/locale-bundle", "v1.11.9" ],
         [ "sylius/product", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
@@ -907,7 +908,7 @@
       "v1.11.9": [
         [ "doctrine/orm", "2.13.3" ],
         [ "sylius/registry", "v1.6.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ]
+        [ "sylius/resource-bundle", "v1.8.3" ]
       ]
     },
     "sylius/promotion-bundle": {
@@ -917,13 +918,13 @@
         [ "sylius/money-bundle", "v1.11.9" ],
         [ "sylius/promotion", "v1.11.9" ],
         [ "sylius/registry", "v1.6.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/framework-bundle", "v5.4.14" ]
       ]
     },
     "sylius/resource-bundle": {
-      "v1.8.4": [
-        [ "babdev/pagerfanta-bundle", "v2.11.0" ],
+      "v1.8.3": [
+        [ "babdev/pagerfanta-bundle", "v3.7.0" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/doctrine-bundle", "2.7.0" ],
         [ "doctrine/event-manager", "1.2.0" ],
@@ -950,14 +951,14 @@
     "sylius/review": {
       "v1.11.9": [
         [ "doctrine/collections", "1.8.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ]
+        [ "sylius/resource-bundle", "v1.8.3" ]
       ]
     },
     "sylius/review-bundle": {
       "v1.11.9": [
         [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
         [ "sylius/mailer-bundle", "v1.8.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "sylius/review", "v1.11.9" ],
         [ "sylius/user-bundle", "v1.11.9" ],
         [ "symfony/framework-bundle", "v5.4.14" ]
@@ -966,7 +967,7 @@
     "sylius/shipping": {
       "v1.11.9": [
         [ "sylius/registry", "v1.6.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/options-resolver", "v5.4.11" ]
       ]
     },
@@ -975,7 +976,7 @@
         [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
         [ "sylius/calendar", "v0.3.0" ],
         [ "sylius/money-bundle", "v1.11.9" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "sylius/shipping", "v1.11.9" ],
         [ "symfony/framework-bundle", "v5.4.14" ]
       ]
@@ -983,14 +984,14 @@
     "sylius/taxation": {
       "v1.11.9": [
         [ "sylius/registry", "v1.6.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ]
+        [ "sylius/resource-bundle", "v1.8.3" ]
       ]
     },
     "sylius/taxation-bundle": {
       "v1.11.9": [
         [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
         [ "sylius/registry", "v1.6.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "sylius/taxation", "v1.11.9" ],
         [ "symfony/framework-bundle", "v5.4.14" ]
       ]
@@ -998,14 +999,14 @@
     "sylius/taxonomy": {
       "v1.11.9": [
         [ "behat/transliterator", "v1.5.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
     "sylius/taxonomy-bundle": {
       "v1.11.9": [
         [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "sylius/taxonomy", "v1.11.9" ],
         [ "symfony/framework-bundle", "v5.4.14" ]
       ]
@@ -1034,9 +1035,9 @@
         [ "knplabs/knp-menu", "v3.3.0" ],
         [ "knplabs/knp-menu-bundle", "v3.2.0" ],
         [ "laminas/laminas-stdlib", "3.15.0" ],
-        [ "sonata-project/block-bundle", "4.18.0" ],
+        [ "sonata-project/block-bundle", "4.19.0" ],
         [ "sylius-labs/polyfill-symfony-event-dispatcher", "v1.1.0" ],
-        [ "sylius/grid-bundle", "v1.11.0" ],
+        [ "sylius/grid-bundle", "v1.12.0-BETA.1" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "symfony/security-bundle", "v5.4.11" ],
@@ -1048,7 +1049,7 @@
       "v1.11.9": [
         [ "doctrine/collections", "1.8.0" ],
         [ "sylius-labs/polyfill-symfony-security", "v1.1.1" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/security-core", "v5.4.14" ]
       ]
@@ -1060,7 +1061,7 @@
         [ "sylius-labs/polyfill-symfony-event-dispatcher", "v1.1.0" ],
         [ "sylius-labs/polyfill-symfony-framework-bundle", "v1.1.0" ],
         [ "sylius/mailer-bundle", "v1.8.0" ],
-        [ "sylius/resource-bundle", "v1.8.4" ],
+        [ "sylius/resource-bundle", "v1.8.3" ],
         [ "sylius/user", "v1.11.9" ],
         [ "symfony/framework-bundle", "v5.4.14" ],
         [ "webmozart/assert", "1.11.0" ]
@@ -1136,10 +1137,8 @@
       ]
     },
     "symfony/event-dispatcher": {
-      "v5.4.9": [
-        [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/event-dispatcher-contracts", "v3.1.1" ],
-        [ "symfony/polyfill-php80", "v1.26.0" ]
+      "v6.1.0": [
+        [ "symfony/event-dispatcher-contracts", "v3.1.1" ]
       ]
     },
     "symfony/event-dispatcher-contracts": {
@@ -1162,14 +1161,14 @@
     "symfony/form": {
       "v5.4.13": [
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/options-resolver", "v5.4.11" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-intl-icu", "v1.26.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/polyfill-php81", "v1.26.0" ],
-        [ "symfony/property-access", "v5.4.11" ],
+        [ "symfony/property-access", "v6.1.3" ],
         [ "symfony/service-contracts", "v2.5.2" ]
       ]
     },
@@ -1180,7 +1179,7 @@
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/error-handler", "v6.1.6" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/filesystem", "v6.1.5" ],
         [ "symfony/finder", "v6.1.3" ],
         [ "symfony/http-foundation", "v5.4.14" ],
@@ -1188,7 +1187,7 @@
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/polyfill-php81", "v1.26.0" ],
-        [ "symfony/routing", "v5.4.11" ]
+        [ "symfony/routing", "v6.1.5" ]
       ]
     },
     "symfony/http-foundation": {
@@ -1203,7 +1202,7 @@
         [ "psr/log", "2.0.0" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
         [ "symfony/error-handler", "v6.1.6" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/http-foundation", "v5.4.14" ],
         [ "symfony/polyfill-ctype", "v1.26.0" ],
         [ "symfony/polyfill-php73", "v1.26.0" ],
@@ -1257,9 +1256,7 @@
       ]
     },
     "symfony/property-access": {
-      "v5.4.11": [
-        [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/polyfill-php80", "v1.26.0" ],
+      "v6.1.3": [
         [ "symfony/property-info", "v6.1.6" ]
       ]
     },
@@ -1273,18 +1270,12 @@
         [ "symfony/messenger", "v5.4.14" ]
       ]
     },
-    "symfony/routing": {
-      "v5.4.11": [
-        [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/polyfill-php80", "v1.26.0" ]
-      ]
-    },
     "symfony/security-bundle": {
       "v5.4.11": [
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.13" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ],
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/http-foundation", "v5.4.14" ],
         [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/password-hasher", "v6.1.3" ],
@@ -1324,7 +1315,7 @@
         [ "symfony/http-kernel", "v5.4.14" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
         [ "symfony/polyfill-php80", "v1.26.0" ],
-        [ "symfony/property-access", "v5.4.11" ],
+        [ "symfony/property-access", "v6.1.3" ],
         [ "symfony/security-core", "v5.4.14" ]
       ]
     },
@@ -1449,9 +1440,9 @@
     },
     "winzou/state-machine": {
       "0.4.3": [
-        [ "symfony/event-dispatcher", "v5.4.9" ],
+        [ "symfony/event-dispatcher", "v6.1.0" ],
         [ "symfony/expression-language", "v5.4.14" ],
-        [ "symfony/property-access", "v5.4.11" ]
+        [ "symfony/property-access", "v6.1.3" ]
       ]
     },
     "winzou/state-machine-bundle": {
@@ -1471,8 +1462,8 @@
       }
     },
     "babdev/pagerfanta-bundle": {
-      "v2.11.0": {
-        "rev": "98bd0756de82080ace1a2e41e66f618e469da943",
+      "v3.7.0": {
+        "rev": "d2760ebc3d22db10f219544323bea432dedc9eb0",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/BabDev/PagerfantaBundle.git"
@@ -1886,12 +1877,12 @@
         "url": "https://github.com/myclabs/DeepCopy.git"
       }
     },
-    "pagerfanta/pagerfanta": {
-      "v2.7.3": {
-        "rev": "5f2aa1f1c9d1a6520f459e84b63e2bc25e9eea5b",
+    "pagerfanta/core": {
+      "v3.6.2": {
+        "rev": "d733a04b8461ca2ae157fbe45e8710f01b4f256d",
         "submodules": false,
         "type": "git",
-        "url": "https://github.com/BabDev/Pagerfanta.git"
+        "url": "https://github.com/Pagerfanta/core.git"
       }
     },
     "paragonie/random_compat": {
@@ -2271,8 +2262,8 @@
       }
     },
     "sonata-project/block-bundle": {
-      "4.18.0": {
-        "rev": "79a2c6558fad47d1f2e4c58f6a8732b32bc582be",
+      "4.19.0": {
+        "rev": "5aef2a4362e5e08031fd97e188b039f2ea3e991b",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/sonata-project/SonataBlockBundle.git"
@@ -2470,8 +2461,8 @@
       }
     },
     "sylius/grid-bundle": {
-      "v1.11.0": {
-        "rev": "2fd10e35fa37607a387ee6e81e21d24e48c8ff19",
+      "v1.12.0-BETA.1": {
+        "rev": "c224235a04c3b2b10ed7edd8af30b3a8fac377a2",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/SyliusGridBundle.git"
@@ -2606,8 +2597,8 @@
       }
     },
     "sylius/resource-bundle": {
-      "v1.8.4": {
-        "rev": "7da5243f0299a20b7e939630e3c8e6162da916cf",
+      "v1.8.3": {
+        "rev": "594d6ea89f2b204da27619ace4d8d6339a8962a4",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/SyliusResourceBundle.git"
@@ -2798,8 +2789,8 @@
       }
     },
     "symfony/event-dispatcher": {
-      "v5.4.9": {
-        "rev": "8e6ce1cc0279e3ff3c8ff0f43813bc88d21ca1bc",
+      "v6.1.0": {
+        "rev": "a0449a7ad7daa0f7c0acd508259f80544ab5a347",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/event-dispatcher.git"
@@ -3014,8 +3005,8 @@
       }
     },
     "symfony/property-access": {
-      "v5.4.11": {
-        "rev": "c641d63e943ed31981bad4b4dcf29fe7da2ffa8c",
+      "v6.1.3": {
+        "rev": "25108ee9b62d6ef0815007d9c7cf6a7ba40bb7c5",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/property-access.git"
@@ -3038,8 +3029,8 @@
       }
     },
     "symfony/routing": {
-      "v5.4.11": {
-        "rev": "3e01ccd9b2a3a4167ba2b3c53612762300300226",
+      "v6.1.5": {
+        "rev": "f8c1ebb43d0f39e5ecd12a732ba1952a3dd8455c",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/routing.git"

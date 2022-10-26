@@ -12,7 +12,6 @@
     "composerPluginApiSemver": {},
     "noDev": false,
     "phpExtensions": [
-      "fileinfo",
       "json",
       "mbstring",
       "pdo"
@@ -21,36 +20,23 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "league/flysystem": {
-      "1.1.10": [
-        [ "league/mime-type-detection", "1.11.0" ]
-      ]
-    },
-    "league/flysystem-cached-adapter": {
-      "1.1.0": [
-        [ "league/flysystem", "1.1.10" ],
-        [ "psr/cache", "1.0.1" ]
-      ]
-    },
     "topthink/framework": {
-      "v6.0.13": [
-        [ "league/flysystem", "1.1.10" ],
-        [ "league/flysystem-cached-adapter", "1.1.0" ],
+      "v6.1.0": [
         [ "psr/container", "1.1.2" ],
         [ "psr/http-message", "1.0.1" ],
         [ "psr/log", "1.1.4" ],
         [ "psr/simple-cache", "1.0.1" ],
         [ "topthink/think-helper", "v3.1.6" ],
-        [ "topthink/think-orm", "v2.0.54" ]
+        [ "topthink/think-orm", "v2.0.55" ]
       ]
     },
     "topthink/think-captcha": {
       "v3.0.3": [
-        [ "topthink/framework", "v6.0.13" ]
+        [ "topthink/framework", "v6.1.0" ]
       ]
     },
     "topthink/think-orm": {
-      "v2.0.54": [
+      "v2.0.55": [
         [ "psr/log", "1.1.4" ],
         [ "psr/simple-cache", "1.0.1" ],
         [ "topthink/think-helper", "v3.1.6" ]
@@ -58,38 +44,6 @@
     }
   },
   "sources": {
-    "league/flysystem": {
-      "1.1.10": {
-        "rev": "3239285c825c152bcc315fe0e87d6b55f5972ed1",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/thephpleague/flysystem.git"
-      }
-    },
-    "league/flysystem-cached-adapter": {
-      "1.1.0": {
-        "rev": "d1925efb2207ac4be3ad0c40b8277175f99ffaff",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/thephpleague/flysystem-cached-adapter.git"
-      }
-    },
-    "league/mime-type-detection": {
-      "1.11.0": {
-        "rev": "ff6248ea87a9f116e78edd6002e39e5128a0d4dd",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/thephpleague/mime-type-detection.git"
-      }
-    },
-    "psr/cache": {
-      "1.0.1": {
-        "rev": "d11b50ad223250cf17b86e38383413f5a6764bf8",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/php-fig/cache.git"
-      }
-    },
     "psr/container": {
       "1.1.2": {
         "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
@@ -123,8 +77,8 @@
       }
     },
     "topthink/framework": {
-      "v6.0.13": {
-        "rev": "126d5b2cbacb73d6e2a85cbc7a2c6ee59d0b3fa6",
+      "v6.1.0": {
+        "rev": "e563b6c9c17913c7487c73992cf6a225cd41b35a",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/top-think/framework.git"
@@ -146,8 +100,8 @@
       }
     },
     "topthink/think-orm": {
-      "v2.0.54": {
-        "rev": "97b061b47616301ff29fbd4c35ed9184e1162e4e",
+      "v2.0.55": {
+        "rev": "e1974a4c3b1b4c5b808fcc0863fc254e711dee13",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/top-think/think-orm.git"
