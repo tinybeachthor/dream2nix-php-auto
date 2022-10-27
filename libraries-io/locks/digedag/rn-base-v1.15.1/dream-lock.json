@@ -38,6 +38,12 @@
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "bnf/phpstan-psr-container": {
+      "1.0.1": [
+        [ "phpstan/phpstan", "1.8.11" ],
+        [ "psr/container", "1.1.2" ]
+      ]
+    },
     "composer/xdebug-handler": {
       "3.0.3": [
         [ "composer/pcre", "3.0.0" ],
@@ -54,9 +60,9 @@
         [ "nimut/testing-framework", "5.3.0" ],
         [ "phpstan/extension-installer", "1.2.0" ],
         [ "phpstan/phpstan", "1.8.11" ],
-        [ "phpstan/phpstan-phpunit", "1.1.3" ],
+        [ "phpstan/phpstan-phpunit", "1.2.1" ],
         [ "phpunit/phpunit", "7.5.20" ],
-        [ "saschaegerer/phpstan-typo3", "1.8.0" ],
+        [ "saschaegerer/phpstan-typo3", "1.8.1" ],
         [ "typo3/cms-core", "v10.4.32" ],
         [ "typo3/cms-frontend", "v10.4.32" ],
         [ "typo3/cms-scheduler", "v10.4.32" ]
@@ -207,7 +213,7 @@
       ]
     },
     "phpstan/phpstan-phpunit": {
-      "1.1.3": [
+      "1.2.1": [
         [ "phpstan/phpstan", "1.8.11" ]
       ]
     },
@@ -266,7 +272,8 @@
       ]
     },
     "saschaegerer/phpstan-typo3": {
-      "1.8.0": [
+      "1.8.1": [
+        [ "bnf/phpstan-psr-container", "1.0.1" ],
         [ "nikic/php-parser", "v4.15.1" ],
         [ "phpstan/phpstan", "1.8.11" ],
         [ "typo3/cms-core", "v10.4.32" ],
@@ -563,6 +570,14 @@
     }
   },
   "sources": {
+    "bnf/phpstan-psr-container": {
+      "1.0.1": {
+        "rev": "38242e71616aa677a0fdd08af8edc4a730a24f67",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/bnf/phpstan-psr-container.git"
+      }
+    },
     "composer/pcre": {
       "3.0.0": {
         "rev": "e300eb6c535192decd27a85bc72a9290f0d6b3bd",
@@ -867,8 +882,8 @@
       }
     },
     "phpstan/phpstan-phpunit": {
-      "1.1.3": {
-        "rev": "6b93db7fae6d6f3e81a5b4297f93af6fe4146785",
+      "1.2.1": {
+        "rev": "09b5c9ab38d4d601bcff04b4c9240832b86f5dda",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/phpstan/phpstan-phpunit.git"
@@ -1003,8 +1018,8 @@
       }
     },
     "saschaegerer/phpstan-typo3": {
-      "1.8.0": {
-        "rev": "8e532ddf2ad3181a876b7eddfa56f94ed20be74f",
+      "1.8.1": {
+        "rev": "3d6d7d250e234a8491b48abbcf79df957e107a9d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/sascha-egerer/phpstan-typo3.git"

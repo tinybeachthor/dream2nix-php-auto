@@ -19,6 +19,8 @@
       "mbstring",
       "json",
       "ctype",
+      "dom",
+      "libxml",
       "filter",
       "hash",
       "pcre"
@@ -27,14 +29,14 @@
   },
   "cyclicDependencies": {
     "acp3/module-permissions": {
-      "v6.9.0": [
-        [ "acp3/module-system", "v6.9.0" ]
+      "v6.10.3": [
+        [ "acp3/module-system", "v6.10.3" ]
       ]
     }
   },
   "dependencies": {
     "acp3/core": {
-      "v6.9.0": [
+      "v6.10.3": [
         [ "cocur/slugify", "v4.2.0" ],
         [ "doctrine/dbal", "3.5.1" ],
         [ "fisharebest/localization", "1.17.0" ],
@@ -43,6 +45,7 @@
         [ "inlinestyle/inlinestyle", "1.2.7" ],
         [ "marc1706/fast-image-size", "v1.1.7" ],
         [ "marcj/topsort", "2.0.0" ],
+        [ "masterminds/html5", "2.7.6" ],
         [ "monolog/monolog", "3.2.0" ],
         [ "php-http/guzzle6-adapter", "v2.0.2" ],
         [ "phpmailer/phpmailer", "v6.6.5" ],
@@ -62,49 +65,50 @@
         [ "symfony/proxy-manager-bridge", "v6.1.0" ],
         [ "symfony/yaml", "v6.1.6" ],
         [ "toflar/psr6-symfony-http-cache-store", "4.0.0" ],
-        [ "tubalmartin/cssmin", "v4.1.1" ]
+        [ "tubalmartin/cssmin", "v4.1.1" ],
+        [ "webmozart/glob", "4.6.0" ]
       ]
     },
     "acp3/module-installer": {
-      "v6.9.0": [
-        [ "acp3/core", "v6.9.0" ],
-        [ "acp3/module-system", "v6.9.0" ],
-        [ "acp3/module-users", "v6.9.0" ],
-        [ "acp3/theme-installer", "v6.9.0" ],
+      "v6.10.3": [
+        [ "acp3/core", "v6.10.3" ],
+        [ "acp3/module-system", "v6.10.3" ],
+        [ "acp3/module-users", "v6.10.3" ],
+        [ "acp3/theme-installer", "v6.10.3" ],
         [ "composer/semver", "3.3.2" ]
       ]
     },
     "acp3/module-permissions": {
-      "v6.9.0": [
-        [ "acp3/core", "v6.9.0" ],
-        [ "acp3/module-system", "v6.9.0" ]
+      "v6.10.3": [
+        [ "acp3/core", "v6.10.3" ],
+        [ "acp3/module-system", "v6.10.3" ]
       ]
     },
     "acp3/module-system": {
-      "v6.9.0": [
-        [ "acp3/core", "v6.9.0" ],
-        [ "acp3/module-permissions", "v6.9.0" ],
+      "v6.10.3": [
+        [ "acp3/core", "v6.10.3" ],
+        [ "acp3/module-permissions", "v6.10.3" ],
         [ "composer/semver", "3.3.2" ]
       ]
     },
     "acp3/module-users": {
-      "v6.9.0": [
-        [ "acp3/core", "v6.9.0" ],
-        [ "acp3/module-permissions", "v6.9.0" ],
-        [ "acp3/module-system", "v6.9.0" ]
+      "v6.10.3": [
+        [ "acp3/core", "v6.10.3" ],
+        [ "acp3/module-permissions", "v6.10.3" ],
+        [ "acp3/module-system", "v6.10.3" ]
       ]
     },
     "acp3/setup": {
       "v6.0.0": [
         [ "acp3/composer-installer", "v1.3.0" ],
-        [ "acp3/core", "v6.9.0" ],
-        [ "acp3/module-installer", "v6.9.0" ],
-        [ "acp3/theme-installer", "v6.9.0" ]
+        [ "acp3/core", "v6.10.3" ],
+        [ "acp3/module-installer", "v6.10.3" ],
+        [ "acp3/theme-installer", "v6.10.3" ]
       ]
     },
     "acp3/theme-installer": {
-      "v6.9.0": [
-        [ "acp3/core", "v6.9.0" ]
+      "v6.10.3": [
+        [ "acp3/core", "v6.10.3" ]
       ]
     },
     "cocur/slugify": {
@@ -158,6 +162,11 @@
     "marc1706/fast-image-size": {
       "v1.1.7": [
         [ "symfony/polyfill-mbstring", "v1.26.0" ]
+      ]
+    },
+    "masterminds/html5": {
+      "2.7.6": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ]
       ]
     },
     "monolog/monolog": {
@@ -362,15 +371,15 @@
       }
     },
     "acp3/core": {
-      "v6.9.0": {
-        "rev": "1ecbcfea5c95028ba57ff16bd569c885c67c1335",
+      "v6.10.3": {
+        "rev": "c282f81be3c818364bd803d103a0d99eaf6e3bcb",
         "submodules": false,
         "type": "git",
         "url": "git@gitlab.com:ACP3/core.git"
       }
     },
     "acp3/module-installer": {
-      "v6.9.0": {
+      "v6.10.3": {
         "rev": "fc7941af68b8c257f8cad3505674651d3abe3463",
         "submodules": false,
         "type": "git",
@@ -378,7 +387,7 @@
       }
     },
     "acp3/module-permissions": {
-      "v6.9.0": {
+      "v6.10.3": {
         "rev": "8870f49637bc46fe6436c421bb4a403af7dcf4f7",
         "submodules": false,
         "type": "git",
@@ -386,15 +395,15 @@
       }
     },
     "acp3/module-system": {
-      "v6.9.0": {
-        "rev": "ea988738e10fd7c00e1580a51fe83ab245e7e118",
+      "v6.10.3": {
+        "rev": "fd05ae6032d8769231187c3a006f6b8affb62e7d",
         "submodules": false,
         "type": "git",
         "url": "git@gitlab.com:ACP3/module-system.git"
       }
     },
     "acp3/module-users": {
-      "v6.9.0": {
+      "v6.10.3": {
         "rev": "a7886ac12334d52a0a63912b681d612bce5bbedd",
         "submodules": false,
         "type": "git",
@@ -409,7 +418,7 @@
       }
     },
     "acp3/theme-installer": {
-      "v6.9.0": {
+      "v6.10.3": {
         "rev": "3ddd6b0694b51465878bc9d7e56cb29b05649381",
         "submodules": false,
         "type": "git",
@@ -558,6 +567,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/marcj/topsort.php.git"
+      }
+    },
+    "masterminds/html5": {
+      "2.7.6": {
+        "rev": "897eb517a343a2281f11bc5556d6548db7d93947",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Masterminds/html5-php.git"
       }
     },
     "monolog/monolog": {
@@ -958,6 +975,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port.git"
+      }
+    },
+    "webmozart/glob": {
+      "4.6.0": {
+        "rev": "3c17f7dec3d9d0e87b575026011f2e75a56ed655",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozarts/glob.git"
       }
     }
   }

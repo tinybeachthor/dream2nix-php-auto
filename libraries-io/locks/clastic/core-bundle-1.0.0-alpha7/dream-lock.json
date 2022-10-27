@@ -1,0 +1,117 @@
+{
+  "_generic": {
+    "defaultPackage": "clastic/core-bundle",
+    "location": "",
+    "packages": {
+      "clastic/core-bundle": "1.0.0-alpha7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "tokenizer",
+      "xml"
+    ],
+    "phpSemver": ">=5.6"
+  },
+  "cyclicDependencies": {
+    "clastic/node-bundle": {
+      "dev-master": [
+        [ "clastic/core-bundle", "1.0.0-alpha7" ]
+      ]
+    },
+    "clastic/user-bundle": {
+      "dev-master": [
+        [ "clastic/core-bundle", "1.0.0-alpha7" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "clastic/core-bundle": {
+      "1.0.0-alpha7": [
+        [ "clastic/node-bundle", "dev-master" ],
+        [ "clastic/user-bundle", "dev-master" ],
+        [ "doctrine/doctrine-bundle", "1.12.x-dev" ]
+      ]
+    },
+    "clastic/node-bundle": {
+      "dev-master": [
+        [ "clastic/core-bundle", "1.0.0-alpha7" ],
+        [ "doctrine/doctrine-bundle", "1.12.x-dev" ]
+      ]
+    },
+    "clastic/user-bundle": {
+      "dev-master": [
+        [ "clastic/core-bundle", "1.0.0-alpha7" ],
+        [ "doctrine/doctrine-bundle", "1.12.x-dev" ],
+        [ "friendsofsymfony/user-bundle", "v2.1.2" ]
+      ]
+    },
+    "friendsofsymfony/user-bundle": {
+      "v2.1.2": [
+        [ "paragonie/random_compat", "v2.0.21" ],
+        [ "symfony/twig-bundle", "v4.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "clastic/core-bundle": {
+      "1.0.0-alpha7": {
+        "rev": "018d9178bcad98b112d7188ca2e891bfe49939b8",
+        "type": "git",
+        "url": "https://github.com/Clastic/CoreBundle.git"
+      }
+    },
+    "clastic/node-bundle": {
+      "dev-master": {
+        "rev": "ef4385b7d64d396d733d7829f58866828d5bb552",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Clastic/NodeBundle.git"
+      }
+    },
+    "clastic/user-bundle": {
+      "dev-master": {
+        "rev": "0d9f54a11d8ba9029331e032ce5f8fea09a90b5e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Clastic/UserBundle.git"
+      }
+    },
+    "doctrine/doctrine-bundle": {
+      "1.12.x-dev": {
+        "rev": "6a4b9589b9df7061cb2e9afa0c3d3c3d57611d38",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/doctrine/DoctrineBundle.git"
+      }
+    },
+    "friendsofsymfony/user-bundle": {
+      "v2.1.2": {
+        "rev": "1049935edd24ec305cc6cfde1875372fa9600446",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/FriendsOfSymfony/FOSUserBundle.git"
+      }
+    },
+    "paragonie/random_compat": {
+      "v2.0.21": {
+        "rev": "96c132c7f2f7bc3230723b66e89f8f150b29d5ae",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/paragonie/random_compat.git"
+      }
+    },
+    "symfony/twig-bundle": {
+      "v4.1.0": {
+        "rev": "158bf522a8df74b0a322421bbde14a1647197007",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/twig-bundle.git"
+      }
+    }
+  }
+}
