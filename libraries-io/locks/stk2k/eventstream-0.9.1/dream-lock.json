@@ -1,0 +1,65 @@
+{
+  "_generic": {
+    "defaultPackage": "stk2k/eventstream",
+    "location": "",
+    "packages": {
+      "stk2k/eventstream": "0.9.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "simplexml",
+      "tokenizer",
+      "mbstring",
+      "xml"
+    ],
+    "phpSemver": ">=7.2"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "php-coveralls/php-coveralls": {
+      "v2.5.3": [
+        [ "psr/log", "2.0.0" ]
+      ]
+    },
+    "stk2k/eventstream": {
+      "0.9.1": [
+        [ "php-coveralls/php-coveralls", "v2.5.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "php-coveralls/php-coveralls": {
+      "v2.5.3": {
+        "rev": "9d8243bbf0e053333692857c98fab7cfba0d60a9",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-coveralls/php-coveralls.git"
+      }
+    },
+    "psr/log": {
+      "2.0.0": {
+        "rev": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "stk2k/eventstream": {
+      "0.9.1": {
+        "rev": "f3d210d4c07d2c5ce56609b7005658c3b15ac139",
+        "type": "git",
+        "url": "https://github.com/stk2k/eventstream.git"
+      }
+    }
+  }
+}

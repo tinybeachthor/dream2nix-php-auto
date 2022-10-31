@@ -1,0 +1,91 @@
+{
+  "_generic": {
+    "defaultPackage": "froq/froq-common",
+    "location": "",
+    "packages": {
+      "froq/froq-common": "6.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "^8.1"
+  },
+  "cyclicDependencies": {
+    "froq/froq-collection": {
+      "6.0.1": [
+        [ "froq/froq-common", "6.1.0" ]
+      ]
+    },
+    "froq/froq-reflection": {
+      "6.1.0": [
+        [ "froq/froq-common", "6.1.0" ]
+      ]
+    },
+    "froq/froq-util": {
+      "6.8.0": [
+        [ "froq/froq-common", "6.1.0" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "froq/froq-collection": {
+      "6.0.1": [
+        [ "froq/froq-common", "6.1.0" ]
+      ]
+    },
+    "froq/froq-common": {
+      "6.1.0": [
+        [ "froq/froq-collection", "6.0.1" ],
+        [ "froq/froq-util", "6.8.0" ]
+      ]
+    },
+    "froq/froq-reflection": {
+      "6.1.0": [
+        [ "froq/froq-common", "6.1.0" ]
+      ]
+    },
+    "froq/froq-util": {
+      "6.8.0": [
+        [ "froq/froq-common", "6.1.0" ],
+        [ "froq/froq-reflection", "6.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "froq/froq-collection": {
+      "6.0.1": {
+        "rev": "55af285bdc232e01895b0fce5e4ec617558bbb41",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/froq/froq-collection.git"
+      }
+    },
+    "froq/froq-common": {
+      "6.1.0": {
+        "rev": "ed367c1c3f5352f03961cfc383cd9d32123fd8e4",
+        "type": "git",
+        "url": "https://github.com/froq/froq-common.git"
+      }
+    },
+    "froq/froq-reflection": {
+      "6.1.0": {
+        "rev": "088c7627ffb8cdfbec8b130046a322a7a9088afd",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/froq/froq-reflection.git"
+      }
+    },
+    "froq/froq-util": {
+      "6.8.0": {
+        "rev": "e002e352cb7995c1d969f9006cb8a6870ef8da2d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/froq/froq-util.git"
+      }
+    }
+  }
+}
