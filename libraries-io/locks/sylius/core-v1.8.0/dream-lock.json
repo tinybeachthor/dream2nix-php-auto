@@ -15,6 +15,7 @@
       "tokenizer",
       "ctype",
       "json",
+      "xml",
       "filter"
     ],
     "phpSemver": "^7.3"
@@ -218,22 +219,27 @@
       ]
     },
     "sylius/addressing": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource", "v1.9.1" ],
         [ "symfony/intl", "v5.4.15" ]
       ]
     },
     "sylius/attribute": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "doctrine/collections", "1.8.0" ],
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource", "v1.9.1" ],
         [ "symfony/validator", "v5.4.15" ]
       ]
     },
+    "sylius/calendar": {
+      "v0.3.0": [
+        [ "symfony/framework-bundle", "v4.4.47" ]
+      ]
+    },
     "sylius/channel": {
-      "v1.11.9": [
+      "v1.11.10": [
         [ "laminas/laminas-stdlib", "3.4.0" ],
         [ "sylius/resource", "v1.9.1" ],
         [ "symfony/form", "v4.4.48" ],
@@ -246,79 +252,79 @@
         [ "payum/payum", "1.7.3" ],
         [ "php-http/guzzle6-adapter", "v2.0.2" ],
         [ "phpspec/phpspec", "6.3.1" ],
-        [ "sylius/addressing", "v1.11.9" ],
-        [ "sylius/attribute", "v1.11.9" ],
-        [ "sylius/channel", "v1.11.9" ],
-        [ "sylius/currency", "v1.11.9" ],
-        [ "sylius/customer", "v1.11.9" ],
-        [ "sylius/inventory", "v1.11.9" ],
-        [ "sylius/locale", "v1.11.9" ],
-        [ "sylius/order", "v1.11.9" ],
-        [ "sylius/payment", "v1.11.9" ],
-        [ "sylius/product", "v1.11.9" ],
-        [ "sylius/promotion", "v1.11.9" ],
+        [ "sylius/addressing", "v1.12.0" ],
+        [ "sylius/attribute", "v1.12.0" ],
+        [ "sylius/channel", "v1.11.10" ],
+        [ "sylius/currency", "v1.12.0" ],
+        [ "sylius/customer", "v1.12.0" ],
+        [ "sylius/inventory", "v1.12.0" ],
+        [ "sylius/locale", "v1.12.0" ],
+        [ "sylius/order", "v1.12.0" ],
+        [ "sylius/payment", "v1.12.0" ],
+        [ "sylius/product", "v1.12.0" ],
+        [ "sylius/promotion", "v1.12.0" ],
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource", "v1.9.1" ],
-        [ "sylius/review", "v1.11.9" ],
-        [ "sylius/shipping", "v1.11.9" ],
-        [ "sylius/taxation", "v1.11.9" ],
-        [ "sylius/taxonomy", "v1.11.9" ],
-        [ "sylius/user", "v1.11.9" ],
+        [ "sylius/review", "v1.12.0" ],
+        [ "sylius/shipping", "v1.12.0" ],
+        [ "sylius/taxation", "v1.12.0" ],
+        [ "sylius/taxonomy", "v1.12.0" ],
+        [ "sylius/user", "v1.11.10" ],
         [ "symfony/http-foundation", "v4.4.48" ],
         [ "symfony/property-access", "v4.4.44" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
     "sylius/currency": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "laminas/laminas-stdlib", "3.4.0" ],
         [ "sylius/resource", "v1.9.1" ],
         [ "symfony/intl", "v5.4.15" ]
       ]
     },
     "sylius/customer": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "doctrine/collections", "1.8.0" ],
         [ "sylius/resource", "v1.9.1" ]
       ]
     },
     "sylius/inventory": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "sylius/resource", "v1.9.1" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
     "sylius/locale": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "laminas/laminas-stdlib", "3.4.0" ],
         [ "sylius/resource", "v1.9.1" ],
         [ "symfony/intl", "v5.4.15" ]
       ]
     },
     "sylius/order": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "laminas/laminas-stdlib", "3.4.0" ],
         [ "sylius/resource", "v1.9.1" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
     "sylius/payment": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource", "v1.9.1" ]
       ]
     },
     "sylius/product": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "behat/transliterator", "v1.5.0" ],
-        [ "sylius/attribute", "v1.11.9" ],
+        [ "sylius/attribute", "v1.12.0" ],
         [ "sylius/resource", "v1.9.1" ],
         [ "symfony/polyfill-iconv", "v1.26.0" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
     "sylius/promotion": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "doctrine/orm", "2.13.3" ],
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource", "v1.9.1" ]
@@ -336,33 +342,34 @@
       ]
     },
     "sylius/review": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "doctrine/collections", "1.8.0" ],
         [ "sylius/resource", "v1.9.1" ]
       ]
     },
     "sylius/shipping": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource", "v1.9.1" ],
         [ "symfony/options-resolver", "v5.4.11" ]
       ]
     },
     "sylius/taxation": {
-      "v1.11.9": [
+      "v1.12.0": [
+        [ "sylius/calendar", "v0.3.0" ],
         [ "sylius/registry", "v1.6.0" ],
         [ "sylius/resource", "v1.9.1" ]
       ]
     },
     "sylius/taxonomy": {
-      "v1.11.9": [
+      "v1.12.0": [
         [ "behat/transliterator", "v1.5.0" ],
         [ "sylius/resource", "v1.9.1" ],
         [ "webmozart/assert", "1.11.0" ]
       ]
     },
     "sylius/user": {
-      "v1.11.9": [
+      "v1.11.10": [
         [ "doctrine/collections", "1.8.0" ],
         [ "sylius-labs/polyfill-symfony-security", "v1.0.0" ],
         [ "sylius/resource", "v1.9.1" ],
@@ -385,6 +392,15 @@
     "symfony/cache-contracts": {
       "v2.5.2": [
         [ "psr/cache", "2.0.0" ]
+      ]
+    },
+    "symfony/config": {
+      "v5.4.11": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
+        [ "symfony/filesystem", "v5.4.13" ],
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/polyfill-php81", "v1.26.0" ]
       ]
     },
     "symfony/console": {
@@ -428,6 +444,13 @@
         [ "symfony/service-contracts", "v2.5.2" ]
       ]
     },
+    "symfony/filesystem": {
+      "v5.4.13": [
+        [ "symfony/polyfill-ctype", "v1.26.0" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
     "symfony/finder": {
       "v5.4.11": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
@@ -444,6 +467,21 @@
         [ "symfony/polyfill-php80", "v1.26.0" ],
         [ "symfony/property-access", "v4.4.44" ],
         [ "symfony/service-contracts", "v2.5.2" ]
+      ]
+    },
+    "symfony/framework-bundle": {
+      "v4.4.47": [
+        [ "symfony/cache", "v5.4.15" ],
+        [ "symfony/config", "v5.4.11" ],
+        [ "symfony/dependency-injection", "v5.4.13" ],
+        [ "symfony/error-handler", "v4.4.44" ],
+        [ "symfony/filesystem", "v5.4.13" ],
+        [ "symfony/finder", "v5.4.11" ],
+        [ "symfony/http-foundation", "v4.4.48" ],
+        [ "symfony/http-kernel", "v4.4.48" ],
+        [ "symfony/polyfill-mbstring", "v1.26.0" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ],
+        [ "symfony/routing", "v5.4.15" ]
       ]
     },
     "symfony/http-foundation": {
@@ -507,6 +545,12 @@
     "symfony/property-access": {
       "v4.4.44": [
         [ "symfony/inflector", "v5.4.11" ],
+        [ "symfony/polyfill-php80", "v1.26.0" ]
+      ]
+    },
+    "symfony/routing": {
+      "v5.4.15": [
+        [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/polyfill-php80", "v1.26.0" ]
       ]
     },
@@ -974,23 +1018,31 @@
       }
     },
     "sylius/addressing": {
-      "v1.11.9": {
-        "rev": "20745e3fe8d121a4422e19c8ff79030ad87bc159",
+      "v1.12.0": {
+        "rev": "c39dd0908f4253cf8f04662f75c2564c939ae5ae",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Addressing.git"
       }
     },
     "sylius/attribute": {
-      "v1.11.9": {
-        "rev": "96e9545459a099ac6b40874d4ddb66511cdf0110",
+      "v1.12.0": {
+        "rev": "0084c872996b17b46f63a80cf382d2d04ec60f66",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Attribute.git"
       }
     },
+    "sylius/calendar": {
+      "v0.3.0": {
+        "rev": "f83ec1870c6d08c26143ae5e1f271fa5385e47e8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Sylius/Calendar.git"
+      }
+    },
     "sylius/channel": {
-      "v1.11.9": {
+      "v1.11.10": {
         "rev": "2e963f5ac790e983c73617db506c40a45638cc52",
         "submodules": false,
         "type": "git",
@@ -1005,64 +1057,64 @@
       }
     },
     "sylius/currency": {
-      "v1.11.9": {
-        "rev": "8b3a685e558d38830e0552a1745075fad1132df9",
+      "v1.12.0": {
+        "rev": "d855850b72e0d2d5fa2d0e3a5d31bcd061d84c22",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Currency.git"
       }
     },
     "sylius/customer": {
-      "v1.11.9": {
-        "rev": "80d30cd98505b418b2c8993d43ea4fcdd4822c8e",
+      "v1.12.0": {
+        "rev": "8d615885dce2648ed6a8b2c6711f2aaa33a5dfb9",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Customer.git"
       }
     },
     "sylius/inventory": {
-      "v1.11.9": {
-        "rev": "453b18631c7c6359d983c2df0895998b9d57d4f1",
+      "v1.12.0": {
+        "rev": "19aa7e7998920e628bab40a266c94b564c316073",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Inventory.git"
       }
     },
     "sylius/locale": {
-      "v1.11.9": {
-        "rev": "1c110e541f6822807f0284c4fce86edda58fcd6c",
+      "v1.12.0": {
+        "rev": "4aff6a0e001244fc56862e81a0d98f039e37771c",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Locale.git"
       }
     },
     "sylius/order": {
-      "v1.11.9": {
-        "rev": "653991c13ff67579a515dc5b79b4596fb52fabf5",
+      "v1.12.0": {
+        "rev": "76d3ff5c467e75a71ff2ebf244a67385d4e39822",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Order.git"
       }
     },
     "sylius/payment": {
-      "v1.11.9": {
-        "rev": "2577aa881f7a954bd781db5b9612af86d1c19b0f",
+      "v1.12.0": {
+        "rev": "9c2a0106f92cb15aa078edd08a9dee19759d9131",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Payment.git"
       }
     },
     "sylius/product": {
-      "v1.11.9": {
-        "rev": "f064ad7e95fb758db052b9e34b1a7dd555a3f6ef",
+      "v1.12.0": {
+        "rev": "2c5a336285ad43cf1e6b05222805deea22b933ed",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Product.git"
       }
     },
     "sylius/promotion": {
-      "v1.11.9": {
-        "rev": "bfa9eee7de91e6782d8fb5c66175fcf67a770bf7",
+      "v1.12.0": {
+        "rev": "102536f3ecaa0d97739e8e1c9f04a5801c3d27ce",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Promotion.git"
@@ -1085,39 +1137,39 @@
       }
     },
     "sylius/review": {
-      "v1.11.9": {
-        "rev": "e95a1bd380ccad9b3cb604bb609c5a892c36dfdc",
+      "v1.12.0": {
+        "rev": "3802ed39bfc14951e5d60e4825e05ec1443c0de2",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Review.git"
       }
     },
     "sylius/shipping": {
-      "v1.11.9": {
-        "rev": "d1849f884de6f7085c0c6344c6961c94926e289e",
+      "v1.12.0": {
+        "rev": "587cb416c5295e4bd2323f2fcf915748108abc17",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Shipping.git"
       }
     },
     "sylius/taxation": {
-      "v1.11.9": {
-        "rev": "4a26ba95e3a7d631eb7af74f966765265f864309",
+      "v1.12.0": {
+        "rev": "804ae595b010ffaf7e6498bcbf53e642557beee8",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Taxation.git"
       }
     },
     "sylius/taxonomy": {
-      "v1.11.9": {
-        "rev": "68c56e2f95ca43cfe6bbca0e53ba47db122fea31",
+      "v1.12.0": {
+        "rev": "4d8ef28b8d1728204e14a8a4c066962b598a9d65",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Sylius/Taxonomy.git"
       }
     },
     "sylius/user": {
-      "v1.11.9": {
+      "v1.11.10": {
         "rev": "a4495873fbd8c276af9deb70fa21237eff8ec037",
         "submodules": false,
         "type": "git",
@@ -1138,6 +1190,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/cache-contracts.git"
+      }
+    },
+    "symfony/config": {
+      "v5.4.11": {
+        "rev": "ec79e03125c1d2477e43dde8528535d90cc78379",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/config.git"
       }
     },
     "symfony/console": {
@@ -1204,6 +1264,14 @@
         "url": "https://github.com/symfony/expression-language.git"
       }
     },
+    "symfony/filesystem": {
+      "v5.4.13": {
+        "rev": "ac09569844a9109a5966b9438fc29113ce77cf51",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
+      }
+    },
     "symfony/finder": {
       "v5.4.11": {
         "rev": "7872a66f57caffa2916a584db1aa7f12adc76f8c",
@@ -1218,6 +1286,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/form.git"
+      }
+    },
+    "symfony/framework-bundle": {
+      "v4.4.47": {
+        "rev": "5b8b76e374032b34475ccf8a90c8cef06f49441a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/framework-bundle.git"
       }
     },
     "symfony/http-client-contracts": {
@@ -1370,6 +1446,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/property-access.git"
+      }
+    },
+    "symfony/routing": {
+      "v5.4.15": {
+        "rev": "5c9b129efe9abce9470e384bf65d8a7e262eee69",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/routing.git"
       }
     },
     "symfony/security-core": {
