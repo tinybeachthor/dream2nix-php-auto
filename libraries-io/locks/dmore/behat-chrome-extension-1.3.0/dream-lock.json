@@ -65,7 +65,7 @@
       "2.8.1": [
         [ "behat/mink", "v1.10.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
-        [ "textalk/websocket", "1.5.8" ]
+        [ "textalk/websocket", "1.6.0" ]
       ]
     },
     "phpdocumentor/reflection-docblock": {
@@ -124,6 +124,18 @@
         [ "doctrine/instantiator", "1.4.1" ],
         [ "phpunit/php-text-template", "1.2.1" ],
         [ "sebastian/exporter", "2.0.0" ]
+      ]
+    },
+    "phrity/net-uri": {
+      "1.0.0": [
+        [ "phrity/util-errorhandler", "1.0.1" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
       ]
     },
     "sebastian/comparator": {
@@ -213,7 +225,10 @@
       ]
     },
     "textalk/websocket": {
-      "1.5.8": [
+      "1.6.0": [
+        [ "phrity/net-uri", "1.0.0" ],
+        [ "phrity/util-errorhandler", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
         [ "psr/log", "2.0.0" ]
       ]
     },
@@ -383,6 +398,22 @@
         "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
       }
     },
+    "phrity/net-uri": {
+      "1.0.0": {
+        "rev": "16f9e6266e67744189b1bed1f0294c85f791d32c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sirn-se/phrity-net-uri.git"
+      }
+    },
+    "phrity/util-errorhandler": {
+      "1.0.1": {
+        "rev": "dc9ac8fb70d733c48a9d9d1eb50f7022172da6bc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sirn-se/phrity-util-errorhandler.git"
+      }
+    },
     "psr/container": {
       "1.1.2": {
         "rev": "513e0666f7216c7459170d56df27dfcefe1689ea",
@@ -397,6 +428,22 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/php-fig/event-dispatcher.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
       }
     },
     "psr/log": {
@@ -648,8 +695,8 @@
       }
     },
     "textalk/websocket": {
-      "1.5.8": {
-        "rev": "d05dbaa97500176447ffb1f1800573f23085ab13",
+      "1.6.0": {
+        "rev": "fc1390a1d3373977877e4d35e1169d6a3678e683",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Textalk/websocket-php.git"

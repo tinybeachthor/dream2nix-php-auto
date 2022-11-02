@@ -141,7 +141,7 @@
       "2.8.1": [
         [ "friends-of-behat/mink", "v1.10.0" ],
         [ "symfony/polyfill-mbstring", "v1.26.0" ],
-        [ "textalk/websocket", "1.5.8" ]
+        [ "textalk/websocket", "1.6.0" ]
       ]
     },
     "doctrine/annotations": {
@@ -174,7 +174,7 @@
       ]
     },
     "doctrine/doctrine-bundle": {
-      "2.7.0": [
+      "2.7.1": [
         [ "doctrine/annotations", "1.13.3" ],
         [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/dbal", "2.13.9" ],
@@ -192,7 +192,7 @@
     },
     "doctrine/doctrine-migrations-bundle": {
       "3.2.2": [
-        [ "doctrine/doctrine-bundle", "2.7.0" ],
+        [ "doctrine/doctrine-bundle", "2.7.1" ],
         [ "doctrine/migrations", "3.4.2" ],
         [ "symfony/framework-bundle", "v5.4.4" ]
       ]
@@ -399,7 +399,7 @@
       "v5.2.0": [
         [ "coduo/php-matcher", "6.0.9" ],
         [ "doctrine/data-fixtures", "1.5.3" ],
-        [ "doctrine/doctrine-bundle", "2.7.0" ],
+        [ "doctrine/doctrine-bundle", "2.7.1" ],
         [ "doctrine/orm", "2.13.3" ],
         [ "nelmio/alice", "3.12.0" ],
         [ "openlss/lib-array2xml", "1.0.0" ],
@@ -656,6 +656,13 @@
         [ "symfony/polyfill-mbstring", "v1.26.0" ]
       ]
     },
+    "phrity/net-uri": {
+      "1.0.0": [
+        [ "phrity/util-errorhandler", "1.0.1" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
     "polishsymfonycommunity/symfony-mocker-container": {
       "v1.0.7": [
         [ "mockery/mockery", "1.5.1" ],
@@ -772,7 +779,7 @@
       ]
     },
     "stof/doctrine-extensions-bundle": {
-      "v1.7.0": [
+      "v1.7.1": [
         [ "gedmo/doctrine-extensions", "v3.9.0" ],
         [ "symfony/config", "v5.4.11" ],
         [ "symfony/dependency-injection", "v5.4.3" ],
@@ -877,7 +884,7 @@
       "v1.8.4": [
         [ "babdev/pagerfanta-bundle", "v2.11.0" ],
         [ "doctrine/collections", "1.8.0" ],
-        [ "doctrine/doctrine-bundle", "2.7.0" ],
+        [ "doctrine/doctrine-bundle", "2.7.1" ],
         [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/inflector", "2.0.6" ],
         [ "doctrine/persistence", "2.5.5" ],
@@ -911,7 +918,7 @@
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/data-fixtures", "1.5.3" ],
         [ "doctrine/dbal", "2.13.9" ],
-        [ "doctrine/doctrine-bundle", "2.7.0" ],
+        [ "doctrine/doctrine-bundle", "2.7.1" ],
         [ "doctrine/doctrine-migrations-bundle", "3.2.2" ],
         [ "doctrine/inflector", "2.0.6" ],
         [ "doctrine/migrations", "3.4.2" ],
@@ -957,7 +964,7 @@
         [ "ramsey/uuid", "3.9.6" ],
         [ "rector/rector", "0.12.20" ],
         [ "sonata-project/block-bundle", "4.19.0" ],
-        [ "stof/doctrine-extensions-bundle", "v1.7.0" ],
+        [ "stof/doctrine-extensions-bundle", "v1.7.1" ],
         [ "stripe/stripe-php", "v6.43.1" ],
         [ "swiftmailer/swiftmailer", "v6.3.0" ],
         [ "sylius-labs/association-hydrator", "v1.2.0" ],
@@ -1488,7 +1495,10 @@
       ]
     },
     "textalk/websocket": {
-      "1.5.8": [
+      "1.6.0": [
+        [ "phrity/net-uri", "1.0.0" ],
+        [ "phrity/util-errorhandler", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ],
         [ "psr/log", "2.0.0" ]
       ]
     },
@@ -1799,8 +1809,8 @@
       }
     },
     "doctrine/doctrine-bundle": {
-      "2.7.0": {
-        "rev": "d2088fc50494e4e7441fecca54732245a613eeb6",
+      "2.7.1": {
+        "rev": "a2dcad48741c9d12fd6040398cf075025030096e",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/DoctrineBundle.git"
@@ -2534,6 +2544,22 @@
         "url": "https://github.com/sebastianbergmann/phpunit.git"
       }
     },
+    "phrity/net-uri": {
+      "1.0.0": {
+        "rev": "16f9e6266e67744189b1bed1f0294c85f791d32c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sirn-se/phrity-net-uri.git"
+      }
+    },
+    "phrity/util-errorhandler": {
+      "1.0.1": {
+        "rev": "dc9ac8fb70d733c48a9d9d1eb50f7022172da6bc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sirn-se/phrity-util-errorhandler.git"
+      }
+    },
     "polishsymfonycommunity/symfony-mocker-container": {
       "v1.0.7": {
         "rev": "b4c78de14f116de4d7c0acee45c0e8ac0eaba81c",
@@ -2791,8 +2817,8 @@
       }
     },
     "stof/doctrine-extensions-bundle": {
-      "v1.7.0": {
-        "rev": "a2bffca41974d1c968557b343e269a60a8d5ffa4",
+      "v1.7.1": {
+        "rev": "fa650e60e174afa06c09e28a54fb1854af04c7fe",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/stof/StofDoctrineExtensionsBundle.git"
@@ -3510,8 +3536,8 @@
       }
     },
     "textalk/websocket": {
-      "1.5.8": {
-        "rev": "d05dbaa97500176447ffb1f1800573f23085ab13",
+      "1.6.0": {
+        "rev": "fc1390a1d3373977877e4d35e1169d6a3678e683",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/Textalk/websocket-php.git"
