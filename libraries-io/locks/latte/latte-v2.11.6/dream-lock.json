@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "latte/latte",
+    "location": "",
+    "packages": {
+      "latte/latte": "v2.11.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "tokenizer",
+      "session"
+    ],
+    "phpSemver": ">=7.1 <8.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "latte/latte": {
+      "v2.11.6": [
+        [ "nette/php-generator", "v3.6.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ],
+        [ "tracy/tracy", "v2.9.x-dev" ]
+      ]
+    },
+    "nette/php-generator": {
+      "v3.6.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "latte/latte": {
+      "v2.11.6": {
+        "rev": "af4dbb23a6044b1cf4904830a9b00246318c93d4",
+        "type": "git",
+        "url": "https://github.com/nette/latte.git"
+      }
+    },
+    "nette/php-generator": {
+      "v3.6.x-dev": {
+        "rev": "ba0cbff78421897e3cc79ef43e359090c90727ed",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/php-generator.git"
+      }
+    },
+    "nette/utils": {
+      "v3.2.x-dev": {
+        "rev": "d9a5ce7d828d255cde61f75de1f4ba71af076c18",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "tracy/tracy": {
+      "v2.9.x-dev": {
+        "rev": "9545cec3067f58a5f93482d334a41dcd0cd33859",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/tracy.git"
+      }
+    }
+  }
+}
