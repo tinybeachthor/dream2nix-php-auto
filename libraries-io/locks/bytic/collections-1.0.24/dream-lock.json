@@ -19,7 +19,6 @@
     "noDev": false,
     "phpExtensions": [
       "json",
-      "ctype",
       "tokenizer",
       "mbstring",
       "pcre",
@@ -31,7 +30,8 @@
       "filter",
       "xml",
       "libxml",
-      "simplexml"
+      "simplexml",
+      "ctype"
     ],
     "phpSemver": "^7.4|^8.0"
   },
@@ -78,7 +78,7 @@
       "1.0.64": [
         [ "league/iso3166", "3.0.0" ],
         [ "nesbot/carbon", "2.62.1" ],
-        [ "ramsey/uuid", "4.5.1" ],
+        [ "ramsey/uuid", "4.6.0" ],
         [ "voku/portable-ascii", "2.0.1" ]
       ]
     },
@@ -269,10 +269,9 @@
       ]
     },
     "ramsey/uuid": {
-      "4.5.1": [
+      "4.6.0": [
         [ "brick/math", "0.10.2" ],
-        [ "ramsey/collection", "1.2.2" ],
-        [ "symfony/polyfill-ctype", "v1.26.0" ]
+        [ "ramsey/collection", "1.2.2" ]
       ]
     },
     "sebastian/comparator": {
@@ -892,8 +891,8 @@
       }
     },
     "ramsey/uuid": {
-      "4.5.1": {
-        "rev": "a161a26d917604dc6d3aa25100fddf2556e9f35d",
+      "4.6.0": {
+        "rev": "ad63bc700e7d021039e30ce464eba384c4a1d40f",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/ramsey/uuid.git"
