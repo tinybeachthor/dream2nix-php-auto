@@ -16,190 +16,159 @@
     "phpExtensions": [],
     "phpSemver": ">=7.0"
   },
-  "cyclicDependencies": {
-    "n2n/n2n-io": {
-      "v7.2.38": [
-        [ "n2n/n2n-reflection", "v7.2.36" ]
-      ]
-    },
-    "n2n/n2n-util": {
-      "v7.2.36": [
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ]
-      ]
-    }
-  },
+  "cyclicDependencies": {},
   "dependencies": {
-    "n2n/hangar-api": {
-      "v1.0.6": [
-        [ "n2n/n2n-persistence", "v7.2.36" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ],
-        [ "n2n/n2n-web", "v7.2.39" ],
-        [ "n2n/phpbob", "v1.0.7" ]
-      ]
-    },
     "n2n/n2n": {
-      "v7.2.36": [
+      "v7.3.0": [
         [ "n2n/n2n-composer-module-installer", "v7.1.5" ],
-        [ "n2n/n2n-config", "v7.2.36" ],
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-l10n", "v7.2.36" ],
-        [ "n2n/n2n-log4php", "v7.2.36" ],
-        [ "n2n/n2n-mail", "v7.2.37" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+        [ "n2n/n2n-config", "v7.3.0" ],
+        [ "n2n/n2n-context", "v7.3.0" ],
+        [ "n2n/n2n-l10n", "v7.3.0" ],
+        [ "n2n/n2n-log4php", "v7.3.0" ],
+        [ "n2n/n2n-mail", "v7.3.0" ],
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-batch": {
-      "v7.2.36": [
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-config": {
-      "v7.2.36": [
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-context": {
-      "v7.2.36": [
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-impl-persistence-meta": {
-      "v7.2.36": [
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-l10n", "v7.2.36" ],
-        [ "n2n/n2n-persistence", "v7.2.36" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-io", "v7.3.0" ],
+        [ "n2n/n2n-l10n", "v7.3.0" ],
+        [ "n2n/n2n-persistence", "v7.3.0" ],
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-impl-persistence-orm": {
-      "v7.2.36": [
-        [ "n2n/hangar-api", "v1.0.6" ],
+      "v7.3.0": [
         [ "n2n/n2n-composer-module-installer", "v7.1.5" ],
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-l10n", "v7.2.36" ],
-        [ "n2n/n2n-persistence", "v7.2.36" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+        [ "n2n/n2n-io", "v7.3.0" ],
+        [ "n2n/n2n-l10n", "v7.3.0" ],
+        [ "n2n/n2n-persistence", "v7.3.0" ],
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-impl-web-dispatch": {
-      "v7.2.37": [
+      "v7.3.0": [
         [ "n2n/n2n-composer-module-installer", "v7.1.5" ],
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-l10n", "v7.2.36" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ],
-        [ "n2n/n2n-web", "v7.2.39" ]
+        [ "n2n/n2n-io", "v7.3.0" ],
+        [ "n2n/n2n-l10n", "v7.3.0" ],
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ],
+        [ "n2n/n2n-web", "v7.3.0" ]
       ]
     },
     "n2n/n2n-impl-web-ui": {
-      "v7.2.39": [
+      "v7.3.0": [
         [ "n2n/n2n-composer-module-installer", "v7.1.5" ],
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-l10n", "v7.2.36" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ],
-        [ "n2n/n2n-web", "v7.2.39" ]
+        [ "n2n/n2n-io", "v7.3.0" ],
+        [ "n2n/n2n-l10n", "v7.3.0" ],
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-web", "v7.3.0" ]
       ]
     },
     "n2n/n2n-io": {
-      "v7.2.38": [
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-l10n": {
-      "v7.2.36": [
-        [ "n2n/n2n-reflection", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-mail": {
-      "v7.2.37": [
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-persistence": {
-      "v7.2.36": [
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-io", "v7.3.0" ],
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-reflection": {
-      "v7.2.36": [
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-util": {
-      "v7.2.36": [
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ]
+      "v7.3.0": [
+        [ "psr/container", "2.0.2" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ]
       ]
     },
     "n2n/n2n-validation": {
-      "v7.2.36": [
-        [ "n2n/n2n-l10n", "v7.2.36" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n-l10n", "v7.3.0" ],
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ]
       ]
     },
     "n2n/n2n-web": {
-      "v7.2.39": [
-        [ "n2n/n2n-context", "v7.2.36" ],
-        [ "n2n/n2n-io", "v7.2.38" ],
-        [ "n2n/n2n-l10n", "v7.2.36" ],
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
-      ]
-    },
-    "n2n/phpbob": {
-      "v1.0.7": [
-        [ "n2n/n2n-reflection", "v7.2.36" ],
-        [ "n2n/n2n-util", "v7.2.36" ]
+      "v7.3.0": [
+        [ "n2n/n2n", "v7.3.0" ],
+        [ "n2n/n2n-context", "v7.3.0" ],
+        [ "n2n/n2n-l10n", "v7.3.0" ],
+        [ "n2n/n2n-reflection", "v7.3.0" ],
+        [ "n2n/n2n-util", "v7.3.0" ],
+        [ "psr/http-factory", "1.0.1" ],
+        [ "psr/http-message", "1.0.1" ]
       ]
     },
     "n2n/rocket": {
       "v2.0.22": [
-        [ "n2n/n2n", "v7.2.36" ],
-        [ "n2n/n2n-batch", "v7.2.36" ],
+        [ "n2n/n2n", "v7.3.0" ],
+        [ "n2n/n2n-batch", "v7.3.0" ],
         [ "n2n/n2n-composer-module-installer", "v7.1.5" ],
-        [ "n2n/n2n-context", "v7.2.36" ],
-        [ "n2n/n2n-impl-persistence-meta", "v7.2.36" ],
-        [ "n2n/n2n-impl-persistence-orm", "v7.2.36" ],
-        [ "n2n/n2n-impl-web-dispatch", "v7.2.37" ],
-        [ "n2n/n2n-impl-web-ui", "v7.2.39" ],
-        [ "n2n/n2n-validation", "v7.2.36" ]
+        [ "n2n/n2n-context", "v7.3.0" ],
+        [ "n2n/n2n-impl-persistence-meta", "v7.3.0" ],
+        [ "n2n/n2n-impl-persistence-orm", "v7.3.0" ],
+        [ "n2n/n2n-impl-web-dispatch", "v7.3.0" ],
+        [ "n2n/n2n-impl-web-ui", "v7.3.0" ],
+        [ "n2n/n2n-validation", "v7.3.0" ]
+      ]
+    },
+    "psr/http-factory": {
+      "1.0.1": [
+        [ "psr/http-message", "1.0.1" ]
       ]
     }
   },
   "sources": {
-    "n2n/hangar-api": {
-      "v1.0.6": {
-        "rev": "da1ce2697bf6af0a343decc9c21176c08ed1f54b",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/n2n/hangar-api.git"
-      }
-    },
     "n2n/n2n": {
-      "v7.2.36": {
-        "rev": "1a00d4065476283b577d48a9457a9f1e80334ce7",
+      "v7.3.0": {
+        "rev": "b28faa99ea46b395238f7640c8aad9f7bd31d76d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n.git"
       }
     },
     "n2n/n2n-batch": {
-      "v7.2.36": {
-        "rev": "cd45bd094904bbc76c633e96a5e2d63f1da789e2",
+      "v7.3.0": {
+        "rev": "c3950cd66001ec8681745962322b771b483678d6",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-batch.git"
@@ -214,131 +183,123 @@
       }
     },
     "n2n/n2n-config": {
-      "v7.2.36": {
-        "rev": "c93d55b89e849bbd7c63826024deed52d8bf180b",
+      "v7.3.0": {
+        "rev": "34e23403a0f27e91b5dd264eba60148c496f253e",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-config.git"
       }
     },
     "n2n/n2n-context": {
-      "v7.2.36": {
-        "rev": "2a78c179900565eab701694660924630b33ec958",
+      "v7.3.0": {
+        "rev": "edba74692234db9f898754bad51276be218b0d0f",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-context.git"
       }
     },
     "n2n/n2n-impl-persistence-meta": {
-      "v7.2.36": {
-        "rev": "27ca46c495414310fa530e1805ab200509602451",
+      "v7.3.0": {
+        "rev": "3823131e8adf6795263af72b3fb7deebffb928d8",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-impl-persistence-meta.git"
       }
     },
     "n2n/n2n-impl-persistence-orm": {
-      "v7.2.36": {
-        "rev": "c947894666a3ba4a3358b2096964b8011bfb18d3",
+      "v7.3.0": {
+        "rev": "77f011e6784e7b3de661985acd94ae69a88a0a0d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-impl-persistence-orm.git"
       }
     },
     "n2n/n2n-impl-web-dispatch": {
-      "v7.2.37": {
-        "rev": "0b297da2245062c40c6d1af0408bdac326baa3da",
+      "v7.3.0": {
+        "rev": "12354b9a490fe49ce73a69d25ba31b9fccd7014a",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-impl-web-dispatch.git"
       }
     },
     "n2n/n2n-impl-web-ui": {
-      "v7.2.39": {
-        "rev": "1234f80f99274c8ffe70d2b9e8ac7463a899c00e",
+      "v7.3.0": {
+        "rev": "49601c7f5040a4efd0980deec88fc80e92cb9051",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-impl-web-ui.git"
       }
     },
     "n2n/n2n-io": {
-      "v7.2.38": {
-        "rev": "f51aac7d377c1403989ebb72553c3b5fc2f6437e",
+      "v7.3.0": {
+        "rev": "0ea2d8906abad91db9d20afca2b8f8eb1d4ccd3c",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-io.git"
       }
     },
     "n2n/n2n-l10n": {
-      "v7.2.36": {
-        "rev": "9dbe66e8f7e6104d42cf1a5a8dc028bb11f0cc3c",
+      "v7.3.0": {
+        "rev": "d8c5611cc1bdfb7e59fa763abdbe78648b5334d3",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-l10n.git"
       }
     },
     "n2n/n2n-log4php": {
-      "v7.2.36": {
-        "rev": "3c9a896419a55649576a5f5e64267b3a40b83b26",
+      "v7.3.0": {
+        "rev": "67f04d42edac81b4c2e2adf401457a73c9138f53",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-log4php.git"
       }
     },
     "n2n/n2n-mail": {
-      "v7.2.37": {
-        "rev": "995cb099c9f61f08b32957f57678ed879c0e7190",
+      "v7.3.0": {
+        "rev": "6310fc1a1fc98758637dcc2d1b40ca964430abfc",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-mail.git"
       }
     },
     "n2n/n2n-persistence": {
-      "v7.2.36": {
-        "rev": "937c178bec18952532bf34919af7f5dc5851ee6a",
+      "v7.3.0": {
+        "rev": "3855d8a2cc7e122cc8736b43676615524528370d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-persistence.git"
       }
     },
     "n2n/n2n-reflection": {
-      "v7.2.36": {
-        "rev": "cfe45a9e8ad64c24f95faca3d8381de73ee489a1",
+      "v7.3.0": {
+        "rev": "7973500ae377cfbfedcbd95722873e58c377fb68",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-reflection.git"
       }
     },
     "n2n/n2n-util": {
-      "v7.2.36": {
-        "rev": "09257e9b3758fd52265effe03d9e98360460fc85",
+      "v7.3.0": {
+        "rev": "896222acb1d30b81053c9cc32207fe32c0c6ede6",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-util.git"
       }
     },
     "n2n/n2n-validation": {
-      "v7.2.36": {
-        "rev": "3c76d85362f06a39a0800d6e02bbc519cdf6fa4d",
+      "v7.3.0": {
+        "rev": "8d2417ad2eb6dd11acf2ea4e13309e01358ad8ee",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-validation.git"
       }
     },
     "n2n/n2n-web": {
-      "v7.2.39": {
-        "rev": "5f27d5d09c345084834e8f7fb097f1e17074632f",
+      "v7.3.0": {
+        "rev": "c993cd3838f6ee5cebd1fd6a646aadeb074f1a10",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/n2n/n2n-web.git"
-      }
-    },
-    "n2n/phpbob": {
-      "v1.0.7": {
-        "rev": "c0262eef1c8560dbd3951981d8ef749dd602997c",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/n2n/phpbob.git"
       }
     },
     "n2n/rocket": {
@@ -346,6 +307,30 @@
         "rev": "a9fb02ce76196c3d90089632c1ad4089d8d11728",
         "type": "git",
         "url": "https://github.com/n2n/rocket.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/http-factory": {
+      "1.0.1": {
+        "rev": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
       }
     }
   }
