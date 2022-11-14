@@ -13,6 +13,7 @@
     "noDev": false,
     "phpExtensions": [
       "json",
+      "ctype",
       "tokenizer",
       "dom",
       "phar",
@@ -20,8 +21,7 @@
       "libxml",
       "mbstring",
       "xml",
-      "simplexml",
-      "ctype"
+      "simplexml"
     ],
     "phpSemver": "^7.4|^8.0"
   },
@@ -82,7 +82,7 @@
         [ "getpop/definitions", "0.7.13" ],
         [ "getpop/field-query", "0.7.13" ],
         [ "getpop/migrate-component-model", "0.7.13" ],
-        [ "jrfnl/php-cast-to-type", "2.0.1" ],
+        [ "jrfnl/php-cast-to-type", "2.1.0" ],
         [ "league/pipeline", "1.0.0" ],
         [ "symfony/cache", "v5.4.15" ],
         [ "symfony/expression-language", "v5.4.14" ]
@@ -185,6 +185,11 @@
       "1.9.0": [
         [ "psr/http-message", "1.0.1" ],
         [ "ralouphie/getallheaders", "3.0.3" ]
+      ]
+    },
+    "jrfnl/php-cast-to-type": {
+      "2.1.0": [
+        [ "symfony/polyfill-ctype", "v1.27.0" ]
       ]
     },
     "nette/finder": {
@@ -849,8 +854,8 @@
       }
     },
     "jrfnl/php-cast-to-type": {
-      "2.0.1": {
-        "rev": "0e4266d32387f34d13dfbb50506b1f8ce82172fb",
+      "2.1.0": {
+        "rev": "3c529d9213d05c6ed5da5d688efb1c17f9a3a868",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/jrfnl/PHP-cast-to-type.git"
