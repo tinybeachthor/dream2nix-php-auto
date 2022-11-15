@@ -1,0 +1,90 @@
+{
+  "_generic": {
+    "defaultPackage": "web-token/jwt-signature-algorithm-eddsa",
+    "location": "",
+    "packages": {
+      "web-token/jwt-signature-algorithm-eddsa": "v3.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "sodium",
+      "json",
+      "mbstring"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "web-token/jwt-core": {
+      "3.1.2": [
+        [ "brick/math", "0.10.2" ],
+        [ "fgrosse/phpasn1", "v2.4.0" ],
+        [ "paragonie/constant_time_encoding", "v2.6.3" ]
+      ]
+    },
+    "web-token/jwt-signature": {
+      "3.1.2": [
+        [ "web-token/jwt-core", "3.1.2" ]
+      ]
+    },
+    "web-token/jwt-signature-algorithm-eddsa": {
+      "v3.0.1": [
+        [ "web-token/jwt-signature", "3.1.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "brick/math": {
+      "0.10.2": {
+        "rev": "459f2781e1a08d52ee56b0b1444086e038561e3f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/brick/math.git"
+      }
+    },
+    "fgrosse/phpasn1": {
+      "v2.4.0": {
+        "rev": "eef488991d53e58e60c9554b09b1201ca5ba9296",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/fgrosse/PHPASN1.git"
+      }
+    },
+    "paragonie/constant_time_encoding": {
+      "v2.6.3": {
+        "rev": "58c3f47f650c94ec05a151692652a868995d2938",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/paragonie/constant_time_encoding.git"
+      }
+    },
+    "web-token/jwt-core": {
+      "3.1.2": {
+        "rev": "4d956e786a4e35d54c74787ebff840a0311c5e83",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/web-token/jwt-core.git"
+      }
+    },
+    "web-token/jwt-signature": {
+      "3.1.2": {
+        "rev": "53dd6c8ad7b2d679721fe0d5b2b0b88c68c3dbce",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/web-token/jwt-signature.git"
+      }
+    },
+    "web-token/jwt-signature-algorithm-eddsa": {
+      "v3.0.1": {
+        "rev": "7dcdc5b98a7b0dbee4d75b29131be897c7594bcb",
+        "type": "git",
+        "url": "https://github.com/web-token/jwt-signature-algorithm-eddsa.git"
+      }
+    }
+  }
+}
