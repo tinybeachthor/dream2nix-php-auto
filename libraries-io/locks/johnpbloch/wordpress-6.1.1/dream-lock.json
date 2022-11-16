@@ -1,0 +1,55 @@
+{
+  "_generic": {
+    "defaultPackage": "johnpbloch/wordpress",
+    "location": "",
+    "packages": {
+      "johnpbloch/wordpress": "6.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "johnpbloch/wordpress-core-installer@2.0.0": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "json"
+    ],
+    "phpSemver": ">=5.6.20"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "johnpbloch/wordpress": {
+      "6.1.1": [
+        [ "johnpbloch/wordpress-core", "6.1.1" ],
+        [ "johnpbloch/wordpress-core-installer", "2.0.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "johnpbloch/wordpress": {
+      "6.1.1": {
+        "rev": "d9ee7d6193781c9ee6288be6ca5681ee0c3f85b8",
+        "type": "git",
+        "url": "https://github.com/johnpbloch/wordpress.git"
+      }
+    },
+    "johnpbloch/wordpress-core": {
+      "6.1.1": {
+        "rev": "c9688597721b8579f3c29028e572a7b9753db893",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/johnpbloch/wordpress-core.git"
+      }
+    },
+    "johnpbloch/wordpress-core-installer": {
+      "2.0.0": {
+        "rev": "237faae9a60a4a2e1d45dce1a5836ffa616de63e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/johnpbloch/wordpress-core-installer.git"
+      }
+    }
+  }
+}
