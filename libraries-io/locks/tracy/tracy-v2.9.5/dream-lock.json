@@ -1,0 +1,125 @@
+{
+  "_generic": {
+    "defaultPackage": "tracy/tracy",
+    "location": "",
+    "packages": {
+      "tracy/tracy": "v2.9.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "session",
+      "tokenizer",
+      "iconv"
+    ],
+    "phpSemver": ">=7.2 <8.3"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "nette/di": {
+      "v3.1.x-dev": [
+        [ "nette/robot-loader", "v3.4.x-dev" ],
+        [ "nette/schema", "v1.2.x-dev" ]
+      ]
+    },
+    "nette/finder": {
+      "v2.6.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/mail": {
+      "v3.1.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": [
+        [ "nette/finder", "v2.6.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "nette/schema": {
+      "v1.2.x-dev": [
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    },
+    "tracy/tracy": {
+      "v2.9.5": [
+        [ "latte/latte", "v2.11.x-dev" ],
+        [ "nette/di", "v3.1.x-dev" ],
+        [ "nette/mail", "v3.1.x-dev" ],
+        [ "nette/utils", "v3.2.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "latte/latte": {
+      "v2.11.x-dev": {
+        "rev": "af4dbb23a6044b1cf4904830a9b00246318c93d4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/latte.git"
+      }
+    },
+    "nette/di": {
+      "v3.1.x-dev": {
+        "rev": "9568c2f62dc0cfe9dcefa0f9ace802946a17d4db",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/di.git"
+      }
+    },
+    "nette/finder": {
+      "v2.6.x-dev": {
+        "rev": "991aefb42860abeab8e003970c3809a9d83cb932",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/finder.git"
+      }
+    },
+    "nette/mail": {
+      "v3.1.x-dev": {
+        "rev": "345b572c1faf8bc88160b1b8be75cc88bbc35b5d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/mail.git"
+      }
+    },
+    "nette/robot-loader": {
+      "v3.4.x-dev": {
+        "rev": "42d7353884557066211f91f73590e1f8d6ed452a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/robot-loader.git"
+      }
+    },
+    "nette/schema": {
+      "v1.2.x-dev": {
+        "rev": "abbdbb70e0245d5f3bf77874cea1dfb0c930d06f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/schema.git"
+      }
+    },
+    "nette/utils": {
+      "v3.2.x-dev": {
+        "rev": "d9a5ce7d828d255cde61f75de1f4ba71af076c18",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nette/utils.git"
+      }
+    },
+    "tracy/tracy": {
+      "v2.9.5": {
+        "rev": "89936aa9fc428e14736c637ad535bcce6ddc6382",
+        "type": "git",
+        "url": "https://github.com/nette/tracy.git"
+      }
+    }
+  }
+}
