@@ -1,0 +1,408 @@
+{
+  "_generic": {
+    "defaultPackage": "decodelabs/phpstan-decodelabs",
+    "location": "",
+    "packages": {
+      "decodelabs/phpstan-decodelabs": "v0.6.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "intl"
+    ],
+    "phpSemver": "^8.0"
+  },
+  "cyclicDependencies": {
+    "decodelabs/exceptional": {
+      "v0.4.3": [
+        [ "decodelabs/coercion", "v0.2.6" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "decodelabs/archetype": {
+      "v0.2.10": [
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ],
+        [ "decodelabs/veneer", "v0.10.14" ]
+      ]
+    },
+    "decodelabs/coercion": {
+      "v0.2.6": [
+        [ "decodelabs/exceptional", "v0.4.3" ]
+      ]
+    },
+    "decodelabs/collections": {
+      "v0.8.1": [
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/fluidity", "v0.3.3" ],
+        [ "decodelabs/lucid-support", "v0.2.1" ]
+      ]
+    },
+    "decodelabs/deliverance": {
+      "v0.2.7": [
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ],
+        [ "decodelabs/tightrope", "v0.1.1" ],
+        [ "decodelabs/veneer", "v0.10.14" ],
+        [ "psr/http-message", "1.0.1" ]
+      ]
+    },
+    "decodelabs/dictum": {
+      "v0.4.4": [
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/fluidity", "v0.3.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ],
+        [ "decodelabs/veneer", "v0.10.14" ],
+        [ "symfony/polyfill-mbstring", "v1.27.0" ]
+      ]
+    },
+    "decodelabs/elementary": {
+      "v0.2.2": [
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/collections", "v0.8.1" ],
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ]
+      ]
+    },
+    "decodelabs/exceptional": {
+      "v0.4.3": [
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ],
+        [ "symfony/polyfill-mbstring", "v1.27.0" ]
+      ]
+    },
+    "decodelabs/exemplar": {
+      "v0.3.4": [
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/collections", "v0.8.1" ],
+        [ "decodelabs/elementary", "v0.2.2" ],
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ]
+      ]
+    },
+    "decodelabs/lucid": {
+      "v0.3.7": [
+        [ "decodelabs/archetype", "v0.2.10" ],
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/dictum", "v0.4.4" ],
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/lucid-support", "v0.2.1" ],
+        [ "decodelabs/veneer", "v0.10.14" ],
+        [ "nesbot/carbon", "2.63.0" ]
+      ]
+    },
+    "decodelabs/lucid-support": {
+      "v0.2.1": [
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/exceptional", "v0.4.3" ]
+      ]
+    },
+    "decodelabs/metamorph": {
+      "v0.5.0": [
+        [ "decodelabs/archetype", "v0.2.10" ],
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ],
+        [ "decodelabs/tagged", "v0.14.5" ],
+        [ "symfony/polyfill-mbstring", "v1.27.0" ]
+      ]
+    },
+    "decodelabs/phpstan-decodelabs": {
+      "v0.6.5": [
+        [ "decodelabs/exemplar", "v0.3.4" ],
+        [ "decodelabs/lucid", "v0.3.7" ],
+        [ "decodelabs/metamorph", "v0.5.0" ],
+        [ "decodelabs/tagged", "v0.14.5" ],
+        [ "decodelabs/terminus", "v0.9.4" ],
+        [ "phpstan/phpstan", "1.9.2" ]
+      ]
+    },
+    "decodelabs/systemic": {
+      "v0.10.2": [
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/deliverance", "v0.2.7" ],
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/fluidity", "v0.3.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ],
+        [ "decodelabs/veneer", "v0.10.14" ],
+        [ "symfony/polyfill-mbstring", "v1.27.0" ]
+      ]
+    },
+    "decodelabs/tagged": {
+      "v0.14.5": [
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/collections", "v0.8.1" ],
+        [ "decodelabs/dictum", "v0.4.4" ],
+        [ "decodelabs/elementary", "v0.2.2" ],
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ],
+        [ "decodelabs/veneer", "v0.10.14" ],
+        [ "symfony/polyfill-mbstring", "v1.27.0" ]
+      ]
+    },
+    "decodelabs/terminus": {
+      "v0.9.4": [
+        [ "decodelabs/coercion", "v0.2.6" ],
+        [ "decodelabs/deliverance", "v0.2.7" ],
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ],
+        [ "decodelabs/systemic", "v0.10.2" ],
+        [ "decodelabs/tightrope", "v0.1.1" ],
+        [ "decodelabs/veneer", "v0.10.14" ],
+        [ "psr/log", "3.0.0" ]
+      ]
+    },
+    "decodelabs/veneer": {
+      "v0.10.14": [
+        [ "decodelabs/exceptional", "v0.4.3" ],
+        [ "decodelabs/glitch-support", "v0.4.3" ],
+        [ "psr/container", "2.0.2" ]
+      ]
+    },
+    "nesbot/carbon": {
+      "2.63.0": [
+        [ "symfony/polyfill-mbstring", "v1.27.0" ],
+        [ "symfony/polyfill-php80", "v1.27.0" ],
+        [ "symfony/translation", "v6.1.6" ]
+      ]
+    },
+    "symfony/translation": {
+      "v6.1.6": [
+        [ "symfony/polyfill-mbstring", "v1.27.0" ],
+        [ "symfony/translation-contracts", "v3.1.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "decodelabs/archetype": {
+      "v0.2.10": {
+        "rev": "2b3b42fac9a818c9afc12ea650eec3bcb0525d99",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/archetype.git"
+      }
+    },
+    "decodelabs/coercion": {
+      "v0.2.6": {
+        "rev": "5a49e8de89179c3b385d81bc6933486857f23cbf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/coercion.git"
+      }
+    },
+    "decodelabs/collections": {
+      "v0.8.1": {
+        "rev": "1dbe06076d0b29500bbeb0b38f6ad1e734b6d540",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/collections.git"
+      }
+    },
+    "decodelabs/deliverance": {
+      "v0.2.7": {
+        "rev": "f7b698595deaf663eed845a5a093fa1536135970",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/deliverance.git"
+      }
+    },
+    "decodelabs/dictum": {
+      "v0.4.4": {
+        "rev": "ba2a77835a62bc324aee4a4133f5e4fcd409a71f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/dictum.git"
+      }
+    },
+    "decodelabs/elementary": {
+      "v0.2.2": {
+        "rev": "69ee7a926d5b5ade427bf769803e629febc05fd1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/elementary.git"
+      }
+    },
+    "decodelabs/exceptional": {
+      "v0.4.3": {
+        "rev": "78162bc4cc4485d916535683eec53fde2cab9329",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/exceptional.git"
+      }
+    },
+    "decodelabs/exemplar": {
+      "v0.3.4": {
+        "rev": "aa01fc0672d2085ac1b523ede9779d62f8def88e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/exemplar.git"
+      }
+    },
+    "decodelabs/fluidity": {
+      "v0.3.3": {
+        "rev": "8fff32e72db86f3fc9bacd108ad1fc9fa86ae285",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/fluidity.git"
+      }
+    },
+    "decodelabs/glitch-support": {
+      "v0.4.3": {
+        "rev": "7ad12042ec4396f8df3a055b9bfbd30b714a0460",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/glitch-support.git"
+      }
+    },
+    "decodelabs/lucid": {
+      "v0.3.7": {
+        "rev": "0ff4fa8cd72d764e4f9926acaa6942f3eef7615c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/lucid.git"
+      }
+    },
+    "decodelabs/lucid-support": {
+      "v0.2.1": {
+        "rev": "d84a63c5471a03bafab71ad838bf323776e14cf7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/lucid-support.git"
+      }
+    },
+    "decodelabs/metamorph": {
+      "v0.5.0": {
+        "rev": "a57ec543bcd355b54bfbb3c41f965db8918fda69",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/metamorph.git"
+      }
+    },
+    "decodelabs/phpstan-decodelabs": {
+      "v0.6.5": {
+        "rev": "049d0163854a8503aa46972c51f93397ed9939e2",
+        "type": "git",
+        "url": "https://github.com/decodelabs/phpstan-decodelabs.git"
+      }
+    },
+    "decodelabs/systemic": {
+      "v0.10.2": {
+        "rev": "b62c7a98e02df156e255410991fa8d18a33bc672",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/systemic.git"
+      }
+    },
+    "decodelabs/tagged": {
+      "v0.14.5": {
+        "rev": "a7c556111326476b027f24dc56ce384d6e3241c3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/tagged.git"
+      }
+    },
+    "decodelabs/terminus": {
+      "v0.9.4": {
+        "rev": "78bed252d16046c7399fd6b10e835d2a5076f51a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/terminus.git"
+      }
+    },
+    "decodelabs/tightrope": {
+      "v0.1.1": {
+        "rev": "e25fd7f772639a461939f387e964d149a69c46b0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/tightrope.git"
+      }
+    },
+    "decodelabs/veneer": {
+      "v0.10.14": {
+        "rev": "fc0530708f71022d48c64f787a6b11d261df7b21",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/decodelabs/veneer.git"
+      }
+    },
+    "nesbot/carbon": {
+      "2.63.0": {
+        "rev": "ad35dd71a6a212b98e4b87e97389b6fa85f0e347",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/briannesbitt/Carbon.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "1.9.2": {
+        "rev": "d6fdf01c53978b6429f1393ba4afeca39cc68afa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "psr/container": {
+      "2.0.2": {
+        "rev": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git"
+      }
+    },
+    "psr/http-message": {
+      "1.0.1": {
+        "rev": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git"
+      }
+    },
+    "psr/log": {
+      "3.0.0": {
+        "rev": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "v1.27.0": {
+        "rev": "8ad114f6b39e2c98a8b0e3bd907732c207c2b534",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    },
+    "symfony/polyfill-php80": {
+      "v1.27.0": {
+        "rev": "7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git"
+      }
+    },
+    "symfony/translation": {
+      "v6.1.6": {
+        "rev": "e6cd330e5a072518f88d65148f3f165541807494",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation.git"
+      }
+    },
+    "symfony/translation-contracts": {
+      "v3.1.1": {
+        "rev": "606be0f48e05116baef052f7f3abdb345c8e02cc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/translation-contracts.git"
+      }
+    }
+  }
+}

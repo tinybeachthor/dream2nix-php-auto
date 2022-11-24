@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "workerman/phpsocket.io",
+    "location": "",
+    "packages": {
+      "workerman/phpsocket.io": "v1.1.15"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "workerman/channel": {
+      "v1.1.0": [
+        [ "workerman/workerman", "v4.1.4" ]
+      ]
+    },
+    "workerman/phpsocket.io": {
+      "v1.1.15": [
+        [ "workerman/channel", "v1.1.0" ],
+        [ "workerman/workerman", "v4.1.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "workerman/channel": {
+      "v1.1.0": {
+        "rev": "3df772d0d20d4cebfcfd621c33d1a1ab732db523",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/walkor/channel.git"
+      }
+    },
+    "workerman/phpsocket.io": {
+      "v1.1.15": {
+        "rev": "2c8bce9091bbef99e4122454973fbeb393e86c80",
+        "type": "git",
+        "url": "https://github.com/walkor/phpsocket.io.git"
+      }
+    },
+    "workerman/workerman": {
+      "v4.1.4": {
+        "rev": "83e007acf936e2233ac92d7368b87716f2bae338",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/walkor/workerman.git"
+      }
+    }
+  }
+}
