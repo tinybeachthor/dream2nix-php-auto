@@ -1,0 +1,112 @@
+{
+  "_generic": {
+    "defaultPackage": "oat-sa/extension-tao-itemqti",
+    "location": "",
+    "packages": {
+      "oat-sa/extension-tao-itemqti": "v29.17.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "composer/package-versions-deprecated@dev-master": "^1.1.0 || ^2.0",
+      "oat-sa/composer-npm-bridge@v0.4.4": "^1.0 || ^2.0",
+      "oat-sa/oatbox-extension-installer@v1.2": "^1.0 || ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "simplexml",
+      "json",
+      "tokenizer",
+      "pdo",
+      "dom",
+      "mbstring",
+      "pcre",
+      "xmlreader",
+      "fileinfo",
+      "filter",
+      "libxml",
+      "ctype"
+    ],
+    "phpSemver": "*"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "oat-sa/extension-tao-itemqti": {
+      "v29.17.0": [
+        [ "naneau/semver", "0.0.7" ],
+        [ "oat-sa/lib-tao-qti", "v7.8.1" ],
+        [ "oat-sa/oatbox-extension-installer", "v1.2" ]
+      ]
+    },
+    "oat-sa/lib-tao-qti": {
+      "v7.8.1": [
+        [ "qtism/qtism", "0.28.3" ]
+      ]
+    },
+    "qtism/qtism": {
+      "0.28.3": [
+        [ "oat-sa/lib-beeme", "0.2.0" ],
+        [ "oat-sa/lib-tao-dtms", "v1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "naneau/semver": {
+      "0.0.7": {
+        "rev": "60ea59641aad840f97f3c9057e2f2b7bc087eaa3",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/naneau/semver.git"
+      }
+    },
+    "oat-sa/extension-tao-itemqti": {
+      "v29.17.0": {
+        "rev": "90c3a879704a4a12d50708e5029cf25847ccd3d9",
+        "type": "git",
+        "url": "https://github.com/oat-sa/extension-tao-itemqti.git"
+      }
+    },
+    "oat-sa/lib-beeme": {
+      "0.2.0": {
+        "rev": "a93c6a8887591ed13af6b07215784fdea85458e5",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/lib-beeme.git"
+      }
+    },
+    "oat-sa/lib-tao-dtms": {
+      "v1.0.2": {
+        "rev": "08d9d4efd86246c692e480b44496ba7f64129e0f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/lib-tao-dtms.git"
+      }
+    },
+    "oat-sa/lib-tao-qti": {
+      "v7.8.1": {
+        "rev": "714e0db59f04ac03adee045843dc59c020cca186",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/lib-tao-qti.git"
+      }
+    },
+    "oat-sa/oatbox-extension-installer": {
+      "v1.2": {
+        "rev": "db5e03f1d5dcffbe608f2840974331e54f0f8fc8",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/oatbox-extension-installer.git"
+      }
+    },
+    "qtism/qtism": {
+      "0.28.3": {
+        "rev": "aa9cba8417736d9908293548457edc1ab85b7bbf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/oat-sa/qti-sdk.git"
+      }
+    }
+  }
+}
