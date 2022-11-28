@@ -1,0 +1,99 @@
+{
+  "_generic": {
+    "defaultPackage": "faithgen/sdk",
+    "location": "",
+    "packages": {
+      "faithgen/sdk": "v3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "pcre",
+      "simplexml",
+      "fileinfo",
+      "mbstring",
+      "openssl",
+      "date",
+      "hash",
+      "spl",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "filter",
+      "tokenizer",
+      "xml"
+    ],
+    "phpSemver": "^7.4"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "faithgen/sdk": {
+      "v3.0.0": [
+        [ "crazybooot/base64-validation", "1.0.5" ],
+        [ "intervention/image", "2.5.1" ],
+        [ "nunomaduro/collision", "v4.2.0" ]
+      ]
+    },
+    "nunomaduro/collision": {
+      "v4.2.0": [
+        [ "facade/ignition-contracts", "1.0.0" ],
+        [ "filp/whoops", "2.7.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "crazybooot/base64-validation": {
+      "1.0.5": {
+        "rev": "c5d00aac597acf0e15e4c1238f476f5a72a4110d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/crazybooot/base64-validation.git"
+      }
+    },
+    "facade/ignition-contracts": {
+      "1.0.0": {
+        "rev": "f445db0fb86f48e205787b2592840dd9c80ded28",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/facade/ignition-contracts.git"
+      }
+    },
+    "faithgen/sdk": {
+      "v3.0.0": {
+        "rev": "1fed698d5fbdb7df706adf868bcdc2b790c6f430",
+        "type": "git",
+        "url": "https://github.com/faithgen/laravel-sdk.git"
+      }
+    },
+    "filp/whoops": {
+      "2.7.1": {
+        "rev": "fff6f1e4f36be0e0d0b84d66b413d9dcb0c49130",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/filp/whoops.git"
+      }
+    },
+    "intervention/image": {
+      "2.5.1": {
+        "rev": "abbf18d5ab8367f96b3205ca3c89fb2fa598c69e",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Intervention/image.git"
+      }
+    },
+    "nunomaduro/collision": {
+      "v4.2.0": {
+        "rev": "d50490417eded97be300a92cd7df7badc37a9018",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/nunomaduro/collision.git"
+      }
+    }
+  }
+}
