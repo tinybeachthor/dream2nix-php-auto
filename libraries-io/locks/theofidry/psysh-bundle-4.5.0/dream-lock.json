@@ -26,7 +26,7 @@
   "cyclicDependencies": {
     "friendsofphp/proxy-manager-lts": {
       "v1.0.13": [
-        [ "symfony/symfony", "v6.1.7" ]
+        [ "symfony/symfony", "v6.2.0" ]
       ]
     }
   },
@@ -40,7 +40,7 @@
     "friendsofphp/proxy-manager-lts": {
       "v1.0.13": [
         [ "laminas/laminas-code", "4.7.1" ],
-        [ "symfony/symfony", "v6.1.7" ]
+        [ "symfony/symfony", "v6.2.0" ]
       ]
     },
     "phar-io/manifest": {
@@ -89,7 +89,7 @@
     "psy/psysh": {
       "v0.11.9": [
         [ "nikic/php-parser", "v4.15.2" ],
-        [ "symfony/symfony", "v6.1.7" ]
+        [ "symfony/symfony", "v6.2.0" ]
       ]
     },
     "sebastian/comparator": {
@@ -139,11 +139,12 @@
       ]
     },
     "symfony/symfony": {
-      "v6.1.7": [
+      "v6.2.0": [
         [ "doctrine/event-manager", "2.0.0" ],
         [ "doctrine/persistence", "3.1.0" ],
         [ "friendsofphp/proxy-manager-lts", "v1.0.13" ],
         [ "psr/cache", "3.0.0" ],
+        [ "psr/clock", "1.0.0" ],
         [ "psr/container", "2.0.2" ],
         [ "psr/event-dispatcher", "1.0.0" ],
         [ "psr/link", "2.0.1" ],
@@ -163,7 +164,7 @@
       "4.5.0": [
         [ "phpunit/phpunit", "9.5.26" ],
         [ "psy/psysh", "v0.11.9" ],
-        [ "symfony/symfony", "v6.1.7" ]
+        [ "symfony/symfony", "v6.2.0" ]
       ]
     },
     "twig/twig": {
@@ -300,6 +301,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/clock": {
+      "1.0.0": {
+        "rev": "e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/clock.git"
       }
     },
     "psr/container": {
@@ -543,8 +552,8 @@
       }
     },
     "symfony/symfony": {
-      "v6.1.7": {
-        "rev": "d3fe8ab781dc99201ade81d50afc2b6654995419",
+      "v6.2.0": {
+        "rev": "eafb456f373677627db8a53d31d70daf13bc3cb6",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/symfony.git"
