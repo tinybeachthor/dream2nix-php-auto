@@ -1,0 +1,94 @@
+{
+  "_generic": {
+    "defaultPackage": "sebastianlenz/linkfield",
+    "location": "",
+    "packages": {
+      "sebastianlenz/linkfield": "2.1.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "craftcms/plugin-installer@1.5.7": "^1.0 || ^2.0",
+      "yiisoft/yii2-composer@dev-master": "^1.0 | ^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "openssl",
+      "pcre",
+      "bcmath",
+      "curl",
+      "dom",
+      "intl",
+      "json",
+      "mbstring",
+      "pdo",
+      "zip",
+      "libxml",
+      "filter",
+      "ctype",
+      "phar",
+      "xmlwriter",
+      "tokenizer",
+      "xml"
+    ],
+    "phpSemver": "^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "sebastianlenz/linkfield": {
+      "2.1.5": [
+        [ "craftcms/phpstan", "dev-main" ],
+        [ "sebastianlenz/craft-utils", "3.0.6" ],
+        [ "verbb/super-table", "3.0.5" ]
+      ]
+    },
+    "verbb/super-table": {
+      "3.0.5": [
+        [ "verbb/base", "2.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "craftcms/phpstan": {
+      "dev-main": {
+        "rev": "b61bba102b5ec8599406e6e29a28a20c915a6abc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/craftcms/phpstan.git"
+      }
+    },
+    "sebastianlenz/craft-utils": {
+      "3.0.6": {
+        "rev": "86403435fdfcab499edd1b363bafc46cf4c1fb4d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastian-lenz/craft-utils.git"
+      }
+    },
+    "sebastianlenz/linkfield": {
+      "2.1.5": {
+        "rev": "b82fb1a8f94861f08c8b119758606a2a2172aef9",
+        "type": "git",
+        "url": "https://github.com/sebastian-lenz/craft-linkfield.git"
+      }
+    },
+    "verbb/base": {
+      "2.0.1": {
+        "rev": "3a7c0b9c36d446d2765e467161c7d40aa41f1ae4",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/verbb/verbb-base.git"
+      }
+    },
+    "verbb/super-table": {
+      "3.0.5": {
+        "rev": "2569dfaff3f7be3d8857cf3ef508f0b74ec6ae0f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/verbb/super-table.git"
+      }
+    }
+  }
+}
