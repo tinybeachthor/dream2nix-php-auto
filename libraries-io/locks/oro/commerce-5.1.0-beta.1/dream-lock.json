@@ -11,7 +11,7 @@
   "_subsystem": {
     "composerPluginApiSemver": {
       "composer/package-versions-deprecated@1.11.99.5": "^1.1.0 || ^2.0",
-      "oro/platform@5.1.0-beta.1": "^2.1",
+      "oro/platform@5.1.0-beta.2": "^2.1",
       "symfony/flex@v2.2.0": "^2.1"
     },
     "noDev": false,
@@ -44,7 +44,7 @@
   },
   "cyclicDependencies": {
     "oro/customer-portal": {
-      "5.1.0-beta.1": [
+      "5.1.0-beta.2": [
         [ "oro/commerce", "5.1.0-beta.1" ]
       ]
     }
@@ -88,7 +88,7 @@
     },
     "cboden/ratchet": {
       "v0.4.4": [
-        [ "guzzlehttp/psr7", "1.8.5" ],
+        [ "guzzlehttp/psr7", "2.4.3" ],
         [ "ratchet/rfc6455", "v0.3.1" ],
         [ "react/event-loop", "v1.3.0" ],
         [ "react/socket", "v1.12.0" ],
@@ -323,15 +323,16 @@
       ]
     },
     "guzzlehttp/guzzle": {
-      "7.4.4": [
+      "7.4.5": [
         [ "guzzlehttp/promises", "1.5.2" ],
-        [ "guzzlehttp/psr7", "1.8.5" ],
+        [ "guzzlehttp/psr7", "2.4.3" ],
         [ "psr/http-client", "1.0.1" ],
         [ "symfony/deprecation-contracts", "v2.5.2" ]
       ]
     },
     "guzzlehttp/psr7": {
-      "1.8.5": [
+      "2.4.3": [
+        [ "psr/http-factory", "1.0.1" ],
         [ "psr/http-message", "1.0.1" ],
         [ "ralouphie/getallheaders", "3.0.3" ]
       ]
@@ -389,7 +390,7 @@
       "2.20.0": [
         [ "laminas/laminas-loader", "2.9.0" ],
         [ "laminas/laminas-mime", "2.11.0" ],
-        [ "laminas/laminas-stdlib", "3.15.0" ],
+        [ "laminas/laminas-stdlib", "3.16.0" ],
         [ "laminas/laminas-validator", "2.28.0" ],
         [ "symfony/polyfill-intl-idn", "v1.27.0" ],
         [ "symfony/polyfill-mbstring", "v1.27.0" ],
@@ -398,19 +399,19 @@
     },
     "laminas/laminas-mime": {
       "2.11.0": [
-        [ "laminas/laminas-stdlib", "3.15.0" ]
+        [ "laminas/laminas-stdlib", "3.16.0" ]
       ]
     },
     "laminas/laminas-servicemanager": {
       "3.19.0": [
-        [ "laminas/laminas-stdlib", "3.15.0" ],
+        [ "laminas/laminas-stdlib", "3.16.0" ],
         [ "psr/container", "1.1.2" ]
       ]
     },
     "laminas/laminas-validator": {
       "2.28.0": [
         [ "laminas/laminas-servicemanager", "3.19.0" ],
-        [ "laminas/laminas-stdlib", "3.15.0" ],
+        [ "laminas/laminas-stdlib", "3.16.0" ],
         [ "psr/http-message", "1.0.1" ]
       ]
     },
@@ -424,7 +425,7 @@
         [ "symfony/options-resolver", "v5.4.11" ],
         [ "symfony/polyfill-mbstring", "v1.27.0" ],
         [ "symfony/process", "v5.4.3" ],
-        [ "twig/twig", "v3.3.10" ]
+        [ "twig/twig", "v3.4.3" ]
       ]
     },
     "matomo/device-detector": {
@@ -478,8 +479,8 @@
       ]
     },
     "oro/calendar-bundle": {
-      "5.1.0-beta.1": [
-        [ "oro/platform", "5.1.0-beta.1" ]
+      "5.1.0-beta.2": [
+        [ "oro/platform", "5.1.0-beta.2" ]
       ]
     },
     "oro/commerce": {
@@ -494,11 +495,11 @@
         [ "friendsofphp/php-cs-fixer", "v3.4.0" ],
         [ "johnkary/phpunit-speedtrap", "v4.0.1" ],
         [ "nelmio/alice", "v3.9.0" ],
-        [ "oro/calendar-bundle", "5.1.0-beta.1" ],
-        [ "oro/customer-portal", "5.1.0-beta.1" ],
-        [ "oro/marketing", "5.1.0-beta.1" ],
-        [ "oro/platform", "5.1.0-beta.1" ],
-        [ "oro/platform-serialised-fields", "5.1.0-beta.1" ],
+        [ "oro/calendar-bundle", "5.1.0-beta.2" ],
+        [ "oro/customer-portal", "5.1.0-beta.2" ],
+        [ "oro/marketing", "5.1.0-beta.2" ],
+        [ "oro/platform", "5.1.0-beta.2" ],
+        [ "oro/platform-serialised-fields", "5.1.0-beta.2" ],
         [ "oro/twig-inspector", "1.0.3" ],
         [ "phpmd/phpmd", "2.11.1" ],
         [ "phpunit/phpunit", "9.5.13" ],
@@ -517,12 +518,12 @@
       ]
     },
     "oro/customer-portal": {
-      "5.1.0-beta.1": [
-        [ "oro/calendar-bundle", "5.1.0-beta.1" ],
+      "5.1.0-beta.2": [
+        [ "oro/calendar-bundle", "5.1.0-beta.2" ],
         [ "oro/commerce", "5.1.0-beta.1" ],
-        [ "oro/marketing", "5.1.0-beta.1" ],
-        [ "oro/platform", "5.1.0-beta.1" ],
-        [ "oro/platform-serialised-fields", "5.1.0-beta.1" ]
+        [ "oro/marketing", "5.1.0-beta.2" ],
+        [ "oro/platform", "5.1.0-beta.2" ],
+        [ "oro/platform-serialised-fields", "5.1.0-beta.2" ]
       ]
     },
     "oro/doctrine-extensions": {
@@ -531,12 +532,12 @@
       ]
     },
     "oro/marketing": {
-      "5.1.0-beta.1": [
-        [ "oro/platform", "5.1.0-beta.1" ]
+      "5.1.0-beta.2": [
+        [ "oro/platform", "5.1.0-beta.2" ]
       ]
     },
     "oro/platform": {
-      "5.1.0-beta.1": [
+      "5.1.0-beta.2": [
         [ "ass/xmlsecurity", "v1.1.1" ],
         [ "box/spout", "v3.3.0" ],
         [ "brick/math", "0.9.3" ],
@@ -555,8 +556,8 @@
         [ "friendsofsymfony/rest-bundle", "3.0.5" ],
         [ "gedmo/doctrine-extensions", "v3.5.0" ],
         [ "gos/web-socket-bundle", "v3.14.0" ],
-        [ "guzzlehttp/guzzle", "7.4.4" ],
-        [ "guzzlehttp/psr7", "1.8.5" ],
+        [ "guzzlehttp/guzzle", "7.4.5" ],
+        [ "guzzlehttp/psr7", "2.4.3" ],
         [ "hwi/oauth-bundle", "1.4.5" ],
         [ "incenteev/composer-parameter-handler", "v2.1.5" ],
         [ "knplabs/knp-gaufrette-bundle", "v0.7.2" ],
@@ -573,7 +574,7 @@
         [ "nette/php-generator", "v3.6.9" ],
         [ "oro/api-doc-bundle", "2.0.0" ],
         [ "oro/doctrine-extensions", "2.0.2" ],
-        [ "oro/redis-config", "5.1.0-beta.1" ],
+        [ "oro/redis-config", "5.1.0-beta.2" ],
         [ "php-http/httplug-bundle", "1.25.0" ],
         [ "phpdocumentor/reflection-docblock", "5.3.0" ],
         [ "psr/container", "1.1.2" ],
@@ -636,17 +637,17 @@
         [ "symfony/validator", "v5.4.3" ],
         [ "symfony/web-link", "v5.4.3" ],
         [ "symfony/yaml", "v5.4.16" ],
-        [ "twig/twig", "v3.3.10" ],
+        [ "twig/twig", "v3.4.3" ],
         [ "xemlock/htmlpurifier-html5", "v0.1.10" ]
       ]
     },
     "oro/platform-serialised-fields": {
-      "5.1.0-beta.1": [
-        [ "oro/platform", "5.1.0-beta.1" ]
+      "5.1.0-beta.2": [
+        [ "oro/platform", "5.1.0-beta.2" ]
       ]
     },
     "oro/redis-config": {
-      "5.1.0-beta.1": [
+      "5.1.0-beta.2": [
         [ "predis/predis", "v1.1.10" ],
         [ "snc/redis-bundle", "3.6.0" ]
       ]
@@ -659,7 +660,7 @@
         [ "symfony/http-kernel", "v5.4.4" ],
         [ "symfony/routing", "v5.4.15" ],
         [ "symfony/web-profiler-bundle", "v5.4.14" ],
-        [ "twig/twig", "v3.3.10" ]
+        [ "twig/twig", "v3.4.3" ]
       ]
     },
     "pdepend/pdepend": {
@@ -814,17 +815,17 @@
     },
     "ratchet/rfc6455": {
       "v0.3.1": [
-        [ "guzzlehttp/psr7", "1.8.5" ]
+        [ "guzzlehttp/psr7", "2.4.3" ]
       ]
     },
     "react/cache": {
-      "v1.1.1": [
+      "v1.2.0": [
         [ "react/promise", "v2.9.0" ]
       ]
     },
     "react/dns": {
       "v1.10.0": [
-        [ "react/cache", "v1.1.1" ],
+        [ "react/cache", "v1.2.0" ],
         [ "react/event-loop", "v1.3.0" ],
         [ "react/promise", "v2.9.0" ],
         [ "react/promise-timer", "v1.9.0" ]
@@ -1323,7 +1324,7 @@
       "v5.4.3": [
         [ "symfony/polyfill-php80", "v1.27.0" ],
         [ "symfony/translation-contracts", "v2.5.2" ],
-        [ "twig/twig", "v3.3.10" ]
+        [ "twig/twig", "v3.4.3" ]
       ]
     },
     "symfony/twig-bundle": {
@@ -1334,7 +1335,7 @@
         [ "symfony/polyfill-ctype", "v1.24.0" ],
         [ "symfony/polyfill-php80", "v1.27.0" ],
         [ "symfony/twig-bridge", "v5.4.3" ],
-        [ "twig/twig", "v3.3.10" ]
+        [ "twig/twig", "v3.4.3" ]
       ]
     },
     "symfony/validator": {
@@ -1373,7 +1374,7 @@
         [ "symfony/polyfill-php80", "v1.27.0" ],
         [ "symfony/routing", "v5.4.15" ],
         [ "symfony/twig-bundle", "v5.4.8" ],
-        [ "twig/twig", "v3.3.10" ]
+        [ "twig/twig", "v3.4.3" ]
       ]
     },
     "symfony/yaml": {
@@ -1389,7 +1390,7 @@
       ]
     },
     "twig/twig": {
-      "v3.3.10": [
+      "v3.4.3": [
         [ "symfony/polyfill-ctype", "v1.24.0" ],
         [ "symfony/polyfill-mbstring", "v1.27.0" ]
       ]
@@ -1796,8 +1797,8 @@
       }
     },
     "guzzlehttp/guzzle": {
-      "7.4.4": {
-        "rev": "e3ff079b22820c2029d4c2a87796b6a0b8716ad8",
+      "7.4.5": {
+        "rev": "1dd98b0564cb3f6bd16ce683cb755f94c10fbd82",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/guzzle/guzzle.git"
@@ -1812,8 +1813,8 @@
       }
     },
     "guzzlehttp/psr7": {
-      "1.8.5": {
-        "rev": "337e3ad8e5716c15f9657bd214d16cc5e69df268",
+      "2.4.3": {
+        "rev": "67c26b443f348a51926030c83481b85718457d3d",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/guzzle/psr7.git"
@@ -1940,8 +1941,8 @@
       }
     },
     "laminas/laminas-stdlib": {
-      "3.15.0": {
-        "rev": "63b66bd4b696f024f42616b9d95cdb10e5109c27",
+      "3.16.0": {
+        "rev": "0880e3dd88eca01eeda9dfdb5a05c38e56902c2c",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/laminas/laminas-stdlib.git"
@@ -2060,8 +2061,8 @@
       }
     },
     "oro/calendar-bundle": {
-      "5.1.0-beta.1": {
-        "rev": "cef76ce7447b2a4a571081d85f92fe372f269793",
+      "5.1.0-beta.2": {
+        "rev": "4d413699bc2cf56400fa80a6c1beb3c348b46d73",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/oroinc/OroCalendarBundle.git"
@@ -2075,8 +2076,8 @@
       }
     },
     "oro/customer-portal": {
-      "5.1.0-beta.1": {
-        "rev": "4cf71616f3cd8176e838290e56dc9f7800505e1e",
+      "5.1.0-beta.2": {
+        "rev": "a9720b3eada69861da42967925953c274f6e14d3",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/oroinc/customer-portal.git"
@@ -2091,23 +2092,23 @@
       }
     },
     "oro/marketing": {
-      "5.1.0-beta.1": {
-        "rev": "3d0c517a474606fdb29e8df5d2dc63a62c8720d5",
+      "5.1.0-beta.2": {
+        "rev": "4bc1e8c82cf4a071761b4fd4e3d5e057972b22d7",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/oroinc/OroCRMMarketingBundle.git"
       }
     },
     "oro/platform": {
-      "5.1.0-beta.1": {
-        "rev": "c7a4fa793b26cdbac8cc6e52c30ec6cc2333eff8",
+      "5.1.0-beta.2": {
+        "rev": "bf134ea789725b2079a7bc2006cb944552edd2ea",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/oroinc/platform.git"
       }
     },
     "oro/platform-serialised-fields": {
-      "5.1.0-beta.1": {
+      "5.1.0-beta.2": {
         "rev": "bd078c25cdf921cf3971b0ab4b59d5ed68605947",
         "submodules": false,
         "type": "git",
@@ -2115,8 +2116,8 @@
       }
     },
     "oro/redis-config": {
-      "5.1.0-beta.1": {
-        "rev": "e4e5ff9075ff5fa69cfef0940cbcb9aabba736ee",
+      "5.1.0-beta.2": {
+        "rev": "9b6927e0d82da797c6026e137b2593416816cc9f",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/oroinc/redis-config.git"
@@ -2427,8 +2428,8 @@
       }
     },
     "react/cache": {
-      "v1.1.1": {
-        "rev": "4bf736a2cccec7298bdf745db77585966fc2ca7e",
+      "v1.2.0": {
+        "rev": "d47c472b64aa5608225f47965a484b75c7817d5b",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/reactphp/cache.git"
@@ -3259,8 +3260,8 @@
       }
     },
     "twig/twig": {
-      "v3.3.10": {
-        "rev": "8442df056c51b706793adf80a9fd363406dd3674",
+      "v3.4.3": {
+        "rev": "c38fd6b0b7f370c198db91ffd02e23b517426b58",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/twigphp/Twig.git"

@@ -70,7 +70,7 @@
         [ "phpcsstandards/phpcsutils", "1.0.0-alpha4" ],
         [ "phpunit/phpunit", "9.5.26" ],
         [ "squizlabs/php_codesniffer", "3.7.1" ],
-        [ "vimeo/psalm", "4.30.0" ]
+        [ "vimeo/psalm", "5.0.0" ]
       ]
     },
     "phpcompatibility/php-compatibility": {
@@ -169,11 +169,17 @@
       ]
     },
     "symfony/console": {
-      "v6.1.8": [
+      "v6.2.0": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/polyfill-mbstring", "v1.27.0" ],
         [ "symfony/service-contracts", "v3.1.1" ],
-        [ "symfony/string", "v6.1.7" ]
+        [ "symfony/string", "v6.2.0" ]
+      ]
+    },
+    "symfony/filesystem": {
+      "v6.2.0": [
+        [ "symfony/polyfill-ctype", "v1.27.0" ],
+        [ "symfony/polyfill-mbstring", "v1.27.0" ]
       ]
     },
     "symfony/service-contracts": {
@@ -182,7 +188,7 @@
       ]
     },
     "symfony/string": {
-      "v6.1.7": [
+      "v6.2.0": [
         [ "symfony/polyfill-ctype", "v1.27.0" ],
         [ "symfony/polyfill-intl-grapheme", "v1.27.0" ],
         [ "symfony/polyfill-intl-normalizer", "v1.27.0" ],
@@ -190,7 +196,7 @@
       ]
     },
     "vimeo/psalm": {
-      "4.30.0": [
+      "5.0.0": [
         [ "amphp/amp", "v2.6.2" ],
         [ "amphp/byte-stream", "v1.8.1" ],
         [ "composer/package-versions-deprecated", "1.11.99.5" ],
@@ -203,21 +209,16 @@
         [ "nikic/php-parser", "v4.15.2" ],
         [ "openlss/lib-array2xml", "1.0.0" ],
         [ "sebastian/diff", "4.0.4" ],
-        [ "symfony/console", "v6.1.8" ],
+        [ "symfony/console", "v6.2.0" ],
+        [ "symfony/filesystem", "v6.2.0" ],
         [ "symfony/polyfill-ctype", "v1.27.0" ],
         [ "symfony/polyfill-mbstring", "v1.27.0" ],
-        [ "symfony/polyfill-php80", "v1.27.0" ],
-        [ "webmozart/path-util", "2.3.0" ]
+        [ "symfony/polyfill-php80", "v1.27.0" ]
       ]
     },
     "webmozart/assert": {
       "1.11.0": [
         [ "symfony/polyfill-ctype", "v1.27.0" ]
-      ]
-    },
-    "webmozart/path-util": {
-      "2.3.0": [
-        [ "webmozart/assert", "1.11.0" ]
       ]
     }
   },
@@ -606,8 +607,8 @@
       }
     },
     "symfony/console": {
-      "v6.1.8": {
-        "rev": "a71863ea74f444d93c768deb3e314e1f750cf20d",
+      "v6.2.0": {
+        "rev": "75d4749d9620a8fa21a2d2847800a84b5c4e7682",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/console.git"
@@ -619,6 +620,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/deprecation-contracts.git"
+      }
+    },
+    "symfony/filesystem": {
+      "v6.2.0": {
+        "rev": "50b2523c874605cf3d4acf7a9e2b30b6a440a016",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/filesystem.git"
       }
     },
     "symfony/polyfill-ctype": {
@@ -670,8 +679,8 @@
       }
     },
     "symfony/string": {
-      "v6.1.7": {
-        "rev": "823f143370880efcbdfa2dbca946b3358c4707e5",
+      "v6.2.0": {
+        "rev": "145702685e0d12f81d755c71127bfff7582fdd36",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/symfony/string.git"
@@ -686,8 +695,8 @@
       }
     },
     "vimeo/psalm": {
-      "4.30.0": {
-        "rev": "d0bc6e25d89f649e4f36a534f330f8bb4643dd69",
+      "5.0.0": {
+        "rev": "4e177bf0c9f03c17d2fbfd83b7cc9c47605274d8",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/vimeo/psalm.git"
@@ -699,14 +708,6 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/webmozarts/assert.git"
-      }
-    },
-    "webmozart/path-util": {
-      "2.3.0": {
-        "rev": "d939f7edc24c9a1bb9c0dee5cb05d8e859490725",
-        "submodules": false,
-        "type": "git",
-        "url": "https://github.com/webmozart/path-util.git"
       }
     }
   }

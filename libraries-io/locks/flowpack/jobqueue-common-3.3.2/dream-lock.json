@@ -32,21 +32,22 @@
   "dependencies": {
     "flowpack/jobqueue-common": {
       "3.3.2": [
-        [ "neos/cache", "8.1.2" ]
+        [ "neos/cache", "8.2.0" ]
       ]
     },
     "neos/cache": {
-      "8.1.2": [
-        [ "neos/utility-files", "8.1.2" ],
-        [ "neos/utility-opcodecache", "8.1.2" ],
-        [ "neos/utility-pdo", "8.1.2" ],
+      "8.2.0": [
+        [ "neos/utility-files", "8.2.0" ],
+        [ "neos/utility-opcodecache", "8.2.0" ],
+        [ "neos/utility-pdo", "8.2.0" ],
         [ "psr/cache", "3.0.0" ],
+        [ "psr/log", "2.0.0" ],
         [ "psr/simple-cache", "3.0.0" ]
       ]
     },
     "neos/utility-files": {
-      "8.1.2": [
-        [ "neos/error-messages", "8.1.2" ]
+      "8.2.0": [
+        [ "neos/error-messages", "8.2.0" ]
       ]
     }
   },
@@ -59,15 +60,15 @@
       }
     },
     "neos/cache": {
-      "8.1.2": {
-        "rev": "09a0949a1500891b9b91d79d690fd86773f632ad",
+      "8.2.0": {
+        "rev": "891633ba654cebf8e1cc1d71ddfc3e8cd12281d0",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/neos/cache.git"
       }
     },
     "neos/error-messages": {
-      "8.1.2": {
+      "8.2.0": {
         "rev": "8c47f778c23f1a1ad68b62c4d6fdc6176c083b9e",
         "submodules": false,
         "type": "git",
@@ -75,7 +76,7 @@
       }
     },
     "neos/utility-files": {
-      "8.1.2": {
+      "8.2.0": {
         "rev": "bcde0ded079833eca41ee8271deb35d56a2bc813",
         "submodules": false,
         "type": "git",
@@ -83,7 +84,7 @@
       }
     },
     "neos/utility-opcodecache": {
-      "8.1.2": {
+      "8.2.0": {
         "rev": "2c6825a64ba87f87100124e1c1eb6e77723fd3d0",
         "submodules": false,
         "type": "git",
@@ -91,7 +92,7 @@
       }
     },
     "neos/utility-pdo": {
-      "8.1.2": {
+      "8.2.0": {
         "rev": "45487bed859af049d60d1ee8952c79f00740ab97",
         "submodules": false,
         "type": "git",
@@ -104,6 +105,14 @@
         "submodules": false,
         "type": "git",
         "url": "https://github.com/php-fig/cache.git"
+      }
+    },
+    "psr/log": {
+      "2.0.0": {
+        "rev": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git"
       }
     },
     "psr/simple-cache": {
