@@ -21,9 +21,9 @@
       "mongodb",
       "ctype",
       "mbstring",
-      "dom",
       "pdo",
       "hash",
+      "dom",
       "phar",
       "xmlwriter",
       "simplexml",
@@ -33,7 +33,7 @@
   },
   "cyclicDependencies": {
     "jackalope/jackalope-doctrine-dbal": {
-      "1.8.0": [
+      "1.7.1": [
         [ "jackalope/jackalope", "1.4.5" ]
       ]
     }
@@ -69,7 +69,7 @@
     },
     "doctrine/dbal": {
       "3.5.1": [
-        [ "doctrine/cache", "1.13.0" ],
+        [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
         [ "doctrine/event-manager", "1.2.0" ],
         [ "psr/cache", "3.0.0" ],
@@ -79,7 +79,7 @@
     "doctrine/doctrine-bundle": {
       "2.7.1": [
         [ "doctrine/annotations", "1.13.3" ],
-        [ "doctrine/cache", "1.13.0" ],
+        [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/dbal", "3.5.1" ],
         [ "doctrine/persistence", "2.5.5" ],
         [ "doctrine/sql-formatter", "1.1.3" ],
@@ -101,7 +101,7 @@
     "doctrine/mongodb-odm": {
       "2.4.2": [
         [ "doctrine/annotations", "1.13.3" ],
-        [ "doctrine/cache", "1.13.0" ],
+        [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/event-manager", "1.2.0" ],
         [ "doctrine/instantiator", "1.4.1" ],
@@ -117,7 +117,7 @@
     },
     "doctrine/orm": {
       "2.13.4": [
-        [ "doctrine/cache", "1.13.0" ],
+        [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/common", "3.4.3" ],
         [ "doctrine/dbal", "3.5.1" ],
@@ -136,7 +136,7 @@
     },
     "doctrine/persistence": {
       "2.5.5": [
-        [ "doctrine/cache", "1.13.0" ],
+        [ "doctrine/cache", "2.2.0" ],
         [ "doctrine/collections", "1.8.0" ],
         [ "doctrine/deprecations", "v1.0.0" ],
         [ "doctrine/event-manager", "1.2.0" ],
@@ -227,11 +227,11 @@
         [ "doctrine/phpcr-odm", "1.7.0" ],
         [ "ergebnis/composer-normalize", "2.29.0" ],
         [ "friendsofphp/php-cs-fixer", "v3.13.0" ],
-        [ "jackalope/jackalope-doctrine-dbal", "1.8.0" ],
+        [ "jackalope/jackalope-doctrine-dbal", "1.7.1" ],
         [ "jms/serializer", "3.18.2" ],
         [ "jms/serializer-bundle", "4.2.0" ],
         [ "knplabs/knp-components", "v3.6.0" ],
-        [ "pagerfanta/pagerfanta", "v3.6.2" ],
+        [ "pagerfanta/pagerfanta", "v3.7.0" ],
         [ "phpstan/extension-installer", "1.2.0" ],
         [ "phpstan/phpstan", "1.9.2" ],
         [ "phpstan/phpstan-phpunit", "1.2.2" ],
@@ -253,13 +253,12 @@
     },
     "jackalope/jackalope": {
       "1.4.5": [
-        [ "jackalope/jackalope-doctrine-dbal", "1.8.0" ],
+        [ "jackalope/jackalope-doctrine-dbal", "1.7.1" ],
         [ "phpcr/phpcr-utils", "1.6.3" ]
       ]
     },
     "jackalope/jackalope-doctrine-dbal": {
-      "1.8.0": [
-        [ "doctrine/cache", "1.13.0" ],
+      "1.7.1": [
         [ "doctrine/dbal", "3.5.1" ],
         [ "jackalope/jackalope", "1.4.5" ],
         [ "phpcr/phpcr", "2.1.6" ],
@@ -296,7 +295,7 @@
       ]
     },
     "pagerfanta/pagerfanta": {
-      "v3.6.2": [
+      "v3.7.0": [
         [ "symfony/deprecation-contracts", "v3.1.1" ],
         [ "symfony/polyfill-php80", "v1.27.0" ]
       ]
@@ -635,8 +634,8 @@
       }
     },
     "doctrine/cache": {
-      "1.13.0": {
-        "rev": "56cd022adb5514472cb144c087393c1821911d09",
+      "2.2.0": {
+        "rev": "1ca8f21980e770095a31456042471a57bc4c68fb",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/doctrine/cache.git"
@@ -850,8 +849,8 @@
       }
     },
     "jackalope/jackalope-doctrine-dbal": {
-      "1.8.0": {
-        "rev": "d4808c98fdbb9e6795b4579cd71b8696f32583af",
+      "1.7.1": {
+        "rev": "96fc20550578ee976b467f0f78fa7f1f21358fbf",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git"
@@ -954,8 +953,8 @@
       }
     },
     "pagerfanta/pagerfanta": {
-      "v3.6.2": {
-        "rev": "0486e63edb74e55f85485c16c31decbf65f6e432",
+      "v3.7.0": {
+        "rev": "d0230abaf94c2625b77a8e05d0c79fea9d80fda5",
         "submodules": false,
         "type": "git",
         "url": "https://github.com/BabDev/Pagerfanta.git"

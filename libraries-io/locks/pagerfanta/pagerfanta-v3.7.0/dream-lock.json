@@ -1,0 +1,228 @@
+{
+  "_generic": {
+    "defaultPackage": "pagerfanta/pagerfanta",
+    "location": "",
+    "packages": {
+      "pagerfanta/pagerfanta": "v3.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {
+      "phpstan/extension-installer@1.2.x-dev": "^2.0"
+    },
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "tokenizer",
+      "mongodb",
+      "ctype",
+      "xml",
+      "pdo",
+      "hash",
+      "dom",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "mbstring"
+    ],
+    "phpSemver": "^7.4 || ^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "friendsofphp/php-cs-fixer": {
+      "v3.13.0": [
+        [ "composer/xdebug-handler", "3.0.3" ],
+        [ "sebastian/diff", "4.0.4" ]
+      ]
+    },
+    "pagerfanta/pagerfanta": {
+      "v3.7.0": [
+        [ "dg/bypass-finals", "v1.4.1" ],
+        [ "friendsofphp/php-cs-fixer", "v3.13.0" ],
+        [ "jackalope/jackalope-doctrine-dbal", "1.7.1" ],
+        [ "phpstan/phpstan", "1.9.2" ],
+        [ "phpstan/phpstan-phpunit", "1.2.2" ],
+        [ "phpunit/phpunit", "9.5.26" ],
+        [ "solarium/solarium", "6.2.7" ]
+      ]
+    },
+    "phpstan/phpstan-phpunit": {
+      "1.2.2": [
+        [ "phpstan/phpstan", "1.9.2" ]
+      ]
+    },
+    "phpunit/phpunit": {
+      "9.5.26": [
+        [ "phar-io/version", "3.2.1" ],
+        [ "phpunit/php-invoker", "3.1.1" ],
+        [ "phpunit/php-text-template", "2.0.4" ],
+        [ "phpunit/php-timer", "5.0.3" ],
+        [ "sebastian/cli-parser", "1.0.1" ],
+        [ "sebastian/code-unit", "1.0.8" ],
+        [ "sebastian/diff", "4.0.4" ],
+        [ "sebastian/object-enumerator", "4.0.4" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "sebastian/object-enumerator": {
+      "4.0.4": [
+        [ "sebastian/object-reflector", "2.0.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "composer/xdebug-handler": {
+      "3.0.3": {
+        "rev": "ced299686f41dce890debac69273b47ffe98a40c",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/composer/xdebug-handler.git"
+      }
+    },
+    "dg/bypass-finals": {
+      "v1.4.1": {
+        "rev": "4c424c3ed359220fce044f35cdf9f48b0089b2ca",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/dg/bypass-finals.git"
+      }
+    },
+    "friendsofphp/php-cs-fixer": {
+      "v3.13.0": {
+        "rev": "a6232229a8309e8811dc751c28b91cb34b2943e1",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git"
+      }
+    },
+    "jackalope/jackalope-doctrine-dbal": {
+      "1.7.1": {
+        "rev": "96fc20550578ee976b467f0f78fa7f1f21358fbf",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git"
+      }
+    },
+    "pagerfanta/pagerfanta": {
+      "v3.7.0": {
+        "rev": "d0230abaf94c2625b77a8e05d0c79fea9d80fda5",
+        "type": "git",
+        "url": "https://github.com/BabDev/Pagerfanta.git"
+      }
+    },
+    "phar-io/version": {
+      "3.2.1": {
+        "rev": "4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phar-io/version.git"
+      }
+    },
+    "phpstan/phpstan": {
+      "1.9.2": {
+        "rev": "d6fdf01c53978b6429f1393ba4afeca39cc68afa",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan.git"
+      }
+    },
+    "phpstan/phpstan-phpunit": {
+      "1.2.2": {
+        "rev": "dea1f87344c6964c607d9076dee42d891f3923f0",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-phpunit.git"
+      }
+    },
+    "phpunit/php-invoker": {
+      "3.1.1": {
+        "rev": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-invoker.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "2.0.4": {
+        "rev": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "5.0.3": {
+        "rev": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "phpunit/phpunit": {
+      "9.5.26": {
+        "rev": "851867efcbb6a1b992ec515c71cdcf20d895e9d2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git"
+      }
+    },
+    "sebastian/cli-parser": {
+      "1.0.1": {
+        "rev": "442e7c7e687e42adc03470c7b668bc4b2402c0b2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/cli-parser.git"
+      }
+    },
+    "sebastian/code-unit": {
+      "1.0.8": {
+        "rev": "1fc9f64c0927627ef78ba436c9b17d967e68e120",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/code-unit.git"
+      }
+    },
+    "sebastian/diff": {
+      "4.0.4": {
+        "rev": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "sebastian/object-enumerator": {
+      "4.0.4": {
+        "rev": "5c9eeac41b290a3712d88851518825ad78f45c71",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/object-enumerator.git"
+      }
+    },
+    "sebastian/object-reflector": {
+      "2.0.4": {
+        "rev": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/object-reflector.git"
+      }
+    },
+    "solarium/solarium": {
+      "6.2.7": {
+        "rev": "6d6d13b4eda222e7bdb9616545aa67efbe8c6cec",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/solariumphp/solarium.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "8ad114f6b39e2c98a8b0e3bd907732c207c2b534",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    }
+  }
+}
