@@ -1,0 +1,102 @@
+{
+  "_generic": {
+    "defaultPackage": "codeception/module-db",
+    "location": "",
+    "packages": {
+      "codeception/module-db": "3.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "php"
+  },
+  "_subsystem": {
+    "composerPluginApiSemver": {},
+    "noDev": false,
+    "phpExtensions": [
+      "json",
+      "pdo",
+      "curl",
+      "mbstring",
+      "dom",
+      "tokenizer",
+      "libxml",
+      "phar",
+      "xmlwriter",
+      "xml"
+    ],
+    "phpSemver": "^8.0"
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "codeception/codeception": {
+      "5.0.x-dev": [
+        [ "codeception/stub", "4.0.2" ],
+        [ "phpunit/php-text-template", "2.0.4" ],
+        [ "phpunit/php-timer", "5.0.3" ],
+        [ "sebastian/diff", "4.0.4" ],
+        [ "symfony/polyfill-mbstring", "dev-main" ]
+      ]
+    },
+    "codeception/module-db": {
+      "3.1.0": [
+        [ "codeception/codeception", "5.0.x-dev" ]
+      ]
+    }
+  },
+  "sources": {
+    "codeception/codeception": {
+      "5.0.x-dev": {
+        "rev": "3f4991df28131b6e0a7076c5dd02f8176f9aebbc",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Codeception/Codeception.git"
+      }
+    },
+    "codeception/module-db": {
+      "3.1.0": {
+        "rev": "0ff358215efef8513869d407bb3bb850187975a3",
+        "type": "git",
+        "url": "https://github.com/Codeception/module-db.git"
+      }
+    },
+    "codeception/stub": {
+      "4.0.2": {
+        "rev": "18a148dacd293fc7b044042f5aa63a82b08bff5d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/Codeception/Stub.git"
+      }
+    },
+    "phpunit/php-text-template": {
+      "2.0.4": {
+        "rev": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-text-template.git"
+      }
+    },
+    "phpunit/php-timer": {
+      "5.0.3": {
+        "rev": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/php-timer.git"
+      }
+    },
+    "sebastian/diff": {
+      "4.0.4": {
+        "rev": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/diff.git"
+      }
+    },
+    "symfony/polyfill-mbstring": {
+      "dev-main": {
+        "rev": "8ad114f6b39e2c98a8b0e3bd907732c207c2b534",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git"
+      }
+    }
+  }
+}
