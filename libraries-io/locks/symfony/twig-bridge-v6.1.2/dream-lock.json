@@ -23,8 +23,22 @@
     "phpSemver": ">=8.1"
   },
   "cyclicDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "symfony/twig-bridge": {
+      "v6.1.2": [
+        [ "symfony/serializer", "v6.2.0" ]
+      ]
+    }
+  },
   "sources": {
+    "symfony/serializer": {
+      "v6.2.0": {
+        "rev": "cf8df288db70003681b729b87a022d436b81035f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/serializer.git"
+      }
+    },
     "symfony/twig-bridge": {
       "v6.1.2": {
         "rev": "320b9ec7db38b78ce2ea8173b925be55e697f8e5",

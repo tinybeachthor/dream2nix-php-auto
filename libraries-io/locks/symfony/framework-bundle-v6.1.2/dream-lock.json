@@ -23,13 +23,62 @@
     "phpSemver": ">=8.1"
   },
   "cyclicDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "phpdocumentor/reflection-docblock": {
+      "5.3.0": [
+        [ "phpdocumentor/type-resolver", "1.6.2" ],
+        [ "webmozart/assert", "1.11.0" ]
+      ]
+    },
+    "symfony/framework-bundle": {
+      "v6.1.2": [
+        [ "phpdocumentor/reflection-docblock", "5.3.0" ]
+      ]
+    },
+    "webmozart/assert": {
+      "1.11.0": [
+        [ "symfony/polyfill-ctype", "dev-main" ]
+      ]
+    }
+  },
   "sources": {
+    "phpdocumentor/reflection-docblock": {
+      "5.3.0": {
+        "rev": "622548b623e81ca6d78b721c5e029f4ce664f170",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git"
+      }
+    },
+    "phpdocumentor/type-resolver": {
+      "1.6.2": {
+        "rev": "48f445a408c131e38cab1c235aa6d2bb7a0bb20d",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/TypeResolver.git"
+      }
+    },
     "symfony/framework-bundle": {
       "v6.1.2": {
         "rev": "2a5c75abda7887b030fdcc7ce441d9b4a5bf1744",
         "type": "git",
         "url": "https://github.com/symfony/framework-bundle.git"
+      }
+    },
+    "symfony/polyfill-ctype": {
+      "dev-main": {
+        "rev": "5bbc823adecdae860bb64756d639ecfec17b050a",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-ctype.git"
+      }
+    },
+    "webmozart/assert": {
+      "1.11.0": {
+        "rev": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git"
       }
     }
   }

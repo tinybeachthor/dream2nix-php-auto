@@ -18,13 +18,27 @@
     "phpSemver": ">=8.1"
   },
   "cyclicDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "symfony/mime": {
+      "v6.1.0-BETA1": [
+        [ "symfony/serializer", "v6.2.0" ]
+      ]
+    }
+  },
   "sources": {
     "symfony/mime": {
       "v6.1.0-BETA1": {
         "rev": "ccc0b0b3a702eae0160f3e93b384b754eeb8702c",
         "type": "git",
         "url": "https://github.com/symfony/mime.git"
+      }
+    },
+    "symfony/serializer": {
+      "v6.2.0": {
+        "rev": "cf8df288db70003681b729b87a022d436b81035f",
+        "submodules": false,
+        "type": "git",
+        "url": "https://github.com/symfony/serializer.git"
       }
     }
   }
